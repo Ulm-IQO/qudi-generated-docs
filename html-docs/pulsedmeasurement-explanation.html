@@ -63,7 +63,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="image">
-<img src="pulsed_structure.png" alt="Structural overview of pulsed measurement modules" title="Pulsed structure"/>
+<img src="images/pulsed_structure.png" alt="Structural overview of pulsed measurement modules" title="Pulsed structure"/>
 </div>
 <p>To understand the logic modules (mainly sequence_generator_logic and pulsed_measurement_logic), this documentation will provide a step-by-step manual for scripting a pulsed measurement. This can also be used to properly implement a GUI which sets all variables and calls the right methods in the logic.</p>
 <p>In general, the two logic modules for measurement and sequence generation are independent from each other. Currently, the sequence_generation_logic is interfacing to the pulser hardware to check for parameters and upload waveforms. In the future, this needs to be fixed so that the sequence generation runs independent of the hardware (for example you can simply set a sample rate which the waveform should be created for independent of the actual sample rate on hardware). Also the upload and load to channels need to be implemented in the pulsed_measurement_logic rather than the sequence_generation_logic.</p>

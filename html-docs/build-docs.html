@@ -62,12 +62,13 @@ $(function() {
 <div class="title">How to build the documentation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This project comes with included documentation in Markdown format which is <a href="http://qosvn.physik.uni-ulm.de/qudi-docs">available online</a>. To browse the documentation in a web browser, a HTML version needs to be built with Doxygen, which will also extract class and function documentation from the Python source.</p>
+<div class="textblock"><p>This project comes with included documentation in Markdown format which is <a href="https://ulm-iqo.github.io/qudi-generated-docs/html-docs/index.html">available online</a>. To browse the documentation in a web browser, a HTML version needs to be built with Doxygen, which will also extract class and function documentation from the Python source.</p>
 <h2>Prerequisites</h2>
 <p>You need <a href="http://stack.nl/~dimitri/doxygen">Doxygen</a> to build the documentation and <a href="https://github.com/Feneric/doxypypy">doxypypy</a> to preprocess the Python source code.</p>
 <p>Just install Doxygen from your distribuiton repository and doxypypy with pip (take care to install this for Python 3.x). Then add a py_filter script to your PATH as described in the doxypypy documentation.</p>
+<p>You need to clone the image repository into the documentation folder, like this: ´git clone <a href="https://github.com/Ulm-IQO/qudi-docs-images">https://github.com/Ulm-IQO/qudi-docs-images</a> documentation/images´</p>
 <h2>Build documentation</h2>
-<p>Now you can run doxygen documentaton/doxyfile which creates the folder documentation/generated and subfolders.</p>
+<p>Now you can run doxygen documentaton/doxyfile which creates the folder ´documentation/generated´ and subfolders. Afterwards, copy the ´documentation/images´ folder to ´documentation/generated/html-docs/images´</p>
 <h2>Browse documentation</h2>
 <p>Just open documentation/generated/html/index.html in a web browser. </p>
 </div></div><!-- contents -->
