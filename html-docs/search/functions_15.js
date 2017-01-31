@@ -27,7 +27,7 @@ var searchData=
   ['update_5ffrom_5fslider_5fx',['update_from_slider_x',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#ae5d456a6c869ea8c5f813f06288459e7',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['update_5ffrom_5fslider_5fy',['update_from_slider_y',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#aa3d2a3d25a57fb28ff3703399e6b27c4',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['update_5ffrom_5fslider_5fz',['update_from_slider_z',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#a151abf2c5d8b584522d6907d03149a77',1,'gui::confocal::confocalgui::ConfocalGui']]],
-  ['update_5fgenerator_5fsettings',['update_generator_settings',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a3332c9f0aa8f3a25208789dbde45dad1',1,'pulsed_maingui::PulsedMeasurementGui']]],
+  ['update_5fgenerator_5fsettings',['update_generator_settings',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a075bf540bb3ba522130a7b70e85f19e1',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['update_5fhistogram',['update_histogram',['../classgated__counter__gui_1_1GatedCounterGui.html#a521ea5f737076577ebca819fe617f68a',1,'gated_counter_gui::GatedCounterGui']]],
   ['update_5finput_5fx',['update_input_x',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#a188f799dab1bd606035789e889422532',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['update_5finput_5fy',['update_input_y',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#a932bb1580e2077065d0a7ca2fd8f1de4',1,'gui::confocal::confocalgui::ConfocalGui']]],
