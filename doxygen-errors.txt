@@ -1899,13 +1899,14 @@ IndexError: list index out of range
   parameter 'update'
   parameter 'finish'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:168: warning: Member __init__(self) (function) of class gui::confocal::confocalgui::OptimizerSettingDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:37: warning: Member custom_params_checkbox (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:39: warning: Member valueLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:40: warning: Member minimumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:41: warning: Member maximumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:37: warning: Member useLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:38: warning: Member valueLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:39: warning: Member minimumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:40: warning: Member maximumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:41: warning: Member exprLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:42: warning: Member varyLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:43: warning: Member exprLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:50: warning: Member widgets (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:51: warning: Member widgets (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:52: warning: Member paramUseSettings (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
@@ -3973,22 +3974,22 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:123: warning: Member MW_trigger_pol (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:127: warning: Member fit_function (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:132: warning: Member fit_models (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:141: warning: Member use_custom_params (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:150: warning: Member mw_frequency (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:152: warning: Member mw_power (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:153: warning: Member mw_start (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:154: warning: Member mw_stop (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:155: warning: Member mw_step (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:156: warning: Member run_time (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:157: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:158: warning: Member current_fit_function (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:160: warning: Member saveRawData (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:188: warning: Member ODMR_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:309: warning: Member ODMR_raw_data (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:399: warning: Member ODMR_plot_x (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:400: warning: Member ODMR_plot_y (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:401: warning: Member ODMR_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:408: warning: Member ODMR_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:147: warning: Member use_custom_params (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:153: warning: Member mw_frequency (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:155: warning: Member mw_power (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:156: warning: Member mw_start (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:157: warning: Member mw_stop (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:158: warning: Member mw_step (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:159: warning: Member run_time (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:160: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:161: warning: Member current_fit_function (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:163: warning: Member saveRawData (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:191: warning: Member ODMR_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:312: warning: Member ODMR_raw_data (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:402: warning: Member ODMR_plot_x (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:403: warning: Member ODMR_plot_y (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:404: warning: Member ODMR_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:411: warning: Member ODMR_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:62: warning: Member sigNextLine (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:63: warning: Member sigOdmrStarted (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:64: warning: Member sigOdmrStopped (variable) of class odmr_logic::ODMRLogic is not documented.
@@ -4002,30 +4003,30 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:72: warning: Member sigMicrowaveCWModeChanged (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:73: warning: Member sigMicrowaveListModeChanged (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:74: warning: Member sigParameterChanged (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:629: warning: argument 'str' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:629: warning: argument 'array' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:629: warning: argument 'array' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:629: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:629: warning: The following parameters of odmr_logic.ODMRLogic.do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:632: warning: argument 'str' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:632: warning: argument 'array' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:632: warning: argument 'array' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:632: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:632: warning: The following parameters of odmr_logic.ODMRLogic.do_fit(self, fit_function=None, x_data=None, y_data=None, fit_granularity_fact=10) are not documented:
   parameter 'fit_function'
   parameter 'x_data'
   parameter 'y_data'
   parameter 'fit_granularity_fact'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:981: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:984: warning: expected whitespace after : command
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:103: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:103: warning: The following parameters of odmr_logic.ODMRLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:203: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:203: warning: The following parameters of odmr_logic.ODMRLogic.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:206: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:206: warning: The following parameters of odmr_logic.ODMRLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:219: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:221: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:222: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:224: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:539: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_frequency(self, frequency=None)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:539: warning: The following parameters of odmr_logic.ODMRLogic.set_frequency(self, frequency=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:542: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_frequency(self, frequency=None)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:542: warning: The following parameters of odmr_logic.ODMRLogic.set_frequency(self, frequency=None) are not documented:
   parameter 'frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:509: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_power(self, power=None)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:509: warning: The following parameters of odmr_logic.ODMRLogic.set_power(self, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:512: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_power(self, power=None)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:512: warning: The following parameters of odmr_logic.ODMRLogic.set_power(self, power=None) are not documented:
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:91: warning: Member __init__(self, config, kwargs) (function) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:402: warning: Member resume_odmr(self, is_checked) (function) of class odmrgui::ODMRGui is not documented.
