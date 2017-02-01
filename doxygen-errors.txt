@@ -87,7 +87,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:148: warning: Compound magnet_gui::MagnetSettingsWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/wavemeter_dummy.py:74: warning: Compound wavemeter_dummy::WavemeterDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:26: warning: Compound gui::manager::threadwidget::ThreadWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:431: warning: Compound pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:433: warning: Compound pulse_editors::BlockOrganizer is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:26: warning: Compound pid_controller_interface::PIDControllerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:50: warning: Compound odmrgui::ODMRSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:105: warning: Compound fastcomtec::fastcomtecmcs6::AcqSettings is not documented.
@@ -99,7 +99,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:43: warning: Compound laser::laserquantum_laser::LaserQuantumLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:30: warning: Compound automation::TreeItem is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:96: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:662: warning: Compound pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:668: warning: Compound pulse_editors::SequenceEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:31: warning: Compound laser::laserquantum_laser::PSUTypes is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/models.py:136: warning: Compound core::util::models::ListTableModel is not documented.
@@ -4517,56 +4517,56 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:52: warning: Member parameter_dict (variable) of class pulse_editors::BlockEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:59: warning: Member activation_config (variable) of class pulse_editors::BlockEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:60: warning: Member function_config (variable) of class pulse_editors::BlockEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:305: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:305: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:305: warning: The following parameters of pulse_editors.BlockEditor.get_element(self, row, column) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:307: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:307: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:307: warning: The following parameters of pulse_editors.BlockEditor.get_element(self, row, column) are not documented:
   parameter 'row'
   parameter 'column'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:283: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:283: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:283: warning: The following parameters of pulse_editors.BlockEditor.set_element(self, row, column, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:285: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:285: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:285: warning: The following parameters of pulse_editors.BlockEditor.set_element(self, row, column, value) are not documented:
   parameter 'row'
   parameter 'column'
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:432: warning: Member __init__(self, block_organizer_widget) (function) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:444: warning: Member set_block_dict(self, block_dict) (function) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:433: warning: Member bo_widget (variable) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:434: warning: Member parameter_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:439: warning: Member block_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:643: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:643: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:644: warning: The following parameters of pulse_editors.BlockOrganizer.generate_ensemble_object(self, ensemble_name, rotating_frame=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:434: warning: Member __init__(self, block_organizer_widget) (function) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:446: warning: Member set_block_dict(self, block_dict) (function) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:435: warning: Member bo_widget (variable) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:436: warning: Member parameter_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:441: warning: Member block_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:649: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:649: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:650: warning: The following parameters of pulse_editors.BlockOrganizer.generate_ensemble_object(self, ensemble_name, rotating_frame=True) are not documented:
   parameter 'ensemble_name'
   parameter 'rotating_frame'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:608: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:608: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:608: warning: The following parameters of pulse_editors.BlockOrganizer.get_element(self, row, column) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:614: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:614: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:614: warning: The following parameters of pulse_editors.BlockOrganizer.get_element(self, row, column) are not documented:
   parameter 'row'
   parameter 'column'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:586: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:586: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:586: warning: The following parameters of pulse_editors.BlockOrganizer.set_element(self, row, column, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:592: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:592: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:592: warning: The following parameters of pulse_editors.BlockOrganizer.set_element(self, row, column, value) are not documented:
   parameter 'row'
   parameter 'column'
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:663: warning: Member __init__(self, sequence_editor_widget) (function) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:683: warning: Member set_ensemble_dict(self, ensemble_dict) (function) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:664: warning: Member se_widget (variable) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:665: warning: Member parameter_dict (variable) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:679: warning: Member ensemble_dict (variable) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:897: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:897: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:898: warning: The following parameters of pulse_editors.SequenceEditor.generate_sequence_object(self, sequence_name, rotating_frame=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:669: warning: Member __init__(self, sequence_editor_widget) (function) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:689: warning: Member set_ensemble_dict(self, ensemble_dict) (function) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:670: warning: Member se_widget (variable) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:671: warning: Member parameter_dict (variable) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:685: warning: Member ensemble_dict (variable) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:907: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:907: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:908: warning: The following parameters of pulse_editors.SequenceEditor.generate_sequence_object(self, sequence_name, rotating_frame=True) are not documented:
   parameter 'sequence_name'
   parameter 'rotating_frame'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:856: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:856: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:856: warning: The following parameters of pulse_editors.SequenceEditor.get_element(self, row, column) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:866: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:866: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:866: warning: The following parameters of pulse_editors.SequenceEditor.get_element(self, row, column) are not documented:
   parameter 'row'
   parameter 'column'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:835: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:835: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:835: warning: The following parameters of pulse_editors.SequenceEditor.set_element(self, row, column, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:845: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:845: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:845: warning: The following parameters of pulse_editors.SequenceEditor.set_element(self, row, column, value) are not documented:
   parameter 'row'
   parameter 'column'
   parameter 'value'
