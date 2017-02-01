@@ -112,6 +112,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, co
 <tr class="memitem:a19ea2b00f645d45cb611df6b703e3634"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a19ea2b00f645d45cb611df6b703e3634">pulser_off</a> (self)</td></tr>
 <tr class="memdesc:a19ea2b00f645d45cb611df6b703e3634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the pulsing device off.  <a href="#a19ea2b00f645d45cb611df6b703e3634">More...</a><br /></td></tr>
 <tr class="separator:a19ea2b00f645d45cb611df6b703e3634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3358058e6c972c6139c37bc750b3d7c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#af3358058e6c972c6139c37bc750b3d7c">direct_write_ensemble</a> (self, ensemble_name, analog_samples, digital_samples)</td></tr>
+<tr class="separator:af3358058e6c972c6139c37bc750b3d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04643226a378a5c41d2b013ad084eaa4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a04643226a378a5c41d2b013ad084eaa4">direct_write_sequence</a> (self, sequence_name, sequence_params)</td></tr>
+<tr class="separator:a04643226a378a5c41d2b013ad084eaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73fe146041f9c300708f093be444ad26"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a73fe146041f9c300708f093be444ad26">upload_asset</a> (self, asset_name=None)</td></tr>
 <tr class="memdesc:a73fe146041f9c300708f093be444ad26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload an already hardware conform file to the device.  <a href="#a73fe146041f9c300708f093be444ad26">More...</a><br /></td></tr>
 <tr class="separator:a73fe146041f9c300708f093be444ad26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,6 +419,97 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
 <p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+
+</div>
+</div>
+<a id="af3358058e6c972c6139c37bc750b3d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3358058e6c972c6139c37bc750b3d7c">&#9670;&nbsp;</a></span>direct_write_ensemble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulser_dummy.PulserDummy.direct_write_ensemble </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ensemble_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>analog_samples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>digital_samples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ensemble_name</td><td></td></tr>
+    <tr><td class="paramname">analog_samples</td><td></td></tr>
+    <tr><td class="paramname">digital_samples</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+
+</div>
+</div>
+<a id="a04643226a378a5c41d2b013ad084eaa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04643226a378a5c41d2b013ad084eaa4">&#9670;&nbsp;</a></span>direct_write_sequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulser_dummy.PulserDummy.direct_write_sequence </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_params</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sequence_name</td><td></td></tr>
+    <tr><td class="paramname">sequence_params</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
 </div>
 </div>

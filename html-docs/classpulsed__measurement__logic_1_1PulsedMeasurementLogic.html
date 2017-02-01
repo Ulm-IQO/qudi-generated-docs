@@ -154,15 +154,16 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>get_ssr_fastcomtec</b>
 <tr class="memitem:ab4ae62871deb9248bbb821a60e8764aa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#ab4ae62871deb9248bbb821a60e8764aa">upload_asset</a> (self, asset_name)</td></tr>
 <tr class="memdesc:ab4ae62871deb9248bbb821a60e8764aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload an already sampled Ensemble or Sequence object to the device.  <a href="#ab4ae62871deb9248bbb821a60e8764aa">More...</a><br /></td></tr>
 <tr class="separator:ab4ae62871deb9248bbb821a60e8764aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42c7fdd6bba34d133dbfe0876639d2e3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a42c7fdd6bba34d133dbfe0876639d2e3">upload_sequence</a> (self, seq_name)</td></tr>
-<tr class="memdesc:a42c7fdd6bba34d133dbfe0876639d2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload a sequence and all its related files.  <a href="#a42c7fdd6bba34d133dbfe0876639d2e3">More...</a><br /></td></tr>
-<tr class="separator:a42c7fdd6bba34d133dbfe0876639d2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb7dc51fe5a84233249189f44cd5f437"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#adb7dc51fe5a84233249189f44cd5f437">has_sequence_mode</a> (self)</td></tr>
 <tr class="memdesc:adb7dc51fe5a84233249189f44cd5f437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve from the hardware, whether sequence mode is present or not.  <a href="#adb7dc51fe5a84233249189f44cd5f437">More...</a><br /></td></tr>
 <tr class="separator:adb7dc51fe5a84233249189f44cd5f437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc780942810f004a3eded6ada9ab8041"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#abc780942810f004a3eded6ada9ab8041">load_asset</a> (self, asset_name, load_dict={})</td></tr>
 <tr class="memdesc:abc780942810f004a3eded6ada9ab8041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence or waveform to the specified channel of the pulsing device.  <a href="#abc780942810f004a3eded6ada9ab8041">More...</a><br /></td></tr>
 <tr class="separator:abc780942810f004a3eded6ada9ab8041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e773a22489db78e8008b8b84fc48b74"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a0e773a22489db78e8008b8b84fc48b74">direct_write_ensemble</a> (self, ensemble_name, analog_samples, digital_samples)</td></tr>
+<tr class="separator:a0e773a22489db78e8008b8b84fc48b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e99bfa58e38d3b90a310981f414492"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a80e99bfa58e38d3b90a310981f414492">direct_write_sequence</a> (self, sequence_name, sequence_params)</td></tr>
+<tr class="separator:a80e99bfa58e38d3b90a310981f414492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbb98b590bc3bc54b43d1c49bbf065a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a9bbb98b590bc3bc54b43d1c49bbf065a">microwave_on_off</a> (self, switch_on)</td></tr>
 <tr class="memdesc:a9bbb98b590bc3bc54b43d1c49bbf065a"><td class="mdescLeft">&#160;</td><td class="mdescRight">External microwave control methods.  <a href="#a9bbb98b590bc3bc54b43d1c49bbf065a">More...</a><br /></td></tr>
 <tr class="separator:a9bbb98b590bc3bc54b43d1c49bbf065a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -544,6 +545,97 @@ equivalently -f_samplerate/2 to f_samplerate/2.</pre> </dd></dl>
 
 <p>Continues the measurement. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
+
+</div>
+</div>
+<a id="a0e773a22489db78e8008b8b84fc48b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e773a22489db78e8008b8b84fc48b74">&#9670;&nbsp;</a></span>direct_write_ensemble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.direct_write_ensemble </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ensemble_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>analog_samples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>digital_samples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ensemble_name</td><td></td></tr>
+    <tr><td class="paramname">analog_samples</td><td></td></tr>
+    <tr><td class="paramname">digital_samples</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+
+</div>
+</div>
+<a id="a80e99bfa58e38d3b90a310981f414492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e99bfa58e38d3b90a310981f414492">&#9670;&nbsp;</a></span>direct_write_sequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.direct_write_sequence </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_params</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sequence_name</td><td></td></tr>
+    <tr><td class="paramname">sequence_params</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
 </div>
 </div>
@@ -1429,42 +1521,6 @@ dict param_dict: a dictionary containing the fit result </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">asset_name</td><td>string, name of the ensemble/sequence to upload </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a42c7fdd6bba34d133dbfe0876639d2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42c7fdd6bba34d133dbfe0876639d2e3">&#9670;&nbsp;</a></span>upload_sequence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.upload_sequence </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>seq_name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Upload a sequence and all its related files. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>seq_name: name of the sequence to be uploaded </td></tr>
   </table>
   </dd>
 </dl>
