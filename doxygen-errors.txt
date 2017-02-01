@@ -315,33 +315,33 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:141: warning: Member interleave (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:142: warning: Member current_loaded_asset (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:144: warning: Member current_status (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:583: warning: Member amplitude_list (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:739: warning: Member markers_low (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:576: warning: Member amplitude_list (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:732: warning: Member markers_low (variable) of class awg::tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1108: warning: argument 'string' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::ask(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1108: warning: The following parameters of awg.tektronix_awg70k.AWG70K.ask(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1101: warning: argument 'string' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1101: warning: The following parameters of awg.tektronix_awg70k.AWG70K.ask(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:986: warning: argument 'str' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::delete_asset(self, asset_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:986: warning: The following parameters of awg.tektronix_awg70k.AWG70K.delete_asset(self, asset_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:979: warning: argument 'str' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::delete_asset(self, asset_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:979: warning: The following parameters of awg.tektronix_awg70k.AWG70K.delete_asset(self, asset_name) are not documented:
   parameter 'asset_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:798: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:798: warning: The following parameters of awg.tektronix_awg70k.AWG70K.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:791: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:791: warning: The following parameters of awg.tektronix_awg70k.AWG70K.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:546: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:546: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:546: warning: The following parameters of awg.tektronix_awg70k.AWG70K.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:539: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:539: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:539: warning: The following parameters of awg.tektronix_awg70k.AWG70K.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:703: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:703: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:703: warning: The following parameters of awg.tektronix_awg70k.AWG70K.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:696: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:696: warning: argument 'list' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:696: warning: The following parameters of awg.tektronix_awg70k.AWG70K.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:385: warning: argument 'str' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:385: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:385: warning: The following parameters of awg.tektronix_awg70k.AWG70K.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:383: warning: argument 'str' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:383: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:383: warning: The following parameters of awg.tektronix_awg70k.AWG70K.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:66: warning: argument 'object' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::on_activate(self, e)
@@ -350,30 +350,30 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:151: warning: argument 'object' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:151: warning: The following parameters of awg.tektronix_awg70k.AWG70K.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:862: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:862: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:855: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:855: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:607: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:607: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:607: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:600: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:600: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:600: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1034: warning: argument 'string' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_asset_dir_on_device(self, dir_path)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1034: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_asset_dir_on_device(self, dir_path) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1027: warning: argument 'string' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1027: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_asset_dir_on_device(self, dir_path) are not documented:
   parameter 'dir_path'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:760: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:760: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:760: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:753: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:753: warning: argument 'dict' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:753: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1077: warning: argument 'bool' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1077: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1070: warning: argument 'bool' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1070: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:494: warning: argument 'float' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:496: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:487: warning: argument 'float' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:489: warning: The following parameters of awg.tektronix_awg70k.AWG70K.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1118: warning: argument 'string' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::tell(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1118: warning: The following parameters of awg.tektronix_awg70k.AWG70K.tell(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1111: warning: argument 'string' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::tell(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1111: warning: The following parameters of awg.tektronix_awg70k.AWG70K.tell(self, command) are not documented:
   parameter 'command'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:320: warning: argument 'str' of command @param is not found in the argument list of awg.tektronix_awg70k.AWG70K::upload_asset(self, asset_name=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:321: warning: The following parameters of awg.tektronix_awg70k.AWG70K.upload_asset(self, asset_name=None) are not documented:
