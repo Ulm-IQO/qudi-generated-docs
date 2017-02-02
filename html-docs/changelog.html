@@ -62,7 +62,64 @@ $(function() {
 <div class="title">Changelog </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Relese 0.6</h2>
+<div class="textblock"><h2>Release 0.7</h2>
+<p>Released on 01 Feb 2017. Available at <a href="https://github.com/Ulm-IQO/qudi/releases/tag/v0.7">https://github.com/Ulm-IQO/qudi/releases/tag/v0.7</a> .</p>
+<p>Changes/New features:</p>
+<ul>
+<li>Overhaul of most used hardware modules, including<ul>
+<li>Error codes and failed hardware calls are caught and passed up to the logic</li>
+<li>Updates of methods documentation in hardware modules and corresponding interfaces</li>
+</ul>
+</li>
+<li>Logic modules are now listening to the hardware return values and react accordingly</li>
+<li>Introduction of update signals in most logic and GUI modules to ensure coherency of logic and GUI module information. So upon changing something in the GUI this module will emit an update signal which is connected to the logic module. The same works vice-versa if a script or something is changing values in logic modules.</li>
+<li>Stability improvements to pulsed measurement analysis toolchain (pulse_extraction_logic and pulse_analysis_logic)</li>
+<li>Changed SpinBoxes in pulsed_maingui BlockEditor, EnsembleOrganizer and SequenceOrganizer to scientific SpinBoxes enabling scientific number format and unit prefix input</li>
+<li>Pulsed measurement data is saved properly now. Scientific number format was introduced to avoid problems with too few digits</li>
+<li>Better pulsed_master_logic structure that allows now also for direct waveform/sequence generation on pulse generator devices (without writing files)</li>
+<li>Heaps of changes/improvements regarding fitting in qudi. Big parts of fit_logic have been rewritten. It may be necessary to adapt custom scripts using fits</li>
+<li>Confocal is now consequently using SI units (config change needed)</li>
+<li>Confocal can now work from different count sources which are selectable (multichannel support) (config change needed)</li>
+<li>Voltage range for NI card channels can be set independently for each channel (config change needed)</li>
+</ul>
+<p>Config changes:</p>
+<p>In order to update to the latest version of qudi one has to apply minor changes to the config file.</p>
+<p>Change configuration settings for the ni_card module:</p>
+<ul>
+<li><p class="startli">Replace "scanner_ao_channels" with "scanner_x_ao", "scanner_y_ao" and "scanner_z_ao".</p>
+<p class="startli">Example:</p>
+<p class="startli">scanner_x_ao: '/Dev1/AO0'</p>
+<p class="startli">scanner_y_ao: '/Dev1/AO1'</p>
+<p class="startli">scanner_z_ao: '/Dev1/AO2'</p>
+<p class="startli">scanner_a_ao: '/Dev1/AO3'</p>
+<p class="startli">If you do not need the 4th axis, just leave it out.</p>
+</li>
+<li><p class="startli">You can either specify a voltage range for all axes:</p>
+<p class="startli">voltage_range:</p>
+<p class="startli">- -10</p>
+<p class="startli">- 10</p>
+</li>
+<li><p class="startli">or you have to specify one for each axis:</p>
+<p class="startli">x_voltage_range:</p>
+<p class="startli">- -10</p>
+<p class="startli">- 10</p>
+<p class="startli">y_voltage_range:</p>
+<p class="startli">- -10</p>
+<p class="startli">- 10</p>
+<p class="startli">z_voltage_range:</p>
+<p class="startli">- 0</p>
+<p class="startli">- 10</p>
+<p class="startli">a_voltage_range:</p>
+<p class="startli">- -5</p>
+<p class="startli">- 5</p>
+</li>
+<li><p class="startli">Change all distances in ni_card to meters; you can use exponential notation. For example:</p>
+<p class="startli">x_range:</p>
+<p class="startli">- -100e-6</p>
+<p class="startli">- 100e-6</p>
+</li>
+</ul>
+<h2>Release 0.6</h2>
 <p>Released on 25 Nov 2016. Available at <a href="https://github.com/Ulm-IQO/qudi/releases/tag/v0.6">https://github.com/Ulm-IQO/qudi/releases/tag/v0.6</a> .</p>
 <p>Changes/New features:</p>
 <ul>
