@@ -109,8 +109,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, co
 <tr class="memitem:ab68e2c07a8f7504660ae919703a3218c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtec_1_1fastcomtecmcs6_1_1FastComtec.html#ab68e2c07a8f7504660ae919703a3218c">configure</a> (self, bin_width_s, record_length_s, number_of_gates=0)</td></tr>
 <tr class="memdesc:ab68e2c07a8f7504660ae919703a3218c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the fast counter.  <a href="#ab68e2c07a8f7504660ae919703a3218c">More...</a><br /></td></tr>
 <tr class="separator:ab68e2c07a8f7504660ae919703a3218c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6833cb8e0dc10cfda07ba7a6bbe1a808"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtec_1_1fastcomtecmcs6_1_1FastComtec.html#a6833cb8e0dc10cfda07ba7a6bbe1a808">get_status</a> (self)</td></tr>
-<tr class="memdesc:a6833cb8e0dc10cfda07ba7a6bbe1a808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives the current status of the Fast Counter and outputs it as return value.  <a href="#a6833cb8e0dc10cfda07ba7a6bbe1a808">More...</a><br /></td></tr>
+<tr class="memitem:a6833cb8e0dc10cfda07ba7a6bbe1a808"><td class="memItemLeft" align="right" valign="top"><a id="a6833cb8e0dc10cfda07ba7a6bbe1a808"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_status</b> (self)</td></tr>
 <tr class="separator:a6833cb8e0dc10cfda07ba7a6bbe1a808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe844c57ceaca5821b0e50033a94071"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtec_1_1fastcomtecmcs6_1_1FastComtec.html#a6fe844c57ceaca5821b0e50033a94071">start_measure</a> (self)</td></tr>
 <tr class="memdesc:a6fe844c57ceaca5821b0e50033a94071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the measurement.  <a href="#a6fe844c57ceaca5821b0e50033a94071">More...</a><br /></td></tr>
@@ -254,6 +254,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a64cc82ac2fe1e86521633df4aa3894c1"><td class="memItemLeft" align="right" valign="top"><a id="a64cc82ac2fe1e86521633df4aa3894c1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MINIMAL_BINWIDTH</b></td></tr>
 <tr class="separator:a64cc82ac2fe1e86521633df4aa3894c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd3ca8f5ad82f163819fd7d84aafcb05"><td class="memItemLeft" align="right" valign="top"><a id="abd3ca8f5ad82f163819fd7d84aafcb05"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>stopped_or_halt</b></td></tr>
+<tr class="separator:abd3ca8f5ad82f163819fd7d84aafcb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab60073e3d7aff6a628e82aec8e24f3ec"><td class="memItemLeft" align="right" valign="top"><a id="ab60073e3d7aff6a628e82aec8e24f3ec"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>dll</b></td></tr>
 <tr class="separator:ab60073e3d7aff6a628e82aec8e24f3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -443,27 +446,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get the length of the current measurement. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: length of the current measurement in bins </dd></dl>
-
-</div>
-</div>
-<a id="a6833cb8e0dc10cfda07ba7a6bbe1a808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6833cb8e0dc10cfda07ba7a6bbe1a808">&#9670;&nbsp;</a></span>get_status()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def fastcomtec.fastcomtecmcs6.FastComtec.get_status </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Receives the current status of the Fast Counter and outputs it as return value. </p>
-<p>0 = unconfigured // here not possible 1 = idle 2 = running 3 = paused -1 = error state </p>
 
 </div>
 </div>
