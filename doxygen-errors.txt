@@ -2182,40 +2182,40 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:179: warning: Member mouseClickEvent(self, ev) (function) of class gui::poimanager::poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:185: warning: Member mouseDragEvent(self, ev, axis=0) (function) of class gui::poimanager::poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:238: warning: Member __init__(self, config, kwargs) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:536: warning: Member shortcut_to_roi_cb_manual(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:540: warning: Member shortcut_to_roi_cb_centiles(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:615: warning: Member toggle_periodic_refind(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:624: warning: Unsupported xml/html tag <key> found
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:702: warning: Member update_poi_pos(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:712: warning: Member toggle_follow(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:561: warning: Member shortcut_to_roi_cb_manual(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:565: warning: Member shortcut_to_roi_cb_centiles(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:640: warning: Member toggle_periodic_refind(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:649: warning: Unsupported xml/html tag <key> found
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:733: warning: Member update_poi_pos(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:743: warning: Member toggle_follow(self) (function) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:262: warning: Member selected_poi_key (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:311: warning: Member roi_map_image (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:333: warning: Member roi_cb (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:355: warning: Member y_shift_plot (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:365: warning: Member z_shift_plot (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:522: warning: Member roi_map_xmin (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:523: warning: Member roi_map_xmax (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:524: warning: Member roi_map_ymin (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:525: warning: Member roi_map_ymax (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:333: warning: Member roi_map_image (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:355: warning: Member roi_cb (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:377: warning: Member y_shift_plot (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:387: warning: Member z_shift_plot (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:547: warning: Member roi_map_xmin (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:548: warning: Member roi_map_xmax (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:549: warning: Member roi_map_ymin (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:550: warning: Member roi_map_ymax (variable) of class gui::poimanager::poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:624: warning: Unsupported xml/html tag <key> found
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:287: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::initMainUI(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:287: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.initMainUI(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:649: warning: Unsupported xml/html tag <key> found
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:309: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::initMainUI(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:309: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.initMainUI(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:468: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::initReorientRoiDialogUI(self, e)
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:468: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.initReorientRoiDialogUI(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:493: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::initReorientRoiDialogUI(self, e)
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:493: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.initReorientRoiDialogUI(self, e) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:260: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::on_activate(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:260: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:501: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:501: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:526: warning: argument 'object' of command @param is not found in the argument list of gui.poimanager.poimangui.PoiManagerGui::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:526: warning: The following parameters of gui.poimanager.poimangui.PoiManagerGui.on_deactivate(self, e) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:194: warning: Member __init__(self) (function) of class gui::poimanager::poimangui::PoiManagerMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:56: warning: Member __init__(self, pos, poi=None, click_action=None, viewwidget=None, args) (function) of class gui::poimanager::poimangui::PoiMark is not documented.

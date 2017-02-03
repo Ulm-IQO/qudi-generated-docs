@@ -102,6 +102,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, co
 <tr class="memitem:a55451f6526bde395fa4cb7d8d47ebc79"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#a55451f6526bde395fa4cb7d8d47ebc79">on_activate</a> (self, e=None)</td></tr>
 <tr class="memdesc:a55451f6526bde395fa4cb7d8d47ebc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the overall GUI, and establishes the connectors.  <a href="#a55451f6526bde395fa4cb7d8d47ebc79">More...</a><br /></td></tr>
 <tr class="separator:a55451f6526bde395fa4cb7d8d47ebc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279f98050e46016104f651f1171f9fe3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#a279f98050e46016104f651f1171f9fe3">mouseMoved</a> (self, event)</td></tr>
+<tr class="memdesc:a279f98050e46016104f651f1171f9fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles any mouse movements inside the image.  <a href="#a279f98050e46016104f651f1171f9fe3">More...</a><br /></td></tr>
+<tr class="separator:a279f98050e46016104f651f1171f9fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc076497d1028b796f55d5ca3de40c87"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#adc076497d1028b796f55d5ca3de40c87">initMainUI</a> (self, e=None)</td></tr>
 <tr class="memdesc:adc076497d1028b796f55d5ca3de40c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition, configuration and initialisation of the POI Manager GUI.  <a href="#adc076497d1028b796f55d5ca3de40c87">More...</a><br /></td></tr>
 <tr class="separator:adc076497d1028b796f55d5ca3de40c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -616,6 +619,43 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Start new ROI by removing all POIs and resetting the sample history. </p>
+
+</div>
+</div>
+<a id="a279f98050e46016104f651f1171f9fe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279f98050e46016104f651f1171f9fe3">&#9670;&nbsp;</a></span>mouseMoved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def gui.poimanager.poimangui.PoiManagerGui.mouseMoved </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles any mouse movements inside the image. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>Event that signals the new mouse movement. This should be of type QPointF.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Gets the mouse position, converts it to a position scaled to the image axis and than calculates and updated the position to the current POI. </p>
 
 </div>
 </div>
