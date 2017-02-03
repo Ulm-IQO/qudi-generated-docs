@@ -20,6 +20,8 @@ var searchData=
   ['fit_5fdata_5fupdated',['fit_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#aa0c97589e112b16eaf3f365a74d05a09',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['fit_5fupdated',['fit_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a7059502040cc3358965bec5c180e0640',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['fitlogic',['FitLogic',['../classfit__logic__standalone_1_1FitLogic.html',1,'fit_logic_standalone.FitLogic'],['../classfit__logic_1_1FitLogic.html',1,'fit_logic.FitLogic']]],
+  ['fitsettingscombobox',['FitSettingsComboBox',['../classgui_1_1fitsettings_1_1FitSettingsComboBox.html',1,'gui::fitsettings']]],
+  ['fitsettingsdialog',['FitSettingsDialog',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html',1,'gui::fitsettings']]],
   ['fitsettingswidget',['FitSettingsWidget',['../classgui_1_1fitsettings_1_1FitSettingsWidget.html',1,'gui::fitsettings']]],
   ['flags',['flags',['../classcore_1_1threadmanager_1_1ThreadManager.html#ae13353330a32c6f10921d2d334dd7606',1,'core.threadmanager.ThreadManager.flags()'],['../classcore_1_1util_1_1models_1_1DictTableModel.html#a61c59e6ac02b6aba478be9c0071481a5',1,'core.util.models.DictTableModel.flags()'],['../classcore_1_1util_1_1models_1_1ListTableModel.html#ab71207888620ead9c153edd3a94a3cc1',1,'core.util.models.ListTableModel.flags()'],['../classgui_1_1manager_1_1logwidget_1_1LogModel.html#a430609be76fc7e2228cb538cca755054',1,'gui.manager.logwidget.LogModel.flags()']]],
   ['flipmirror',['FlipMirror',['../classflipmirror_1_1FlipMirror.html',1,'flipmirror']]],

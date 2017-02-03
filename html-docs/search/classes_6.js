@@ -6,6 +6,8 @@ var searchData=
   ['fastcounterfpgaqo',['FastCounterFPGAQO',['../classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html',1,'fast_counter_fpga_qo']]],
   ['fastcounterinterface',['FastCounterInterface',['../classfast__counter__interface_1_1FastCounterInterface.html',1,'fast_counter_interface']]],
   ['fitlogic',['FitLogic',['../classfit__logic__standalone_1_1FitLogic.html',1,'fit_logic_standalone.FitLogic'],['../classfit__logic_1_1FitLogic.html',1,'fit_logic.FitLogic']]],
+  ['fitsettingscombobox',['FitSettingsComboBox',['../classgui_1_1fitsettings_1_1FitSettingsComboBox.html',1,'gui::fitsettings']]],
+  ['fitsettingsdialog',['FitSettingsDialog',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html',1,'gui::fitsettings']]],
   ['fitsettingswidget',['FitSettingsWidget',['../classgui_1_1fitsettings_1_1FitSettingsWidget.html',1,'gui::fitsettings']]],
   ['flipmirror',['FlipMirror',['../classflipmirror_1_1FlipMirror.html',1,'flipmirror']]],
   ['functionimplementationerror',['FunctionImplementationError',['../classsave__logic_1_1FunctionImplementationError.html',1,'save_logic']]],
