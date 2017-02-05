@@ -103,18 +103,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91addcde79d0718a3cc350f594d2ac7c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a91addcde79d0718a3cc350f594d2ac7c">set_num_bins_histogram</a> (self, num_bins, update=True)</td></tr>
 <tr class="memdesc:a91addcde79d0718a3cc350f594d2ac7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of bins.  <a href="#a91addcde79d0718a3cc350f594d2ac7c">More...</a><br /></td></tr>
 <tr class="separator:a91addcde79d0718a3cc350f594d2ac7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb645c969c11b7eba1909cf50ce07bff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aeb645c969c11b7eba1909cf50ce07bff">do_calculate_histogram</a> (self)</td></tr>
-<tr class="memdesc:aeb645c969c11b7eba1909cf50ce07bff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passes all the needed parameters to the appropriated methods.  <a href="#aeb645c969c11b7eba1909cf50ce07bff">More...</a><br /></td></tr>
-<tr class="separator:aeb645c969c11b7eba1909cf50ce07bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae259fb2da357acead8a834923ab47822"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#ae259fb2da357acead8a834923ab47822">do_calculate_histogram</a> (self, mode='normal')</td></tr>
+<tr class="memdesc:ae259fb2da357acead8a834923ab47822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passes all the needed parameters to the appropriated methods.  <a href="#ae259fb2da357acead8a834923ab47822">More...</a><br /></td></tr>
+<tr class="separator:ae259fb2da357acead8a834923ab47822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1fa588be1338a6e794b2656e07765f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a7c1fa588be1338a6e794b2656e07765f">calculate_histogram</a> (self, trace, num_bins=None, custom_bin_arr=None)</td></tr>
 <tr class="memdesc:a7c1fa588be1338a6e794b2656e07765f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the histogram of a given trace.  <a href="#a7c1fa588be1338a6e794b2656e07765f">More...</a><br /></td></tr>
 <tr class="separator:a7c1fa588be1338a6e794b2656e07765f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b80fbd01c4495384bd97d1593522afa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a0b80fbd01c4495384bd97d1593522afa">analyze_flip_prob</a> (self, trace, num_bins=None, threshold=None)</td></tr>
 <tr class="memdesc:a0b80fbd01c4495384bd97d1593522afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">General method, which analysis how often a value was changed from one data point to another in relation to a certain threshold.  <a href="#a0b80fbd01c4495384bd97d1593522afa">More...</a><br /></td></tr>
 <tr class="separator:a0b80fbd01c4495384bd97d1593522afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b46e877974b20f526a718a221db7e10"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a9b46e877974b20f526a718a221db7e10">analyze_lifetime</a> (self, trace, dt, estimated_lifetime=None)</td></tr>
-<tr class="memdesc:a9b46e877974b20f526a718a221db7e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an lifetime analysis of a 1D time trace.  <a href="#a9b46e877974b20f526a718a221db7e10">More...</a><br /></td></tr>
-<tr class="separator:a9b46e877974b20f526a718a221db7e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6df58b85b6c9fc4c4360c195e0004168"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a6df58b85b6c9fc4c4360c195e0004168">analyze_flip_prob_postselect</a> (self)</td></tr>
 <tr class="memdesc:a6df58b85b6c9fc4c4360c195e0004168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post select the data trace so that the flip probability is only calculated from a jump from below a threshold value to an value above threshold.  <a href="#a6df58b85b6c9fc4c4360c195e0004168">More...</a><br /></td></tr>
 <tr class="separator:a6df58b85b6c9fc4c4360c195e0004168"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51a7f32ca23037464d1e2f977aa79cc2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a51a7f32ca23037464d1e2f977aa79cc2">do_no_fit</a> (self)</td></tr>
 <tr class="memdesc:a51a7f32ca23037464d1e2f977aa79cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform no fit, basically return an empty array.  <a href="#a51a7f32ca23037464d1e2f977aa79cc2">More...</a><br /></td></tr>
 <tr class="separator:a51a7f32ca23037464d1e2f977aa79cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ea80c70d5791184b9c713de8b47de5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aa9ea80c70d5791184b9c713de8b47de5">analyze_lifetime</a> (self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 &gt;', num_bins=50)</td></tr>
+<tr class="memdesc:aa9ea80c70d5791184b9c713de8b47de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an lifetime analysis of a 1D time trace.  <a href="#aa9ea80c70d5791184b9c713de8b47de5">More...</a><br /></td></tr>
+<tr class="separator:aa9ea80c70d5791184b9c713de8b47de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b40b9ad68715210157b1d2adae04b57"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a7b40b9ad68715210157b1d2adae04b57">do_gaussian_fit</a> (self, axis, data)</td></tr>
 <tr class="memdesc:a7b40b9ad68715210157b1d2adae04b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a gaussian fit.  <a href="#a7b40b9ad68715210157b1d2adae04b57">More...</a><br /></td></tr>
 <tr class="separator:a7b40b9ad68715210157b1d2adae04b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,9 +145,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>do_possonian_fit</b> (
 <tr class="memitem:a3414608473873a59416d15ffaf7feb40"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a3414608473873a59416d15ffaf7feb40">guess_threshold</a> (self, hist_val=None, trace=None, max_ratio_value=0.1)</td></tr>
 <tr class="memdesc:a3414608473873a59416d15ffaf7feb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assume a distribution between two values and try to guess the threshold.  <a href="#a3414608473873a59416d15ffaf7feb40">More...</a><br /></td></tr>
 <tr class="separator:a3414608473873a59416d15ffaf7feb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa619094143eeef07075d29c8d085823"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#afa619094143eeef07075d29c8d085823">calculate_threshold</a> (self, hist_data=None)</td></tr>
-<tr class="memdesc:afa619094143eeef07075d29c8d085823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the threshold by minimizing its overlap with the poissonian fits.  <a href="#afa619094143eeef07075d29c8d085823">More...</a><br /></td></tr>
-<tr class="separator:afa619094143eeef07075d29c8d085823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86cd2757288af63f3c9043777c2a09a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a86cd2757288af63f3c9043777c2a09a2">calculate_threshold</a> (self, hist_data=None, distr='poissonian')</td></tr>
+<tr class="memdesc:a86cd2757288af63f3c9043777c2a09a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the threshold by minimizing its overlap with the poissonian fits.  <a href="#a86cd2757288af63f3c9043777c2a09a2">More...</a><br /></td></tr>
+<tr class="separator:a86cd2757288af63f3c9043777c2a09a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab35bed033489ff3b35b5e5502b371f50"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#ab35bed033489ff3b35b5e5502b371f50">calculate_binary_trace</a> (self, trace, threshold)</td></tr>
 <tr class="memdesc:ab35bed033489ff3b35b5e5502b371f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate for a given threshold all the trace values und output a binary array, where True = Below or equal Threshold False = Above Threshold.  <a href="#ab35bed033489ff3b35b5e5502b371f50">More...</a><br /></td></tr>
 <tr class="separator:ab35bed033489ff3b35b5e5502b371f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,8 +290,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b46e877974b20f526a718a221db7e10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b46e877974b20f526a718a221db7e10">&#9670;&nbsp;</a></span>analyze_lifetime()</h2>
+<a id="aa9ea80c70d5791184b9c713de8b47de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9ea80c70d5791184b9c713de8b47de5">&#9670;&nbsp;</a></span>analyze_lifetime()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +318,25 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>estimated_lifetime</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>method</em> = <code>'postselect'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>distr</em> = <code>'gaussian_normalized'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>state</em> = <code>'|-1&gt;'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>num_bins</em> = <code>50</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -329,8 +347,18 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Perform an lifetime analysis of a 1D time trace. </p>
-<p>The analysis is based on the Hidden-Markov-Model</p>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+<p>The analysis is based on the method provided ( for now only post select is implemented ).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numpy</td><td>array trace: 1 D array </td></tr>
+    <tr><td class="paramname">string</td><td>method: The method used for the lifetime analysis </td></tr>
+    <tr><td class="paramname">string</td><td>distr: distribution used for analysis </td></tr>
+    <tr><td class="paramname">string</td><td>state: State that the mw was applied to </td></tr>
+    <tr><td class="paramname">int</td><td>num_bins: number of bins used in the histogram to determine the threshold before digitalisation of data </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: dictionary containing the lifetimes of the different states |0&gt;, |1&gt;, |-1&gt; in the case of the HMM method For the postselect method only lifetime for bright and darkstate is returned, keys are 'bright_state' and 'dark_state' </dd></dl>
 
 </div>
 </div>
@@ -430,8 +458,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afa619094143eeef07075d29c8d085823"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa619094143eeef07075d29c8d085823">&#9670;&nbsp;</a></span>calculate_threshold()</h2>
+<a id="a86cd2757288af63f3c9043777c2a09a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86cd2757288af63f3c9043777c2a09a2">&#9670;&nbsp;</a></span>calculate_threshold()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,7 +474,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>hist_data</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>hist_data</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>distr</em> = <code>'poissonian'</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -459,7 +493,7 @@ Static Public Attributes</h2></td></tr>
 <p>Calculate the threshold by minimizing its overlap with the poissonian fits. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">np.array</td><td>hist_data: 2D array whitch represent the x and y values of a histogram of a trace.</td></tr>
+    <tr><td class="paramname">np.array</td><td>hist_data: 2D array whitch represent the x and y values of a histogram of a trace. string tells the function on what distribution it should calculate the threshold ( Added because it might happen that one normalizes data between (-1,1) and then a poissonian distribution won't work anymore.</td></tr>
   </table>
   </dd>
 </dl>
@@ -468,8 +502,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb645c969c11b7eba1909cf50ce07bff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb645c969c11b7eba1909cf50ce07bff">&#9670;&nbsp;</a></span>do_calculate_histogram()</h2>
+<a id="ae259fb2da357acead8a834923ab47822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae259fb2da357acead8a834923ab47822">&#9670;&nbsp;</a></span>do_calculate_histogram()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -478,8 +512,18 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">def trace_analysis_logic.TraceAnalysisLogic.do_calculate_histogram </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>mode</em> = <code>'normal'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

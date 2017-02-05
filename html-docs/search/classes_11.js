@@ -33,7 +33,6 @@ var searchData=
   ['spectrumlogic',['SpectrumLogic',['../classspectrum_1_1SpectrumLogic.html',1,'spectrum']]],
   ['spinbox',['SpinBox',['../classSpinBox_1_1SpinBox.html',1,'SpinBox']]],
   ['spinboxdelegate',['SpinBoxDelegate',['../classspinbox__delegate_1_1SpinBoxDelegate.html',1,'spinbox_delegate']]],
-  ['ssrfastcomtec',['SSRFastComTec',['../classpulsed__maingui_1_1SSRFastComTec.html',1,'pulsed_maingui']]],
   ['switchdummy',['SwitchDummy',['../classswitch__dummy_1_1SwitchDummy.html',1,'switch_dummy']]],
   ['switchgui',['SwitchGui',['../classgui_1_1switcher_1_1switchgui_1_1SwitchGui.html',1,'gui::switcher::switchgui']]],
   ['switchinterface',['SwitchInterface',['../classswitch__interface_1_1SwitchInterface.html',1,'switch_interface']]],

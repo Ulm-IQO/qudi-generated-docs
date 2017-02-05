@@ -30,7 +30,7 @@ var searchData=
   ['analyze_5fdata',['analyze_data',['../classpulse__analysis__logic_1_1PulseAnalysisLogic.html#ab4693332160b80619d12abad343c829b',1,'pulse_analysis_logic.PulseAnalysisLogic.analyze_data()'],['../classPulse__analysis__standalone_1_1PulseAnalysis.html#a3e9d82cf247cf0c82fd76da6aac3a728',1,'Pulse_analysis_standalone.PulseAnalysis.analyze_data()']]],
   ['analyze_5fflip_5fprob',['analyze_flip_prob',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a0b80fbd01c4495384bd97d1593522afa',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['analyze_5fflip_5fprob_5fpostselect',['analyze_flip_prob_postselect',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a6df58b85b6c9fc4c4360c195e0004168',1,'trace_analysis_logic::TraceAnalysisLogic']]],
-  ['analyze_5flifetime',['analyze_lifetime',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a9b46e877974b20f526a718a221db7e10',1,'trace_analysis_logic::TraceAnalysisLogic']]],
+  ['analyze_5flifetime',['analyze_lifetime',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aa9ea80c70d5791184b9c713de8b47de5',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['append',['append',['../classtaskrunner_1_1TaskListTableModel.html#a7999ba1ceb002f0a36fb0914297ae1ad',1,'taskrunner::TaskListTableModel']]],
   ['append_5fensemble',['append_ensemble',['../classpulse__objects_1_1PulseSequence.html#a70caccb8a26f2b87e0f5a0435cf4db36',1,'pulse_objects::PulseSequence']]],
   ['apply_5fgenerator_5fsettings',['apply_generator_settings',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a9c09233b133c4e0518e1424a9459d7a3',1,'pulsed_maingui::PulsedMeasurementGui']]],
