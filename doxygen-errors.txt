@@ -33,7 +33,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:38: warning: Compound simple_laser_interface::LaserState is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:86: warning: Compound pulsed_maingui::SequenceGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:27: warning: Compound influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:108: warning: Compound gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:126: warning: Compound gui::fitsettings::FitSettingsWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:64: warning: Compound automation::TreeModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:38: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
@@ -122,7 +122,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:31: warning: Compound spectrometer_dummy::SpectrometerInterfaceDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:38: warning: Compound odmrgui::ODMRMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:106: warning: Compound notebookgui::TabbedWebView is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:101: warning: Compound gui::fitsettings::FitSettingsComboBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:119: warning: Compound gui::fitsettings::FitSettingsComboBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:130: warning: Compound pulsed_maingui::PredefinedMethodsTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:597: warning: Compound gui::colordefs::ColorScalePlasma is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:76: warning: Compound pulsed_maingui::PulseGeneratorTab is not documented.
@@ -1887,20 +1887,23 @@ IndexError: list index out of range
   parameter 'update'
   parameter 'finish'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:168: warning: Member __init__(self) (function) of class gui::confocal::confocalgui::OptimizerSettingDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:38: warning: Member all_functions (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:39: warning: Member checkboxes (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:40: warning: Member tabs (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:58: warning: Member fitSelection (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:74: warning: Member buttonClicked(self, button) (function) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:39: warning: Member all_functions (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:40: warning: Member checkboxes (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:41: warning: Member tabs (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:42: warning: Member parameters (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:43: warning: Member parameter_use (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:66: warning: Member fitSelection (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:32: warning: Member sigSelectionUpdated (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:33: warning: Member sigParametersUpdated (variable) of class gui::fitsettings::FitSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:117: warning: Member useLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:118: warning: Member valueLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:119: warning: Member minimumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:120: warning: Member maximumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:121: warning: Member exprLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:122: warning: Member varyLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:131: warning: Member widgets (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:132: warning: Member paramUseSettings (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:135: warning: Member useLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:136: warning: Member valueLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:137: warning: Member minimumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:138: warning: Member maximumLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:139: warning: Member exprLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:140: warning: Member varyLabel (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:149: warning: Member widgets (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/fitsettings.py:150: warning: Member paramUseSettings (variable) of class gui::fitsettings::FitSettingsWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
