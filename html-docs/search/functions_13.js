@@ -170,7 +170,7 @@ var searchData=
   ['showaboutqudi',['showAboutQudi',['../classgui_1_1manager_1_1managergui_1_1ManagerGui.html#a99b4a6c033c849beef612d3b357ddb37',1,'gui::manager::managergui::ManagerGui']]],
   ['showtraceback',['showtraceback',['../classqzmqkernel_1_1QZMQKernel.html#a013454279bee3576681e85ad646138e2',1,'qzmqkernel::QZMQKernel']]],
   ['sign',['sign',['../classqzmqkernel_1_1QZMQKernel.html#a6dc1727e86eb23e1b0de2f6d8181c1ec',1,'qzmqkernel::QZMQKernel']]],
-  ['signal_5fdata_5fupdated',['signal_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a8bc810cdf64ade75681657ea6de62cea',1,'pulsed_maingui.PulsedMeasurementGui.signal_data_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#ab058787036b25c4d4636ba3f64a0bf24',1,'pulsed_master_logic.PulsedMasterLogic.signal_data_updated()']]],
+  ['signal_5fdata_5fupdated',['signal_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#abd96a67ceeea726abc7f0ae395ef9592',1,'pulsed_maingui.PulsedMeasurementGui.signal_data_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#aa6b25999ab5ddd9a9c653d2514abdd54',1,'pulsed_master_logic.PulsedMasterLogic.signal_data_updated()']]],
   ['sizehint',['sizeHint',['../classspinbox__delegate_1_1SpinBoxDelegate.html#ac8cf7bfabda64097de7c048cc5796662',1,'spinbox_delegate::SpinBoxDelegate']]],
   ['small_5foptimizer_5fview',['small_optimizer_view',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#a5d1d8000a178e71c8057534e9a4621e5',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['snapshot',['snapshot',['../classconfocal__logic_1_1ConfocalHistoryEntry.html#ac0a2d328ada3f3bd045cbdd472dacc40',1,'confocal_logic::ConfocalHistoryEntry']]],

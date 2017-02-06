@@ -177,8 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a20800fb2cabe66ba64d56817caca4d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed8115b4e551bf7d52d3cc3bd0fc0266"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#aed8115b4e551bf7d52d3cc3bd0fc0266">laser_data_updated</a> (self, laser_data_x, laser_data_y)</td></tr>
 <tr class="separator:aed8115b4e551bf7d52d3cc3bd0fc0266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab058787036b25c4d4636ba3f64a0bf24"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#ab058787036b25c4d4636ba3f64a0bf24">signal_data_updated</a> (self, signal_data_x, signal_data_y, signal_data_y2, error_data_y, error_data_y2)</td></tr>
-<tr class="separator:ab058787036b25c4d4636ba3f64a0bf24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b25999ab5ddd9a9c653d2514abdd54"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#aa6b25999ab5ddd9a9c653d2514abdd54">signal_data_updated</a> (self, signal_data_x, signal_data_y, signal_data_y2, error_data_y, error_data_y2, signal_fft_x, signal_fft_y, signal_fft_y2)</td></tr>
+<tr class="separator:aa6b25999ab5ddd9a9c653d2514abdd54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf77bb17a82c66bf5ff02e197b151c5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a6cf77bb17a82c66bf5ff02e197b151c5">extraction_settings_changed</a> (self, method, conv_std_dev, count_treshold, threshold_tolerance_bins, min_laser_length)</td></tr>
 <tr class="separator:a6cf77bb17a82c66bf5ff02e197b151c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a809f49bbf3eee2661074fda6f70481ca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a809f49bbf3eee2661074fda6f70481ca">extraction_settings_updated</a> (self, method, conv_std_dev, count_treshold, threshold_tolerance_bins, min_laser_length)</td></tr>
@@ -395,8 +395,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a8b9ec7c92d919c5533b22bd106db2251"><td class="memItemLeft" align="right" valign="top"><a id="a8b9ec7c92d919c5533b22bd106db2251"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigPredefinedSequenceGenerated</b> = QtCore.Signal(str)</td></tr>
 <tr class="separator:a8b9ec7c92d919c5533b22bd106db2251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c7c8bd7b2c4fa0de8a96acb7e9b68d7"><td class="memItemLeft" align="right" valign="top"><a id="a9c7c8bd7b2c4fa0de8a96acb7e9b68d7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigSignalDataUpdated</b> = QtCore.Signal(np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray)</td></tr>
+<tr class="memitem:a9c7c8bd7b2c4fa0de8a96acb7e9b68d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>sigSignalDataUpdated</b></td></tr>
 <tr class="separator:a9c7c8bd7b2c4fa0de8a96acb7e9b68d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0f0679431d322239aed1123c57b23e7"><td class="memItemLeft" align="right" valign="top"><a id="ac0f0679431d322239aed1123c57b23e7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigLaserDataUpdated</b> = QtCore.Signal(np.ndarray, np.ndarray)</td></tr>
@@ -3034,8 +3033,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab058787036b25c4d4636ba3f64a0bf24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab058787036b25c4d4636ba3f64a0bf24">&#9670;&nbsp;</a></span>signal_data_updated()</h2>
+<a id="aa6b25999ab5ddd9a9c653d2514abdd54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b25999ab5ddd9a9c653d2514abdd54">&#9670;&nbsp;</a></span>signal_data_updated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3074,7 +3073,25 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>error_data_y2</em>&#160;</td>
+          <td class="paramname"><em>error_data_y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>signal_fft_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>signal_fft_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>signal_fft_y2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3349,6 +3366,29 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9c7c8bd7b2c4fa0de8a96acb7e9b68d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7c8bd7b2c4fa0de8a96acb7e9b68d7">&#9670;&nbsp;</a></span>sigSignalDataUpdated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pulsed_master_logic.PulsedMasterLogic.sigSignalDataUpdated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=  QtCore.Signal(np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray,</div><div class="line">                                         np.ndarray, np.ndarray, np.ndarray)</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

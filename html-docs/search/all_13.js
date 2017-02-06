@@ -183,7 +183,7 @@ var searchData=
   ['showtraceback',['showtraceback',['../classqzmqkernel_1_1QZMQKernel.html#a013454279bee3576681e85ad646138e2',1,'qzmqkernel::QZMQKernel']]],
   ['shutterstate',['ShutterState',['../classsimple__laser__interface_1_1ShutterState.html',1,'simple_laser_interface']]],
   ['sign',['sign',['../classqzmqkernel_1_1QZMQKernel.html#a6dc1727e86eb23e1b0de2f6d8181c1ec',1,'qzmqkernel::QZMQKernel']]],
-  ['signal_5fdata_5fupdated',['signal_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a8bc810cdf64ade75681657ea6de62cea',1,'pulsed_maingui.PulsedMeasurementGui.signal_data_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#ab058787036b25c4d4636ba3f64a0bf24',1,'pulsed_master_logic.PulsedMasterLogic.signal_data_updated()']]],
+  ['signal_5fdata_5fupdated',['signal_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#abd96a67ceeea726abc7f0ae395ef9592',1,'pulsed_maingui.PulsedMeasurementGui.signal_data_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#aa6b25999ab5ddd9a9c653d2514abdd54',1,'pulsed_master_logic.PulsedMasterLogic.signal_data_updated()']]],
   ['simpleacq',['SimpleAcq',['../classsimple__data__acq_1_1SimpleAcq.html',1,'simple_data_acq']]],
   ['simpledatagui',['SimpleDataGui',['../classsimpledatagui_1_1SimpleDataGui.html',1,'simpledatagui']]],
   ['simpledatainterface',['SimpleDataInterface',['../classsimple__data__interface_1_1SimpleDataInterface.html',1,'simple_data_interface']]],

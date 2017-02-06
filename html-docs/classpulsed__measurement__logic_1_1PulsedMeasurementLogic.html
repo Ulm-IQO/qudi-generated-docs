@@ -192,9 +192,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a23efae6e654308b7c33835e8f7ce7158"><td class="memItemLeft" align="right" valign="top"><a id="a23efae6e654308b7c33835e8f7ce7158"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>save_measurement_data</b> (self, controlled_val_unit='a.u.', tag=None)</td></tr>
 <tr class="separator:a23efae6e654308b7c33835e8f7ce7158"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43e1d1f4d53de4e41cbcef25be799b01"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a43e1d1f4d53de4e41cbcef25be799b01">compute_fft</a> (self)</td></tr>
-<tr class="memdesc:a43e1d1f4d53de4e41cbcef25be799b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computing the fourier transform of the data.  <a href="#a43e1d1f4d53de4e41cbcef25be799b01">More...</a><br /></td></tr>
-<tr class="separator:a43e1d1f4d53de4e41cbcef25be799b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add907ac6ed533de50f8ba08555d78f8d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#add907ac6ed533de50f8ba08555d78f8d">get_fit_functions</a> (self)</td></tr>
 <tr class="memdesc:add907ac6ed533de50f8ba08555d78f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Giving the available fit functions.  <a href="#add907ac6ed533de50f8ba08555d78f8d">More...</a><br /></td></tr>
 <tr class="separator:add907ac6ed533de50f8ba08555d78f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,6 +282,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acecb9e158537860260fc9ba3da1439e8"><td class="memItemLeft" align="right" valign="top"><a id="acecb9e158537860260fc9ba3da1439e8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>signal_plot_y2</b></td></tr>
 <tr class="separator:acecb9e158537860260fc9ba3da1439e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919b606ab69c493eea20113642b7c54e"><td class="memItemLeft" align="right" valign="top"><a id="a919b606ab69c493eea20113642b7c54e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>signal_fft_x</b></td></tr>
+<tr class="separator:a919b606ab69c493eea20113642b7c54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7587dbe7243b7370181d6f704f60d2"><td class="memItemLeft" align="right" valign="top"><a id="a8e7587dbe7243b7370181d6f704f60d2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>signal_fft_y</b></td></tr>
+<tr class="separator:a8e7587dbe7243b7370181d6f704f60d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d0a8d152b3aa1f64ebf656968adfc6"><td class="memItemLeft" align="right" valign="top"><a id="a16d0a8d152b3aa1f64ebf656968adfc6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>signal_fft_y2</b></td></tr>
+<tr class="separator:a16d0a8d152b3aa1f64ebf656968adfc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a593eecb70376393ceb8dcdc6aeac3fd7"><td class="memItemLeft" align="right" valign="top"><a id="a593eecb70376393ceb8dcdc6aeac3fd7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>measuring_error_plot_x</b></td></tr>
 <tr class="separator:a593eecb70376393ceb8dcdc6aeac3fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,8 +333,7 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:adae64bddc9b2241a0fd399a445bd2d5e"><td class="memItemLeft" align="right" valign="top"><a id="adae64bddc9b2241a0fd399a445bd2d5e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigSignalDataUpdated</b> = QtCore.Signal(np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray)</td></tr>
+<tr class="memitem:adae64bddc9b2241a0fd399a445bd2d5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>sigSignalDataUpdated</b></td></tr>
 <tr class="separator:adae64bddc9b2241a0fd399a445bd2d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4125a1b85237ff419e12f23b03aa3697"><td class="memItemLeft" align="right" valign="top"><a id="a4125a1b85237ff419e12f23b03aa3697"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigLaserDataUpdated</b> = QtCore.Signal(np.ndarray, np.ndarray)</td></tr>
@@ -471,42 +476,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Delete all loaded files in the device's current memory. </p>
-
-</div>
-</div>
-<a id="a43e1d1f4d53de4e41cbcef25be799b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43e1d1f4d53de4e41cbcef25be799b01">&#9670;&nbsp;</a></span>compute_fft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.compute_fft </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Computing the fourier transform of the data. </p>
-<dl class="section return"><dt>Returns</dt><dd>tuple (fft_x, fft_y): fft_x the frequencies for the FT fft_y the FT spectrum <pre class="fragment">Pay attention that the return values of the FT have only half of the
-entries compared to the used signal input.
-
-In general, a window function should be applied to the time domain data
-before calculating the FT, to reduce spectral leakage. The Hann window
-for instance is almost never a bad choice. Use it like:
-    y_ft = np.fft.fft(y_signal * np.hanning(len(y_signal)))
-
-Keep always in mind the relation for the Fourier transform:
-    T = delta_t * N_samples
-where delta_t is the distance between the time points and N_samples are
-the amount of points in the time domain. Consequently the sample rate is
-    f_samplerate = T / N_samples
-
-Keep in mind that the FT returns value from 0 to f_samplerate, or
-equivalently -f_samplerate/2 to f_samplerate/2.</pre> </dd></dl>
 
 </div>
 </div>
@@ -1485,6 +1454,29 @@ dict param_dict: a dictionary containing the fit result </dd></dl>
   </dd>
 </dl>
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adae64bddc9b2241a0fd399a445bd2d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae64bddc9b2241a0fd399a445bd2d5e">&#9670;&nbsp;</a></span>sigSignalDataUpdated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pulsed_measurement_logic.PulsedMeasurementLogic.sigSignalDataUpdated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=  QtCore.Signal(np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray,</div><div class="line">                                         np.ndarray, np.ndarray, np.ndarray)</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
