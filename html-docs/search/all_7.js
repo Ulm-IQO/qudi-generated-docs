@@ -1,7 +1,6 @@
 var searchData=
 [
   ['garbagecollector',['GarbageCollector',['../classcore_1_1garbage__collector_1_1GarbageCollector.html',1,'core::garbage_collector']]],
-  ['gated_5fextraction',['gated_extraction',['../classpulse__extraction__logic_1_1PulseExtractionLogic.html#affd1620330701b035cc136d415c4b6f8',1,'pulse_extraction_logic::PulseExtractionLogic']]],
   ['gatedcountergui',['GatedCounterGui',['../classgated__counter__gui_1_1GatedCounterGui.html',1,'gated_counter_gui']]],
   ['gatedcountermainwindow',['GatedCounterMainWindow',['../classgated__counter__gui_1_1GatedCounterMainWindow.html',1,'gated_counter_gui']]],
   ['gaussian_5ffunction',['gaussian_function',['../classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html#adb18a1c5ec23dd3927c56daf22546487',1,'confocal_scanner_dummy::ConfocalScannerDummy']]],

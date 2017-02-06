@@ -185,10 +185,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_microwave_params</
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a45d0bfcc2793859c280248d29bf87604">manually_pull_data</a> (self)</td></tr>
 <tr class="memdesc:a45d0bfcc2793859c280248d29bf87604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyse and display the data. <br /></td></tr>
 <tr class="separator:a45d0bfcc2793859c280248d29bf87604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcdd801c0d49b31fb410b56b272b4de5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#abcdd801c0d49b31fb410b56b272b4de5">set_analysis_windows</a> (self, signal_start_bin, signal_width_bins, norm_start_bin, norm_width_bins)</td></tr>
-<tr class="separator:abcdd801c0d49b31fb410b56b272b4de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45d8ce028411f836cf15049e27f23b9d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a45d8ce028411f836cf15049e27f23b9d">analysis_method_changed</a> (self, gaussfilt_std_dev)</td></tr>
-<tr class="separator:a45d8ce028411f836cf15049e27f23b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89eeb0d74db5dd5b157d8e2417e8b615"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a89eeb0d74db5dd5b157d8e2417e8b615">analysis_settings_changed</a> (self, method, signal_start_bin, signal_end_bin, norm_start_bin, norm_end_bin)</td></tr>
+<tr class="separator:a89eeb0d74db5dd5b157d8e2417e8b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34876b993101efcca7849d4053f82dc1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a34876b993101efcca7849d4053f82dc1">extraction_settings_changed</a> (self, method, conv_std_dev, count_treshold, threshold_tolerance_bins, min_laser_length)</td></tr>
+<tr class="separator:a34876b993101efcca7849d4053f82dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23efae6e654308b7c33835e8f7ce7158"><td class="memItemLeft" align="right" valign="top"><a id="a23efae6e654308b7c33835e8f7ce7158"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>save_measurement_data</b> (self, controlled_val_unit='a.u.', tag=None)</td></tr>
 <tr class="separator:a23efae6e654308b7c33835e8f7ce7158"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,21 +273,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2cd848e34c8b30a799842ae2d1bf2594"><td class="memItemLeft" align="right" valign="top"><a id="a2cd848e34c8b30a799842ae2d1bf2594"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>elapsed_time_str</b></td></tr>
 <tr class="separator:a2cd848e34c8b30a799842ae2d1bf2594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abac46b6ed82f29bbfbf5f0dd1bbff4ae"><td class="memItemLeft" align="right" valign="top"><a id="abac46b6ed82f29bbfbf5f0dd1bbff4ae"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>signal_start_bin</b></td></tr>
-<tr class="separator:abac46b6ed82f29bbfbf5f0dd1bbff4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace4e7b85ea9c8c435f9046b873f62674"><td class="memItemLeft" align="right" valign="top"><a id="ace4e7b85ea9c8c435f9046b873f62674"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>signal_width_bin</b></td></tr>
-<tr class="separator:ace4e7b85ea9c8c435f9046b873f62674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3290e6e0329d191ac3d60a845a611a"><td class="memItemLeft" align="right" valign="top"><a id="a1f3290e6e0329d191ac3d60a845a611a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>norm_start_bin</b></td></tr>
-<tr class="separator:a1f3290e6e0329d191ac3d60a845a611a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70c15dfe4d0a38a037e34b016c2b2481"><td class="memItemLeft" align="right" valign="top"><a id="a70c15dfe4d0a38a037e34b016c2b2481"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>norm_width_bin</b></td></tr>
-<tr class="separator:a70c15dfe4d0a38a037e34b016c2b2481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe1dc0cc9866e3cc16f74e6566078199"><td class="memItemLeft" align="right" valign="top"><a id="afe1dc0cc9866e3cc16f74e6566078199"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>conv_std_dev</b></td></tr>
-<tr class="separator:afe1dc0cc9866e3cc16f74e6566078199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2427d5509028b0f17c40914e5086ce28"><td class="memItemLeft" align="right" valign="top"><a id="a2427d5509028b0f17c40914e5086ce28"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>threadlock</b></td></tr>
 <tr class="separator:a2427d5509028b0f17c40914e5086ce28"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -390,24 +375,30 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ae018f5c4a6f244b5976dd009c1bdde63"><td class="memItemLeft" align="right" valign="top"><a id="ae018f5c4a6f244b5976dd009c1bdde63"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigTimerIntervalUpdated</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:ae018f5c4a6f244b5976dd009c1bdde63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac1c959ef0791ddb0a77c22b52946658"><td class="memItemLeft" align="right" valign="top"><a id="aac1c959ef0791ddb0a77c22b52946658"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisWindowsUpdated</b> = QtCore.Signal(int, int, int, int)</td></tr>
-<tr class="separator:aac1c959ef0791ddb0a77c22b52946658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af18c0d1fa9ccd54ce5cb2545d9816f15"><td class="memItemLeft" align="right" valign="top"><a id="af18c0d1fa9ccd54ce5cb2545d9816f15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisMethodUpdated</b> = QtCore.Signal(float)</td></tr>
-<tr class="separator:af18c0d1fa9ccd54ce5cb2545d9816f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae056b0e6a1a4d6f399d086599e6a43ac"><td class="memItemLeft" align="right" valign="top"><a id="ae056b0e6a1a4d6f399d086599e6a43ac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(str, int, int, int, int)</td></tr>
+<tr class="separator:ae056b0e6a1a4d6f399d086599e6a43ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdd7b638e40dee00cc83060995a98b0"><td class="memItemLeft" align="right" valign="top"><a id="a1fdd7b638e40dee00cc83060995a98b0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisMethodsUpdated</b> = QtCore.Signal(dict)</td></tr>
+<tr class="separator:a1fdd7b638e40dee00cc83060995a98b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4459fd32265f80f09325c472635ba432"><td class="memItemLeft" align="right" valign="top"><a id="a4459fd32265f80f09325c472635ba432"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigExtractionSettingsUpdated</b> = QtCore.Signal(str, float, int, int, int)</td></tr>
+<tr class="separator:a4459fd32265f80f09325c472635ba432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64bc35def7aaaf833a4d0d9458938a0"><td class="memItemLeft" align="right" valign="top"><a id="af64bc35def7aaaf833a4d0d9458938a0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigExtractionMethodsUpdated</b> = QtCore.Signal(dict)</td></tr>
+<tr class="separator:af64bc35def7aaaf833a4d0d9458938a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the Logic class for the control of pulsed measurements. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a45d8ce028411f836cf15049e27f23b9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45d8ce028411f836cf15049e27f23b9d">&#9670;&nbsp;</a></span>analysis_method_changed()</h2>
+<a id="a89eeb0d74db5dd5b157d8e2417e8b615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89eeb0d74db5dd5b157d8e2417e8b615">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.analysis_method_changed </td>
+          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.analysis_settings_changed </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -416,7 +407,31 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>gaussfilt_std_dev</em>&#160;</td>
+          <td class="paramname"><em>method</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>signal_start_bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>signal_end_bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>norm_start_bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>norm_end_bin</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -427,7 +442,11 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gaussfilt_std_dev</td><td></td></tr>
+    <tr><td class="paramname">method</td><td></td></tr>
+    <tr><td class="paramname">signal_start_bin</td><td></td></tr>
+    <tr><td class="paramname">signal_end_bin</td><td></td></tr>
+    <tr><td class="paramname">norm_start_bin</td><td></td></tr>
+    <tr><td class="paramname">norm_end_bin</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -682,6 +701,69 @@ float array pulsed_fit_y: Array containing the y-values of the fit </dd>
 str array pulsed_fit_result: String containing the fit parameters displayed in a nice form </dd>
 <dd>
 dict param_dict: a dictionary containing the fit result </dd></dl>
+
+</div>
+</div>
+<a id="a34876b993101efcca7849d4053f82dc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34876b993101efcca7849d4053f82dc1">&#9670;&nbsp;</a></span>extraction_settings_changed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.extraction_settings_changed </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>method</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>conv_std_dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>count_treshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>threshold_tolerance_bins</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>min_laser_length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">method</td><td></td></tr>
+    <tr><td class="paramname">conv_std_dev</td><td></td></tr>
+    <tr><td class="paramname">count_treshold</td><td></td></tr>
+    <tr><td class="paramname">threshold_tolerance_bins</td><td></td></tr>
+    <tr><td class="paramname">min_laser_length</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
 </div>
 </div>
@@ -1127,62 +1209,6 @@ dict param_dict: a dictionary containing the fit result </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
-
-</div>
-</div>
-<a id="abcdd801c0d49b31fb410b56b272b4de5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcdd801c0d49b31fb410b56b272b4de5">&#9670;&nbsp;</a></span>set_analysis_windows()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulsed_measurement_logic.PulsedMeasurementLogic.set_analysis_windows </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_start_bin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_width_bins</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_start_bin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_width_bins</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">signal_start_bin</td><td></td></tr>
-    <tr><td class="paramname">signal_width_bins</td><td></td></tr>
-    <tr><td class="paramname">norm_start_bin</td><td></td></tr>
-    <tr><td class="paramname">norm_width_bins</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
 </div>

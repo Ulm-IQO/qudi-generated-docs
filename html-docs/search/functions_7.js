@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['gated_5fextraction',['gated_extraction',['../classpulse__extraction__logic_1_1PulseExtractionLogic.html#affd1620330701b035cc136d415c4b6f8',1,'pulse_extraction_logic::PulseExtractionLogic']]],
   ['gaussian_5ffunction',['gaussian_function',['../classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html#adb18a1c5ec23dd3927c56daf22546487',1,'confocal_scanner_dummy::ConfocalScannerDummy']]],
   ['generate_5fblock_5fobject',['generate_block_object',['../classpulse__editors_1_1BlockEditor.html#aea6e0c3188f3ad71ddda0ea4a2eb8046',1,'pulse_editors::BlockEditor']]],
   ['generate_5fensemble_5fobject',['generate_ensemble_object',['../classpulse__editors_1_1BlockOrganizer.html#a5621ea5a21bd6d0b3b6c49fe82b3ec53',1,'pulse_editors::BlockOrganizer']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ungated_5fextraction',['ungated_extraction',['../classpulse__extraction__logic_1_1PulseExtractionLogic.html#a69d9e0482e321d1fb3db8c03dbc64a57',1,'pulse_extraction_logic::PulseExtractionLogic']]],
   ['unregister',['unregister',['../classevents_1_1EventManager.html#a45dffe9db7523127e1e240f6f4384c80',1,'events::EventManager']]],
   ['unset',['unset',['../classdisplay__trap_1_1DisplayTrap.html#a96d1053ca171bba45b7775a5ccb3a9ad',1,'display_trap::DisplayTrap']]],
   ['unsharemodule',['unshareModule',['../classcore_1_1remote_1_1RemoteObjectManager.html#a18576b6e360e5580efe9c60da8630884',1,'core::remote::RemoteObjectManager']]],

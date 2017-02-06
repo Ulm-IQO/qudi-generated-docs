@@ -28,7 +28,7 @@
 <area shape="rect" id="node58" href="$classpoi__manager__logic_1_1PoiManagerLogic.html" title="This is the Logic class for mapping and tracking bright features in the confocal scan. " alt="" coords="561,533,764,579"/>
 <area shape="rect" id="node60" href="$classpolarisation__dep__logic_1_1PolarisationDepLogic.html" title="This logic module rotates polarisation and records signal as a function of angle. ..." alt="" coords="552,602,773,649"/>
 <area shape="rect" id="node62" href="$classpulse__analysis__logic_1_1PulseAnalysisLogic.html" title="unstable Nikolas Tomek " alt="" coords="573,671,752,718"/>
-<area shape="rect" id="node64" href="$classpulse__extraction__logic_1_1PulseExtractionLogic.html" title="unstable Nikolas Tomek " alt="" coords="569,741,756,787"/>
+<area shape="rect" id="node64" href="$classpulse__extraction__logic_1_1PulseExtractionLogic.html" title="pulse_extraction_logic.Pulse\lExtractionLogic" alt="" coords="569,741,756,787"/>
 <area shape="rect" id="node66" href="$classpulsed__extraction__external__logic_1_1PulsedExtractionExternalLogic.html" title="This logic module helps display user data in plots, and makes it easy to save. " alt="" coords="544,810,781,857"/>
 <area shape="rect" id="node68" href="$classpulsed__master__logic_1_1PulsedMasterLogic.html" title="pulsed_master_logic.Pulsed\lMasterLogic" alt="" coords="571,879,755,926"/>
 <area shape="rect" id="node70" href="$classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html" title="This is the Logic class for the control of pulsed measurements. " alt="" coords="557,949,768,995"/>
