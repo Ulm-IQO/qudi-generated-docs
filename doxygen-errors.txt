@@ -4863,22 +4863,22 @@ IndexError: list index out of range
   parameter 'config'
   parameter 'kwargs'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:485: warning: argument 'number_of_lasers' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::fast_counter_settings_updated(self, bin_width_s, record_length_s)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1259: warning: argument 'sampling_format' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1263: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1255: warning: argument 'sampling_format' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1259: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format) are not documented:
   parameter 'waveform_format'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:429: warning: argument 'functions_list' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::get_fit_functions(self)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:827: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::load_asset_into_channels(self, asset_name, load_dict={})
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:823: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::load_asset_into_channels(self, asset_name, load_dict={})
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:162: warning: argument 'object' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:162: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:934: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.signal_data_updated(self, signal_data_x, signal_data_y, signal_data_y2, error_data_y, error_data_y2, signal_fft_x, signal_fft_y, signal_fft_y2) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:930: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.signal_data_updated(self, signal_data_x, signal_data_y, signal_data_y2, error_data_y, error_data_y2, signal_fft_x, signal_fft_y, signal_fft_y2) are not documented:
   parameter 'signal_fft_x'
   parameter 'signal_fft_y'
   parameter 'signal_fft_y2'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:86: warning: Member __init__(self, config, kwargs) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:373: warning: Member set_pulse_sequence_properties(self, controlled_vals, number_of_lasers, sequence_length_s, laser_ignore_list, is_alternating, laser_trigger_delay_s) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:676: warning: Member set_microwave_params(self, frequency=None, power=None, use_ext_mw=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1009: warning: Member save_measurement_data(self, controlled_val_unit='a.u.', tag=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:372: warning: Member set_pulse_sequence_properties(self, controlled_vals, number_of_lasers, sequence_length_s, laser_ignore_list, is_alternating, laser_trigger_delay_s) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:675: warning: Member set_microwave_params(self, frequency=None, power=None, use_ext_mw=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1008: warning: Member save_measurement_data(self, controlled_val_unit='a.u.', tag=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:96: warning: Member use_ext_microwave (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:97: warning: Member microwave_power (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:98: warning: Member microwave_freq (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
@@ -4942,25 +4942,25 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:82: warning: Member sigAnalysisMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:83: warning: Member sigExtractionSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:84: warning: Member sigExtractionMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1179: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1179: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1184: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1184: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10) are not documented:
   parameter 'fit_function'
   parameter 'x_data'
   parameter 'y_data'
   parameter 'fit_granularity_fact'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:618: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict={})
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:618: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict={})
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:619: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict={}) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:617: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict={})
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:617: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict={})
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:618: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict={}) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:171: warning: argument 'object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:171: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:260: warning: argument 'object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:260: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:259: warning: argument 'object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:259: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:923: warning: argument 'int' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::set_timer_interval(self, interval)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:925: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.set_timer_interval(self, interval) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:922: warning: argument 'int' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::set_timer_interval(self, interval)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:924: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.set_timer_interval(self, interval) are not documented:
   parameter 'interval'
 /home/travis/build/Ulm-IQO/qudi/hardware/pulser_dummy.py:52: warning: Member __init__(self, config, kwargs) (function) of class pulser_dummy::PulserDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
