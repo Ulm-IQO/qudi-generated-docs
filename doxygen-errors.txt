@@ -2887,25 +2887,25 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:561: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict=None) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:53: warning: Member __init__(self, kwargs) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:275: warning: Member initialize(self) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:255: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::ask(self, param_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:257: warning: Unsupported xml/html tag <the> found
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:255: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.ask(self, param_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:280: warning: Member initialize(self) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:260: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::ask(self, param_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:262: warning: Unsupported xml/html tag <the> found
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:260: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.ask(self, param_dict=None) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:185: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::calibrate(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:185: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.calibrate(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:188: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::calibrate(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:188: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.calibrate(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:151: warning: argument 'list' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:153: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:154: warning: argument 'list' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:156: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:165: warning: argument 'list' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:167: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:168: warning: argument 'list' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:170: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:204: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::get_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:204: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.get_velocity(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:207: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::get_velocity(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:207: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.get_velocity(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:122: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:124: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:123: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:125: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:103: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::move_rel(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:105: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.move_rel(self, param_dict) are not documented:
@@ -2916,15 +2916,15 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:81: warning: argument 'object' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:81: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:291: warning: argument 'bool' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::set_magnet_idle_state(self, magnet_idle=True)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:291: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.set_magnet_idle_state(self, magnet_idle=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:297: warning: argument 'bool' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::set_magnet_idle_state(self, magnet_idle=True)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:297: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.set_magnet_idle_state(self, magnet_idle=True) are not documented:
   parameter 'magnet_idle'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:218: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::set_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:218: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.set_velocity(self, param_list=None) are not documented:
-  parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:238: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::tell(self, param_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:240: warning: Unsupported xml/html tag <the> found
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:238: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.tell(self, param_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:221: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::set_velocity(self, param_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:221: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.set_velocity(self, param_dict=None) are not documented:
+  parameter 'param_dict'
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:242: warning: argument 'dict' of command @param is not found in the argument list of magnet_motor_interfuse.MagnetMotorInterfuse::tell(self, param_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:244: warning: Unsupported xml/html tag <the> found
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:242: warning: The following parameters of magnet_motor_interfuse.MagnetMotorInterfuse.tell(self, param_dict=None) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:70: warning: Member __init__(self, kwargs) (function) of class magnet_motor_xyz_rot_interfuse::MagnetMotorXYZROTInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:380: warning: Member initialize(self) (function) of class magnet_motor_xyz_rot_interfuse::MagnetMotorXYZROTInterfuse is not documented.
@@ -3485,20 +3485,20 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:514: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::calibrate(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:514: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.calibrate(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:527: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::calibrate(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:527: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.calibrate(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:433: warning: argument 'list' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:435: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:446: warning: argument 'list' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:448: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:481: warning: argument 'list' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:483: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:494: warning: argument 'list' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:496: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:546: warning: argument 'list' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::get_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:546: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.get_velocity(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:559: warning: argument 'list' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::get_velocity(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:559: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.get_velocity(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:388: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:390: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:397: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:399: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:365: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::move_rel(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:367: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.move_rel(self, param_dict) are not documented:
@@ -3509,8 +3509,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:284: warning: argument 'object' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:284: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:573: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:573: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:586: warning: argument 'dict' of command @param is not found in the argument list of motor.motor_stage_pi.MotorStagePI::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:586: warning: The following parameters of motor.motor_stage_pi.MotorStagePI.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/zaber_motor_rotation_stage.py:49: warning: Member __init__(self, kwargs) (function) of class motor::zaber_motor_rotation_stage::MotorRotationZaber is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
