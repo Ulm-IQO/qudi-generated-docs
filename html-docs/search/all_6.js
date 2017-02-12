@@ -18,6 +18,8 @@ var searchData=
   ['finish_5frefocus',['finish_refocus',['../classoptimizer__logic_1_1OptimizerLogic.html#a2bf03e7af3bbaead05c8a6e3025a823a',1,'optimizer_logic::OptimizerLogic']]],
   ['fit_5fclicked',['fit_clicked',['../classgated__counter__gui_1_1GatedCounterGui.html#affffc260f5a358f46a6eb8430077dfe1',1,'gated_counter_gui.GatedCounterGui.fit_clicked()'],['../classpulsed__maingui_1_1PulsedMeasurementGui.html#acd04e79b440ce10840fa99680b02ca54',1,'pulsed_maingui.PulsedMeasurementGui.fit_clicked()']]],
   ['fit_5fdata_5fupdated',['fit_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#aa0c97589e112b16eaf3f365a74d05a09',1,'pulsed_maingui::PulsedMeasurementGui']]],
+  ['fit_5fdomain_5fto_5fdata',['fit_domain_to_data',['../classqdplottergui_1_1QdplotterGui.html#a63a80f584ec20b5d51d678608eef71e9',1,'qdplottergui::QdplotterGui']]],
+  ['fit_5frange_5fto_5fdata',['fit_range_to_data',['../classqdplottergui_1_1QdplotterGui.html#aa506d0a4eab1597fce87d4fafd87caec',1,'qdplottergui::QdplotterGui']]],
   ['fit_5fupdated',['fit_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a7059502040cc3358965bec5c180e0640',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['fitlogic',['FitLogic',['../classfit__logic__standalone_1_1FitLogic.html',1,'fit_logic_standalone.FitLogic'],['../classfit__logic_1_1FitLogic.html',1,'fit_logic.FitLogic']]],
   ['fitsettingscombobox',['FitSettingsComboBox',['../classgui_1_1fitsettings_1_1FitSettingsComboBox.html',1,'gui::fitsettings']]],

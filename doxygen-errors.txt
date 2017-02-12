@@ -5120,7 +5120,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:191: warning: argument 'str' of command @param is not found in the argument list of qdplot_logic.QdplotLogic::save_data(self, postfix='')
 /home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:191: warning: The following parameters of qdplot_logic.QdplotLogic.save_data(self, postfix='') are not documented:
   parameter 'postfix'
-/home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:124: warning: argument 'float' of command @param is not found in the argument list of qdplot_logic.QdplotLogic::set_domain(self, newdomain=None)
+/home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:126: warning: argument 'float' of command @param is not found in the argument list of qdplot_logic.QdplotLogic::set_domain(self, newdomain=None)
 /home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:126: warning: The following parameters of qdplot_logic.QdplotLogic.set_domain(self, newdomain=None) are not documented:
   parameter 'newdomain'
 /home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:156: warning: argument 'string' of command @param is not found in the argument list of qdplot_logic.QdplotLogic::set_hlabel(self, label='Independent variable', units='arb. units')
@@ -5138,9 +5138,9 @@ IndexError: list index out of range
   parameter 'units'
 /home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:35: warning: Member __init__(self) (function) of class qdplottergui::QdplotMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:68: warning: Member __init__(self, config, kwargs) (function) of class qdplottergui::QdplotterGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:165: warning: Member updatePlot(self) (function) of class qdplottergui::QdplotterGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:207: warning: Member h_label_changed(self) (function) of class qdplottergui::QdplotterGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:212: warning: Member v_label_changed(self) (function) of class qdplottergui::QdplotterGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:168: warning: Member updatePlot(self) (function) of class qdplottergui::QdplotterGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:233: warning: Member h_label_changed(self) (function) of class qdplottergui::QdplotterGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:238: warning: Member v_label_changed(self) (function) of class qdplottergui::QdplotterGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
@@ -5153,8 +5153,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:88: warning: argument 'object' of command @param is not found in the argument list of qdplottergui.QdplotterGui::on_activate(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:88: warning: The following parameters of qdplottergui.QdplotterGui.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:153: warning: argument 'object' of command @param is not found in the argument list of qdplottergui.QdplotterGui::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:155: warning: The following parameters of qdplottergui.QdplotterGui.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:156: warning: argument 'object' of command @param is not found in the argument list of qdplottergui.QdplotterGui::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/gui/qdplotter/qdplottergui.py:158: warning: The following parameters of qdplottergui.QdplotterGui.on_deactivate(self, e) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/plotwidget_modified.py:42: warning: Member __init__(self, args, kargs) (function) of class qtwidgets::plotwidget_modified::PlotWidgetModified is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/plotwidget_modified.py:65: warning: Member mousePressPos (variable) of class qtwidgets::plotwidget_modified::PlotWidgetModified is not documented.
