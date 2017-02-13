@@ -27,6 +27,7 @@ var searchData=
   ['fitsettingswidget',['FitSettingsWidget',['../classgui_1_1fitsettings_1_1FitSettingsWidget.html',1,'gui::fitsettings']]],
   ['flags',['flags',['../classcore_1_1threadmanager_1_1ThreadManager.html#ae13353330a32c6f10921d2d334dd7606',1,'core.threadmanager.ThreadManager.flags()'],['../classcore_1_1util_1_1models_1_1DictTableModel.html#a61c59e6ac02b6aba478be9c0071481a5',1,'core.util.models.DictTableModel.flags()'],['../classcore_1_1util_1_1models_1_1ListTableModel.html#ab71207888620ead9c153edd3a94a3cc1',1,'core.util.models.ListTableModel.flags()'],['../classgui_1_1manager_1_1logwidget_1_1LogModel.html#a430609be76fc7e2228cb538cca755054',1,'gui.manager.logwidget.LogModel.flags()']]],
   ['flipmirror',['FlipMirror',['../classflipmirror_1_1FlipMirror.html',1,'flipmirror']]],
+  ['fluorescence_5fintegration_5ftime_5fchanged',['fluorescence_integration_time_changed',['../classmagnet__gui_1_1MagnetGui.html#ab1a79cc7a1fd8dad40187b2b31cdc466',1,'magnet_gui::MagnetGui']]],
   ['format',['format',['../classcore_1_1logger_1_1QtLogFormatter.html#a302e8d49373dfcf02778619b7fea5ce9',1,'core::logger::QtLogFormatter']]],
   ['functionimplementationerror',['FunctionImplementationError',['../classsave__logic_1_1FunctionImplementationError.html',1,'save_logic']]],
   ['fysom',['Fysom',['../classcore_1_1FysomAdapter_1_1Fysom.html',1,'core::FysomAdapter']]]

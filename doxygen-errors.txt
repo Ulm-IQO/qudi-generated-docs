@@ -2730,10 +2730,10 @@ IndexError: list index out of range
   parameter 'update'
   parameter 'finish'
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:179: warning: Member __init__(self, config, kwargs) (function) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:475: warning: Member trig_wrapper_normal_mode(self) (function) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:481: warning: Member trig_wrapper_z_mode(self) (function) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:578: warning: Member keep_former_magnet_settings(self) (function) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1250: warning: Member continue_2d_alignment_clicked(self) (function) of class magnet_gui::MagnetGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:487: warning: Member trig_wrapper_normal_mode(self) (function) of class magnet_gui::MagnetGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:493: warning: Member trig_wrapper_z_mode(self) (function) of class magnet_gui::MagnetGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:592: warning: Member keep_former_magnet_settings(self) (function) of class magnet_gui::MagnetGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1271: warning: Member continue_2d_alignment_clicked(self) (function) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
@@ -2741,32 +2741,32 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:308: warning: Member roi_magnet (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:326: warning: Member hline_magnet (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:328: warning: Member vline_magnet (variable) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:371: warning: Member measurement_type (variable) of class magnet_gui::MagnetGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:375: warning: Member measurement_type (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1240: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::continue_stop_2d_alignment(self, is_checked)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1242: warning: The following parameters of magnet_gui.MagnetGui.continue_stop_2d_alignment(self, is_checked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1261: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::continue_stop_2d_alignment(self, is_checked)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1263: warning: The following parameters of magnet_gui.MagnetGui.continue_stop_2d_alignment(self, is_checked) are not documented:
   parameter 'is_checked'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1014: warning: Unsupported xml/html tag <axis_label> found
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1014: warning: Unsupported xml/html tag <position> found
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:997: warning: argument 'str' of command @param is not found in the argument list of magnet_gui.MagnetGui::move_rel(self, axis_label, direction)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:997: warning: argument 'int' of command @param is not found in the argument list of magnet_gui.MagnetGui::move_rel(self, axis_label, direction)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:997: warning: The following parameters of magnet_gui.MagnetGui.move_rel(self, axis_label, direction) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1028: warning: Unsupported xml/html tag <axis_label> found
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1028: warning: Unsupported xml/html tag <position> found
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1011: warning: argument 'str' of command @param is not found in the argument list of magnet_gui.MagnetGui::move_rel(self, axis_label, direction)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1011: warning: argument 'int' of command @param is not found in the argument list of magnet_gui.MagnetGui::move_rel(self, axis_label, direction)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1011: warning: The following parameters of magnet_gui.MagnetGui.move_rel(self, axis_label, direction) are not documented:
   parameter 'axis_label'
   parameter 'direction'
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:201: warning: argument 'object' of command @param is not found in the argument list of magnet_gui.MagnetGui::on_activate(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:201: warning: The following parameters of magnet_gui.MagnetGui.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:493: warning: argument 'object' of command @param is not found in the argument list of magnet_gui.MagnetGui::on_deactivate(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:493: warning: The following parameters of magnet_gui.MagnetGui.on_deactivate(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:505: warning: argument 'object' of command @param is not found in the argument list of magnet_gui.MagnetGui::on_deactivate(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:505: warning: The following parameters of magnet_gui.MagnetGui.on_deactivate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1110: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::run_stop_2d_alignment(self, is_checked)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1112: warning: The following parameters of magnet_gui.MagnetGui.run_stop_2d_alignment(self, is_checked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1131: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::run_stop_2d_alignment(self, is_checked)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1133: warning: The following parameters of magnet_gui.MagnetGui.run_stop_2d_alignment(self, is_checked) are not documented:
   parameter 'is_checked'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1480: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1088: warning: argument 'list' of command @param is not found in the argument list of magnet_gui.MagnetGui::update_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1088: warning: The following parameters of magnet_gui.MagnetGui.update_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1501: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1109: warning: argument 'list' of command @param is not found in the argument list of magnet_gui.MagnetGui::update_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1109: warning: The following parameters of magnet_gui.MagnetGui.update_pos(self, param_list=None) are not documented:
   parameter 'param_list'
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:138: warning: Member __init__(self) (function) of class magnet_gui::MagnetMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:149: warning: Member __init__(self) (function) of class magnet_gui::MagnetSettingsWindow is not documented.
@@ -2803,47 +2803,46 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/magnet_interface.py:235: warning: Unsupported xml/html tag <the> found
 /home/travis/build/Ulm-IQO/qudi/interface/magnet_interface.py:234: warning: The following parameters of magnet_interface.MagnetInterface.tell(self, param_dict=None) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:141: warning: Member __init__(self, config, kwargs) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:823: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:857: warning: Member start_2d_alignment(self, axis0_name, axis0_range, axis0_step, axis1_name, axis1_range, axis1_step, axis0_vel=None, axis1_vel=None, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1957: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2135: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2145: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2148: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:193: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:196: warning: Member curr_2d_pathway_mode (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:264: warning: Member curr_alignment_method (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:268: warning: Member alignment_methods (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:277: warning: Member fluorescence_integration_time (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:284: warning: Member odmr_2d_low_center_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:289: warning: Member odmr_2d_low_step_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:294: warning: Member odmr_2d_low_range_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:299: warning: Member odmr_2d_low_power (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:304: warning: Member odmr_2d_low_runtime (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:308: warning: Member odmr_2d_low_fitfunction_list (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:311: warning: Member odmr_2d_low_fitfunction (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:318: warning: Member odmr_2d_high_center_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:323: warning: Member odmr_2d_high_step_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:328: warning: Member odmr_2d_high_range_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:333: warning: Member odmr_2d_high_power (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:338: warning: Member odmr_2d_high_runtime (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:342: warning: Member odmr_2d_high_fitfunction_list (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:345: warning: Member odmr_2d_high_fitfunction (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:350: warning: Member odmr_2d_save_after_measure (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:355: warning: Member odmr_2d_peak_axis0_move_ratio (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:360: warning: Member odmr_2d_peak_axis1_move_ratio (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:367: warning: Member norm (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:369: warning: Member odmr_2d_single_trans (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:374: warning: Member nuclear_2d_rabi_periode (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:379: warning: Member nuclear_2d_mw_freq (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:384: warning: Member nuclear_2d_mw_channel (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:389: warning: Member nuclear_2d_mw_power (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:394: warning: Member nuclear_2d_laser_time (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:399: warning: Member nuclear_2d_laser_channel (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:404: warning: Member nuclear_2d_detect_channel (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:409: warning: Member nuclear_2d_idle_time (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:414: warning: Member nuclear_2d_reps_within_ssr (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:419: warning: Member nuclear_2d_num_ssr (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:145: warning: Member __init__(self, config, kwargs) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:828: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:862: warning: Member start_2d_alignment(self, axis0_name, axis0_range, axis0_step, axis1_name, axis1_range, axis1_step, axis0_vel=None, axis1_vel=None, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1962: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2140: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2150: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2153: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:197: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:200: warning: Member curr_2d_pathway_mode (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:268: warning: Member curr_alignment_method (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:272: warning: Member alignment_methods (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:289: warning: Member odmr_2d_low_center_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:294: warning: Member odmr_2d_low_step_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:299: warning: Member odmr_2d_low_range_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:304: warning: Member odmr_2d_low_power (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:309: warning: Member odmr_2d_low_runtime (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:313: warning: Member odmr_2d_low_fitfunction_list (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:316: warning: Member odmr_2d_low_fitfunction (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:323: warning: Member odmr_2d_high_center_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:328: warning: Member odmr_2d_high_step_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:333: warning: Member odmr_2d_high_range_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:338: warning: Member odmr_2d_high_power (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:343: warning: Member odmr_2d_high_runtime (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:347: warning: Member odmr_2d_high_fitfunction_list (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:350: warning: Member odmr_2d_high_fitfunction (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:355: warning: Member odmr_2d_save_after_measure (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:360: warning: Member odmr_2d_peak_axis0_move_ratio (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:365: warning: Member odmr_2d_peak_axis1_move_ratio (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:372: warning: Member norm (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:374: warning: Member odmr_2d_single_trans (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:379: warning: Member nuclear_2d_rabi_periode (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:384: warning: Member nuclear_2d_mw_freq (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:389: warning: Member nuclear_2d_mw_channel (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:394: warning: Member nuclear_2d_mw_power (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:399: warning: Member nuclear_2d_laser_time (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:404: warning: Member nuclear_2d_laser_channel (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:409: warning: Member nuclear_2d_detect_channel (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:414: warning: Member nuclear_2d_idle_time (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:419: warning: Member nuclear_2d_reps_within_ssr (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: Member nuclear_2d_num_ssr (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:94: warning: Member sigIdleStateChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:95: warning: Member sigPosChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:98: warning: Member sigMeasurementStarted (variable) of class magnet_logic::MagnetLogic is not documented.
@@ -2861,30 +2860,32 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:131: warning: Member sig1DAxisChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:132: warning: Member sig2DAxisChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:133: warning: Member sig3DAxisChanged (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:136: warning: Member sigODMRLowFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:137: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:139: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:136: warning: Member sigFluoIntTimeChanged (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:137: warning: Member sigOptPosFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:140: warning: Member sigODMRLowFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:141: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:143: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:63: warning: Illegal command par as part of a <h1> tag
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:517: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:517: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:522: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:522: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:531: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:533: warning: The following parameters of magnet_logic.MagnetLogic.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:536: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:538: warning: The following parameters of magnet_logic.MagnetLogic.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:493: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:495: warning: The following parameters of magnet_logic.MagnetLogic.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:498: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:500: warning: The following parameters of magnet_logic.MagnetLogic.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:479: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:479: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:484: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:484: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:156: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_activate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:156: warning: The following parameters of magnet_logic.MagnetLogic.on_activate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:160: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:160: warning: The following parameters of magnet_logic.MagnetLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:429: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:429: warning: The following parameters of magnet_logic.MagnetLogic.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:434: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:434: warning: The following parameters of magnet_logic.MagnetLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:554: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:554: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:559: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:559: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:53: warning: Member __init__(self, kwargs) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:280: warning: Member initialize(self) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
