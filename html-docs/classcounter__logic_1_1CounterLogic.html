@@ -133,9 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa503f4c48a8b06b4071c9935fc8a6cfe"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcounter__logic_1_1CounterLogic.html#aa503f4c48a8b06b4071c9935fc8a6cfe">draw_figure</a> (self, data)</td></tr>
 <tr class="memdesc:aa503f4c48a8b06b4071c9935fc8a6cfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw figure to save with data file.  <a href="#aa503f4c48a8b06b4071c9935fc8a6cfe">More...</a><br /></td></tr>
 <tr class="separator:aa503f4c48a8b06b4071c9935fc8a6cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9a1813ab6b745de504600d50b7d3ca9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcounter__logic_1_1CounterLogic.html#af9a1813ab6b745de504600d50b7d3ca9">set_counting_mode</a> (self, mode='continuous')</td></tr>
-<tr class="memdesc:af9a1813ab6b745de504600d50b7d3ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the counting mode, to change between continuous and gated counting.  <a href="#af9a1813ab6b745de504600d50b7d3ca9">More...</a><br /></td></tr>
-<tr class="separator:af9a1813ab6b745de504600d50b7d3ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa997a62c586bf23fb40599cd98a9517d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcounter__logic_1_1CounterLogic.html#aa997a62c586bf23fb40599cd98a9517d">set_counting_mode</a> (self, mode='CONTINUOUS')</td></tr>
+<tr class="memdesc:aa997a62c586bf23fb40599cd98a9517d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the counting mode, to change between continuous and gated counting.  <a href="#aa997a62c586bf23fb40599cd98a9517d">More...</a><br /></td></tr>
+<tr class="separator:aa997a62c586bf23fb40599cd98a9517d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41800f48c9271c9444f697bb90876707"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcounter__logic_1_1CounterLogic.html#a41800f48c9271c9444f697bb90876707">get_counting_mode</a> (self)</td></tr>
 <tr class="memdesc:a41800f48c9271c9444f697bb90876707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the current counting mode.  <a href="#a41800f48c9271c9444f697bb90876707">More...</a><br /></td></tr>
 <tr class="separator:a41800f48c9271c9444f697bb90876707"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +222,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigCountStatusChanged</b> = QtCore.Signal(bool)</td></tr>
 <tr class="separator:ada2d4a9004f81f004224221581d2d83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17c29bd2701c465f61a24040cb8c5ee8"><td class="memItemLeft" align="right" valign="top"><a id="a17c29bd2701c465f61a24040cb8c5ee8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigCountingModeChanged</b> = QtCore.Signal(str)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigCountingModeChanged</b> = QtCore.Signal(CountingMode)</td></tr>
 <tr class="separator:a17c29bd2701c465f61a24040cb8c5ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -453,7 +453,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieve the current counting mode. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: one of the possible counting options: 'continuous' = counts continuously 'gated' = bins the counts according to a gate signal 'finite-gated' = finite measurement with predefined number of samples </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>str: one of the possible counting options: 'CONTINUOUS' = counts continuously 'GATED' = bins the counts according to a gate signal 'FINITE_GATED' = finite measurement with predefined number of samples </dd></dl>
 
 </div>
 </div>
@@ -751,8 +751,8 @@ provided name!</pre> </dd></dl>
 
 </div>
 </div>
-<a id="af9a1813ab6b745de504600d50b7d3ca9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9a1813ab6b745de504600d50b7d3ca9">&#9670;&nbsp;</a></span>set_counting_mode()</h2>
+<a id="aa997a62c586bf23fb40599cd98a9517d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa997a62c586bf23fb40599cd98a9517d">&#9670;&nbsp;</a></span>set_counting_mode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,7 +767,7 @@ provided name!</pre> </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>mode</em> = <code>'continuous'</code>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code>'CONTINUOUS'</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -778,7 +778,7 @@ provided name!</pre> </dd></dl>
 </div><div class="memdoc">
 
 <p>Set the counting mode, to change between continuous and gated counting. </p>
-<p>Possible options are: 'continuous' = counts continuously 'gated' = bins the counts according to a gate signal 'finite-gated' = finite measurement with predefined number of samples</p>
+<p>Possible options are: 'CONTINUOUS' = counts continuously 'GATED' = bins the counts according to a gate signal 'FINITE_GATED' = finite measurement with predefined number of samples</p>
 <dl class="section return"><dt>Returns</dt><dd>str: counting mode </dd></dl>
 
 </div>

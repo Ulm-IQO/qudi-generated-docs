@@ -1198,55 +1198,55 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:276: warning: Member __setattr__(self, attr, val) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:284: warning: Member __wrap_object__(self, obj) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:293: warning: Member __wrapped_object__(self) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:88: warning: Member threadlock (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:127: warning: Member countdata (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:129: warning: Member countdata_smoothed (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:131: warning: Member rawdata (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:134: warning: Member running (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:135: warning: Member stopRequested (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:42: warning: Member sigCounterUpdated (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:43: warning: Member sigCountContinuousNext (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:44: warning: Member sigCountGatedNext (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:46: warning: Member sigCountFiniteGatedNext (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:47: warning: Member sigGatedCounterFinished (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:48: warning: Member sigGatedCounterContinue (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:50: warning: Member sigCountingSamplesChanged (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:51: warning: Member sigCountLengthChanged (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:52: warning: Member sigCountFrequencyChanged (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:53: warning: Member sigSavingStatusChanged (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:54: warning: Member sigCountStatusChanged (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:55: warning: Member sigCountingModeChanged (variable) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:41: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:89: warning: Member threadlock (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:128: warning: Member countdata (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:130: warning: Member countdata_smoothed (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:132: warning: Member rawdata (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:135: warning: Member running (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:136: warning: Member stopRequested (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:43: warning: Member sigCounterUpdated (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:44: warning: Member sigCountContinuousNext (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:45: warning: Member sigCountGatedNext (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:47: warning: Member sigCountFiniteGatedNext (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:48: warning: Member sigGatedCounterFinished (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:49: warning: Member sigGatedCounterContinue (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:51: warning: Member sigCountingSamplesChanged (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:52: warning: Member sigCountLengthChanged (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:53: warning: Member sigCountFrequencyChanged (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:54: warning: Member sigSavingStatusChanged (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:55: warning: Member sigCountStatusChanged (variable) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:56: warning: Member sigCountingModeChanged (variable) of class counter_logic::CounterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:42: warning: Found unknown command `\signal'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:44: warning: Found unknown command `\sigmal'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:84: warning: argument 'dict' of command @param is not found in the argument list of counter_logic.CounterLogic::__init__(self, config, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:84: warning: argument 'dict' of command @param is not found in the argument list of counter_logic.CounterLogic::__init__(self, config, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:84: warning: The following parameters of counter_logic.CounterLogic.__init__(self, config, kwargs) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:43: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:45: warning: Found unknown command `\sigmal'
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:85: warning: argument 'dict' of command @param is not found in the argument list of counter_logic.CounterLogic::__init__(self, config, kwargs)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:85: warning: argument 'dict' of command @param is not found in the argument list of counter_logic.CounterLogic::__init__(self, config, kwargs)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:85: warning: The following parameters of counter_logic.CounterLogic.__init__(self, config, kwargs) are not documented:
   parameter 'config'
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:345: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:119: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_activate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:119: warning: The following parameters of counter_logic.CounterLogic.on_activate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:346: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:120: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:120: warning: The following parameters of counter_logic.CounterLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:160: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:160: warning: The following parameters of counter_logic.CounterLogic.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:161: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:161: warning: The following parameters of counter_logic.CounterLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:734: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_current_count_trace(self, name_tag='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:734: warning: The following parameters of counter_logic.CounterLogic.save_current_count_trace(self, name_tag='') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:737: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_current_count_trace(self, name_tag='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:737: warning: The following parameters of counter_logic.CounterLogic.save_current_count_trace(self, name_tag='') are not documented:
   parameter 'name_tag'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:295: warning: argument 'bool' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:295: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:295: warning: The following parameters of counter_logic.CounterLogic.save_data(self, to_file=True, postfix='') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:296: warning: argument 'bool' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:296: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:296: warning: The following parameters of counter_logic.CounterLogic.save_data(self, to_file=True, postfix='') are not documented:
   parameter 'to_file'
   parameter 'postfix'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:228: warning: argument 'float' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_frequency(self, frequency=50)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:228: warning: The following parameters of counter_logic.CounterLogic.set_count_frequency(self, frequency=50) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:229: warning: argument 'float' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_frequency(self, frequency=50)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:229: warning: The following parameters of counter_logic.CounterLogic.set_count_frequency(self, frequency=50) are not documented:
   parameter 'frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:208: warning: argument 'int' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_length(self, length=300)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:208: warning: The following parameters of counter_logic.CounterLogic.set_count_length(self, length=300) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:209: warning: argument 'int' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_length(self, length=300)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:209: warning: The following parameters of counter_logic.CounterLogic.set_count_length(self, length=300) are not documented:
   parameter 'length'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:188: warning: argument 'int' of command @param is not found in the argument list of counter_logic.CounterLogic::set_counting_samples(self, samples=1)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:188: warning: The following parameters of counter_logic.CounterLogic.set_counting_samples(self, samples=1) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:189: warning: argument 'int' of command @param is not found in the argument list of counter_logic.CounterLogic::set_counting_samples(self, samples=1)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:189: warning: The following parameters of counter_logic.CounterLogic.set_counting_samples(self, samples=1) are not documented:
   parameter 'samples'
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:71: warning: Member __init__(self, config, kwargs) (function) of class countergui::CounterGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:388: warning: Member update_counting_mode_ComboBox(self) (function) of class countergui::CounterGui is not documented.
