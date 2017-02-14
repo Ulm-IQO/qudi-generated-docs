@@ -1467,11 +1467,11 @@ IndexError: list index out of range
   parameter 'number_of_gates'
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:163: warning: Member __init__(self, config, kwargs) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: Member get_status(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:356: warning: Member get_data_trace(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:447: warning: Member SetDelay(self, t) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:456: warning: Member GetDelay(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:461: warning: Member SetLevel(self, start, stop) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: Member GetLevel(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:359: warning: Member get_data_trace(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:450: warning: Member SetDelay(self, t) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:459: warning: Member GetDelay(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:464: warning: Member SetLevel(self, start, stop) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:475: warning: Member GetLevel(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:172: warning: Member GATED (variable) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:173: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
@@ -1493,14 +1493,14 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:199: warning: argument 'object' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:199: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:407: warning: argument 'float' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:407: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:410: warning: argument 'float' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:410: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
   parameter 'binwidth'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:393: warning: argument 'int' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:393: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:396: warning: argument 'int' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:396: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
   parameter 'bitshift'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:420: warning: argument 'int' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::set_length(self, length_bins)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:420: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.set_length(self, length_bins) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:423: warning: argument 'int' of command @param is not found in the argument list of fastcomtec.fastcomtecmcs6.FastComtec::set_length(self, length_bins)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:423: warning: The following parameters of fastcomtec.fastcomtecmcs6.FastComtec.set_length(self, length_bins) are not documented:
   parameter 'length_bins'
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:174: warning: Member __init__(self, config, kwargs) (function) of class fastcomtec::fastcomtecp7887::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:297: warning: Member get_status(self) (function) of class fastcomtec::fastcomtecp7887::FastComtec is not documented.
@@ -2804,12 +2804,12 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/magnet_interface.py:234: warning: The following parameters of magnet_interface.MagnetInterface.tell(self, param_dict=None) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:159: warning: Member __init__(self, config, kwargs) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:907: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:941: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2044: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2222: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2232: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2235: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:909: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:943: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2046: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2224: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2234: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2237: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:211: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:216: warning: Member move_rel (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:227: warning: Member align_2d_axis0_name (variable) of class magnet_logic::MagnetLogic is not documented.
@@ -2884,18 +2884,18 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:155: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:157: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:63: warning: Illegal command par as part of a <h1> tag
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2255: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:598: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:598: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2257: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:600: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:600: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:612: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:614: warning: The following parameters of magnet_logic.MagnetLogic.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:614: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:616: warning: The following parameters of magnet_logic.MagnetLogic.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:574: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:576: warning: The following parameters of magnet_logic.MagnetLogic.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:576: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:578: warning: The following parameters of magnet_logic.MagnetLogic.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:560: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:560: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:562: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:562: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:174: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:174: warning: The following parameters of magnet_logic.MagnetLogic.on_activate(self, e) are not documented:
@@ -2903,9 +2903,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:496: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:496: warning: The following parameters of magnet_logic.MagnetLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2243: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:635: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:635: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2245: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:637: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:637: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:53: warning: Member __init__(self, kwargs) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:280: warning: Member initialize(self) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
