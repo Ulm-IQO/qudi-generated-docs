@@ -150,6 +150,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>get_2d_data_matrix</b>
 <tr class="memitem:a1fc0ba42e317b2b5646fdca116d351f8"><td class="memItemLeft" align="right" valign="top"><a id="a1fc0ba42e317b2b5646fdca116d351f8"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_2d_axis_arrays</b> (self)</td></tr>
 <tr class="separator:a1fc0ba42e317b2b5646fdca116d351f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329434d2797a5703fe702066566413e4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmagnet__logic_1_1MagnetLogic.html#a329434d2797a5703fe702066566413e4">set_move_rel_para</a> (self, dict)</td></tr>
+<tr class="memdesc:a329434d2797a5703fe702066566413e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the move relative parameters according to dict.  <a href="#a329434d2797a5703fe702066566413e4">More...</a><br /></td></tr>
+<tr class="separator:a329434d2797a5703fe702066566413e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5884896ccc195d8ccb3479a1c5b30772"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmagnet__logic_1_1MagnetLogic.html#a5884896ccc195d8ccb3479a1c5b30772">get_move_rel_para</a> (self, param_list=None)</td></tr>
+<tr class="memdesc:a5884896ccc195d8ccb3479a1c5b30772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the move relative parameters.  <a href="#a5884896ccc195d8ccb3479a1c5b30772">More...</a><br /></td></tr>
+<tr class="separator:a5884896ccc195d8ccb3479a1c5b30772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414195cc96dd91bd9e6d11bfedf0f24a"><td class="memItemLeft" align="right" valign="top"><a id="a414195cc96dd91bd9e6d11bfedf0f24a"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmagnet__logic_1_1MagnetLogic.html#a414195cc96dd91bd9e6d11bfedf0f24a">set_optimize_pos_freq</a> (self, freq)</td></tr>
 <tr class="memdesc:a414195cc96dd91bd9e6d11bfedf0f24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the optimization frequency. <br /></td></tr>
@@ -236,6 +242,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a04f384a6b4af141e4fc078306bdfa95d"><td class="memItemLeft" align="right" valign="top"><a id="a04f384a6b4af141e4fc078306bdfa95d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>pathway_modes</b></td></tr>
 <tr class="separator:a04f384a6b4af141e4fc078306bdfa95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56711f7b4377e98a67df9916f7e0979b"><td class="memItemLeft" align="right" valign="top"><a id="a56711f7b4377e98a67df9916f7e0979b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>move_rel</b></td></tr>
+<tr class="separator:a56711f7b4377e98a67df9916f7e0979b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4098952fd4a46bbcfede4a3aef708afb"><td class="memItemLeft" align="right" valign="top"><a id="a4098952fd4a46bbcfede4a3aef708afb"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>align_2d_axis0_name</b></td></tr>
 <tr class="separator:a4098952fd4a46bbcfede4a3aef708afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,6 +443,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:acd60a3cc7d6aefae5a0df5e7028ed938"><td class="memItemLeft" align="right" valign="top"><a id="acd60a3cc7d6aefae5a0df5e7028ed938"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sig2DAxis1VelChanged</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:acd60a3cc7d6aefae5a0df5e7028ed938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47023993e9eb5c5d5ca6bde99698e5f"><td class="memItemLeft" align="right" valign="top"><a id="ae47023993e9eb5c5d5ca6bde99698e5f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigMoveRelChanged</b> = QtCore.Signal(dict)</td></tr>
+<tr class="separator:ae47023993e9eb5c5d5ca6bde99698e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19f0e651b1110eaeedb93a2da1d15bd4"><td class="memItemLeft" align="right" valign="top"><a id="a19f0e651b1110eaeedb93a2da1d15bd4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigFluoIntTimeChanged</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:a19f0e651b1110eaeedb93a2da1d15bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -522,6 +534,38 @@ Static Public Attributes</h2></td></tr>
 
 <p>Retrieve the hardware constraints. </p>
 <dl class="section return"><dt>Returns</dt><dd>dict: dict with constraints for the magnet hardware. The keys are the labels for the axis and the items are again dicts which contain all the limiting parameters. </dd></dl>
+
+</div>
+</div>
+<a id="a5884896ccc195d8ccb3479a1c5b30772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5884896ccc195d8ccb3479a1c5b30772">&#9670;&nbsp;</a></span>get_move_rel_para()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def magnet_logic.MagnetLogic.get_move_rel_para </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>param_list</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the move relative parameters. </p>
+<p>list: Optional list with axis names</p>
+<dl class="section return"><dt>Returns</dt><dd>dict: Dictionary with new values </dd></dl>
 
 </div>
 </div>
@@ -814,6 +858,38 @@ Static Public Attributes</h2></td></tr>
 
 <p>2D alignment settings </p>
 <p>Set the specified value </p>
+
+</div>
+</div>
+<a id="a329434d2797a5703fe702066566413e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329434d2797a5703fe702066566413e4">&#9670;&nbsp;</a></span>set_move_rel_para()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def magnet_logic.MagnetLogic.set_move_rel_para </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>dict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the move relative parameters according to dict. </p>
+<p>dict: Dictionary with new values</p>
+<dl class="section return"><dt>Returns</dt><dd>dict: Dictionary with new values </dd></dl>
 
 </div>
 </div>
