@@ -2,6 +2,8 @@ var searchData=
 [
   ['cache',['cache',['../classcompilerop_1_1CachingCompiler.html#aef63514342da7b3cef1b0435588b6a64',1,'compilerop::CachingCompiler']]],
   ['cachingcompiler',['CachingCompiler',['../classcompilerop_1_1CachingCompiler.html',1,'compilerop']]],
+  ['calc_5fall_5fbinnings',['calc_all_binnings',['../classsingleshot__logic_1_1SingleShotLogic.html#a795082be8942a3579e9fc12accccf03a',1,'singleshot_logic::SingleShotLogic']]],
+  ['calc_5fall_5fbinnings_5fnormalized',['calc_all_binnings_normalized',['../classsingleshot__logic_1_1SingleShotLogic.html#a5f67803eeeeeb65eea197c2157287128',1,'singleshot_logic::SingleShotLogic']]],
   ['calc_5ftilt_5fcorrection',['calc_tilt_correction',['../classconfocal__logic_1_1ConfocalLogic.html#ae387b0f1598a7e277bf8cb0ad34adbd4',1,'confocal_logic::ConfocalLogic']]],
   ['calculate_5fbinary_5ftrace',['calculate_binary_trace',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#ab35bed033489ff3b35b5e5502b371f50',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['calculate_5fhistogram',['calculate_histogram',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a7c1fa588be1338a6e794b2656e07765f',1,'trace_analysis_logic::TraceAnalysisLogic']]],

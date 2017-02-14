@@ -54,6 +54,7 @@ var searchData=
   ['update_5fpos',['update_pos',['../classmagnet__gui_1_1MagnetGui.html#ac0483b10b59b53f7f450515d44003fa7',1,'magnet_gui::MagnetGui']]],
   ['update_5froi_5fdepth',['update_roi_depth',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#ad127daab09029e5460d250d09fc6e9ca',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['update_5froi_5ffrom_5fabs_5fmovement',['update_roi_from_abs_movement',['../classmagnet__gui_1_1MagnetGui.html#a68503116f0644c0b2dee4cf6c67dbc87',1,'magnet_gui::MagnetGui']]],
+  ['update_5froi_5ffrom_5frange',['update_roi_from_range',['../classmagnet__gui_1_1MagnetGui.html#acd5a244c6f9399e6ed28437bb5636208',1,'magnet_gui::MagnetGui']]],
   ['update_5froi_5fxy',['update_roi_xy',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#a322fb2d85e74991df1718b19550b81ad',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['update_5frun_5fstop_5fdisplay',['update_run_stop_display',['../classodmrgui_1_1ODMRGui.html#a47e2c079b7bf4be969e5cc06805538b3',1,'odmrgui::ODMRGui']]],
   ['update_5fsaving_5faction',['update_saving_Action',['../classcountergui_1_1CounterGui.html#aeaacc562d4160c3fdfd64a5246938f3d',1,'countergui::CounterGui']]],

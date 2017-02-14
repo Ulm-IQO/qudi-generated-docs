@@ -20,6 +20,7 @@ var searchData=
   ['simplelaserdummy',['SimpleLaserDummy',['../classlaser_1_1simple__laser__dummy_1_1SimpleLaserDummy.html',1,'laser::simple_laser_dummy']]],
   ['simplelaserinterface',['SimpleLaserInterface',['../classsimple__laser__interface_1_1SimpleLaserInterface.html',1,'simple_laser_interface']]],
   ['simplemainwindow',['SimpleMainWindow',['../classsimpledatagui_1_1SimpleMainWindow.html',1,'simpledatagui']]],
+  ['singleshotlogic',['SingleShotLogic',['../classsingleshot__logic_1_1SingleShotLogic.html',1,'singleshot_logic']]],
   ['slowcounterconstraints',['SlowCounterConstraints',['../classslow__counter__interface_1_1SlowCounterConstraints.html',1,'slow_counter_interface']]],
   ['slowcounterdummy',['SlowCounterDummy',['../classslow__counter__dummy_1_1SlowCounterDummy.html',1,'slow_counter_dummy']]],
   ['slowcounterinterface',['SlowCounterInterface',['../classslow__counter__interface_1_1SlowCounterInterface.html',1,'slow_counter_interface']]],
