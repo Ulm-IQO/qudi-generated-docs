@@ -1468,10 +1468,10 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:163: warning: Member __init__(self, config, kwargs) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: Member get_status(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:360: warning: Member get_data_trace(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:451: warning: Member SetDelay(self, t) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:460: warning: Member GetDelay(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:465: warning: Member SetLevel(self, start, stop) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:476: warning: Member GetLevel(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:458: warning: Member SetDelay(self, t) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:467: warning: Member GetDelay(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: Member SetLevel(self, start, stop) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:483: warning: Member GetLevel(self) (function) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:172: warning: Member GATED (variable) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:173: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtec::fastcomtecmcs6::FastComtec is not documented.
