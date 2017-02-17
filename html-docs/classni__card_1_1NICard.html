@@ -156,9 +156,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a0358c76eabd9006917705f7dd117d8de"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classni__card_1_1NICard.html#a0358c76eabd9006917705f7dd117d8de">set_up_line</a> (self, length=100)</td></tr>
 <tr class="memdesc:a0358c76eabd9006917705f7dd117d8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the analog output for scanning a line.  <a href="#a0358c76eabd9006917705f7dd117d8de">More...</a><br /></td></tr>
 <tr class="separator:a0358c76eabd9006917705f7dd117d8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50a215848497ac630fd2ce74f344f3c2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classni__card_1_1NICard.html#a50a215848497ac630fd2ce74f344f3c2">scan_line</a> (self, line_path=None)</td></tr>
-<tr class="memdesc:a50a215848497ac630fd2ce74f344f3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a line and return the counts on that line.  <a href="#a50a215848497ac630fd2ce74f344f3c2">More...</a><br /></td></tr>
-<tr class="separator:a50a215848497ac630fd2ce74f344f3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038f710dc436de0326b41efefc6acf44"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classni__card_1_1NICard.html#a038f710dc436de0326b41efefc6acf44">scan_line</a> (self, line_path=None, pixel_clock=False)</td></tr>
+<tr class="memdesc:a038f710dc436de0326b41efefc6acf44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a line and return the counts on that line.  <a href="#a038f710dc436de0326b41efefc6acf44">More...</a><br /></td></tr>
+<tr class="separator:a038f710dc436de0326b41efefc6acf44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe2b8405fd455020ed0da8ace0980f7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classni__card_1_1NICard.html#adbe2b8405fd455020ed0da8ace0980f7">close_scanner</a> (self)</td></tr>
 <tr class="memdesc:adbe2b8405fd455020ed0da8ace0980f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the scanner and cleans up afterwards.  <a href="#adbe2b8405fd455020ed0da8ace0980f7">More...</a><br /></td></tr>
 <tr class="separator:adbe2b8405fd455020ed0da8ace0980f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -807,8 +807,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a50a215848497ac630fd2ce74f344f3c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50a215848497ac630fd2ce74f344f3c2">&#9670;&nbsp;</a></span>scan_line()</h2>
+<a id="a038f710dc436de0326b41efefc6acf44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a038f710dc436de0326b41efefc6acf44">&#9670;&nbsp;</a></span>scan_line()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -823,7 +823,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>line_path</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>line_path</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>pixel_clock</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -836,7 +842,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Scans a line and return the counts on that line. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">float[][n]</td><td>line_path: array of n-part tuples defining the voltage points</td></tr>
+    <tr><td class="paramname">float[][n]</td><td>line_path: array of n-part tuples defining the voltage points </td></tr>
+    <tr><td class="paramname">bool</td><td>pixel_clock: whether we need to output a pixel clock for this line</td></tr>
   </table>
   </dd>
 </dl>

@@ -131,9 +131,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:aecb117b11cda456b12e48a7e48cf6c12"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html#aecb117b11cda456b12e48a7e48cf6c12">set_up_line</a> (self, length=100)</td></tr>
 <tr class="memdesc:aecb117b11cda456b12e48a7e48cf6c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the analoque output for scanning a line.  <a href="#aecb117b11cda456b12e48a7e48cf6c12">More...</a><br /></td></tr>
 <tr class="separator:aecb117b11cda456b12e48a7e48cf6c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6b5fa0bd728fcae054febafd6a375d0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html#ac6b5fa0bd728fcae054febafd6a375d0">scan_line</a> (self, line_path=None)</td></tr>
-<tr class="memdesc:ac6b5fa0bd728fcae054febafd6a375d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a line and returns the counts on that line.  <a href="#ac6b5fa0bd728fcae054febafd6a375d0">More...</a><br /></td></tr>
-<tr class="separator:ac6b5fa0bd728fcae054febafd6a375d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be3ed4e9170b5594c78a6351dce0948"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html#a8be3ed4e9170b5594c78a6351dce0948">scan_line</a> (self, line_path=None, pixel_clock=False)</td></tr>
+<tr class="memdesc:a8be3ed4e9170b5594c78a6351dce0948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a line and returns the counts on that line.  <a href="#a8be3ed4e9170b5594c78a6351dce0948">More...</a><br /></td></tr>
+<tr class="separator:a8be3ed4e9170b5594c78a6351dce0948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62ed067b4c07c02763fc22c7e942ac7a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html#a62ed067b4c07c02763fc22c7e942ac7a">close_scanner</a> (self)</td></tr>
 <tr class="memdesc:a62ed067b4c07c02763fc22c7e942ac7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the scanner and cleans up afterwards.  <a href="#a62ed067b4c07c02763fc22c7e942ac7a">More...</a><br /></td></tr>
 <tr class="separator:a62ed067b4c07c02763fc22c7e942ac7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,8 +347,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6b5fa0bd728fcae054febafd6a375d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6b5fa0bd728fcae054febafd6a375d0">&#9670;&nbsp;</a></span>scan_line()</h2>
+<a id="a8be3ed4e9170b5594c78a6351dce0948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be3ed4e9170b5594c78a6351dce0948">&#9670;&nbsp;</a></span>scan_line()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +363,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>line_path</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>line_path</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>pixel_clock</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -376,7 +382,8 @@ Public Attributes</h2></td></tr>
 <p>Scans a line and returns the counts on that line. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">float[][4]</td><td>line_path: array of 4-part tuples defining the positions pixels</td></tr>
+    <tr><td class="paramname">float[][4]</td><td>line_path: array of 4-part tuples defining the positions pixels </td></tr>
+    <tr><td class="paramname">bool</td><td>pixel_clock: whether we need to output a pixel clock for this line</td></tr>
   </table>
   </dd>
 </dl>
