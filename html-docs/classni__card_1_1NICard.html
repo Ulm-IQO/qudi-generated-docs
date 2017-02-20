@@ -842,12 +842,12 @@ Additional Inherited Members</h2></td></tr>
 <p>Scans a line and return the counts on that line. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">float[][n]</td><td>line_path: array of n-part tuples defining the voltage points </td></tr>
+    <tr><td class="paramname">float[c][m]</td><td>line_path: array of c-tuples defining the voltage points (m = samples per line) </td></tr>
     <tr><td class="paramname">bool</td><td>pixel_clock: whether we need to output a pixel clock for this line</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>float[]: the photon counts per second</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float[m][n]: m (samples per line) n-channel photon counts per second</dd></dl>
 <p>The input array looks for a xy scan of 5x5 points at the position z=-2 like the following: [ [1, 2, 3, 4, 5], [1, 1, 1, 1, 1], [-2, -2, -2, -2] ] n is the number of scanner axes, which can vary. Typical values are 2 for galvo scanners, 3 for xyz scanners and 4 for xyz scanners with a special function on the a axis. </p>
 
 </div>

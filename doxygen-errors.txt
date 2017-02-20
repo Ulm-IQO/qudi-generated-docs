@@ -145,7 +145,7 @@ IndexError: list index out of range
 
 /home/travis/build/Ulm-IQO/qudi/core/util/win_interrupt.py:27: warning: documented symbol `core::util::win_interrupt::_fields_' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:336: warning: documented symbol `pulsed_maingui.PulsedMeasurementGui::_encoding' was not declared or defined.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2004: warning: documented symbol `ni_card.NICard::_gated_count_data' was not declared or defined.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2005: warning: documented symbol `ni_card.NICard::_gated_count_data' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:384: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:388: warning: documented symbol `generic_task.PrePostTask::_stateList' was not declared or defined.
@@ -3653,16 +3653,16 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:809: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::close_counter(self, scanner=False)
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:809: warning: The following parameters of ni_card.NICard.close_counter(self, scanner=False) are not documented:
   parameter 'scanner'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1738: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::count_odmr(self, length=100)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1738: warning: The following parameters of ni_card.NICard.count_odmr(self, length=100) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1739: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::count_odmr(self, length=100)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1739: warning: The following parameters of ni_card.NICard.count_odmr(self, length=100) are not documented:
   parameter 'length'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:757: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::get_counter(self, samples=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:757: warning: The following parameters of ni_card.NICard.get_counter(self, samples=None) are not documented:
   parameter 'samples'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1993: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::get_gated_counts(self, samples=None, timeout=None, read_available_samples=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1993: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::get_gated_counts(self, samples=None, timeout=None, read_available_samples=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1993: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::get_gated_counts(self, samples=None, timeout=None, read_available_samples=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1993: warning: The following parameters of ni_card.NICard.get_gated_counts(self, samples=None, timeout=None, read_available_samples=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1994: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::get_gated_counts(self, samples=None, timeout=None, read_available_samples=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1994: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::get_gated_counts(self, samples=None, timeout=None, read_available_samples=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1994: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::get_gated_counts(self, samples=None, timeout=None, read_available_samples=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1994: warning: The following parameters of ni_card.NICard.get_gated_counts(self, samples=None, timeout=None, read_available_samples=False) are not documented:
   parameter 'samples'
   parameter 'timeout'
   parameter 'read_available_samples'
@@ -3672,10 +3672,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:454: warning: argument 'object' of command @param is not found in the argument list of ni_card.NICard::on_deactivate(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:454: warning: The following parameters of ni_card.NICard.on_deactivate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1438: warning: argument 'float' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1438: warning: argument 'n' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1438: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1438: warning: The following parameters of ni_card.NICard.scan_line(self, line_path=None, pixel_clock=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1439: warning: argument 'float' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1439: warning: argument 'c' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1439: warning: argument 'm' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1439: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1439: warning: The following parameters of ni_card.NICard.scan_line(self, line_path=None, pixel_clock=False) are not documented:
   parameter 'line_path'
   parameter 'pixel_clock'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1212: warning: explicit link request to 'FIXME' could not be resolved
@@ -3688,8 +3689,8 @@ IndexError: list index out of range
   parameter 'y'
   parameter 'z'
   parameter 'a'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1686: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::set_odmr_length(self, length=100)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1686: warning: The following parameters of ni_card.NICard.set_odmr_length(self, length=100) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1687: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::set_odmr_length(self, length=100)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1687: warning: The following parameters of ni_card.NICard.set_odmr_length(self, length=100) are not documented:
   parameter 'length'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:942: warning: argument 'float' of command @param is not found in the argument list of ni_card.NICard::set_position_range(self, myrange=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:942: warning: The following parameters of ni_card.NICard.set_position_range(self, myrange=None) are not documented:
@@ -3714,26 +3715,26 @@ IndexError: list index out of range
   parameter 'sources'
   parameter 'clock_channel'
   parameter 'counter_buffer'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1885: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::set_up_gated_counter(self, buffer_length, read_available_samples=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1885: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::set_up_gated_counter(self, buffer_length, read_available_samples=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1885: warning: The following parameters of ni_card.NICard.set_up_gated_counter(self, buffer_length, read_available_samples=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1886: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::set_up_gated_counter(self, buffer_length, read_available_samples=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1886: warning: argument 'bool' of command @param is not found in the argument list of ni_card.NICard::set_up_gated_counter(self, buffer_length, read_available_samples=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1886: warning: The following parameters of ni_card.NICard.set_up_gated_counter(self, buffer_length, read_available_samples=False) are not documented:
   parameter 'buffer_length'
   parameter 'read_available_samples'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1343: warning: argument 'int' of command @param is not found in the argument list of ni_card.NICard::set_up_line(self, length=100)
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1343: warning: The following parameters of ni_card.NICard.set_up_line(self, length=100) are not documented:
   parameter 'length'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1600: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1600: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1600: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1600: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1600: warning: The following parameters of ni_card.NICard.set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1601: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1601: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1601: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1601: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1601: warning: The following parameters of ni_card.NICard.set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None) are not documented:
   parameter 'counter_channel'
   parameter 'photon_source'
   parameter 'clock_channel'
   parameter 'odmr_trigger_channel'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1580: warning: argument 'float' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1580: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1580: warning: The following parameters of ni_card.NICard.set_up_odmr_clock(self, clock_frequency=None, clock_channel=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1581: warning: argument 'float' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1581: warning: argument 'string' of command @param is not found in the argument list of ni_card.NICard::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1581: warning: The following parameters of ni_card.NICard.set_up_odmr_clock(self, clock_frequency=None, clock_channel=None) are not documented:
   parameter 'clock_frequency'
   parameter 'clock_channel'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1102: warning: argument 'list' of command @param is not found in the argument list of ni_card.NICard::set_up_scanner(self, counter_channels=None, sources=None, clock_channel=None, scanner_ao_channels=None)
@@ -3760,24 +3761,24 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2231: warning: argument 'int' of command @param is not found in the argument list of ni_card.SlowGatedNICard::get_counter(self, samples=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2231: warning: The following parameters of ni_card.SlowGatedNICard.get_counter(self, samples=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2232: warning: argument 'int' of command @param is not found in the argument list of ni_card.SlowGatedNICard::get_counter(self, samples=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2232: warning: The following parameters of ni_card.SlowGatedNICard.get_counter(self, samples=None) are not documented:
   parameter 'samples'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2114: warning: argument 'object' of command @param is not found in the argument list of ni_card.SlowGatedNICard::on_activate(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2114: warning: The following parameters of ni_card.SlowGatedNICard.on_activate(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2115: warning: argument 'object' of command @param is not found in the argument list of ni_card.SlowGatedNICard::on_activate(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2115: warning: The following parameters of ni_card.SlowGatedNICard.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2193: warning: argument 'float' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2193: warning: argument 'string' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2193: warning: The following parameters of ni_card.SlowGatedNICard.set_up_clock(self, clock_frequency=None, clock_channel=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2194: warning: argument 'float' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2194: warning: argument 'string' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2194: warning: The following parameters of ni_card.SlowGatedNICard.set_up_clock(self, clock_frequency=None, clock_channel=None) are not documented:
   parameter 'clock_frequency'
   parameter 'clock_channel'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: argument 'int' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2214: warning: The following parameters of ni_card.SlowGatedNICard.set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: argument 'str' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: argument 'int' of command @param is not found in the argument list of ni_card.SlowGatedNICard::set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2215: warning: The following parameters of ni_card.SlowGatedNICard.set_up_counter(self, counter_channel=None, photon_source=None, counter_channel2=None, photon_source2=None, clock_channel=None, counter_buffer=None) are not documented:
   parameter 'counter_channel'
   parameter 'photon_source'
   parameter 'counter_channel2'
@@ -3786,8 +3787,8 @@ IndexError: list index out of range
   parameter 'counter_buffer'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:52: warning: Member __init__(self, config, kwargs) (function) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:55: warning: Member on_activate(self, e) (function) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:93: warning: Member on_deactivate(self, e) (function) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:96: warning: Member init_constraints(self) (function) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:101: warning: Member on_deactivate(self, e) (function) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:104: warning: Member init_constraints(self) (function) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:58: warning: Member pulsed_file_dir (variable) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:76: warning: Member device (variable) of class ni_pulser::NIPulser is not documented.
@@ -3795,56 +3796,62 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:82: warning: Member pulser_task (variable) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:85: warning: Member current_status (variable) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:86: warning: Member current_loaded_asset (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:225: warning: Member channel_map (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:226: warning: Member constraints (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:90: warning: Member min_volts (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:91: warning: Member max_volts (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:92: warning: Member sample_rate (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:94: warning: Member a_names (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:95: warning: Member d_names (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:233: warning: Member channel_map (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:234: warning: Member constraints (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:379: warning: Member samples (variable) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:674: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::ask(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:675: warning: The following parameters of ni_pulser.NIPulser.ask(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:752: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:753: warning: The following parameters of ni_pulser.NIPulser.ask(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:516: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:516: warning: The following parameters of ni_pulser.NIPulser.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:609: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:609: warning: The following parameters of ni_pulser.NIPulser.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:404: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:404: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:404: warning: The following parameters of ni_pulser.NIPulser.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:482: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:482: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:482: warning: The following parameters of ni_pulser.NIPulser.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:469: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:469: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:469: warning: The following parameters of ni_pulser.NIPulser.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:548: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:548: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:548: warning: The following parameters of ni_pulser.NIPulser.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:304: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:304: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:305: warning: The following parameters of ni_pulser.NIPulser.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:363: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:363: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:364: warning: The following parameters of ni_pulser.NIPulser.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:547: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:547: warning: The following parameters of ni_pulser.NIPulser.set_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:640: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:640: warning: The following parameters of ni_pulser.NIPulser.set_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:437: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:437: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:437: warning: The following parameters of ni_pulser.NIPulser.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:515: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:515: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:515: warning: The following parameters of ni_pulser.NIPulser.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:625: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::set_asset_dir_on_device(self, dir_path)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:625: warning: The following parameters of ni_pulser.NIPulser.set_asset_dir_on_device(self, dir_path) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:701: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:701: warning: The following parameters of ni_pulser.NIPulser.set_asset_dir_on_device(self, dir_path) are not documented:
   parameter 'dir_path'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:498: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:498: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:498: warning: The following parameters of ni_pulser.NIPulser.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:590: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:590: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:590: warning: The following parameters of ni_pulser.NIPulser.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:658: warning: argument 'bool' of command @param is not found in the argument list of ni_pulser.NIPulser::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:658: warning: The following parameters of ni_pulser.NIPulser.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:736: warning: argument 'bool' of command @param is not found in the argument list of ni_pulser.NIPulser::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:736: warning: The following parameters of ni_pulser.NIPulser.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:363: warning: argument 'float' of command @param is not found in the argument list of ni_pulser.NIPulser::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:363: warning: The following parameters of ni_pulser.NIPulser.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:440: warning: argument 'float' of command @param is not found in the argument list of ni_pulser.NIPulser::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:440: warning: The following parameters of ni_pulser.NIPulser.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:667: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::tell(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:667: warning: The following parameters of ni_pulser.NIPulser.tell(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:745: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::tell(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:745: warning: The following parameters of ni_pulser.NIPulser.tell(self, command) are not documented:
   parameter 'command'
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:96: warning: Member newTab(self) (function) of class notebookgui::NotebookMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:102: warning: Member closeTab(self, index) (function) of class notebookgui::NotebookMainWindow is not documented.
@@ -4095,66 +4102,66 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:39: warning: Member __init__(self) (function) of class odmrgui::ODMRMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:51: warning: Member __init__(self) (function) of class odmrgui::ODMRSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:57: warning: Member __init__(self, config, kwargs) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:100: warning: Member on_activate(self, e) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:106: warning: Member on_deactivate(self, e) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:504: warning: Member get_active_channels(self, ch=None) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:516: warning: Member set_active_channels(self, ch=None) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:101: warning: Member on_activate(self, e) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:107: warning: Member on_deactivate(self, e) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:505: warning: Member get_active_channels(self, ch=None) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:517: warning: Member set_active_channels(self, ch=None) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:61: warning: Member pulsed_file_dir (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:80: warning: Member fpga_serial (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:94: warning: Member host_waveform_directory (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:96: warning: Member current_status (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:97: warning: Member sample_rate (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:98: warning: Member current_loaded_asset (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:102: warning: Member fpga (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:95: warning: Member host_waveform_directory (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:97: warning: Member current_status (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:98: warning: Member sample_rate (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:99: warning: Member current_loaded_asset (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:103: warning: Member fpga (variable) of class ok_fpga_pulser::OkFpgaPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:126: warning: Member connector (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:168: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:641: warning: argument 'string' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::ask(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:642: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.ask(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:642: warning: argument 'string' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:643: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.ask(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:577: warning: argument 'str' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::delete_asset(self, asset_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:577: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.delete_asset(self, asset_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:578: warning: argument 'str' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::delete_asset(self, asset_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:578: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.delete_asset(self, asset_name) are not documented:
   parameter 'asset_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:398: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:398: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:398: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:399: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:399: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:399: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:452: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:452: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:452: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:453: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:453: warning: argument 'list' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:453: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:253: warning: argument 'str' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:253: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:253: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:254: warning: argument 'str' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:254: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:254: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:415: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:415: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:415: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:416: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:416: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:416: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:589: warning: argument 'str' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_asset_dir_on_device(self, dir_path)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:589: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_asset_dir_on_device(self, dir_path) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:590: warning: argument 'str' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:590: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_asset_dir_on_device(self, dir_path) are not documented:
   parameter 'dir_path'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:496: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:496: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:496: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:497: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:497: warning: argument 'dict' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:497: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:624: warning: argument 'bool' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:624: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:625: warning: argument 'bool' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:625: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:367: warning: argument 'float' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:367: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:368: warning: argument 'float' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:368: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:633: warning: argument 'string' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::tell(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:633: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.tell(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:634: warning: argument 'string' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::tell(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:634: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.tell(self, command) are not documented:
   parameter 'command'
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:227: warning: argument 'name' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::upload_asset(self, asset_name=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:228: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.upload_asset(self, asset_name=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:228: warning: argument 'name' of command @param is not found in the argument list of ok_fpga_pulser.OkFpgaPulser::upload_asset(self, asset_name=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:229: warning: The following parameters of ok_fpga_pulser.OkFpgaPulser.upload_asset(self, asset_name=None) are not documented:
   parameter 'asset_name'
 /home/travis/build/Ulm-IQO/qudi/hardware/switches/ok_fpga/ok_fpga_switch.py:50: warning: Member __init__(self, kwargs) (function) of class ok_fpga_switch::OkFpgaTtlSwitch is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/switches/ok_fpga/ok_fpga_switch.py:54: warning: Member on_activate(self, e) (function) of class ok_fpga_switch::OkFpgaTtlSwitch is not documented.
