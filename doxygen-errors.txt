@@ -114,7 +114,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/vacuum_pump_interface.py:26: warning: Compound vacuum_pump_interface::VacuumPumpInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1152: warning: Compound motor::aptmotor::APTOneAxisStage is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:27: warning: Compound magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:27: warning: Compound scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:26: warning: Compound scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:30: warning: Compound pi_pwm::PiPWM is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:44: warning: Compound simple_laser_interface::SimpleLaserInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1141: warning: Compound gui::colordefs::QudiPalettePale is not documented.
@@ -5416,55 +5416,55 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/sc_magnet/magnet.py:168: warning: argument 'string' of command @param is not found in the argument list of sc_magnet.magnet.Magnet::utf8_to_byte(self, myutf8)
 /home/travis/build/Ulm-IQO/qudi/hardware/sc_magnet/magnet.py:171: warning: The following parameters of sc_magnet.magnet.Magnet.utf8_to_byte(self, myutf8) are not documented:
   parameter 'myutf8'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:47: warning: Member __init__(self, kwargs) (function) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:63: warning: Member tilt_variable_ax (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:64: warning: Member tilt_variable_ay (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:65: warning: Member tiltcorrection (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:66: warning: Member tilt_reference_x (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:67: warning: Member tilt_reference_y (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:60: warning: argument 'object' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::on_activate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:60: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.on_activate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:46: warning: Member __init__(self, kwargs) (function) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:62: warning: Member tilt_variable_ax (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:63: warning: Member tilt_variable_ay (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:64: warning: Member tiltcorrection (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:65: warning: Member tilt_reference_x (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:66: warning: Member tilt_reference_y (variable) of class scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:59: warning: argument 'object' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:59: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:74: warning: argument 'object' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:74: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:73: warning: argument 'object' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:73: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:208: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scan_line(self, line_path=None, pixel_clock=False)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:208: warning: argument '4' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scan_line(self, line_path=None, pixel_clock=False)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:208: warning: argument 'bool' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scan_line(self, line_path=None, pixel_clock=False)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:208: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.scan_line(self, line_path=None, pixel_clock=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:207: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:207: warning: argument '4' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:207: warning: argument 'bool' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scan_line(self, line_path=None, pixel_clock=False)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:207: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.scan_line(self, line_path=None, pixel_clock=False) are not documented:
   parameter 'line_path'
   parameter 'pixel_clock'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:166: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:166: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:166: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:166: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:166: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.scanner_set_position(self, x=None, y=None, z=None, a=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:165: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:165: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:165: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:165: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::scanner_set_position(self, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:165: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.scanner_set_position(self, x=None, y=None, z=None, a=None) are not documented:
   parameter 'x'
   parameter 'y'
   parameter 'z'
   parameter 'a'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:100: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_position_range(self, myrange=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:100: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_position_range(self, myrange=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:99: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_position_range(self, myrange=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:99: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_position_range(self, myrange=None) are not documented:
   parameter 'myrange'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:198: warning: argument 'int' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_line(self, length=100)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:198: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_up_line(self, length=100) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:197: warning: argument 'int' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_line(self, length=100)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:197: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_up_line(self, length=100) are not documented:
   parameter 'length'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:149: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:149: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:149: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:149: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:149: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:148: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:148: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:148: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:148: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:148: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_up_scanner(self, counter_channel=None, photon_source=None, clock_channel=None, scanner_ao_channels=None) are not documented:
   parameter 'counter_channel'
   parameter 'photon_source'
   parameter 'clock_channel'
   parameter 'scanner_ao_channels'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:133: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:133: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:133: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_up_scanner_clock(self, clock_frequency=None, clock_channel=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:132: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:132: warning: argument 'str' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_up_scanner_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:132: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_up_scanner_clock(self, clock_frequency=None, clock_channel=None) are not documented:
   parameter 'clock_frequency'
   parameter 'clock_channel'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:111: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_voltage_range(self, myrange=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:111: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_voltage_range(self, myrange=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:110: warning: argument 'float' of command @param is not found in the argument list of scanner_tilt_interfuse.ScannerTiltInterfuse::set_voltage_range(self, myrange=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:110: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_voltage_range(self, myrange=None) are not documented:
   parameter 'myrange'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:41: warning: Member item_dict (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:48: warning: Member norm_val (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
