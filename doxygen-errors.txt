@@ -1199,8 +1199,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:276: warning: Member __setattr__(self, attr, val) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:284: warning: Member __wrap_object__(self, obj) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:293: warning: Member __wrapped_object__(self) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:197: warning: Member set_counting_samples(self, samples=1) (function) of class counter_logic::CounterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:302: warning: Member start_saving(self, resume=False) (function) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:193: warning: Member set_counting_samples(self, samples=1) (function) of class counter_logic::CounterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:298: warning: Member start_saving(self, resume=False) (function) of class counter_logic::CounterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:87: warning: Member threadlock (variable) of class counter_logic::CounterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:141: warning: Member countdata (variable) of class counter_logic::CounterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:142: warning: Member countdata_smoothed (variable) of class counter_logic::CounterLogic is not documented.
@@ -1224,26 +1224,26 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:83: warning: The following parameters of counter_logic.CounterLogic.__init__(self, config, kwargs) are not documented:
   parameter 'config'
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:366: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:362: warning: expected whitespace after : command
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:118: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:118: warning: The following parameters of counter_logic.CounterLogic.on_activate(self, e) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:161: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:161: warning: The following parameters of counter_logic.CounterLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:539: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_current_count_trace(self, name_tag='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:539: warning: The following parameters of counter_logic.CounterLogic.save_current_count_trace(self, name_tag='') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:535: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_current_count_trace(self, name_tag='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:535: warning: The following parameters of counter_logic.CounterLogic.save_current_count_trace(self, name_tag='') are not documented:
   parameter 'name_tag'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:323: warning: argument 'bool' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:323: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:323: warning: The following parameters of counter_logic.CounterLogic.save_data(self, to_file=True, postfix='') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:319: warning: argument 'bool' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:319: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:319: warning: The following parameters of counter_logic.CounterLogic.save_data(self, to_file=True, postfix='') are not documented:
   parameter 'to_file'
   parameter 'postfix'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:248: warning: argument 'float' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_frequency(self, frequency=50)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:248: warning: The following parameters of counter_logic.CounterLogic.set_count_frequency(self, frequency=50) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:244: warning: argument 'float' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_frequency(self, frequency=50)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:244: warning: The following parameters of counter_logic.CounterLogic.set_count_frequency(self, frequency=50) are not documented:
   parameter 'frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:223: warning: argument 'int' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_length(self, length=300)
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:223: warning: The following parameters of counter_logic.CounterLogic.set_count_length(self, length=300) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:219: warning: argument 'int' of command @param is not found in the argument list of counter_logic.CounterLogic::set_count_length(self, length=300)
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:219: warning: The following parameters of counter_logic.CounterLogic.set_count_length(self, length=300) are not documented:
   parameter 'length'
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:71: warning: Member __init__(self, config, kwargs) (function) of class countergui::CounterGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:403: warning: Member update_counting_mode_ComboBox(self) (function) of class countergui::CounterGui is not documented.
