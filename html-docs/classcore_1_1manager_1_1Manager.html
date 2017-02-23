@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d065aa64295bd5e44c4467085038278"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a0d065aa64295bd5e44c4467085038278">isModuleActive</a> (self, base, name)</td></tr>
 <tr class="memdesc:a0d065aa64295bd5e44c4467085038278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether a given module is active.  <a href="#a0d065aa64295bd5e44c4467085038278">More...</a><br /></td></tr>
 <tr class="separator:a0d065aa64295bd5e44c4467085038278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154a925773b6accb18f59c974ce7ad25"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a154a925773b6accb18f59c974ce7ad25">findBase</a> (self, name)</td></tr>
+<tr class="memdesc:a154a925773b6accb18f59c974ce7ad25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find base for a given module name.  <a href="#a154a925773b6accb18f59c974ce7ad25">More...</a><br /></td></tr>
+<tr class="separator:a154a925773b6accb18f59c974ce7ad25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aa17affcb66b8f8ca2cc7128729e921"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a5aa17affcb66b8f8ca2cc7128729e921">activateModule</a> (self, base, name)</td></tr>
 <tr class="memdesc:a5aa17affcb66b8f8ca2cc7128729e921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate the module given in key with the help of base class.  <a href="#a5aa17affcb66b8f8ca2cc7128729e921">More...</a><br /></td></tr>
 <tr class="separator:a5aa17affcb66b8f8ca2cc7128729e921"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f36e40c13024c7d6afc65f99a1fa642"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a0f36e40c13024c7d6afc65f99a1fa642">getRecursiveModuleDependencies</a> (self, base, key)</td></tr>
 <tr class="memdesc:a0f36e40c13024c7d6afc65f99a1fa642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Based on input connector declarations, determine in which other modules are needed for a specific module to run.  <a href="#a0f36e40c13024c7d6afc65f99a1fa642">More...</a><br /></td></tr>
 <tr class="separator:a0f36e40c13024c7d6afc65f99a1fa642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41aa61be7991033cdef82ce313174b4e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a41aa61be7991033cdef82ce313174b4e">getAllRecursiveModuleDependencies</a> (self, allmods)</td></tr>
+<tr class="memdesc:a41aa61be7991033cdef82ce313174b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a dependency tre for defined or loaded modules.  <a href="#a41aa61be7991033cdef82ce313174b4e">More...</a><br /></td></tr>
+<tr class="separator:a41aa61be7991033cdef82ce313174b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe02cff2df7d545a5892a1ec49d5aee2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#abe02cff2df7d545a5892a1ec49d5aee2">startModule</a> (self, base, key)</td></tr>
 <tr class="memdesc:abe02cff2df7d545a5892a1ec49d5aee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Figure out the module dependencies in terms of connections, load and activate module.  <a href="#abe02cff2df7d545a5892a1ec49d5aee2">More...</a><br /></td></tr>
 <tr class="separator:abe02cff2df7d545a5892a1ec49d5aee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -586,6 +592,80 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a154a925773b6accb18f59c974ce7ad25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154a925773b6accb18f59c974ce7ad25">&#9670;&nbsp;</a></span>findBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.manager.Manager.findBase </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find base for a given module name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>name: module name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>str: base name </dd></dl>
+
+</div>
+</div>
+<a id="a41aa61be7991033cdef82ce313174b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41aa61be7991033cdef82ce313174b4e">&#9670;&nbsp;</a></span>getAllRecursiveModuleDependencies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.manager.Manager.getAllRecursiveModuleDependencies </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>allmods</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Build a dependency tre for defined or loaded modules. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dict</td><td>allmods: dictionary containing module bases (self.tree['loaded'] equivalent)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dict: module dependencies in the right format for the toposort function </dd></dl>
 
 </div>
 </div>

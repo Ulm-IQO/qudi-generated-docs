@@ -16,6 +16,7 @@ var searchData=
   ['filltreewidget',['fillTreeWidget',['../classgui_1_1manager_1_1managergui_1_1ManagerGui.html#ac37019a32d012ee50859e3300e193873',1,'gui::manager::managergui::ManagerGui']]],
   ['filteracceptsrow',['filterAcceptsRow',['../classgui_1_1manager_1_1logwidget_1_1LogFilter.html#a35822ef34ea3b456c0d788e321e19703',1,'gui::manager::logwidget::LogFilter']]],
   ['find_5flaser',['find_laser',['../classsingleshot__logic_1_1SingleShotLogic.html#ade22ba9831458d20efca07e4edbd7b2a',1,'singleshot_logic::SingleShotLogic']]],
+  ['findbase',['findBase',['../classcore_1_1manager_1_1Manager.html#a154a925773b6accb18f59c974ce7ad25',1,'core::manager::Manager']]],
   ['finish_5frefocus',['finish_refocus',['../classoptimizer__logic_1_1OptimizerLogic.html#a2bf03e7af3bbaead05c8a6e3025a823a',1,'optimizer_logic::OptimizerLogic']]],
   ['fit_5fclicked',['fit_clicked',['../classgated__counter__gui_1_1GatedCounterGui.html#affffc260f5a358f46a6eb8430077dfe1',1,'gated_counter_gui.GatedCounterGui.fit_clicked()'],['../classpulsed__maingui_1_1PulsedMeasurementGui.html#acd04e79b440ce10840fa99680b02ca54',1,'pulsed_maingui.PulsedMeasurementGui.fit_clicked()']]],
   ['fit_5fdata_5fupdated',['fit_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#aa0c97589e112b16eaf3f365a74d05a09',1,'pulsed_maingui::PulsedMeasurementGui']]],
