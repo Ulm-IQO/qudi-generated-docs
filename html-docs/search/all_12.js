@@ -8,6 +8,7 @@ var searchData=
   ['readconfig',['readConfig',['../classcore_1_1manager_1_1Manager.html#a231f23c3221d31f0aeccfba8b1e7c77c',1,'core::manager::Manager']]],
   ['readconfigfile',['readConfigFile',['../classcore_1_1manager_1_1Manager.html#a98990bc37c6d7e4c076f6c44618b67f5',1,'core::manager::Manager']]],
   ['ready_5fclicked',['ready_clicked',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#acd0ff004b8ba86dd265a638f212ef969',1,'gui::confocal::confocalgui::ConfocalGui']]],
+  ['realquit',['realQuit',['../classcore_1_1manager_1_1Manager.html#ac2b66c4c2272d76cd51aa7d956a37d70',1,'core::manager::Manager']]],
   ['record_5fsingle_5fspectrum',['record_single_spectrum',['../classspectrometergui_1_1SpectrometerGui.html#a4b2b4e0a961536ac2c711d0ef50631a3',1,'spectrometergui::SpectrometerGui']]],
   ['recursivemutex',['RecursiveMutex',['../classcore_1_1util_1_1mutex_1_1RecursiveMutex.html',1,'core::util::mutex']]],
   ['redirect_5fstderr',['redirect_stderr',['../classredirect_1_1redirect__stderr.html',1,'redirect']]],

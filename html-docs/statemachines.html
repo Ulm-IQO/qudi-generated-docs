@@ -72,7 +72,6 @@ $(function() {
 <li>idle</li>
 <li>running</li>
 <li>locked</li>
-<li>blocked</li>
 </ul>
 <h3>State transition functions</h3>
 <p>Do not declare these transition function names in anything derived from Base, that will lead to unexpected behaviour!</p>
@@ -84,6 +83,7 @@ $(function() {
 <li>deactivate:<ul>
 <li>idle -&gt; deactivated</li>
 <li>running -&gt; deactivated</li>
+<li>locked -&gt; deactivated (manager makes sure this only happens after prompting the user)</li>
 </ul>
 </li>
 <li>run:<ul>
@@ -99,29 +99,12 @@ $(function() {
 <li>running -&gt; locked</li>
 </ul>
 </li>
-<li>block:<ul>
-<li>idle -&gt; blocked</li>
-<li>running -&gt; blocked</li>
-</ul>
-</li>
-<li>locktoblock:<ul>
-<li>locked -&gt; blocked</li>
-</ul>
-</li>
 <li>unlock:<ul>
 <li>locked -&gt; idle</li>
 </ul>
 </li>
-<li>unblock:<ul>
-<li>blocked -&gt; idle</li>
-</ul>
-</li>
 <li>runlock:<ul>
 <li>locked -&gt; running</li>
-</ul>
-</li>
-<li>runblock:<ul>
-<li>blocked -&gt; running</li>
 </ul>
 </li>
 </ul>

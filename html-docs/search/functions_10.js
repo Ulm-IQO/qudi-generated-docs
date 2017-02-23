@@ -20,6 +20,7 @@ var searchData=
   ['preexecute',['preExecute',['../classgeneric__task_1_1PrePostTask.html#a7ffdf7d2b698032e5f44e3db6d21bc97',1,'generic_task::PrePostTask']]],
   ['prepare_5fmeasurement_5fprotocols',['prepare_measurement_protocols',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html#a6e26acc3abf2e8429f633d576b6bbe3f',1,'nuclear_operations_logic::NuclearOperationsLogic']]],
   ['prerunpptasks',['preRunPPTasks',['../classtaskrunner_1_1TaskRunner.html#a9c9cc15849aeca40e067a490489874a1',1,'taskrunner::TaskRunner']]],
+  ['promptforshutdown',['promptForShutdown',['../classgui_1_1manager_1_1managergui_1_1ManagerGui.html#a47fb9a2f7ae36bd95d3640cc6b0bda84',1,'gui::manager::managergui::ManagerGui']]],
   ['pull_5fdata_5fclicked',['pull_data_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a728e7c242fbc08e45731d837db591030',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['pulse_5fgenerator_5foff',['pulse_generator_off',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a24a4312597cc0f6813be7368e43e3bb5',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],
   ['pulse_5fgenerator_5fon',['pulse_generator_on',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#ad7c8e731cbee05de1bcb2070520de356',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],

@@ -188,6 +188,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>removeStatusFile</b> (
 <tr class="memitem:a6899eadc7798754961b4dd6eae0221b4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a6899eadc7798754961b4dd6eae0221b4">quit</a> (self)</td></tr>
 <tr class="memdesc:a6899eadc7798754961b4dd6eae0221b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nicely request that all modules shut down.  <a href="#a6899eadc7798754961b4dd6eae0221b4">More...</a><br /></td></tr>
 <tr class="separator:a6899eadc7798754961b4dd6eae0221b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b66c4c2272d76cd51aa7d956a37d70"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#ac2b66c4c2272d76cd51aa7d956a37d70">realQuit</a> (self)</td></tr>
+<tr class="memdesc:ac2b66c4c2272d76cd51aa7d956a37d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop all modules, no questions asked.  <a href="#ac2b66c4c2272d76cd51aa7d956a37d70">More...</a><br /></td></tr>
+<tr class="separator:ac2b66c4c2272d76cd51aa7d956a37d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0396a2cd7cad87d163dc3288fe41ec34"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1manager_1_1Manager.html#a0396a2cd7cad87d163dc3288fe41ec34">restart</a> (self)</td></tr>
 <tr class="memdesc:a0396a2cd7cad87d163dc3288fe41ec34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nicely request that all modules shut down for application restart.  <a href="#a0396a2cd7cad87d163dc3288fe41ec34">More...</a><br /></td></tr>
 <tr class="separator:a0396a2cd7cad87d163dc3288fe41ec34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,6 +260,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:aa815c65af25c66a8976a0d51828fe1b7"><td class="memItemLeft" align="right" valign="top"><a id="aa815c65af25c66a8976a0d51828fe1b7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigManagerQuit</b> = QtCore.Signal(object, bool)</td></tr>
 <tr class="separator:aa815c65af25c66a8976a0d51828fe1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b01f5795dc6c41a3e1c3977b84293e1"><td class="memItemLeft" align="right" valign="top"><a id="a3b01f5795dc6c41a3e1c3977b84293e1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigShutdownAcknowledge</b> = QtCore.Signal(bool, bool)</td></tr>
+<tr class="separator:a3b01f5795dc6c41a3e1c3977b84293e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f814af157d625ed0310c8c91160f698"><td class="memItemLeft" align="right" valign="top"><a id="a7f814af157d625ed0310c8c91160f698"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigShowManager</b> = QtCore.Signal()</td></tr>
 <tr class="separator:a7f814af157d625ed0310c8c91160f698"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1110,6 +1116,26 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dict: configuration from file </dd></dl>
+
+</div>
+</div>
+<a id="ac2b66c4c2272d76cd51aa7d956a37d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b66c4c2272d76cd51aa7d956a37d70">&#9670;&nbsp;</a></span>realQuit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.manager.Manager.realQuit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop all modules, no questions asked. </p>
 
 </div>
 </div>

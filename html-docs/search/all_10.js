@@ -44,6 +44,7 @@ var searchData=
   ['processdummy',['ProcessDummy',['../classprocess__dummy_1_1ProcessDummy.html',1,'process_dummy']]],
   ['processinterface',['ProcessInterface',['../classprocess__interface_1_1ProcessInterface.html',1,'process_interface']]],
   ['programming_20and_20code_20formatting_20style',['Programming and code formatting style',['../programming-style.html',1,'']]],
+  ['promptforshutdown',['promptForShutdown',['../classgui_1_1manager_1_1managergui_1_1ManagerGui.html#a47fb9a2f7ae36bd95d3640cc6b0bda84',1,'gui::manager::managergui::ManagerGui']]],
   ['psutypes',['PSUTypes',['../classlaser_1_1laserquantum__laser_1_1PSUTypes.html',1,'laser::laserquantum_laser']]],
   ['pull_5fdata_5fclicked',['pull_data_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a728e7c242fbc08e45731d837db591030',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['pulse_5fgenerator_5foff',['pulse_generator_off',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a24a4312597cc0f6813be7368e43e3bb5',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],
