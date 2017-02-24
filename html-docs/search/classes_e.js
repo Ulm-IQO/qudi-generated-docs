@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parentpollerunix',['ParentPollerUnix',['../classparentpoller_1_1ParentPollerUnix.html',1,'parentpoller.ParentPollerUnix'],['../classcore_1_1parentpoller_1_1ParentPollerUnix.html',1,'core.parentpoller.ParentPollerUnix']]],
+  ['parentpollerunix',['ParentPollerUnix',['../classcore_1_1parentpoller_1_1ParentPollerUnix.html',1,'core.parentpoller.ParentPollerUnix'],['../classparentpoller_1_1ParentPollerUnix.html',1,'parentpoller.ParentPollerUnix']]],
   ['parentpollerwindows',['ParentPollerWindows',['../classparentpoller_1_1ParentPollerWindows.html',1,'parentpoller.ParentPollerWindows'],['../classcore_1_1parentpoller_1_1ParentPollerWindows.html',1,'core.parentpoller.ParentPollerWindows']]],
   ['pidcontrollerinterface',['PIDControllerInterface',['../classpid__controller__interface_1_1PIDControllerInterface.html',1,'pid_controller_interface']]],
   ['pidgui',['PIDGui',['../classpidgui_1_1PIDGui.html',1,'pidgui']]],
@@ -40,6 +40,7 @@ var searchData=
   ['pulseextractionlogic',['PulseExtractionLogic',['../classpulse__extraction__logic_1_1PulseExtractionLogic.html',1,'pulse_extraction_logic']]],
   ['pulseextractiontab',['PulseExtractionTab',['../classpulsed__maingui_1_1PulseExtractionTab.html',1,'pulsed_maingui']]],
   ['pulsegeneratortab',['PulseGeneratorTab',['../classpulsed__maingui_1_1PulseGeneratorTab.html',1,'pulsed_maingui']]],
+  ['pulserconstraints',['PulserConstraints',['../classpulser__interface_1_1PulserConstraints.html',1,'pulser_interface']]],
   ['pulserdummy',['PulserDummy',['../classpulser__dummy_1_1PulserDummy.html',1,'pulser_dummy']]],
   ['pulserinterface',['PulserInterface',['../classpulser__interface_1_1PulserInterface.html',1,'pulser_interface']]],
   ['pulsesequence',['PulseSequence',['../classpulse__objects_1_1PulseSequence.html',1,'pulse_objects']]]
