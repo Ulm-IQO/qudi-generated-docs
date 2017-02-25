@@ -642,27 +642,9 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>constraints object: object with pulser constraints as attributes.</dd></dl>
 <p>Provides all the constraints (e.g. sample_rate, amplitude, total_length_bins, channel_config, ...) related to the pulse generator hardware to the caller. </p><pre class="fragment">SEE PulserConstraints CLASS IN pulser_interface.py FOR AVAILABLE CONSTRAINTS!!!
 </pre><p>If you are not sure about the meaning, look in other hardware files to get an impression. If still additional constraints are needed, then they have to be added to the PulserConstraints class.</p>
-<p>Each scalar parameter is a dictionary with the following generic form: {'min': </p>
-<p>, 'max': </p>
-<p>, 'step': </p>
-<p>, 'unit': '</p>
-<p>'}</p>
+<p>Each scalar parameter is an ScalarConstraints object defined in cor.util.interfaces. Essentially it contains min/max values as well as min step size, default value and unit of the parameter.</p>
 <p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_list&gt;, &lt;descriptor_str&gt;: &lt;channel_list&gt;, ...}</p>
-<p>If the constraints cannot be set in the pulsing hardware (e.g. because it might have no sequence mode) then write just zeroes to each generic entry. Note that there is a difference between float input (0.0) and integer input (0).</p>
-<p>ALL THE PRESENT ATTRIBUTES OF THE CONSTRAINTS OBJECT MUST BE ASSIGNED!</p>
-<h1>Example for configuration with default values:</h1>
-<p>constraints = PulserConstraints()</p>
-<p>constraints.sample_rate = {'min': 0.0, 'max': 0.0, 'step': 0.0, 'unit': 'Samples/s'}</p>
-<h1>The file formats are hardware specific.</h1>
-<p>constraints.waveform_format = 'wfm' constraints.sequence_format = 'seq'</p>
-<h1>the stepsize will be determined by the DAC in combination with the maximal output</h1>
-<p>amplitude (in Vpp): constraints.a_ch_amplitude = {'min': 0.0, 'max': 0.0, 'step': 0.0, 'unit': 'Vpp'} constraints.a_ch_offset = {'min': 0.0, 'max': 0.0, 'step': 0.0, 'unit': 'V'} constraints.d_ch_low = {'min': 0.0, 'max': 0.0, 'step': 0.0, 'unit': 'V'} constraints.d_ch_high = {'min': 0.0, 'max': 0.0, 'step': 0.0, 'unit': 'V'} constraints.sampled_file_length = {'min': 0, 'max': 0, 'step': 0, 'unit': 'Samples'} constraints.digital_bin_num = {'min': 0, 'max': 0, 'step': 0, 'unit': '#'} constraints.waveform_num = {'min': 0, 'max': 0, 'step': 0, 'unit': '#'} constraints.sequence_num = {'min': 0, 'max': 0, 'step': 0, 'unit': '#'} constraints.subsequence_num = {'min': 0, 'max': 0, 'step': 0, 'unit': '#'}</p>
-<h1>If sequencer mode is enable than sequence_param should be not just an empty dictionary.</h1>
-<p>sequence_param = OrderedDict() constraints.sequence_param = sequence_param</p>
-<h1>the name a_ch&lt;num&gt; and d_ch&lt;num&gt; are generic names, which describe UNAMBIGUOUSLY the</h1>
-<h1>channels. Here all possible channel configurations are stated, where only the generic</h1>
-<h1>names should be used. The names for the different configurations can be customary chosen.</h1>
-<p>activation_conf = OrderedDict() activation_conf['yourconf'] = ['a_ch1', 'd_ch1', 'd_ch2', 'a_ch2', 'd_ch3', 'd_ch4'] activation_conf['different_conf'] = ['a_ch1', 'd_ch1', 'd_ch2'] activation_conf['something_else'] = ['a_ch2', 'd_ch3', 'd_ch4'] constraints.activation_config = activation_conf </p>
+<p>If the constraints cannot be set in the pulsing hardware (e.g. because it might have no sequence mode) just leave it out so that the default is used (only zeros). </p>
 
 </div>
 </div>

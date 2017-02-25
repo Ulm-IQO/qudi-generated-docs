@@ -3,6 +3,7 @@ var searchData=
   ['sampleswritemethods',['SamplesWriteMethods',['../classsamples__write__methods_1_1SamplesWriteMethods.html',1,'samples_write_methods']]],
   ['samplingfunctions',['SamplingFunctions',['../classsampling__functions_1_1SamplingFunctions.html',1,'sampling_functions']]],
   ['savelogic',['SaveLogic',['../classsave__logic_1_1SaveLogic.html',1,'save_logic']]],
+  ['scalarconstraint',['ScalarConstraint',['../classcore_1_1util_1_1interfaces_1_1ScalarConstraint.html',1,'core::util::interfaces']]],
   ['scaledfloat',['ScaledFloat',['../classcore_1_1util_1_1units_1_1ScaledFloat.html',1,'core::util::units']]],
   ['scannertiltinterfuse',['ScannerTiltInterfuse',['../classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html',1,'scanner_tilt_interfuse']]],
   ['sciendspinbox',['ScienDSpinBox',['../classqtwidgets_1_1scientific__spinbox_1_1ScienDSpinBox.html',1,'qtwidgets::scientific_spinbox']]],
