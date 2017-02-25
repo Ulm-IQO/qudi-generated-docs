@@ -77,7 +77,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/mapper.py:114: warning: Compound core::mapper::Mapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:52: warning: Compound wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:28: warning: Compound data_logger_interface::DataLoggerInterface is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:509: warning: Compound pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:553: warning: Compound pulser_interface::PulserConstraints is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_data_interface.py:27: warning: Compound simple_data_interface::SimpleDataInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:107: warning: Compound save_logic::FunctionImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:36: warning: Compound laserscannergui::VoltScanMainWindow is not documented.
@@ -5105,72 +5105,72 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/pulser_dummy.py:332: warning: argument 'name' of command @param is not found in the argument list of pulser_dummy.PulserDummy::upload_asset(self, asset_name=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/pulser_dummy.py:333: warning: The following parameters of pulser_dummy.PulserDummy.upload_asset(self, asset_name=None) are not documented:
   parameter 'asset_name'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:510: warning: Member __init__(self) (function) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:512: warning: Member sample_rate (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:514: warning: Member a_ch_amplitude (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:515: warning: Member a_ch_offset (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:517: warning: Member d_ch_low (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:518: warning: Member d_ch_high (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:520: warning: Member sampled_file_length (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:522: warning: Member waveform_num (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:523: warning: Member sequence_num (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:524: warning: Member subsequence_num (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:526: warning: Member waveform_format (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:527: warning: Member sequence_format (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:529: warning: Member repetitions (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:530: warning: Member trigger_in (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:531: warning: Member event_jump_to (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:532: warning: Member go_to (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:534: warning: Member activation_config (variable) of class pulser_interface::PulserConstraints is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:487: warning: argument 'string' of command @param is not found in the argument list of pulser_interface.PulserInterface::ask(self, question)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:489: warning: The following parameters of pulser_interface.PulserInterface.ask(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:554: warning: Member __init__(self) (function) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:556: warning: Member sample_rate (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:558: warning: Member a_ch_amplitude (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:559: warning: Member a_ch_offset (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:561: warning: Member d_ch_low (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:562: warning: Member d_ch_high (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:564: warning: Member sampled_file_length (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:566: warning: Member waveform_num (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:567: warning: Member sequence_num (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:568: warning: Member subsequence_num (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:570: warning: Member waveform_format (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:571: warning: Member sequence_format (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:573: warning: Member repetitions (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:574: warning: Member trigger_in (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:575: warning: Member event_jump_to (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:576: warning: Member go_to (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:578: warning: Member activation_config (variable) of class pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:531: warning: argument 'string' of command @param is not found in the argument list of pulser_interface.PulserInterface::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:533: warning: The following parameters of pulser_interface.PulserInterface.ask(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:361: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:362: warning: The following parameters of pulser_interface.PulserInterface.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:405: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:406: warning: The following parameters of pulser_interface.PulserInterface.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:248: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:248: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:249: warning: The following parameters of pulser_interface.PulserInterface.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:292: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:292: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:293: warning: The following parameters of pulser_interface.PulserInterface.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:124: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:124: warning: Unsupported xml/html tag <channel_list> found
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:125: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:125: warning: Unsupported xml/html tag <channel_list> found
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:312: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:312: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:313: warning: The following parameters of pulser_interface.PulserInterface.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:168: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:168: warning: Unsupported xml/html tag <channel_list> found
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:169: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:169: warning: Unsupported xml/html tag <channel_list> found
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:356: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:356: warning: argument 'list' of command @param is not found in the argument list of pulser_interface.PulserInterface::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:357: warning: The following parameters of pulser_interface.PulserInterface.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:162: warning: argument 'str' of command @param is not found in the argument list of pulser_interface.PulserInterface::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:162: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:164: warning: The following parameters of pulser_interface.PulserInterface.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:206: warning: argument 'str' of command @param is not found in the argument list of pulser_interface.PulserInterface::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:206: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:208: warning: The following parameters of pulser_interface.PulserInterface.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:385: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:386: warning: The following parameters of pulser_interface.PulserInterface.set_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:429: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:430: warning: The following parameters of pulser_interface.PulserInterface.set_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:279: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:279: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:280: warning: The following parameters of pulser_interface.PulserInterface.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:323: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:323: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:324: warning: The following parameters of pulser_interface.PulserInterface.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:432: warning: argument 'str' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_asset_dir_on_device(self, dir_path)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:433: warning: The following parameters of pulser_interface.PulserInterface.set_asset_dir_on_device(self, dir_path) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:476: warning: argument 'str' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:477: warning: The following parameters of pulser_interface.PulserInterface.set_asset_dir_on_device(self, dir_path) are not documented:
   parameter 'dir_path'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:342: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:342: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:343: warning: The following parameters of pulser_interface.PulserInterface.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:386: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:386: warning: argument 'dict' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:387: warning: The following parameters of pulser_interface.PulserInterface.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:468: warning: argument 'bool' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:469: warning: The following parameters of pulser_interface.PulserInterface.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:512: warning: argument 'bool' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:513: warning: The following parameters of pulser_interface.PulserInterface.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:213: warning: argument 'float' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:214: warning: The following parameters of pulser_interface.PulserInterface.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:257: warning: argument 'float' of command @param is not found in the argument list of pulser_interface.PulserInterface::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:258: warning: The following parameters of pulser_interface.PulserInterface.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:478: warning: argument 'string' of command @param is not found in the argument list of pulser_interface.PulserInterface::tell(self, command)
-/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:479: warning: The following parameters of pulser_interface.PulserInterface.tell(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:522: warning: argument 'string' of command @param is not found in the argument list of pulser_interface.PulserInterface::tell(self, command)
+/home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:523: warning: The following parameters of pulser_interface.PulserInterface.tell(self, command) are not documented:
   parameter 'command'
 /home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:178: warning: Member get_domain(self) (function) of class qdplot_logic::QdplotLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/qdplot_logic.py:181: warning: Member get_range(self) (function) of class qdplot_logic::QdplotLogic is not documented.
