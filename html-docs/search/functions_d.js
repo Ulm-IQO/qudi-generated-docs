@@ -37,7 +37,7 @@ var searchData=
   ['move_5frel_5fpara_5fchanged',['move_rel_para_changed',['../classmagnet__gui_1_1MagnetGui.html#a3a91b96ae05c36a31b33d03ae264bff1',1,'magnet_gui::MagnetGui']]],
   ['msg_5fid',['msg_id',['../classqzmqkernel_1_1QZMQKernel.html#ac43004a84b156f0d151681a9ccc14923',1,'qzmqkernel::QZMQKernel']]],
   ['mw_5foff',['mw_off',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html#aefba01bdfbfb5ec91e8ef37c483f3c05',1,'nuclear_operations_logic.NuclearOperationsLogic.mw_off()'],['../classodmr__logic_1_1ODMRLogic.html#a2144b00991b47f2e34bb05324f226eba',1,'odmr_logic.ODMRLogic.MW_off()']]],
-  ['mw_5fon',['MW_on',['../classodmr__logic_1_1ODMRLogic.html#a69917b8450dc48a829196bd60304424f',1,'odmr_logic.ODMRLogic.MW_on()'],['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html#a7e146606651e9f46401064d4b157aa89',1,'nuclear_operations_logic.NuclearOperationsLogic.mw_on()']]],
+  ['mw_5fon',['mw_on',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html#a7e146606651e9f46401064d4b157aa89',1,'nuclear_operations_logic.NuclearOperationsLogic.mw_on()'],['../classodmr__logic_1_1ODMRLogic.html#a69917b8450dc48a829196bd60304424f',1,'odmr_logic.ODMRLogic.MW_on()']]],
   ['mw_5fstop',['mw_stop',['../classodmrgui_1_1ODMRGui.html#a74c112dbf1fed5fa01a239113a179856',1,'odmrgui::ODMRGui']]],
   ['mythreadhasquit',['myThreadHasQuit',['../classcore_1_1threadmanager_1_1ThreadItem.html#a3a3746a8a696084962c5616dda6ef98f',1,'core::threadmanager::ThreadItem']]]
 ];
