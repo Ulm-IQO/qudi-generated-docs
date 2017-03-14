@@ -4924,7 +4924,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1257: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format) are not documented:
   parameter 'waveform_format'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:426: warning: argument 'functions_list' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::get_fit_functions(self)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:821: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::load_asset_into_channels(self, asset_name, load_dict={})
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:821: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::load_asset_into_channels(self, asset_name, load_dict=None)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:159: warning: argument 'object' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:159: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.on_activate(self, e) are not documented:
   parameter 'e'
@@ -5004,9 +5004,9 @@ IndexError: list index out of range
   parameter 'x_data'
   parameter 'y_data'
   parameter 'fit_granularity_fact'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:625: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict={})
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:625: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict={})
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:626: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict={}) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:625: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:625: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:626: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:168: warning: argument 'object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::on_activate(self, e)
@@ -5717,7 +5717,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:213: warning: Member sum_laserpulse(self, smoothing=10.0, n_laserpulses=2) (function) of class singleshot_logic::SingleShotLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:235: warning: Member get_normalized_signal(self, smoothing=10.0) (function) of class singleshot_logic::SingleShotLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:313: warning: Member get_timetrace(self) (function) of class singleshot_logic::SingleShotLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:348: warning: Member do_singleshot(self, mw_dict={}, refocus=True, laser_wfm='LaserOn', singleshot_wfm='SSR_normalise_2MW', normalized=True) (function) of class singleshot_logic::SingleShotLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:348: warning: Member do_singleshot(self, mw_dict=None, refocus=True, laser_wfm='LaserOn', singleshot_wfm='SSR_normalise_2MW', normalized=True) (function) of class singleshot_logic::SingleShotLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:459: warning: Member save_singleshot(self, tag=None, normalized=True, visualize=True) (function) of class singleshot_logic::SingleShotLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:566: warning: Member do_calculate_trace(self, time_axis, data) (function) of class singleshot_logic::SingleShotLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/singleshot_logic.py:86: warning: Member hist_data (variable) of class singleshot_logic::SingleShotLogic is not documented.
