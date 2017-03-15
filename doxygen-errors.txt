@@ -54,7 +54,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:166: warning: Compound gui::confocal::confocalgui::OptimizerSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:137: warning: Compound core::util::mutex::RecursiveMutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:32: warning: Compound generic_task::TaskResult is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:49: warning: Compound save_logic::DailyLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:30: warning: Compound CTC100_temperature::CTC100 is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/customexceptions.py:31: warning: Compound core::util::customexceptions::InterfaceImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:33: warning: Compound pulse_extraction_logic::PulseExtractionLogic is not documented.
@@ -79,7 +79,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:28: warning: Compound data_logger_interface::DataLoggerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:553: warning: Compound pulser_interface::PulserConstraints is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_data_interface.py:27: warning: Compound simple_data_interface::SimpleDataInterface is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:107: warning: Compound save_logic::FunctionImplementationError is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:109: warning: Compound save_logic::FunctionImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:36: warning: Compound laserscannergui::VoltScanMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/fit_logic_standalone.py:73: warning: Compound fit_logic_standalone::FitLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:31: warning: Compound notebookgui::NotebookWebView is not documented.
@@ -98,7 +98,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:46: warning: Compound lightfield_spectrometer::Lightfield is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:26: warning: Compound gui::colordefs::ColorScale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:31: warning: Compound gui::nuclear_operations::nuclear_operations::NuclearOperationsMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:45: warning: Compound confocal_logic::OldConfigFileError is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:46: warning: Compound confocal_logic::OldConfigFileError is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:43: warning: Compound laser::laserquantum_laser::LaserQuantumLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:30: warning: Compound automation::TreeItem is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:96: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
@@ -595,91 +595,91 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:30: warning: Member conn_in (variable) of class config_gui::menu::ModuleObject is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:31: warning: Member conn_out (variable) of class config_gui::menu::ModuleObject is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:25: warning: Member sigAddModule (variable) of class config_gui::menu::ModuleObject is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:59: warning: Member xy_line_pos (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:60: warning: Member depth_line_pos (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:63: warning: Member x_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:64: warning: Member y_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:65: warning: Member z_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:68: warning: Member current_x (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:69: warning: Member current_y (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:70: warning: Member current_z (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:71: warning: Member current_a (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:74: warning: Member image_x_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:75: warning: Member image_y_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:76: warning: Member image_z_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:79: warning: Member xy_resolution (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:80: warning: Member z_resolution (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:83: warning: Member xy_line_position (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:84: warning: Member depth_line_position (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:87: warning: Member xy_scan_continuable (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:88: warning: Member depth_scan_continuable (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:91: warning: Member tilt_correction (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:93: warning: Member tilt_reference_x (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:94: warning: Member tilt_reference_y (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:96: warning: Member tilt_slope_x (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:97: warning: Member tilt_slope_y (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:99: warning: Member point1 (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:100: warning: Member point2 (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:101: warning: Member point3 (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:137: warning: Member xy_image (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:145: warning: Member depth_image (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:290: warning: Member __init__(self, config, kwargs) (function) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1227: warning: Member set_tilt_correction(self, enabled) (function) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1233: warning: Member history_forward(self) (function) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1245: warning: Member history_back(self) (function) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:300: warning: Member threadlock (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:305: warning: Member stopRequested (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:306: warning: Member depth_scan_dir_is_xz (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:307: warning: Member permanent_scan (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:324: warning: Member return_slowness (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:329: warning: Member x_range (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:330: warning: Member y_range (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:331: warning: Member z_range (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:334: warning: Member history (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:336: warning: Member max_history_length (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:363: warning: Member history_index (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:521: warning: Member depth_image (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:547: warning: Member xy_image (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1202: warning: Member point1 (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1208: warning: Member point2 (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1214: warning: Member point3 (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:271: warning: Member signal_start_scanning (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:272: warning: Member signal_continue_scanning (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:273: warning: Member signal_stop_scanning (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:274: warning: Member signal_scan_lines_next (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:275: warning: Member signal_xy_image_updated (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:276: warning: Member signal_depth_image_updated (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:277: warning: Member signal_change_position (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:278: warning: Member signal_xy_data_saved (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:279: warning: Member signal_depth_data_saved (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:280: warning: Member signal_tilt_correction_active (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:281: warning: Member signal_tilt_correction_update (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:282: warning: Member signal_draw_figure_completed (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:283: warning: Member signal_position_changed (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:285: warning: Member sigImageXYInitialized (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:286: warning: Member sigImageDepthInitialized (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:288: warning: Member signal_history_event (variable) of class confocal_logic::ConfocalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1077: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:870: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:407: warning: argument 'int' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_clock_frequency(self, clock_frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:409: warning: The following parameters of confocal_logic.ConfocalLogic.set_clock_frequency(self, clock_frequency) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:60: warning: Member xy_line_pos (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:61: warning: Member depth_line_pos (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:64: warning: Member x_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:65: warning: Member y_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:66: warning: Member z_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:69: warning: Member current_x (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:70: warning: Member current_y (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:71: warning: Member current_z (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:72: warning: Member current_a (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:75: warning: Member image_x_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:76: warning: Member image_y_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:77: warning: Member image_z_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:80: warning: Member xy_resolution (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:81: warning: Member z_resolution (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:84: warning: Member xy_line_position (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:85: warning: Member depth_line_position (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:88: warning: Member xy_scan_continuable (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:89: warning: Member depth_scan_continuable (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:92: warning: Member tilt_correction (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:94: warning: Member tilt_reference_x (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:95: warning: Member tilt_reference_y (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:97: warning: Member tilt_slope_x (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:98: warning: Member tilt_slope_y (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:100: warning: Member point1 (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:101: warning: Member point2 (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:102: warning: Member point3 (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:138: warning: Member xy_image (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:146: warning: Member depth_image (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:291: warning: Member __init__(self, config, kwargs) (function) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1203: warning: Member set_tilt_correction(self, enabled) (function) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1209: warning: Member history_forward(self) (function) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1221: warning: Member history_back(self) (function) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:301: warning: Member threadlock (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:306: warning: Member stopRequested (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:307: warning: Member depth_scan_dir_is_xz (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:308: warning: Member permanent_scan (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:325: warning: Member return_slowness (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:330: warning: Member x_range (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:331: warning: Member y_range (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:332: warning: Member z_range (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:335: warning: Member history (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:337: warning: Member max_history_length (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:364: warning: Member history_index (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:522: warning: Member depth_image (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:548: warning: Member xy_image (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1178: warning: Member point1 (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1184: warning: Member point2 (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1190: warning: Member point3 (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:272: warning: Member signal_start_scanning (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:273: warning: Member signal_continue_scanning (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:274: warning: Member signal_stop_scanning (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:275: warning: Member signal_scan_lines_next (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:276: warning: Member signal_xy_image_updated (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:277: warning: Member signal_depth_image_updated (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:278: warning: Member signal_change_position (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:279: warning: Member signal_xy_data_saved (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:280: warning: Member signal_depth_data_saved (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:281: warning: Member signal_tilt_correction_active (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:282: warning: Member signal_tilt_correction_update (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:283: warning: Member signal_draw_figure_completed (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:284: warning: Member signal_position_changed (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:286: warning: Member sigImageXYInitialized (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:287: warning: Member sigImageDepthInitialized (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:289: warning: Member signal_history_event (variable) of class confocal_logic::ConfocalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:1053: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:871: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:408: warning: argument 'int' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_clock_frequency(self, clock_frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:410: warning: The following parameters of confocal_logic.ConfocalLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:652: warning: argument 'string' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:652: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:652: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:652: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:652: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:652: warning: The following parameters of confocal_logic.ConfocalLogic.set_position(self, tag, x=None, y=None, z=None, a=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:653: warning: argument 'string' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:653: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:653: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:653: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:653: warning: argument 'float' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:653: warning: The following parameters of confocal_logic.ConfocalLogic.set_position(self, tag, x=None, y=None, z=None, a=None) are not documented:
   parameter 'tag'
   parameter 'x'
   parameter 'y'
   parameter 'z'
   parameter 'a'
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:421: warning: argument 'bool' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::start_scanning(self, zscan=False, tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:423: warning: The following parameters of confocal_logic.ConfocalLogic.start_scanning(self, zscan=False, tag='logic') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:422: warning: argument 'bool' of command @param is not found in the argument list of confocal_logic.ConfocalLogic::start_scanning(self, zscan=False, tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:424: warning: The following parameters of confocal_logic.ConfocalLogic.start_scanning(self, zscan=False, tag='logic') are not documented:
   parameter 'zscan'
   parameter 'tag'
-/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:46: warning: Member __init__(self) (function) of class confocal_logic::OldConfigFileError is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:47: warning: Member __init__(self) (function) of class confocal_logic::OldConfigFileError is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/confocal_scanner_dummy.py:48: warning: Member __init__(self, config, kwargs) (function) of class confocal_scanner_dummy::ConfocalScannerDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
@@ -1249,15 +1249,15 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:79: warning: The following parameters of counter_logic.CounterLogic.__init__(self, config, kwargs) are not documented:
   parameter 'config'
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:358: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:357: warning: expected whitespace after : command
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:114: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:114: warning: The following parameters of counter_logic.CounterLogic.on_activate(self, e) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:157: warning: argument 'object' of command @param is not found in the argument list of counter_logic.CounterLogic::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:157: warning: The following parameters of counter_logic.CounterLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:531: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_current_count_trace(self, name_tag='')
-/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:531: warning: The following parameters of counter_logic.CounterLogic.save_current_count_trace(self, name_tag='') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:530: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_current_count_trace(self, name_tag='')
+/home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:530: warning: The following parameters of counter_logic.CounterLogic.save_current_count_trace(self, name_tag='') are not documented:
   parameter 'name_tag'
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:315: warning: argument 'bool' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:315: warning: argument 'str' of command @param is not found in the argument list of counter_logic.CounterLogic::save_data(self, to_file=True, postfix='')
@@ -1769,11 +1769,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1158: warning: Member purple (variable) of class gui::colordefs::QudiPalettePale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1159: warning: Member c6 (variable) of class gui::colordefs::QudiPalettePale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:202: warning: Member __init__(self, config, kwargs) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1256: warning: Member update_roi_xy_size(self) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1267: warning: Member update_roi_depth_size(self) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2251: warning: Member logic_started_scanning(self, tag) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2255: warning: Member logic_continued_scanning(self, tag) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2259: warning: Member logic_started_refocus(self, tag) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1255: warning: Member update_roi_xy_size(self) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1266: warning: Member update_roi_depth_size(self) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2250: warning: Member logic_started_scanning(self, tag) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2254: warning: Member logic_continued_scanning(self, tag) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2258: warning: Member logic_started_refocus(self, tag) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
@@ -1787,104 +1787,104 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:219: warning: Member slider_big_step (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:224: warning: Member xy_image_orientation (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:225: warning: Member depth_image_orientation (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:275: warning: Member depth_channel (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:276: warning: Member opt_channel (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:293: warning: Member xy_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:294: warning: Member depth_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:310: warning: Member scan_line_plot (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:327: warning: Member depth_refocus_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:336: warning: Member depth_refocus_fit_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:357: warning: Member vLine (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:364: warning: Member hLine (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:391: warning: Member roi_xy (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:410: warning: Member hline_xy (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:412: warning: Member vline_xy (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:433: warning: Member roi_depth (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:448: warning: Member hline_depth (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:453: warning: Member vline_depth (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:479: warning: Member slider_res (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:728: warning: Member xy_cb (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:729: warning: Member depth_cb (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:274: warning: Member depth_channel (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:275: warning: Member opt_channel (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:292: warning: Member xy_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:293: warning: Member depth_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:309: warning: Member scan_line_plot (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:326: warning: Member depth_refocus_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:335: warning: Member depth_refocus_fit_image (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:356: warning: Member vLine (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:363: warning: Member hLine (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:390: warning: Member roi_xy (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:409: warning: Member hline_xy (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:411: warning: Member vline_xy (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:432: warning: Member roi_depth (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:447: warning: Member hline_depth (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:452: warning: Member vline_depth (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:478: warning: Member slider_res (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:727: warning: Member xy_cb (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:728: warning: Member depth_cb (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:200: warning: Member sigStartOptimizer (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1882: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::adjust_aspect_roi_depth(self, viewbox=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1882: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.adjust_aspect_roi_depth(self, viewbox=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1881: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::adjust_aspect_roi_depth(self, viewbox=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1881: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.adjust_aspect_roi_depth(self, viewbox=None) are not documented:
   parameter 'viewbox'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1855: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::adjust_aspect_roi_xy(self)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2170: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_end_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2170: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_end_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1854: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::adjust_aspect_roi_xy(self)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2169: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_end_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2169: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_end_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2153: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_start_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2153: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_start_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2152: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_start_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2152: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_start_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:263: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initMainUI(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:263: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initMainUI(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:262: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initMainUI(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:262: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initMainUI(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:784: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initOptimizerSettingsUI(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:784: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initOptimizerSettingsUI(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:783: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initOptimizerSettingsUI(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:783: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initOptimizerSettingsUI(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:763: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initSettingsUI(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:763: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initSettingsUI(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:762: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initSettingsUI(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:762: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initSettingsUI(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:826: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::keyPressEvent(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:826: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.keyPressEvent(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:825: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::keyPressEvent(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:825: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.keyPressEvent(self, event) are not documented:
   parameter 'event'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:240: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::on_activate(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:240: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:809: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:811: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:808: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:810: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1162: warning: argument 'str' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_crosshair_position_from_logic(self, tag)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1162: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_crosshair_position_from_logic(self, tag) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1161: warning: argument 'str' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_crosshair_position_from_logic(self, tag)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1161: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_crosshair_position_from_logic(self, tag) are not documented:
   parameter 'tag'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1362: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1362: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1362: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1362: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_from_key(self, x=None, y=None, z=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1361: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1361: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1361: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1361: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_from_key(self, x=None, y=None, z=None) are not documented:
   parameter 'x'
   parameter 'y'
   parameter 'z'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1331: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1302: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1436: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1448: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1459: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1412: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_input_x(self, x_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1412: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_input_x(self, x_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1330: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1301: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1435: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1447: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1458: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1411: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_input_x(self, x_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1411: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_input_x(self, x_pos) are not documented:
   parameter 'x_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1420: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_input_y(self, y_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1420: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_input_y(self, y_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1419: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_input_y(self, y_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1419: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_input_y(self, y_pos) are not documented:
   parameter 'y_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1428: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_input_z(self, z_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1428: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_input_z(self, z_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1427: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_input_z(self, z_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1427: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_input_z(self, z_pos) are not documented:
   parameter 'z_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1289: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1289: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1289: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_roi_depth(self, x=None, z=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1288: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1288: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1288: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_roi_depth(self, x=None, z=None) are not documented:
   parameter 'x'
   parameter 'z'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1245: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1245: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1245: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_roi_xy(self, x=None, y=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1244: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1244: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1244: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_roi_xy(self, x=None, y=None) are not documented:
   parameter 'x'
   parameter 'y'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1470: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_x(self, x_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1470: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_x(self, x_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1469: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_x(self, x_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1469: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_x(self, x_pos) are not documented:
   parameter 'x_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1477: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_y(self, y_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1477: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_y(self, y_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1476: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_y(self, y_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1476: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_y(self, y_pos) are not documented:
   parameter 'y_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1484: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_z(self, z_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1484: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_z(self, z_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1483: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_z(self, z_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1483: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_z(self, z_pos) are not documented:
   parameter 'z_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2080: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_end_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2080: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_end_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2079: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_end_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2079: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_end_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2063: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_start_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2063: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_start_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2062: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_start_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2062: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_start_zoom_point(self, event) are not documented:
   parameter 'event'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:137: warning: Member __init__(self) (function) of class gui::confocal::confocalgui::ConfocalMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:135: warning: Member sigPressKeyBoard (variable) of class gui::confocal::confocalgui::ConfocalMainWindow is not documented.
@@ -2831,9 +2831,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:907: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:941: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2044: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2222: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2232: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2235: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2219: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2229: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2232: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:209: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:214: warning: Member move_rel (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:225: warning: Member align_2d_axis0_name (variable) of class magnet_logic::MagnetLogic is not documented.
@@ -2908,7 +2908,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:153: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:155: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:63: warning: Illegal command par as part of a <h1> tag
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2255: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2252: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:598: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:598: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
@@ -2927,7 +2927,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:494: warning: argument 'object' of command @param is not found in the argument list of magnet_logic.MagnetLogic::on_deactivate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:494: warning: The following parameters of magnet_logic.MagnetLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2243: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2240: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:635: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:635: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
@@ -4062,7 +4062,7 @@ IndexError: list index out of range
   parameter 'x_data'
   parameter 'y_data'
   parameter 'fit_granularity_fact'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:981: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:974: warning: expected whitespace after : command
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:100: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::on_activate(self, e)
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:100: warning: The following parameters of odmr_logic.ODMRLogic.on_activate(self, e) are not documented:
   parameter 'e'
@@ -4416,7 +4416,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:427: warning: Member set_new_position(self, poikey=None, point=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:661: warning: Member reset_roi(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:698: warning: Member update_poi_tag_in_savelogic(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:748: warning: Member load_roi_from_file(self, filename=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:743: warning: Member load_roi_from_file(self, filename=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:204: warning: Member roi_name (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:205: warning: Member track_point_list (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:207: warning: Member go_to_crosshair_after_refocus (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
@@ -4464,15 +4464,15 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:562: warning: The following parameters of poi_manager_logic.PoiManagerLogic.start_periodic_refocus(self, duration=None, poikey=None) are not documented:
   parameter 'duration'
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:783: warning: The following parameters of poi_manager_logic.PoiManagerLogic.triangulate(self, r, a1, b1, c1, a2, b2, c2) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: The following parameters of poi_manager_logic.PoiManagerLogic.triangulate(self, r, a1, b1, c1, a2, b2, c2) are not documented:
   parameter 'r'
   parameter 'a1'
   parameter 'b1'
@@ -4763,8 +4763,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:136: warning: Member analyze_data(self, laser_data, norm_start_bin, norm_end_bin, signal_start_bin, signal_end_bin) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:143: warning: Member compute_x_values(self, start, increment, alternating) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:151: warning: Member save_file(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:179: warning: Member save_figure(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:183: warning: Member get_analysis_methods(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:173: warning: Member save_figure(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:177: warning: Member get_analysis_methods(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:69: warning: Member threadlock (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:97: warning: Member data (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:139: warning: Member measuring_error (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
@@ -4998,8 +4998,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:79: warning: Member sigAnalysisMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:80: warning: Member sigExtractionSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:81: warning: Member sigExtractionMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1219: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1219: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1199: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1199: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_function, x_data=None, y_data=None, fit_granularity_fact=10) are not documented:
   parameter 'fit_function'
   parameter 'x_data'
   parameter 'y_data'
@@ -5340,48 +5340,47 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/samples_write_methods.py:35: warning: Member __init__(self) (function) of class samples_write_methods::SamplesWriteMethods is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:31: warning: Member __init__(self) (function) of class sampling_functions::SamplingFunctions is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:106: warning: Member func_config (variable) of class sampling_functions::SamplingFunctions is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Member __init__(self, base_filename, savelogic) (function) of class save_logic::DailyLogHandler is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:67: warning: Member filename(self) (function) of class save_logic::DailyLogHandler is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:78: warning: Member emit(self, record) (function) of class save_logic::DailyLogHandler is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:98: warning: Member baseFilename (variable) of class save_logic::DailyLogHandler is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:109: warning: Member __init__(self, value) (function) of class save_logic::FunctionImplementationError is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:112: warning: Member __str__(self) (function) of class save_logic::FunctionImplementationError is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:110: warning: Member value (variable) of class save_logic::FunctionImplementationError is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:156: warning: Member __init__(self, config, kwargs) (function) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:232: warning: Member on_deactivate(self, e=None) (function) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:160: warning: Member lock (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:165: warning: Member active_poi_name (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:168: warning: Member os_system (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:169: warning: Member default_unix_data_dir (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:170: warning: Member default_win_data_dir (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:177: warning: Member data_dir (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:195: warning: Member log_into_daily_directory (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:132: warning: Member mpl_qd_style (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:219: warning: argument 'object' of command @param is not found in the argument list of save_logic.SaveLogic::on_activate(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:219: warning: The following parameters of save_logic.SaveLogic.on_activate(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:53: warning: Member __init__(self, base_filename, savelogic) (function) of class save_logic::DailyLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:69: warning: Member filename(self) (function) of class save_logic::DailyLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:80: warning: Member emit(self, record) (function) of class save_logic::DailyLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:100: warning: Member baseFilename (variable) of class save_logic::DailyLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:111: warning: Member __init__(self, value) (function) of class save_logic::FunctionImplementationError is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:114: warning: Member __str__(self) (function) of class save_logic::FunctionImplementationError is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:112: warning: Member value (variable) of class save_logic::FunctionImplementationError is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:158: warning: Member __init__(self, config, kwargs) (function) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:234: warning: Member on_deactivate(self, e=None) (function) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:576: warning: Member save_array_as_text(self, data, filename, filepath='', fmt='%.15e', header='', delimiter='\t', comments='#', append=False) (function) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:162: warning: Member lock (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:167: warning: Member active_poi_name (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:170: warning: Member os_system (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:171: warning: Member default_unix_data_dir (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:172: warning: Member default_win_data_dir (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:179: warning: Member data_dir (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:197: warning: Member log_into_daily_directory (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:134: warning: Member mpl_qd_style (variable) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:221: warning: argument 'object' of command @param is not found in the argument list of save_logic.SaveLogic::on_activate(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:221: warning: The following parameters of save_logic.SaveLogic.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'dict' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:380: warning: Unsupported xml/html tag <module_name> found
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'dict' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:385: warning: Found unknown command `\parem'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:399: warning: Found unknown command `\parem'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'datetime' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'bool' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'bool' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'int' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:430: warning: Found unknown command `\t'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:365: warning: The following parameters of save_logic.SaveLogic.save_data(self, data, filepath, parameters=None, filename=None, filelabel=None, timestamp=None, as_text=True, as_xml=False, precision=':.3e', delimiter='\t', plotfig=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:364: warning: Found unknown command `\parem'
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:374: warning: Found unknown command `\parem'
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'datetime' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:343: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:401: warning: Found unknown command `\t'
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:427: warning: Unsupported xml/html tag <identifier> found
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:344: warning: The following parameters of save_logic.SaveLogic.save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None) are not documented:
   parameter 'data'
   parameter 'filepath'
   parameter 'parameters'
   parameter 'filename'
   parameter 'filelabel'
   parameter 'timestamp'
-  parameter 'as_text'
-  parameter 'as_xml'
-  parameter 'precision'
+  parameter 'filetype'
+  parameter 'fmt'
   parameter 'delimiter'
   parameter 'plotfig'
 /home/travis/build/Ulm-IQO/qudi/hardware/sc_magnet/magnet.py:100: warning: Member on_activate(self, e) (function) of class sc_magnet::magnet::Magnet is not documented.
@@ -6343,7 +6342,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:217: warning: Member get_min_wavelength(self) (function) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:220: warning: Member get_bins(self) (function) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:223: warning: Member recalculate_histogram(self, bins=None, xmin=None, xmax=None) (function) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:603: warning: Member nm_to_ghz(self, wavelength) (function) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:595: warning: Member nm_to_ghz(self, wavelength) (function) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:131: warning: Member threadlock (variable) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:154: warning: Member counts_with_wavelength (variable) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:159: warning: Member intern_xmax (variable) of class wavemeter_logger_logic::WavemeterLoggerLogic is not documented.
