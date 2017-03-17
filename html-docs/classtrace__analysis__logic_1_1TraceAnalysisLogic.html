@@ -124,9 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51a7f32ca23037464d1e2f977aa79cc2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a51a7f32ca23037464d1e2f977aa79cc2">do_no_fit</a> (self)</td></tr>
 <tr class="memdesc:a51a7f32ca23037464d1e2f977aa79cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform no fit, basically return an empty array.  <a href="#a51a7f32ca23037464d1e2f977aa79cc2">More...</a><br /></td></tr>
 <tr class="separator:a51a7f32ca23037464d1e2f977aa79cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9ea80c70d5791184b9c713de8b47de5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aa9ea80c70d5791184b9c713de8b47de5">analyze_lifetime</a> (self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 &gt;', num_bins=50)</td></tr>
-<tr class="memdesc:aa9ea80c70d5791184b9c713de8b47de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an lifetime analysis of a 1D time trace.  <a href="#aa9ea80c70d5791184b9c713de8b47de5">More...</a><br /></td></tr>
-<tr class="separator:aa9ea80c70d5791184b9c713de8b47de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd4d98bd68c07cd1696feb096169e43"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aadd4d98bd68c07cd1696feb096169e43">analyze_lifetime</a> (self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 &gt;', num_bins=50, threshold_zeros=2.0, weights=[1, points_used=5, error_margin_crossing_sign=2, error_margin_crossing_occured=2)</td></tr>
+<tr class="memdesc:aadd4d98bd68c07cd1696feb096169e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an lifetime analysis of a 1D time trace.  <a href="#aadd4d98bd68c07cd1696feb096169e43">More...</a><br /></td></tr>
+<tr class="separator:aadd4d98bd68c07cd1696feb096169e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b40b9ad68715210157b1d2adae04b57"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a7b40b9ad68715210157b1d2adae04b57">do_gaussian_fit</a> (self, axis, data)</td></tr>
 <tr class="memdesc:a7b40b9ad68715210157b1d2adae04b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a gaussian fit.  <a href="#a7b40b9ad68715210157b1d2adae04b57">More...</a><br /></td></tr>
 <tr class="separator:a7b40b9ad68715210157b1d2adae04b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,8 +296,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa9ea80c70d5791184b9c713de8b47de5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9ea80c70d5791184b9c713de8b47de5">&#9670;&nbsp;</a></span>analyze_lifetime()</h2>
+<a id="aadd4d98bd68c07cd1696feb096169e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd4d98bd68c07cd1696feb096169e43">&#9670;&nbsp;</a></span>analyze_lifetime()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +342,37 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>num_bins</em> = <code>50</code>&#160;</td>
+          <td class="paramname"><em>num_bins</em> = <code>50</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>threshold_zeros</em> = <code>2.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>weights</em> = <code>[1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>points_used</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>error_margin_crossing_sign</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>error_margin_crossing_occured</em> = <code>2</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
