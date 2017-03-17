@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['the_20gnu_20general_20public_20license',['The GNU General Public License',['../gpl.html',1,'']]],
-  ['the_20mit_20license',['The MIT License',['../mitlicense.html',1,'']]]
+  ['user_20interface_20_28gui_29_20design_20concept',['User Interface (GUI) Design Concept',['../uiguidelines.html',1,'']]]
 ];

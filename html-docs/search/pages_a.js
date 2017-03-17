@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['structure_20of_20pulsed_20main_20gui',['Structure of Pulsed Main GUI',['../pulsed_maingui.html',1,'']]],
-  ['state_20machines_20with_20fysom',['State machines with Fysom',['../statemachines.html',1,'']]]
+  ['the_20gnu_20general_20public_20license',['The GNU General Public License',['../gpl.html',1,'']]],
+  ['the_20mit_20license',['The MIT License',['../mitlicense.html',1,'']]]
 ];

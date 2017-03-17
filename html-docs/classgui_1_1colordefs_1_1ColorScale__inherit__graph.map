@@ -1,7 +1,0 @@
-<map id="gui.colordefs.ColorScale" name="gui.colordefs.ColorScale">
-<area shape="rect" id="node3" href="$classgui_1_1colordefs_1_1ColorScaleInferno.html" title="gui.colordefs.ColorScale\lInferno" alt="" coords="220,5,383,51"/>
-<area shape="rect" id="node5" href="$classgui_1_1colordefs_1_1ColorScaleMagma.html" title="gui.colordefs.ColorScale\lMagma" alt="" coords="220,74,383,121"/>
-<area shape="rect" id="node7" href="$classgui_1_1colordefs_1_1ColorScalePlasma.html" title="gui.colordefs.ColorScale\lPlasma" alt="" coords="220,143,383,190"/>
-<area shape="rect" id="node9" href="$classgui_1_1colordefs_1_1ColorScaleRainbow.html" title="gui.colordefs.ColorScale\lRainbow" alt="" coords="220,213,383,259"/>
-<area shape="rect" id="node11" href="$classgui_1_1colordefs_1_1ColorScaleViridis.html" title="gui.colordefs.ColorScale\lViridis" alt="" coords="220,282,383,329"/>
-</map>
