@@ -15,6 +15,7 @@ var searchData=
   ['perform_5fodmr_5fmeasurement',['perform_odmr_measurement',['../classodmr__logic_1_1ODMRLogic.html#a96d6d16676a0b44a50c21dc8cc20b0b8',1,'odmr_logic::ODMRLogic']]],
   ['pidcontrollerinterface',['PIDControllerInterface',['../classpid__controller__interface_1_1PIDControllerInterface.html',1,'pid_controller_interface']]],
   ['pidgui',['PIDGui',['../classpidgui_1_1PIDGui.html',1,'pidgui']]],
+  ['pidlogic',['PIDLogic',['../classpid__logic_1_1PIDLogic.html',1,'pid_logic']]],
   ['pidmainwindow',['PIDMainWindow',['../classpidgui_1_1PIDMainWindow.html',1,'pidgui']]],
   ['pipwm',['PiPWM',['../classpi__pwm_1_1PiPWM.html',1,'pi_pwm']]],
   ['pipwmhalf',['PiPWMHalf',['../classpi__pwm_1_1PiPWMHalf.html',1,'pi_pwm']]],

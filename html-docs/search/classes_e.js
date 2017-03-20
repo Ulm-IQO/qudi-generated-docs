@@ -4,6 +4,7 @@ var searchData=
   ['parentpollerwindows',['ParentPollerWindows',['../classparentpoller_1_1ParentPollerWindows.html',1,'parentpoller.ParentPollerWindows'],['../classcore_1_1parentpoller_1_1ParentPollerWindows.html',1,'core.parentpoller.ParentPollerWindows']]],
   ['pidcontrollerinterface',['PIDControllerInterface',['../classpid__controller__interface_1_1PIDControllerInterface.html',1,'pid_controller_interface']]],
   ['pidgui',['PIDGui',['../classpidgui_1_1PIDGui.html',1,'pidgui']]],
+  ['pidlogic',['PIDLogic',['../classpid__logic_1_1PIDLogic.html',1,'pid_logic']]],
   ['pidmainwindow',['PIDMainWindow',['../classpidgui_1_1PIDMainWindow.html',1,'pidgui']]],
   ['pipwm',['PiPWM',['../classpi__pwm_1_1PiPWM.html',1,'pi_pwm']]],
   ['pipwmhalf',['PiPWMHalf',['../classpi__pwm_1_1PiPWMHalf.html',1,'pi_pwm']]],

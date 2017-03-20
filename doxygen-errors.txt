@@ -3,32 +3,6 @@ Traceback (most recent call last):
     sys.exit(main())
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
     astWalker.parseLines()
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 741, in parseLines
-    inAst = parse(''.join(self.lines), self.inFilename)
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/ast.py", line 35, in parse
-    return compile(source, filename, mode, PyCF_ONLY_AST)
-  File "/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py", line 86
-    return self.inst.ask(channel.replace(" ", "") + '.selected?' ).split(' = ')[-1] == 'On'
-    ^
-IndentationError: unexpected indent
-Traceback (most recent call last):
-  File "/home/travis/miniconda/envs/qudi/bin/doxypypy", line 11, in <module>
-    sys.exit(main())
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
-    astWalker.parseLines()
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 741, in parseLines
-    inAst = parse(''.join(self.lines), self.inFilename)
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/ast.py", line 35, in parse
-    return compile(source, filename, mode, PyCF_ONLY_AST)
-  File "/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py", line 295
-    g = self.inst.ask('?V{0}'.format(gauge))
-    ^
-IndentationError: unexpected indent
-Traceback (most recent call last):
-  File "/home/travis/miniconda/envs/qudi/bin/doxypypy", line 11, in <module>
-    sys.exit(main())
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
-    astWalker.parseLines()
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 743, in parseLines
     self.visit(inAst)
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 569, in visit
@@ -52,19 +26,6 @@ Traceback (most recent call last):
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 209, in __alterDocstring
     lines[-1], inCodeBlock)
 IndexError: list index out of range
-Traceback (most recent call last):
-  File "/home/travis/miniconda/envs/qudi/bin/doxypypy", line 11, in <module>
-    sys.exit(main())
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
-    astWalker.parseLines()
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 741, in parseLines
-    inAst = parse(''.join(self.lines), self.inFilename)
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/ast.py", line 35, in parse
-    return compile(source, filename, mode, PyCF_ONLY_AST)
-  File "/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py", line 172
-    return self._controller.set_ki(ki)
-                                     ^
-IndentationError: unindent does not match any outer indentation level
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:47: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:27: warning: Compound simple_laser_interface::ControlMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscangui.py:46: warning: Compound laserscangui::LaserScanningGui is not documented.
@@ -147,6 +108,7 @@ IndentationError: unindent does not match any outer indentation level
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:26: warning: Compound scanner_tilt_interfuse::ScannerTiltInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:44: warning: Compound simple_laser_interface::SimpleLaserInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1141: warning: Compound gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:34: warning: Compound edwards_vacuum_controller::EdwardsVacuumController is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:38: warning: Compound odmrgui::ODMRMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:106: warning: Compound notebookgui::TabbedWebView is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:130: warning: Compound pulsed_maingui::PredefinedMethodsTab is not documented.
@@ -1334,6 +1296,35 @@ IndentationError: unindent does not match any outer indentation level
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:379: warning: The following parameters of countergui.CounterGui.update_saving_Action(self, start) are not documented:
   parameter 'start'
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:39: warning: Member __init__(self, kwargs) (function) of class countergui::CounterMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:113: warning: Member get_all_outputs(self) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:121: warning: Member get_selected_channels(self) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:128: warning: Member enable_output(self) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:135: warning: Member disable_output(self) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:142: warning: Member get_setpoint(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:145: warning: Member set_setpoint(self, channel, setpoint) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:148: warning: Member get_pid_mode(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:151: warning: Member set_pid_mode(self, channel, mode) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:154: warning: Member channel_off(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:157: warning: Member get_value(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:163: warning: Member set_value(self, channel, value) (function) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:64: warning: Member rm (variable) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:65: warning: Member inst (variable) of class CTC100_temperature::CTC100 is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:62: warning: argument 'str' of command @param is not found in the argument list of CTC100_temperature.CTC100::connect(self, interface)
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:62: warning: The following parameters of CTC100_temperature.CTC100.connect(self, interface) are not documented:
+  parameter 'interface'
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:89: warning: argument 'str' of command @param is not found in the argument list of CTC100_temperature.CTC100::is_channel_selected(self, channel)
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:91: warning: The following parameters of CTC100_temperature.CTC100.is_channel_selected(self, channel) are not documented:
+  parameter 'channel'
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:43: warning: argument 'object' of command @param is not found in the argument list of CTC100_temperature.CTC100::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:45: warning: The following parameters of CTC100_temperature.CTC100.on_activate(self, e) are not documented:
+  parameter 'e'
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:51: warning: argument 'object' of command @param is not found in the argument list of CTC100_temperature.CTC100::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:53: warning: The following parameters of CTC100_temperature.CTC100.on_deactivate(self, e) are not documented:
+  parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:39: warning: Member get_log_channels(self) (function) of class data_logger_interface::DataLoggerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:43: warning: Member set_log_channels(self, channelspec) (function) of class data_logger_interface::DataLoggerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:47: warning: Member log_to_channel(self, channel, value) (function) of class data_logger_interface::DataLoggerInterface is not documented.
@@ -1384,6 +1375,30 @@ IndentationError: unindent does not match any outer indentation level
   parameter 'editor'
   parameter 'option'
   parameter 'index'
+/home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:221: warning: Member rm (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:222: warning: Member inst (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:45: warning: Member PRIORITY (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:52: warning: Member ALERT_ID (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:103: warning: Member GAS_TYPE (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:113: warning: Member GAUGE_TYPE (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:142: warning: Member GAUGE_STATE (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:158: warning: Member GAUGE_UNIT (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:164: warning: Member PUMP_STATE (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:175: warning: Member PUMP_TYPE (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:187: warning: Member GENERAL_STATE (variable) of class edwards_vacuum_controller::EdwardsVacuumController is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:218: warning: argument 'str' of command @param is not found in the argument list of edwards_vacuum_controller.EdwardsVacuumController::connect_tic(self, interface)
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:218: warning: The following parameters of edwards_vacuum_controller.EdwardsVacuumController.connect_tic(self, interface) are not documented:
+  parameter 'interface'
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:199: warning: argument 'object' of command @param is not found in the argument list of edwards_vacuum_controller.EdwardsVacuumController::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:201: warning: The following parameters of edwards_vacuum_controller.EdwardsVacuumController.on_activate(self, e) are not documented:
+  parameter 'e'
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:207: warning: argument 'object' of command @param is not found in the argument list of edwards_vacuum_controller.EdwardsVacuumController::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:209: warning: The following parameters of edwards_vacuum_controller.EdwardsVacuumController.on_deactivate(self, e) are not documented:
+  parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/events.py:33: warning: Member kernel (variable) of class events::EventManager is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/events.py:34: warning: Member callbacks (variable) of class events::EventManager is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fast_counter_dummy.py:50: warning: Member __init__(self, config, kwargs) (function) of class fast_counter_dummy::FastCounterDummy is not documented.
@@ -4363,6 +4378,39 @@ IndentationError: unindent does not match any outer indentation level
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:93: warning: Member get_process_value(self) (function) of class pid_controller_interface::PIDControllerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:97: warning: Member get_control_value(self) (function) of class pid_controller_interface::PIDControllerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:101: warning: Member get_extra(self) (function) of class pid_controller_interface::PIDControllerInterface is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:53: warning: Member __init__(self, config, kwargs) (function) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:62: warning: Member NumberOfSecondsLog (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:63: warning: Member threadlock (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:75: warning: Member bufferLength (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:80: warning: Member timestep (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:84: warning: Member history (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:85: warning: Member savingState (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:86: warning: Member enabled (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:87: warning: Member timer (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:51: warning: Member sigUpdateDisplay (variable) of class pid_logic::PIDLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:255: warning: argument 'list' of command @param is not found in the argument list of pid_logic.PIDLogic::set_control_limits(self, limits)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:255: warning: argument 'float' of command @param is not found in the argument list of pid_logic.PIDLogic::set_control_limits(self, limits)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:255: warning: The following parameters of pid_logic.PIDLogic.set_control_limits(self, limits) are not documented:
+  parameter 'limits'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:236: warning: argument 'bool' of command @param is not found in the argument list of pid_logic.PIDLogic::set_enabled(self, enabled)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:236: warning: The following parameters of pid_logic.PIDLogic.set_enabled(self, enabled) are not documented:
+  parameter 'enabled'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:192: warning: argument 'float' of command @param is not found in the argument list of pid_logic.PIDLogic::set_kd(self, kd)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:194: warning: The following parameters of pid_logic.PIDLogic.set_kd(self, kd) are not documented:
+  parameter 'kd'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:180: warning: argument 'float' of command @param is not found in the argument list of pid_logic.PIDLogic::set_ki(self, ki)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:180: warning: The following parameters of pid_logic.PIDLogic.set_ki(self, ki) are not documented:
+  parameter 'ki'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:166: warning: Found unknown command `\prarm'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:222: warning: argument 'float' of command @param is not found in the argument list of pid_logic.PIDLogic::set_manual_value(self, manualvalue)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:222: warning: The following parameters of pid_logic.PIDLogic.set_manual_value(self, manualvalue) are not documented:
+  parameter 'manualvalue'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:208: warning: argument 'float' of command @param is not found in the argument list of pid_logic.PIDLogic::set_setpoint(self, setpoint)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:208: warning: The following parameters of pid_logic.PIDLogic.set_setpoint(self, setpoint) are not documented:
+  parameter 'setpoint'
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:151: warning: argument 'int' of command @param is not found in the argument list of pid_logic.PIDLogic::setBufferLength(self, newBufferLength)
+/home/travis/build/Ulm-IQO/qudi/logic/pid_logic.py:151: warning: The following parameters of pid_logic.PIDLogic.setBufferLength(self, newBufferLength) are not documented:
+  parameter 'newBufferLength'
 /home/travis/build/Ulm-IQO/qudi/gui/pidgui/pidgui.py:68: warning: Member __init__(self, config, kwargs) (function) of class pidgui::PIDGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pidgui/pidgui.py:260: warning: Member updateViews(self) (function) of class pidgui::PIDGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pidgui/pidgui.py:304: warning: Member kpChanged(self) (function) of class pidgui::PIDGui is not documented.
