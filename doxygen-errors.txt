@@ -26,19 +26,6 @@ Traceback (most recent call last):
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 209, in __alterDocstring
     lines[-1], inCodeBlock)
 IndexError: list index out of range
-Traceback (most recent call last):
-  File "/home/travis/miniconda/envs/qudi/bin/doxypypy", line 11, in <module>
-    sys.exit(main())
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
-    astWalker.parseLines()
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 741, in parseLines
-    inAst = parse(''.join(self.lines), self.inFilename)
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/ast.py", line 35, in parse
-    return compile(source, filename, mode, PyCF_ONLY_AST)
-  File "/home/travis/build/Ulm-IQO/qudi/logic/tasks/flipmirror.py", line 34
-    """
-      ^
-IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:47: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:27: warning: Compound simple_laser_interface::ControlMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscangui.py:46: warning: Compound laserscangui::LaserScanningGui is not documented.
@@ -6054,6 +6041,7 @@ IndentationError: expected an indented block
   parameter 'taskname'
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:27: warning: Member __init__(self, kwargs) (function) of class tasks::dummy::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:30: warning: Member ctr (variable) of class tasks::dummy::Task is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/tasks/flipmirror.py:28: warning: Member __init__(self, kwargs) (function) of class tasks::flipmirror::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/prepostdummy.py:27: warning: Member __init__(self, kwargs) (function) of class tasks::prepostdummy::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/refocus.py:29: warning: Member __init__(self, kwargs) (function) of class tasks::refocus::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/timetagger_counter.py:177: warning: Member get_counter_channels(self) (function) of class timetagger_counter::TimeTaggerCounter is not documented.
