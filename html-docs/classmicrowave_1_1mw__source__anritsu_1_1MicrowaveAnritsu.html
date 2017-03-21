@@ -137,6 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a61871ca27f8b86596135828716e43bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#a61871ca27f8b86596135828716e43bf1">More...</a><br /></td></tr>
 <tr class="separator:a61871ca27f8b86596135828716e43bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab26ca7c8712b90eac4944a618a1cbf10"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__anritsu_1_1MicrowaveAnritsu.html#ab26ca7c8712b90eac4944a618a1cbf10">set_sweep</a> (self, start, stop, step, power)</td></tr>
+<tr class="memdesc:ab26ca7c8712b90eac4944a618a1cbf10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate sweep mode on the microwave source.  <a href="#ab26ca7c8712b90eac4944a618a1cbf10">More...</a><br /></td></tr>
 <tr class="separator:ab26ca7c8712b90eac4944a618a1cbf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9109a3c0a7d94fdc69d28810361ecb3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__anritsu_1_1MicrowaveAnritsu.html#ac9109a3c0a7d94fdc69d28810361ecb3">reset_sweep</a> (self)</td></tr>
 <tr class="memdesc:ac9109a3c0a7d94fdc69d28810361ecb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset of MW sweep mode.  <a href="#ac9109a3c0a7d94fdc69d28810361ecb3">More...</a><br /></td></tr>
@@ -715,16 +716,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Activate sweep mode on the microwave source. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">start</td><td></td></tr>
-    <tr><td class="paramname">stop</td><td></td></tr>
-    <tr><td class="paramname">step</td><td></td></tr>
-    <tr><td class="paramname">power</td><td></td></tr>
+    <tr><td class="paramname">start</td><td>float: start frequency </td></tr>
+    <tr><td class="paramname">stop</td><td>float: stop frequency </td></tr>
+    <tr><td class="paramname">step</td><td>float: frequency step </td></tr>
+    <tr><td class="paramname">power</td><td>float: output power </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int: number of frequency steps generated </dd></dl>
 
 </div>
 </div>

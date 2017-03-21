@@ -100,8 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeeedf2cc25dbba9d147c93e65f306fa0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__smiq_1_1MicrowaveSmiq.html#aeeedf2cc25dbba9d147c93e65f306fa0">on_deactivate</a> (self, e)</td></tr>
 <tr class="memdesc:aeeedf2cc25dbba9d147c93e65f306fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module.  <a href="#aeeedf2cc25dbba9d147c93e65f306fa0">More...</a><br /></td></tr>
 <tr class="separator:aeeedf2cc25dbba9d147c93e65f306fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1f407f5260ce5225036587187265843"><td class="memItemLeft" align="right" valign="top"><a id="ac1f407f5260ce5225036587187265843"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>get_limits</b> (self)</td></tr>
+<tr class="memitem:ac1f407f5260ce5225036587187265843"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__smiq_1_1MicrowaveSmiq.html#ac1f407f5260ce5225036587187265843">get_limits</a> (self)</td></tr>
+<tr class="memdesc:ac1f407f5260ce5225036587187265843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an object containing parameter limits for this microwave source.  <a href="#ac1f407f5260ce5225036587187265843">More...</a><br /></td></tr>
 <tr class="separator:ac1f407f5260ce5225036587187265843"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a2d778f6193d0288786a4bf0d819405"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__smiq_1_1MicrowaveSmiq.html#a8a2d778f6193d0288786a4bf0d819405">on</a> (self)</td></tr>
 <tr class="memdesc:a8a2d778f6193d0288786a4bf0d819405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches on any preconfigured microwave output.  <a href="#a8a2d778f6193d0288786a4bf0d819405">More...</a><br /></td></tr>
@@ -131,6 +131,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>get_limits</b> (self)<
 <tr class="memdesc:a923aaa107b900dcf931aeb9998a33db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset of MW List Mode position to start from first given frequency.  <a href="#a923aaa107b900dcf931aeb9998a33db4">More...</a><br /></td></tr>
 <tr class="separator:a923aaa107b900dcf931aeb9998a33db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab95e1bd104c733bf584132b32d18375a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__smiq_1_1MicrowaveSmiq.html#ab95e1bd104c733bf584132b32d18375a">set_sweep</a> (self, start, stop, step, power)</td></tr>
+<tr class="memdesc:ab95e1bd104c733bf584132b32d18375a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate sweep mode on the microwave source.  <a href="#ab95e1bd104c733bf584132b32d18375a">More...</a><br /></td></tr>
 <tr class="separator:ab95e1bd104c733bf584132b32d18375a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179307e4dc3b6d4926e19151042f414d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave_1_1mw__source__smiq_1_1MicrowaveSmiq.html#a179307e4dc3b6d4926e19151042f414d">reset_sweep</a> (self)</td></tr>
 <tr class="memdesc:a179307e4dc3b6d4926e19151042f414d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset of MW List Mode position to start from first given frequency.  <a href="#a179307e4dc3b6d4926e19151042f414d">More...</a><br /></td></tr>
@@ -244,6 +245,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Gets the frequency of the microwave output. </p>
 <dl class="section return"><dt>Returns</dt><dd>float: frequency (in Hz), which is currently set for this device </dd></dl>
+
+</div>
+</div>
+<a id="ac1f407f5260ce5225036587187265843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f407f5260ce5225036587187265843">&#9670;&nbsp;</a></span>get_limits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def microwave.mw_source_smiq.MicrowaveSmiq.get_limits </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create an object containing parameter limits for this microwave source. </p>
+<dl class="section return"><dt>Returns</dt><dd>MicrowaveLimits: device-specific parameter limits </dd></dl>
 
 </div>
 </div>
@@ -695,16 +717,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Activate sweep mode on the microwave source. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">start</td><td></td></tr>
-    <tr><td class="paramname">stop</td><td></td></tr>
-    <tr><td class="paramname">step</td><td></td></tr>
-    <tr><td class="paramname">power</td><td></td></tr>
+    <tr><td class="paramname">start</td><td>float: start frequency </td></tr>
+    <tr><td class="paramname">stop</td><td>float: stop frequency </td></tr>
+    <tr><td class="paramname">step</td><td>float: frequency step </td></tr>
+    <tr><td class="paramname">power</td><td>float: output power </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int: number of frequency steps generated </dd></dl>
 
 </div>
 </div>
