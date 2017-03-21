@@ -30,5 +30,8 @@ var searchData=
   ['loadtasks',['loadTasks',['../classtaskrunner_1_1TaskRunner.html#a9281f116e5d6803da2b4c0ed2fc2defc',1,'taskrunner::TaskRunner']]],
   ['log',['log',['../classcore_1_1base_1_1Base.html#aa8bbc08f81b4fb0b058615a6745a4536',1,'core.base.Base.log()'],['../classgeneric__task_1_1InterruptableTask.html#a56275dcd003c26b26ab5da5ddecf1332',1,'generic_task.InterruptableTask.log()'],['../classgeneric__task_1_1PrePostTask.html#a528a674d6c20f43e34e6cd93c0f80bbc',1,'generic_task.PrePostTask.log()']]],
   ['logclicked',['logClicked',['../classgui_1_1manager_1_1errordialog_1_1ErrorDialog.html#a0cafa976bac5071fd937e01601257c37',1,'gui::manager::errordialog::ErrorDialog']]],
+  ['logic_5fcontinued_5fscanning',['logic_continued_scanning',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#aded6e863ffdf95185c4e60bbec57e2df',1,'gui::confocal::confocalgui::ConfocalGui']]],
+  ['logic_5fstarted_5frefocus',['logic_started_refocus',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#ae9ef1261585ef452fddb1cce154d63cd',1,'gui::confocal::confocalgui::ConfocalGui']]],
+  ['logic_5fstarted_5fscanning',['logic_started_scanning',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#aa2931c5d4bec5eee0366ef564c202eb7',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['loop',['loop',['../classpid__logic_1_1PIDLogic.html#acef96a7ea50fa812eb9f2046fefe5289',1,'pid_logic::PIDLogic']]]
 ];
