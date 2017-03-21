@@ -2,6 +2,7 @@ var searchData=
 [
   ['p',['P',['../classsoftware__pid__controller_1_1SoftPIDController.html#ae5b38d3d52ca40627df7184ee83a9c1b',1,'software_pid_controller::SoftPIDController']]],
   ['paint',['paint',['../classgui_1_1guiutils_1_1ColorBar.html#ae72632cc03adf7100c54e38f544da7db',1,'gui::guiutils::ColorBar']]],
+  ['parent',['parent',['../classautomation_1_1TreeItem.html#a327e3ba3dffe7f4a3a9c676aff266d63',1,'automation.TreeItem.parent()'],['../classautomation_1_1TreeModel.html#a8f1f11d670c084819a85cfa1931a5b34',1,'automation.TreeModel.parent()']]],
   ['parentpollerunix',['ParentPollerUnix',['../classparentpoller_1_1ParentPollerUnix.html',1,'parentpoller.ParentPollerUnix'],['../classcore_1_1parentpoller_1_1ParentPollerUnix.html',1,'core.parentpoller.ParentPollerUnix']]],
   ['parentpollerwindows',['ParentPollerWindows',['../classparentpoller_1_1ParentPollerWindows.html',1,'parentpoller.ParentPollerWindows'],['../classcore_1_1parentpoller_1_1ParentPollerWindows.html',1,'core.parentpoller.ParentPollerWindows']]],
   ['pass_5fresult_5fref',['pass_result_ref',['../classhelpers_1_1DisplayHook.html#a9df0da8b9f1439c4b0cbedb48ecce8de',1,'helpers::DisplayHook']]],

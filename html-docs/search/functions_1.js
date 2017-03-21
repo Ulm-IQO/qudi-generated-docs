@@ -40,6 +40,7 @@ var searchData=
   ['analyze_5flifetime',['analyze_lifetime',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aa9ea80c70d5791184b9c713de8b47de5',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['append',['append',['../classtaskrunner_1_1TaskListTableModel.html#a7999ba1ceb002f0a36fb0914297ae1ad',1,'taskrunner::TaskListTableModel']]],
   ['append_5fensemble',['append_ensemble',['../classpulse__objects_1_1PulseSequence.html#a70caccb8a26f2b87e0f5a0435cf4db36',1,'pulse_objects::PulseSequence']]],
+  ['appendchild',['appendChild',['../classautomation_1_1TreeItem.html#ac68720239720f1e17755ad1497d050a3',1,'automation::TreeItem']]],
   ['apply_5fgenerator_5fsettings',['apply_generator_settings',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a9c09233b133c4e0518e1424a9459d7a3',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['applyfitparameters',['applyFitParameters',['../classgui_1_1fitsettings_1_1FitParametersWidget.html#a6318018b90a00845c1220a34d80afd78',1,'gui::fitsettings::FitParametersWidget']]],
   ['applysettings',['applySettings',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a97764ea43f29cf31989fe6f754137e62',1,'gui.fitsettings.FitSettingsDialog.applySettings()'],['../classgui_1_1fitsettings_1_1FitConfigWidget.html#afb2e929b88b4bd7baf1b5ad6a51cc545',1,'gui.fitsettings.FitConfigWidget.applySettings()']]],

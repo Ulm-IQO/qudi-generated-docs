@@ -97,8 +97,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a335b8f115cf6da2a151f1e84bd94c9a8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautomation_1_1AutomationLogic.html#a335b8f115cf6da2a151f1e84bd94c9a8">on_deactivate</a> (self, e)</td></tr>
 <tr class="memdesc:a335b8f115cf6da2a151f1e84bd94c9a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate modeule.  <a href="#a335b8f115cf6da2a151f1e84bd94c9a8">More...</a><br /></td></tr>
 <tr class="separator:a335b8f115cf6da2a151f1e84bd94c9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56604a7d37b7d82408e1ae09d1c1c9bf"><td class="memItemLeft" align="right" valign="top"><a id="a56604a7d37b7d82408e1ae09d1c1c9bf"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>loadAutomation</b> (self, path)</td></tr>
+<tr class="memitem:a56604a7d37b7d82408e1ae09d1c1c9bf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautomation_1_1AutomationLogic.html#a56604a7d37b7d82408e1ae09d1c1c9bf">loadAutomation</a> (self, path)</td></tr>
+<tr class="memdesc:a56604a7d37b7d82408e1ae09d1c1c9bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load automation config into model.  <a href="#a56604a7d37b7d82408e1ae09d1c1c9bf">More...</a><br /></td></tr>
 <tr class="separator:a56604a7d37b7d82408e1ae09d1c1c9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -116,6 +116,42 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Logic module agreggating multiple hardware switches. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a56604a7d37b7d82408e1ae09d1c1c9bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56604a7d37b7d82408e1ae09d1c1c9bf">&#9670;&nbsp;</a></span>loadAutomation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def automation.AutomationLogic.loadAutomation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load automation config into model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>str: file path </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a7b492d227dd2b1a4cc454ae736d90b70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b492d227dd2b1a4cc454ae736d90b70">&#9670;&nbsp;</a></span>on_activate()</h2>
 
@@ -145,7 +181,7 @@ Static Public Attributes</h2></td></tr>
 <p>Prepare logic module for work. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">object</td><td>e: Fysom state change notification </td></tr>
+    <tr><td class="paramname">object</td><td>e: Fysom state change information </td></tr>
   </table>
   </dd>
 </dl>
@@ -181,7 +217,7 @@ Static Public Attributes</h2></td></tr>
 <p>Deactivate modeule. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">object</td><td>e: Fysom state change notification </td></tr>
+    <tr><td class="paramname">object</td><td>e: Fysom state change information </td></tr>
   </table>
   </dd>
 </dl>

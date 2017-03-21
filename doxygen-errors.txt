@@ -33,7 +33,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:38: warning: Compound simple_laser_interface::LaserState is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:86: warning: Compound pulsed_maingui::SequenceGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:64: warning: Compound automation::TreeModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:38: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/models.py:26: warning: Compound core::util::models::DictTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:34: warning: Compound pulsed_master_logic::PulsedMasterLogic is not documented.
@@ -87,7 +86,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:26: warning: Compound gui::colordefs::ColorScale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:31: warning: Compound gui::nuclear_operations::nuclear_operations::NuclearOperationsMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laser::laserquantum_laser::LaserQuantumLaser is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:30: warning: Compound automation::TreeItem is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:96: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:687: warning: Compound pulse_editors::SequenceEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
@@ -139,38 +137,19 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/README.md:27: warning: Unexpected html tag <img> found within <a href=...> context
 /home/travis/build/Ulm-IQO/qudi/README.md:28: warning: Unexpected html tag <img> found within <a href=...> context
 /home/travis/build/Ulm-IQO/qudi/README.md:29: warning: Unexpected html tag <img> found within <a href=...> context
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:212: warning: Member loadAutomation(self, path) (function) of class automation::AutomationLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:200: warning: Member model (variable) of class automation::AutomationLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:179: warning: Member sigRepeat (variable) of class automation::AutomationLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:185: warning: argument 'object' of command @param is not found in the argument list of automation.AutomationLogic::on_activate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:185: warning: The following parameters of automation.AutomationLogic.on_activate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:300: warning: Member model (variable) of class automation::AutomationLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:279: warning: Member sigRepeat (variable) of class automation::AutomationLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:285: warning: argument 'object' of command @param is not found in the argument list of automation.AutomationLogic::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:285: warning: The following parameters of automation.AutomationLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:208: warning: argument 'object' of command @param is not found in the argument list of automation.AutomationLogic::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:208: warning: The following parameters of automation.AutomationLogic.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:308: warning: argument 'object' of command @param is not found in the argument list of automation.AutomationLogic::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:308: warning: The following parameters of automation.AutomationLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:31: warning: Member __init__(self, data, parent=None) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:36: warning: Member appendChild(self, item) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:39: warning: Member child(self, row) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:42: warning: Member childCount(self) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:45: warning: Member columnCount(self) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:48: warning: Member data(self, column) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:54: warning: Member parent(self) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:57: warning: Member row(self) (function) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:32: warning: Member parentItem (variable) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:33: warning: Member itemData (variable) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:34: warning: Member childItems (variable) of class automation::TreeItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:65: warning: Member __init__(self, parent=None) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:69: warning: Member columnCount(self, parent) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:75: warning: Member data(self, index, role) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:86: warning: Member flags(self, index) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:92: warning: Member headerData(self, section, orientation, role) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:98: warning: Member index(self, row, column, parent) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:113: warning: Member parent(self, index) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:125: warning: Member rowCount(self, parent) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:136: warning: Member loadExecTree(self, tree, parent=None) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:143: warning: Member recursiveLoad(self, tree, parent) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:153: warning: Member recursiveSave(self, parent) (function) of class automation::TreeModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/automation.py:67: warning: Member rootItem (variable) of class automation::TreeModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:39: warning: Member parentItem (variable) of class automation::TreeItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:40: warning: Member itemData (variable) of class automation::TreeItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:41: warning: Member childItems (variable) of class automation::TreeItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:79: warning: Found unknown command `\para'
+/home/travis/build/Ulm-IQO/qudi/logic/automation.py:112: warning: Member rootItem (variable) of class automation::TreeModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
