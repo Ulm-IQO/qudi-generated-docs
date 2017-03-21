@@ -22,5 +22,6 @@ var searchData=
   ['flags',['flags',['../classcore_1_1threadmanager_1_1ThreadManager.html#ae13353330a32c6f10921d2d334dd7606',1,'core.threadmanager.ThreadManager.flags()'],['../classcore_1_1util_1_1models_1_1DictTableModel.html#a61c59e6ac02b6aba478be9c0071481a5',1,'core.util.models.DictTableModel.flags()'],['../classcore_1_1util_1_1models_1_1ListTableModel.html#ab71207888620ead9c153edd3a94a3cc1',1,'core.util.models.ListTableModel.flags()'],['../classgui_1_1manager_1_1logwidget_1_1LogModel.html#a430609be76fc7e2228cb538cca755054',1,'gui.manager.logwidget.LogModel.flags()']]],
   ['fluorescence_5fintegration_5ftime_5fchanged',['fluorescence_integration_time_changed',['../classmagnet__gui_1_1MagnetGui.html#ab1a79cc7a1fd8dad40187b2b31cdc466',1,'magnet_gui::MagnetGui']]],
   ['format',['format',['../classcore_1_1logger_1_1QtLogFormatter.html#a302e8d49373dfcf02778619b7fea5ce9',1,'core::logger::QtLogFormatter']]],
+  ['format_5fdata',['format_data',['../classinflux__data__logger_1_1InfluxLogger.html#a26883a546892be04fad8dbee4f358bc1',1,'influx_data_logger::InfluxLogger']]],
   ['framecallback',['frameCallback',['../classlightfield__spectrometer_1_1Lightfield.html#ad7230fbc807bc3232c65fa25769c2e4c',1,'lightfield_spectrometer::Lightfield']]]
 ];

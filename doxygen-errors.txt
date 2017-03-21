@@ -32,7 +32,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/flipmirror.py:24: warning: Compound tasks::flipmirror::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:38: warning: Compound simple_laser_interface::LaserState is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:86: warning: Compound pulsed_maingui::SequenceGeneratorTab is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:27: warning: Compound influx_data_logger::InfluxLogger is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:64: warning: Compound automation::TreeModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:38: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
@@ -113,7 +112,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:126: warning: Compound slow_counter_interface::SlowCounterConstraints is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/switches/ok_fpga/ok_s6_switch.py:40: warning: Compound ok_s6_switch::HardwareSwitchFpga is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:26: warning: Compound gui::manager::remotewidget::RemoteWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:28: warning: Compound influx_data_client::InfluxDataClient is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:66: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/combobox_delegate.py:27: warning: Compound combobox_delegate::ComboBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
@@ -2413,41 +2411,31 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/high_finesse_wavemeter.py:304: warning: argument 'float' of command @param is not found in the argument list of high_finesse_wavemeter.HighFinesseWavemeter::set_timing(self, timing)
 /home/travis/build/Ulm-IQO/qudi/hardware/high_finesse_wavemeter.py:304: warning: The following parameters of high_finesse_wavemeter.HighFinesseWavemeter.set_timing(self, timing) are not documented:
   parameter 'timing'
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:38: warning: Member on_activate(self, e) (function) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:69: warning: Member on_deactivate(self, e) (function) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:72: warning: Member connect_db(self) (function) of class influx_data_client::InfluxDataClient is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:42: warning: Member user (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:45: warning: Member pw (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:48: warning: Member dbname (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:51: warning: Member host (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:54: warning: Member port (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:59: warning: Member series (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:62: warning: Member field (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:65: warning: Member cr (variable) of class influx_data_client::InfluxDataClient is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:73: warning: Member conn (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:49: warning: Member user (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:52: warning: Member pw (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:55: warning: Member dbname (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:58: warning: Member host (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:61: warning: Member port (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:66: warning: Member series (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:69: warning: Member field (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:72: warning: Member cr (variable) of class influx_data_client::InfluxDataClient is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_client.py:85: warning: Member conn (variable) of class influx_data_client::InfluxDataClient is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:37: warning: Member __init__(self, kwargs) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:41: warning: Member on_activate(self, e) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:72: warning: Member on_deactivate(self, e) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:75: warning: Member connect_db(self) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:78: warning: Member get_log_channels(self) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:81: warning: Member set_log_channels(self, channelspec) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:92: warning: Member log_to_channel(self, channel, values) (function) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:96: warning: Member format_data(self, channel_name, values, tags) (function) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:39: warning: Member __init__(self, kwargs) (function) of class influx_data_logger::InfluxLogger is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:39: warning: Member log_channels (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:45: warning: Member user (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:48: warning: Member pw (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:51: warning: Member dbname (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:54: warning: Member host (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:57: warning: Member port (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:62: warning: Member series (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:65: warning: Member field (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:68: warning: Member cr (variable) of class influx_data_logger::InfluxLogger is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:76: warning: Member conn (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:41: warning: Member log_channels (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:51: warning: Member user (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:54: warning: Member pw (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:57: warning: Member dbname (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:60: warning: Member host (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:63: warning: Member port (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:68: warning: Member series (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:71: warning: Member field (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:74: warning: Member cr (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:87: warning: Member conn (variable) of class influx_data_logger::InfluxLogger is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
@@ -3804,72 +3792,69 @@ IndexError: list index out of range
   parameter 'clock_channel'
   parameter 'counter_buffer'
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:47: warning: Member __init__(self, config, kwargs) (function) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:50: warning: Member on_activate(self, e) (function) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:96: warning: Member on_deactivate(self, e) (function) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:99: warning: Member init_constraints(self) (function) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:53: warning: Member pulsed_file_dir (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:71: warning: Member device (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:75: warning: Member host_waveform_directory (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:77: warning: Member pulser_task (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:80: warning: Member current_status (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:81: warning: Member current_loaded_asset (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:85: warning: Member min_volts (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:86: warning: Member max_volts (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:87: warning: Member sample_rate (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:89: warning: Member a_names (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:90: warning: Member d_names (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:228: warning: Member channel_map (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:229: warning: Member constraints (variable) of class ni_pulser::NIPulser is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:374: warning: Member samples (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:57: warning: Member pulsed_file_dir (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:75: warning: Member device (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:79: warning: Member host_waveform_directory (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:81: warning: Member pulser_task (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:84: warning: Member current_status (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:85: warning: Member current_loaded_asset (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:89: warning: Member min_volts (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:90: warning: Member max_volts (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:91: warning: Member sample_rate (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:93: warning: Member a_names (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:94: warning: Member d_names (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:238: warning: Member channel_map (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:239: warning: Member constraints (variable) of class ni_pulser::NIPulser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:384: warning: Member samples (variable) of class ni_pulser::NIPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:747: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::ask(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:748: warning: The following parameters of ni_pulser.NIPulser.ask(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:757: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:758: warning: The following parameters of ni_pulser.NIPulser.ask(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:604: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:604: warning: The following parameters of ni_pulser.NIPulser.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:614: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:614: warning: The following parameters of ni_pulser.NIPulser.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:477: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:477: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:477: warning: The following parameters of ni_pulser.NIPulser.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:487: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:487: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:487: warning: The following parameters of ni_pulser.NIPulser.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:543: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:543: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:543: warning: The following parameters of ni_pulser.NIPulser.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:553: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:553: warning: argument 'list' of command @param is not found in the argument list of ni_pulser.NIPulser::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:553: warning: The following parameters of ni_pulser.NIPulser.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:358: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:358: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:359: warning: The following parameters of ni_pulser.NIPulser.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:368: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:368: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:369: warning: The following parameters of ni_pulser.NIPulser.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:635: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:635: warning: The following parameters of ni_pulser.NIPulser.set_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:645: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:645: warning: The following parameters of ni_pulser.NIPulser.set_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:510: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:510: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:510: warning: The following parameters of ni_pulser.NIPulser.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:520: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:520: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:520: warning: The following parameters of ni_pulser.NIPulser.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:696: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::set_asset_dir_on_device(self, dir_path)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:696: warning: The following parameters of ni_pulser.NIPulser.set_asset_dir_on_device(self, dir_path) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:706: warning: argument 'str' of command @param is not found in the argument list of ni_pulser.NIPulser::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:706: warning: The following parameters of ni_pulser.NIPulser.set_asset_dir_on_device(self, dir_path) are not documented:
   parameter 'dir_path'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:585: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:585: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:585: warning: The following parameters of ni_pulser.NIPulser.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:595: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:595: warning: argument 'dict' of command @param is not found in the argument list of ni_pulser.NIPulser::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:595: warning: The following parameters of ni_pulser.NIPulser.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:731: warning: argument 'bool' of command @param is not found in the argument list of ni_pulser.NIPulser::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:731: warning: The following parameters of ni_pulser.NIPulser.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:741: warning: argument 'bool' of command @param is not found in the argument list of ni_pulser.NIPulser::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:741: warning: The following parameters of ni_pulser.NIPulser.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:435: warning: argument 'float' of command @param is not found in the argument list of ni_pulser.NIPulser::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:435: warning: The following parameters of ni_pulser.NIPulser.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:445: warning: argument 'float' of command @param is not found in the argument list of ni_pulser.NIPulser::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:445: warning: The following parameters of ni_pulser.NIPulser.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:740: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::tell(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:740: warning: The following parameters of ni_pulser.NIPulser.tell(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:750: warning: argument 'string' of command @param is not found in the argument list of ni_pulser.NIPulser::tell(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_pulser.py:750: warning: The following parameters of ni_pulser.NIPulser.tell(self, command) are not documented:
   parameter 'command'
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:96: warning: Member newTab(self) (function) of class notebookgui::NotebookMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:102: warning: Member closeTab(self, index) (function) of class notebookgui::NotebookMainWindow is not documented.
