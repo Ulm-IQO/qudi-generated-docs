@@ -12,11 +12,13 @@ var searchData=
   ['toggle_5fpulse_5fgenerator',['toggle_pulse_generator',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a732d552ff32702e1ef730751631b6e6d',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['toggle_5fsettings_5feditor',['toggle_settings_editor',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a366f64ddf0758f8ea1447f4a8ccd4974',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['toggleswitch',['toggleSwitch',['../classgui_1_1switcher_1_1switchgui_1_1SwitchWidget.html#a882b1556bd388b63d99dccb83984299b',1,'gui::switcher::switchgui::SwitchWidget']]],
+  ['traceback',['traceback',['../classcore_1_1util_1_1mutex_1_1Mutex.html#aa2adc20d0efe7b924f2a12889d707e63',1,'core::util::mutex::Mutex']]],
   ['transform_5fast',['transform_ast',['../classqzmqkernel_1_1QZMQKernel.html#aa4eee83d8fd0328752e6d0db12cba3a9',1,'qzmqkernel::QZMQKernel']]],
   ['transform_5fcoordinates',['transform_coordinates',['../classsc__magnet_1_1magnet_1_1Magnet.html#ae8f4fec6adb9f91c1b92c9dbdff90e52',1,'sc_magnet::magnet::Magnet']]],
   ['translated_5fget_5fstatus',['translated_get_status',['../classsc__magnet_1_1magnet_1_1Magnet.html#a04e92b00b8238ca567fcc4fbdb817208',1,'sc_magnet::magnet::Magnet']]],
   ['triangulate',['triangulate',['../classpoi__manager__logic_1_1PoiManagerLogic.html#afed7e27b8445da5d93de924e164769dd',1,'poi_manager_logic::PoiManagerLogic']]],
   ['trigger',['trigger',['../classevents_1_1EventManager.html#a6a98fedc6e9c596737c9794e31b73a75',1,'events::EventManager']]],
+  ['trylock',['tryLock',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a6e3c194d994cfa86abc96327c77a0be0',1,'core::util::mutex::Mutex']]],
   ['turn_5fam_5foff',['turn_AM_off',['../classmicrowave_1_1mw__source__smr20_1_1MicrowaveSMR20.html#a254118c3aa475cd4a203569aeffa4f86',1,'microwave::mw_source_smr20::MicrowaveSMR20']]],
   ['turn_5fam_5fon',['turn_AM_on',['../classmicrowave_1_1mw__source__smr20_1_1MicrowaveSMR20.html#af3ae97037ab8e7e122a67aea359bf8a7',1,'microwave::mw_source_smr20::MicrowaveSMR20']]],
   ['twod_5fgaussian_5ffunction',['twoD_gaussian_function',['../classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html#abb58df9e8e6fd09e05659df51d6a523a',1,'confocal_scanner_dummy::ConfocalScannerDummy']]]

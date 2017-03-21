@@ -45,7 +45,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:61: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:858: warning: Compound gui::colordefs::ColorScaleViridis is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:45: warning: Compound spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:137: warning: Compound core::util::mutex::RecursiveMutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:32: warning: Compound generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:33: warning: Compound pulse_extraction_logic::PulseExtractionLogic is not documented.
@@ -112,7 +111,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/combobox_delegate.py:27: warning: Compound combobox_delegate::ComboBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:336: warning: Compound gui::colordefs::ColorScaleInferno is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:143: warning: Compound core::util::mutex::MutexLocker is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:30: warning: Compound spectrometergui::SpectrometerWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:95: warning: documented symbol `core.base.Base::_baseStateList' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/core/remote.py:63: warning: no uniquely matching class member found for 
@@ -1135,47 +1133,15 @@ IndexError: list index out of range
   parameter 'orientation'
   parameter 'role'
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:44: warning: Member __init__(self, args, kargs) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:52: warning: Member tryLock(self, timeout=None, id=None) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:70: warning: Member lock(self, id=None) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:92: warning: Member unlock(self) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:115: warning: Member depth(self) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:121: warning: Member traceback(self) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:129: warning: Member __exit__(self, args) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:132: warning: Member __enter__(self) (function) of class core::util::mutex::Mutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:48: warning: Member l (variable) of class core::util::mutex::Mutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:49: warning: Member tb (variable) of class core::util::mutex::Mutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:50: warning: Member debug (variable) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:144: warning: Member __init__(self, lock) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:150: warning: Member unlock(self) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:156: warning: Member relock(self) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:161: warning: Member __del__(self) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:168: warning: Member __exit__(self, args) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:172: warning: Member __enter__(self) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:175: warning: Member mutex(self) (function) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:146: warning: Member lock (variable) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:148: warning: Member unlockOnDel (variable) of class core::util::mutex::MutexLocker is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:138: warning: Member __init__(self, kwds) (function) of class core::util::mutex::RecursiveMutex is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:163: warning: argument 'args' of command @param is not found in the argument list of core.util.mutex.Mutex::__enter__(self)
+/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:171: warning: Member __init__(self, kwds) (function) of class core::util::mutex::RecursiveMutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:44: warning: Member __init__(self, args, kargs) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:52: warning: Member tryLock(self, timeout=None, id=None) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:70: warning: Member lock(self, id=None) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:92: warning: Member unlock(self) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:115: warning: Member depth(self) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:121: warning: Member traceback(self) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:129: warning: Member __exit__(self, args) (function) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:132: warning: Member __enter__(self) (function) of class core::util::mutex::Mutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:48: warning: Member l (variable) of class core::util::mutex::Mutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:49: warning: Member tb (variable) of class core::util::mutex::Mutex is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:50: warning: Member debug (variable) of class core::util::mutex::Mutex is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:237: warning: Member __init__(self, obj, recursive=False, reentrant=True) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:249: warning: Member lock(self, id=None) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:252: warning: Member tryLock(self, timeout=None, id=None) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:255: warning: Member unlock(self) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:258: warning: Member unwrap(self) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:261: warning: Member __safe_call__(self, fn, args, kargs) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:266: warning: Member __getattr__(self, attr) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:276: warning: Member __setattr__(self, attr, val) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:284: warning: Member __wrap_object__(self, obj) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:293: warning: Member __wrapped_object__(self) (function) of class core::util::mutex::ThreadsafeWrapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:189: warning: Member set_counting_samples(self, samples=1) (function) of class counter_logic::CounterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:294: warning: Member start_saving(self, resume=False) (function) of class counter_logic::CounterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/counter_logic.py:83: warning: Member threadlock (variable) of class counter_logic::CounterLogic is not documented.

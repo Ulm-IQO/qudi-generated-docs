@@ -2,7 +2,7 @@ var searchData=
 [
   ['aboutdialog',['AboutDialog',['../classgui_1_1manager_1_1managergui_1_1AboutDialog.html',1,'gui::manager::managergui']]],
   ['acqdata',['ACQDATA',['../classfastcomtec_1_1fastcomtecmcs6_1_1ACQDATA.html',1,'fastcomtec.fastcomtecmcs6.ACQDATA'],['../classfastcomtec_1_1fastcomtecp7887_1_1ACQDATA.html',1,'fastcomtec.fastcomtecp7887.ACQDATA']]],
-  ['acqsettings',['AcqSettings',['../classfastcomtec_1_1fastcomtecp7887_1_1AcqSettings.html',1,'fastcomtec.fastcomtecp7887.AcqSettings'],['../classfastcomtec_1_1fastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtec.fastcomtecmcs6.AcqSettings']]],
+  ['acqsettings',['AcqSettings',['../classfastcomtec_1_1fastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtec.fastcomtecmcs6.AcqSettings'],['../classfastcomtec_1_1fastcomtecp7887_1_1AcqSettings.html',1,'fastcomtec.fastcomtecp7887.AcqSettings']]],
   ['acqstatus',['AcqStatus',['../classfastcomtec_1_1fastcomtecmcs6_1_1AcqStatus.html',1,'fastcomtec.fastcomtecmcs6.AcqStatus'],['../classfastcomtec_1_1fastcomtecp7887_1_1AcqStatus.html',1,'fastcomtec.fastcomtecp7887.AcqStatus']]],
   ['analysissettingdialog',['AnalysisSettingDialog',['../classpulsed__maingui_1_1AnalysisSettingDialog.html',1,'pulsed_maingui']]],
   ['appwatchdog',['AppWatchdog',['../classcore_1_1____main_____1_1AppWatchdog.html',1,'core::__main__']]],

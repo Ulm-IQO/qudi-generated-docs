@@ -1,5 +1,5 @@
 <map id="gui.guibase.GUIBase" name="gui.guibase.GUIBase">
-<area shape="rect" id="node9" href="$classautomationgui_1_1AutomationGui.html" title="automationgui.AutomationGui" alt="" coords="624,5,816,35"/>
+<area shape="rect" id="node9" href="$classautomationgui_1_1AutomationGui.html" title="Graphical interface for arranging tasks without using Python code. " alt="" coords="624,5,816,35"/>
 <area shape="rect" id="node11" href="$classcountergui_1_1CounterGui.html" title="FIXME Please document. " alt="" coords="644,59,796,88"/>
 <area shape="rect" id="node13" href="$classgated__counter__gui_1_1GatedCounterGui.html" title="Main GUI for the Gated Counting. " alt="" coords="604,112,836,141"/>
 <area shape="rect" id="node15" href="$classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html" title="Main Confocal Class for xy and depth scans. " alt="" coords="637,165,803,211"/>

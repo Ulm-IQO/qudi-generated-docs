@@ -1,6 +1,7 @@
 var searchData=
 [
   ['user_20interface_20_28gui_29_20design_20concept',['User Interface (GUI) Design Concept',['../uiguidelines.html',1,'']]],
+  ['unlock',['unlock',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a90bdf764f58dd776c39a5a56e70230e6',1,'core::util::mutex::Mutex']]],
   ['unregister',['unregister',['../classevents_1_1EventManager.html#a45dffe9db7523127e1e240f6f4384c80',1,'events::EventManager']]],
   ['unset',['unset',['../classdisplay__trap_1_1DisplayTrap.html#a96d1053ca171bba45b7775a5ccb3a9ad',1,'display_trap::DisplayTrap']]],
   ['unsharemodule',['unshareModule',['../classcore_1_1remote_1_1RemoteObjectManager.html#a18576b6e360e5580efe9c60da8630884',1,'core::remote::RemoteObjectManager']]],

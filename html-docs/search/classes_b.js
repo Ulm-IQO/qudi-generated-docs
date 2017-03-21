@@ -36,6 +36,5 @@ var searchData=
   ['motorrotationzaber',['MotorRotationZaber',['../classmotor_1_1zaber__motor__rotation__stage_1_1MotorRotationZaber.html',1,'motor::zaber_motor_rotation_stage']]],
   ['motorstagemicos',['MotorStageMicos',['../classmotor_1_1motor__stage__micos_1_1MotorStageMicos.html',1,'motor::motor_stage_micos']]],
   ['motorstagepi',['MotorStagePI',['../classmotor_1_1motor__stage__pi_1_1MotorStagePI.html',1,'motor::motor_stage_pi']]],
-  ['mutex',['Mutex',['../classcore_1_1util_1_1mutex_1_1Mutex.html',1,'core::util::mutex']]],
-  ['mutexlocker',['MutexLocker',['../classcore_1_1util_1_1mutex_1_1MutexLocker.html',1,'core::util::mutex']]]
+  ['mutex',['Mutex',['../classcore_1_1util_1_1mutex_1_1Mutex.html',1,'core::util::mutex']]]
 ];

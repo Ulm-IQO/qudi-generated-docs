@@ -120,7 +120,7 @@
 <area shape="rect" id="node273" href="$classedwards__vacuum__controller_1_1EdwardsVacuumController.html" title="edwards_vacuum_controller.\lEdwardsVacuumController" alt="" coords="721,4069,908,4115"/>
 <area shape="rect" id="node281" href="$classgeneric__logic_1_1GenericLogic.html" title="A generic logic interface class. " alt="" coords="725,4139,904,4168"/>
 <area shape="rect" id="node283" href="$classgui_1_1guibase_1_1GUIBase.html" title="This is the GUI base class. " alt="" coords="741,4245,888,4275"/>
-<area shape="rect" id="node285" href="$classautomationgui_1_1AutomationGui.html" title="automationgui.AutomationGui" alt="" coords="1027,4475,1219,4504"/>
+<area shape="rect" id="node285" href="$classautomationgui_1_1AutomationGui.html" title="Graphical interface for arranging tasks without using Python code. " alt="" coords="1027,4475,1219,4504"/>
 <area shape="rect" id="node287" href="$classcountergui_1_1CounterGui.html" title="FIXME Please document. " alt="" coords="1047,4528,1199,4557"/>
 <area shape="rect" id="node289" href="$classgated__counter__gui_1_1GatedCounterGui.html" title="Main GUI for the Gated Counting. " alt="" coords="1007,4581,1239,4611"/>
 <area shape="rect" id="node291" href="$classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html" title="Main Confocal Class for xy and depth scans. " alt="" coords="1040,4634,1205,4681"/>

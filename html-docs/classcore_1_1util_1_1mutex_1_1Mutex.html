@@ -78,7 +78,7 @@ Inheritance diagram for core.util.mutex.Mutex:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcore_1_1util_1_1mutex_1_1Mutex__inherit__graph.png" border="0" usemap="#core_8util_8mutex_8Mutex_inherit__map" alt="Inheritance graph"/></div>
 <map name="core_8util_8mutex_8Mutex_inherit__map" id="core_8util_8mutex_8Mutex_inherit__map">
-<area shape="rect" id="node5" href="classcore_1_1util_1_1mutex_1_1RecursiveMutex.html" title="core.util.mutex.Recursive\lMutex" alt="" coords="5,161,176,207"/>
+<area shape="rect" id="node5" href="classcore_1_1util_1_1mutex_1_1RecursiveMutex.html" title="Mutex that can be taken recursively. " alt="" coords="5,161,176,207"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -94,14 +94,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a936c49af4ea596098b60ef208e5282ab"><td class="memItemLeft" align="right" valign="top"><a id="a936c49af4ea596098b60ef208e5282ab"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args, kargs)</td></tr>
 <tr class="separator:a936c49af4ea596098b60ef208e5282ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e3c194d994cfa86abc96327c77a0be0"><td class="memItemLeft" align="right" valign="top"><a id="a6e3c194d994cfa86abc96327c77a0be0"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>tryLock</b> (self, timeout=None, id=None)</td></tr>
+<tr class="memitem:a6e3c194d994cfa86abc96327c77a0be0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a6e3c194d994cfa86abc96327c77a0be0">tryLock</a> (self, timeout=None, id=None)</td></tr>
+<tr class="memdesc:a6e3c194d994cfa86abc96327c77a0be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to lock the mutex.  <a href="#a6e3c194d994cfa86abc96327c77a0be0">More...</a><br /></td></tr>
 <tr class="separator:a6e3c194d994cfa86abc96327c77a0be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7373ad1fee8dc73b253aacf7e67f5c9"><td class="memItemLeft" align="right" valign="top"><a id="ab7373ad1fee8dc73b253aacf7e67f5c9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>lock</b> (self, id=None)</td></tr>
+<tr class="memitem:ab7373ad1fee8dc73b253aacf7e67f5c9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#ab7373ad1fee8dc73b253aacf7e67f5c9">lock</a> (self, id=None)</td></tr>
+<tr class="memdesc:ab7373ad1fee8dc73b253aacf7e67f5c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock mutex.  <a href="#ab7373ad1fee8dc73b253aacf7e67f5c9">More...</a><br /></td></tr>
 <tr class="separator:ab7373ad1fee8dc73b253aacf7e67f5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90bdf764f58dd776c39a5a56e70230e6"><td class="memItemLeft" align="right" valign="top"><a id="a90bdf764f58dd776c39a5a56e70230e6"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>unlock</b> (self)</td></tr>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a90bdf764f58dd776c39a5a56e70230e6">unlock</a> (self)</td></tr>
+<tr class="memdesc:a90bdf764f58dd776c39a5a56e70230e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock mutex. <br /></td></tr>
 <tr class="separator:a90bdf764f58dd776c39a5a56e70230e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52e28d4a14f037ca5478cfef7daab98d"><td class="memItemLeft" align="right" valign="top"><a id="a52e28d4a14f037ca5478cfef7daab98d"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a52e28d4a14f037ca5478cfef7daab98d">acquire</a> (self, blocking=True)</td></tr>
@@ -111,17 +112,17 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a44a0a9fc2da8b129583ee0d54a90933e">release</a> (self)</td></tr>
 <tr class="memdesc:a44a0a9fc2da8b129583ee0d54a90933e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mimics threading.Lock.release() to allow this class as a drop-in replacement. <br /></td></tr>
 <tr class="separator:a44a0a9fc2da8b129583ee0d54a90933e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1babaef2d5a48a2dd35bef7d2dd32514"><td class="memItemLeft" align="right" valign="top"><a id="a1babaef2d5a48a2dd35bef7d2dd32514"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>depth</b> (self)</td></tr>
+<tr class="memitem:a1babaef2d5a48a2dd35bef7d2dd32514"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a1babaef2d5a48a2dd35bef7d2dd32514">depth</a> (self)</td></tr>
+<tr class="memdesc:a1babaef2d5a48a2dd35bef7d2dd32514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Depth of traceback.  <a href="#a1babaef2d5a48a2dd35bef7d2dd32514">More...</a><br /></td></tr>
 <tr class="separator:a1babaef2d5a48a2dd35bef7d2dd32514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2adc20d0efe7b924f2a12889d707e63"><td class="memItemLeft" align="right" valign="top"><a id="aa2adc20d0efe7b924f2a12889d707e63"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>traceback</b> (self)</td></tr>
+<tr class="memitem:aa2adc20d0efe7b924f2a12889d707e63"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#aa2adc20d0efe7b924f2a12889d707e63">traceback</a> (self)</td></tr>
+<tr class="memdesc:aa2adc20d0efe7b924f2a12889d707e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get traceback.  <a href="#aa2adc20d0efe7b924f2a12889d707e63">More...</a><br /></td></tr>
 <tr class="separator:aa2adc20d0efe7b924f2a12889d707e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f90740837b95096c134cb461afd67f2"><td class="memItemLeft" align="right" valign="top"><a id="a7f90740837b95096c134cb461afd67f2"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__exit__</b> (self, args)</td></tr>
+<tr class="memitem:a7f90740837b95096c134cb461afd67f2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a7f90740837b95096c134cb461afd67f2">__exit__</a> (self, args)</td></tr>
+<tr class="memdesc:a7f90740837b95096c134cb461afd67f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit context.  <a href="#a7f90740837b95096c134cb461afd67f2">More...</a><br /></td></tr>
 <tr class="separator:a7f90740837b95096c134cb461afd67f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dc1acbe8cd7036f036c2fa4aa910fb1"><td class="memItemLeft" align="right" valign="top"><a id="a0dc1acbe8cd7036f036c2fa4aa910fb1"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__enter__</b> (self)</td></tr>
+<tr class="memitem:a0dc1acbe8cd7036f036c2fa4aa910fb1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a0dc1acbe8cd7036f036c2fa4aa910fb1">__enter__</a> (self)</td></tr>
+<tr class="memdesc:a0dc1acbe8cd7036f036c2fa4aa910fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enter context.  <a href="#a0dc1acbe8cd7036f036c2fa4aa910fb1">More...</a><br /></td></tr>
 <tr class="separator:a0dc1acbe8cd7036f036c2fa4aa910fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -143,7 +144,187 @@ Public Attributes</h2></td></tr>
 <li>Drop-in replacement for threading.Lock</li>
 <li>Context management (enter/exit) </li>
 </ul>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0dc1acbe8cd7036f036c2fa4aa910fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dc1acbe8cd7036f036c2fa4aa910fb1">&#9670;&nbsp;</a></span>__enter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.util.mutex.Mutex.__enter__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enter context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>context arguments</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>QMutex: this mutex </dd></dl>
+
+</div>
+</div>
+<a id="a7f90740837b95096c134cb461afd67f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f90740837b95096c134cb461afd67f2">&#9670;&nbsp;</a></span>__exit__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.util.mutex.Mutex.__exit__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exit context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>context arguments </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1babaef2d5a48a2dd35bef7d2dd32514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1babaef2d5a48a2dd35bef7d2dd32514">&#9670;&nbsp;</a></span>depth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.util.mutex.Mutex.depth </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Depth of traceback. </p>
+<dl class="section return"><dt>Returns</dt><dd>int: depth of traceback </dd></dl>
+
+</div>
+</div>
+<a id="ab7373ad1fee8dc73b253aacf7e67f5c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7373ad1fee8dc73b253aacf7e67f5c9">&#9670;&nbsp;</a></span>lock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.util.mutex.Mutex.lock </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>id</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lock mutex. </p>
+<p>Will try again every 5 seconds. </p><pre class="fragment">       @param id: debug id</pre> 
+</div>
+</div>
+<a id="aa2adc20d0efe7b924f2a12889d707e63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2adc20d0efe7b924f2a12889d707e63">&#9670;&nbsp;</a></span>traceback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.util.mutex.Mutex.traceback </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get traceback. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: traceback </dd></dl>
+
+</div>
+</div>
+<a id="a6e3c194d994cfa86abc96327c77a0be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3c194d994cfa86abc96327c77a0be0">&#9670;&nbsp;</a></span>tryLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.util.mutex.Mutex.tryLock </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>timeout</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>id</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try to lock the mutex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timeout</td><td>int: give up after this many milliseconds </td></tr>
+    <tr><td class="paramname">id</td><td>debug id</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool: whether locking succeeded </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>core/util/mutex.py</li>
 </ul>
 </div><!-- contents -->
