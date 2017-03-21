@@ -12,6 +12,7 @@ var searchData=
   ['pausetaskbyname',['pauseTaskByName',['../classtaskrunner_1_1TaskRunner.html#aab07acc18fce981171503a4f8c4d5711',1,'taskrunner::TaskRunner']]],
   ['perform_5fodmr_5fmeasurement',['perform_odmr_measurement',['../classodmr__logic_1_1ODMRLogic.html#a96d6d16676a0b44a50c21dc8cc20b0b8',1,'odmr_logic::ODMRLogic']]],
   ['plot_5fraw_5fdata',['plot_raw_data',['../classpulsed__extraction__external__gui_1_1PulsedExtractionExternalGui.html#a3d24ac61572b5226d3b298c1f9c73466',1,'pulsed_extraction_external_gui::PulsedExtractionExternalGui']]],
+  ['pop',['pop',['../classcore_1_1util_1_1models_1_1DictTableModel.html#ac22e175e10fe7b2ff28c5b04b297877c',1,'core.util.models.DictTableModel.pop()'],['../classcore_1_1util_1_1models_1_1ListTableModel.html#a9c1a6296bcc55ee244beded023df3be7',1,'core.util.models.ListTableModel.pop()']]],
   ['populate_5fpoi_5flist',['populate_poi_list',['../classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#afc02f1980903a005b90c888fb57ec7a0',1,'gui::poimanager::poimangui::PoiManagerGui']]],
   ['postexecute',['postExecute',['../classgeneric__task_1_1PrePostTask.html#a23b00ded45b566d6f8ffc5ce04d75682',1,'generic_task::PrePostTask']]],
   ['postrunpptasks',['postRunPPTasks',['../classtaskrunner_1_1TaskRunner.html#a397d6517d218feae6998f6e1d2b0d2cb',1,'taskrunner::TaskRunner']]],

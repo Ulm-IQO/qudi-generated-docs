@@ -34,7 +34,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:86: warning: Compound pulsed_maingui::SequenceGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:38: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:26: warning: Compound core::util::models::DictTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:34: warning: Compound pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:13: warning: Compound core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:43: warning: Compound magnet_motor_xyz_rot_interfuse::MagnetMotorXYZROTInterfuse is not documented.
@@ -89,7 +88,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:96: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:687: warning: Compound pulse_editors::SequenceEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:136: warning: Compound core::util::models::ListTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:74: warning: Compound gui::colordefs::ColorScaleMagma is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1120: warning: Compound gui::colordefs::QudiPalette is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:120: warning: Compound slow_counter_interface::CountingMode is not documented.
@@ -1106,40 +1104,33 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/util/interfaces.py:53: warning: Member step (variable) of class core::util::interfaces::ScalarConstraint is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/interfaces.py:55: warning: Member default (variable) of class core::util::interfaces::ScalarConstraint is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/interfaces.py:57: warning: Member unit (variable) of class core::util::interfaces::ScalarConstraint is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:28: warning: Member __init__(self) (function) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:34: warning: Member getKeyByNumber(self, n) (function) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:45: warning: Member getNumberByKey(self, key) (function) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:116: warning: Member add(self, key, data) (function) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:126: warning: Member pop(self, key) (function) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:30: warning: Member lock (variable) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:31: warning: Member headers (variable) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:32: warning: Member storage (variable) of class core::util::models::DictTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:74: warning: argument 'QModelIndex' of command @param is not found in the argument list of core.util.models.DictTableModel::flags(self, index)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:74: warning: The following parameters of core.util.models.DictTableModel.flags(self, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:30: warning: Member __init__(self) (function) of class core::util::models::DictTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:32: warning: Member lock (variable) of class core::util::models::DictTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:33: warning: Member headers (variable) of class core::util::models::DictTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:34: warning: Member storage (variable) of class core::util::models::DictTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:90: warning: argument 'QModelIndex' of command @param is not found in the argument list of core.util.models.DictTableModel::flags(self, index)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:90: warning: The following parameters of core.util.models.DictTableModel.flags(self, index) are not documented:
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:106: warning: argument 'int' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:106: warning: argument 'Qt.' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:106: warning: argument 'Orientation' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:106: warning: argument 'ItemDataRole' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:106: warning: The following parameters of core.util.models.DictTableModel.headerData(self, section, orientation, role=QtCore.Qt.DisplayRole) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:122: warning: argument 'int' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:122: warning: argument 'Qt.' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:122: warning: argument 'Orientation' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:122: warning: argument 'ItemDataRole' of command @param is not found in the argument list of core.util.models.DictTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:122: warning: The following parameters of core.util.models.DictTableModel.headerData(self, section, orientation, role=QtCore.Qt.DisplayRole) are not documented:
   parameter 'section'
   parameter 'orientation'
   parameter 'role'
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:138: warning: Member __init__(self) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:205: warning: Member insert(self, n, data) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:212: warning: Member append(self, data) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:219: warning: Member pop(self, n) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:140: warning: Member lock (variable) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:141: warning: Member headers (variable) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:142: warning: Member storage (variable) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:164: warning: argument 'QModelIndex' of command @param is not found in the argument list of core.util.models.ListTableModel::flags(self, index)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:164: warning: The following parameters of core.util.models.ListTableModel.flags(self, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:169: warning: Member __init__(self) (function) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:171: warning: Member lock (variable) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:172: warning: Member headers (variable) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:173: warning: Member storage (variable) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: argument 'QModelIndex' of command @param is not found in the argument list of core.util.models.ListTableModel::flags(self, index)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: The following parameters of core.util.models.ListTableModel.flags(self, index) are not documented:
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: argument 'int' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: argument 'Qt.' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: argument 'Orientation' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: argument 'ItemDataRole' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:195: warning: The following parameters of core.util.models.ListTableModel.headerData(self, section, orientation, role=QtCore.Qt.DisplayRole) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:226: warning: argument 'int' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:226: warning: argument 'Qt.' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:226: warning: argument 'Orientation' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:226: warning: argument 'ItemDataRole' of command @param is not found in the argument list of core.util.models.ListTableModel::headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:226: warning: The following parameters of core.util.models.ListTableModel.headerData(self, section, orientation, role=QtCore.Qt.DisplayRole) are not documented:
   parameter 'section'
   parameter 'orientation'
   parameter 'role'
@@ -6039,14 +6030,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/switch_logic.py:69: warning: The following parameters of switch_logic.SwitchLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:34: warning: Member __init__(self, kwargs) (function) of class taskrunner::TaskListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:138: warning: Member __init__(self) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:205: warning: Member insert(self, n, data) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:212: warning: Member append(self, data) (function) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:219: warning: Member pop(self, n) (function) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:169: warning: Member __init__(self) (function) of class core::util::models::ListTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:36: warning: Member headers (variable) of class taskrunner::TaskListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:140: warning: Member lock (variable) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:141: warning: Member headers (variable) of class core::util::models::ListTableModel is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/util/models.py:142: warning: Member storage (variable) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:171: warning: Member lock (variable) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:172: warning: Member headers (variable) of class core::util::models::ListTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/util/models.py:173: warning: Member storage (variable) of class core::util::models::ListTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:72: warning: argument 'object' of command @param is not found in the argument list of taskrunner.TaskListTableModel::append(self, data)
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:72: warning: The following parameters of taskrunner.TaskListTableModel.append(self, data) are not documented:
   parameter 'data'
