@@ -1220,17 +1220,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:379: warning: The following parameters of countergui.CounterGui.update_saving_Action(self, start) are not documented:
   parameter 'start'
 /home/travis/build/Ulm-IQO/qudi/gui/counter/countergui.py:39: warning: Member __init__(self, kwargs) (function) of class countergui::CounterMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:113: warning: Member get_all_outputs(self) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:121: warning: Member get_selected_channels(self) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:128: warning: Member enable_output(self) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:135: warning: Member disable_output(self) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:142: warning: Member get_setpoint(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:145: warning: Member set_setpoint(self, channel, setpoint) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:148: warning: Member get_pid_mode(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:151: warning: Member set_pid_mode(self, channel, mode) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:154: warning: Member channel_off(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:157: warning: Member get_value(self, channel) (function) of class CTC100_temperature::CTC100 is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:163: warning: Member set_value(self, channel, value) (function) of class CTC100_temperature::CTC100 is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:64: warning: Member rm (variable) of class CTC100_temperature::CTC100 is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/CTC100_temperature.py:65: warning: Member inst (variable) of class CTC100_temperature::CTC100 is not documented.

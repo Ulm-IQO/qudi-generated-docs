@@ -202,7 +202,7 @@ var searchData=
   ['setshutter',['setShutter',['../classlightfield__spectrometer_1_1Lightfield.html#a233483f49879de6f98cbf60f09f39818',1,'lightfield_spectrometer::Lightfield']]],
   ['setsize',['setSize',['../classgui_1_1confocal_1_1confocalgui_1_1CrossROI.html#af1046a5049a8b6182c86dd68537a4fd0',1,'gui.confocal.confocalgui.CrossROI.setSize()'],['../classmagnet__gui_1_1CrossROI.html#a778c70ba405f2bc3050c50c0cba349ed',1,'magnet_gui.CrossROI.setSize()']]],
   ['setstatusvariables',['setStatusVariables',['../classcore_1_1base_1_1Base.html#a3f285820af63ebd7bec05d10734c3ac9',1,'core::base::Base']]],
-  ['setstylesheet',['setStyleSheet',['../classcore_1_1gui_1_1Gui.html#a60c5122b322a48613849bb58c60a6f99',1,'core.gui.Gui.setStyleSheet()'],['../classgui_1_1manager_1_1logwidget_1_1LogWidget.html#a819048765daa84f33deb1416e6dd6e58',1,'gui.manager.logwidget.LogWidget.setStylesheet()']]],
+  ['setstylesheet',['setStylesheet',['../classgui_1_1manager_1_1logwidget_1_1LogWidget.html#a819048765daa84f33deb1416e6dd6e58',1,'gui.manager.logwidget.LogWidget.setStylesheet()'],['../classcore_1_1gui_1_1Gui.html#a60c5122b322a48613849bb58c60a6f99',1,'core.gui.Gui.setStyleSheet()']]],
   ['settheme',['setTheme',['../classcore_1_1gui_1_1Gui.html#acf874bbd1daf0a750907e4707818da47',1,'core::gui::Gui']]],
   ['settingchangedcallback',['settingChangedCallback',['../classlightfield__spectrometer_1_1Lightfield.html#a9b2b1ebc163c4a154d2b0ed8c1f5cc0e',1,'lightfield_spectrometer::Lightfield']]],
   ['setup_5ftoolbar',['setup_toolbar',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#ab857734dbf543a8f72dfa2e84c1a60c7',1,'pulsed_maingui::PulsedMeasurementGui']]],

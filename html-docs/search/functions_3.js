@@ -29,6 +29,7 @@ var searchData=
   ['changedutycycle',['changeDutyCycle',['../classpi__pwm_1_1PiPWM.html#a83e32adc10cb68dd4aa5a084126a8409',1,'pi_pwm::PiPWM']]],
   ['changelaserstate',['changeLaserState',['../classlaser_1_1LaserGUI.html#ac4fd67accf5ffb158d84fb3c3c880eeb',1,'laser::LaserGUI']]],
   ['changeshutterstate',['changeShutterState',['../classlaser_1_1LaserGUI.html#a2e4fcd0ad2fb1cd3cc88515910c96fac',1,'laser::LaserGUI']]],
+  ['channel_5foff',['channel_off',['../classCTC100__temperature_1_1CTC100.html#a1c52986647aa296872b3ea1be0f626e5',1,'CTC100_temperature::CTC100']]],
   ['check',['check',['../classspincore_1_1pulse__blaster__esrpro_1_1PulseBlasterESRPRO.html#abfa942ba597ac67ecca5d846ce770175',1,'spincore::pulse_blaster_esrpro::PulseBlasterESRPRO']]],
   ['check_5flaser_5floop',['check_laser_loop',['../classlaser__logic_1_1LaserLogic.html#af4cc1ada98775b03e4733e2a3999d10a',1,'laser_logic::LaserLogic']]],
   ['check_5foptimization_5fsequence',['check_optimization_sequence',['../classoptimizer__logic_1_1OptimizerLogic.html#ae29d36c63e32e53ccc082670a86300de',1,'optimizer_logic::OptimizerLogic']]],
