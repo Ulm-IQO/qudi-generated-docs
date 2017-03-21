@@ -4451,7 +4451,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:427: warning: Member set_new_position(self, poikey=None, point=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:661: warning: Member reset_roi(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:698: warning: Member update_poi_tag_in_savelogic(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:743: warning: Member load_roi_from_file(self, filename=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:744: warning: Member load_roi_from_file(self, filename=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:204: warning: Member roi_name (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:205: warning: Member track_point_list (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:207: warning: Member go_to_crosshair_after_refocus (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
@@ -4499,15 +4499,15 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:562: warning: The following parameters of poi_manager_logic.PoiManagerLogic.start_periodic_refocus(self, duration=None, poikey=None) are not documented:
   parameter 'duration'
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:778: warning: The following parameters of poi_manager_logic.PoiManagerLogic.triangulate(self, r, a1, b1, c1, a2, b2, c2) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:779: warning: The following parameters of poi_manager_logic.PoiManagerLogic.triangulate(self, r, a1, b1, c1, a2, b2, c2) are not documented:
   parameter 'r'
   parameter 'a1'
   parameter 'b1'
