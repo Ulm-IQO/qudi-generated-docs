@@ -3,6 +3,19 @@ Traceback (most recent call last):
     sys.exit(main())
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
     astWalker.parseLines()
+  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 741, in parseLines
+    inAst = parse(''.join(self.lines), self.inFilename)
+  File "/home/travis/miniconda/envs/qudi/lib/python3.6/ast.py", line 35, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "/home/travis/build/Ulm-IQO/qudi/core/util/win_interrupt.py", line 26
+    """ MS Windows security attributes """
+                                         ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "/home/travis/miniconda/envs/qudi/bin/doxypypy", line 11, in <module>
+    sys.exit(main())
+  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
+    astWalker.parseLines()
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 743, in parseLines
     self.visit(inAst)
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 569, in visit
@@ -53,12 +66,10 @@ IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:172: warning: Compound gui::poimanager::poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:118: warning: Compound pulsed_maingui::GeneratorSettingsDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:61: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:858: warning: Compound gui::colordefs::ColorScaleViridis is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:45: warning: Compound spectrometergui::SpectrometerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:32: warning: Compound generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:33: warning: Compound pulse_extraction_logic::PulseExtractionLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:43: warning: Compound gui::colordefs::ColorScaleRainbow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:192: warning: Compound gui::poimanager::poimangui::PoiManagerMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:40: warning: Compound awg::tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscangui.py:32: warning: Compound laserscangui::LaserScanWindow is not documented.
@@ -87,17 +98,13 @@ IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:26: warning: Compound gui::manager::threadwidget::ThreadWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:442: warning: Compound pulse_editors::BlockOrganizer is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:26: warning: Compound pid_controller_interface::PIDControllerInterface is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:50: warning: Compound odmrgui::ODMRSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:105: warning: Compound fastcomtec::fastcomtecmcs6::AcqSettings is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:106: warning: Compound pulsed_maingui::AnalysisSettingDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:26: warning: Compound gui::colordefs::ColorScale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:31: warning: Compound gui::nuclear_operations::nuclear_operations::NuclearOperationsMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laser::laserquantum_laser::LaserQuantumLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:96: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:687: warning: Compound pulse_editors::SequenceEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:74: warning: Compound gui::colordefs::ColorScaleMagma is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1120: warning: Compound gui::colordefs::QudiPalette is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:120: warning: Compound slow_counter_interface::CountingMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/qudikernel.py:36: warning: Compound qudikernel::Qudi is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/samples_write_methods.py:34: warning: Compound samples_write_methods::SamplesWriteMethods is not documented.
@@ -105,26 +112,20 @@ IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1152: warning: Compound motor::aptmotor::APTOneAxisStage is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:27: warning: Compound magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:44: warning: Compound simple_laser_interface::SimpleLaserInterface is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1141: warning: Compound gui::colordefs::QudiPalettePale is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:34: warning: Compound edwards_vacuum_controller::EdwardsVacuumController is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:38: warning: Compound odmrgui::ODMRMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/notebook/notebookgui.py:106: warning: Compound notebookgui::TabbedWebView is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:130: warning: Compound pulsed_maingui::PredefinedMethodsTab is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:597: warning: Compound gui::colordefs::ColorScalePlasma is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:76: warning: Compound pulsed_maingui::PulseGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:126: warning: Compound slow_counter_interface::SlowCounterConstraints is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/switches/ok_fpga/ok_s6_switch.py:40: warning: Compound ok_s6_switch::HardwareSwitchFpga is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:26: warning: Compound gui::manager::remotewidget::RemoteWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:66: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/combobox_delegate.py:27: warning: Compound combobox_delegate::ComboBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:336: warning: Compound gui::colordefs::ColorScaleInferno is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:30: warning: Compound spectrometergui::SpectrometerWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:95: warning: documented symbol `core.base.Base::_baseStateList' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/core/remote.py:63: warning: no uniquely matching class member found for 
   core.remote.RemoteObjectManager::_manager
 
-/home/travis/build/Ulm-IQO/qudi/core/util/win_interrupt.py:27: warning: documented symbol `core::util::win_interrupt::_fields_' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1998: warning: documented symbol `ni_card.NICard::_gated_count_data' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:388: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
@@ -1636,64 +1637,64 @@ IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:38: warning: Member update(self, data, success=None) (function) of class generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:35: warning: Member data (variable) of class generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:36: warning: Member success (variable) of class generic_task::TaskResult is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:30: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:33: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:40: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:337: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleInferno is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:595: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleInferno is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:30: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:33: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:40: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:75: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleMagma is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:334: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleMagma is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:30: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:33: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:40: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:598: warning: Member COLORS (variable) of class gui::colordefs::ColorScalePlasma is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:856: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScalePlasma is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:30: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:33: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:40: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:45: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleRainbow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:57: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleRainbow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:30: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:33: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:40: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:859: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleViridis is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1117: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleViridis is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:30: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:33: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:40: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1122: warning: Member blue (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1123: warning: Member c1 (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1125: warning: Member orange (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1126: warning: Member c2 (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1128: warning: Member magenta (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1129: warning: Member c3 (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1131: warning: Member green (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1132: warning: Member c4 (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1134: warning: Member cyan (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1135: warning: Member c5 (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1137: warning: Member purple (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1138: warning: Member c6 (variable) of class gui::colordefs::QudiPalette is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1143: warning: Member blue (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1144: warning: Member c1 (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1146: warning: Member orange (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1147: warning: Member c2 (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1149: warning: Member magenta (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1150: warning: Member c3 (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1152: warning: Member green (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1153: warning: Member c4 (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1155: warning: Member cyan (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1156: warning: Member c5 (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1158: warning: Member purple (variable) of class gui::colordefs::QudiPalettePale is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1159: warning: Member c6 (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:41: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:345: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleInferno is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:603: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleInferno is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:41: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:82: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleMagma is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:341: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleMagma is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:41: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:607: warning: Member COLORS (variable) of class gui::colordefs::ColorScalePlasma is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:865: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScalePlasma is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:41: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:51: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleRainbow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:63: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleRainbow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:41: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:869: warning: Member COLORS (variable) of class gui::colordefs::ColorScaleViridis is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1127: warning: Member COLORS_INV (variable) of class gui::colordefs::ColorScaleViridis is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:41: warning: Member lut (variable) of class gui::colordefs::ColorScale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1133: warning: Member blue (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1134: warning: Member c1 (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1136: warning: Member orange (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1137: warning: Member c2 (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1139: warning: Member magenta (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1140: warning: Member c3 (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1142: warning: Member green (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1143: warning: Member c4 (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1145: warning: Member cyan (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1146: warning: Member c5 (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1148: warning: Member purple (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1149: warning: Member c6 (variable) of class gui::colordefs::QudiPalette is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1155: warning: Member blue (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1156: warning: Member c1 (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1158: warning: Member orange (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1159: warning: Member c2 (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1161: warning: Member magenta (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1162: warning: Member c3 (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1164: warning: Member green (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1165: warning: Member c4 (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1167: warning: Member cyan (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1168: warning: Member c5 (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1170: warning: Member purple (variable) of class gui::colordefs::QudiPalettePale is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:1171: warning: Member c6 (variable) of class gui::colordefs::QudiPalettePale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:203: warning: Member __init__(self, config, kwargs) (function) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
@@ -2105,7 +2106,7 @@ IndentationError: expected an indented block
   parameter 'manager'
   parameter 'basename'
   parameter 'modulename'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:28: warning: Member __init__(self) (function) of class gui::manager::remotewidget::RemoteWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:30: warning: Member __init__(self) (function) of class gui::manager::remotewidget::RemoteWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:28: warning: Member __init__(self) (function) of class gui::manager::threadwidget::ThreadWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:61: warning: Member __init__(self, manager, name, config, kwargs) (function) of class gui::nuclear_operations::nuclear_operations::NuclearOperationsGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
@@ -3987,45 +3988,45 @@ IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:521: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_power(self, power=None)
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:521: warning: The following parameters of odmr_logic.ODMRLogic.set_power(self, power=None) are not documented:
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:93: warning: Member __init__(self, config, kwargs) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:399: warning: Member resume_odmr(self, is_checked) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:528: warning: Member do_fit(self) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:679: warning: Member restore_defaultview(self) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:97: warning: Member __init__(self, config, kwargs) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:403: warning: Member resume_odmr(self, is_checked) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:532: warning: Member do_fit(self) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:683: warning: Member restore_defaultview(self) (function) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:42: warning: Member saveWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:46: warning: Member restoreWindowPos(self, window) (function) of class gui::guibase::GUIBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:126: warning: Member mwsettings (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:161: warning: Member odmr_matrix_image (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:170: warning: Member odmr_image (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:180: warning: Member odmr_fit_image (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:130: warning: Member mwsettings (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:165: warning: Member odmr_matrix_image (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:174: warning: Member odmr_image (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:184: warning: Member odmr_fit_image (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:82: warning: Member sigStartODMRScan (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:83: warning: Member sigStopODMRScan (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:84: warning: Member sigContinueODMRScan (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:85: warning: Member sigClearPlots (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:86: warning: Member sigMWOn (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:87: warning: Member sigMWOff (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:88: warning: Member sigMWPowerChanged (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:89: warning: Member sigMWFreqChanged (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:90: warning: Member sigFitChanged (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:91: warning: Member sigDoFit (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:86: warning: Member sigStartODMRScan (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:87: warning: Member sigStopODMRScan (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:88: warning: Member sigContinueODMRScan (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:89: warning: Member sigClearPlots (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:90: warning: Member sigMWOn (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:91: warning: Member sigMWOff (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:92: warning: Member sigMWPowerChanged (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:93: warning: Member sigMWFreqChanged (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:94: warning: Member sigFitChanged (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:95: warning: Member sigDoFit (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:115: warning: argument 'object' of command @param is not found in the argument list of odmrgui.ODMRGui::on_activate(self, e=None)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:115: warning: The following parameters of odmrgui.ODMRGui.on_activate(self, e=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:119: warning: argument 'object' of command @param is not found in the argument list of odmrgui.ODMRGui::on_activate(self, e=None)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:119: warning: The following parameters of odmrgui.ODMRGui.on_activate(self, e=None) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:334: warning: argument 'object' of command @param is not found in the argument list of odmrgui.ODMRGui::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:336: warning: The following parameters of odmrgui.ODMRGui.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:338: warning: argument 'object' of command @param is not found in the argument list of odmrgui.ODMRGui::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:340: warning: The following parameters of odmrgui.ODMRGui.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:371: warning: argument 'bool' of command @param is not found in the argument list of odmrgui.ODMRGui::update_cw_display(self, cw_on)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:371: warning: The following parameters of odmrgui.ODMRGui.update_cw_display(self, cw_on) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:375: warning: argument 'bool' of command @param is not found in the argument list of odmrgui.ODMRGui::update_cw_display(self, cw_on)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:375: warning: The following parameters of odmrgui.ODMRGui.update_cw_display(self, cw_on) are not documented:
   parameter 'cw_on'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:391: warning: argument 'bool' of command @param is not found in the argument list of odmrgui.ODMRGui::update_run_stop_display(self, run_odmr)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:391: warning: The following parameters of odmrgui.ODMRGui.update_run_stop_display(self, run_odmr) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:395: warning: argument 'bool' of command @param is not found in the argument list of odmrgui.ODMRGui::update_run_stop_display(self, run_odmr)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:395: warning: The following parameters of odmrgui.ODMRGui.update_run_stop_display(self, run_odmr) are not documented:
   parameter 'run_odmr'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:39: warning: Member __init__(self) (function) of class odmrgui::ODMRMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:51: warning: Member __init__(self) (function) of class odmrgui::ODMRSettingDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:41: warning: Member __init__(self) (function) of class odmrgui::ODMRMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:55: warning: Member __init__(self) (function) of class odmrgui::ODMRSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:53: warning: Member __init__(self, config, kwargs) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:97: warning: Member on_activate(self, e) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_pulser/ok_fpga_pulser.py:103: warning: Member on_deactivate(self, e) (function) of class ok_fpga_pulser::OkFpgaPulser is not documented.

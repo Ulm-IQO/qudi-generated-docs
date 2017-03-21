@@ -136,7 +136,7 @@
 <area shape="rect" id="node311" href="$classlaserscannergui_1_1VoltScanGui.html" title="This is the GUI Class for ODMR. " alt="" coords="1028,3856,1217,3885"/>
 <area shape="rect" id="node313" href="$classmagnet__gui_1_1MagnetGui.html" title="Main GUI for the magnet. " alt="" coords="1045,3909,1200,3939"/>
 <area shape="rect" id="node315" href="$classnotebookgui_1_1NotebookWebView.html" title="notebookgui.NotebookWebView" alt="" coords="1019,3963,1227,3992"/>
-<area shape="rect" id="node317" href="$classodmrgui_1_1ODMRGui.html" title="This is the GUI Class for ODMR. " alt="" coords="1056,4016,1189,4045"/>
+<area shape="rect" id="node317" href="$classodmrgui_1_1ODMRGui.html" title="This is the GUI Class for ODMR measurements. " alt="" coords="1056,4016,1189,4045"/>
 <area shape="rect" id="node319" href="$classpidgui_1_1PIDGui.html" title="FIXME Please document. " alt="" coords="1072,4069,1173,4099"/>
 <area shape="rect" id="node321" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalGui.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalGui" alt="" coords="1015,4122,1231,4169"/>
 <area shape="rect" id="node323" href="$classpulsed__maingui_1_1PulsedMeasurementGui.html" title="This is the main GUI Class for pulsed measurements. " alt="" coords="996,4192,1249,4221"/>
