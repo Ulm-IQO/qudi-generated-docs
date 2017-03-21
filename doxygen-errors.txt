@@ -44,7 +44,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/refocus.py:25: warning: Compound tasks::refocus::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/high_finesse_wavemeter.py:80: warning: Compound high_finesse_wavemeter::HighFinesseWavemeter is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:172: warning: Compound gui::poimanager::poimangui::CustomViewBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:24: warning: Compound tasks::dummy::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:118: warning: Compound pulsed_maingui::GeneratorSettingsDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:61: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:858: warning: Compound gui::colordefs::ColorScaleViridis is not documented.
@@ -86,7 +85,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:50: warning: Compound odmrgui::ODMRSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:105: warning: Compound fastcomtec::fastcomtecmcs6::AcqSettings is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:106: warning: Compound pulsed_maingui::AnalysisSettingDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:46: warning: Compound lightfield_spectrometer::Lightfield is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:26: warning: Compound gui::colordefs::ColorScale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:31: warning: Compound gui::nuclear_operations::nuclear_operations::NuclearOperationsMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laser::laserquantum_laser::LaserQuantumLaser is not documented.
@@ -119,7 +117,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:66: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/combobox_delegate.py:27: warning: Compound combobox_delegate::ComboBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:40: warning: Compound lightfield_spectrometer::LFImageMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:336: warning: Compound gui::colordefs::ColorScaleInferno is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/util/mutex.py:143: warning: Compound core::util::mutex::MutexLocker is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:30: warning: Compound spectrometergui::SpectrometerWindow is not documented.
@@ -2680,34 +2677,18 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:95: warning: The following parameters of laserscannergui.VoltScanGui.on_activate(self, e=None) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:37: warning: Member __init__(self) (function) of class laserscannergui::VoltScanMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:41: warning: Member LFImageModeNormal (variable) of class lightfield_spectrometer::LFImageMode is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:42: warning: Member LFImageModePreview (variable) of class lightfield_spectrometer::LFImageMode is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:43: warning: Member LFImageModeBackground (variable) of class lightfield_spectrometer::LFImageMode is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:48: warning: Member on_activate(self, e) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:101: warning: Member on_deactivate(self, e) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:106: warning: Member settingChangedCallback(self, sender, args) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:109: warning: Member exitHandler(self, sender, args) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:112: warning: Member frameCallback(self, sender, args) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:126: warning: Member setAcquisitionComplete(self, sender, args) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:130: warning: Member getExperimentList(self) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:133: warning: Member openExperiment(self, expName) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:136: warning: Member buildFeatureList(self, feature) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:139: warning: Member startAcquire(self) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:146: warning: Member setFilePathAndName(self, autoIncrement) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:149: warning: Member setBackgroundFile(self) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:152: warning: Member getROI(self) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:155: warning: Member setROI(self) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:158: warning: Member setShutter(self, isOpen) (function) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:161: warning: Member recordSpectrum(self) (function) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:43: warning: Member LFImageModeNormal (variable) of class lightfield_spectrometer::LFImageMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:44: warning: Member LFImageModePreview (variable) of class lightfield_spectrometer::LFImageMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:45: warning: Member LFImageModeBackground (variable) of class lightfield_spectrometer::LFImageMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:85: warning: Member au (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:86: warning: Member app (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:87: warning: Member exp (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:95: warning: Member prevExperimentName (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:99: warning: Member lastframe (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:140: warning: Member calibration (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:141: warning: Member calerrors (variable) of class lightfield_spectrometer::Lightfield is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:142: warning: Member intcal (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:98: warning: Member au (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:99: warning: Member app (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:100: warning: Member exp (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:108: warning: Member prevExperimentName (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:112: warning: Member lastframe (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:171: warning: Member calibration (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:172: warning: Member calerrors (variable) of class lightfield_spectrometer::Lightfield is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/lightfield_spectrometer.py:173: warning: Member intcal (variable) of class lightfield_spectrometer::Lightfield is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
@@ -6167,15 +6148,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:351: warning: argument 'str' of command @param is not found in the argument list of taskrunner.TaskRunner::stopTaskByName(self, taskname)
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:351: warning: The following parameters of taskrunner.TaskRunner.stopTaskByName(self, taskname) are not documented:
   parameter 'taskname'
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:26: warning: Member __init__(self, kwargs) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:31: warning: Member startTask(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:35: warning: Member runTaskStep(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:42: warning: Member pauseTask(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:46: warning: Member resumeTask(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:50: warning: Member cleanupTask(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:54: warning: Member checkExtraStartPrerequisites(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:58: warning: Member checkExtraPausePrerequisites(self) (function) of class tasks::dummy::Task is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:29: warning: Member ctr (variable) of class tasks::dummy::Task is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:27: warning: Member __init__(self, kwargs) (function) of class tasks::dummy::Task is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/tasks/dummy.py:30: warning: Member ctr (variable) of class tasks::dummy::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/flipmirror.py:26: warning: Member __init__(self, kwargs) (function) of class tasks::flipmirror::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/flipmirror.py:30: warning: Member preExecute(self) (function) of class tasks::flipmirror::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/flipmirror.py:44: warning: Member postExecute(self) (function) of class tasks::flipmirror::Task is not documented.

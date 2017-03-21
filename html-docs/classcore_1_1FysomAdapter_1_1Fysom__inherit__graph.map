@@ -24,7 +24,7 @@
 <area shape="rect" id="node43" href="$classlaser_1_1laserquantum__laser_1_1LaserQuantumLaser.html" title="laser.laserquantum\l_laser.LaserQuantumLaser" alt="" coords="527,1194,705,1241"/>
 <area shape="rect" id="node45" href="$classlaser_1_1millennia__ev__laser_1_1MillenniaeVLaser.html" title="Spectra Physics Millennia diode pumped solid state laser. " alt="" coords="536,1263,696,1310"/>
 <area shape="rect" id="node47" href="$classlaser_1_1simple__laser__dummy_1_1SimpleLaserDummy.html" title="Lazor dummy. " alt="" coords="519,1333,713,1379"/>
-<area shape="rect" id="node49" href="$classlightfield__spectrometer_1_1Lightfield.html" title="lightfield_spectrometer.\lLightfield" alt="" coords="537,1402,695,1449"/>
+<area shape="rect" id="node49" href="$classlightfield__spectrometer_1_1Lightfield.html" title="Control Princeton Instruments Lightfield from Qudi. " alt="" coords="537,1402,695,1449"/>
 <area shape="rect" id="node51" href="$classmagnet_1_1magnet__dummy_1_1MagnetDummy.html" title="This is the Interface class to define the controls for the simple magnet hardware. " alt="" coords="512,1471,720,1518"/>
 <area shape="rect" id="node53" href="$classmicrowave_1_1mw__source__agilent_1_1MicrowaveAgilent.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="529,1541,703,1587"/>
 <area shape="rect" id="node55" href="$classmicrowave_1_1mw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="487,1610,745,1657"/>

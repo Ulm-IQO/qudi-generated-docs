@@ -9,6 +9,7 @@ var searchData=
   ['boundingrect',['boundingRect',['../classgui_1_1guiutils_1_1ColorBar.html#a7a538fdd94d4f2f0279b33e399fa198f',1,'gui::guiutils::ColorBar']]],
   ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#a3b7a6313e5229161949b2e3ed2913c58',1,'config_gui::menu::ModMenu']]],
   ['buildcurrentfits',['buildCurrentFits',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a7785382ceb0d3e518d9ecf55cb2cadcf',1,'gui::fitsettings::FitSettingsDialog']]],
+  ['buildfeaturelist',['buildFeatureList',['../classlightfield__spectrometer_1_1Lightfield.html#a7a4a6ffd80d79371b70bd399487574df',1,'lightfield_spectrometer::Lightfield']]],
   ['buttonclicked',['buttonClicked',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a8c185b1fe2de4ad1306648bda458a385',1,'gui::fitsettings::FitSettingsDialog']]],
   ['byte_5fto_5futf8',['byte_to_utf8',['../classsc__magnet_1_1magnet_1_1Magnet.html#a06c929ecfa16f5204dfab7b186a465f8',1,'sc_magnet::magnet::Magnet']]]
 ];

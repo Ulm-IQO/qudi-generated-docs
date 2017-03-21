@@ -6,6 +6,7 @@ var searchData=
   ['enable_5fscan_5factions',['enable_scan_actions',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#abb66de10cc2c7b4ed24999aa43fff96c',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['estimatorchanged',['estimatorChanged',['../classgui_1_1fitsettings_1_1FitConfigWidget.html#a9a347014c1798d0a23945a0987469369',1,'gui::fitsettings::FitConfigWidget']]],
   ['excepthook',['excepthook',['../classqzmqkernel_1_1QZMQKernel.html#ac34e0359c8416423a7079a10423759b5',1,'qzmqkernel::QZMQKernel']]],
+  ['exithandler',['exitHandler',['../classlightfield__spectrometer_1_1Lightfield.html#abdcf58fe78315683cf663232f2fee891',1,'lightfield_spectrometer::Lightfield']]],
   ['ext_5fmicrowave_5frunning_5fupdated',['ext_microwave_running_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a6d77e43db6931d610650c1aa684ea360',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['ext_5fmicrowave_5fsettings_5fchanged',['ext_microwave_settings_changed',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#accaaecb0233ef008ea6fbde3f0b9f9e0',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['ext_5fmicrowave_5fsettings_5fupdated',['ext_microwave_settings_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a3b5fce394d86704cc06bda2dc99684f2',1,'pulsed_master_logic::PulsedMasterLogic']]],

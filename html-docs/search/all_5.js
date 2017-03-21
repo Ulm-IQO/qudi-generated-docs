@@ -10,6 +10,7 @@ var searchData=
   ['eventmanager',['EventManager',['../classevents_1_1EventManager.html',1,'events']]],
   ['excepthook',['excepthook',['../classqzmqkernel_1_1QZMQKernel.html#ac34e0359c8416423a7079a10423759b5',1,'qzmqkernel::QZMQKernel']]],
   ['executionresult',['ExecutionResult',['../classhelpers_1_1ExecutionResult.html',1,'helpers']]],
+  ['exithandler',['exitHandler',['../classlightfield__spectrometer_1_1Lightfield.html#abdcf58fe78315683cf663232f2fee891',1,'lightfield_spectrometer::Lightfield']]],
   ['ext_5fmicrowave_5frunning_5fupdated',['ext_microwave_running_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a6d77e43db6931d610650c1aa684ea360',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['ext_5fmicrowave_5fsettings_5fchanged',['ext_microwave_settings_changed',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#accaaecb0233ef008ea6fbde3f0b9f9e0',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['ext_5fmicrowave_5fsettings_5fupdated',['ext_microwave_settings_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a3b5fce394d86704cc06bda2dc99684f2',1,'pulsed_master_logic::PulsedMasterLogic']]],

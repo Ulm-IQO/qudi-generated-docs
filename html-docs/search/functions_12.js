@@ -14,7 +14,7 @@ var searchData=
   ['realquit',['realQuit',['../classcore_1_1manager_1_1Manager.html#ac2b66c4c2272d76cd51aa7d956a37d70',1,'core::manager::Manager']]],
   ['recalculate_5fhistogram',['recalculate_histogram',['../classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#af8371948ad7e0912e172e19f79287478',1,'wavemeter_logger_logic::WavemeterLoggerLogic']]],
   ['record_5fsingle_5fspectrum',['record_single_spectrum',['../classspectrometergui_1_1SpectrometerGui.html#a4b2b4e0a961536ac2c711d0ef50631a3',1,'spectrometergui::SpectrometerGui']]],
-  ['recordspectrum',['recordSpectrum',['../classspectrometer__dummy_1_1SpectrometerInterfaceDummy.html#a2280de5b28f198f02ef3fe7e402fde01',1,'spectrometer_dummy.SpectrometerInterfaceDummy.recordSpectrum()'],['../classwinspec__spectrometer_1_1WinSpec32.html#ac9fabd2fbfe972bef1675d04cb705427',1,'winspec_spectrometer.WinSpec32.recordSpectrum()']]],
+  ['recordspectrum',['recordSpectrum',['../classlightfield__spectrometer_1_1Lightfield.html#a11bbda6219ec810ceafecb0f8e469737',1,'lightfield_spectrometer.Lightfield.recordSpectrum()'],['../classspectrometer__dummy_1_1SpectrometerInterfaceDummy.html#a2280de5b28f198f02ef3fe7e402fde01',1,'spectrometer_dummy.SpectrometerInterfaceDummy.recordSpectrum()'],['../classwinspec__spectrometer_1_1WinSpec32.html#ac9fabd2fbfe972bef1675d04cb705427',1,'winspec_spectrometer.WinSpec32.recordSpectrum()']]],
   ['ref_5fa_5fat_5fcrosshair',['ref_a_at_crosshair',['../classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#aa159b62034a0410ed4be7e6b6d1071aa',1,'gui::poimanager::poimangui::PoiManagerGui']]],
   ['ref_5fb_5fat_5fcrosshair',['ref_b_at_crosshair',['../classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#a586d377df98fc62ad286f747d43e863e',1,'gui::poimanager::poimangui::PoiManagerGui']]],
   ['ref_5fc_5fat_5fcrosshair',['ref_c_at_crosshair',['../classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html#a04d46cc456d8789e1a92b444a2c4aa31',1,'gui::poimanager::poimangui::PoiManagerGui']]],
@@ -74,7 +74,7 @@ var searchData=
   ['restoredefaultview',['restoreDefaultView',['../classlaser_1_1LaserGUI.html#ad682036406a9bd38f071891ac44b80ea',1,'laser::LaserGUI']]],
   ['resume_5fdifferential_5fspectrum',['resume_differential_spectrum',['../classspectrum_1_1SpectrumLogic.html#aae5d374e0137bff6e5faab0801896fb3',1,'spectrum::SpectrumLogic']]],
   ['resumepausetasks',['resumePauseTasks',['../classtaskrunner_1_1TaskRunner.html#ab7e465cb464019826960dccaebf8dfd7',1,'taskrunner::TaskRunner']]],
-  ['resumetask',['resumeTask',['../classgeneric__task_1_1InterruptableTask.html#a48cc7fc408e90fa2fec27713b0b3266f',1,'generic_task.InterruptableTask.resumeTask()'],['../classtasks_1_1refocus_1_1Task.html#a2b17a335754ee559067fa0e1b5bb818e',1,'tasks.refocus.Task.resumeTask()']]],
+  ['resumetask',['resumeTask',['../classgeneric__task_1_1InterruptableTask.html#a48cc7fc408e90fa2fec27713b0b3266f',1,'generic_task.InterruptableTask.resumeTask()'],['../classtasks_1_1dummy_1_1Task.html#a83bebf35da351a84648c95486e677b53',1,'tasks.dummy.Task.resumeTask()'],['../classtasks_1_1refocus_1_1Task.html#a2b17a335754ee559067fa0e1b5bb818e',1,'tasks.refocus.Task.resumeTask()']]],
   ['revert',['revert',['../classcore_1_1mapper_1_1Mapper.html#a1cb8e5e57784673057e3683e802bc757',1,'core::mapper::Mapper']]],
   ['roi_5fdepth_5fbounds_5fcheck',['roi_depth_bounds_check',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#ad69967f8f62208d2f936f7dd07b2818d',1,'gui::confocal::confocalgui::ConfocalGui']]],
   ['roi_5fxy_5fbounds_5fcheck',['roi_xy_bounds_check',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#a77eaa377768aafd4bd948528f6849d85',1,'gui::confocal::confocalgui::ConfocalGui']]],
@@ -85,5 +85,5 @@ var searchData=
   ['run_5fcode',['run_code',['../classqzmqkernel_1_1QZMQKernel.html#aaf3f95c94f7064737184fab93a8e629a',1,'qzmqkernel::QZMQKernel']]],
   ['run_5fstop',['run_stop',['../classlaserscannergui_1_1VoltScanGui.html#a9f5daf3d1ff3e4d54593e59efb8e6fae',1,'laserscannergui.VoltScanGui.run_stop()'],['../classodmrgui_1_1ODMRGui.html#ab501e26e612bba932de597aa158acee0',1,'odmrgui.ODMRGui.run_stop()']]],
   ['run_5fstop_5f2d_5falignment',['run_stop_2d_alignment',['../classmagnet__gui_1_1MagnetGui.html#aa273007d6b472f009ef9e9249b0d16ec',1,'magnet_gui::MagnetGui']]],
-  ['runtaskstep',['runTaskStep',['../classgeneric__task_1_1InterruptableTask.html#a020e812ba21207d80fd1d9e7a4df8f45',1,'generic_task.InterruptableTask.runTaskStep()'],['../classtasks_1_1refocus_1_1Task.html#ac041d98095c58b3c0fbbf71cc146e3aa',1,'tasks.refocus.Task.runTaskStep()']]]
+  ['runtaskstep',['runTaskStep',['../classgeneric__task_1_1InterruptableTask.html#a020e812ba21207d80fd1d9e7a4df8f45',1,'generic_task.InterruptableTask.runTaskStep()'],['../classtasks_1_1dummy_1_1Task.html#ae224b5025effa06bb317b458f17cca62',1,'tasks.dummy.Task.runTaskStep()'],['../classtasks_1_1refocus_1_1Task.html#ac041d98095c58b3c0fbbf71cc146e3aa',1,'tasks.refocus.Task.runTaskStep()']]]
 ];
