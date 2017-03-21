@@ -21,7 +21,7 @@ var searchData=
   ['insert_5frows',['insert_rows',['../classpulse__editors_1_1BlockEditor.html#a48f2181444f194efdae49dc98020bf9b',1,'pulse_editors.BlockEditor.insert_rows()'],['../classpulse__editors_1_1BlockOrganizer.html#adfb3870e0175ad1bdc44af2b945889d8',1,'pulse_editors.BlockOrganizer.insert_rows()'],['../classpulse__editors_1_1SequenceEditor.html#a8e5c048a9cb6646fc34a3cfa27c96010',1,'pulse_editors.SequenceEditor.insert_rows()']]],
   ['insertrows',['insertRows',['../classgui_1_1manager_1_1logwidget_1_1LogModel.html#aab31dafbca1a237c27f3909fd7f8073a',1,'gui::manager::logwidget::LogModel']]],
   ['installation',['Installation',['../installation.html',1,'']]],
-  ['interfaceimplementationerror',['InterfaceImplementationError',['../classfast__counter__dummy_1_1InterfaceImplementationError.html',1,'fast_counter_dummy.InterfaceImplementationError'],['../classcore_1_1util_1_1customexceptions_1_1InterfaceImplementationError.html',1,'core.util.customexceptions.InterfaceImplementationError']]],
+  ['interfaceimplementationerror',['InterfaceImplementationError',['../classfast__counter__dummy_1_1InterfaceImplementationError.html',1,'fast_counter_dummy']]],
   ['interfacemetaclass',['InterfaceMetaclass',['../classcore_1_1util_1_1interfaces_1_1InterfaceMetaclass.html',1,'core::util::interfaces']]],
   ['interpret',['interpret',['../classSpinBox_1_1SpinBox.html#a85bf1aa3f5ac38f728842125ce98ec8b',1,'SpinBox::SpinBox']]],
   ['interruptabletask',['InterruptableTask',['../classgeneric__task_1_1InterruptableTask.html',1,'generic_task']]],

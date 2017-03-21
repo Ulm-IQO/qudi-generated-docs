@@ -199,6 +199,7 @@ var searchData=
   ['setstylesheet',['setStyleSheet',['../classcore_1_1gui_1_1Gui.html#a60c5122b322a48613849bb58c60a6f99',1,'core.gui.Gui.setStyleSheet()'],['../classgui_1_1manager_1_1logwidget_1_1LogWidget.html#a819048765daa84f33deb1416e6dd6e58',1,'gui.manager.logwidget.LogWidget.setStylesheet()']]],
   ['settheme',['setTheme',['../classcore_1_1gui_1_1Gui.html#acf874bbd1daf0a750907e4707818da47',1,'core::gui::Gui']]],
   ['setup_5ftoolbar',['setup_toolbar',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#ab857734dbf543a8f72dfa2e84c1a60c7',1,'pulsed_maingui::PulsedMeasurementGui']]],
+  ['setupparentpoller',['setupParentPoller',['../classcore_1_1____main_____1_1AppWatchdog.html#a5f6c3b01bbbd485ee6ce1f72e42e9e1e',1,'core::__main__::AppWatchdog']]],
   ['setuppins',['setupPins',['../classpi__pwm_1_1PiPWM.html#a27d430097a8e337f7f07c7c40ae75ea2',1,'pi_pwm::PiPWM']]],
   ['setvelocityparameters',['setVelocityParameters',['../classmotor_1_1aptmotor_1_1APTMotor.html#a2c2320671ab4895967c1d8820180e4e3',1,'motor::aptmotor::APTMotor']]],
   ['sharemodule',['shareModule',['../classcore_1_1remote_1_1RemoteObjectManager.html#a81c806bafa6cd9a6b7082baf0e967b28',1,'core::remote::RemoteObjectManager']]],

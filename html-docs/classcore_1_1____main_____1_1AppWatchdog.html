@@ -98,11 +98,11 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self)</t
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1____main_____1_1AppWatchdog.html#a83ec6a5fe6eeebbfe5eb0d5a0e022813">donothing</a> (self)</td></tr>
 <tr class="memdesc:a83ec6a5fe6eeebbfe5eb0d5a0e022813"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function does nothing for debugging purposes. <br /></td></tr>
 <tr class="separator:a83ec6a5fe6eeebbfe5eb0d5a0e022813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f6c3b01bbbd485ee6ce1f72e42e9e1e"><td class="memItemLeft" align="right" valign="top"><a id="a5f6c3b01bbbd485ee6ce1f72e42e9e1e"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setupParentPoller</b> (self, manager)</td></tr>
+<tr class="memitem:a5f6c3b01bbbd485ee6ce1f72e42e9e1e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1____main_____1_1AppWatchdog.html#a5f6c3b01bbbd485ee6ce1f72e42e9e1e">setupParentPoller</a> (self, manager)</td></tr>
+<tr class="memdesc:a5f6c3b01bbbd485ee6ce1f72e42e9e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up parent pooler to find out when parent process is killed.  <a href="#a5f6c3b01bbbd485ee6ce1f72e42e9e1e">More...</a><br /></td></tr>
 <tr class="separator:a5f6c3b01bbbd485ee6ce1f72e42e9e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139fe05ff0eaa5040b15876119fd5c95"><td class="memItemLeft" align="right" valign="top"><a id="a139fe05ff0eaa5040b15876119fd5c95"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>quitProxy</b> (self, obj)</td></tr>
+<tr class="memitem:a139fe05ff0eaa5040b15876119fd5c95"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1____main_____1_1AppWatchdog.html#a139fe05ff0eaa5040b15876119fd5c95">quitProxy</a> (self, obj)</td></tr>
+<tr class="memdesc:a139fe05ff0eaa5040b15876119fd5c95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to emit doQuit signal.  <a href="#a139fe05ff0eaa5040b15876119fd5c95">More...</a><br /></td></tr>
 <tr class="separator:a139fe05ff0eaa5040b15876119fd5c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb3e56342b38913b11749ebb091e3861"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1____main_____1_1AppWatchdog.html#afb3e56342b38913b11749ebb091e3861">quitApplication</a> (self, manager, restart=False)</td></tr>
 <tr class="memdesc:afb3e56342b38913b11749ebb091e3861"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up threads and windows, quit application.  <a href="#afb3e56342b38913b11749ebb091e3861">More...</a><br /></td></tr>
@@ -177,6 +177,78 @@ Static Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">object</td><td>manager: manager belonging to this application </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a139fe05ff0eaa5040b15876119fd5c95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139fe05ff0eaa5040b15876119fd5c95">&#9670;&nbsp;</a></span>quitProxy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.__main__.AppWatchdog.quitProxy </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper function to emit doQuit signal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>object: object passed to doQuit </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5f6c3b01bbbd485ee6ce1f72e42e9e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f6c3b01bbbd485ee6ce1f72e42e9e1e">&#9670;&nbsp;</a></span>setupParentPoller()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def core.__main__.AppWatchdog.setupParentPoller </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>manager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set up parent pooler to find out when parent process is killed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td>Manager: manager reference </td></tr>
   </table>
   </dd>
 </dl>
