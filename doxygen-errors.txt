@@ -3,19 +3,6 @@ Traceback (most recent call last):
     sys.exit(main())
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
     astWalker.parseLines()
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 741, in parseLines
-    inAst = parse(''.join(self.lines), self.inFilename)
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/ast.py", line 35, in parse
-    return compile(source, filename, mode, PyCF_ONLY_AST)
-  File "/home/travis/build/Ulm-IQO/qudi/core/util/win_interrupt.py", line 26
-    """ MS Windows security attributes """
-                                         ^
-IndentationError: expected an indented block
-Traceback (most recent call last):
-  File "/home/travis/miniconda/envs/qudi/bin/doxypypy", line 11, in <module>
-    sys.exit(main())
-  File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 830, in main
-    astWalker.parseLines()
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 743, in parseLines
     self.visit(inAst)
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 569, in visit
@@ -126,6 +113,7 @@ IndentationError: expected an indented block
 /home/travis/build/Ulm-IQO/qudi/core/remote.py:63: warning: no uniquely matching class member found for 
   core.remote.RemoteObjectManager::_manager
 
+/home/travis/build/Ulm-IQO/qudi/core/util/win_interrupt.py:28: warning: documented symbol `core::util::win_interrupt::_fields_' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:1998: warning: documented symbol `ni_card.NICard::_gated_count_data' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:388: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
