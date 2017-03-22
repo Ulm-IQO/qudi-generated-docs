@@ -65,7 +65,7 @@
 <area shape="rect" id="node140" href="$classodmr__counter__dummy_1_1ODMRCounterDummy.html" title="This is the Dummy hardware class that simulates the controls for a simple ODMR. " alt="" coords="693,2453,936,2499"/>
 <area shape="rect" id="node145" href="$classpi__pwm_1_1PiPWM.html" title="Hardware module for Raspberry Pi&#45;based PWM controller. " alt="" coords="757,4192,872,4221"/>
 <area shape="rect" id="node149" href="$classprocess__dummy_1_1ProcessDummy.html" title="Methods to control slow laser switching devices. " alt="" coords="707,4421,923,4451"/>
-<area shape="rect" id="node147" href="$classpi__pwm_1_1PiPWMHalf.html" title="PWM controller restricted to positive values. " alt="" coords="1053,3589,1192,3619"/>
+<area shape="rect" id="node147" href="$classpi__pwm_1_1PiPWMHalf.html" title="PWM controller restricted to positive values. " alt="" coords="1053,3616,1192,3645"/>
 <area shape="rect" id="node152" href="$classinflux__data__client_1_1InfluxDataClient.html" title="Retrieve live data from InfluxDB as if the measurement device was connected directly. " alt="" coords="736,4351,893,4398"/>
 <area shape="rect" id="node155" href="$classtsys01__spi_1_1TSYS01SPI.html" title="Measurement Systems TSYS01 temperature sensor. " alt="" coords="735,4299,895,4328"/>
 <area shape="rect" id="node158" href="$classawg_1_1tektronix__awg5002c_1_1AWG5002C.html" title="Unstable and in construction, Alex Stark. " alt="" coords="695,4475,935,4504"/>
@@ -120,42 +120,41 @@
 <area shape="rect" id="node273" href="$classedwards__vacuum__controller_1_1EdwardsVacuumController.html" title="edwards_vacuum_controller.\lEdwardsVacuumController" alt="" coords="721,4069,908,4115"/>
 <area shape="rect" id="node281" href="$classgeneric__logic_1_1GenericLogic.html" title="A generic logic interface class. " alt="" coords="725,4139,904,4168"/>
 <area shape="rect" id="node283" href="$classgui_1_1guibase_1_1GUIBase.html" title="This is the GUI base class. " alt="" coords="741,4245,888,4275"/>
-<area shape="rect" id="node285" href="$classautomationgui_1_1AutomationGui.html" title="Graphical interface for arranging tasks without using Python code. " alt="" coords="1027,4475,1219,4504"/>
-<area shape="rect" id="node287" href="$classcountergui_1_1CounterGui.html" title="FIXME Please document. " alt="" coords="1047,4528,1199,4557"/>
-<area shape="rect" id="node289" href="$classgated__counter__gui_1_1GatedCounterGui.html" title="Main GUI for the Gated Counting. " alt="" coords="1007,4581,1239,4611"/>
-<area shape="rect" id="node291" href="$classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html" title="Main Confocal Class for xy and depth scans. " alt="" coords="1040,4634,1205,4681"/>
-<area shape="rect" id="node293" href="$classgui_1_1manager_1_1managergui_1_1ManagerGui.html" title="This class provides a GUI to the Qudi manager. " alt="" coords="1004,4704,1241,4733"/>
-<area shape="rect" id="node295" href="$classgui_1_1nuclear__operations_1_1nuclear__operations_1_1NuclearOperationsGui.html" title="This is the main GUI Class for Nuclear Operations. " alt="" coords="1012,4757,1233,4803"/>
-<area shape="rect" id="node297" href="$classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html" title="This is the GUI Class for PoiManager. " alt="" coords="1035,4826,1211,4873"/>
-<area shape="rect" id="node299" href="$classgui_1_1switcher_1_1switchgui_1_1SwitchGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="1016,4896,1229,4925"/>
-<area shape="rect" id="node301" href="$classgui_1_1taskrunner_1_1taskgui_1_1TaskGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="1021,4949,1224,4979"/>
-<area shape="rect" id="node303" href="$classgui_1_1testgui_1_1TestGui.html" title="A class to test gui module loading. " alt="" coords="1057,3643,1188,3672"/>
-<area shape="rect" id="node305" href="$classgui_1_1trayicon_1_1TrayIcon.html" title="This module contains a tray icon implementation for Qudi. " alt="" coords="1051,3696,1195,3725"/>
-<area shape="rect" id="node307" href="$classlaser_1_1LaserGUI.html" title="FIXME Please document. " alt="" coords="1068,3749,1177,3779"/>
-<area shape="rect" id="node309" href="$classlaserscangui_1_1LaserScanningGui.html" title="laserscangui.LaserScanningGui" alt="" coords="1020,3803,1225,3832"/>
-<area shape="rect" id="node311" href="$classlaserscannergui_1_1VoltScanGui.html" title="This is the GUI Class for ODMR. " alt="" coords="1028,3856,1217,3885"/>
-<area shape="rect" id="node313" href="$classmagnet__gui_1_1MagnetGui.html" title="Main GUI for the magnet. " alt="" coords="1045,3909,1200,3939"/>
-<area shape="rect" id="node315" href="$classnotebookgui_1_1NotebookWebView.html" title="notebookgui.NotebookWebView" alt="" coords="1019,3963,1227,3992"/>
-<area shape="rect" id="node317" href="$classodmrgui_1_1ODMRGui.html" title="This is the GUI Class for ODMR measurements. " alt="" coords="1056,4016,1189,4045"/>
-<area shape="rect" id="node319" href="$classpidgui_1_1PIDGui.html" title="FIXME Please document. " alt="" coords="1072,4069,1173,4099"/>
-<area shape="rect" id="node321" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalGui.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalGui" alt="" coords="1015,4122,1231,4169"/>
-<area shape="rect" id="node323" href="$classpulsed__maingui_1_1PulsedMeasurementGui.html" title="This is the main GUI Class for pulsed measurements. " alt="" coords="996,4192,1249,4221"/>
-<area shape="rect" id="node325" href="$classqdplottergui_1_1QdplotterGui.html" title="FIXME Please document. " alt="" coords="1040,4245,1205,4275"/>
-<area shape="rect" id="node327" href="$classsimpledatagui_1_1SimpleDataGui.html" title="FIXME Please document. " alt="" coords="1025,4299,1220,4328"/>
-<area shape="rect" id="node329" href="$classspectrometergui_1_1SpectrometerGui.html" title="spectrometergui.SpectrometerGui" alt="" coords="1015,4352,1231,4381"/>
-<area shape="rect" id="node331" href="$classwavemeterloggui_1_1WavemeterLogGui.html" title="wavemeterloggui.Wavemeter\lLogGui" alt="" coords="1028,4405,1217,4451"/>
-<area shape="rect" id="node380" href="$classcore_1_1logger_1_1QtLogHandler.html" title="Log handler for displaying log records in a QT gui. " alt="" coords="424,5721,595,5751"/>
-<area shape="rect" id="node404" href="$classconfig__gui_1_1menu_1_1ModuleObject.html" title="This class represents a Qudi module. " alt="" coords="409,6255,609,6284"/>
-<area shape="rect" id="node406" href="$classconfocal__logic_1_1ConfocalHistoryEntry.html" title="This class contains all relevant parameters of a Confocal scan. " alt="" coords="408,6307,611,6354"/>
-<area shape="rect" id="node408" href="$classcore_1_1____main_____1_1AppWatchdog.html" title="This class periodically runs a function for debugging and handles application exit. " alt="" coords="413,6377,605,6407"/>
-<area shape="rect" id="node412" href="$classcore_1_1manager_1_1Manager.html" title="The Manager object is responsible for: " alt="" coords="432,6431,587,6460"/>
-<area shape="rect" id="node414" href="$classcore_1_1threadmanager_1_1ThreadItem.html" title="This class represents a QThread. " alt="" coords="407,5775,612,5804"/>
-<area shape="rect" id="node416" href="$classfit__logic_1_1FitContainer.html" title="A class for managing a single flexible fit setting in a logic module. " alt="" coords="439,5828,580,5857"/>
-<area shape="rect" id="node420" href="$classgeneric__task_1_1TaskResult.html" title="generic_task.TaskResult" alt="" coords="427,5881,592,5911"/>
-<area shape="rect" id="node422" href="$classhigh__finesse__wavemeter_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="385,5935,633,5964"/>
-<area shape="rect" id="node424" href="$classqzmqkernel_1_1QZMQHeartbeat.html" title="Echo Messages on a ZMQ stream. " alt="" coords="415,5988,604,6017"/>
-<area shape="rect" id="node426" href="$classqzmqkernel_1_1QZMQKernel.html" title="A Qt&#45;based embeddable kernel for Jupyter. " alt="" coords="425,6041,593,6071"/>
-<area shape="rect" id="node428" href="$classstream_1_1QZMQStream.html" title="Qt based ZMQ stream. " alt="" coords="436,6095,583,6124"/>
-<area shape="rect" id="node430" href="$classwavemeter__dummy_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="400,6148,619,6177"/>
-<area shape="rect" id="node432" href="$classwavemeter__logger__logic_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="388,6201,631,6231"/>
+<area shape="rect" id="node285" href="$classautomationgui_1_1AutomationGui.html" title="Graphical interface for arranging tasks without using Python code. " alt="" coords="1027,4501,1219,4531"/>
+<area shape="rect" id="node287" href="$classcountergui_1_1CounterGui.html" title="FIXME Please document. " alt="" coords="1047,4555,1199,4584"/>
+<area shape="rect" id="node289" href="$classgated__counter__gui_1_1GatedCounterGui.html" title="Main GUI for the Gated Counting. " alt="" coords="1007,4608,1239,4637"/>
+<area shape="rect" id="node291" href="$classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html" title="Main Confocal Class for xy and depth scans. " alt="" coords="1040,4661,1205,4707"/>
+<area shape="rect" id="node293" href="$classgui_1_1manager_1_1managergui_1_1ManagerGui.html" title="This class provides a GUI to the Qudi manager. " alt="" coords="1004,4731,1241,4760"/>
+<area shape="rect" id="node295" href="$classgui_1_1nuclear__operations_1_1nuclear__operations_1_1NuclearOperationsGui.html" title="This is the main GUI Class for Nuclear Operations. " alt="" coords="1012,4783,1233,4830"/>
+<area shape="rect" id="node297" href="$classgui_1_1poimanager_1_1poimangui_1_1PoiManagerGui.html" title="This is the GUI Class for PoiManager. " alt="" coords="1035,4853,1211,4899"/>
+<area shape="rect" id="node299" href="$classgui_1_1switcher_1_1switchgui_1_1SwitchGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="1016,4923,1229,4952"/>
+<area shape="rect" id="node301" href="$classgui_1_1taskrunner_1_1taskgui_1_1TaskGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="1021,3669,1224,3699"/>
+<area shape="rect" id="node303" href="$classgui_1_1testgui_1_1TestGui.html" title="A class to test gui module loading. " alt="" coords="1057,3723,1188,3752"/>
+<area shape="rect" id="node305" href="$classgui_1_1trayicon_1_1TrayIcon.html" title="This module contains a tray icon implementation for Qudi. " alt="" coords="1051,3776,1195,3805"/>
+<area shape="rect" id="node307" href="$classlaser_1_1LaserGUI.html" title="FIXME Please document. " alt="" coords="1068,3829,1177,3859"/>
+<area shape="rect" id="node309" href="$classlaserscangui_1_1LaserScanningGui.html" title="laserscangui.LaserScanningGui" alt="" coords="1020,3883,1225,3912"/>
+<area shape="rect" id="node311" href="$classlaserscannergui_1_1VoltScanGui.html" title="This is the GUI Class for ODMR. " alt="" coords="1028,3936,1217,3965"/>
+<area shape="rect" id="node313" href="$classmagnet__gui_1_1MagnetGui.html" title="Main GUI for the magnet. " alt="" coords="1045,3989,1200,4019"/>
+<area shape="rect" id="node315" href="$classodmrgui_1_1ODMRGui.html" title="This is the GUI Class for ODMR measurements. " alt="" coords="1056,4043,1189,4072"/>
+<area shape="rect" id="node317" href="$classpidgui_1_1PIDGui.html" title="FIXME Please document. " alt="" coords="1072,4096,1173,4125"/>
+<area shape="rect" id="node319" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalGui.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalGui" alt="" coords="1015,4149,1231,4195"/>
+<area shape="rect" id="node321" href="$classpulsed__maingui_1_1PulsedMeasurementGui.html" title="This is the main GUI Class for pulsed measurements. " alt="" coords="996,4219,1249,4248"/>
+<area shape="rect" id="node323" href="$classqdplottergui_1_1QdplotterGui.html" title="FIXME Please document. " alt="" coords="1040,4272,1205,4301"/>
+<area shape="rect" id="node325" href="$classsimpledatagui_1_1SimpleDataGui.html" title="FIXME Please document. " alt="" coords="1025,4325,1220,4355"/>
+<area shape="rect" id="node327" href="$classspectrometergui_1_1SpectrometerGui.html" title="spectrometergui.SpectrometerGui" alt="" coords="1015,4379,1231,4408"/>
+<area shape="rect" id="node329" href="$classwavemeterloggui_1_1WavemeterLogGui.html" title="wavemeterloggui.Wavemeter\lLogGui" alt="" coords="1028,4431,1217,4478"/>
+<area shape="rect" id="node378" href="$classcore_1_1logger_1_1QtLogHandler.html" title="Log handler for displaying log records in a QT gui. " alt="" coords="424,5721,595,5751"/>
+<area shape="rect" id="node402" href="$classconfig__gui_1_1menu_1_1ModuleObject.html" title="This class represents a Qudi module. " alt="" coords="409,6255,609,6284"/>
+<area shape="rect" id="node404" href="$classconfocal__logic_1_1ConfocalHistoryEntry.html" title="This class contains all relevant parameters of a Confocal scan. " alt="" coords="408,6307,611,6354"/>
+<area shape="rect" id="node406" href="$classcore_1_1____main_____1_1AppWatchdog.html" title="This class periodically runs a function for debugging and handles application exit. " alt="" coords="413,6377,605,6407"/>
+<area shape="rect" id="node410" href="$classcore_1_1manager_1_1Manager.html" title="The Manager object is responsible for: " alt="" coords="432,6431,587,6460"/>
+<area shape="rect" id="node412" href="$classcore_1_1threadmanager_1_1ThreadItem.html" title="This class represents a QThread. " alt="" coords="407,5775,612,5804"/>
+<area shape="rect" id="node414" href="$classfit__logic_1_1FitContainer.html" title="A class for managing a single flexible fit setting in a logic module. " alt="" coords="439,5828,580,5857"/>
+<area shape="rect" id="node418" href="$classgeneric__task_1_1TaskResult.html" title="generic_task.TaskResult" alt="" coords="427,5881,592,5911"/>
+<area shape="rect" id="node420" href="$classhigh__finesse__wavemeter_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="385,5935,633,5964"/>
+<area shape="rect" id="node422" href="$classqzmqkernel_1_1QZMQHeartbeat.html" title="Echo Messages on a ZMQ stream. " alt="" coords="415,5988,604,6017"/>
+<area shape="rect" id="node424" href="$classqzmqkernel_1_1QZMQKernel.html" title="A Qt&#45;based embeddable kernel for Jupyter. " alt="" coords="425,6041,593,6071"/>
+<area shape="rect" id="node426" href="$classstream_1_1QZMQStream.html" title="Qt based ZMQ stream. " alt="" coords="436,6095,583,6124"/>
+<area shape="rect" id="node428" href="$classwavemeter__dummy_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="400,6148,619,6177"/>
+<area shape="rect" id="node430" href="$classwavemeter__logger__logic_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="388,6201,631,6231"/>
 </map>

@@ -8,8 +8,6 @@ var searchData=
   ['nipulser',['NIPulser',['../classni__pulser_1_1NIPulser.html',1,'ni_pulser']]],
   ['nm_5fto_5fghz',['nm_to_ghz',['../classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#a868d0131a8d7b50c108649ee955c6aee',1,'wavemeter_logger_logic::WavemeterLoggerLogic']]],
   ['nodestoconfig',['nodesToConfig',['../classconfig__gui_1_1____main_____1_1ConfigMainWindow.html#a2407867b08d7bc01f31d157b7d5b95ec',1,'config_gui::__main__::ConfigMainWindow']]],
-  ['notebookmainwindow',['NotebookMainWindow',['../classnotebookgui_1_1NotebookMainWindow.html',1,'notebookgui']]],
-  ['notebookwebview',['NotebookWebView',['../classnotebookgui_1_1NotebookWebView.html',1,'notebookgui']]],
   ['nuclearoperationsgui',['NuclearOperationsGui',['../classgui_1_1nuclear__operations_1_1nuclear__operations_1_1NuclearOperationsGui.html',1,'gui::nuclear_operations::nuclear_operations']]],
   ['nuclearoperationslogic',['NuclearOperationsLogic',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html',1,'nuclear_operations_logic']]],
   ['nuclearoperationsmainwindow',['NuclearOperationsMainWindow',['../classgui_1_1nuclear__operations_1_1nuclear__operations_1_1NuclearOperationsMainWindow.html',1,'gui::nuclear_operations::nuclear_operations']]],
