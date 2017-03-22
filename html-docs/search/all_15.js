@@ -88,5 +88,6 @@ var searchData=
   ['upload_5fensemble',['upload_ensemble',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#ad6e959be5a035242e07a675eb3ca3aa5',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['upload_5fsequence',['upload_sequence',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#adc82ea2df33cf61639b761161d40ac9d',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['uploaded_5fassets_5fupdated',['uploaded_assets_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#ab128bef53f09dc831994d138b0537086',1,'pulsed_master_logic::PulsedMasterLogic']]],
+  ['user_5fmove_5fdeactivates_5fpoi',['user_move_deactivates_poi',['../classpoi__manager__logic_1_1PoiManagerLogic.html#aae4062745b46a1bbf7046403b22b0b66',1,'poi_manager_logic::PoiManagerLogic']]],
   ['utf8_5fto_5fbyte',['utf8_to_byte',['../classsc__magnet_1_1magnet_1_1Magnet.html#ad3564c0884193bc9c177d59b92398874',1,'sc_magnet::magnet::Magnet']]]
 ];

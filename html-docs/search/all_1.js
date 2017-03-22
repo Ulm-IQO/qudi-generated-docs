@@ -14,7 +14,7 @@ var searchData=
   ['add_5fbuiltin',['add_builtin',['../classbuiltin__trap_1_1BuiltinTrap.html#a19f46ff8efb6447fd0e38d21ca3761c4',1,'builtin_trap::BuiltinTrap']]],
   ['add_5fmapping',['add_mapping',['../classcore_1_1mapper_1_1Mapper.html#a86898628cf04eeb6dc6d619c323491dd',1,'core::mapper::Mapper']]],
   ['add_5fpoi',['add_poi',['../classpoi__manager__logic_1_1PoiManagerLogic.html#aaa686af7547562f94d9d0df1c8a3b389',1,'poi_manager_logic::PoiManagerLogic']]],
-  ['add_5fposition_5fto_5ftrace',['add_position_to_trace',['../classpoi__manager__logic_1_1PoI.html#a030b2b7f43e8eb43516d15c3a490f451',1,'poi_manager_logic::PoI']]],
+  ['add_5fposition_5fto_5fhistory',['add_position_to_history',['../classpoi__manager__logic_1_1PoI.html#a7636a70abc869ca0a0154e70ef584e43',1,'poi_manager_logic::PoI']]],
   ['addentry',['addEntry',['../classgui_1_1manager_1_1logwidget_1_1LogWidget.html#ab4cb6a4719e60206f78b513776e1f2ff',1,'gui::manager::logwidget::LogWidget']]],
   ['addfit',['addFit',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#ad10edb27c35bb9678238bb95c385afb8',1,'gui::fitsettings::FitSettingsDialog']]],
   ['addfitbuttonclicked',['addFitButtonClicked',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a9ea035838613a820fb2b3a2368fbed80',1,'gui::fitsettings::FitSettingsDialog']]],
