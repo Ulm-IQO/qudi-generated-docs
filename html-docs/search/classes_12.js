@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['task',['Task',['../classtasks_1_1refocus_1_1Task.html',1,'tasks.refocus.Task'],['../classtasks_1_1dummy_1_1Task.html',1,'tasks.dummy.Task'],['../classtasks_1_1flipmirror_1_1Task.html',1,'tasks.flipmirror.Task'],['../classtasks_1_1prepostdummy_1_1Task.html',1,'tasks.prepostdummy.Task']]],
+  ['task',['Task',['../classtasks_1_1refocus_1_1Task.html',1,'tasks.refocus.Task'],['../classtasks_1_1prepostdummy_1_1Task.html',1,'tasks.prepostdummy.Task'],['../classtasks_1_1flipmirror_1_1Task.html',1,'tasks.flipmirror.Task'],['../classtasks_1_1dummy_1_1Task.html',1,'tasks.dummy.Task']]],
   ['taskgui',['TaskGui',['../classgui_1_1taskrunner_1_1taskgui_1_1TaskGui.html',1,'gui::taskrunner::taskgui']]],
   ['tasklisttablemodel',['TaskListTableModel',['../classtaskrunner_1_1TaskListTableModel.html',1,'taskrunner']]],
   ['taskmainwindow',['TaskMainWindow',['../classgui_1_1taskrunner_1_1taskgui_1_1TaskMainWindow.html',1,'gui::taskrunner::taskgui']]],
@@ -13,6 +13,7 @@ var searchData=
   ['threadwidget',['ThreadWidget',['../classgui_1_1manager_1_1threadwidget_1_1ThreadWidget.html',1,'gui::manager::threadwidget']]],
   ['timeaxisitem',['TimeAxisItem',['../classlaser_1_1TimeAxisItem.html',1,'laser']]],
   ['timetaggercounter',['TimeTaggerCounter',['../classtimetagger__counter_1_1TimeTaggerCounter.html',1,'timetagger_counter']]],
+  ['timetaggerfastcounter',['TimeTaggerFastCounter',['../classtimetagger__fast__counter_1_1TimeTaggerFastCounter.html',1,'timetagger_fast_counter']]],
   ['traceanalysislogic',['TraceAnalysisLogic',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html',1,'trace_analysis_logic']]],
   ['trayicon',['TrayIcon',['../classgui_1_1trayicon_1_1TrayIcon.html',1,'gui::trayicon']]],
   ['treeitem',['TreeItem',['../classautomation_1_1TreeItem.html',1,'automation']]],
