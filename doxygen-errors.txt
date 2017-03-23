@@ -42,6 +42,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:118: warning: Compound pulsed_maingui::GeneratorSettingsDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:61: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:45: warning: Compound spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:373: warning: Compound pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:418: warning: Compound pulse_streamer_pb2::PulseStreamerServicer is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:32: warning: Compound generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:33: warning: Compound pulse_extraction_logic::PulseExtractionLogic is not documented.
@@ -49,6 +51,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:40: warning: Compound awg::tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscangui.py:32: warning: Compound laserscangui::LaserScanWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:49: warning: Compound pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:9: warning: Compound pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_fastcounter/fast_counter_fpga_pi3.py:29: warning: Compound fast_counter_fpga_pi3::FastCounterFGAPiP3 is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:53: warning: Compound pulsed_maingui::PulsedMeasurementMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/checkbox_delegate.py:30: warning: Compound checkbox_delegate::CheckBoxDelegate is not documented.
@@ -90,6 +93,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:76: warning: Compound pulsed_maingui::PulseGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:126: warning: Compound slow_counter_interface::SlowCounterConstraints is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/switches/ok_fpga/ok_s6_switch.py:40: warning: Compound ok_s6_switch::HardwareSwitchFpga is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:54: warning: Compound pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:66: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/combobox_delegate.py:27: warning: Compound combobox_delegate::ComboBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
@@ -4595,6 +4599,109 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_objects.py:344: warning: The following parameters of pulse_objects.PulseSequence.replace_ensemble(self, position, ensemble_param) are not documented:
   parameter 'position'
   parameter 'ensemble_param'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:49: warning: Member __init__(self, config, kwargs) (function) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:105: warning: Member on_deactivate(self, e) (function) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:427: warning: Member get_active_channels(self, ch=None) (function) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:439: warning: Member set_active_channels(self, ch=None) (function) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:53: warning: Member pulsed_file_dir (variable) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:91: warning: Member host_waveform_directory (variable) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:93: warning: Member current_status (variable) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:94: warning: Member sample_rate (variable) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:95: warning: Member current_loaded_asset (variable) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:101: warning: Member pulse_streamer (variable) of class pulse_streamer::PulseStreamer is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:564: warning: argument 'string' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:565: warning: The following parameters of pulse_streamer.PulseStreamer.ask(self, question) are not documented:
+  parameter 'question'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:500: warning: argument 'str' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::delete_asset(self, asset_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:500: warning: The following parameters of pulse_streamer.PulseStreamer.delete_asset(self, asset_name) are not documented:
+  parameter 'asset_name'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:321: warning: argument 'list' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:321: warning: argument 'list' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:321: warning: The following parameters of pulse_streamer.PulseStreamer.get_analog_level(self, amplitude=None, offset=None) are not documented:
+  parameter 'amplitude'
+  parameter 'offset'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:375: warning: argument 'list' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:375: warning: argument 'list' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:375: warning: The following parameters of pulse_streamer.PulseStreamer.get_digital_level(self, low=None, high=None) are not documented:
+  parameter 'low'
+  parameter 'high'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:227: warning: argument 'str' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:227: warning: argument 'dict' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:227: warning: The following parameters of pulse_streamer.PulseStreamer.load_asset(self, asset_name, load_dict=None) are not documented:
+  parameter 'asset_name'
+  parameter 'load_dict'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:338: warning: argument 'dict' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:338: warning: argument 'dict' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:338: warning: The following parameters of pulse_streamer.PulseStreamer.set_analog_level(self, amplitude=None, offset=None) are not documented:
+  parameter 'amplitude'
+  parameter 'offset'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:512: warning: argument 'str' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:512: warning: The following parameters of pulse_streamer.PulseStreamer.set_asset_dir_on_device(self, dir_path) are not documented:
+  parameter 'dir_path'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:419: warning: argument 'dict' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:419: warning: argument 'dict' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:419: warning: The following parameters of pulse_streamer.PulseStreamer.set_digital_level(self, low=None, high=None) are not documented:
+  parameter 'low'
+  parameter 'high'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:547: warning: argument 'bool' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:547: warning: The following parameters of pulse_streamer.PulseStreamer.set_interleave(self, state=False) are not documented:
+  parameter 'state'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:303: warning: argument 'float' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:303: warning: The following parameters of pulse_streamer.PulseStreamer.set_sample_rate(self, sample_rate) are not documented:
+  parameter 'sample_rate'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:556: warning: argument 'string' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::tell(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:556: warning: The following parameters of pulse_streamer.PulseStreamer.tell(self, command) are not documented:
+  parameter 'command'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:204: warning: argument 'name' of command @param is not found in the argument list of pulse_streamer.PulseStreamer::upload_asset(self, asset_name=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer.py:205: warning: The following parameters of pulse_streamer.PulseStreamer.upload_asset(self, asset_name=None) are not documented:
+  parameter 'asset_name'
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:505: warning: Member constant(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:507: warning: Member stream(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:509: warning: Member startNow(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:511: warning: Member setTrigger(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:513: warning: Member isRunning(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:515: warning: Member hasSequence(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:517: warning: Member getUnderflow(self, request, context) (function) of class pulse_streamer_pb2::BetaPulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:527: warning: Member constant(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:530: warning: Member stream(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:533: warning: Member startNow(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:536: warning: Member setTrigger(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:539: warning: Member isRunning(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:542: warning: Member hasSequence(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:545: warning: Member getUnderflow(self, request, timeout, metadata=None, with_call=False, protocol_options=None) (function) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:529: warning: Member future (variable) of class pulse_streamer_pb2::BetaPulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:420: warning: Member constant(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:425: warning: Member stream(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:430: warning: Member startNow(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:435: warning: Member setTrigger(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:440: warning: Member isRunning(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:445: warning: Member hasSequence(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:450: warning: Member getUnderflow(self, request, context) (function) of class pulse_streamer_pb2::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:381: warning: Member constant (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:386: warning: Member stream (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:391: warning: Member startNow (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:396: warning: Member setTrigger (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:401: warning: Member isRunning (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:406: warning: Member hasSequence (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:411: warning: Member getUnderflow (variable) of class pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:56: warning: Member constant(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:61: warning: Member stream(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:66: warning: Member startNow(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:71: warning: Member setTrigger(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:76: warning: Member isRunning(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:81: warning: Member hasSequence(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:86: warning: Member getUnderflow(self, request, context) (function) of class pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:17: warning: Member constant (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:22: warning: Member stream (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:27: warning: Member startNow (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:32: warning: Member setTrigger (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:37: warning: Member isRunning (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:42: warning: Member hasSequence (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:47: warning: Member getUnderflow (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:79: warning: Member __init__(self, config, kwargs) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:160: warning: Member load_data_clicked(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:167: warning: Member load_data(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.

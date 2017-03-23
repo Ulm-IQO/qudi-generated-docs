@@ -2,6 +2,8 @@ var searchData=
 [
   ['base',['Base',['../classcore_1_1base_1_1Base.html',1,'core::base']]],
   ['beat',['beat',['../classqzmqkernel_1_1QZMQHeartbeat.html#a917f53fc8d4f65fede632a6bd72ebf79',1,'qzmqkernel::QZMQHeartbeat']]],
+  ['betapulsestreamerservicer',['BetaPulseStreamerServicer',['../classpulse__streamer__pb2_1_1BetaPulseStreamerServicer.html',1,'pulse_streamer_pb2']]],
+  ['betapulsestreamerstub',['BetaPulseStreamerStub',['../classpulse__streamer__pb2_1_1BetaPulseStreamerStub.html',1,'pulse_streamer_pb2']]],
   ['block_5fadd_5flast_5fclicked',['block_add_last_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a3a3d4642f295e19a324b6f6dd2bf54d6',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['block_5fadd_5fsel_5fclicked',['block_add_sel_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a7b4dea20bb92b1996fe49b61f6b62b71',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['block_5fclear_5fclicked',['block_clear_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#aced6ff5aba3f59d0600f1deb595c81c1',1,'pulsed_maingui::PulsedMeasurementGui']]],
