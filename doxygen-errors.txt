@@ -943,8 +943,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:374: warning: The following parameters of core.manager.Manager.readConfigFile(self, fileName, missingOk=True) are not documented:
   parameter 'fileName'
   parameter 'missingOk'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1281: warning: argument 'object' of command @param is not found in the argument list of core.manager.Manager::registerTaskRunner(self, reference)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1282: warning: The following parameters of core.manager.Manager.registerTaskRunner(self, reference) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1287: warning: argument 'object' of command @param is not found in the argument list of core.manager.Manager::registerTaskRunner(self, reference)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1288: warning: The following parameters of core.manager.Manager.registerTaskRunner(self, reference) are not documented:
   parameter 'reference'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:453: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:721: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::reloadConfigureModule(self, base, key)
@@ -2349,31 +2349,31 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:52: warning: Member kernellist (variable) of class kernellogic::QudiKernelLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:53: warning: Member modules (variable) of class kernellogic::QudiKernelLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:45: warning: Member sigStartKernel (variable) of class kernellogic::QudiKernelLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:46: warning: Member sigStopKernel (variable) of class kernellogic::QudiKernelLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:48: warning: argument 'dict' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::__init__(self, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:50: warning: The following parameters of kernellogic.QudiKernelLogic.__init__(self, kwargs) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:51: warning: Member kernellist (variable) of class kernellogic::QudiKernelLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:52: warning: Member modules (variable) of class kernellogic::QudiKernelLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:44: warning: Member sigStartKernel (variable) of class kernellogic::QudiKernelLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:45: warning: Member sigStopKernel (variable) of class kernellogic::QudiKernelLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:47: warning: argument 'dict' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::__init__(self, kwargs)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:49: warning: The following parameters of kernellogic.QudiKernelLogic.__init__(self, kwargs) are not documented:
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:120: warning: argument 'str' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::cleanupKernel(self, kernelid, external=None)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:120: warning: argument 'callable' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::cleanupKernel(self, kernelid, external=None)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:120: warning: The following parameters of kernellogic.QudiKernelLogic.cleanupKernel(self, kernelid, external=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:119: warning: argument 'str' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::cleanupKernel(self, kernelid, external=None)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:119: warning: argument 'callable' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::cleanupKernel(self, kernelid, external=None)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:119: warning: The following parameters of kernellogic.QudiKernelLogic.cleanupKernel(self, kernelid, external=None) are not documented:
   parameter 'kernelid'
   parameter 'external'
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:59: warning: argument 'object' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::on_activate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:59: warning: The following parameters of kernellogic.QudiKernelLogic.on_activate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:58: warning: argument 'object' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::on_activate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:58: warning: The following parameters of kernellogic.QudiKernelLogic.on_activate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:74: warning: argument 'object' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::on_deactivate(self, e)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:74: warning: The following parameters of kernellogic.QudiKernelLogic.on_deactivate(self, e) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:68: warning: argument 'object' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::on_deactivate(self, e)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:68: warning: The following parameters of kernellogic.QudiKernelLogic.on_deactivate(self, e) are not documented:
   parameter 'e'
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:85: warning: argument 'dict' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::startKernel(self, config, external=None)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:85: warning: argument 'callable' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::startKernel(self, config, external=None)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:86: warning: The following parameters of kernellogic.QudiKernelLogic.startKernel(self, config, external=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:84: warning: argument 'dict' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::startKernel(self, config, external=None)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:84: warning: argument 'callable' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::startKernel(self, config, external=None)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:85: warning: The following parameters of kernellogic.QudiKernelLogic.startKernel(self, config, external=None) are not documented:
   parameter 'config'
   parameter 'external'
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:108: warning: argument 'str' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::stopKernel(self, kernelid)
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:109: warning: The following parameters of kernellogic.QudiKernelLogic.stopKernel(self, kernelid) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:107: warning: argument 'str' of command @param is not found in the argument list of kernellogic.QudiKernelLogic::stopKernel(self, kernelid)
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:108: warning: The following parameters of kernellogic.QudiKernelLogic.stopKernel(self, kernelid) are not documented:
   parameter 'kernelid'
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:87: warning: Member __init__(self, config, kwargs) (function) of class laser::LaserGUI is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/guibase.py:38: warning: Member show(self) (function) of class gui::guibase::GUIBase is not documented.
@@ -5248,59 +5248,59 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/tools/qudikernel.py:73: warning: Member poller (variable) of class qudikernel::Qudi is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:74: warning: Member __init__(self, stream) (function) of class qzmqkernel::QZMQHeartbeat is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:76: warning: Member stream (variable) of class qzmqkernel::QZMQHeartbeat is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:110: warning: Member __init__(self, config=None) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:147: warning: Member connect_kernel(self) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:185: warning: Member init_exec_env(self) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:198: warning: Member shutdown(self) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:236: warning: Member send(self, stream, msg_type, content=None, parent_header=None, metadata=None, identities=None) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:266: warning: Member display_data(self, mimetype, fmt_dict, metadata=None) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:282: warning: Member shell_handler(self, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:303: warning: Member shell_execute(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:402: warning: Member shell_kernel_info(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:431: warning: Member shell_history(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:434: warning: Member shell_complete(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:483: warning: Member control_handler(self, wire_msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:495: warning: Member iopub_handler(self, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:501: warning: Member stdin_handler(self, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:506: warning: Member bind(self, socket, connection, port) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:873: warning: Member get_exception_only(self, exc_tuple=None) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:901: warning: Member showsyntaxerror(self, filename=None) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:904: warning: Member showindentationerror(self) (function) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:112: warning: Member DELIM (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:114: warning: Member user_global_ns (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:115: warning: Member user_ns (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:117: warning: Member exiting (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:118: warning: Member engine_id (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:121: warning: Member config (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:136: warning: Member hb_thread (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:138: warning: Member connection (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:139: warning: Member secure_key (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:140: warning: Member signature_schemes (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:141: warning: Member auth (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:149: warning: Member ctx (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:150: warning: Member heartbeat_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:152: warning: Member heartbeat_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:155: warning: Member iopub_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:157: warning: Member iopub_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:160: warning: Member control_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:162: warning: Member control_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:165: warning: Member stdin_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:167: warning: Member stdin_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:170: warning: Member shell_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:172: warning: Member shell_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:178: warning: Member heartbeat_handler (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:186: warning: Member execution_count (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:187: warning: Member ast_node_interactivity (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:188: warning: Member compile (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:189: warning: Member events (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:190: warning: Member ast_transformers (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:191: warning: Member displaydata (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:192: warning: Member displayhook (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:193: warning: Member display_trap (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:194: warning: Member builtin_trap (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:786: warning: Member sys_excepthook (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:96: warning: Member sigShutdownFinished (variable) of class qzmqkernel::QZMQKernel is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:98: warning: Member supported_mime (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:112: warning: Member __init__(self, config=None) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:149: warning: Member connect_kernel(self) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:186: warning: Member init_exec_env(self) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:199: warning: Member shutdown(self) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:239: warning: Member send(self, stream, msg_type, content=None, parent_header=None, metadata=None, identities=None) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:269: warning: Member display_data(self, mimetype, fmt_dict, metadata=None) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:285: warning: Member shell_handler(self, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:306: warning: Member shell_execute(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:405: warning: Member shell_kernel_info(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:434: warning: Member shell_history(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:437: warning: Member shell_complete(self, identities, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:486: warning: Member control_handler(self, wire_msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:498: warning: Member iopub_handler(self, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:504: warning: Member stdin_handler(self, msg) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:509: warning: Member bind(self, socket, connection, port) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:876: warning: Member get_exception_only(self, exc_tuple=None) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:904: warning: Member showsyntaxerror(self, filename=None) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:907: warning: Member showindentationerror(self) (function) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:114: warning: Member DELIM (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:116: warning: Member user_global_ns (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:117: warning: Member user_ns (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:119: warning: Member exiting (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:120: warning: Member engine_id (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:123: warning: Member config (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:138: warning: Member hb_thread (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:140: warning: Member connection (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:141: warning: Member secure_key (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:142: warning: Member signature_schemes (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:143: warning: Member auth (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:151: warning: Member ctx (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:152: warning: Member heartbeat_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:154: warning: Member heartbeat_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:157: warning: Member iopub_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:159: warning: Member iopub_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:162: warning: Member control_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:164: warning: Member control_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:167: warning: Member stdin_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:169: warning: Member stdin_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:172: warning: Member shell_socket (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:174: warning: Member shell_stream (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:179: warning: Member heartbeat_handler (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:187: warning: Member execution_count (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:188: warning: Member ast_node_interactivity (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:189: warning: Member compile (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:190: warning: Member events (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:191: warning: Member ast_transformers (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:192: warning: Member displaydata (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:193: warning: Member displayhook (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:194: warning: Member display_trap (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:195: warning: Member builtin_trap (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:789: warning: Member sys_excepthook (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:98: warning: Member sigShutdownFinished (variable) of class qzmqkernel::QZMQKernel is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:100: warning: Member supported_mime (variable) of class qzmqkernel::QZMQKernel is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/redirect.py:16: warning: Member __init__(self, new_target) (function) of class redirect::_RedirectStream is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/redirect.py:21: warning: Member __enter__(self) (function) of class redirect::_RedirectStream is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/redirect.py:26: warning: Member __exit__(self, exctype, excinst, exctb) (function) of class redirect::_RedirectStream is not documented.
