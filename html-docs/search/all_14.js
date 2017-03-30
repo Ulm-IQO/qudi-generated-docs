@@ -3,7 +3,7 @@ var searchData=
   ['the_20gnu_20general_20public_20license',['The GNU General Public License',['../gpl.html',1,'']]],
   ['the_20mit_20license',['The MIT License',['../mitlicense.html',1,'']]],
   ['target_5ffield_5fsetpoint',['target_field_setpoint',['../classsc__magnet_1_1magnet_1_1Magnet.html#aa3affba2e32a5410fc8afdda6900a856',1,'sc_magnet::magnet::Magnet']]],
-  ['task',['Task',['../classtasks_1_1refocus_1_1Task.html',1,'tasks.refocus.Task'],['../classtasks_1_1prepostdummy_1_1Task.html',1,'tasks.prepostdummy.Task'],['../classtasks_1_1dummy_1_1Task.html',1,'tasks.dummy.Task'],['../classtasks_1_1flipmirror_1_1Task.html',1,'tasks.flipmirror.Task']]],
+  ['task',['Task',['../classtasks_1_1prepostdummy_1_1Task.html',1,'tasks.prepostdummy.Task'],['../classtasks_1_1dummy_1_1Task.html',1,'tasks.dummy.Task'],['../classtasks_1_1refocus_1_1Task.html',1,'tasks.refocus.Task'],['../classtasks_1_1flipmirror_1_1Task.html',1,'tasks.flipmirror.Task']]],
   ['taskgui',['TaskGui',['../classgui_1_1taskrunner_1_1taskgui_1_1TaskGui.html',1,'gui::taskrunner::taskgui']]],
   ['tasklisttablemodel',['TaskListTableModel',['../classtaskrunner_1_1TaskListTableModel.html',1,'taskrunner']]],
   ['taskmainwindow',['TaskMainWindow',['../classgui_1_1taskrunner_1_1taskgui_1_1TaskMainWindow.html',1,'gui::taskrunner::taskgui']]],

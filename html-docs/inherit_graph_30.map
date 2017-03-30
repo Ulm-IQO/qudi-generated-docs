@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classgui_1_1fitsettings_1_1FitSettingsComboBox.html" title="A QComboBox for use with FitContainer. " alt="" coords="153,5,319,51"/>
+<area shape="rect" id="node3" href="$classgui_1_1fitsettings_1_1FitConfigWidget.html" title="A widget that contains a fit function combobox, an estimator combobox and a remove button..." alt="" coords="176,5,333,51"/>
+<area shape="rect" id="node5" href="$classgui_1_1fitsettings_1_1FitParametersWidget.html" title="A widget that manages the parameters for a fit. " alt="" coords="161,74,348,121"/>
+<area shape="rect" id="node7" href="$classgui_1_1manager_1_1logwidget_1_1LogWidget.html" title="A widget to show log entries and filter them. " alt="" coords="167,143,343,190"/>
+<area shape="rect" id="node9" href="$classgui_1_1switcher_1_1switchgui_1_1SwitchWidget.html" title="A widget that shows all data associated to a switch. " alt="" coords="157,213,352,259"/>
+<area shape="rect" id="node11" href="$classpulsed__maingui_1_1PredefinedMethodsTab.html" title="pulsed_maingui.Predefined\lMethodsTab" alt="" coords="165,282,344,329"/>
+<area shape="rect" id="node13" href="$classpulsed__maingui_1_1PulseAnalysisTab.html" title="pulsed_maingui.PulseAnalysisTab" alt="" coords="144,352,365,381"/>
+<area shape="rect" id="node15" href="$classpulsed__maingui_1_1PulseExtractionTab.html" title="pulsed_maingui.PulseExtractionTab" alt="" coords="140,405,369,435"/>
+<area shape="rect" id="node17" href="$classpulsed__maingui_1_1PulseGeneratorTab.html" title="pulsed_maingui.PulseGeneratorTab" alt="" coords="141,459,368,488"/>
+<area shape="rect" id="node19" href="$classpulsed__maingui_1_1SequenceGeneratorTab.html" title="pulsed_maingui.SequenceGeneratorTab" alt="" coords="128,512,381,541"/>
 </map>

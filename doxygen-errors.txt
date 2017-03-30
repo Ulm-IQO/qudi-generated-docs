@@ -72,6 +72,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:148: warning: Compound magnet_gui::MagnetSettingsWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/wavemeter_dummy.py:74: warning: Compound wavemeter_dummy::WavemeterDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:26: warning: Compound gui::manager::threadwidget::ThreadWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:12: warning: Compound config_gui::port::QudiPortType is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:442: warning: Compound pulse_editors::BlockOrganizer is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:26: warning: Compound pid_controller_interface::PIDControllerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:105: warning: Compound fastcomtec::fastcomtecmcs6::AcqSettings is not documented.
@@ -492,52 +493,60 @@ IndexError: list index out of range
   parameter 'index'
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/compilerop.py:74: warning: Member __init__(self) (function) of class compilerop::CachingCompiler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/compilerop.py:107: warning: Member flags (variable) of class compilerop::CachingCompiler is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:70: warning: Member setupUi(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:91: warning: Member findModules(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:107: warning: Member addModule(self, module, name=None, pos=(0, 0)) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:140: warning: Member openConfigFile(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:151: warning: Member loadConfigFile(self, filename) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:157: warning: Member newConfigFile(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:162: warning: Member saveConfigFile(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:169: warning: Member saveConfigFileAs(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:182: warning: Member updateWindowTitle(self, filename, extra='') (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:185: warning: Member getModuleInfo(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:189: warning: Member configToNodes(self, config) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:275: warning: Member nodeAdded(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:278: warning: Member nodeRemoved(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:281: warning: Member nodeNameChanged(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:53: warning: Member log (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:59: warning: Member mods (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:60: warning: Member globalsection (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:61: warning: Member currentFile (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:81: warning: Member mmroot (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:94: warning: Member m (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:159: warning: Member configFileName (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:50: warning: Member modules (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:52: warning: Member hwmenu (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:53: warning: Member logicmenu (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:54: warning: Member guimenu (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:59: warning: Member hwmenuitems (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:64: warning: Member logicmenuitems (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:69: warning: Member guimenuitems (variable) of class config_gui::menu::ModMenu is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:47: warning: argument 'dict' of command @param is not found in the argument list of config_gui.menu.ModMenu::__init__(self, m)
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:47: warning: The following parameters of config_gui.menu.ModMenu.__init__(self, m) are not documented:
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:79: warning: Member setupUi(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:100: warning: Member findModules(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:158: warning: Member openConfigFile(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:169: warning: Member loadConfigFile(self, filename) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:175: warning: Member newConfigFile(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:180: warning: Member saveConfigFile(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:187: warning: Member saveConfigFileAs(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:200: warning: Member updateWindowTitle(self, filename, extra='') (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:203: warning: Member getModuleInfo(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:207: warning: Member configToNodes(self, config) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:292: warning: Member nodeAdded(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:295: warning: Member nodeRemoved(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:298: warning: Member nodeNameChanged(self) (function) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:54: warning: Member log (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:60: warning: Member mods (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:61: warning: Member globalsection (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:62: warning: Member currentFile (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:65: warning: Member colors (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:90: warning: Member mmroot (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:103: warning: Member m (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:177: warning: Member configFileName (variable) of class config_gui::__main__::ConfigMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:59: warning: Member modules (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:61: warning: Member hwmenu (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:62: warning: Member logicmenu (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:63: warning: Member guimenu (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:68: warning: Member hwmenuitems (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:73: warning: Member logicmenuitems (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:78: warning: Member guimenuitems (variable) of class config_gui::menu::ModMenu is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:56: warning: argument 'dict' of command @param is not found in the argument list of config_gui.menu.ModMenu::__init__(self, m)
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:56: warning: The following parameters of config_gui.menu.ModMenu.__init__(self, m) are not documented:
   parameter 'm'
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:90: warning: argument 'dict' of command @param is not found in the argument list of config_gui.menu.ModMenu::build_submenu(self, mlist, modpath, moddef)
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:90: warning: argument 'str' of command @param is not found in the argument list of config_gui.menu.ModMenu::build_submenu(self, mlist, modpath, moddef)
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:90: warning: argument 'dict' of command @param is not found in the argument list of config_gui.menu.ModMenu::build_submenu(self, mlist, modpath, moddef)
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:90: warning: The following parameters of config_gui.menu.ModMenu.build_submenu(self, mlist, modpath, moddef) are not documented:
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:99: warning: argument 'dict' of command @param is not found in the argument list of config_gui.menu.ModMenu::build_submenu(self, mlist, modpath, moddef)
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:99: warning: argument 'str' of command @param is not found in the argument list of config_gui.menu.ModMenu::build_submenu(self, mlist, modpath, moddef)
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:99: warning: argument 'dict' of command @param is not found in the argument list of config_gui.menu.ModMenu::build_submenu(self, mlist, modpath, moddef)
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:99: warning: The following parameters of config_gui.menu.ModMenu.build_submenu(self, mlist, modpath, moddef) are not documented:
   parameter 'mlist'
   parameter 'modpath'
   parameter 'moddef'
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:125: warning: Found unknown command `\prarm'
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:114: warning: argument 'str' of command @param is not found in the argument list of config_gui.menu.ModMenu::hasModule(self, modpath)
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:116: warning: The following parameters of config_gui.menu.ModMenu.hasModule(self, modpath) are not documented:
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:134: warning: Found unknown command `\prarm'
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:123: warning: argument 'str' of command @param is not found in the argument list of config_gui.menu.ModMenu::hasModule(self, modpath)
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:125: warning: The following parameters of config_gui.menu.ModMenu.hasModule(self, modpath) are not documented:
   parameter 'modpath'
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:29: warning: Member __init__(self, path, conn) (function) of class config_gui::menu::ModuleObject is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:29: warning: Member __init__(self, path, moddef) (function) of class config_gui::menu::ModuleObject is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:31: warning: Member path (variable) of class config_gui::menu::ModuleObject is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:32: warning: Member conn (variable) of class config_gui::menu::ModuleObject is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:33: warning: Member base (variable) of class config_gui::menu::ModuleObject is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:40: warning: Member conn (variable) of class config_gui::menu::ModuleObject is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:41: warning: Member ifaces (variable) of class config_gui::menu::ModuleObject is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:27: warning: Member sigAddModule (variable) of class config_gui::menu::ModuleObject is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:14: warning: Member __init__(self, direction, base, interfaces) (function) of class config_gui::port::QudiPortType is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:19: warning: Member __eq__(self, other) (function) of class config_gui::port::QudiPortType is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:33: warning: Member __ne__(self, other) (function) of class config_gui::port::QudiPortType is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:15: warning: Member dir (variable) of class config_gui::port::QudiPortType is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:16: warning: Member base (variable) of class config_gui::port::QudiPortType is not documented.
+/home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:17: warning: Member interfaces (variable) of class config_gui::port::QudiPortType is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:52: warning: Member xy_line_pos (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:53: warning: Member depth_line_pos (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/confocal_logic.py:56: warning: Member x_range (variable) of class confocal_logic::ConfocalHistoryEntry is not documented.
