@@ -4189,10 +4189,10 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:153: warning: argument 'float' of command @param is not found in the argument list of pi_pwm.PiPWM::setControlValue(self, value)
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:153: warning: The following parameters of pi_pwm.PiPWM.setControlValue(self, value) are not documented:
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:183: warning: Member __init__(self, manager, name, config=None, kwargs) (function) of class pi_pwm::PiPWMHalf is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:183: warning: Member __init__(self, kwargs) (function) of class pi_pwm::PiPWMHalf is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:43: warning: Member __init__(self, kwargs) (function) of class pi_pwm::PiPWM is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:189: warning: Member threadlock (variable) of class pi_pwm::PiPWMHalf is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:186: warning: Member threadlock (variable) of class pi_pwm::PiPWMHalf is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:47: warning: Member threadlock (variable) of class pi_pwm::PiPWM is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:64: warning: Member inapin (variable) of class pi_pwm::PiPWM is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/pi_pwm.py:65: warning: Member inbpin (variable) of class pi_pwm::PiPWM is not documented.
