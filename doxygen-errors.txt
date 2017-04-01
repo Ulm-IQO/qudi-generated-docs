@@ -1715,11 +1715,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:201: warning: Member sigStartOptimizer (variable) of class gui::confocal::confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2042: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_end_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2042: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_end_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2045: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_end_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2045: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_end_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2025: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_start_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2025: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_start_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2028: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::depth_scan_start_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2028: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.depth_scan_start_zoom_point(self, event) are not documented:
   parameter 'event'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:256: warning: argument 'object' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::initMainUI(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:256: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.initMainUI(self, e=None) are not documented:
@@ -1782,11 +1782,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1460: warning: argument 'float' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::update_slider_z(self, z_pos)
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1460: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.update_slider_z(self, z_pos) are not documented:
   parameter 'z_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1954: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_end_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1954: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_end_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1957: warning: argument 'QEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_end_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1957: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_end_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1937: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_start_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1937: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_start_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1940: warning: argument 'QMouseEvent' of command @param is not found in the argument list of gui.confocal.confocalgui.ConfocalGui::xy_scan_start_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1940: warning: The following parameters of gui.confocal.confocalgui.ConfocalGui.xy_scan_start_zoom_point(self, event) are not documented:
   parameter 'event'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:137: warning: Member __init__(self) (function) of class gui::confocal::confocalgui::ConfocalMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:135: warning: Member sigPressKeyBoard (variable) of class gui::confocal::confocalgui::ConfocalMainWindow is not documented.
@@ -4114,10 +4114,13 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:176: warning: Member optim_pos_x (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:177: warning: Member optim_pos_y (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:178: warning: Member optim_pos_z (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:192: warning: Member use_custom_params (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:349: warning: Member xy_refocus_image (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:374: warning: Member z_refocus_line (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:377: warning: Member z_fit_data (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:179: warning: Member optim_sigma_x (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:180: warning: Member optim_sigma_y (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:181: warning: Member optim_sigma_z (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:195: warning: Member use_custom_params (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:355: warning: Member xy_refocus_image (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:380: warning: Member z_refocus_line (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:383: warning: Member z_fit_data (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:76: warning: Member sigImageUpdated (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:77: warning: Member sigRefocusStarted (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:78: warning: Member sigRefocusXySizeChanged (variable) of class optimizer_logic::OptimizerLogic is not documented.
@@ -4125,32 +4128,32 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:80: warning: Member sigRefocusFinished (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:81: warning: Member sigClockFrequencyChanged (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:82: warning: Member sigPositionChanged (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:252: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_clock_frequency(self, clock_frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:254: warning: The following parameters of optimizer_logic.OptimizerLogic.set_clock_frequency(self, clock_frequency) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:255: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_clock_frequency(self, clock_frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:257: warning: The following parameters of optimizer_logic.OptimizerLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:736: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:736: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:736: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:736: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:736: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:736: warning: The following parameters of optimizer_logic.OptimizerLogic.set_position(self, tag, x=None, y=None, z=None, a=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:751: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:751: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:751: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:751: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:751: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:751: warning: The following parameters of optimizer_logic.OptimizerLogic.set_position(self, tag, x=None, y=None, z=None, a=None) are not documented:
   parameter 'tag'
   parameter 'x'
   parameter 'y'
   parameter 'z'
   parameter 'a'
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:265: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_refocus_XY_size(self, size)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:267: warning: The following parameters of optimizer_logic.OptimizerLogic.set_refocus_XY_size(self, size) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:268: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_refocus_XY_size(self, size)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:270: warning: The following parameters of optimizer_logic.OptimizerLogic.set_refocus_XY_size(self, size) are not documented:
   parameter 'size'
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:273: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_refocus_Z_size(self, size)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:275: warning: The following parameters of optimizer_logic.OptimizerLogic.set_refocus_Z_size(self, size) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:276: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_refocus_Z_size(self, size)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:278: warning: The following parameters of optimizer_logic.OptimizerLogic.set_refocus_Z_size(self, size) are not documented:
   parameter 'size'
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:283: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:283: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:283: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:283: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:283: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:285: warning: The following parameters of optimizer_logic.OptimizerLogic.start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:286: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:286: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:286: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:286: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:286: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:288: warning: The following parameters of optimizer_logic.OptimizerLogic.start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic') are not documented:
   parameter 'initial_pos'
   parameter 'caller_tag'
   parameter 'tag'
