@@ -12,7 +12,7 @@ var searchData=
   ['blockeditor',['BlockEditor',['../classpulse__editors_1_1BlockEditor.html',1,'pulse_editors']]],
   ['blockorganizer',['BlockOrganizer',['../classpulse__editors_1_1BlockOrganizer.html',1,'pulse_editors']]],
   ['boundingrect',['boundingRect',['../classgui_1_1guiutils_1_1ColorBar.html#a7a538fdd94d4f2f0279b33e399fa198f',1,'gui::guiutils::ColorBar']]],
-  ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#a3b7a6313e5229161949b2e3ed2913c58',1,'config_gui::menu::ModMenu']]],
+  ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#aab2fb9b95229f5f6f0d083156f55072b',1,'config_gui::menu::ModMenu']]],
   ['buildcurrentfits',['buildCurrentFits',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a7785382ceb0d3e518d9ecf55cb2cadcf',1,'gui::fitsettings::FitSettingsDialog']]],
   ['buildfeaturelist',['buildFeatureList',['../classlightfield__spectrometer_1_1Lightfield.html#a7a4a6ffd80d79371b70bd399487574df',1,'lightfield_spectrometer::Lightfield']]],
   ['builtintrap',['BuiltinTrap',['../classbuiltin__trap_1_1BuiltinTrap.html',1,'builtin_trap']]],

@@ -14,7 +14,7 @@ var searchData=
   ['addentry',['addEntry',['../classgui_1_1manager_1_1logwidget_1_1LogWidget.html#ab4cb6a4719e60206f78b513776e1f2ff',1,'gui::manager::logwidget::LogWidget']]],
   ['addfit',['addFit',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#ad10edb27c35bb9678238bb95c385afb8',1,'gui::fitsettings::FitSettingsDialog']]],
   ['addfitbuttonclicked',['addFitButtonClicked',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a9ea035838613a820fb2b3a2368fbed80',1,'gui::fitsettings::FitSettingsDialog']]],
-  ['addmodule',['addModule',['../classconfig__gui_1_1____main_____1_1ConfigMainWindow.html#adb3d6abd38258ccd72109135cef97b3e',1,'config_gui.__main__.ConfigMainWindow.addModule()'],['../classconfig__gui_1_1menu_1_1ModuleObject.html#a8651dd8be29319d796c7266b1d7546e7',1,'config_gui.menu.ModuleObject.addModule()']]],
+  ['addmodule',['addModule',['../classconfig__gui_1_1____main_____1_1ConfigMainWindow.html#adb3d6abd38258ccd72109135cef97b3e',1,'config_gui.__main__.ConfigMainWindow.addModule()'],['../classconfig__gui_1_1listmods_1_1Module.html#a338eec8fb9b2dc678ab72f6efd61429d',1,'config_gui.listmods.Module.addModule()']]],
   ['addrow',['addRow',['../classgui_1_1manager_1_1logwidget_1_1LogModel.html#aee48a3d0fd3eed2f3d17c4519cf3ab93',1,'gui::manager::logwidget::LogModel']]],
   ['addrows',['addRows',['../classgui_1_1manager_1_1logwidget_1_1LogModel.html#a499dc1a116bab4dd97ab418d0078cdaf',1,'gui::manager::logwidget::LogModel']]],
   ['adjust',['adjust',['../classgui_1_1confocal_1_1confocalgui_1_1CrossLine.html#abb9d4eb134fd655234019bedd301c0eb',1,'gui.confocal.confocalgui.CrossLine.adjust()'],['../classmagnet__gui_1_1CrossLine.html#a16879e3b0fcfd86960e5cd60b5c0d603',1,'magnet_gui.CrossLine.adjust()']]],
