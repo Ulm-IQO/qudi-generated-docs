@@ -94,12 +94,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d84a776fbc2c45a754e996ceaf8fa65"><td class="memItemLeft" align="right" valign="top"><a id="a7d84a776fbc2c45a754e996ceaf8fa65"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, config, kwargs)</td></tr>
 <tr class="separator:a7d84a776fbc2c45a754e996ceaf8fa65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17c0a827c482daccd52374c6eadb9a1c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a17c0a827c482daccd52374c6eadb9a1c">on_activate</a> (self, e)</td></tr>
-<tr class="memdesc:a17c0a827c482daccd52374c6eadb9a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation performed during activation of the module.  <a href="#a17c0a827c482daccd52374c6eadb9a1c">More...</a><br /></td></tr>
-<tr class="separator:a17c0a827c482daccd52374c6eadb9a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2a4ae042d70dd6b681728877cc5fe00"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#ad2a4ae042d70dd6b681728877cc5fe00">on_deactivate</a> (self, e)</td></tr>
-<tr class="memdesc:ad2a4ae042d70dd6b681728877cc5fe00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module.  <a href="#ad2a4ae042d70dd6b681728877cc5fe00">More...</a><br /></td></tr>
-<tr class="separator:ad2a4ae042d70dd6b681728877cc5fe00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c96d0a6b88d5ada1d95e7e84c09de78"><td class="memItemLeft" align="right" valign="top"><a id="a7c96d0a6b88d5ada1d95e7e84c09de78"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a7c96d0a6b88d5ada1d95e7e84c09de78">on_activate</a> (self)</td></tr>
+<tr class="memdesc:a7c96d0a6b88d5ada1d95e7e84c09de78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation performed during activation of the module. <br /></td></tr>
+<tr class="separator:a7c96d0a6b88d5ada1d95e7e84c09de78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496e649afe87a48a907b1265aa9f66f4"><td class="memItemLeft" align="right" valign="top"><a id="a496e649afe87a48a907b1265aa9f66f4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a496e649afe87a48a907b1265aa9f66f4">on_deactivate</a> (self)</td></tr>
+<tr class="memdesc:a496e649afe87a48a907b1265aa9f66f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module. <br /></td></tr>
+<tr class="separator:a496e649afe87a48a907b1265aa9f66f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50fcb43f868bf2bfa20939b32d8c86ea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a50fcb43f868bf2bfa20939b32d8c86ea">set_clock_frequency</a> (self, clock_frequency)</td></tr>
 <tr class="memdesc:a50fcb43f868bf2bfa20939b32d8c86ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the frequency of the clock.  <a href="#a50fcb43f868bf2bfa20939b32d8c86ea">More...</a><br /></td></tr>
 <tr class="separator:a50fcb43f868bf2bfa20939b32d8c86ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,78 +446,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Switching on the MW source. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="a17c0a827c482daccd52374c6eadb9a1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c0a827c482daccd52374c6eadb9a1c">&#9670;&nbsp;</a></span>on_activate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def odmr_logic.ODMRLogic.on_activate </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialisation performed during activation of the module. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Event class object from Fysom. An object created by the state machine module Fysom, which is connected to a specific event (have a look in the Base Class). This object contains the passed event, the state before the event happened and the destination of the state which should be reached after the event had happened. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ad2a4ae042d70dd6b681728877cc5fe00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2a4ae042d70dd6b681728877cc5fe00">&#9670;&nbsp;</a></span>on_deactivate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def odmr_logic.ODMRLogic.on_deactivate </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deinitialisation performed during deactivation of the module. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Event class object from Fysom. A more detailed explanation can be found in method activation. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

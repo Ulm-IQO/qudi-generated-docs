@@ -93,12 +93,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adecdbd8e822fa7a278d15dc5aa39a5c6"><td class="memItemLeft" align="right" valign="top"><a id="adecdbd8e822fa7a278d15dc5aa39a5c6"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, config, kwargs)</td></tr>
 <tr class="separator:adecdbd8e822fa7a278d15dc5aa39a5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb78f148bb71647c1920915544527c4d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__analysis__logic_1_1PulseAnalysisLogic.html#abb78f148bb71647c1920915544527c4d">on_activate</a> (self, e)</td></tr>
-<tr class="memdesc:abb78f148bb71647c1920915544527c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation performed during activation of the module.  <a href="#abb78f148bb71647c1920915544527c4d">More...</a><br /></td></tr>
-<tr class="separator:abb78f148bb71647c1920915544527c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9d6707999d96c9c3d3961326b83a82"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__analysis__logic_1_1PulseAnalysisLogic.html#aab9d6707999d96c9c3d3961326b83a82">on_deactivate</a> (self, e)</td></tr>
-<tr class="memdesc:aab9d6707999d96c9c3d3961326b83a82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module.  <a href="#aab9d6707999d96c9c3d3961326b83a82">More...</a><br /></td></tr>
-<tr class="separator:aab9d6707999d96c9c3d3961326b83a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce3f0c401d93659e71ac8b85472abd2"><td class="memItemLeft" align="right" valign="top"><a id="a7ce3f0c401d93659e71ac8b85472abd2"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__analysis__logic_1_1PulseAnalysisLogic.html#a7ce3f0c401d93659e71ac8b85472abd2">on_activate</a> (self)</td></tr>
+<tr class="memdesc:a7ce3f0c401d93659e71ac8b85472abd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation performed during activation of the module. <br /></td></tr>
+<tr class="separator:a7ce3f0c401d93659e71ac8b85472abd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc26c41dd1ad9199bc1b62ac51af70a5"><td class="memItemLeft" align="right" valign="top"><a id="acc26c41dd1ad9199bc1b62ac51af70a5"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__analysis__logic_1_1PulseAnalysisLogic.html#acc26c41dd1ad9199bc1b62ac51af70a5">on_deactivate</a> (self)</td></tr>
+<tr class="memdesc:acc26c41dd1ad9199bc1b62ac51af70a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module. <br /></td></tr>
+<tr class="separator:acc26c41dd1ad9199bc1b62ac51af70a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7b47ba7fdb44bc8cad250b02565a0ff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__analysis__logic_1_1PulseAnalysisLogic.html#af7b47ba7fdb44bc8cad250b02565a0ff">analyze_data</a> (self, laser_data)</td></tr>
 <tr class="memdesc:af7b47ba7fdb44bc8cad250b02565a0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analysis the laser pulses and computes the measuring error given by photon shot noise.  <a href="#af7b47ba7fdb44bc8cad250b02565a0ff">More...</a><br /></td></tr>
 <tr class="separator:af7b47ba7fdb44bc8cad250b02565a0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,78 +165,6 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>: float array signal_data: Array with the computed signal </dd>
 <dd>
 : float array measuring_error: Array with the computed signal error </dd></dl>
-
-</div>
-</div>
-<a id="abb78f148bb71647c1920915544527c4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb78f148bb71647c1920915544527c4d">&#9670;&nbsp;</a></span>on_activate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulse_analysis_logic.PulseAnalysisLogic.on_activate </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialisation performed during activation of the module. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Event class object from Fysom. An object created by the state machine module Fysom, which is connected to a specific event (have a look in the Base Class). This object contains the passed event, the state before the event happened and the destination of the state which should be reached after the event had happened. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aab9d6707999d96c9c3d3961326b83a82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab9d6707999d96c9c3d3961326b83a82">&#9670;&nbsp;</a></span>on_deactivate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulse_analysis_logic.PulseAnalysisLogic.on_deactivate </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deinitialisation performed during deactivation of the module. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Event class object from Fysom. A more detailed explanation can be found in method activation. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
