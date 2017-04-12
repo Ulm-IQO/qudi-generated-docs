@@ -10,5 +10,5 @@ var searchData=
   ['okfpgattlswitch',['OkFpgaTtlSwitch',['../classok__fpga__switch_1_1OkFpgaTtlSwitch.html',1,'ok_fpga_switch']]],
   ['oldconfigfileerror',['OldConfigFileError',['../classconfocal__logic_1_1OldConfigFileError.html',1,'confocal_logic']]],
   ['optimizerlogic',['OptimizerLogic',['../classoptimizer__logic_1_1OptimizerLogic.html',1,'optimizer_logic']]],
-  ['optimizersettingdialog',['OptimizerSettingDialog',['../classgui_1_1confocal_1_1confocalgui_1_1OptimizerSettingDialog.html',1,'gui::confocal::confocalgui']]]
+  ['optimizersettingdialog',['OptimizerSettingDialog',['../classconfocalgui_1_1OptimizerSettingDialog.html',1,'confocalgui']]]
 ];

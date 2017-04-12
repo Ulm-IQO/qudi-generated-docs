@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classgui_1_1guiutils_1_1ColorBar.html" title="Create a ColorBar according to a previously defined color map. " alt="" coords="165,5,304,35"/>
+<area shape="rect" id="node3" href="$classfastcomtecmcs6_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="133,5,320,35"/>
+<area shape="rect" id="node5" href="$classfastcomtecmcs6_1_1AcqSettings.html" title="fastcomtecmcs6.AcqSettings" alt="" coords="129,59,324,88"/>
+<area shape="rect" id="node7" href="$classfastcomtecmcs6_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="135,112,319,141"/>
+<area shape="rect" id="node9" href="$classfastcomtecp7887_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="132,165,321,195"/>
+<area shape="rect" id="node11" href="$classfastcomtecp7887_1_1AcqSettings.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="128,219,325,248"/>
+<area shape="rect" id="node13" href="$classfastcomtecp7887_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="133,272,320,301"/>
 </map>

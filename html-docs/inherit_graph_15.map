@@ -1,7 +1,14 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classcore_1_1threadmanager_1_1ThreadManager.html" title="This class keeps track of all the QThreads that are needed somewhere. " alt="" coords="203,5,384,51"/>
-<area shape="rect" id="node5" href="$classcore_1_1util_1_1models_1_1DictTableModel.html" title="Qt model storing a tabel in dictionaries. " alt="" coords="207,74,380,121"/>
-<area shape="rect" id="node7" href="$classcore_1_1util_1_1models_1_1ListTableModel.html" title="Qt model storing a table in lists. " alt="" coords="208,143,379,190"/>
-<area shape="rect" id="node11" href="$classgui_1_1manager_1_1logwidget_1_1LogModel.html" title="This is a Qt model that represents the log for dislpay in a QTableView. " alt="" coords="205,213,381,259"/>
-<area shape="rect" id="node9" href="$classtaskrunner_1_1TaskListTableModel.html" title="An extension of the ListTableModel for keeping a task list in a TaskRunner. " alt="" coords="433,143,601,190"/>
+<area shape="rect" id="node3" href="$classconfocalgui_1_1ConfocalSettingDialog.html" title="Create the SettingsDialog window, based on the corresponding *.ui file. " alt="" coords="135,5,319,51"/>
+<area shape="rect" id="node5" href="$classconfocalgui_1_1OptimizerSettingDialog.html" title="User configurable settings for the optimizer embedded in cofocal gui. " alt="" coords="132,74,321,121"/>
+<area shape="rect" id="node7" href="$classerrordialog_1_1ErrorDialog.html" title="This class provides a popup window for notification with the option to show the next error popup in t..." alt="" coords="152,144,301,173"/>
+<area shape="rect" id="node9" href="$classfitsettings_1_1FitSettingsDialog.html" title="A dialog that is used to configure the fits in a FitContainer. " alt="" coords="136,197,317,227"/>
+<area shape="rect" id="node11" href="$classmagnet__gui_1_1MagnetSettingsWindow.html" title="magnet_gui.MagnetSettings\lWindow" alt="" coords="135,250,319,297"/>
+<area shape="rect" id="node13" href="$classmanagergui_1_1AboutDialog.html" title="This class represents the Qudi About dialog. " alt="" coords="145,320,308,349"/>
+<area shape="rect" id="node15" href="$classmanagergui_1_1ConsoleSettingsDialog.html" title="Create the SettingsDialog window, based on the corresponding *.ui file. " alt="" coords="132,373,321,419"/>
+<area shape="rect" id="node17" href="$classodmrgui_1_1ODMRSettingDialog.html" title="The settings dialog for ODMR measurements. " alt="" coords="132,443,321,472"/>
+<area shape="rect" id="node19" href="$classpoimangui_1_1ReorientRoiDialog.html" title="poimangui.ReorientRoiDialog" alt="" coords="132,496,321,525"/>
+<area shape="rect" id="node21" href="$classpulsed__maingui_1_1AnalysisSettingDialog.html" title="pulsed_maingui.AnalysisSetting\lDialog" alt="" coords="124,549,329,595"/>
+<area shape="rect" id="node23" href="$classpulsed__maingui_1_1GeneratorSettingsDialog.html" title="pulsed_maingui.Generator\lSettingsDialog" alt="" coords="140,618,313,665"/>
+<area shape="rect" id="node25" href="$classpulsed__maingui_1_1PredefinedMethodsConfigDialog.html" title="pulsed_maingui.Predefined\lMethodsConfigDialog" alt="" coords="137,687,316,734"/>
 </map>

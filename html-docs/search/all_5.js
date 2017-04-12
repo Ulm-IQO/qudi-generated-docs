@@ -5,9 +5,9 @@ var searchData=
   ['elapsed_5ftime_5fupdated',['elapsed_time_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#abd1f4b81f3a287d0b5819b7dac82b032',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['emit',['emit',['../classcore_1_1logger_1_1QtLogHandler.html#aca5e6adb42e2cf6ef99229cea993a295',1,'core::logger::QtLogHandler']]],
   ['enable_5foutput',['enable_output',['../classCTC100__temperature_1_1CTC100.html#a94335e7779a63da80af5d276b6200afa',1,'CTC100_temperature::CTC100']]],
-  ['enable_5fscan_5factions',['enable_scan_actions',['../classgui_1_1confocal_1_1confocalgui_1_1ConfocalGui.html#abb66de10cc2c7b4ed24999aa43fff96c',1,'gui::confocal::confocalgui::ConfocalGui']]],
-  ['errordialog',['ErrorDialog',['../classgui_1_1manager_1_1errordialog_1_1ErrorDialog.html',1,'gui::manager::errordialog']]],
-  ['estimatorchanged',['estimatorChanged',['../classgui_1_1fitsettings_1_1FitConfigWidget.html#a9a347014c1798d0a23945a0987469369',1,'gui::fitsettings::FitConfigWidget']]],
+  ['enable_5fscan_5factions',['enable_scan_actions',['../classconfocalgui_1_1ConfocalGui.html#a2f1bd41b8d068f40baba37c62be8c6c8',1,'confocalgui::ConfocalGui']]],
+  ['errordialog',['ErrorDialog',['../classerrordialog_1_1ErrorDialog.html',1,'errordialog']]],
+  ['estimatorchanged',['estimatorChanged',['../classfitsettings_1_1FitConfigWidget.html#aea6d3b31103df3c122eac4069782e1e4',1,'fitsettings::FitConfigWidget']]],
   ['eventmanager',['EventManager',['../classevents_1_1EventManager.html',1,'events']]],
   ['excepthook',['excepthook',['../classqzmqkernel_1_1QZMQKernel.html#ac34e0359c8416423a7079a10423759b5',1,'qzmqkernel::QZMQKernel']]],
   ['executionresult',['ExecutionResult',['../classhelpers_1_1ExecutionResult.html',1,'helpers']]],
@@ -21,5 +21,6 @@ var searchData=
   ['extract_5flaser_5fpulses',['extract_laser_pulses',['../classpulse__extraction__logic_1_1PulseExtractionLogic.html#a4f37e67e70b82c1fd3d67cc6544b6bf5',1,'pulse_extraction_logic::PulseExtractionLogic']]],
   ['extraction_5fmethods_5fupdated',['extraction_methods_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#adf66a11d8adef787d5da94e36eeee3d8',1,'pulsed_maingui.PulsedMeasurementGui.extraction_methods_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#aab77a069ba134f18b46ebf7563ab9503',1,'pulsed_master_logic.PulsedMasterLogic.extraction_methods_updated()']]],
   ['extraction_5fsettings_5fchanged',['extraction_settings_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a469c5b37b040de6256e99096e01c0f76',1,'pulsed_maingui.PulsedMeasurementGui.extraction_settings_changed()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a6cf77bb17a82c66bf5ff02e197b151c5',1,'pulsed_master_logic.PulsedMasterLogic.extraction_settings_changed()'],['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a34876b993101efcca7849d4053f82dc1',1,'pulsed_measurement_logic.PulsedMeasurementLogic.extraction_settings_changed()']]],
-  ['extraction_5fsettings_5fupdated',['extraction_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#aff25dd2e42386361798fc4298e36e3f5',1,'pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a809f49bbf3eee2661074fda6f70481ca',1,'pulsed_master_logic.PulsedMasterLogic.extraction_settings_updated()']]]
+  ['extraction_5fsettings_5fupdated',['extraction_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#aff25dd2e42386361798fc4298e36e3f5',1,'pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a809f49bbf3eee2661074fda6f70481ca',1,'pulsed_master_logic.PulsedMasterLogic.extraction_settings_updated()']]],
+  ['extensions',['Extensions',['../md_documentation_extensions.html',1,'']]]
 ];

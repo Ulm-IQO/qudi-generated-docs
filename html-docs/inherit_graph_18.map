@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classcore_1_1util_1_1mutex_1_1Mutex.html" title="Extends QMutex (which serves as access serialization between threads). " alt="" coords="124,13,271,43"/>
-<area shape="rect" id="node5" href="$classcore_1_1util_1_1mutex_1_1RecursiveMutex.html" title="Mutex that can be taken recursively. " alt="" coords="320,5,491,51"/>
+<area shape="rect" id="node3" href="$classcore_1_1garbage__collector_1_1GarbageCollector.html" title="core.garbage_collector.Garbage\lCollector" alt="" coords="127,5,332,51"/>
+<area shape="rect" id="node5" href="$classcore_1_1gui_1_1Gui.html" title="Set up all necessary GUI elements, like application icons, themes, etc. " alt="" coords="184,75,275,104"/>
+<area shape="rect" id="node7" href="$classcore_1_1remote_1_1RemoteObjectManager.html" title="This shares modules with other computers and is resonsible for obtaining modules shared by other comp..." alt="" coords="140,127,319,174"/>
+<area shape="rect" id="node9" href="$classcore_1_1remote_1_1RPyCServer.html" title="Contains a RPyC server that serves modules to remote computers. " alt="" coords="145,197,313,227"/>
 </map>

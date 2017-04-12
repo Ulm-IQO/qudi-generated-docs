@@ -1,14 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classgui_1_1confocal_1_1confocalgui_1_1ConfocalSettingDialog.html" title="Create the SettingsDialog window, based on the corresponding *.ui file. " alt="" coords="148,5,313,51"/>
-<area shape="rect" id="node5" href="$classgui_1_1confocal_1_1confocalgui_1_1OptimizerSettingDialog.html" title="User configurable settings for the optimizer embedded in cofocal gui. " alt="" coords="148,74,313,121"/>
-<area shape="rect" id="node7" href="$classgui_1_1fitsettings_1_1FitSettingsDialog.html" title="A dialog that is used to configure the fits in a FitContainer. " alt="" coords="148,143,313,190"/>
-<area shape="rect" id="node9" href="$classgui_1_1manager_1_1errordialog_1_1ErrorDialog.html" title="This class provides a popup window for notification with the option to show the next error popup in t..." alt="" coords="151,213,311,259"/>
-<area shape="rect" id="node11" href="$classgui_1_1manager_1_1managergui_1_1AboutDialog.html" title="This class represents the Qudi About dialog. " alt="" coords="129,282,332,329"/>
-<area shape="rect" id="node13" href="$classgui_1_1manager_1_1managergui_1_1ConsoleSettingsDialog.html" title="Create the SettingsDialog window, based on the corresponding *.ui file. " alt="" coords="123,351,339,398"/>
-<area shape="rect" id="node15" href="$classgui_1_1poimanager_1_1poimangui_1_1ReorientRoiDialog.html" title="gui.poimanager.poimangui.\lReorientRoiDialog" alt="" coords="143,421,319,467"/>
-<area shape="rect" id="node17" href="$classmagnet__gui_1_1MagnetSettingsWindow.html" title="magnet_gui.MagnetSettings\lWindow" alt="" coords="139,490,323,537"/>
-<area shape="rect" id="node19" href="$classodmrgui_1_1ODMRSettingDialog.html" title="The settings dialog for ODMR measurements. " alt="" coords="136,560,325,589"/>
-<area shape="rect" id="node21" href="$classpulsed__maingui_1_1AnalysisSettingDialog.html" title="pulsed_maingui.AnalysisSetting\lDialog" alt="" coords="128,613,333,659"/>
-<area shape="rect" id="node23" href="$classpulsed__maingui_1_1GeneratorSettingsDialog.html" title="pulsed_maingui.Generator\lSettingsDialog" alt="" coords="144,682,317,729"/>
-<area shape="rect" id="node25" href="$classpulsed__maingui_1_1PredefinedMethodsConfigDialog.html" title="pulsed_maingui.Predefined\lMethodsConfigDialog" alt="" coords="141,751,320,798"/>
+<area shape="rect" id="node3" href="$classcore_1_1util_1_1mutex_1_1Mutex.html" title="Extends QMutex (which serves as access serialization between threads). " alt="" coords="124,13,271,43"/>
+<area shape="rect" id="node5" href="$classcore_1_1util_1_1mutex_1_1RecursiveMutex.html" title="Mutex that can be taken recursively. " alt="" coords="320,5,491,51"/>
 </map>

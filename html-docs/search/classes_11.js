@@ -18,7 +18,7 @@ var searchData=
   ['simpledatainterface',['SimpleDataInterface',['../classsimple__data__interface_1_1SimpleDataInterface.html',1,'simple_data_interface']]],
   ['simpledatalogic',['SimpleDataLogic',['../classsimple__data__logic_1_1SimpleDataLogic.html',1,'simple_data_logic']]],
   ['simpledummy',['SimpleDummy',['../classsimple__data__dummy_1_1SimpleDummy.html',1,'simple_data_dummy']]],
-  ['simplelaserdummy',['SimpleLaserDummy',['../classlaser_1_1simple__laser__dummy_1_1SimpleLaserDummy.html',1,'laser::simple_laser_dummy']]],
+  ['simplelaserdummy',['SimpleLaserDummy',['../classsimple__laser__dummy_1_1SimpleLaserDummy.html',1,'simple_laser_dummy']]],
   ['simplelaserinterface',['SimpleLaserInterface',['../classsimple__laser__interface_1_1SimpleLaserInterface.html',1,'simple_laser_interface']]],
   ['simplemainwindow',['SimpleMainWindow',['../classsimpledatagui_1_1SimpleMainWindow.html',1,'simpledatagui']]],
   ['singleshotlogic',['SingleShotLogic',['../classsingleshot__logic_1_1SingleShotLogic.html',1,'singleshot_logic']]],
@@ -36,10 +36,10 @@ var searchData=
   ['spinbox',['SpinBox',['../classSpinBox_1_1SpinBox.html',1,'SpinBox']]],
   ['spinboxdelegate',['SpinBoxDelegate',['../classspinbox__delegate_1_1SpinBoxDelegate.html',1,'spinbox_delegate']]],
   ['switchdummy',['SwitchDummy',['../classswitch__dummy_1_1SwitchDummy.html',1,'switch_dummy']]],
-  ['switchgui',['SwitchGui',['../classgui_1_1switcher_1_1switchgui_1_1SwitchGui.html',1,'gui::switcher::switchgui']]],
+  ['switchgui',['SwitchGui',['../classswitchgui_1_1SwitchGui.html',1,'switchgui']]],
   ['switchinterface',['SwitchInterface',['../classswitch__interface_1_1SwitchInterface.html',1,'switch_interface']]],
   ['switchlogic',['SwitchLogic',['../classswitch__logic_1_1SwitchLogic.html',1,'switch_logic']]],
-  ['switchmainwindow',['SwitchMainWindow',['../classgui_1_1switcher_1_1switchgui_1_1SwitchMainWindow.html',1,'gui::switcher::switchgui']]],
-  ['switchwidget',['SwitchWidget',['../classgui_1_1switcher_1_1switchgui_1_1SwitchWidget.html',1,'gui::switcher::switchgui']]],
-  ['systemtrayicon',['SystemTrayIcon',['../classgui_1_1trayicon_1_1SystemTrayIcon.html',1,'gui::trayicon']]]
+  ['switchmainwindow',['SwitchMainWindow',['../classswitchgui_1_1SwitchMainWindow.html',1,'switchgui']]],
+  ['switchwidget',['SwitchWidget',['../classswitchgui_1_1SwitchWidget.html',1,'switchgui']]],
+  ['systemtrayicon',['SystemTrayIcon',['../classtrayicon_1_1SystemTrayIcon.html',1,'trayicon']]]
 ];

@@ -11,11 +11,11 @@ var searchData=
   ['block_5fdel_5fsel_5fclicked',['block_del_sel_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a2761158d787710aa5a8e3c6ab4136d29',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['blockeditor',['BlockEditor',['../classpulse__editors_1_1BlockEditor.html',1,'pulse_editors']]],
   ['blockorganizer',['BlockOrganizer',['../classpulse__editors_1_1BlockOrganizer.html',1,'pulse_editors']]],
-  ['boundingrect',['boundingRect',['../classgui_1_1guiutils_1_1ColorBar.html#a7a538fdd94d4f2f0279b33e399fa198f',1,'gui::guiutils::ColorBar']]],
+  ['boundingrect',['boundingRect',['../classguiutils_1_1ColorBar.html#a3dc43e81479655cf384dcdb8c4fe1374',1,'guiutils::ColorBar']]],
   ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#aab2fb9b95229f5f6f0d083156f55072b',1,'config_gui::menu::ModMenu']]],
-  ['buildcurrentfits',['buildCurrentFits',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a7785382ceb0d3e518d9ecf55cb2cadcf',1,'gui::fitsettings::FitSettingsDialog']]],
+  ['buildcurrentfits',['buildCurrentFits',['../classfitsettings_1_1FitSettingsDialog.html#a6c16ab5bf577aa6385c100979b9afe92',1,'fitsettings::FitSettingsDialog']]],
   ['buildfeaturelist',['buildFeatureList',['../classlightfield__spectrometer_1_1Lightfield.html#a7a4a6ffd80d79371b70bd399487574df',1,'lightfield_spectrometer::Lightfield']]],
   ['builtintrap',['BuiltinTrap',['../classbuiltin__trap_1_1BuiltinTrap.html',1,'builtin_trap']]],
-  ['buttonclicked',['buttonClicked',['../classgui_1_1fitsettings_1_1FitSettingsDialog.html#a8c185b1fe2de4ad1306648bda458a385',1,'gui::fitsettings::FitSettingsDialog']]],
-  ['byte_5fto_5futf8',['byte_to_utf8',['../classsc__magnet_1_1magnet_1_1Magnet.html#a06c929ecfa16f5204dfab7b186a465f8',1,'sc_magnet::magnet::Magnet']]]
+  ['buttonclicked',['buttonClicked',['../classfitsettings_1_1FitSettingsDialog.html#a1505dc2f68676bd5944170bba0ac6173',1,'fitsettings::FitSettingsDialog']]],
+  ['byte_5fto_5futf8',['byte_to_utf8',['../classmagnet_1_1Magnet.html#a1255f0d778d2fd7b7ff34bf4ced5950d',1,'magnet::Magnet']]]
 ];
