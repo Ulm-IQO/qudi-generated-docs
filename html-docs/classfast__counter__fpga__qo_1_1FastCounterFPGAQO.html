@@ -189,12 +189,18 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__getattr__</b> (self,
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:aa550c5b4ff968d56183c37129dbdef7c"><td class="memItemLeft" align="right" valign="top"><a id="aa550c5b4ff968d56183c37129dbdef7c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>threadlock</b></td></tr>
+<tr class="separator:aa550c5b4ff968d56183c37129dbdef7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab987035c23c1c745b36f14f950c144c6"><td class="memItemLeft" align="right" valign="top"><a id="ab987035c23c1c745b36f14f950c144c6"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>statusvar</b></td></tr>
 <tr class="separator:ab987035c23c1c745b36f14f950c144c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78756ddc4c46c44e370e42e92d199c8c"><td class="memItemLeft" align="right" valign="top"><a id="a78756ddc4c46c44e370e42e92d199c8c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>count_data</b></td></tr>
 <tr class="separator:a78756ddc4c46c44e370e42e92d199c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91fbf19870713f9e4f9b23aff34a91c"><td class="memItemLeft" align="right" valign="top"><a id="aa91fbf19870713f9e4f9b23aff34a91c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>saved_count_data</b></td></tr>
+<tr class="separator:aa91fbf19870713f9e4f9b23aff34a91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classcore_1_1base_1_1Base"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classcore_1_1base_1_1Base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classcore_1_1base_1_1Base.html">core.base.Base</a></td></tr>
 <tr class="memitem:a8a2fec500456bc9887d1875f8fe44d15 inherit pub_attribs_classcore_1_1base_1_1Base"><td class="memItemLeft" align="right" valign="top"><a id="a8a2fec500456bc9887d1875f8fe44d15"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connectors</b></td></tr>
@@ -360,7 +366,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Polls the current timetrace data from the fast counter. </p>
-<dl class="section return"><dt>Returns</dt><dd>numpy.array: 2 dimensional array of dtype = int64. This counter is gated the the return array has the following shape: returnarray[gate_index, timebin_index]</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>numpy.array: 2 dimensional numpy ndarray. This counter is gated. The return array has the following shape: returnarray[gate_index, timebin_index]</dd></dl>
 <p>The binning, specified by calling <a class="el" href="classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html#a287e1e1952c520ccacf787ea61e7b616" title="Configuration of the fast counter. ">configure()</a> in forehand, must be taken care of in this hardware class. A possible overflow of the histogram bins must be caught here and taken care of. </p>
 
 </div>
