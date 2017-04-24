@@ -762,17 +762,17 @@ IndexError: list index out of range
   parameter 'update'
   parameter 'finish'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:169: warning: Member __init__(self) (function) of class confocalgui::OptimizerSettingDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:147: warning: Member __init__(self) (function) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:149: warning: Member alreadyQuit (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:150: warning: Member hasGui (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:151: warning: Member exitcode (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:154: warning: Member timer (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:172: warning: Member parent_handle (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:173: warning: Member interrupt (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:176: warning: Member poller (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:145: warning: Member sigDoQuit (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:198: warning: argument 'object' of command @param is not found in the argument list of core.__main__.AppWatchdog::quitApplication(self, manager, restart=False)
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:198: warning: The following parameters of core.__main__.AppWatchdog.quitApplication(self, manager, restart=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:155: warning: Member __init__(self) (function) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:157: warning: Member alreadyQuit (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:158: warning: Member hasGui (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:159: warning: Member exitcode (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:162: warning: Member timer (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:180: warning: Member parent_handle (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:181: warning: Member interrupt (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:184: warning: Member poller (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:153: warning: Member sigDoQuit (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:206: warning: argument 'object' of command @param is not found in the argument list of core.__main__.AppWatchdog::quitApplication(self, manager, restart=False)
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:206: warning: The following parameters of core.__main__.AppWatchdog.quitApplication(self, manager, restart=False) are not documented:
   parameter 'manager'
   parameter 'restart'
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
