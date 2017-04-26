@@ -79,6 +79,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, bl
 <tr class="memitem:aadc389dcfcb9e7f4fded34a9770c5922"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#aadc389dcfcb9e7f4fded34a9770c5922">initialize_cells</a> (self, start_row, stop_row=None, start_col=None, stop_col=None)</td></tr>
 <tr class="memdesc:aadc389dcfcb9e7f4fded34a9770c5922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the desired cells in the block editor table.  <a href="#aadc389dcfcb9e7f4fded34a9770c5922">More...</a><br /></td></tr>
 <tr class="separator:aadc389dcfcb9e7f4fded34a9770c5922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add969a450f97b0c966975f282cc93944"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#add969a450f97b0c966975f282cc93944">set_displayed_analog_amplitude</a> (self, ampl_dict)</td></tr>
+<tr class="memdesc:add969a450f97b0c966975f282cc93944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the maximal amplitudes of the current pulse block editor.  <a href="#add969a450f97b0c966975f282cc93944">More...</a><br /></td></tr>
+<tr class="separator:add969a450f97b0c966975f282cc93944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd5a97271b0133f0e3a58128381b275"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#a0bd5a97271b0133f0e3a58128381b275">set_activation_config</a> (self, activation_config)</td></tr>
 <tr class="separator:a0bd5a97271b0133f0e3a58128381b275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f92d8db785a2b6efe9fd8f09cc53ab"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#aa0f92d8db785a2b6efe9fd8f09cc53ab">set_function_config</a> (self, function_config)</td></tr>
@@ -100,6 +103,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a3fc65307b0f4162cbb51b230aa5a3ed4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#a3fc65307b0f4162cbb51b230aa5a3ed4">get_element</a> (self, row, column)</td></tr>
 <tr class="memdesc:a3fc65307b0f4162cbb51b230aa5a3ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplified wrapper function to get the data from a specific cell in the table.  <a href="#a3fc65307b0f4162cbb51b230aa5a3ed4">More...</a><br /></td></tr>
 <tr class="separator:a3fc65307b0f4162cbb51b230aa5a3ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ae938047db7f89d41ddcf1d3e9fbfa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#ad5ae938047db7f89d41ddcf1d3e9fbfa">get_column_delegate</a> (self, column)</td></tr>
+<tr class="memdesc:ad5ae938047db7f89d41ddcf1d3e9fbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the delegate object, which is responsible for the specific column.  <a href="#ad5ae938047db7f89d41ddcf1d3e9fbfa">More...</a><br /></td></tr>
+<tr class="separator:ad5ae938047db7f89d41ddcf1d3e9fbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabfcfe5679ec222e66818bc0cc4ae520"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#aabfcfe5679ec222e66818bc0cc4ae520">load_pulse_block</a> (self, block)</td></tr>
 <tr class="separator:aabfcfe5679ec222e66818bc0cc4ae520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea6e0c3188f3ad71ddda0ea4a2eb8046"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__editors_1_1BlockEditor.html#aea6e0c3188f3ad71ddda0ea4a2eb8046">generate_block_object</a> (self, pb_name)</td></tr>
@@ -175,6 +181,43 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ad5ae938047db7f89d41ddcf1d3e9fbfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ae938047db7f89d41ddcf1d3e9fbfa">&#9670;&nbsp;</a></span>get_column_delegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulse_editors.BlockEditor.get_column_delegate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>column</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the delegate object, which is responsible for the specific column. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>column: column index</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: QDelegate </dd></dl>
 
 </div>
 </div>
@@ -348,6 +391,43 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+
+</div>
+</div>
+<a id="add969a450f97b0c966975f282cc93944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add969a450f97b0c966975f282cc93944">&#9670;&nbsp;</a></span>set_displayed_analog_amplitude()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulse_editors.BlockEditor.set_displayed_analog_amplitude </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ampl_dict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the maximal amplitudes of the current pulse block editor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dict</td><td>ampl_dict: </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: list, with integers representing the column indices which have changed </dd></dl>
 
 </div>
 </div>

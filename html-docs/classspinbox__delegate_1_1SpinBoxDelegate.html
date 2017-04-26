@@ -93,7 +93,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f5ea6dac8de1a730294661a68b4ef3c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspinbox__delegate_1_1SpinBoxDelegate.html#a8f5ea6dac8de1a730294661a68b4ef3c">__init__</a> (self, parent, item_dict)</td></tr>
 <tr class="separator:a8f5ea6dac8de1a730294661a68b4ef3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e007bd8b87448fa213bcf1cc42b624"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspinbox__delegate_1_1SpinBoxDelegate.html#a38e007bd8b87448fa213bcf1cc42b624">get_unit_prefix</a> (self)</td></tr>
-<tr class="memdesc:a38e007bd8b87448fa213bcf1cc42b624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the unit prefix of that view element to determine the magnitude.  <a href="#a38e007bd8b87448fa213bcf1cc42b624">More...</a><br /></td></tr>
+<tr class="memdesc:a38e007bd8b87448fa213bcf1cc42b624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the static unit prefix of that view element to determine the magnitude.  <a href="#a38e007bd8b87448fa213bcf1cc42b624">More...</a><br /></td></tr>
 <tr class="separator:a38e007bd8b87448fa213bcf1cc42b624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59fe6f4d78a78f1d47c9fc09691fcd8f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspinbox__delegate_1_1SpinBoxDelegate.html#a59fe6f4d78a78f1d47c9fc09691fcd8f">get_initial_value</a> (self)</td></tr>
 <tr class="memdesc:a59fe6f4d78a78f1d47c9fc09691fcd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells you which object to insert in the model.setData function.  <a href="#a59fe6f4d78a78f1d47c9fc09691fcd8f">More...</a><br /></td></tr>
@@ -171,7 +171,7 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">QWidget</td><td>parent: the parent QWidget which hosts this child widget </td></tr>
-    <tr><td class="paramname">dict</td><td>item_dict: A list with predefined properties for the used editor. In this class the items must look like: [default_val, min_val, max_val] </td></tr>
+    <tr><td class="paramname">dict</td><td>item_dict: dict with the following keys which give informations about the current viewbox: 'unit', 'init_val', 'min', 'max', 'view_stepsize', 'dec', 'unit_prefix' </td></tr>
   </table>
   </dd>
 </dl>
@@ -268,8 +268,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Return the unit prefix of that view element to determine the magnitude. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: unit prefic </dd></dl>
+<p>Return the static unit prefix of that view element to determine the magnitude. </p>
+<dl class="section return"><dt>Returns</dt><dd>str: unit prefix </dd></dl>
 
 </div>
 </div>

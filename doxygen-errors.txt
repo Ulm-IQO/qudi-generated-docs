@@ -50,7 +50,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:33: warning: Compound pulse_extraction_logic::PulseExtractionLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscangui.py:32: warning: Compound laserscangui::LaserScanWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:49: warning: Compound pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:51: warning: Compound pulse_editors::BlockEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:9: warning: Compound pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_fastcounter/fast_counter_fpga_pi3.py:29: warning: Compound fast_counter_fpga_pi3::FastCounterFGAPiP3 is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:53: warning: Compound pulsed_maingui::PulsedMeasurementMainWindow is not documented.
@@ -75,11 +75,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:172: warning: Compound poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:192: warning: Compound poimangui::PoiManagerMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:12: warning: Compound config_gui::port::QudiPortType is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:442: warning: Compound pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:499: warning: Compound pulse_editors::BlockOrganizer is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:26: warning: Compound pid_controller_interface::PIDControllerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:106: warning: Compound pulsed_maingui::AnalysisSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:96: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:687: warning: Compound pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:744: warning: Compound pulse_editors::SequenceEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laserquantum_laser::LaserQuantumLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:120: warning: Compound slow_counter_interface::CountingMode is not documented.
@@ -677,66 +677,66 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:421: warning: Member hline_depth (variable) of class confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:426: warning: Member vline_depth (variable) of class confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:452: warning: Member slider_res (variable) of class confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:688: warning: Member xy_cb (variable) of class confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:689: warning: Member depth_cb (variable) of class confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:702: warning: Member xy_cb (variable) of class confocalgui::ConfocalGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:703: warning: Member depth_cb (variable) of class confocalgui::ConfocalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:201: warning: Member sigStartOptimizer (variable) of class confocalgui::ConfocalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2025: warning: argument 'QEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::depth_scan_end_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2025: warning: The following parameters of confocalgui.ConfocalGui.depth_scan_end_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2039: warning: argument 'QEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::depth_scan_end_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2039: warning: The following parameters of confocalgui.ConfocalGui.depth_scan_end_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2008: warning: argument 'QMouseEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::depth_scan_start_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2008: warning: The following parameters of confocalgui.ConfocalGui.depth_scan_start_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2022: warning: argument 'QMouseEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::depth_scan_start_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:2022: warning: The following parameters of confocalgui.ConfocalGui.depth_scan_start_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:775: warning: argument 'object' of command @param is not found in the argument list of confocalgui.ConfocalGui::keyPressEvent(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:775: warning: The following parameters of confocalgui.ConfocalGui.keyPressEvent(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:789: warning: argument 'object' of command @param is not found in the argument list of confocalgui.ConfocalGui::keyPressEvent(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:789: warning: The following parameters of confocalgui.ConfocalGui.keyPressEvent(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1113: warning: argument 'str' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_crosshair_position_from_logic(self, tag)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1113: warning: The following parameters of confocalgui.ConfocalGui.update_crosshair_position_from_logic(self, tag) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1127: warning: argument 'str' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_crosshair_position_from_logic(self, tag)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1127: warning: The following parameters of confocalgui.ConfocalGui.update_crosshair_position_from_logic(self, tag) are not documented:
   parameter 'tag'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1318: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1318: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1318: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1318: warning: The following parameters of confocalgui.ConfocalGui.update_from_key(self, x=None, y=None, z=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1332: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1332: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1332: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_from_key(self, x=None, y=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1332: warning: The following parameters of confocalgui.ConfocalGui.update_from_key(self, x=None, y=None, z=None) are not documented:
   parameter 'x'
   parameter 'y'
   parameter 'z'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1287: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1258: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1392: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1404: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1415: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1368: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_input_x(self, x_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1368: warning: The following parameters of confocalgui.ConfocalGui.update_input_x(self, x_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1301: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1272: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1406: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1418: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1429: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1382: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_input_x(self, x_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1382: warning: The following parameters of confocalgui.ConfocalGui.update_input_x(self, x_pos) are not documented:
   parameter 'x_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1376: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_input_y(self, y_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1376: warning: The following parameters of confocalgui.ConfocalGui.update_input_y(self, y_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1390: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_input_y(self, y_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1390: warning: The following parameters of confocalgui.ConfocalGui.update_input_y(self, y_pos) are not documented:
   parameter 'y_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1384: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_input_z(self, z_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1384: warning: The following parameters of confocalgui.ConfocalGui.update_input_z(self, z_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1398: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_input_z(self, z_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1398: warning: The following parameters of confocalgui.ConfocalGui.update_input_z(self, z_pos) are not documented:
   parameter 'z_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1245: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1245: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1245: warning: The following parameters of confocalgui.ConfocalGui.update_roi_depth(self, x=None, z=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1259: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1259: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_depth(self, x=None, z=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1259: warning: The following parameters of confocalgui.ConfocalGui.update_roi_depth(self, x=None, z=None) are not documented:
   parameter 'x'
   parameter 'z'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1197: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1197: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1197: warning: The following parameters of confocalgui.ConfocalGui.update_roi_xy(self, x=None, y=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1211: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1211: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_roi_xy(self, x=None, y=None)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1211: warning: The following parameters of confocalgui.ConfocalGui.update_roi_xy(self, x=None, y=None) are not documented:
   parameter 'x'
   parameter 'y'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1426: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_slider_x(self, x_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1426: warning: The following parameters of confocalgui.ConfocalGui.update_slider_x(self, x_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1440: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_slider_x(self, x_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1440: warning: The following parameters of confocalgui.ConfocalGui.update_slider_x(self, x_pos) are not documented:
   parameter 'x_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1433: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_slider_y(self, y_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1433: warning: The following parameters of confocalgui.ConfocalGui.update_slider_y(self, y_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1447: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_slider_y(self, y_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1447: warning: The following parameters of confocalgui.ConfocalGui.update_slider_y(self, y_pos) are not documented:
   parameter 'y_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1440: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_slider_z(self, z_pos)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1440: warning: The following parameters of confocalgui.ConfocalGui.update_slider_z(self, z_pos) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1454: warning: argument 'float' of command @param is not found in the argument list of confocalgui.ConfocalGui::update_slider_z(self, z_pos)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1454: warning: The following parameters of confocalgui.ConfocalGui.update_slider_z(self, z_pos) are not documented:
   parameter 'z_pos'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1937: warning: argument 'QEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::xy_scan_end_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1937: warning: The following parameters of confocalgui.ConfocalGui.xy_scan_end_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1951: warning: argument 'QEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::xy_scan_end_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1951: warning: The following parameters of confocalgui.ConfocalGui.xy_scan_end_zoom_point(self, event) are not documented:
   parameter 'event'
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1920: warning: argument 'QMouseEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::xy_scan_start_zoom_point(self, event)
-/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1920: warning: The following parameters of confocalgui.ConfocalGui.xy_scan_start_zoom_point(self, event) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1934: warning: argument 'QMouseEvent' of command @param is not found in the argument list of confocalgui.ConfocalGui::xy_scan_start_zoom_point(self, event)
+/home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:1934: warning: The following parameters of confocalgui.ConfocalGui.xy_scan_start_zoom_point(self, event) are not documented:
   parameter 'event'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:137: warning: Member __init__(self) (function) of class confocalgui::ConfocalMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:135: warning: Member sigPressKeyBoard (variable) of class confocalgui::ConfocalMainWindow is not documented.
@@ -1204,44 +1204,44 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:39: warning: Member item_dict (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:46: warning: Member norm_val (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:49: warning: Member model_data_access (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:98: warning: Member editor (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:142: warning: Member value (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:34: warning: argument 'QWidget' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::__init__(self, parent, item_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:34: warning: argument 'dict' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::__init__(self, parent, item_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:37: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.__init__(self, parent, item_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:101: warning: Member editor (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:145: warning: Member value (variable) of class doublespinbox_delegate::DoubleSpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:33: warning: argument 'QWidget' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::__init__(self, parent, item_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:33: warning: argument 'dict' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::__init__(self, parent, item_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:36: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.__init__(self, parent, item_dict) are not documented:
   parameter 'parent'
   parameter 'item_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: argument 'QtGui.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: argument 'QWidget' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: argument 'QtGui.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:93: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.createEditor(self, parent, option, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: argument 'QtGui.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: argument 'QWidget' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: argument 'QtGui.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:96: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.createEditor(self, parent, option, index) are not documented:
   parameter 'parent'
   parameter 'option'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:116: warning: argument 'QDoubleSpinBox' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:116: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:116: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:116: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.setEditorData(self, editor, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:119: warning: argument 'QDoubleSpinBox' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:119: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:119: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:119: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.setEditorData(self, editor, index) are not documented:
   parameter 'editor'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:138: warning: argument 'QDoubleSpinBox' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:138: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:138: warning: argument 'QAbstractTableModel' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:138: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:138: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:138: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.setModelData(self, spinBox_ref, model, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:141: warning: argument 'QDoubleSpinBox' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:141: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:141: warning: argument 'QAbstractTableModel' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:141: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:141: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:141: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.setModelData(self, spinBox_ref, model, index) are not documented:
   parameter 'spinBox_ref'
   parameter 'model'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:160: warning: argument 'QDoubleSpinBox' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:160: warning: argument 'QtGui.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:160: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:160: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:160: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:160: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.updateEditorGeometry(self, editor, option, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:163: warning: argument 'QDoubleSpinBox' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:163: warning: argument 'QtGui.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:163: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:163: warning: argument 'QtCore.' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:163: warning: argument 'QModelIndex' of command @param is not found in the argument list of doublespinbox_delegate.DoubleSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/doublespinbox_delegate.py:163: warning: The following parameters of doublespinbox_delegate.DoubleSpinBoxDelegate.updateEditorGeometry(self, editor, option, index) are not documented:
   parameter 'editor'
   parameter 'option'
   parameter 'index'
@@ -2814,29 +2814,29 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:178: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_cw(self, freq=None, power=None, useinterleave=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:178: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_cw(self, freq=None, power=None, useinterleave=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:178: warning: argument 'bool' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_cw(self, freq=None, power=None, useinterleave=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:180: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_cw(self, freq=None, power=None, useinterleave=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:236: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_cw(self, freq=None, power=None, useinterleave=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:236: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_cw(self, freq=None, power=None, useinterleave=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:236: warning: argument 'bool' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_cw(self, freq=None, power=None, useinterleave=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:238: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_cw(self, freq=None, power=None, useinterleave=None) are not documented:
   parameter 'freq'
   parameter 'power'
   parameter 'useinterleave'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:336: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:336: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:394: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_ext_trigger(self, pol=TriggerEdge.RISING)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:394: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
   parameter 'pol'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:163: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_frequency(self, freq)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:163: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_frequency(self, freq) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:221: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_frequency(self, freq)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:221: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_frequency(self, freq) are not documented:
   parameter 'freq'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:199: warning: argument 'list' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_list(self, freq=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:199: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_list(self, freq=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:201: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_list(self, freq=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:257: warning: argument 'list' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_list(self, freq=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:257: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_list(self, freq=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:259: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_list(self, freq=None, power=None) are not documented:
   parameter 'freq'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:142: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_power(self, power)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:142: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_power(self, power) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:200: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::set_power(self, power)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:200: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.set_power(self, power) are not documented:
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:309: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::turn_AM_on(self, depth)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:309: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.turn_AM_on(self, depth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:367: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr20.MicrowaveSMR20::turn_AM_on(self, depth)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr20.py:367: warning: The following parameters of mw_source_smr20.MicrowaveSMR20.turn_AM_on(self, depth) are not documented:
   parameter 'depth'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:86: warning: Member get_limits(self) (function) of class mw_source_srssg::MicrowaveSRSSG is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
@@ -3415,9 +3415,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:272: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_refocus_Z_size(self, size)
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:274: warning: The following parameters of optimizer_logic.OptimizerLogic.set_refocus_Z_size(self, size) are not documented:
   parameter 'size'
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:282: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:282: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:282: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:282: warning: argument 'list' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:282: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:282: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic')
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:284: warning: The following parameters of optimizer_logic.OptimizerLogic.start_refocus(self, initial_pos=None, caller_tag='unknown', tag='logic') are not documented:
@@ -3732,61 +3730,67 @@ IndexError: list index out of range
   parameter 'sequence_list'
   parameter 'clock_freq'
   parameter 'loop'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:50: warning: Member __init__(self, block_editor_widget) (function) of class pulse_editors::BlockEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:51: warning: Member be_widget (variable) of class pulse_editors::BlockEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:52: warning: Member parameter_dict (variable) of class pulse_editors::BlockEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:59: warning: Member activation_config (variable) of class pulse_editors::BlockEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:60: warning: Member function_config (variable) of class pulse_editors::BlockEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:316: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:316: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:316: warning: The following parameters of pulse_editors.BlockEditor.get_element(self, row, column) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:52: warning: Member __init__(self, block_editor_widget) (function) of class pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:53: warning: Member be_widget (variable) of class pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:54: warning: Member parameter_dict (variable) of class pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:61: warning: Member activation_config (variable) of class pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:62: warning: Member function_config (variable) of class pulse_editors::BlockEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:374: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_column_delegate(self, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:376: warning: The following parameters of pulse_editors.BlockEditor.get_column_delegate(self, column) are not documented:
+  parameter 'column'
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:364: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:364: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:364: warning: The following parameters of pulse_editors.BlockEditor.get_element(self, row, column) are not documented:
   parameter 'row'
   parameter 'column'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:285: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:285: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:285: warning: The following parameters of pulse_editors.BlockEditor.set_element(self, row, column, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:245: warning: argument 'dict' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_displayed_analog_amplitude(self, ampl_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:245: warning: The following parameters of pulse_editors.BlockEditor.set_displayed_analog_amplitude(self, ampl_dict) are not documented:
+  parameter 'ampl_dict'
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:333: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:333: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:333: warning: The following parameters of pulse_editors.BlockEditor.set_element(self, row, column, value) are not documented:
   parameter 'row'
   parameter 'column'
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:443: warning: Member __init__(self, block_organizer_widget) (function) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:455: warning: Member set_block_dict(self, block_dict) (function) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:444: warning: Member bo_widget (variable) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:445: warning: Member parameter_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:450: warning: Member block_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:668: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:668: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:669: warning: The following parameters of pulse_editors.BlockOrganizer.generate_ensemble_object(self, ensemble_name, rotating_frame=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:500: warning: Member __init__(self, block_organizer_widget) (function) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:512: warning: Member set_block_dict(self, block_dict) (function) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:501: warning: Member bo_widget (variable) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:502: warning: Member parameter_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:507: warning: Member block_dict (variable) of class pulse_editors::BlockOrganizer is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:725: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:725: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::generate_ensemble_object(self, ensemble_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:726: warning: The following parameters of pulse_editors.BlockOrganizer.generate_ensemble_object(self, ensemble_name, rotating_frame=True) are not documented:
   parameter 'ensemble_name'
   parameter 'rotating_frame'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:632: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:632: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:632: warning: The following parameters of pulse_editors.BlockOrganizer.get_element(self, row, column) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:689: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:689: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:689: warning: The following parameters of pulse_editors.BlockOrganizer.get_element(self, row, column) are not documented:
   parameter 'row'
   parameter 'column'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:601: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:601: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:601: warning: The following parameters of pulse_editors.BlockOrganizer.set_element(self, row, column, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:658: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:658: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.BlockOrganizer::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:658: warning: The following parameters of pulse_editors.BlockOrganizer.set_element(self, row, column, value) are not documented:
   parameter 'row'
   parameter 'column'
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:688: warning: Member __init__(self, sequence_editor_widget) (function) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:708: warning: Member set_ensemble_dict(self, ensemble_dict) (function) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:689: warning: Member se_widget (variable) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:690: warning: Member parameter_dict (variable) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:704: warning: Member ensemble_dict (variable) of class pulse_editors::SequenceEditor is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:935: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:935: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:936: warning: The following parameters of pulse_editors.SequenceEditor.generate_sequence_object(self, sequence_name, rotating_frame=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:745: warning: Member __init__(self, sequence_editor_widget) (function) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:765: warning: Member set_ensemble_dict(self, ensemble_dict) (function) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:746: warning: Member se_widget (variable) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:747: warning: Member parameter_dict (variable) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:761: warning: Member ensemble_dict (variable) of class pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:992: warning: argument 'str' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:992: warning: argument 'bool' of command @param is not found in the argument list of pulse_editors.SequenceEditor::generate_sequence_object(self, sequence_name, rotating_frame=True)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:993: warning: The following parameters of pulse_editors.SequenceEditor.generate_sequence_object(self, sequence_name, rotating_frame=True) are not documented:
   parameter 'sequence_name'
   parameter 'rotating_frame'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:894: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:894: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:894: warning: The following parameters of pulse_editors.SequenceEditor.get_element(self, row, column) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:951: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:951: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::get_element(self, row, column)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:951: warning: The following parameters of pulse_editors.SequenceEditor.get_element(self, row, column) are not documented:
   parameter 'row'
   parameter 'column'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:864: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:864: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:864: warning: The following parameters of pulse_editors.SequenceEditor.set_element(self, row, column, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:921: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:921: warning: argument 'int' of command @param is not found in the argument list of pulse_editors.SequenceEditor::set_element(self, row, column, value)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:921: warning: The following parameters of pulse_editors.SequenceEditor.set_element(self, row, column, value) are not documented:
   parameter 'row'
   parameter 'column'
   parameter 'value'
@@ -4169,84 +4173,84 @@ IndexError: list index out of range
   parameter 'signal_fft_x'
   parameter 'signal_fft_y'
   parameter 'signal_fft_y2'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:83: warning: Member __init__(self, config, kwargs) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:362: warning: Member set_pulse_sequence_properties(self, controlled_vals, number_of_lasers, sequence_length_s, laser_ignore_list, is_alternating) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:672: warning: Member set_microwave_params(self, frequency=None, power=None, use_ext_mw=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:93: warning: Member use_ext_microwave (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:94: warning: Member microwave_power (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:95: warning: Member microwave_freq (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:98: warning: Member fast_counter_status (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:99: warning: Member fast_counter_gated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:100: warning: Member fast_counter_binwidth (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:101: warning: Member fast_counter_record_length (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:104: warning: Member controlled_vals (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:105: warning: Member laser_ignore_list (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:106: warning: Member number_of_lasers (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:107: warning: Member sequence_length_s (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:108: warning: Member loaded_asset_name (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:109: warning: Member alternating (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:112: warning: Member current_channel_config_name (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:113: warning: Member sample_rate (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:114: warning: Member analogue_amplitude (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:115: warning: Member interleave_on (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:118: warning: Member analysis_timer (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:119: warning: Member timer_interval (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:122: warning: Member start_time (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:123: warning: Member elapsed_time (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:124: warning: Member elapsed_time_str (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:127: warning: Member threadlock (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:130: warning: Member signal_plot_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:131: warning: Member signal_plot_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:132: warning: Member signal_plot_y2 (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:133: warning: Member signal_fft_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:134: warning: Member signal_fft_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:135: warning: Member signal_fft_y2 (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:136: warning: Member measuring_error_plot_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:137: warning: Member measuring_error_plot_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:138: warning: Member measuring_error_plot_y2 (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:139: warning: Member laser_plot_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:140: warning: Member laser_plot_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:143: warning: Member laser_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:144: warning: Member raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:145: warning: Member show_raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:146: warning: Member show_laser_index (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:147: warning: Member saved_raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:148: warning: Member recalled_raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:151: warning: Member fc (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:152: warning: Member signal_plot_x_fit (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:153: warning: Member signal_plot_y_fit (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:61: warning: Member sigSignalDataUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:63: warning: Member sigLaserDataUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:64: warning: Member sigLaserToShowUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:65: warning: Member sigElapsedTimeUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:66: warning: Member sigFitUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:67: warning: Member sigMeasurementRunningUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:68: warning: Member sigPulserRunningUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:69: warning: Member sigFastCounterSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:70: warning: Member sigPulseSequenceSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:71: warning: Member sigPulseGeneratorSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:72: warning: Member sigUploadAssetComplete (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:73: warning: Member sigUploadedAssetsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:74: warning: Member sigLoadedAssetUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:75: warning: Member sigExtMicrowaveSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:76: warning: Member sigExtMicrowaveRunningUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:77: warning: Member sigTimerIntervalUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:78: warning: Member sigAnalysisSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:79: warning: Member sigAnalysisMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:80: warning: Member sigExtractionSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:81: warning: Member sigExtractionMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1180: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_method, x_data=None, y_data=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1180: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_method, x_data=None, y_data=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:86: warning: Member __init__(self, config, kwargs) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:366: warning: Member set_pulse_sequence_properties(self, controlled_vals, number_of_lasers, sequence_length_s, laser_ignore_list, is_alternating) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:676: warning: Member set_microwave_params(self, frequency=None, power=None, use_ext_mw=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:96: warning: Member use_ext_microwave (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:97: warning: Member microwave_power (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:98: warning: Member microwave_freq (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:101: warning: Member fast_counter_status (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:102: warning: Member fast_counter_gated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:103: warning: Member fast_counter_binwidth (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:104: warning: Member fast_counter_record_length (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:107: warning: Member controlled_vals (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:108: warning: Member laser_ignore_list (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:109: warning: Member number_of_lasers (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:110: warning: Member sequence_length_s (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:111: warning: Member loaded_asset_name (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:112: warning: Member alternating (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:115: warning: Member current_channel_config_name (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:116: warning: Member sample_rate (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:117: warning: Member analogue_amplitude (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:118: warning: Member interleave_on (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:121: warning: Member analysis_timer (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:122: warning: Member timer_interval (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:125: warning: Member start_time (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:126: warning: Member elapsed_time (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:127: warning: Member elapsed_time_str (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:130: warning: Member threadlock (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:133: warning: Member signal_plot_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:134: warning: Member signal_plot_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:135: warning: Member signal_plot_y2 (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:136: warning: Member signal_fft_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:137: warning: Member signal_fft_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:138: warning: Member signal_fft_y2 (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:139: warning: Member measuring_error_plot_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:140: warning: Member measuring_error_plot_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:141: warning: Member measuring_error_plot_y2 (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:142: warning: Member laser_plot_x (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:143: warning: Member laser_plot_y (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:147: warning: Member laser_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:148: warning: Member raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:149: warning: Member show_raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:150: warning: Member show_laser_index (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:151: warning: Member saved_raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:152: warning: Member recalled_raw_data (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:155: warning: Member fc (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:156: warning: Member signal_plot_x_fit (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:157: warning: Member signal_plot_y_fit (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:63: warning: Member sigSignalDataUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:66: warning: Member sigLaserDataUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:67: warning: Member sigLaserToShowUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:68: warning: Member sigElapsedTimeUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:69: warning: Member sigFitUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:70: warning: Member sigMeasurementRunningUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:71: warning: Member sigPulserRunningUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:72: warning: Member sigFastCounterSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:73: warning: Member sigPulseSequenceSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:74: warning: Member sigPulseGeneratorSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:75: warning: Member sigUploadAssetComplete (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:76: warning: Member sigUploadedAssetsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:77: warning: Member sigLoadedAssetUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:78: warning: Member sigExtMicrowaveSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:79: warning: Member sigExtMicrowaveRunningUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:80: warning: Member sigTimerIntervalUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:81: warning: Member sigAnalysisSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:82: warning: Member sigAnalysisMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:83: warning: Member sigExtractionSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:84: warning: Member sigExtractionMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1184: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_method, x_data=None, y_data=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1184: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_method, x_data=None, y_data=None) are not documented:
   parameter 'fit_method'
   parameter 'x_data'
   parameter 'y_data'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:614: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:614: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:615: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:618: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:618: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:619: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:921: warning: argument 'int' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::set_timer_interval(self, interval)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:923: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.set_timer_interval(self, interval) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:925: warning: argument 'int' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::set_timer_interval(self, interval)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:927: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.set_timer_interval(self, interval) are not documented:
   parameter 'interval'
 /home/travis/build/Ulm-IQO/qudi/hardware/pulser_dummy.py:47: warning: Member __init__(self, config, kwargs) (function) of class pulser_dummy::PulserDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
@@ -4546,7 +4550,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:30: warning: Member __init__(self) (function) of class remotewidget::RemoteWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/samples_write_methods.py:35: warning: Member __init__(self) (function) of class samples_write_methods::SamplesWriteMethods is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:31: warning: Member __init__(self) (function) of class sampling_functions::SamplingFunctions is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:106: warning: Member func_config (variable) of class sampling_functions::SamplingFunctions is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:87: warning: Member func_config (variable) of class sampling_functions::SamplingFunctions is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:53: warning: Member __init__(self, base_filename, savelogic) (function) of class save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:69: warning: Member filename(self) (function) of class save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:80: warning: Member emit(self, record) (function) of class save_logic::DailyLogHandler is not documented.
@@ -4632,51 +4636,50 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/scanner_tilt_interfuse.py:97: warning: The following parameters of scanner_tilt_interfuse.ScannerTiltInterfuse.set_voltage_range(self, myrange=None) are not documented:
   parameter 'myrange'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:41: warning: Member item_dict (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:48: warning: Member norm_val (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:51: warning: Member model_data_access (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:147: warning: Member value (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:47: warning: Member model_data_access (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:134: warning: Member value (variable) of class scientificspinbox_delegate::ScienDSpinBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:36: warning: argument 'QWidget' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::__init__(self, parent, item_dict)
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:36: warning: argument 'dict' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::__init__(self, parent, item_dict)
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:39: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.__init__(self, parent, item_dict) are not documented:
   parameter 'parent'
   parameter 'item_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: argument 'QtGui.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: argument 'QWidget' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: argument 'QtGui.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:97: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.createEditor(self, parent, option, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: argument 'QtGui.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: argument 'QWidget' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: argument 'QtGui.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:84: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.createEditor(self, parent, option, index) are not documented:
   parameter 'parent'
   parameter 'option'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:179: warning: argument 'float' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::displayText(self, value, locale)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:179: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::displayText(self, value, locale)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:179: warning: argument 'QLocale' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::displayText(self, value, locale)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:179: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.displayText(self, value, locale) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:166: warning: argument 'float' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::displayText(self, value, locale)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:166: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::displayText(self, value, locale)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:166: warning: argument 'QLocale' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::displayText(self, value, locale)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:166: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.displayText(self, value, locale) are not documented:
   parameter 'value'
   parameter 'locale'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:117: warning: argument 'ScienDSpinBox' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:117: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:117: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:117: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.setEditorData(self, editor, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:104: warning: argument 'ScienDSpinBox' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:104: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:104: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:104: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.setEditorData(self, editor, index) are not documented:
   parameter 'editor'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:142: warning: argument 'ScienDSpinBox' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:142: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:142: warning: argument 'QAbstractTableModel' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:142: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:142: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:142: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.setModelData(self, scien_spinBox_ref, model, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:129: warning: argument 'ScienDSpinBox' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:129: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:129: warning: argument 'QAbstractTableModel' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:129: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:129: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::setModelData(self, scien_spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:129: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.setModelData(self, scien_spinBox_ref, model, index) are not documented:
   parameter 'scien_spinBox_ref'
   parameter 'model'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:165: warning: argument 'ScienDSpinBox' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:165: warning: argument 'QtGui.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:165: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:165: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:165: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:165: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.updateEditorGeometry(self, editor, option, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:152: warning: argument 'ScienDSpinBox' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:152: warning: argument 'QtGui.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:152: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:152: warning: argument 'QtCore.' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:152: warning: argument 'QModelIndex' of command @param is not found in the argument list of scientificspinbox_delegate.ScienDSpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/scientificspinbox_delegate.py:152: warning: The following parameters of scientificspinbox_delegate.ScienDSpinBoxDelegate.updateEditorGeometry(self, editor, option, index) are not documented:
   parameter 'editor'
   parameter 'option'
   parameter 'index'
@@ -4730,9 +4733,9 @@ IndexError: list index out of range
   parameter 'write_to_file'
   parameter 'offset_bin'
   parameter 'name_tag'
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:926: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:926: warning: argument 'bool' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:926: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_sequence(self, sequence_name, write_to_file=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:939: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:939: warning: argument 'bool' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:939: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_sequence(self, sequence_name, write_to_file=True) are not documented:
   parameter 'sequence_name'
   parameter 'write_to_file'
 /home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:450: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, name, ensemble)
@@ -5011,47 +5014,47 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/pyqtgraphmod/SpinBox.py:671: warning: argument 'bool' of command @param is not found in the argument list of SpinBox.SpinBox::setReadOnly(self, state)
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/pyqtgraphmod/SpinBox.py:672: warning: The following parameters of SpinBox.SpinBox.setReadOnly(self, state) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:44: warning: Member item_dict (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:51: warning: Member norm_val (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:54: warning: Member model_data_access (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:101: warning: Member editor (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:146: warning: Member value (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:39: warning: argument 'QWidget' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::__init__(self, parent, item_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:39: warning: argument 'dict' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::__init__(self, parent, item_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:42: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.__init__(self, parent, item_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:46: warning: Member item_dict (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:53: warning: Member norm_val (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:57: warning: Member model_data_access (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:107: warning: Member editor (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:152: warning: Member value (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:40: warning: argument 'QWidget' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::__init__(self, parent, item_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:40: warning: argument 'dict' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::__init__(self, parent, item_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:43: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.__init__(self, parent, item_dict) are not documented:
   parameter 'parent'
   parameter 'item_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: argument 'QtGui.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: argument 'QWidget' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: argument 'QtGui.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:99: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.createEditor(self, parent, option, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: argument 'QtGui.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: argument 'QWidget' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: argument 'QtGui.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::createEditor(self, parent, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:105: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.createEditor(self, parent, option, index) are not documented:
   parameter 'parent'
   parameter 'option'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:119: warning: argument 'QSpinBox' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:119: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:119: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setEditorData(self, editor, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:119: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.setEditorData(self, editor, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:125: warning: argument 'QSpinBox' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:125: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:125: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setEditorData(self, editor, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:125: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.setEditorData(self, editor, index) are not documented:
   parameter 'editor'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:142: warning: argument 'QSpinBox' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:142: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:142: warning: argument 'QAbstractTableModel' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:142: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:142: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:142: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.setModelData(self, spinBox_ref, model, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:148: warning: argument 'QSpinBox' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:148: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:148: warning: argument 'QAbstractTableModel' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:148: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:148: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::setModelData(self, spinBox_ref, model, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:148: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.setModelData(self, spinBox_ref, model, index) are not documented:
   parameter 'spinBox_ref'
   parameter 'model'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:164: warning: argument 'QSpinBox' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:164: warning: argument 'QtGui.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:164: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:164: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:164: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:164: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.updateEditorGeometry(self, editor, option, index) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:170: warning: argument 'QSpinBox' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:170: warning: argument 'QtGui.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:170: warning: argument 'QStyleOptionViewItemV4' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:170: warning: argument 'QtCore.' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:170: warning: argument 'QModelIndex' of command @param is not found in the argument list of spinbox_delegate.SpinBoxDelegate::updateEditorGeometry(self, editor, option, index)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:170: warning: The following parameters of spinbox_delegate.SpinBoxDelegate.updateEditorGeometry(self, editor, option, index) are not documented:
   parameter 'editor'
   parameter 'option'
   parameter 'index'
@@ -5183,85 +5186,88 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:347: warning: argument 'str' of command @param is not found in the argument list of taskrunner.TaskRunner::stopTaskByName(self, taskname)
 /home/travis/build/Ulm-IQO/qudi/logic/taskrunner.py:347: warning: The following parameters of taskrunner.TaskRunner.stopTaskByName(self, taskname) are not documented:
   parameter 'taskname'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:47: warning: Member __init__(self, config, kwargs) (function) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:48: warning: Member __init__(self, config, kwargs) (function) of class tektronix_awg5002c::AWG5002C is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:50: warning: Member connected (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:54: warning: Member sequence_mode (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:57: warning: Member current_loaded_asset (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:66: warning: Member ip_address (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:72: warning: Member port (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:86: warning: Member soc (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:90: warning: Member input_buffer (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:102: warning: Member ftp_path (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:108: warning: Member asset_directory (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:111: warning: Member pulsed_file_dir (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:131: warning: Member host_waveform_directory (variable) of class tektronix_awg5002c::AWG5002C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:448: warning: Member status_dic (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:51: warning: Member connected (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:55: warning: Member sequence_mode (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:58: warning: Member current_loaded_asset (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:67: warning: Member ip_address (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:73: warning: Member port (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:88: warning: Member soc (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:98: warning: Member input_buffer (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:112: warning: Member ftp_root_directory (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:122: warning: Member asset_directory (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:125: warning: Member pulsed_file_dir (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:145: warning: Member host_waveform_directory (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:147: warning: Member user (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:148: warning: Member passwd (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:154: warning: Member awg_model (variable) of class tektronix_awg5002c::AWG5002C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:489: warning: Member status_dic (variable) of class tektronix_awg5002c::AWG5002C is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:122: warning: Member connectors (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:49: warning: Member sigStateChanged (variable) of class core::base::Base is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/base.py:163: warning: Member result (variable) of class core::base::Base is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1116: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::ask(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1116: warning: The following parameters of tektronix_awg5002c.AWG5002C.ask(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1127: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::ask(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1127: warning: The following parameters of tektronix_awg5002c.AWG5002C.ask(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:986: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::delete_asset(self, asset_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:986: warning: The following parameters of tektronix_awg5002c.AWG5002C.delete_asset(self, asset_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:997: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::delete_asset(self, asset_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:997: warning: The following parameters of tektronix_awg5002c.AWG5002C.delete_asset(self, asset_name) are not documented:
   parameter 'asset_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:827: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:827: warning: The following parameters of tektronix_awg5002c.AWG5002C.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:838: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:838: warning: The following parameters of tektronix_awg5002c.AWG5002C.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:531: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:531: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:531: warning: The following parameters of tektronix_awg5002c.AWG5002C.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:572: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:572: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:572: warning: The following parameters of tektronix_awg5002c.AWG5002C.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:188: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:188: warning: Unsupported xml/html tag <channel_list> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:189: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:189: warning: Unsupported xml/html tag <channel_list> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:679: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:679: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:679: warning: The following parameters of tektronix_awg5002c.AWG5002C.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:214: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:214: warning: Unsupported xml/html tag <channel_list> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:215: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:215: warning: Unsupported xml/html tag <channel_list> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:705: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:705: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:705: warning: The following parameters of tektronix_awg5002c.AWG5002C.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1215: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:361: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:361: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:361: warning: The following parameters of tektronix_awg5002c.AWG5002C.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1237: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:387: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:387: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:387: warning: The following parameters of tektronix_awg5002c.AWG5002C.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:908: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:908: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:919: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:919: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:601: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:601: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:601: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:633: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:633: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:633: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1025: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_asset_dir_on_device(self, dir_path)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1025: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_asset_dir_on_device(self, dir_path) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1036: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_asset_dir_on_device(self, dir_path)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1036: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_asset_dir_on_device(self, dir_path) are not documented:
   parameter 'dir_path'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:759: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:759: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:759: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:774: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:774: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:774: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1085: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1085: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1096: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1096: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1177: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_jump_timing(self, synchronous=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1177: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_jump_timing(self, synchronous=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1199: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_jump_timing(self, synchronous=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1199: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_jump_timing(self, synchronous=False) are not documented:
   parameter 'synchronous'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1160: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_lowpass_filter(self, a_ch, cutoff_freq)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1160: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_lowpass_filter(self, a_ch, cutoff_freq) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1182: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_lowpass_filter(self, a_ch, cutoff_freq)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1182: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_lowpass_filter(self, a_ch, cutoff_freq) are not documented:
   parameter 'a_ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1192: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_mode(self, mode)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1192: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_mode(self, mode) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1214: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_mode(self, mode)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:1214: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_mode(self, mode) are not documented:
   parameter 'mode'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:489: warning: argument 'float' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:489: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:530: warning: argument 'float' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:530: warning: The following parameters of tektronix_awg5002c.AWG5002C.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:288: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::upload_asset(self, asset_name=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:289: warning: The following parameters of tektronix_awg5002c.AWG5002C.upload_asset(self, asset_name=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:314: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg5002c.AWG5002C::upload_asset(self, asset_name=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg5002c.py:315: warning: The following parameters of tektronix_awg5002c.AWG5002C.upload_asset(self, asset_name=None) are not documented:
   parameter 'asset_name'
 /home/travis/build/Ulm-IQO/qudi/core/FysomAdapter.py:31: warning: Member __getattr__(self, name) (function) of class core::FysomAdapter::Fysom is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:56: warning: Member visa_address (variable) of class tektronix_awg70k::AWG70K is not documented.
