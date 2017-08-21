@@ -65,6 +65,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classnuclear__operations_1_1NuclearOperationsGui-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">nuclear_operations.NuclearOperationsGui Class Reference</div>  </div>
@@ -90,15 +91,12 @@ Collaboration diagram for nuclear_operations.NuclearOperationsGui:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7622d1b24bd8ea52b1f119b548ba2db4"><td class="memItemLeft" align="right" valign="top"><a id="a7622d1b24bd8ea52b1f119b548ba2db4"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, manager, name, config, kwargs)</td></tr>
-<tr class="separator:a7622d1b24bd8ea52b1f119b548ba2db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a3b90821c96c924515af237719f240f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuclear__operations_1_1NuclearOperationsGui.html#a3a3b90821c96c924515af237719f240f">initUI</a> (self, e=None)</td></tr>
-<tr class="memdesc:a3a3b90821c96c924515af237719f240f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition, configuration and initialisation of the ODMR GUI.  <a href="#a3a3b90821c96c924515af237719f240f">More...</a><br /></td></tr>
-<tr class="separator:a3a3b90821c96c924515af237719f240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f57fa7a2dae174417668faa5d2ac0e4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuclear__operations_1_1NuclearOperationsGui.html#a0f57fa7a2dae174417668faa5d2ac0e4">deactivation</a> (self, e)</td></tr>
-<tr class="memdesc:a0f57fa7a2dae174417668faa5d2ac0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse steps of activation.  <a href="#a0f57fa7a2dae174417668faa5d2ac0e4">More...</a><br /></td></tr>
-<tr class="separator:a0f57fa7a2dae174417668faa5d2ac0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e886143e9bb7cdfe13d36a2cac9c18a"><td class="memItemLeft" align="right" valign="top"><a id="a0e886143e9bb7cdfe13d36a2cac9c18a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>on_activate</b> (self)</td></tr>
+<tr class="separator:a0e886143e9bb7cdfe13d36a2cac9c18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef21111e207431f62b9c19faea31fa05"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuclear__operations_1_1NuclearOperationsGui.html#aef21111e207431f62b9c19faea31fa05">on_deactivate</a> (self)</td></tr>
+<tr class="memdesc:aef21111e207431f62b9c19faea31fa05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse steps of activation.  <a href="#aef21111e207431f62b9c19faea31fa05">More...</a><br /></td></tr>
+<tr class="separator:aef21111e207431f62b9c19faea31fa05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a558114aa994b44897633e69cbd0787e0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuclear__operations_1_1NuclearOperationsGui.html#a558114aa994b44897633e69cbd0787e0">show</a> (self)</td></tr>
 <tr class="memdesc:a558114aa994b44897633e69cbd0787e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make window visible and put it above all other windows.  <a href="#a558114aa994b44897633e69cbd0787e0">More...</a><br /></td></tr>
 <tr class="separator:a558114aa994b44897633e69cbd0787e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +129,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:abb41924bb3973754dba04db0e01275d0"><td class="memItemLeft" align="right" valign="top"><a id="abb41924bb3973754dba04db0e01275d0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>nuclear_ops_graph</b></td></tr>
 <tr class="separator:abb41924bb3973754dba04db0e01275d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a7cd9b1fa753a9f7c49142667410b65da"><td class="memItemLeft" align="right" valign="top"><a id="a7cd9b1fa753a9f7c49142667410b65da"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>nuclearoperationslogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='NuclearOperationsLogic')</td></tr>
+<tr class="separator:a7cd9b1fa753a9f7c49142667410b65da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32730c41d27960352f86070ebcf95974"><td class="memItemLeft" align="right" valign="top"><a id="a32730c41d27960352f86070ebcf95974"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>savelogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='SaveLogic')</td></tr>
+<tr class="separator:a32730c41d27960352f86070ebcf95974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the main GUI Class for Nuclear Operations. </p>
@@ -191,77 +198,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0f57fa7a2dae174417668faa5d2ac0e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f57fa7a2dae174417668faa5d2ac0e4">&#9670;&nbsp;</a></span>deactivation()</h2>
+<a id="aef21111e207431f62b9c19faea31fa05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef21111e207431f62b9c19faea31fa05">&#9670;&nbsp;</a></span>on_deactivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def nuclear_operations.NuclearOperationsGui.deactivation </td>
+          <td class="memname">def nuclear_operations.NuclearOperationsGui.on_deactivate </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>self</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Reverse steps of activation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Fysom.event object from Fysom class. A more detailed explanation can be found in the method initUI.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="a3a3b90821c96c924515af237719f240f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a3b90821c96c924515af237719f240f">&#9670;&nbsp;</a></span>initUI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def nuclear_operations.NuclearOperationsGui.initUI </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>e</em> = <code>None</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition, configuration and initialisation of the ODMR GUI. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Fysom.event object from Fysom class. An object created by the state machine module Fysom, which is connected to a specific event (have a look in the Base Class). This object contains the passed event, the state before the event happened and the destination of the state which should be reached after the event had happened.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>This init connects all the graphic modules, which were created in the *.ui file and configures the event handling between the modules. </p>
 
 </div>
 </div>

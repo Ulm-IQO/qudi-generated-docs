@@ -36,6 +36,5 @@ var searchData=
   ['format',['format',['../classcore_1_1logger_1_1QtLogFormatter.html#a302e8d49373dfcf02778619b7fea5ce9',1,'core::logger::QtLogFormatter']]],
   ['format_5fdata',['format_data',['../classinflux__data__logger_1_1InfluxLogger.html#a26883a546892be04fad8dbee4f358bc1',1,'influx_data_logger::InfluxLogger']]],
   ['framecallback',['frameCallback',['../classlightfield__spectrometer_1_1Lightfield.html#ad7230fbc807bc3232c65fa25769c2e4c',1,'lightfield_spectrometer::Lightfield']]],
-  ['functionimplementationerror',['FunctionImplementationError',['../classsave__logic_1_1FunctionImplementationError.html',1,'save_logic']]],
-  ['fysom',['Fysom',['../classcore_1_1FysomAdapter_1_1Fysom.html',1,'core::FysomAdapter']]]
+  ['functionimplementationerror',['FunctionImplementationError',['../classsave__logic_1_1FunctionImplementationError.html',1,'save_logic']]]
 ];

@@ -1,0 +1,4 @@
+<map id="core.module.Base" name="core.module.Base">
+<area shape="rect" id="node10" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,83,225,112"/>
+<area shape="rect" id="node4" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="132,160,289,189"/>
+</map>

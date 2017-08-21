@@ -135,26 +135,20 @@ $(function() {
 <li>refresh_depth_image()
 : <a class="el" href="classconfocalgui_1_1ConfocalGui.html#aa148468832fa685659cb095d818fdcd3">confocalgui.ConfocalGui</a>
 </li>
-<li>refresh_elapsedtime()
-: <a class="el" href="classodmrgui_1_1ODMRGui.html#adfe9c0c8de82746760755acec7bc16a2">odmrgui.ODMRGui</a>
-</li>
 <li>refresh_matrix()
 : <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a9a9483fbea2f14986a62ae06569e2d4c">laserscannergui.VoltScanGui</a>
-, <a class="el" href="classodmrgui_1_1ODMRGui.html#af52e8444153536898d2a6b70b38c176f">odmrgui.ODMRGui</a>
-</li>
-<li>refresh_odmr_colorbar()
-: <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a011c8a09dd63794fff01f686289191d3">laserscannergui.VoltScanGui</a>
-, <a class="el" href="classodmrgui_1_1ODMRGui.html#a22ad1c580262018aeff32b27aae70aa9">odmrgui.ODMRGui</a>
 </li>
 <li>refresh_plot()
 : <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a4585daef77cc890e006355aa23be6c70">laserscannergui.VoltScanGui</a>
-, <a class="el" href="classodmrgui_1_1ODMRGui.html#a4334989c2cad5c8fc5ae86e2b1b97d70">odmrgui.ODMRGui</a>
 </li>
 <li>refresh_refocus_image()
 : <a class="el" href="classconfocalgui_1_1ConfocalGui.html#a6f3c23e73798b073865b973bf79b37f9">confocalgui.ConfocalGui</a>
 </li>
 <li>refresh_roi_colorscale()
 : <a class="el" href="classpoimangui_1_1PoiManagerGui.html#aa8ec01e527f7d9fce5dbaf6eaa21fb37">poimangui.PoiManagerGui</a>
+</li>
+<li>refresh_scan_colorbar()
+: <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a1f23226fdb9554fb1308387f29564617">laserscannergui.VoltScanGui</a>
 </li>
 <li>refresh_scan_line()
 : <a class="el" href="classconfocalgui_1_1ConfocalGui.html#a3e682e1730aeb593e981323c9f5e2c10">confocalgui.ConfocalGui</a>
@@ -179,8 +173,7 @@ $(function() {
 : <a class="el" href="classcore_1_1manager_1_1Manager.html#a63dfbc72444d9987c07e42470dc5d17d">core.manager.Manager</a>
 </li>
 <li>reject_settings()
-: <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#aa9b42ebb82033413da73b7d5bae222ab">laserscannergui.VoltScanGui</a>
-, <a class="el" href="classodmrgui_1_1ODMRGui.html#a6188b538105714b821d57fd94e635034">odmrgui.ODMRGui</a>
+: <a class="el" href="classodmrgui_1_1ODMRGui.html#a6188b538105714b821d57fd94e635034">odmrgui.ODMRGui</a>
 </li>
 <li>release()
 : <a class="el" href="classcore_1_1util_1_1mutex_1_1Mutex.html#a44a0a9fc2da8b129583ee0d54a90933e">core.util.mutex.Mutex</a>
@@ -227,6 +220,9 @@ $(function() {
 <li>replace_ensemble()
 : <a class="el" href="classpulse__objects_1_1PulseSequence.html#a61968b9be1d37af809a38577de46ed8b">pulse_objects.PulseSequence</a>
 </li>
+<li>representer()
+: <a class="el" href="classcore_1_1module_1_1StatusVar.html#ac60d6bbab048eb195e5d1ca10b11717d">core.module.StatusVar</a>
+</li>
 <li>request_generator_init_values()
 : <a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a962b029c3ef656884c846b6b44829af6">pulsed_master_logic.PulsedMasterLogic</a>
 </li>
@@ -256,7 +252,7 @@ $(function() {
 : <a class="el" href="classconfocalgui_1_1ConfocalGui.html#ad919e1d4c04f59bf6b6742ffae384b1c">confocalgui.ConfocalGui</a>
 </li>
 <li>reset_device()
-: <a class="el" href="classmw__source__smr20_1_1MicrowaveSMR20.html#aedbda9dc078f23d96086631573c36dfe">mw_source_smr20.MicrowaveSMR20</a>
+: <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#a9ae8ffad49a239ddff77d2df7fa463d8">mw_source_smr.MicrowaveSMR</a>
 </li>
 <li>reset_hardware()
 : <a class="el" href="classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html#a30d8e808be9f6a48a4f97f41ebd6064c">confocal_scanner_dummy.ConfocalScannerDummy</a>
@@ -274,22 +270,25 @@ $(function() {
 , <a class="el" href="classmw__source__dummy_1_1MicrowaveDummy.html#a3d9758982907593f2ef8148ab405ac5d">mw_source_dummy.MicrowaveDummy</a>
 , <a class="el" href="classmw__source__gigatronics_1_1MicrowaveGigatronics.html#a779c73a62561538f959f90397b3221a2">mw_source_gigatronics.MicrowaveGigatronics</a>
 , <a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#a8f8066aa868ee370c63c40853ca47a0b">mw_source_smiq.MicrowaveSmiq</a>
-, <a class="el" href="classmw__source__smr20_1_1MicrowaveSMR20.html#a8cbdf81b2496ded986cde841fb94dd43">mw_source_smr20.MicrowaveSMR20</a>
+, <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#aaa4305af03b9717bd2e05edbd2cdb29f">mw_source_smr.MicrowaveSMR</a>
 , <a class="el" href="classmw__source__srssg_1_1MicrowaveSRSSG.html#a7a0b940da6f7225009820433bfb075dc">mw_source_srssg.MicrowaveSRSSG</a>
 </li>
 <li>reset_reorientation_dialog()
 : <a class="el" href="classpoimangui_1_1PoiManagerGui.html#a88df6c619411862b05d392fb6b2eb891">poimangui.PoiManagerGui</a>
 </li>
 <li>reset_sweep()
-: <a class="el" href="classmicrowave__interface_1_1MicrowaveInterface.html#a32628ef4ca98c24b06de75ad44f85fb6">microwave_interface.MicrowaveInterface</a>
-, <a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#ae90dc52f18e801e69a76395202b8fd6b">mw_source_agilent.MicrowaveAgilent</a>
-, <a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#a599487c874a4dc25dd7ff8052db2ac11">mw_source_anritsu.MicrowaveAnritsu</a>
-, <a class="el" href="classmw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html#aad5ff5b68da7ff3211da4e1e8adba13d">mw_source_anritsu70GHz.MicrowaveAnritsu70GHz</a>
-, <a class="el" href="classmw__source__dummy_1_1MicrowaveDummy.html#aa82a74d812a378a1ae88fcd976e7cacf">mw_source_dummy.MicrowaveDummy</a>
-, <a class="el" href="classmw__source__gigatronics_1_1MicrowaveGigatronics.html#a4109c300c012d795af89ef51e44e9939">mw_source_gigatronics.MicrowaveGigatronics</a>
-, <a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#a83596b5011a93b1cc11c0997198aedc5">mw_source_smiq.MicrowaveSmiq</a>
-, <a class="el" href="classmw__source__smr20_1_1MicrowaveSMR20.html#a250c713a5711dc63333359cda2985bd9">mw_source_smr20.MicrowaveSMR20</a>
+: <a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#ae90dc52f18e801e69a76395202b8fd6b">mw_source_agilent.MicrowaveAgilent</a>
 , <a class="el" href="classmw__source__srssg_1_1MicrowaveSRSSG.html#a55065d4e68eba206e69844acef37665f">mw_source_srssg.MicrowaveSRSSG</a>
+, <a class="el" href="classodmr__logic_1_1ODMRLogic.html#a148d4b0a4f77fd171d0bc5ebfa3ec628">odmr_logic.ODMRLogic</a>
+</li>
+<li>reset_sweeppos()
+: <a class="el" href="classmicrowave__interface_1_1MicrowaveInterface.html#aee9afe5502c4867ba054238575bbf99b">microwave_interface.MicrowaveInterface</a>
+, <a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#aada0379f1972ef5d38deb1df0b917a80">mw_source_anritsu.MicrowaveAnritsu</a>
+, <a class="el" href="classmw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html#a5bbf0d694bdd4fa94acd7eeb8deb5ee7">mw_source_anritsu70GHz.MicrowaveAnritsu70GHz</a>
+, <a class="el" href="classmw__source__dummy_1_1MicrowaveDummy.html#a7f437863937d9376174409724587a414">mw_source_dummy.MicrowaveDummy</a>
+, <a class="el" href="classmw__source__gigatronics_1_1MicrowaveGigatronics.html#a06c4afb7a667651d43b21f4e63d1888e">mw_source_gigatronics.MicrowaveGigatronics</a>
+, <a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#aeb0dd721b45dad281ff2fc246957d8a7">mw_source_smiq.MicrowaveSmiq</a>
+, <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#ae350ec5e9c6aef5172c07281381fbf09">mw_source_smr.MicrowaveSMR</a>
 </li>
 <li>reset_toolbar_display()
 : <a class="el" href="classgated__counter__gui_1_1GatedCounterGui.html#a934c9941258033552e96fcfadd093cf2">gated_counter_gui.GatedCounterGui</a>
@@ -372,10 +371,12 @@ $(function() {
 </li>
 <li>run_stop()
 : <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a9f5daf3d1ff3e4d54593e59efb8e6fae">laserscannergui.VoltScanGui</a>
-, <a class="el" href="classodmrgui_1_1ODMRGui.html#ab501e26e612bba932de597aa158acee0">odmrgui.ODMRGui</a>
 </li>
 <li>run_stop_2d_alignment()
 : <a class="el" href="classmagnet__gui_1_1MagnetGui.html#aa273007d6b472f009ef9e9249b0d16ec">magnet_gui.MagnetGui</a>
+</li>
+<li>run_stop_odmr()
+: <a class="el" href="classodmrgui_1_1ODMRGui.html#a88c8e76f835f58075db1411a77a4b706">odmrgui.ODMRGui</a>
 </li>
 <li>runTaskStep()
 : <a class="el" href="classdummy_1_1Task.html#a8c31a6251257b7ccb1d6715a704d4922">dummy.Task</a>

@@ -114,6 +114,13 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:af8371948ad7e0912e172e19f79287478"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#af8371948ad7e0912e172e19f79287478">recalculate_histogram</a> (self, bins=None, xmin=None, xmax=None)</td></tr>
 <tr class="memdesc:af8371948ad7e0912e172e19f79287478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the current spectrum from raw data.  <a href="#af8371948ad7e0912e172e19f79287478">More...</a><br /></td></tr>
 <tr class="separator:af8371948ad7e0912e172e19f79287478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21326a2eb4ca8fdf60149fc9d57667db"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#a21326a2eb4ca8fdf60149fc9d57667db">get_fit_functions</a> (self)</td></tr>
+<tr class="memdesc:a21326a2eb4ca8fdf60149fc9d57667db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the names of all ocnfigured fit functions.  <a href="#a21326a2eb4ca8fdf60149fc9d57667db">More...</a><br /></td></tr>
+<tr class="separator:a21326a2eb4ca8fdf60149fc9d57667db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96aab0943b1858a1b0c5f62c0a3dd59"><td class="memItemLeft" align="right" valign="top"><a id="ab96aab0943b1858a1b0c5f62c0a3dd59"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#ab96aab0943b1858a1b0c5f62c0a3dd59">do_fit</a> (self)</td></tr>
+<tr class="memdesc:ab96aab0943b1858a1b0c5f62c0a3dd59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the currently configured fit. <br /></td></tr>
+<tr class="separator:ab96aab0943b1858a1b0c5f62c0a3dd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94be9cb6214f43e94acde7e77a8791ca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#a94be9cb6214f43e94acde7e77a8791ca">start_scanning</a> (self, resume=False)</td></tr>
 <tr class="memdesc:a94be9cb6214f43e94acde7e77a8791ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare to start counting: zero variables, change state and start counting "loop".  <a href="#a94be9cb6214f43e94acde7e77a8791ca">More...</a><br /></td></tr>
 <tr class="separator:a94be9cb6214f43e94acde7e77a8791ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,6 +158,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af8dec12b521d9275b23da8474167fe75"><td class="memItemLeft" align="right" valign="top"><a id="af8dec12b521d9275b23da8474167fe75"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>stopRequested</b></td></tr>
 <tr class="separator:af8dec12b521d9275b23da8474167fe75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf564097327d6f6403ab810f5ea447ec"><td class="memItemLeft" align="right" valign="top"><a id="aaf564097327d6f6403ab810f5ea447ec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>fc</b></td></tr>
+<tr class="separator:aaf564097327d6f6403ab810f5ea447ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a243b24a028112ada858986597220af0f"><td class="memItemLeft" align="right" valign="top"><a id="a243b24a028112ada858986597220af0f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>histogram_axis</b></td></tr>
 <tr class="separator:a243b24a028112ada858986597220af0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +170,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a00129438fcdbde1b9b463c1919c90762"><td class="memItemLeft" align="right" valign="top"><a id="a00129438fcdbde1b9b463c1919c90762"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>envelope_histogram</b></td></tr>
 <tr class="separator:a00129438fcdbde1b9b463c1919c90762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c806c3319b9b55e1f1465a2f3c2b88"><td class="memItemLeft" align="right" valign="top"><a id="ac8c806c3319b9b55e1f1465a2f3c2b88"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>wlog_fit_x</b></td></tr>
+<tr class="separator:ac8c806c3319b9b55e1f1465a2f3c2b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b074e62f40875edfe4c8cfd3d4592d"><td class="memItemLeft" align="right" valign="top"><a id="a10b074e62f40875edfe4c8cfd3d4592d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>wlog_fit_y</b></td></tr>
+<tr class="separator:a10b074e62f40875edfe4c8cfd3d4592d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb429ccbbb9c4974254a95940f64f0f"><td class="memItemLeft" align="right" valign="top"><a id="a6bb429ccbbb9c4974254a95940f64f0f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>hardware_thread</b></td></tr>
 <tr class="separator:a6bb429ccbbb9c4974254a95940f64f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,6 +212,21 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a11bb1fed6ade446bcab364bd02d23679"><td class="memItemLeft" align="right" valign="top"><a id="a11bb1fed6ade446bcab364bd02d23679"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sig_new_data_point</b> = QtCore.Signal(list)</td></tr>
 <tr class="separator:a11bb1fed6ade446bcab364bd02d23679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4a80bb91d022dffee766a5b5a1eb83"><td class="memItemLeft" align="right" valign="top"><a id="a2f4a80bb91d022dffee766a5b5a1eb83"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sig_fit_updated</b> = QtCore.Signal()</td></tr>
+<tr class="separator:a2f4a80bb91d022dffee766a5b5a1eb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6918375cd857232cbed74c8282397c9"><td class="memItemLeft" align="right" valign="top"><a id="af6918375cd857232cbed74c8282397c9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>wavemeter1</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='WavemeterInterface')</td></tr>
+<tr class="separator:af6918375cd857232cbed74c8282397c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7d52cb9d52e1becd25eaf4c23759c3"><td class="memItemLeft" align="right" valign="top"><a id="a4d7d52cb9d52e1becd25eaf4c23759c3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>counterlogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='CounterLogic')</td></tr>
+<tr class="separator:a4d7d52cb9d52e1becd25eaf4c23759c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf65820dfca5c9806e9aa84b2437b51"><td class="memItemLeft" align="right" valign="top"><a id="afbf65820dfca5c9806e9aa84b2437b51"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>savelogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='SaveLogic')</td></tr>
+<tr class="separator:afbf65820dfca5c9806e9aa84b2437b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d9efe01a6e666c3b2ef14f65c03172"><td class="memItemLeft" align="right" valign="top"><a id="ab9d9efe01a6e666c3b2ef14f65c03172"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>fitlogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='FitLogic')</td></tr>
+<tr class="separator:ab9d9efe01a6e666c3b2ef14f65c03172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This logic module gathers data from wavemeter and the counter logic. </p>
@@ -283,6 +314,27 @@ Static Public Attributes</h2></td></tr>
 
 <p>Current number of bins in the spectrum. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: current number of bins in the scan </dd></dl>
+
+</div>
+</div>
+<a id="a21326a2eb4ca8fdf60149fc9d57667db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21326a2eb4ca8fdf60149fc9d57667db">&#9670;&nbsp;</a></span>get_fit_functions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def wavemeter_logger_logic.WavemeterLoggerLogic.get_fit_functions </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the names of all ocnfigured fit functions. </p>
+<dl class="section return"><dt>Returns</dt><dd>list(str): list of fit function names </dd></dl>
 
 </div>
 </div>

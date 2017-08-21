@@ -184,24 +184,6 @@ Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsoftware__pid__controller_1_1SoftPIDController.html#a5a38220c42788aafe6a12364cbcd97d2">cv</a></td></tr>
 <tr class="memdesc:a5a38220c42788aafe6a12364cbcd97d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">limit contol output to maximum permissible limits <br /></td></tr>
 <tr class="separator:a5a38220c42788aafe6a12364cbcd97d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b869867782dfc7094ed712f15877608"><td class="memItemLeft" align="right" valign="top"><a id="a4b869867782dfc7094ed712f15877608"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>timestep</b></td></tr>
-<tr class="separator:a4b869867782dfc7094ed712f15877608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fb67be9cd58bab98355547f556e6b66"><td class="memItemLeft" align="right" valign="top"><a id="a6fb67be9cd58bab98355547f556e6b66"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>kP</b></td></tr>
-<tr class="separator:a6fb67be9cd58bab98355547f556e6b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6802f9d79c0aa8b3c874bc76b90864b"><td class="memItemLeft" align="right" valign="top"><a id="ae6802f9d79c0aa8b3c874bc76b90864b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>kI</b></td></tr>
-<tr class="separator:ae6802f9d79c0aa8b3c874bc76b90864b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a085f16eb6e3161de77ea64469acfe01d"><td class="memItemLeft" align="right" valign="top"><a id="a085f16eb6e3161de77ea64469acfe01d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>kD</b></td></tr>
-<tr class="separator:a085f16eb6e3161de77ea64469acfe01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dffac6080cf29318fd06c5f9d97ab9f"><td class="memItemLeft" align="right" valign="top"><a id="a1dffac6080cf29318fd06c5f9d97ab9f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setpoint</b></td></tr>
-<tr class="separator:a1dffac6080cf29318fd06c5f9d97ab9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad919c427a74eb160061704fd95c1aeee"><td class="memItemLeft" align="right" valign="top"><a id="ad919c427a74eb160061704fd95c1aeee"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>manualvalue</b></td></tr>
-<tr class="separator:ad919c427a74eb160061704fd95c1aeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d3a2148421a75c116ceee0985d29dcc"><td class="memItemLeft" align="right" valign="top"><a id="a6d3a2148421a75c116ceee0985d29dcc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>timer</b></td></tr>
 <tr class="separator:a6d3a2148421a75c116ceee0985d29dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +218,31 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:aceea2ac52b41b3e4258b3b6cfca93cd5"><td class="memItemLeft" align="right" valign="top"><a id="aceea2ac52b41b3e4258b3b6cfca93cd5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsoftware__pid__controller_1_1SoftPIDController.html#aceea2ac52b41b3e4258b3b6cfca93cd5">process</a> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='ProcessInterface')</td></tr>
+<tr class="memdesc:aceea2ac52b41b3e4258b3b6cfca93cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">declare connectors <br /></td></tr>
+<tr class="separator:aceea2ac52b41b3e4258b3b6cfca93cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94e19923ce64805718e6cbc5714d73e"><td class="memItemLeft" align="right" valign="top"><a id="ab94e19923ce64805718e6cbc5714d73e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>control</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='ProcessControlInterface')</td></tr>
+<tr class="separator:ab94e19923ce64805718e6cbc5714d73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b869867782dfc7094ed712f15877608"><td class="memItemLeft" align="right" valign="top"><a id="a4b869867782dfc7094ed712f15877608"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>timestep</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>(default=100)</td></tr>
+<tr class="separator:a4b869867782dfc7094ed712f15877608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb67be9cd58bab98355547f556e6b66"><td class="memItemLeft" align="right" valign="top"><a id="a6fb67be9cd58bab98355547f556e6b66"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>kP</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=1)</td></tr>
+<tr class="separator:a6fb67be9cd58bab98355547f556e6b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6802f9d79c0aa8b3c874bc76b90864b"><td class="memItemLeft" align="right" valign="top"><a id="ae6802f9d79c0aa8b3c874bc76b90864b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>kI</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=1)</td></tr>
+<tr class="separator:ae6802f9d79c0aa8b3c874bc76b90864b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085f16eb6e3161de77ea64469acfe01d"><td class="memItemLeft" align="right" valign="top"><a id="a085f16eb6e3161de77ea64469acfe01d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>kD</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=1)</td></tr>
+<tr class="separator:a085f16eb6e3161de77ea64469acfe01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dffac6080cf29318fd06c5f9d97ab9f"><td class="memItemLeft" align="right" valign="top"><a id="a1dffac6080cf29318fd06c5f9d97ab9f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setpoint</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=273.15)</td></tr>
+<tr class="separator:a1dffac6080cf29318fd06c5f9d97ab9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad919c427a74eb160061704fd95c1aeee"><td class="memItemLeft" align="right" valign="top"><a id="ad919c427a74eb160061704fd95c1aeee"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>manualvalue</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=0)</td></tr>
+<tr class="separator:ad919c427a74eb160061704fd95c1aeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa193fdcb4d6590aae3148cd6092d931b"><td class="memItemLeft" align="right" valign="top"><a id="aa193fdcb4d6590aae3148cd6092d931b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigNewValue</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:aa193fdcb4d6590aae3148cd6092d931b"><td class="memSeparator" colspan="2">&#160;</td></tr>

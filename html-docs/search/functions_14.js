@@ -7,6 +7,7 @@ var searchData=
   ['testing',['testing',['../classpoi__manager__logic_1_1PoiManagerLogic.html#aac655dc443877077ecac94fcc5ead028',1,'poi_manager_logic::PoiManagerLogic']]],
   ['tickstrings',['tickStrings',['../classlaser_1_1TimeAxisItem.html#a4a4333c5b85c12fab0eda5cce003c72c',1,'laser::TimeAxisItem']]],
   ['timers',['timers',['../classlaserquantum__laser_1_1LaserQuantumLaser.html#acccdd764f005812e624192a491ee6052',1,'laserquantum_laser.LaserQuantumLaser.timers()'],['../classmillennia__ev__laser_1_1MillenniaeVLaser.html#a0bce629eb0c79a298374d2fa67ad8d7d',1,'millennia_ev_laser.MillenniaeVLaser.timers()']]],
+  ['toggle_5fcw_5fmode',['toggle_cw_mode',['../classodmrgui_1_1ODMRGui.html#a907ab821a2d68dde711b2e672be5e2c5',1,'odmrgui::ODMRGui']]],
   ['toggle_5ferror_5fbars',['toggle_error_bars',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a0659d7157c86bd04fde4deec7e0a2b05',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['toggle_5fmodulation',['toggle_modulation',['../classspectrum_1_1SpectrumLogic.html#a2327b63bbeaf72f0e4d0a85dc4beaac5',1,'spectrum::SpectrumLogic']]],
   ['toggle_5fpulse_5fgenerator',['toggle_pulse_generator',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a732d552ff32702e1ef730751631b6e6d',1,'pulsed_master_logic::PulsedMasterLogic']]],
@@ -19,7 +20,7 @@ var searchData=
   ['triangulate',['triangulate',['../classpoi__manager__logic_1_1PoiManagerLogic.html#afed7e27b8445da5d93de924e164769dd',1,'poi_manager_logic::PoiManagerLogic']]],
   ['trigger',['trigger',['../classevents_1_1EventManager.html#a6a98fedc6e9c596737c9794e31b73a75',1,'events::EventManager']]],
   ['trylock',['tryLock',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a6e3c194d994cfa86abc96327c77a0be0',1,'core::util::mutex::Mutex']]],
-  ['turn_5fam_5foff',['turn_AM_off',['../classmw__source__smr20_1_1MicrowaveSMR20.html#ad58d88784b81c96b8d0e4b8784b233d3',1,'mw_source_smr20::MicrowaveSMR20']]],
-  ['turn_5fam_5fon',['turn_AM_on',['../classmw__source__smr20_1_1MicrowaveSMR20.html#a88d6c1749337350d1695d8fbb42fc921',1,'mw_source_smr20::MicrowaveSMR20']]],
+  ['turn_5fam_5foff',['turn_AM_off',['../classmw__source__smr_1_1MicrowaveSMR.html#a3ecaaa23a20e483fc81b404c62815586',1,'mw_source_smr::MicrowaveSMR']]],
+  ['turn_5fam_5fon',['turn_AM_on',['../classmw__source__smr_1_1MicrowaveSMR.html#afa5614a0ba8e1bf0cd59954a7cd301d3',1,'mw_source_smr::MicrowaveSMR']]],
   ['twod_5fgaussian_5ffunction',['twoD_gaussian_function',['../classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html#abb58df9e8e6fd09e05659df51d6a523a',1,'confocal_scanner_dummy::ConfocalScannerDummy']]]
 ];

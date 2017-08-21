@@ -12,6 +12,5 @@ var searchData=
   ['fitsettingscombobox',['FitSettingsComboBox',['../classfitsettings_1_1FitSettingsComboBox.html',1,'fitsettings']]],
   ['fitsettingsdialog',['FitSettingsDialog',['../classfitsettings_1_1FitSettingsDialog.html',1,'fitsettings']]],
   ['flipmirror',['FlipMirror',['../classflipmirror_1_1FlipMirror.html',1,'flipmirror']]],
-  ['functionimplementationerror',['FunctionImplementationError',['../classsave__logic_1_1FunctionImplementationError.html',1,'save_logic']]],
-  ['fysom',['Fysom',['../classcore_1_1FysomAdapter_1_1Fysom.html',1,'core::FysomAdapter']]]
+  ['functionimplementationerror',['FunctionImplementationError',['../classsave__logic_1_1FunctionImplementationError.html',1,'save_logic']]]
 ];

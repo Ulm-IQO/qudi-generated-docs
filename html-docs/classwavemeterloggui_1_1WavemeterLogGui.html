@@ -64,6 +64,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classwavemeterloggui_1_1WavemeterLogGui-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -106,6 +107,13 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeterloggui_1_1WavemeterLogGui.html#a48417658ac9a7b33eb657f472be916d2">updateData</a> (self)</td></tr>
 <tr class="memdesc:a48417658ac9a7b33eb657f472be916d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function that grabs the data and sends it to the plot. <br /></td></tr>
 <tr class="separator:a48417658ac9a7b33eb657f472be916d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6672655010b48647ce256cc349bbe69a"><td class="memItemLeft" align="right" valign="top"><a id="a6672655010b48647ce256cc349bbe69a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>doFit</b> (self)</td></tr>
+<tr class="separator:a6672655010b48647ce256cc349bbe69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc71100760c2152fb7d101ca7bfb853"><td class="memItemLeft" align="right" valign="top"><a id="a6bc71100760c2152fb7d101ca7bfb853"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeterloggui_1_1WavemeterLogGui.html#a6bc71100760c2152fb7d101ca7bfb853">updateFit</a> (self)</td></tr>
+<tr class="memdesc:a6bc71100760c2152fb7d101ca7bfb853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the configured fit and show it in the plot. <br /></td></tr>
+<tr class="separator:a6bc71100760c2152fb7d101ca7bfb853"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a8d4c02daa528655f3605f5a761ba75"><td class="memItemLeft" align="right" valign="top"><a id="a8a8d4c02daa528655f3605f5a761ba75"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>add_data_point</b> (self, point)</td></tr>
 <tr class="separator:a8a8d4c02daa528655f3605f5a761ba75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,14 +136,46 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>recalculate_histogram<
 def&#160;</td><td class="memItemRight" valign="bottom"><b>set_auto_range</b> (self)</td></tr>
 <tr class="separator:a763fc5f56f31e22f0e5b1c522508d0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ac390793d45026283499b740374b71004"><td class="memItemLeft" align="right" valign="top"><a id="ac390793d45026283499b740374b71004"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeterloggui_1_1WavemeterLogGui.html#ac390793d45026283499b740374b71004">curve_data_points</a></td></tr>
+<tr class="memdesc:ac390793d45026283499b740374b71004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an empty plot curve to be filled later, set its pen. <br /></td></tr>
+<tr class="separator:ac390793d45026283499b740374b71004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c506f589d832ce98e40e0d07406ddb7"><td class="memItemLeft" align="right" valign="top"><a id="a1c506f589d832ce98e40e0d07406ddb7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>curve_nm_counts</b></td></tr>
+<tr class="separator:a1c506f589d832ce98e40e0d07406ddb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba29f7a0352e4b7266d18cd947567a9"><td class="memItemLeft" align="right" valign="top"><a id="a8ba29f7a0352e4b7266d18cd947567a9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>curve_hz_counts</b></td></tr>
+<tr class="separator:a8ba29f7a0352e4b7266d18cd947567a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29330fa5ca6649d90b27d66bfa1d59cf"><td class="memItemLeft" align="right" valign="top"><a id="a29330fa5ca6649d90b27d66bfa1d59cf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>curve_envelope</b></td></tr>
+<tr class="separator:a29330fa5ca6649d90b27d66bfa1d59cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1524a722ea1d9477c0c511ca5849c573"><td class="memItemLeft" align="right" valign="top"><a id="a1524a722ea1d9477c0c511ca5849c573"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>curve_fit</b></td></tr>
+<tr class="separator:a1524a722ea1d9477c0c511ca5849c573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:af02148ad05de2e88b2a522b41f362fc2"><td class="memItemLeft" align="right" valign="top"><a id="af02148ad05de2e88b2a522b41f362fc2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwavemeterloggui_1_1WavemeterLogGui.html#af02148ad05de2e88b2a522b41f362fc2">wavemeterloggerlogic1</a> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='WavemeterLoggerLogic')</td></tr>
+<tr class="memdesc:af02148ad05de2e88b2a522b41f362fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">declare connectors <br /></td></tr>
+<tr class="separator:af02148ad05de2e88b2a522b41f362fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44211913bb200d9bdc1bdae3439d8f71"><td class="memItemLeft" align="right" valign="top"><a id="a44211913bb200d9bdc1bdae3439d8f71"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>savelogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='SaveLogic')</td></tr>
+<tr class="separator:a44211913bb200d9bdc1bdae3439d8f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39dfb3cdb2299b24746c442e069fe56b"><td class="memItemLeft" align="right" valign="top"><a id="a39dfb3cdb2299b24746c442e069fe56b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigStartCounter</b> = QtCore.Signal()</td></tr>
 <tr class="separator:a39dfb3cdb2299b24746c442e069fe56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa79bb5303b3a44ecbd90eb2d559d4bea"><td class="memItemLeft" align="right" valign="top"><a id="aa79bb5303b3a44ecbd90eb2d559d4bea"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigStopCounter</b> = QtCore.Signal()</td></tr>
 <tr class="separator:aa79bb5303b3a44ecbd90eb2d559d4bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b57e1ed8c02e09471e95b44bb12b3b"><td class="memItemLeft" align="right" valign="top"><a id="ad8b57e1ed8c02e09471e95b44bb12b3b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigFitChanged</b> = QtCore.Signal(str)</td></tr>
+<tr class="separator:ad8b57e1ed8c02e09471e95b44bb12b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0a8fff7c3bc3727a83870c4ca2fa48"><td class="memItemLeft" align="right" valign="top"><a id="acd0a8fff7c3bc3727a83870c4ca2fa48"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigDoFit</b> = QtCore.Signal()</td></tr>
+<tr class="separator:acd0a8fff7c3bc3727a83870c4ca2fa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>gui/wavemeterlogger/wavemeterloggui.py</li>

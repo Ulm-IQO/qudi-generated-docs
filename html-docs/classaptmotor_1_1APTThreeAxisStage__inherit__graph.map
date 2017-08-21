@@ -1,5 +1,6 @@
 <map id="aptmotor.APTThreeAxisStage" name="aptmotor.APTThreeAxisStage">
-<area shape="rect" id="node2" href="$classaptmotor_1_1APTStage.html" title="Control class for an arbitrary collection of axis. " alt="" coords="112,160,248,189"/>
-<area shape="rect" id="node4" href="$classcore_1_1base_1_1Base.html" title="Base class for all loadable modules. " alt="" coords="57,83,169,112"/>
-<area shape="rect" id="node8" href="$classcore_1_1FysomAdapter_1_1Fysom.html" title="core.FysomAdapter.Fysom" alt="" coords="99,5,277,35"/>
+<area shape="rect" id="node2" href="$classaptmotor_1_1APTStage.html" title="Control class for an arbitrary collection of axis. " alt="" coords="81,315,217,344"/>
+<area shape="rect" id="node4" href="$classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="17,237,143,267"/>
+<area shape="rect" id="node14" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,83,225,112"/>
+<area shape="rect" id="node8" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="132,160,289,189"/>
 </map>

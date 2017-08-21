@@ -197,7 +197,7 @@ $(function() {
 : <a class="el" href="classpoi__manager__logic_1_1PoiManagerLogic.html#aaa6d435102461df8932ad7374c1a6f0b">poi_manager_logic.PoiManagerLogic</a>
 </li>
 <li>get_connector()
-: <a class="el" href="classcore_1_1base_1_1Base.html#a82103809ac9deed6d4831ad0961d6c9d">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#ae4d83e01e4de86a01e3bf109c2072b3d">core.module.BaseMixin</a>
 </li>
 <li>get_constraints()
 : <a class="el" href="classaptmotor_1_1APTFourAxisStage.html#aaffdbc8171d5ee1dfeff121c6fdacedd">aptmotor.APTFourAxisStage</a>
@@ -209,6 +209,7 @@ $(function() {
 , <a class="el" href="classfast__counter__interface_1_1FastCounterInterface.html#ab57ff21d1eedf9345d22a40c67632cde">fast_counter_interface.FastCounterInterface</a>
 , <a class="el" href="classfastcomtecmcs6_1_1FastComtec.html#a33da294be16003c16e53008d00aa1945">fastcomtecmcs6.FastComtec</a>
 , <a class="el" href="classfastcomtecp7887_1_1FastComtec.html#acf84ed87fd2b172739e152467dfa8e0f">fastcomtecp7887.FastComtec</a>
+, <a class="el" href="classgated__ni__card_1_1SlowGatedNICard.html#a318f4df688f56a1df7ef46030bc4d316">gated_ni_card.SlowGatedNICard</a>
 , <a class="el" href="classmagnet_1_1Magnet.html#ab17ce99ea132c4cc67f894465874f180">magnet.Magnet</a>
 , <a class="el" href="classmagnet__dummy_1_1MagnetDummy.html#a8a93338ca42e62f13fd05cc3288fe24e">magnet_dummy.MagnetDummy</a>
 , <a class="el" href="classmagnet__interface_1_1MagnetInterface.html#a9f4b4ccbe48b44627d2e9ca132d4b05b">magnet_interface.MagnetInterface</a>
@@ -219,7 +220,6 @@ $(function() {
 , <a class="el" href="classmotor__stage__micos_1_1MotorStageMicos.html#aa8bc06ec59bc79ba8cbfca63a492fb6f">motor_stage_micos.MotorStageMicos</a>
 , <a class="el" href="classmotor__stage__pi_1_1MotorStagePI.html#a9c7dace28f5c6e230a3ab11d07a0cf65">motor_stage_pi.MotorStagePI</a>
 , <a class="el" href="classni__card_1_1NICard.html#a94351394f0e7a270787bc8fdc304eb6e">ni_card.NICard</a>
-, <a class="el" href="classni__card_1_1SlowGatedNICard.html#a73a515e587897f4b3119e3ffe0227002">ni_card.SlowGatedNICard</a>
 , <a class="el" href="classni__pulser_1_1NIPulser.html#af7970bcdecc7d0615dada1d99a39fd50">ni_pulser.NIPulser</a>
 , <a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#aaad6855c0cd4f3df6fbeed2808690026">ok_fpga_pulser.OkFpgaPulser</a>
 , <a class="el" href="classpolarisation__dependence__sim_1_1PolarizationDependenceSim.html#a1c2708ec2c32b3ac4b8a12c8e964c767">polarisation_dependence_sim.PolarizationDependenceSim</a>
@@ -258,8 +258,8 @@ $(function() {
 : <a class="el" href="classcounter__logic_1_1CounterLogic.html#a0813c02ee9f10d34d7ea0637441f51f0">counter_logic.CounterLogic</a>
 </li>
 <li>get_counter()
-: <a class="el" href="classni__card_1_1NICard.html#a6789bd4425a4acb2c625df91a319dc11">ni_card.NICard</a>
-, <a class="el" href="classni__card_1_1SlowGatedNICard.html#ad40bc5e864c0cbf03fdb1dda89093f54">ni_card.SlowGatedNICard</a>
+: <a class="el" href="classgated__ni__card_1_1SlowGatedNICard.html#a0144a436054991983188f17f465a73d6">gated_ni_card.SlowGatedNICard</a>
+, <a class="el" href="classni__card_1_1NICard.html#a6789bd4425a4acb2c625df91a319dc11">ni_card.NICard</a>
 , <a class="el" href="classpolarisation__dependence__sim_1_1PolarizationDependenceSim.html#ac0cdec297270d0f319f0de7cf01fa5ce">polarisation_dependence_sim.PolarizationDependenceSim</a>
 , <a class="el" href="classslow__counter__dummy_1_1SlowCounterDummy.html#afc8a846dd3d8790130f01d999d8cccb9">slow_counter_dummy.SlowCounterDummy</a>
 , <a class="el" href="classslow__counter__interface_1_1SlowCounterInterface.html#a61e3656f391dfa937f6f2969355c79a5">slow_counter_interface.SlowCounterInterface</a>
@@ -321,6 +321,9 @@ $(function() {
 </li>
 <li>get_cv()
 : <a class="el" href="classpid__logic_1_1PIDLogic.html#a7ac805463927b7c5ef490ab599ad82e3">pid_logic.PIDLogic</a>
+</li>
+<li>get_daily_directory()
+: <a class="el" href="classsave__logic_1_1SaveLogic.html#a8c5f80c23913f96402d94ec4a83efe20">save_logic.SaveLogic</a>
 </li>
 <li>get_data()
 : <a class="el" href="classsingleshot__logic_1_1SingleShotLogic.html#aba86c69ce87bafe30d8e6670413e8ab3">singleshot_logic.SingleShotLogic</a>
@@ -388,21 +391,15 @@ $(function() {
 : <a class="el" href="classnuclear__operations__logic_1_1NuclearOperationsLogic.html#a242e1b62dd7ffc2d9129f03f9edb426c">nuclear_operations_logic.NuclearOperationsLogic</a>
 , <a class="el" href="classodmr__logic_1_1ODMRLogic.html#a6bd891e4c87592eb49ad86af42a49ef7">odmr_logic.ODMRLogic</a>
 , <a class="el" href="classtrace__analysis__logic_1_1TraceAnalysisLogic.html#ac013808b709d46a51235dcadd03c9952">trace_analysis_logic.TraceAnalysisLogic</a>
+, <a class="el" href="classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#a21326a2eb4ca8fdf60149fc9d57667db">wavemeter_logger_logic.WavemeterLoggerLogic</a>
 </li>
 <li>get_fluorescence_integration_time()
 : <a class="el" href="classmagnet__logic_1_1MagnetLogic.html#a0c7c0ebeee2e760048fb74afabc262e4">magnet_logic.MagnetLogic</a>
 </li>
 <li>get_frequency()
-: <a class="el" href="classmicrowave__interface_1_1MicrowaveInterface.html#a4095a5de4c2f27de88b1d947b13983c5">microwave_interface.MicrowaveInterface</a>
-, <a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#ae0b871b84ab1dbc4f65691c0a85c0f85">mw_source_agilent.MicrowaveAgilent</a>
-, <a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#a4474a09d29f61ba854ff8442a8b09ab3">mw_source_anritsu.MicrowaveAnritsu</a>
-, <a class="el" href="classmw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html#a7edfa510bad154798d8c9318bd7310d5">mw_source_anritsu70GHz.MicrowaveAnritsu70GHz</a>
-, <a class="el" href="classmw__source__dummy_1_1MicrowaveDummy.html#ab666df5b3b8dcee3b770f88d6163519c">mw_source_dummy.MicrowaveDummy</a>
-, <a class="el" href="classmw__source__gigatronics_1_1MicrowaveGigatronics.html#ae6c84f27a09da8674db584382c95631f">mw_source_gigatronics.MicrowaveGigatronics</a>
-, <a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#abeb38258668d1f16799b7aeec1819835">mw_source_smiq.MicrowaveSmiq</a>
-, <a class="el" href="classmw__source__smr20_1_1MicrowaveSMR20.html#a11dc4366f3c11d50e03a31eb0779b0e1">mw_source_smr20.MicrowaveSMR20</a>
+: <a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#ae0b871b84ab1dbc4f65691c0a85c0f85">mw_source_agilent.MicrowaveAgilent</a>
+, <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#a0db8b47e935f131c46fd73594cbc2654">mw_source_smr.MicrowaveSMR</a>
 , <a class="el" href="classmw__source__srssg_1_1MicrowaveSRSSG.html#aabd302298e7709a7c294083224c52381">mw_source_srssg.MicrowaveSRSSG</a>
-, <a class="el" href="classodmr__logic_1_1ODMRLogic.html#afc8f6b99601b4bdcc22ef5a70d53c5c1">odmr_logic.ODMRLogic</a>
 </li>
 <li>get_gated_counts()
 : <a class="el" href="classni__card_1_1NICard.html#a412e89ef7d0a305937c31eaf5f0924d2">ni_card.NICard</a>
@@ -422,10 +419,13 @@ $(function() {
 , <a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#afe74485f9050e18e3c2314f6ba3037bf">pulsed_master_logic.PulsedMasterLogic</a>
 </li>
 <li>get_home_dir()
-: <a class="el" href="classcore_1_1base_1_1Base.html#a2c4fc6b6a6391b37a8a9099b44f87ac7">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#ad4a7336ed63a2a0f4dc8210f0d4750e3">core.module.BaseMixin</a>
 </li>
 <li>get_home_parameter()
 : <a class="el" href="classaptmotor_1_1APTMotor.html#a84f9531d3ee01d6070aee72070329cd9">aptmotor.APTMotor</a>
+</li>
+<li>get_hw_constraints()
+: <a class="el" href="classodmr__logic_1_1ODMRLogic.html#afb59fb2ac5d7cb66d1da9932b7686582">odmr_logic.ODMRLogic</a>
 </li>
 <li>get_initial_value()
 : <a class="el" href="classcheckbox__delegate_1_1CheckBoxDelegate.html#ae2520b48ebb269ebe42c413b9c5bb309">checkbox_delegate.CheckBoxDelegate</a>
@@ -483,7 +483,7 @@ $(function() {
 , <a class="el" href="classmw__source__dummy_1_1MicrowaveDummy.html#a509d873d0a93e11ad79586caa761b4a8">mw_source_dummy.MicrowaveDummy</a>
 , <a class="el" href="classmw__source__gigatronics_1_1MicrowaveGigatronics.html#aced9cf91efa3f377a1dbbef253b66851">mw_source_gigatronics.MicrowaveGigatronics</a>
 , <a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#a3ef188453955c9083461d91799a9a872">mw_source_smiq.MicrowaveSmiq</a>
-, <a class="el" href="classmw__source__smr20_1_1MicrowaveSMR20.html#a8f37aa541c0f8b8d607677689fd7397f">mw_source_smr20.MicrowaveSMR20</a>
+, <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#a666754967b569426cbdf44ddeb242f72">mw_source_smr.MicrowaveSMR</a>
 </li>
 <li>get_loaded_asset()
 : <a class="el" href="classni__pulser_1_1NIPulser.html#a640182da7f735050f944feb307a1f9b2">ni_pulser.NIPulser</a>
@@ -506,14 +506,15 @@ $(function() {
 , <a class="el" href="classmagnet__motor__xyz__rot__interfuse_1_1MagnetMotorXYZROTInterfuse.html#a3650f7437a880521b45c30cc5bf7f0c5">magnet_motor_xyz_rot_interfuse.MagnetMotorXYZROTInterfuse</a>
 </li>
 <li>get_main_dir()
-: <a class="el" href="classcore_1_1base_1_1Base.html#ac916fdd306855cd57a77568ff8d93d4a">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#abd60d30e8e69928f207d72683c224fd3">core.module.BaseMixin</a>
 </li>
 <li>get_manual_value()
 : <a class="el" href="classpid__logic_1_1PIDLogic.html#aa0c98302163c157328315b4d245e0949">pid_logic.PIDLogic</a>
 , <a class="el" href="classsoftware__pid__controller_1_1SoftPIDController.html#a26494b1f9cad36ed3ab55611994b147b">software_pid_controller.SoftPIDController</a>
 </li>
 <li>get_matrix_cb_range()
-: <a class="el" href="classodmrgui_1_1ODMRGui.html#a4efb24e05d92fe526fc5757014f9cc31">odmrgui.ODMRGui</a>
+: <a class="el" href="classlaserscannergui_1_1VoltScanGui.html#aca425ebcf82c1814cc3276e049eef16a">laserscannergui.VoltScanGui</a>
+, <a class="el" href="classodmrgui_1_1ODMRGui.html#a4efb24e05d92fe526fc5757014f9cc31">odmrgui.ODMRGui</a>
 </li>
 <li>get_max_wavelength()
 : <a class="el" href="classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#a532105dd00f320e33c674bfe607690fb">wavemeter_logger_logic.WavemeterLoggerLogic</a>
@@ -532,6 +533,9 @@ $(function() {
 </li>
 <li>get_optimize_pos_freq()
 : <a class="el" href="classmagnet__logic_1_1MagnetLogic.html#a4b5c41a6885f4f73b8e398a016ac711c">magnet_logic.MagnetLogic</a>
+</li>
+<li>get_path_for_module()
+: <a class="el" href="classsave__logic_1_1SaveLogic.html#a815d72338eb091f6c7d071d60723ca92">save_logic.SaveLogic</a>
 </li>
 <li>get_poi_position()
 : <a class="el" href="classpoi__manager__logic_1_1PoiManagerLogic.html#a1accd080fb006ee917f0ff62447e9808">poi_manager_logic.PoiManagerLogic</a>
@@ -578,9 +582,8 @@ $(function() {
 , <a class="el" href="classmw__source__dummy_1_1MicrowaveDummy.html#a39062cc3f0d014693647558b07edf763">mw_source_dummy.MicrowaveDummy</a>
 , <a class="el" href="classmw__source__gigatronics_1_1MicrowaveGigatronics.html#a2943e0dd81a33e008e94fce44bf7680b">mw_source_gigatronics.MicrowaveGigatronics</a>
 , <a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#a7e8cb2c8a4dcc04648925f300715508b">mw_source_smiq.MicrowaveSmiq</a>
-, <a class="el" href="classmw__source__smr20_1_1MicrowaveSMR20.html#aab2b1c2276075f391669670a8c6294db">mw_source_smr20.MicrowaveSMR20</a>
+, <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#ac32db798c840ec04312d5304396f33df">mw_source_smr.MicrowaveSMR</a>
 , <a class="el" href="classmw__source__srssg_1_1MicrowaveSRSSG.html#abbd2af0ef92a09259c7d0fc442c17eb1">mw_source_srssg.MicrowaveSRSSG</a>
-, <a class="el" href="classodmr__logic_1_1ODMRLogic.html#a74f2775d39561332f3633a670c9407ac">odmr_logic.ODMRLogic</a>
 , <a class="el" href="classsimple__laser__dummy_1_1SimpleLaserDummy.html#a9b1d0cca2542e6e8303cc30ce8e84897">simple_laser_dummy.SimpleLaserDummy</a>
 , <a class="el" href="classsimple__laser__interface_1_1SimpleLaserInterface.html#a4c1bceb7471dfd6156969ca789f94889">simple_laser_interface.SimpleLaserInterface</a>
 </li>
@@ -726,6 +729,7 @@ $(function() {
 , <a class="el" href="classmotor__interface_1_1MotorInterface.html#a6d8ef6bbf5630cce4158955c571f1167">motor_interface.MotorInterface</a>
 , <a class="el" href="classmotor__stage__micos_1_1MotorStageMicos.html#ac0fddb3d9466304392ed063870830758">motor_stage_micos.MotorStageMicos</a>
 , <a class="el" href="classmotor__stage__pi_1_1MotorStagePI.html#aafda4a683b9821c1f089ef9a10bf73cc">motor_stage_pi.MotorStagePI</a>
+, <a class="el" href="classmw__source__smr_1_1MicrowaveSMR.html#a8f981175a6f119ac2b47825217fe6e3d">mw_source_smr.MicrowaveSMR</a>
 , <a class="el" href="classni__card_1_1NICard.html#a313f64947f81d58fbc86691a78a54162">ni_card.NICard</a>
 , <a class="el" href="classni__pulser_1_1NIPulser.html#abc98924ce1f41d6d1df0d48ff62fb72c">ni_pulser.NIPulser</a>
 , <a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#aea46c1288fafe1fdc3d5e6a1f30fb6f1">ok_fpga_pulser.OkFpgaPulser</a>
@@ -825,10 +829,10 @@ $(function() {
 , <a class="el" href="classsimple__data__interface_1_1SimpleDataInterface.html#aa9cb48d13edeaae1399da8f7f529f969">simple_data_interface.SimpleDataInterface</a>
 </li>
 <li>getConfigDirectory()
-: <a class="el" href="classcore_1_1base_1_1Base.html#abd114ca1eae6937163df8fa64e2214b7">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#ac257832ec45a69b5a3c044364d14b4c7">core.module.BaseMixin</a>
 </li>
 <li>getConfiguration()
-: <a class="el" href="classcore_1_1base_1_1Base.html#a2a672046de78d3f27ffc610aaa3e94b0">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#afd83da9a31c931a1e66b4527424feb4d">core.module.BaseMixin</a>
 </li>
 <li>getControlLimits()
 : <a class="el" href="classpi__pwm_1_1PiPWM.html#aea5083d8b9e2d9be236af51f4a2dbd5d">pi_pwm.PiPWM</a>
@@ -946,13 +950,13 @@ $(function() {
 : <a class="el" href="classmanagergui_1_1ManagerGui.html#a006dbb7563205996eb3e38d51f7f50b9">managergui.ManagerGui</a>
 </li>
 <li>getState()
-: <a class="el" href="classcore_1_1base_1_1Base.html#a2c0e0e92232cb1be45a1796d1c0289d9">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#ad0a79653c16b34419cc9dbbc5e8a4c8c">core.module.BaseMixin</a>
 </li>
 <li>getStatusDir()
 : <a class="el" href="classcore_1_1manager_1_1Manager.html#a7e53d538c04c778420ac93c973da4d5e">core.manager.Manager</a>
 </li>
 <li>getStatusVariables()
-: <a class="el" href="classcore_1_1base_1_1Base.html#ac68421854bf420e2065fff8fcebc08b5">core.base.Base</a>
+: <a class="el" href="classcore_1_1module_1_1BaseMixin.html#a4a9c816e36860770b6f0d74a7fc411c0">core.module.BaseMixin</a>
 </li>
 <li>getSwitchState()
 : <a class="el" href="classflipmirror_1_1FlipMirror.html#ac27a8b8e563d14d49fbefbb699d41034">flipmirror.FlipMirror</a>

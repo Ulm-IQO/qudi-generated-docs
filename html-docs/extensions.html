@@ -88,7 +88,7 @@ $(function() {
 <li><code>PYTHONPATH</code> environment variable</li>
 </ol>
 <p>In a configuration file an extension can be added by defining its directory to the <code>extensions</code> key in the <code>global</code> section.</p>
-<div class="fragment"><div class="line">[global]</div><div class="line">extensions = [&quot;path_to_extension_1&quot;, &quot;path_to_extension_2&quot;]</div></div><!-- fragment --><p>The path to the extension can be absolute or relative to the location of the configuration file. If the directory cannot be found an error is thrown and it is ignored.</p>
+<div class="fragment"><div class="line">global:</div><div class="line">    extensions:</div><div class="line">        - &quot;path_to_extension_1&quot;</div><div class="line">        - &quot;path_to_extension_2&quot;</div></div><!-- fragment --><p>The path to the extension can be absolute or relative to the location of the configuration file. If the directory cannot be found an error is thrown and it is ignored.</p>
 <p>An extension can also be added by defining its path to the <code>PYTHONPATH</code> environment variable. One way to do this is to start Qudi by <code>PYTHONPATH="path_to_extension_1" python qudi/start.py</code></p>
 <p>The search order is</p>
 <ol type="1">

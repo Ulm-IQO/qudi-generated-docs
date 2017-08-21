@@ -61,7 +61,7 @@ var searchData=
   ['ast_5fparse',['ast_parse',['../classcompilerop_1_1CachingCompiler.html#a8df85adfbfebc9744934f2b0fa7ca73c',1,'compilerop::CachingCompiler']]],
   ['autofind_5fpois',['autofind_pois',['../classpoi__manager__logic_1_1PoiManagerLogic.html#a8cc1e86342faf779989433d8c31b5b8f',1,'poi_manager_logic::PoiManagerLogic']]],
   ['automationgui',['AutomationGui',['../classautomationgui_1_1AutomationGui.html',1,'automationgui']]],
-  ['automationlogic',['AutomationLogic',['../classautomation_1_1AutomationLogic.html',1,'automation']]],
+  ['automationlogic',['AutomationLogic',['../classautomation_1_1AutomationLogic.html',1,'automation.AutomationLogic'],['../classautomationgui_1_1AutomationGui.html#ac5af107787bfadc651ea6a806fe36c81',1,'automationgui.AutomationGui.automationlogic()']]],
   ['automationmainwindow',['AutomationMainWindow',['../classautomationgui_1_1AutomationMainWindow.html',1,'automationgui']]],
   ['autotooltipdelegate',['AutoToolTipDelegate',['../classlogwidget_1_1AutoToolTipDelegate.html',1,'logwidget']]],
   ['awg5002c',['AWG5002C',['../classtektronix__awg5002c_1_1AWG5002C.html',1,'tektronix_awg5002c']]],

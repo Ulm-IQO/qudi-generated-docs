@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['base',['Base',['../classcore_1_1base_1_1Base.html',1,'core::base']]],
+  ['base',['Base',['../classcore_1_1module_1_1Base.html',1,'core::module']]],
+  ['basemixin',['BaseMixin',['../classcore_1_1module_1_1BaseMixin.html',1,'core::module']]],
   ['beat',['beat',['../classqzmqkernel_1_1QZMQHeartbeat.html#a917f53fc8d4f65fede632a6bd72ebf79',1,'qzmqkernel::QZMQHeartbeat']]],
   ['betapulsestreamerservicer',['BetaPulseStreamerServicer',['../classpulse__streamer__pb2_1_1BetaPulseStreamerServicer.html',1,'pulse_streamer_pb2']]],
   ['betapulsestreamerstub',['BetaPulseStreamerStub',['../classpulse__streamer__pb2_1_1BetaPulseStreamerStub.html',1,'pulse_streamer_pb2']]],
@@ -12,7 +13,7 @@ var searchData=
   ['blockeditor',['BlockEditor',['../classpulse__editors_1_1BlockEditor.html',1,'pulse_editors']]],
   ['blockorganizer',['BlockOrganizer',['../classpulse__editors_1_1BlockOrganizer.html',1,'pulse_editors']]],
   ['boundingrect',['boundingRect',['../classguiutils_1_1ColorBar.html#a3dc43e81479655cf384dcdb8c4fe1374',1,'guiutils::ColorBar']]],
-  ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#aab2fb9b95229f5f6f0d083156f55072b',1,'config_gui::menu::ModMenu']]],
+  ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#a0c389f71d0616f15765568ff1d174ac8',1,'config_gui::menu::ModMenu']]],
   ['buildcurrentfits',['buildCurrentFits',['../classfitsettings_1_1FitSettingsDialog.html#a6c16ab5bf577aa6385c100979b9afe92',1,'fitsettings::FitSettingsDialog']]],
   ['buildfeaturelist',['buildFeatureList',['../classlightfield__spectrometer_1_1Lightfield.html#a7a4a6ffd80d79371b70bd399487574df',1,'lightfield_spectrometer::Lightfield']]],
   ['builtintrap',['BuiltinTrap',['../classbuiltin__trap_1_1BuiltinTrap.html',1,'builtin_trap']]],

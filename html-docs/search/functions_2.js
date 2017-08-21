@@ -7,7 +7,7 @@ var searchData=
   ['block_5fdel_5flast_5fclicked',['block_del_last_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a619c2edc1a572d8abf84ff5e11974dc6',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['block_5fdel_5fsel_5fclicked',['block_del_sel_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a2761158d787710aa5a8e3c6ab4136d29',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['boundingrect',['boundingRect',['../classguiutils_1_1ColorBar.html#a3dc43e81479655cf384dcdb8c4fe1374',1,'guiutils::ColorBar']]],
-  ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#aab2fb9b95229f5f6f0d083156f55072b',1,'config_gui::menu::ModMenu']]],
+  ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#a0c389f71d0616f15765568ff1d174ac8',1,'config_gui::menu::ModMenu']]],
   ['buildcurrentfits',['buildCurrentFits',['../classfitsettings_1_1FitSettingsDialog.html#a6c16ab5bf577aa6385c100979b9afe92',1,'fitsettings::FitSettingsDialog']]],
   ['buildfeaturelist',['buildFeatureList',['../classlightfield__spectrometer_1_1Lightfield.html#a7a4a6ffd80d79371b70bd399487574df',1,'lightfield_spectrometer::Lightfield']]],
   ['buttonclicked',['buttonClicked',['../classfitsettings_1_1FitSettingsDialog.html#a1505dc2f68676bd5944170bba0ac6173',1,'fitsettings::FitSettingsDialog']]],

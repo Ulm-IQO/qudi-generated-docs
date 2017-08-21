@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['my_5fcolors',['my_colors',['../classconfocalgui_1_1ConfocalGui.html#a9b1e35eb1295c972e0f14536bb7fe8f7',1,'confocalgui::ConfocalGui']]]
+  ['decopts',['decOpts',['../classSpinBox_1_1SpinBox.html#ad30e7bf94b37d08dda70986d43d6779a',1,'SpinBox::SpinBox']]]
 ];

@@ -4,22 +4,21 @@
 <area shape="rect" id="node7" href="$classcountergui_1_1CounterGui.html" title="FIXME Please document. " alt="" coords="183,112,335,141"/>
 <area shape="rect" id="node9" href="$classgated__counter__gui_1_1GatedCounterGui.html" title="Main GUI for the Gated Counting. " alt="" coords="143,165,375,195"/>
 <area shape="rect" id="node11" href="$classlaser_1_1LaserGUI.html" title="FIXME Please document. " alt="" coords="204,219,313,248"/>
-<area shape="rect" id="node13" href="$classlaserscangui_1_1LaserScanningGui.html" title="laserscangui.LaserScanningGui" alt="" coords="156,272,361,301"/>
-<area shape="rect" id="node15" href="$classlaserscannergui_1_1VoltScanGui.html" title="This is the GUI Class for ODMR. " alt="" coords="164,325,353,355"/>
-<area shape="rect" id="node17" href="$classmagnet__gui_1_1MagnetGui.html" title="Main GUI for the magnet. " alt="" coords="181,379,336,408"/>
-<area shape="rect" id="node19" href="$classmanagergui_1_1ManagerGui.html" title="This class provides a GUI to the Qudi manager. " alt="" coords="177,432,340,461"/>
-<area shape="rect" id="node21" href="$classnuclear__operations_1_1NuclearOperationsGui.html" title="This is the main GUI Class for Nuclear Operations. " alt="" coords="169,485,348,531"/>
-<area shape="rect" id="node23" href="$classodmrgui_1_1ODMRGui.html" title="This is the GUI Class for ODMR measurements. " alt="" coords="192,555,325,584"/>
-<area shape="rect" id="node25" href="$classpidgui_1_1PIDGui.html" title="FIXME Please document. " alt="" coords="208,608,309,637"/>
-<area shape="rect" id="node27" href="$classpoimangui_1_1PoiManagerGui.html" title="This is the GUI Class for PoiManager. " alt="" coords="172,661,345,691"/>
-<area shape="rect" id="node29" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalGui.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalGui" alt="" coords="151,714,367,761"/>
-<area shape="rect" id="node31" href="$classpulsed__maingui_1_1PulsedMeasurementGui.html" title="This is the main GUI Class for pulsed measurements. " alt="" coords="132,784,385,813"/>
-<area shape="rect" id="node33" href="$classqdplottergui_1_1QdplotterGui.html" title="FIXME Please document. " alt="" coords="176,837,341,867"/>
-<area shape="rect" id="node35" href="$classsimpledatagui_1_1SimpleDataGui.html" title="FIXME Please document. " alt="" coords="161,891,356,920"/>
-<area shape="rect" id="node37" href="$classspectrometergui_1_1SpectrometerGui.html" title="spectrometergui.SpectrometerGui" alt="" coords="151,944,367,973"/>
-<area shape="rect" id="node39" href="$classswitchgui_1_1SwitchGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="188,997,329,1027"/>
-<area shape="rect" id="node41" href="$classtaskgui_1_1TaskGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="200,1051,317,1080"/>
-<area shape="rect" id="node43" href="$classtestgui_1_1TestGui.html" title="A class to test gui module loading. " alt="" coords="204,1104,313,1133"/>
-<area shape="rect" id="node45" href="$classtrayicon_1_1TrayIcon.html" title="This module contains a tray icon implementation for Qudi. " alt="" coords="197,1157,320,1187"/>
-<area shape="rect" id="node47" href="$classwavemeterloggui_1_1WavemeterLogGui.html" title="wavemeterloggui.Wavemeter\lLogGui" alt="" coords="164,1210,353,1257"/>
+<area shape="rect" id="node13" href="$classlaserscannergui_1_1VoltScanGui.html" title="laserscannergui.VoltScanGui" alt="" coords="164,272,353,301"/>
+<area shape="rect" id="node15" href="$classmagnet__gui_1_1MagnetGui.html" title="Main GUI for the magnet. " alt="" coords="181,325,336,355"/>
+<area shape="rect" id="node17" href="$classmanagergui_1_1ManagerGui.html" title="This class provides a GUI to the Qudi manager. " alt="" coords="177,379,340,408"/>
+<area shape="rect" id="node19" href="$classnuclear__operations_1_1NuclearOperationsGui.html" title="This is the main GUI Class for Nuclear Operations. " alt="" coords="169,431,348,478"/>
+<area shape="rect" id="node21" href="$classodmrgui_1_1ODMRGui.html" title="This is the GUI Class for ODMR measurements. " alt="" coords="192,501,325,531"/>
+<area shape="rect" id="node23" href="$classpidgui_1_1PIDGui.html" title="FIXME Please document. " alt="" coords="208,555,309,584"/>
+<area shape="rect" id="node25" href="$classpoimangui_1_1PoiManagerGui.html" title="This is the GUI Class for PoiManager. " alt="" coords="172,608,345,637"/>
+<area shape="rect" id="node27" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalGui.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalGui" alt="" coords="151,661,367,707"/>
+<area shape="rect" id="node29" href="$classpulsed__maingui_1_1PulsedMeasurementGui.html" title="This is the main GUI Class for pulsed measurements. " alt="" coords="132,731,385,760"/>
+<area shape="rect" id="node31" href="$classqdplottergui_1_1QdplotterGui.html" title="FIXME Please document. " alt="" coords="176,784,341,813"/>
+<area shape="rect" id="node33" href="$classsimpledatagui_1_1SimpleDataGui.html" title="FIXME Please document. " alt="" coords="161,837,356,867"/>
+<area shape="rect" id="node35" href="$classspectrometergui_1_1SpectrometerGui.html" title="spectrometergui.SpectrometerGui" alt="" coords="151,891,367,920"/>
+<area shape="rect" id="node37" href="$classswitchgui_1_1SwitchGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="188,944,329,973"/>
+<area shape="rect" id="node39" href="$classtaskgui_1_1TaskGui.html" title="A grephical interface to mofe switches by hand and change their calibration. " alt="" coords="200,997,317,1027"/>
+<area shape="rect" id="node41" href="$classtestgui_1_1TestGui.html" title="A class to test gui module loading. " alt="" coords="204,1051,313,1080"/>
+<area shape="rect" id="node43" href="$classtrayicon_1_1TrayIcon.html" title="This module contains a tray icon implementation for Qudi. " alt="" coords="197,1104,320,1133"/>
+<area shape="rect" id="node45" href="$classwavemeterloggui_1_1WavemeterLogGui.html" title="wavemeterloggui.Wavemeter\lLogGui" alt="" coords="164,1157,353,1203"/>
 </map>

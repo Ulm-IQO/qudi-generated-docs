@@ -5,20 +5,19 @@
 <area shape="rect" id="node9" href="$classcountergui_1_1CounterMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="175,213,380,243"/>
 <area shape="rect" id="node11" href="$classgated__counter__gui_1_1GatedCounterMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="171,266,384,313"/>
 <area shape="rect" id="node13" href="$classlaser_1_1LaserWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="211,336,344,365"/>
-<area shape="rect" id="node15" href="$classlaserscangui_1_1LaserScanWindow.html" title="laserscangui.LaserScanWindow" alt="" coords="173,389,381,419"/>
-<area shape="rect" id="node17" href="$classlaserscannergui_1_1VoltScanMainWindow.html" title="laserscannergui.VoltScan\lMainWindow" alt="" coords="192,442,363,489"/>
-<area shape="rect" id="node19" href="$classmagnet__gui_1_1MagnetMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="172,512,383,541"/>
-<area shape="rect" id="node21" href="$classmanagergui_1_1ManagerMainWindow.html" title="This class represents the Manager Window. " alt="" coords="168,565,387,595"/>
-<area shape="rect" id="node23" href="$classnuclear__operations_1_1NuclearOperationsMainWindow.html" title="nuclear_operations.Nuclear\lOperationsMainWindow" alt="" coords="188,618,367,665"/>
-<area shape="rect" id="node25" href="$classodmrgui_1_1ODMRMainWindow.html" title="The main window for the ODMR measurement GUI. " alt="" coords="184,688,371,717"/>
-<area shape="rect" id="node27" href="$classpidgui_1_1PIDMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="199,741,356,771"/>
-<area shape="rect" id="node29" href="$classpoimangui_1_1PoiManagerMainWindow.html" title="poimangui.PoiManagerMain\lWindow" alt="" coords="187,794,368,841"/>
-<area shape="rect" id="node31" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalMainWindow.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalMain\lWindow" alt="" coords="165,864,389,928"/>
-<area shape="rect" id="node33" href="$classpulsed__maingui_1_1PulsedMeasurementMainWindow.html" title="pulsed_maingui.PulsedMeasurement\lMainWindow" alt="" coords="160,951,395,998"/>
-<area shape="rect" id="node35" href="$classqdplottergui_1_1QdplotMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="175,1021,380,1051"/>
-<area shape="rect" id="node37" href="$classsimpledatagui_1_1SimpleMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="191,1074,364,1121"/>
-<area shape="rect" id="node39" href="$classspectrometergui_1_1SpectrometerWindow.html" title="spectrometergui.Spectrometer\lWindow" alt="" coords="179,1143,376,1190"/>
-<area shape="rect" id="node41" href="$classswitchgui_1_1SwitchMainWindow.html" title="Helper class for window loaded from UI file. " alt="" coords="180,1213,375,1243"/>
-<area shape="rect" id="node43" href="$classtaskgui_1_1TaskMainWindow.html" title="Helper class for window loaded from UI file. " alt="" coords="192,1267,363,1296"/>
-<area shape="rect" id="node45" href="$classwavemeterloggui_1_1WavemeterLogWindow.html" title="wavemeterloggui.Wavemeter\lLogWindow" alt="" coords="183,1319,372,1366"/>
+<area shape="rect" id="node15" href="$classlaserscannergui_1_1VoltScanMainWindow.html" title="laserscannergui.VoltScan\lMainWindow" alt="" coords="192,389,363,435"/>
+<area shape="rect" id="node17" href="$classmagnet__gui_1_1MagnetMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="172,459,383,488"/>
+<area shape="rect" id="node19" href="$classmanagergui_1_1ManagerMainWindow.html" title="This class represents the Manager Window. " alt="" coords="168,512,387,541"/>
+<area shape="rect" id="node21" href="$classnuclear__operations_1_1NuclearOperationsMainWindow.html" title="nuclear_operations.Nuclear\lOperationsMainWindow" alt="" coords="188,565,367,611"/>
+<area shape="rect" id="node23" href="$classodmrgui_1_1ODMRMainWindow.html" title="The main window for the ODMR measurement GUI. " alt="" coords="184,635,371,664"/>
+<area shape="rect" id="node25" href="$classpidgui_1_1PIDMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="199,688,356,717"/>
+<area shape="rect" id="node27" href="$classpoimangui_1_1PoiManagerMainWindow.html" title="poimangui.PoiManagerMain\lWindow" alt="" coords="187,741,368,787"/>
+<area shape="rect" id="node29" href="$classpulsed__extraction__external__gui_1_1PulsedExtractionExternalMainWindow.html" title="pulsed_extraction_external\l_gui.PulsedExtractionExternalMain\lWindow" alt="" coords="165,811,389,875"/>
+<area shape="rect" id="node31" href="$classpulsed__maingui_1_1PulsedMeasurementMainWindow.html" title="pulsed_maingui.PulsedMeasurement\lMainWindow" alt="" coords="160,898,395,945"/>
+<area shape="rect" id="node33" href="$classqdplottergui_1_1QdplotMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="175,968,380,997"/>
+<area shape="rect" id="node35" href="$classsimpledatagui_1_1SimpleMainWindow.html" title="Create the Main Window based on the *.ui file. " alt="" coords="191,1021,364,1067"/>
+<area shape="rect" id="node37" href="$classspectrometergui_1_1SpectrometerWindow.html" title="spectrometergui.Spectrometer\lWindow" alt="" coords="179,1090,376,1137"/>
+<area shape="rect" id="node39" href="$classswitchgui_1_1SwitchMainWindow.html" title="Helper class for window loaded from UI file. " alt="" coords="180,1160,375,1189"/>
+<area shape="rect" id="node41" href="$classtaskgui_1_1TaskMainWindow.html" title="Helper class for window loaded from UI file. " alt="" coords="192,1213,363,1243"/>
+<area shape="rect" id="node43" href="$classwavemeterloggui_1_1WavemeterLogWindow.html" title="wavemeterloggui.Wavemeter\lLogWindow" alt="" coords="183,1266,372,1313"/>
 </map>

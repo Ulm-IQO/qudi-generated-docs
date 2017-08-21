@@ -6,5 +6,6 @@ var searchData=
   ['generatorsettingsdialog',['GeneratorSettingsDialog',['../classpulsed__maingui_1_1GeneratorSettingsDialog.html',1,'pulsed_maingui']]],
   ['genericlogic',['GenericLogic',['../classgeneric__logic_1_1GenericLogic.html',1,'generic_logic']]],
   ['gui',['Gui',['../classcore_1_1gui_1_1Gui.html',1,'core::gui']]],
-  ['guibase',['GUIBase',['../classguibase_1_1GUIBase.html',1,'guibase']]]
+  ['guibase',['GUIBase',['../classguibase_1_1GUIBase.html',1,'guibase']]],
+  ['guibasemixin',['GUIBaseMixin',['../classguibase_1_1GUIBaseMixin.html',1,'guibase']]]
 ];

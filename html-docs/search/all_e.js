@@ -11,6 +11,5 @@ var searchData=
   ['nuclearoperationsgui',['NuclearOperationsGui',['../classnuclear__operations_1_1NuclearOperationsGui.html',1,'nuclear_operations']]],
   ['nuclearoperationslogic',['NuclearOperationsLogic',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html',1,'nuclear_operations_logic']]],
   ['nuclearoperationsmainwindow',['NuclearOperationsMainWindow',['../classnuclear__operations_1_1NuclearOperationsMainWindow.html',1,'nuclear_operations']]],
-  ['num_5fbins_5fchanged',['num_bins_changed',['../classgated__counter__gui_1_1GatedCounterGui.html#a68d52f1d477a5331c05eda40afec3731',1,'gated_counter_gui::GatedCounterGui']]],
-  ['number_5fof_5frepeats',['number_of_repeats',['../classlaser__scanner__logic_1_1LaserScannerLogic.html#a41f3cd878f868717b301574635f72b27',1,'laser_scanner_logic::LaserScannerLogic']]]
+  ['num_5fbins_5fchanged',['num_bins_changed',['../classgated__counter__gui_1_1GatedCounterGui.html#a68d52f1d477a5331c05eda40afec3731',1,'gated_counter_gui::GatedCounterGui']]]
 ];

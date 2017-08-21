@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['number_5fof_5frepeats',['number_of_repeats',['../classlaser__scanner__logic_1_1LaserScannerLogic.html#a41f3cd878f868717b301574635f72b27',1,'laser_scanner_logic::LaserScannerLogic']]]
+  ['gatedcounterlogic1',['gatedcounterlogic1',['../classgated__counter__gui_1_1GatedCounterGui.html#a2329c47ec521b12f82aa18dc60d9e31e',1,'gated_counter_gui::GatedCounterGui']]]
 ];

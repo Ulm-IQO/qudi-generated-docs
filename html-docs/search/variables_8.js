@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['textvalid',['textValid',['../classSpinBox_1_1SpinBox.html#a28cc463d6026d21aa49d105e46c527ab',1,'SpinBox::SpinBox']]]
+  ['roi_5fxy_5fimage_5fdata',['roi_xy_image_data',['../classpoimangui_1_1PoiManagerGui.html#a94e2721ea5dd15212eafaa34fe58761e',1,'poimangui::PoiManagerGui']]]
 ];

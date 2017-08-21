@@ -65,14 +65,12 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classlaserscannergui_1_1VoltScanGui-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">laserscannergui.VoltScanGui Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the GUI Class for ODMR.  
- <a href="classlaserscannergui_1_1VoltScanGui.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for laserscannergui.VoltScanGui:</div>
 <div class="dyncontent">
@@ -90,30 +88,25 @@ Collaboration diagram for laserscannergui.VoltScanGui:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5b4d356d851ed3a6c31998e87f10452d"><td class="memItemLeft" align="right" valign="top"><a id="a5b4d356d851ed3a6c31998e87f10452d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, config, kwargs)</td></tr>
-<tr class="separator:a5b4d356d851ed3a6c31998e87f10452d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b703667de667a2ea6c220e425062b1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#ab8b703667de667a2ea6c220e425062b1">on_deactivate</a> (self)</td></tr>
 <tr class="memdesc:ab8b703667de667a2ea6c220e425062b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse steps of activation.  <a href="#ab8b703667de667a2ea6c220e425062b1">More...</a><br /></td></tr>
 <tr class="separator:ab8b703667de667a2ea6c220e425062b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e9c305928e292da966e460234d34436"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a3e9c305928e292da966e460234d34436">on_activate</a> (self)</td></tr>
-<tr class="memdesc:a3e9c305928e292da966e460234d34436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition, configuration and initialisation of the ODMR GUI.  <a href="#a3e9c305928e292da966e460234d34436">More...</a><br /></td></tr>
+<tr class="memitem:a3e9c305928e292da966e460234d34436"><td class="memItemLeft" align="right" valign="top"><a id="a3e9c305928e292da966e460234d34436"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>on_activate</b> (self)</td></tr>
 <tr class="separator:a3e9c305928e292da966e460234d34436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af144016565339884d1fa4eb219030398"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#af144016565339884d1fa4eb219030398">show</a> (self)</td></tr>
 <tr class="memdesc:af144016565339884d1fa4eb219030398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make window visible and put it above all other windows.  <a href="#af144016565339884d1fa4eb219030398">More...</a><br /></td></tr>
 <tr class="separator:af144016565339884d1fa4eb219030398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f5daf3d1ff3e4d54593e59efb8e6fae"><td class="memItemLeft" align="right" valign="top"><a id="a9f5daf3d1ff3e4d54593e59efb8e6fae"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a9f5daf3d1ff3e4d54593e59efb8e6fae">run_stop</a> (self, is_checked)</td></tr>
-<tr class="memdesc:a9f5daf3d1ff3e4d54593e59efb8e6fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages what happens if odmr scan is started/stopped. <br /></td></tr>
+<tr class="memdesc:a9f5daf3d1ff3e4d54593e59efb8e6fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages what happens if scan is started/stopped. <br /></td></tr>
 <tr class="separator:a9f5daf3d1ff3e4d54593e59efb8e6fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac03c5f204cf7b8fa0578d0ff1c225bd6"><td class="memItemLeft" align="right" valign="top"><a id="ac03c5f204cf7b8fa0578d0ff1c225bd6"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#ac03c5f204cf7b8fa0578d0ff1c225bd6">odmr_stopped</a> (self)</td></tr>
-<tr class="memdesc:ac03c5f204cf7b8fa0578d0ff1c225bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch the run/stop button to stop after receiving an odmr_stoped signal. <br /></td></tr>
-<tr class="separator:ac03c5f204cf7b8fa0578d0ff1c225bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8462d19f19632eddb51af9ccfbacf688"><td class="memItemLeft" align="right" valign="top"><a id="a8462d19f19632eddb51af9ccfbacf688"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a8462d19f19632eddb51af9ccfbacf688">menue_settings</a> (self)</td></tr>
-<tr class="memdesc:a8462d19f19632eddb51af9ccfbacf688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the settings menue. <br /></td></tr>
-<tr class="separator:a8462d19f19632eddb51af9ccfbacf688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a213a50a14e9714c767c0899be6ec7075"><td class="memItemLeft" align="right" valign="top"><a id="a213a50a14e9714c767c0899be6ec7075"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>scan_started</b> (self)</td></tr>
+<tr class="separator:a213a50a14e9714c767c0899be6ec7075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada94ed9becf81665271cfc6deb7bcaf3"><td class="memItemLeft" align="right" valign="top"><a id="ada94ed9becf81665271cfc6deb7bcaf3"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>scan_stopped</b> (self)</td></tr>
+<tr class="separator:ada94ed9becf81665271cfc6deb7bcaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4585daef77cc890e006355aa23be6c70"><td class="memItemLeft" align="right" valign="top"><a id="a4585daef77cc890e006355aa23be6c70"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a4585daef77cc890e006355aa23be6c70">refresh_plot</a> (self)</td></tr>
 <tr class="memdesc:a4585daef77cc890e006355aa23be6c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh the xy-plot image. <br /></td></tr>
@@ -122,87 +115,95 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a9a9483fbea2f14986a62ae06569e2d4c">refresh_matrix</a> (self)</td></tr>
 <tr class="memdesc:a9a9483fbea2f14986a62ae06569e2d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh the xy-matrix image. <br /></td></tr>
 <tr class="separator:a9a9483fbea2f14986a62ae06569e2d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a011c8a09dd63794fff01f686289191d3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a011c8a09dd63794fff01f686289191d3">refresh_odmr_colorbar</a> (self)</td></tr>
-<tr class="memdesc:a011c8a09dd63794fff01f686289191d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the colorbar to a new scaling.  <a href="#a011c8a09dd63794fff01f686289191d3">More...</a><br /></td></tr>
-<tr class="separator:a011c8a09dd63794fff01f686289191d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29528a0c458a40c639b97daa6161f3a3"><td class="memItemLeft" align="right" valign="top"><a id="a29528a0c458a40c639b97daa6161f3a3"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>refresh_elapsedtime</b> (self)</td></tr>
-<tr class="separator:a29528a0c458a40c639b97daa6161f3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af74d2021d2eb5a7bbbad43e8e694b4f1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#af74d2021d2eb5a7bbbad43e8e694b4f1">update_settings</a> (self)</td></tr>
-<tr class="memdesc:af74d2021d2eb5a7bbbad43e8e694b4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the new settings from the gui to the file.  <a href="#af74d2021d2eb5a7bbbad43e8e694b4f1">More...</a><br /></td></tr>
-<tr class="separator:af74d2021d2eb5a7bbbad43e8e694b4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6248a6c9425f37777ca0e3a00790c1e"><td class="memItemLeft" align="right" valign="top"><a id="ab6248a6c9425f37777ca0e3a00790c1e"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>update_fit_variable</b> (self, txt)</td></tr>
-<tr class="separator:ab6248a6c9425f37777ca0e3a00790c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d1185d968178622d61858e64f7cc764"><td class="memItemLeft" align="right" valign="top"><a id="a7d1185d968178622d61858e64f7cc764"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>update_fit</b> (self)</td></tr>
-<tr class="separator:a7d1185d968178622d61858e64f7cc764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9b42ebb82033413da73b7d5bae222ab"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#aa9b42ebb82033413da73b7d5bae222ab">reject_settings</a> (self)</td></tr>
-<tr class="memdesc:aa9b42ebb82033413da73b7d5bae222ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keep the old settings and restores the old settings in the gui.  <a href="#aa9b42ebb82033413da73b7d5bae222ab">More...</a><br /></td></tr>
-<tr class="separator:aa9b42ebb82033413da73b7d5bae222ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacee31f627a09373d6ed987ffc5b6ab6"><td class="memItemLeft" align="right" valign="top"><a id="aacee31f627a09373d6ed987ffc5b6ab6"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>mw_stop</b> (self, txt)</td></tr>
-<tr class="separator:aacee31f627a09373d6ed987ffc5b6ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cefebf7d345e6bf9d4b72c1c956e0e2"><td class="memItemLeft" align="right" valign="top"><a id="a9cefebf7d345e6bf9d4b72c1c956e0e2"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a9cefebf7d345e6bf9d4b72c1c956e0e2">change_frequency</a> (self)</td></tr>
-<tr class="memdesc:a9cefebf7d345e6bf9d4b72c1c956e0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change Methods ##. <br /></td></tr>
-<tr class="separator:a9cefebf7d345e6bf9d4b72c1c956e0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6974ba4a134a7931951bf4d1f72642b"><td class="memItemLeft" align="right" valign="top"><a id="ac6974ba4a134a7931951bf4d1f72642b"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>change_start_freq</b> (self)</td></tr>
-<tr class="separator:ac6974ba4a134a7931951bf4d1f72642b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac56c61a52c2c518ac51a428f67f5c3b1"><td class="memItemLeft" align="right" valign="top"><a id="ac56c61a52c2c518ac51a428f67f5c3b1"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>change_step_freq</b> (self)</td></tr>
-<tr class="separator:ac56c61a52c2c518ac51a428f67f5c3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c4c57d82fe59a682ea9bb3d7b77caf3"><td class="memItemLeft" align="right" valign="top"><a id="a8c4c57d82fe59a682ea9bb3d7b77caf3"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>change_stop_freq</b> (self)</td></tr>
-<tr class="separator:a8c4c57d82fe59a682ea9bb3d7b77caf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0999dd6a1e4275b446dd619202c762"><td class="memItemLeft" align="right" valign="top"><a id="a7a0999dd6a1e4275b446dd619202c762"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>change_power</b> (self)</td></tr>
-<tr class="separator:a7a0999dd6a1e4275b446dd619202c762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d25a06a9c71df20770b0c562997dc38"><td class="memItemLeft" align="right" valign="top"><a id="a8d25a06a9c71df20770b0c562997dc38"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>change_runtime</b> (self)</td></tr>
-<tr class="separator:a8d25a06a9c71df20770b0c562997dc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f23226fdb9554fb1308387f29564617"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a1f23226fdb9554fb1308387f29564617">refresh_scan_colorbar</a> (self)</td></tr>
+<tr class="memdesc:a1f23226fdb9554fb1308387f29564617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the colorbar to a new scaling.  <a href="#a1f23226fdb9554fb1308387f29564617">More...</a><br /></td></tr>
+<tr class="separator:a1f23226fdb9554fb1308387f29564617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22af3888fb5eaa2a4422bc4af8b8e776"><td class="memItemLeft" align="right" valign="top"><a id="a22af3888fb5eaa2a4422bc4af8b8e776"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>refresh_lines</b> (self)</td></tr>
+<tr class="separator:a22af3888fb5eaa2a4422bc4af8b8e776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628a56685d7430ef888f5263851455c2"><td class="memItemLeft" align="right" valign="top"><a id="a628a56685d7430ef888f5263851455c2"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_voltage</b> (self)</td></tr>
+<tr class="separator:a628a56685d7430ef888f5263851455c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc86b96ee558a2eb80bda54de1dbd7e4"><td class="memItemLeft" align="right" valign="top"><a id="abc86b96ee558a2eb80bda54de1dbd7e4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_start_volt</b> (self)</td></tr>
+<tr class="separator:abc86b96ee558a2eb80bda54de1dbd7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a00e1b7dc3830f32f627359b3d07b8"><td class="memItemLeft" align="right" valign="top"><a id="a90a00e1b7dc3830f32f627359b3d07b8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_speed</b> (self)</td></tr>
+<tr class="separator:a90a00e1b7dc3830f32f627359b3d07b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c5debb6bdba4b3cd30c8507c54d84c"><td class="memItemLeft" align="right" valign="top"><a id="a39c5debb6bdba4b3cd30c8507c54d84c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_stop_volt</b> (self)</td></tr>
+<tr class="separator:a39c5debb6bdba4b3cd30c8507c54d84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1815baab92a4a98ba233c28026399f0"><td class="memItemLeft" align="right" valign="top"><a id="ac1815baab92a4a98ba233c28026399f0"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_lines</b> (self)</td></tr>
+<tr class="separator:ac1815baab92a4a98ba233c28026399f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa445f30a37e1f484163c3172b1fb07b"><td class="memItemLeft" align="right" valign="top"><a id="afa445f30a37e1f484163c3172b1fb07b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_resolution</b> (self)</td></tr>
+<tr class="separator:afa445f30a37e1f484163c3172b1fb07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca425ebcf82c1814cc3276e049eef16a"><td class="memItemLeft" align="right" valign="top"><a id="aca425ebcf82c1814cc3276e049eef16a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#aca425ebcf82c1814cc3276e049eef16a">get_matrix_cb_range</a> (self)</td></tr>
+<tr class="memdesc:aca425ebcf82c1814cc3276e049eef16a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the cb_min and cb_max values for the matrix plot. <br /></td></tr>
+<tr class="separator:aca425ebcf82c1814cc3276e049eef16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94ed9af3d63a580807fa615824209cb"><td class="memItemLeft" align="right" valign="top"><a id="af94ed9af3d63a580807fa615824209cb"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#af94ed9af3d63a580807fa615824209cb">save_data</a> (self)</td></tr>
+<tr class="memdesc:af94ed9af3d63a580807fa615824209cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the sum plot, the scan marix plot and the scan data. <br /></td></tr>
+<tr class="separator:af94ed9af3d63a580807fa615824209cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0deb71512ba77fdfbeaa40448a998eba"><td class="memItemLeft" align="right" valign="top"><a id="a0deb71512ba77fdfbeaa40448a998eba"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>odmr_matrix_image</b></td></tr>
-<tr class="separator:a0deb71512ba77fdfbeaa40448a998eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad324cc674ccd75830dd19467bae47dfc"><td class="memItemLeft" align="right" valign="top"><a id="ad324cc674ccd75830dd19467bae47dfc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>odmr_image</b></td></tr>
-<tr class="separator:ad324cc674ccd75830dd19467bae47dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab20b0812ea7ac95a3a98b646dd692517"><td class="memItemLeft" align="right" valign="top"><a id="ab20b0812ea7ac95a3a98b646dd692517"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>odmr_fit_image</b></td></tr>
-<tr class="separator:ab20b0812ea7ac95a3a98b646dd692517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d82c460c12c3f08bde0bc53b7088c94"><td class="memItemLeft" align="right" valign="top"><a id="a6d82c460c12c3f08bde0bc53b7088c94"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a6d82c460c12c3f08bde0bc53b7088c94">odmr_cb</a></td></tr>
-<tr class="memdesc:a6d82c460c12c3f08bde0bc53b7088c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the Colorbar ##. <br /></td></tr>
-<tr class="separator:a6d82c460c12c3f08bde0bc53b7088c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1980b9bef7a97e0f3b7252f3e9736ab7"><td class="memItemLeft" align="right" valign="top"><a id="a1980b9bef7a97e0f3b7252f3e9736ab7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>scan_matrix_image</b></td></tr>
+<tr class="separator:a1980b9bef7a97e0f3b7252f3e9736ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2101a4e5c160e68f6309dddb5779cf56"><td class="memItemLeft" align="right" valign="top"><a id="a2101a4e5c160e68f6309dddb5779cf56"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>scan_matrix_image2</b></td></tr>
+<tr class="separator:a2101a4e5c160e68f6309dddb5779cf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79350373d32aa9486432379834940d3c"><td class="memItemLeft" align="right" valign="top"><a id="a79350373d32aa9486432379834940d3c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>scan_image</b></td></tr>
+<tr class="separator:a79350373d32aa9486432379834940d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940520f4bb1e3bf517c3fb8c0f1c8f08"><td class="memItemLeft" align="right" valign="top"><a id="a940520f4bb1e3bf517c3fb8c0f1c8f08"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>scan_image2</b></td></tr>
+<tr class="separator:a940520f4bb1e3bf517c3fb8c0f1c8f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e180a85b52b7c1302d0a438b293e4eb"><td class="memItemLeft" align="right" valign="top"><a id="a4e180a85b52b7c1302d0a438b293e4eb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>scan_fit_image</b></td></tr>
+<tr class="separator:a4e180a85b52b7c1302d0a438b293e4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77f0eed60a2aec579db73f251d69741"><td class="memItemLeft" align="right" valign="top"><a id="ac77f0eed60a2aec579db73f251d69741"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>scan_cb</b></td></tr>
+<tr class="separator:ac77f0eed60a2aec579db73f251d69741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a1e54f3c247fe823e8d79ad57b048dcdb"><td class="memItemLeft" align="right" valign="top"><a id="a1e54f3c247fe823e8d79ad57b048dcdb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlaserscannergui_1_1VoltScanGui.html#a1e54f3c247fe823e8d79ad57b048dcdb">voltagescannerlogic1</a> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='VoltageScannerLogic')</td></tr>
+<tr class="memdesc:a1e54f3c247fe823e8d79ad57b048dcdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">declare connectors <br /></td></tr>
+<tr class="separator:a1e54f3c247fe823e8d79ad57b048dcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3324ccdcf5ac5748ccaf9d408684618"><td class="memItemLeft" align="right" valign="top"><a id="aa3324ccdcf5ac5748ccaf9d408684618"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>savelogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='SaveLogic')</td></tr>
+<tr class="separator:aa3324ccdcf5ac5748ccaf9d408684618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a91075889e101635aa54e9c10a1f16"><td class="memItemLeft" align="right" valign="top"><a id="ac9a91075889e101635aa54e9c10a1f16"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigStartScan</b> = QtCore.Signal()</td></tr>
+<tr class="separator:ac9a91075889e101635aa54e9c10a1f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128c891bd43e6217d460adc0ccf19150"><td class="memItemLeft" align="right" valign="top"><a id="a128c891bd43e6217d460adc0ccf19150"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigStopScan</b> = QtCore.Signal()</td></tr>
+<tr class="separator:a128c891bd43e6217d460adc0ccf19150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d7cd7b3d7883503079d55a44220323"><td class="memItemLeft" align="right" valign="top"><a id="a32d7cd7b3d7883503079d55a44220323"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigChangeVoltage</b> = QtCore.Signal(float)</td></tr>
+<tr class="separator:a32d7cd7b3d7883503079d55a44220323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1491e1aab3aa7ade2f65c2b095711b8e"><td class="memItemLeft" align="right" valign="top"><a id="a1491e1aab3aa7ade2f65c2b095711b8e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigChangeRange</b> = QtCore.Signal(list)</td></tr>
+<tr class="separator:a1491e1aab3aa7ade2f65c2b095711b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0c2eab94abd221d362b50244b149ca"><td class="memItemLeft" align="right" valign="top"><a id="abc0c2eab94abd221d362b50244b149ca"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigChangeResolution</b> = QtCore.Signal(float)</td></tr>
+<tr class="separator:abc0c2eab94abd221d362b50244b149ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5a609fa080b3c938d55e2ef4e0c0b5"><td class="memItemLeft" align="right" valign="top"><a id="aec5a609fa080b3c938d55e2ef4e0c0b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigChangeSpeed</b> = QtCore.Signal(float)</td></tr>
+<tr class="separator:aec5a609fa080b3c938d55e2ef4e0c0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb21efbd90d0f2d2b23a6694c95090d"><td class="memItemLeft" align="right" valign="top"><a id="a2fb21efbd90d0f2d2b23a6694c95090d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigChangeLines</b> = QtCore.Signal(int)</td></tr>
+<tr class="separator:a2fb21efbd90d0f2d2b23a6694c95090d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9665f5436519ca570726d1407584065"><td class="memItemLeft" align="right" valign="top"><a id="ac9665f5436519ca570726d1407584065"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigSaveMeasurement</b> = QtCore.Signal(str, list, list)</td></tr>
+<tr class="separator:ac9665f5436519ca570726d1407584065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is the GUI Class for ODMR. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3e9c305928e292da966e460234d34436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e9c305928e292da966e460234d34436">&#9670;&nbsp;</a></span>on_activate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def laserscannergui.VoltScanGui.on_activate </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition, configuration and initialisation of the ODMR GUI. </p>
-<p>This init connects all the graphic modules, which were created in the *.ui file and configures the event handling between the modules. </p>
-
-</div>
-</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab8b703667de667a2ea6c220e425062b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8b703667de667a2ea6c220e425062b1">&#9670;&nbsp;</a></span>on_deactivate()</h2>
 
@@ -224,14 +225,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a011c8a09dd63794fff01f686289191d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a011c8a09dd63794fff01f686289191d3">&#9670;&nbsp;</a></span>refresh_odmr_colorbar()</h2>
+<a id="a1f23226fdb9554fb1308387f29564617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f23226fdb9554fb1308387f29564617">&#9670;&nbsp;</a></span>refresh_scan_colorbar()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def laserscannergui.VoltScanGui.refresh_odmr_colorbar </td>
+          <td class="memname">def laserscannergui.VoltScanGui.refresh_scan_colorbar </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -241,26 +242,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update the colorbar to a new scaling. </p>
-
-</div>
-</div>
-<a id="aa9b42ebb82033413da73b7d5bae222ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9b42ebb82033413da73b7d5bae222ab">&#9670;&nbsp;</a></span>reject_settings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def laserscannergui.VoltScanGui.reject_settings </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Keep the old settings and restores the old settings in the gui. </p>
 
 </div>
 </div>
@@ -281,26 +262,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Make window visible and put it above all other windows. </p>
-
-</div>
-</div>
-<a id="af74d2021d2eb5a7bbbad43e8e694b4f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af74d2021d2eb5a7bbbad43e8e694b4f1">&#9670;&nbsp;</a></span>update_settings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def laserscannergui.VoltScanGui.update_settings </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write the new settings from the gui to the file. </p>
 
 </div>
 </div>

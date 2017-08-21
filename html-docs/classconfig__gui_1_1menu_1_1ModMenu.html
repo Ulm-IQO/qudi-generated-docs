@@ -90,12 +90,12 @@ Collaboration diagram for config_gui.menu.ModMenu:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6d59e84190c8619b0cbe305bcc295554"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig__gui_1_1menu_1_1ModMenu.html#a6d59e84190c8619b0cbe305bcc295554">__init__</a> (self, m)</td></tr>
-<tr class="memdesc:a6d59e84190c8619b0cbe305bcc295554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new menu from module tree.  <a href="#a6d59e84190c8619b0cbe305bcc295554">More...</a><br /></td></tr>
-<tr class="separator:a6d59e84190c8619b0cbe305bcc295554"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab2fb9b95229f5f6f0d083156f55072b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig__gui_1_1menu_1_1ModMenu.html#aab2fb9b95229f5f6f0d083156f55072b">build_submenu</a> (self, mlist, modpath, module)</td></tr>
-<tr class="memdesc:aab2fb9b95229f5f6f0d083156f55072b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a submenu from a module list, a module path and a module definition.  <a href="#aab2fb9b95229f5f6f0d083156f55072b">More...</a><br /></td></tr>
-<tr class="separator:aab2fb9b95229f5f6f0d083156f55072b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123c95e4463f909011ce9b2aec8c6513"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig__gui_1_1menu_1_1ModMenu.html#a123c95e4463f909011ce9b2aec8c6513">__init__</a> (self, modules)</td></tr>
+<tr class="memdesc:a123c95e4463f909011ce9b2aec8c6513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new menu from module tree.  <a href="#a123c95e4463f909011ce9b2aec8c6513">More...</a><br /></td></tr>
+<tr class="separator:a123c95e4463f909011ce9b2aec8c6513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c389f71d0616f15765568ff1d174ac8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig__gui_1_1menu_1_1ModMenu.html#a0c389f71d0616f15765568ff1d174ac8">build_submenu</a> (self, menu_item, modpath, module)</td></tr>
+<tr class="memdesc:a0c389f71d0616f15765568ff1d174ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a submenu from a module list, a module path and a module definition.  <a href="#a0c389f71d0616f15765568ff1d174ac8">More...</a><br /></td></tr>
+<tr class="separator:a0c389f71d0616f15765568ff1d174ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad448319e98964fc23ff0a231afa6590b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig__gui_1_1menu_1_1ModMenu.html#ad448319e98964fc23ff0a231afa6590b">hasModule</a> (self, modpath)</td></tr>
 <tr class="memdesc:ad448319e98964fc23ff0a231afa6590b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whther module with given path is present.  <a href="#ad448319e98964fc23ff0a231afa6590b">More...</a><br /></td></tr>
 <tr class="separator:ad448319e98964fc23ff0a231afa6590b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,8 +130,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents the module selection menu. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6d59e84190c8619b0cbe305bcc295554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d59e84190c8619b0cbe305bcc295554">&#9670;&nbsp;</a></span>__init__()</h2>
+<a id="a123c95e4463f909011ce9b2aec8c6513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a123c95e4463f909011ce9b2aec8c6513">&#9670;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,7 +146,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>m</em>&#160;</td>
+          <td class="paramname"><em>modules</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -167,8 +167,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aab2fb9b95229f5f6f0d083156f55072b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab2fb9b95229f5f6f0d083156f55072b">&#9670;&nbsp;</a></span>build_submenu()</h2>
+<a id="a0c389f71d0616f15765568ff1d174ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c389f71d0616f15765568ff1d174ac8">&#9670;&nbsp;</a></span>build_submenu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,7 +183,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>mlist</em>, </td>
+          <td class="paramname"><em>menu_item</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

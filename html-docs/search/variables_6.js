@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['roi_5fxy_5fimage_5fdata',['roi_xy_image_data',['../classpoimangui_1_1PoiManagerGui.html#a94e2721ea5dd15212eafaa34fe58761e',1,'poimangui::PoiManagerGui']]]
+  ['odmr_5fcb',['odmr_cb',['../classodmrgui_1_1ODMRGui.html#a21823ea84aee173149c0d4467df31822',1,'odmrgui::ODMRGui']]],
+  ['opts',['opts',['../classSpinBox_1_1SpinBox.html#a47ee8142f2213cc9b13a769dd3158008',1,'SpinBox::SpinBox']]]
 ];
