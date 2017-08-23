@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classpulse__streamer__pb2_1_1BetaPulseStreamerServicer.html" title="The Beta API is deprecated for 0.15.0 and later. " alt="" coords="112,5,315,51"/>
-<area shape="rect" id="node5" href="$classpulse__streamer__pb2_1_1BetaPulseStreamerStub.html" title="The Beta API is deprecated for 0.15.0 and later. " alt="" coords="112,74,315,121"/>
-<area shape="rect" id="node7" href="$classpulse__streamer__pb2_1_1PulseStreamerServicer.html" title="pulse_streamer_pb2.Pulse\lStreamerServicer" alt="" coords="125,143,301,190"/>
-<area shape="rect" id="node9" href="$classpulse__streamer__pb2_1_1PulseStreamerStub.html" title="pulse_streamer_pb2.Pulse\lStreamerStub" alt="" coords="125,213,301,259"/>
-<area shape="rect" id="node11" href="$classpulse__streamer__pb2__grpc_1_1PulseStreamerServicer.html" title="pulse_streamer_pb2\l_grpc.PulseStreamerServicer" alt="" coords="117,282,309,329"/>
-<area shape="rect" id="node13" href="$classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html" title="pulse_streamer_pb2\l_grpc.PulseStreamerStub" alt="" coords="128,351,299,398"/>
+<area shape="rect" id="node2" href="$classpulse__streamer__pb2_1_1BetaPulseStreamerServicer.html" title="The Beta API is deprecated for 0.15.0 and later. " alt="" coords="112,5,315,46"/>
+<area shape="rect" id="node3" href="$classpulse__streamer__pb2_1_1BetaPulseStreamerStub.html" title="The Beta API is deprecated for 0.15.0 and later. " alt="" coords="112,70,315,111"/>
+<area shape="rect" id="node4" href="$classpulse__streamer__pb2_1_1PulseStreamerServicer.html" title="pulse_streamer_pb2.Pulse\lStreamerServicer" alt="" coords="125,135,301,177"/>
+<area shape="rect" id="node5" href="$classpulse__streamer__pb2_1_1PulseStreamerStub.html" title="pulse_streamer_pb2.Pulse\lStreamerStub" alt="" coords="125,201,301,242"/>
+<area shape="rect" id="node6" href="$classpulse__streamer__pb2__grpc_1_1PulseStreamerServicer.html" title="pulse_streamer_pb2\l_grpc.PulseStreamerServicer" alt="" coords="117,266,309,307"/>
+<area shape="rect" id="node7" href="$classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html" title="pulse_streamer_pb2\l_grpc.PulseStreamerStub" alt="" coords="128,331,299,373"/>
 </map>

@@ -18,7 +18,7 @@ var searchData=
   ['transform_5fcoordinates',['transform_coordinates',['../classmagnet_1_1Magnet.html#a863a2d3feb964c9d5a0676ef0cc6a02a',1,'magnet::Magnet']]],
   ['translated_5fget_5fstatus',['translated_get_status',['../classmagnet_1_1Magnet.html#aa99378a832fcf4739e32dc95074dbfb9',1,'magnet::Magnet']]],
   ['triangulate',['triangulate',['../classpoi__manager__logic_1_1PoiManagerLogic.html#afed7e27b8445da5d93de924e164769dd',1,'poi_manager_logic::PoiManagerLogic']]],
-  ['trigger',['trigger',['../classevents_1_1EventManager.html#a6a98fedc6e9c596737c9794e31b73a75',1,'events::EventManager']]],
+  ['trigger',['trigger',['../classmw__source__smr_1_1MicrowaveSMR.html#ae05fa5559c13da39bfa5116340a46201',1,'mw_source_smr.MicrowaveSMR.trigger()'],['../classmw__source__srssg_1_1MicrowaveSRSSG.html#af9056780c7239fcd3316adb4fa5d4a31',1,'mw_source_srssg.MicrowaveSRSSG.trigger()'],['../classevents_1_1EventManager.html#a6a98fedc6e9c596737c9794e31b73a75',1,'events.EventManager.trigger()']]],
   ['trylock',['tryLock',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a6e3c194d994cfa86abc96327c77a0be0',1,'core::util::mutex::Mutex']]],
   ['turn_5fam_5foff',['turn_AM_off',['../classmw__source__smr_1_1MicrowaveSMR.html#a3ecaaa23a20e483fc81b404c62815586',1,'mw_source_smr::MicrowaveSMR']]],
   ['turn_5fam_5fon',['turn_AM_on',['../classmw__source__smr_1_1MicrowaveSMR.html#afa5614a0ba8e1bf0cd59954a7cd301d3',1,'mw_source_smr::MicrowaveSMR']]],

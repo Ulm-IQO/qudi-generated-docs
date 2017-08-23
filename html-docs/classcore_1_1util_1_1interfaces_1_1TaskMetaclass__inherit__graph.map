@@ -1,4 +1,4 @@
 <map id="core.util.interfaces.TaskMetaclass" name="core.util.interfaces.TaskMetaclass">
-<area shape="rect" id="node7" href="$classgeneric__task_1_1InterruptableTask.html" title="This class represents a task in a module that can be safely executed by checking preconditions and pa..." alt="" coords="5,179,205,208"/>
-<area shape="rect" id="node9" href="$classgeneric__task_1_1PrePostTask.html" title="Represents a task that creates the necessary conditions for a different task and reverses its own act..." alt="" coords="229,179,405,208"/>
+<area shape="rect" id="node4" href="$classgeneric__task_1_1InterruptableTask.html" title="This class represents a task in a module that can be safely executed by checking preconditions and pa..." alt="" coords="5,171,205,197"/>
+<area shape="rect" id="node5" href="$classgeneric__task_1_1PrePostTask.html" title="Represents a task that creates the necessary conditions for a different task and reverses its own act..." alt="" coords="231,171,407,197"/>
 </map>

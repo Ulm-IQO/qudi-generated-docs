@@ -1,7 +1,7 @@
 <map id="colordefs.ColorScale" name="colordefs.ColorScale">
-<area shape="rect" id="node3" href="$classcolordefs_1_1ColorScaleInferno.html" title="Inferno color scale proposal for matplotlib default color scale. " alt="" coords="204,5,385,35"/>
-<area shape="rect" id="node5" href="$classcolordefs_1_1ColorScaleMagma.html" title="Magma color scale proposal for matplotlib default color scale. " alt="" coords="201,59,388,88"/>
-<area shape="rect" id="node7" href="$classcolordefs_1_1ColorScalePlasma.html" title="Plasma color scale proposal for matplotlib default color scale. " alt="" coords="201,112,388,141"/>
-<area shape="rect" id="node9" href="$classcolordefs_1_1ColorScaleRainbow.html" title="Define the color map that goes from dark blue to bright red. " alt="" coords="197,165,392,195"/>
-<area shape="rect" id="node11" href="$classcolordefs_1_1ColorScaleViridis.html" title="Viridis color scale proposal for matplotlib and winner (because it is green!) " alt="" coords="205,219,384,248"/>
+<area shape="rect" id="node2" href="$classcolordefs_1_1ColorScaleInferno.html" title="Inferno color scale proposal for matplotlib default color scale. " alt="" coords="203,5,386,32"/>
+<area shape="rect" id="node3" href="$classcolordefs_1_1ColorScaleMagma.html" title="Magma color scale proposal for matplotlib default color scale. " alt="" coords="201,56,388,83"/>
+<area shape="rect" id="node4" href="$classcolordefs_1_1ColorScalePlasma.html" title="Plasma color scale proposal for matplotlib default color scale. " alt="" coords="201,107,388,133"/>
+<area shape="rect" id="node5" href="$classcolordefs_1_1ColorScaleRainbow.html" title="Define the color map that goes from dark blue to bright red. " alt="" coords="197,157,392,184"/>
+<area shape="rect" id="node6" href="$classcolordefs_1_1ColorScaleViridis.html" title="Viridis color scale proposal for matplotlib and winner (because it is green!) " alt="" coords="205,208,384,235"/>
 </map>

@@ -1,12 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node3" href="$classcore_1_1module_1_1MissingOption.html" title="Representation for missing ConfigOption. " alt="" coords="143,5,321,35"/>
-<area shape="rect" id="node5" href="$classlaserquantum__laser_1_1PSUTypes.html" title="LaserQuantum power supply types. " alt="" coords="131,59,333,88"/>
-<area shape="rect" id="node7" href="$classlightfield__spectrometer_1_1LFImageMode.html" title="Spectrometer imaging mode. " alt="" coords="153,111,311,158"/>
-<area shape="rect" id="node9" href="$classmicrowave__interface_1_1MicrowaveMode.html" title="Modes for microwave generators: CW continuous wave LIST ouptut list of arbitrary frequencies, each step triggered by electrical input SWEEP frequency sweep from f1 to f2, each step triggered by electrical input ASWEEP frequency sweep from f1 to f2, triggered only on the start of the sweep. " alt="" coords="112,181,352,211"/>
-<area shape="rect" id="node11" href="$classmicrowave__interface_1_1TriggerEdge.html" title="On which electrical signal edge does a trigger occur? So edgy! " alt="" coords="124,235,340,264"/>
-<area shape="rect" id="node13" href="$classmillennia__ev__laser_1_1Models.html" title="Model numbers for Millennia lasers. " alt="" coords="145,288,319,317"/>
-<area shape="rect" id="node15" href="$classsimple__laser__interface_1_1ControlMode.html" title="simple_laser_interface.ControlMode" alt="" coords="117,341,347,371"/>
-<area shape="rect" id="node17" href="$classsimple__laser__interface_1_1LaserState.html" title="simple_laser_interface.Laser\lState" alt="" coords="139,394,325,441"/>
-<area shape="rect" id="node19" href="$classsimple__laser__interface_1_1ShutterState.html" title="simple_laser_interface.Shutter\lState" alt="" coords="133,463,331,510"/>
-<area shape="rect" id="node21" href="$classslow__counter__interface_1_1CountingMode.html" title="slow_counter_interface.CountingMode" alt="" coords="111,533,353,563"/>
+<area shape="rect" id="node2" href="$classcore_1_1module_1_1MissingOption.html" title="Representation for missing ConfigOption. " alt="" coords="142,5,322,32"/>
+<area shape="rect" id="node3" href="$classlaserquantum__laser_1_1PSUTypes.html" title="LaserQuantum power supply types. " alt="" coords="131,56,333,83"/>
+<area shape="rect" id="node4" href="$classlightfield__spectrometer_1_1LFImageMode.html" title="Spectrometer imaging mode. " alt="" coords="153,107,311,149"/>
+<area shape="rect" id="node5" href="$classmicrowave__interface_1_1MicrowaveMode.html" title="Modes for microwave generators: CW continuous wave LIST ouptut list of arbitrary frequencies, each step triggered by electrical input SWEEP frequency sweep from f1 to f2, each step triggered by electrical input ASWEEP frequency sweep from f1 to f2, triggered only on the start of the sweep. " alt="" coords="111,173,353,200"/>
+<area shape="rect" id="node6" href="$classmicrowave__interface_1_1TriggerEdge.html" title="On which electrical signal edge does a trigger occur? So edgy! " alt="" coords="124,224,340,251"/>
+<area shape="rect" id="node7" href="$classmillennia__ev__laser_1_1Models.html" title="Model numbers for Millennia lasers. " alt="" coords="145,275,319,301"/>
+<area shape="rect" id="node8" href="$classsimple__laser__interface_1_1ControlMode.html" title="simple_laser_interface.ControlMode" alt="" coords="117,325,347,352"/>
+<area shape="rect" id="node9" href="$classsimple__laser__interface_1_1LaserState.html" title="simple_laser_interface.Laser\lState" alt="" coords="138,377,326,418"/>
+<area shape="rect" id="node10" href="$classsimple__laser__interface_1_1ShutterState.html" title="simple_laser_interface.Shutter\lState" alt="" coords="133,442,331,483"/>
+<area shape="rect" id="node11" href="$classslow__counter__interface_1_1CountingMode.html" title="slow_counter_interface.CountingMode" alt="" coords="110,508,354,535"/>
 </map>
