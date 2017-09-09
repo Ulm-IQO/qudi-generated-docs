@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>This shares modules with other computers and is resonsible for obtaining modules shared by other computer.  
+<p>This shares modules with other computers and is responsible for obtaining modules shared by other computer.  
  <a href="classcore_1_1remote_1_1RemoteObjectManager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for core.remote.RemoteObjectManager:</div>
@@ -90,17 +90,17 @@ Collaboration diagram for core.remote.RemoteObjectManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6aa2ac776faec8dc59c26d4945b3f6f0"><td class="memItemLeft" align="right" valign="top"><a id="a6aa2ac776faec8dc59c26d4945b3f6f0"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a6aa2ac776faec8dc59c26d4945b3f6f0">__init__</a> (self, manager, hostname, port, certfile=None, keyfile=None)</td></tr>
-<tr class="memdesc:a6aa2ac776faec8dc59c26d4945b3f6f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle sharing and getting shared modules. <br /></td></tr>
-<tr class="separator:a6aa2ac776faec8dc59c26d4945b3f6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903821466e6868cb699fa15c4d98a801"><td class="memItemLeft" align="right" valign="top"><a id="a903821466e6868cb699fa15c4d98a801"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a903821466e6868cb699fa15c4d98a801">__init__</a> (self, manager, kwargs)</td></tr>
+<tr class="memdesc:a903821466e6868cb699fa15c4d98a801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle sharing and getting shared modules. <br /></td></tr>
+<tr class="separator:a903821466e6868cb699fa15c4d98a801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedbdb41829c652e18fd67cf22bcb7460"><td class="memItemLeft" align="right" valign="top"><a id="aedbdb41829c652e18fd67cf22bcb7460"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#aedbdb41829c652e18fd67cf22bcb7460">makeRemoteService</a> (self)</td></tr>
 <tr class="memdesc:aedbdb41829c652e18fd67cf22bcb7460"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that returns a class containing a module list hat can be manipulated from the host. <br /></td></tr>
 <tr class="separator:aedbdb41829c652e18fd67cf22bcb7460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc3e4186fdd81cd4e072d86a31d9ac6e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#acc3e4186fdd81cd4e072d86a31d9ac6e">createServer</a> (self)</td></tr>
-<tr class="memdesc:acc3e4186fdd81cd4e072d86a31d9ac6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the rpyc modules server on a given port.  <a href="#acc3e4186fdd81cd4e072d86a31d9ac6e">More...</a><br /></td></tr>
-<tr class="separator:acc3e4186fdd81cd4e072d86a31d9ac6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01ad80e26714f3c73b77f94151d71b0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#aa01ad80e26714f3c73b77f94151d71b0">createServer</a> (self, hostname, port, certfile=None, keyfile=None)</td></tr>
+<tr class="memdesc:aa01ad80e26714f3c73b77f94151d71b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the rpyc modules server on a given port.  <a href="#aa01ad80e26714f3c73b77f94151d71b0">More...</a><br /></td></tr>
+<tr class="separator:aa01ad80e26714f3c73b77f94151d71b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3224757fa38071f9433135a6be7d0db7"><td class="memItemLeft" align="right" valign="top"><a id="a3224757fa38071f9433135a6be7d0db7"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a3224757fa38071f9433135a6be7d0db7">stopServer</a> (self)</td></tr>
 <tr class="memdesc:a3224757fa38071f9433135a6be7d0db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the remote module server. <br /></td></tr>
@@ -111,27 +111,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a18576b6e360e5580efe9c60da8630884"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a18576b6e360e5580efe9c60da8630884">unshareModule</a> (self, name)</td></tr>
 <tr class="memdesc:a18576b6e360e5580efe9c60da8630884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a module from the shared module list.  <a href="#a18576b6e360e5580efe9c60da8630884">More...</a><br /></td></tr>
 <tr class="separator:a18576b6e360e5580efe9c60da8630884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a473a82aac6c2c37663e6dff9d354fd62"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a473a82aac6c2c37663e6dff9d354fd62">getRemoteModuleUrl</a> (self, url)</td></tr>
-<tr class="memdesc:a473a82aac6c2c37663e6dff9d354fd62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a remote module via its URL.  <a href="#a473a82aac6c2c37663e6dff9d354fd62">More...</a><br /></td></tr>
-<tr class="separator:a473a82aac6c2c37663e6dff9d354fd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0838ffc9d336e045ae884a1d1b46c7f1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a0838ffc9d336e045ae884a1d1b46c7f1">getRemoteModule</a> (self, host, port, name)</td></tr>
-<tr class="memdesc:a0838ffc9d336e045ae884a1d1b46c7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a remote module via its host, port and name.  <a href="#a0838ffc9d336e045ae884a1d1b46c7f1">More...</a><br /></td></tr>
-<tr class="separator:a0838ffc9d336e045ae884a1d1b46c7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbe1325d11801f6a0d81772835d3c79"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#afdbe1325d11801f6a0d81772835d3c79">getRemoteModuleUrl</a> (self, url, certfile=None, keyfile=None)</td></tr>
+<tr class="memdesc:afdbe1325d11801f6a0d81772835d3c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a remote module via its URL.  <a href="#afdbe1325d11801f6a0d81772835d3c79">More...</a><br /></td></tr>
+<tr class="separator:afdbe1325d11801f6a0d81772835d3c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5746f985442f99a90f7617953a3f12"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1remote_1_1RemoteObjectManager.html#a6c5746f985442f99a90f7617953a3f12">getRemoteModule</a> (self, host, port, name, certfile=None, keyfile=None)</td></tr>
+<tr class="memdesc:a6c5746f985442f99a90f7617953a3f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a remote module via its host, port and name.  <a href="#a6c5746f985442f99a90f7617953a3f12">More...</a><br /></td></tr>
+<tr class="separator:a6c5746f985442f99a90f7617953a3f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa4a95c5f7b3b9484514bc8b744de2637"><td class="memItemLeft" align="right" valign="top"><a id="aa4a95c5f7b3b9484514bc8b744de2637"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>host</b></td></tr>
-<tr class="separator:aa4a95c5f7b3b9484514bc8b744de2637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a789be10f78e38e4b5b47f03531ac89a6"><td class="memItemLeft" align="right" valign="top"><a id="a789be10f78e38e4b5b47f03531ac89a6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>port</b></td></tr>
-<tr class="separator:a789be10f78e38e4b5b47f03531ac89a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b93e96efdb4fbc1ebca2f8d2bc9fbfc"><td class="memItemLeft" align="right" valign="top"><a id="a2b93e96efdb4fbc1ebca2f8d2bc9fbfc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>certfile</b></td></tr>
-<tr class="separator:a2b93e96efdb4fbc1ebca2f8d2bc9fbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab818245be9f8404a0065aaac2815544d"><td class="memItemLeft" align="right" valign="top"><a id="ab818245be9f8404a0065aaac2815544d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>keyfile</b></td></tr>
-<tr class="separator:ab818245be9f8404a0065aaac2815544d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1d0975dab1349388dcc855d8682ebd4"><td class="memItemLeft" align="right" valign="top"><a id="ab1d0975dab1349388dcc855d8682ebd4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>tm</b></td></tr>
 <tr class="separator:ab1d0975dab1349388dcc855d8682ebd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,10 +137,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac493a427b4fb936c84e87526356a9a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This shares modules with other computers and is resonsible for obtaining modules shared by other computer. </p>
+<div class="textblock"><p>This shares modules with other computers and is responsible for obtaining modules shared by other computer. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="acc3e4186fdd81cd4e072d86a31d9ac6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc3e4186fdd81cd4e072d86a31d9ac6e">&#9670;&nbsp;</a></span>createServer()</h2>
+<a id="aa01ad80e26714f3c73b77f94151d71b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01ad80e26714f3c73b77f94151d71b0">&#9670;&nbsp;</a></span>createServer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,8 +149,36 @@ Public Attributes</h2></td></tr>
           <td class="memname">def core.remote.RemoteObjectManager.createServer </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>hostname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>certfile</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>keyfile</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,8 +193,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0838ffc9d336e045ae884a1d1b46c7f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0838ffc9d336e045ae884a1d1b46c7f1">&#9670;&nbsp;</a></span>getRemoteModule()</h2>
+<a id="a6c5746f985442f99a90f7617953a3f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5746f985442f99a90f7617953a3f12">&#9670;&nbsp;</a></span>getRemoteModule()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +221,19 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>certfile</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>keyfile</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -220,7 +248,9 @@ Public Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">str</td><td>host: host that the remote module server is running on </td></tr>
     <tr><td class="paramname">int</td><td>port: port that the remote module server is listening on </td></tr>
-    <tr><td class="paramname">str</td><td>name: unique name of the remote module</td></tr>
+    <tr><td class="paramname">str</td><td>name: unique name of the remote module </td></tr>
+    <tr><td class="paramname">str</td><td>certfile: filename of certificate or None if SSL is not used </td></tr>
+    <tr><td class="paramname">str</td><td>keyfile: filename of key or None if SSL is not used</td></tr>
   </table>
   </dd>
 </dl>
@@ -228,8 +258,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a473a82aac6c2c37663e6dff9d354fd62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a473a82aac6c2c37663e6dff9d354fd62">&#9670;&nbsp;</a></span>getRemoteModuleUrl()</h2>
+<a id="afdbe1325d11801f6a0d81772835d3c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdbe1325d11801f6a0d81772835d3c79">&#9670;&nbsp;</a></span>getRemoteModuleUrl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +274,19 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>url</em>&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>certfile</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>keyfile</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -257,7 +299,9 @@ Public Attributes</h2></td></tr>
 <p>Get a remote module via its URL. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>url: URL pointing to a module hosted b a remote server</td></tr>
+    <tr><td class="paramname">str</td><td>url: URL pointing to a module hosted b a remote server </td></tr>
+    <tr><td class="paramname">str</td><td>certfile: filename of certificate or None if SSL is not used </td></tr>
+    <tr><td class="paramname">str</td><td>keyfile: filename of key or None if SSL is not used</td></tr>
   </table>
   </dd>
 </dl>

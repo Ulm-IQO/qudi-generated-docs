@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['remote_20modules',['Remote Modules',['../md_documentation_remote_modules.html',1,'']]],
   ['raise_5ferror',['raise_error',['../classhelpers_1_1ExecutionResult.html#ab05b1f697c9a85dddaaa04a01d0c7bee',1,'helpers::ExecutionResult']]],
   ['ramp',['ramp',['../classmagnet_1_1Magnet.html#a9b37f5517ad322ec5843fadc3349b0ea',1,'magnet::Magnet']]],
   ['ramp_5fto_5fzero',['ramp_to_zero',['../classmagnet_1_1Magnet.html#ae4fc722bc34990ba25cf44eb217f9204',1,'magnet::Magnet']]],

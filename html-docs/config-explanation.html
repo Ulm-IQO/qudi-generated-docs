@@ -82,7 +82,7 @@ $(function() {
 <p>A connector is a way for the Qudi manager to give a module access to other modules.</p>
 <p>The general rule for this is that logic modules can only have a connector that gives access to hardware modules or other logic modules and GUI modules can only access logic modules.</p>
 <p>To create a Connector, declare it as a class variable in the module like this:</p>
-<div class="fragment"><div class="line">class &lt;classname2&gt;(...):</div><div class="line">...</div><div class="line">    &lt;connector name&gt; = Connector(interface_name=&#39;&lt;InterfaceForThisConnector&gt;&#39;)</div><div class="line">    &lt;another connector name&gt; = Connector(interface_name=&#39;&lt;InterfaceForTheOtherConnector&gt;&#39;)</div></div><!-- fragment --><p>A reference to the connected module can then be obtained at runtime by:</p>
+<div class="fragment"><div class="line">class &lt;classname2&gt;(...):</div><div class="line">...</div><div class="line">    &lt;connector name&gt; = Connector(interface=&#39;&lt;InterfaceForThisConnector&gt;&#39;)</div><div class="line">    &lt;another connector name&gt; = Connector(interface=&#39;&lt;InterfaceForTheOtherConnector&gt;&#39;)</div></div><!-- fragment --><p>A reference to the connected module can then be obtained at runtime by:</p>
 <div class="fragment"><div class="line">&lt;connected module&gt; = self.get_connector(&#39;&lt;connector name&gt;&#39;)</div><div class="line">&lt;antother connected module&gt; = self.get_connector(&#39;&lt;another connector name&gt;&#39;)</div></div><!-- fragment --> </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
