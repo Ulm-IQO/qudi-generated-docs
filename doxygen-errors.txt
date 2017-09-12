@@ -825,7 +825,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/logger.py:109: warning: argument 'object' of command @param is not found in the argument list of core.logger.QtLogHandler::emit(self, record)
 /home/travis/build/Ulm-IQO/qudi/core/logger.py:109: warning: The following parameters of core.logger.QtLogHandler.emit(self, record) are not documented:
   parameter 'record'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1318: warning: Member removeStatusFile(self, base, module) (function) of class core::manager::Manager is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1329: warning: Member removeStatusFile(self, base, module) (function) of class core::manager::Manager is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:83: warning: Member lock (variable) of class core::manager::Manager is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:84: warning: Member tree (variable) of class core::manager::Manager is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:101: warning: Member hasGui (variable) of class core::manager::Manager is not documented.
@@ -855,9 +855,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:72: warning: Found unknown command `\signal'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:81: warning: The following parameters of core.manager.Manager.__init__(self, args, kwargs) are not documented:
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:939: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::activateModule(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:939: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::activateModule(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:940: warning: The following parameters of core.manager.Manager.activateModule(self, base, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:950: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::activateModule(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:950: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::activateModule(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:951: warning: The following parameters of core.manager.Manager.activateModule(self, base, name) are not documented:
   parameter 'base'
   parameter 'name'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:477: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::configFileName(self, name)
@@ -882,41 +882,41 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:618: warning: The following parameters of core.manager.Manager.connectModule(self, base, mkey) are not documented:
   parameter 'base'
   parameter 'mkey'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:981: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::deactivateModule(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:981: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::deactivateModule(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:982: warning: The following parameters of core.manager.Manager.deactivateModule(self, base, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:992: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::deactivateModule(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:992: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::deactivateModule(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:993: warning: The following parameters of core.manager.Manager.deactivateModule(self, base, name) are not documented:
   parameter 'base'
   parameter 'name'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:926: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::findBase(self, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:927: warning: The following parameters of core.manager.Manager.findBase(self, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:937: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::findBase(self, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:938: warning: The following parameters of core.manager.Manager.findBase(self, name) are not documented:
   parameter 'name'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1130: warning: argument 'dict' of command @param is not found in the argument list of core.manager.Manager::getAllRecursiveModuleDependencies(self, allmods)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1131: warning: The following parameters of core.manager.Manager.getAllRecursiveModuleDependencies(self, allmods) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1141: warning: argument 'dict' of command @param is not found in the argument list of core.manager.Manager::getAllRecursiveModuleDependencies(self, allmods)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1142: warning: The following parameters of core.manager.Manager.getAllRecursiveModuleDependencies(self, allmods) are not documented:
   parameter 'allmods'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1076: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getRecursiveModuleDependencies(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1076: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getRecursiveModuleDependencies(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1077: warning: The following parameters of core.manager.Manager.getRecursiveModuleDependencies(self, base, key) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1087: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getRecursiveModuleDependencies(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1087: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getRecursiveModuleDependencies(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1088: warning: The following parameters of core.manager.Manager.getRecursiveModuleDependencies(self, base, key) are not documented:
   parameter 'base'
   parameter 'key'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1031: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getReverseRecursiveModuleDependencies(self, base, module, deps=None)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1031: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getReverseRecursiveModuleDependencies(self, base, module, deps=None)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1032: warning: The following parameters of core.manager.Manager.getReverseRecursiveModuleDependencies(self, base, module, deps=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1042: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getReverseRecursiveModuleDependencies(self, base, module, deps=None)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1042: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::getReverseRecursiveModuleDependencies(self, base, module, deps=None)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1043: warning: The following parameters of core.manager.Manager.getReverseRecursiveModuleDependencies(self, base, module, deps=None) are not documented:
   parameter 'base'
   parameter 'module'
   parameter 'deps'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:916: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::isModuleActive(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:916: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::isModuleActive(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:916: warning: The following parameters of core.manager.Manager.isModuleActive(self, base, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:927: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::isModuleActive(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:927: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::isModuleActive(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:927: warning: The following parameters of core.manager.Manager.isModuleActive(self, base, name) are not documented:
   parameter 'base'
   parameter 'name'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:891: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleDefined(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:891: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleDefined(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:892: warning: The following parameters of core.manager.Manager.isModuleDefined(self, base, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:902: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleDefined(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:902: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleDefined(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:903: warning: The following parameters of core.manager.Manager.isModuleDefined(self, base, name) are not documented:
   parameter 'base'
   parameter 'name'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:903: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleLoaded(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:903: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleLoaded(self, base, name)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:904: warning: The following parameters of core.manager.Manager.isModuleLoaded(self, base, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:914: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleLoaded(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:914: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::isModuleLoaded(self, base, name)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:915: warning: The following parameters of core.manager.Manager.isModuleLoaded(self, base, name) are not documented:
   parameter 'base'
   parameter 'name'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:498: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::loadConfig(self, filename, restart=False)
@@ -928,9 +928,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:758: warning: The following parameters of core.manager.Manager.loadConfigureModule(self, base, key) are not documented:
   parameter 'base'
   parameter 'key'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1302: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::loadStatusVariables(self, base, module)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1302: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::loadStatusVariables(self, base, module)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1302: warning: The following parameters of core.manager.Manager.loadStatusVariables(self, base, module) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1313: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::loadStatusVariables(self, base, module)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1313: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::loadStatusVariables(self, base, module)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1313: warning: The following parameters of core.manager.Manager.loadStatusVariables(self, base, module) are not documented:
   parameter 'base'
   parameter 'module'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:288: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::readConfig(self, configFile)
@@ -941,38 +941,38 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:442: warning: The following parameters of core.manager.Manager.readConfigFile(self, fileName, missingOk=True) are not documented:
   parameter 'fileName'
   parameter 'missingOk'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1399: warning: argument 'object' of command @param is not found in the argument list of core.manager.Manager::registerTaskRunner(self, reference)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1400: warning: The following parameters of core.manager.Manager.registerTaskRunner(self, reference) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1410: warning: argument 'object' of command @param is not found in the argument list of core.manager.Manager::registerTaskRunner(self, reference)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1411: warning: The following parameters of core.manager.Manager.registerTaskRunner(self, reference) are not documented:
   parameter 'reference'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:521: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:829: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::reloadConfigureModule(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:829: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::reloadConfigureModule(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:829: warning: The following parameters of core.manager.Manager.reloadConfigureModule(self, base, key) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:840: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::reloadConfigureModule(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:840: warning: argument 'string' of command @param is not found in the argument list of core.manager.Manager::reloadConfigureModule(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:840: warning: The following parameters of core.manager.Manager.reloadConfigureModule(self, base, key) are not documented:
   parameter 'base'
   parameter 'key'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1208: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::restartModuleRecursive(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1208: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::restartModuleRecursive(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1209: warning: The following parameters of core.manager.Manager.restartModuleRecursive(self, base, key) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1219: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::restartModuleRecursive(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1219: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::restartModuleRecursive(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1220: warning: The following parameters of core.manager.Manager.restartModuleRecursive(self, base, key) are not documented:
   parameter 'base'
   parameter 'key'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:485: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::saveConfig(self, filename)
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:486: warning: The following parameters of core.manager.Manager.saveConfig(self, filename) are not documented:
   parameter 'filename'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1281: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::saveStatusVariables(self, base, module, variables)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1281: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::saveStatusVariables(self, base, module, variables)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1281: warning: argument 'dict' of command @param is not found in the argument list of core.manager.Manager::saveStatusVariables(self, base, module, variables)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1282: warning: The following parameters of core.manager.Manager.saveStatusVariables(self, base, module, variables) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1292: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::saveStatusVariables(self, base, module, variables)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1292: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::saveStatusVariables(self, base, module, variables)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1292: warning: argument 'dict' of command @param is not found in the argument list of core.manager.Manager::saveStatusVariables(self, base, module, variables)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1293: warning: The following parameters of core.manager.Manager.saveStatusVariables(self, base, module, variables) are not documented:
   parameter 'base'
   parameter 'module'
   parameter 'variables'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1148: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::startModule(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1148: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::startModule(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1149: warning: The following parameters of core.manager.Manager.startModule(self, base, key) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1159: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::startModule(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1159: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::startModule(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1160: warning: The following parameters of core.manager.Manager.startModule(self, base, key) are not documented:
   parameter 'base'
   parameter 'key'
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1184: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::stopModule(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1184: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::stopModule(self, base, key)
-/home/travis/build/Ulm-IQO/qudi/core/manager.py:1185: warning: The following parameters of core.manager.Manager.stopModule(self, base, key) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1195: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::stopModule(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1195: warning: argument 'str' of command @param is not found in the argument list of core.manager.Manager::stopModule(self, base, key)
+/home/travis/build/Ulm-IQO/qudi/core/manager.py:1196: warning: The following parameters of core.manager.Manager.stopModule(self, base, key) are not documented:
   parameter 'base'
   parameter 'key'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:462: warning: argument 'dict' of command @param is not found in the argument list of core.manager.Manager::writeConfigFile(self, data, fileName)
