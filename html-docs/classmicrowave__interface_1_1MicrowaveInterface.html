@@ -132,6 +132,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_sweep</b> (self, s
 <tr class="memitem:adafb06fed92ce1f3bbacd21c4de3b3c7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave__interface_1_1MicrowaveInterface.html#adafb06fed92ce1f3bbacd21c4de3b3c7">set_ext_trigger</a> (self, pol=TriggerEdge.RISING)</td></tr>
 <tr class="memdesc:adafb06fed92ce1f3bbacd21c4de3b3c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#adafb06fed92ce1f3bbacd21c4de3b3c7">More...</a><br /></td></tr>
 <tr class="separator:adafb06fed92ce1f3bbacd21c4de3b3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa52ace41d5d203f82073672ed3d0159"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave__interface_1_1MicrowaveInterface.html#afa52ace41d5d203f82073672ed3d0159">trigger</a> (self)</td></tr>
+<tr class="memdesc:afa52ace41d5d203f82073672ed3d0159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the next element in the list or sweep mode programmatically.  <a href="#afa52ace41d5d203f82073672ed3d0159">More...</a><br /></td></tr>
+<tr class="separator:afa52ace41d5d203f82073672ed3d0159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a903b7174af8bab87217523caba7c4080"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmicrowave__interface_1_1MicrowaveInterface.html#a903b7174af8bab87217523caba7c4080">get_limits</a> (self)</td></tr>
 <tr class="memdesc:a903b7174af8bab87217523caba7c4080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the device-specific limits in a nested dictionary.  <a href="#a903b7174af8bab87217523caba7c4080">More...</a><br /></td></tr>
 <tr class="separator:a903b7174af8bab87217523caba7c4080"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -370,6 +373,28 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_sweep</b> (self, s
 
 <p>Switches on the sweep mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
+
+</div>
+</div>
+<a id="afa52ace41d5d203f82073672ed3d0159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa52ace41d5d203f82073672ed3d0159">&#9670;&nbsp;</a></span>trigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def microwave_interface.MicrowaveInterface.trigger </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trigger the next element in the list or sweep mode programmatically. </p>
+<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
+<p>Ensure that the Frequency was set AFTER the function returns, or give the function at least a save waiting time corresponding to the frequency switching speed. </p>
 
 </div>
 </div>

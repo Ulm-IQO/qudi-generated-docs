@@ -144,6 +144,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_sweep</b> (self, s
 <tr class="memitem:ab6769d3440014107d19bde47d0fce9da"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#ab6769d3440014107d19bde47d0fce9da">set_ext_trigger</a> (self, pol=TriggerEdge.RISING)</td></tr>
 <tr class="memdesc:ab6769d3440014107d19bde47d0fce9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#ab6769d3440014107d19bde47d0fce9da">More...</a><br /></td></tr>
 <tr class="separator:ab6769d3440014107d19bde47d0fce9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada895305b63a15344ba47dff6120eca9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__smiq_1_1MicrowaveSmiq.html#ada895305b63a15344ba47dff6120eca9">trigger</a> (self)</td></tr>
+<tr class="memdesc:ada895305b63a15344ba47dff6120eca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the next element in the list or sweep mode programmatically.  <a href="#ada895305b63a15344ba47dff6120eca9">More...</a><br /></td></tr>
+<tr class="separator:ada895305b63a15344ba47dff6120eca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcore_1_1module_1_1BaseMixin"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1module_1_1BaseMixin')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1module_1_1BaseMixin.html">core.module.BaseMixin</a></td></tr>
 <tr class="memitem:ad68ad62cea611ca8c4e6ba2efb259a3a inherit pub_methods_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1module_1_1BaseMixin.html#ad68ad62cea611ca8c4e6ba2efb259a3a">__init__</a> (self, manager, name, config=None, callbacks=None, kwargs)</td></tr>
 <tr class="memdesc:ad68ad62cea611ca8c4e6ba2efb259a3a inherit pub_methods_classcore_1_1module_1_1BaseMixin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise <a class="el" href="classcore_1_1module_1_1Base.html">Base</a> class object and set up its state machine.  <a href="classcore_1_1module_1_1BaseMixin.html#ad68ad62cea611ca8c4e6ba2efb259a3a">More...</a><br /></td></tr>
@@ -491,6 +494,28 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Switches on the sweep mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
+
+</div>
+</div>
+<a id="ada895305b63a15344ba47dff6120eca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada895305b63a15344ba47dff6120eca9">&#9670;&nbsp;</a></span>trigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def mw_source_smiq.MicrowaveSmiq.trigger </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trigger the next element in the list or sweep mode programmatically. </p>
+<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
+<p>Ensure that the Frequency was set AFTER the function returns, or give the function at least a save waiting time. </p>
 
 </div>
 </div>
