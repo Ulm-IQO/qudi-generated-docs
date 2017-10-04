@@ -7,7 +7,7 @@ var searchData=
   ['qdplottergui',['QdplotterGui',['../classqdplottergui_1_1QdplotterGui.html',1,'qdplottergui']]],
   ['qtlogformatter',['QtLogFormatter',['../classcore_1_1logger_1_1QtLogFormatter.html',1,'core::logger']]],
   ['qtloghandler',['QtLogHandler',['../classcore_1_1logger_1_1QtLogHandler.html',1,'core::logger']]],
-  ['qudi',['Qudi',['../classqudikernel_1_1Qudi.html',1,'qudikernel']]],
+  ['qudi',['Qudi',['../classcore_1_1qudikernel_1_1Qudi.html',1,'core::qudikernel']]],
   ['qudikernellogic',['QudiKernelLogic',['../classkernellogic_1_1QudiKernelLogic.html',1,'kernellogic']]],
   ['qudipalette',['QudiPalette',['../classcolordefs_1_1QudiPalette.html',1,'colordefs']]],
   ['qudipalettepale',['QudiPalettePale',['../classcolordefs_1_1QudiPalettePale.html',1,'colordefs']]],

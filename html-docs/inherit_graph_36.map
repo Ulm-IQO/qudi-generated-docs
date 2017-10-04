@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classevents_1_1EventManager.html" title="Infrastructure for registering and firing callbacks on application events. " alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node2" href="$classdummy_1_1Task.html" title="Dummy task, does nothing. " alt="" coords="176,5,275,32"/>
+<area shape="rect" id="node3" href="$classrefocus_1_1Task.html" title="This task does a confocal focus optimisation. " alt="" coords="176,56,275,83"/>
 </map>

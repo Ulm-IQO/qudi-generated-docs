@@ -30,7 +30,7 @@ var searchData=
   ['countermainwindow',['CounterMainWindow',['../classcountergui_1_1CounterMainWindow.html',1,'countergui']]],
   ['countingmode',['CountingMode',['../classslow__counter__interface_1_1CountingMode.html',1,'slow_counter_interface']]],
   ['crossline',['CrossLine',['../classmagnet__gui_1_1CrossLine.html',1,'magnet_gui.CrossLine'],['../classconfocalgui_1_1CrossLine.html',1,'confocalgui.CrossLine']]],
-  ['crossroi',['CrossROI',['../classconfocalgui_1_1CrossROI.html',1,'confocalgui.CrossROI'],['../classmagnet__gui_1_1CrossROI.html',1,'magnet_gui.CrossROI']]],
+  ['crossroi',['CrossROI',['../classmagnet__gui_1_1CrossROI.html',1,'magnet_gui.CrossROI'],['../classconfocalgui_1_1CrossROI.html',1,'confocalgui.CrossROI']]],
   ['ctc100',['CTC100',['../classCTC100__temperature_1_1CTC100.html',1,'CTC100_temperature']]],
   ['customqradiobutton',['CustomQRadioButton',['../classqtwidgets_1_1qradiobutton__custom_1_1CustomQRadioButton.html',1,'qtwidgets::qradiobutton_custom']]],
   ['customviewbox',['CustomViewBox',['../classpoimangui_1_1CustomViewBox.html',1,'poimangui']]]

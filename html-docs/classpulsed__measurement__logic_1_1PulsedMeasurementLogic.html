@@ -191,8 +191,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a89eeb0d74db5dd5b157d8e2417e8b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34876b993101efcca7849d4053f82dc1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a34876b993101efcca7849d4053f82dc1">extraction_settings_changed</a> (self, method, conv_std_dev, count_treshold, threshold_tolerance_bins, min_laser_length)</td></tr>
 <tr class="separator:a34876b993101efcca7849d4053f82dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448d8b4932b5ce62f98f311f3f69b3ca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a448d8b4932b5ce62f98f311f3f69b3ca">save_measurement_data</a> (self, controlled_val_unit='a.u.', tag=None, with_error=True)</td></tr>
-<tr class="separator:a448d8b4932b5ce62f98f311f3f69b3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#aacb0c8f23f4b0dd780d7c9c5f6107c26">save_measurement_data</a> (self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)</td></tr>
+<tr class="memdesc:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare data to be saved and create a proper plot of the data.  <a href="#aacb0c8f23f4b0dd780d7c9c5f6107c26">More...</a><br /></td></tr>
+<tr class="separator:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855d9f174fa42781a89a54b4f18138b6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a855d9f174fa42781a89a54b4f18138b6">do_fit</a> (self, fit_method, x_data=None, y_data=None)</td></tr>
 <tr class="memdesc:a855d9f174fa42781a89a54b4f18138b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the chosen fit on the measured data.  <a href="#a855d9f174fa42781a89a54b4f18138b6">More...</a><br /></td></tr>
 <tr class="separator:a855d9f174fa42781a89a54b4f18138b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -353,6 +354,21 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:afb9553d8803d34a2ad5c076c42b4214c"><td class="memItemLeft" align="right" valign="top"><a id="afb9553d8803d34a2ad5c076c42b4214c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>show_laser_index</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=0)</td></tr>
 <tr class="separator:afb9553d8803d34a2ad5c076c42b4214c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1f899f736b35c9a7baa249c122a8be"><td class="memItemLeft" align="right" valign="top"><a id="a8c1f899f736b35c9a7baa249c122a8be"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>zeropad</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=0)</td></tr>
+<tr class="separator:a8c1f899f736b35c9a7baa249c122a8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e84d0aa2c95f13062611f55efd8c9f"><td class="memItemLeft" align="right" valign="top"><a id="a17e84d0aa2c95f13062611f55efd8c9f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>psd</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=False)</td></tr>
+<tr class="separator:a17e84d0aa2c95f13062611f55efd8c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6071b6b20691753ef01d81fa531bfdcc"><td class="memItemLeft" align="right" valign="top"><a id="a6071b6b20691753ef01d81fa531bfdcc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>window</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default='none')</td></tr>
+<tr class="separator:a6071b6b20691753ef01d81fa531bfdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5acdaf10f89de0bc773cd608ce62208"><td class="memItemLeft" align="right" valign="top"><a id="ae5acdaf10f89de0bc773cd608ce62208"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>base_corr</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=True)</td></tr>
+<tr class="separator:ae5acdaf10f89de0bc773cd608ce62208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a320af26101f9871098940ba25829c"><td class="memItemLeft" align="right" valign="top"><a id="a96a320af26101f9871098940ba25829c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>save_ft</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=True)</td></tr>
+<tr class="separator:a96a320af26101f9871098940ba25829c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adae64bddc9b2241a0fd399a445bd2d5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>sigSignalDataUpdated</b></td></tr>
 <tr class="separator:adae64bddc9b2241a0fd399a445bd2d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4125a1b85237ff419e12f23b03aa3697"><td class="memItemLeft" align="right" valign="top"><a id="a4125a1b85237ff419e12f23b03aa3697"></a>
@@ -1101,8 +1117,8 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
 
 </div>
 </div>
-<a id="a448d8b4932b5ce62f98f311f3f69b3ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a448d8b4932b5ce62f98f311f3f69b3ca">&#9670;&nbsp;</a></span>save_measurement_data()</h2>
+<a id="aacb0c8f23f4b0dd780d7c9c5f6107c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb0c8f23f4b0dd780d7c9c5f6107c26">&#9670;&nbsp;</a></span>save_measurement_data()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1117,7 +1133,7 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>controlled_val_unit</em> = <code>'a.u.'</code>, </td>
+          <td class="paramname"><em>controlled_val_unit</em> = <code>'arb.u.'</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1129,7 +1145,13 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>with_error</em> = <code>True</code>&#160;</td>
+          <td class="paramname"><em>with_error</em> = <code>True</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>save_ft</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1138,15 +1160,17 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Prepare data to be saved and create a proper plot of the data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">controlled_val_unit</td><td></td></tr>
-    <tr><td class="paramname">tag</td><td></td></tr>
-    <tr><td class="paramname">with_error</td><td></td></tr>
+    <tr><td class="paramname">str</td><td>controlled_val_unit: unit of the x axis of the plot </td></tr>
+    <tr><td class="paramname">str</td><td>tag: a filetag which will be included in the filename </td></tr>
+    <tr><td class="paramname">bool</td><td>with_error: select whether errors should be saved/plotted</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>str: filepath where data were saved </dd></dl>
 
 </div>
 </div>
