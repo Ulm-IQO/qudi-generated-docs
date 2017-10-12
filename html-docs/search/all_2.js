@@ -12,6 +12,7 @@ var searchData=
   ['block_5fdel_5fsel_5fclicked',['block_del_sel_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a2761158d787710aa5a8e3c6ab4136d29',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['blockeditor',['BlockEditor',['../classpulse__editors_1_1BlockEditor.html',1,'pulse_editors']]],
   ['blockorganizer',['BlockOrganizer',['../classpulse__editors_1_1BlockOrganizer.html',1,'pulse_editors']]],
+  ['boardsetting',['BOARDSETTING',['../classfastcomtecmcs6_1_1BOARDSETTING.html',1,'fastcomtecmcs6']]],
   ['boundingrect',['boundingRect',['../classguiutils_1_1ColorBar.html#a3dc43e81479655cf384dcdb8c4fe1374',1,'guiutils::ColorBar']]],
   ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#a0c389f71d0616f15765568ff1d174ac8',1,'config_gui::menu::ModMenu']]],
   ['buildcurrentfits',['buildCurrentFits',['../classfitsettings_1_1FitSettingsDialog.html#a6c16ab5bf577aa6385c100979b9afe92',1,'fitsettings::FitSettingsDialog']]],

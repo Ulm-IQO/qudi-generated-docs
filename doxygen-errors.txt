@@ -43,6 +43,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:64: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:47: warning: Compound spectrometergui::SpectrometerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:373: warning: Compound pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:144: warning: Compound fastcomtecmcs6::BOARDSETTING is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:418: warning: Compound pulse_streamer_pb2::PulseStreamerServicer is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:32: warning: Compound generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
@@ -1417,47 +1418,52 @@ IndexError: list index out of range
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:158: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:266: warning: Member get_status(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:347: warning: Member get_data_trace(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:447: warning: Member SetDelay(self, t) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:456: warning: Member GetDelay(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:461: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: Member GetLevel(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:167: warning: Member GATED (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:168: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:171: warning: Member stopped_or_halt (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:177: warning: Member dll (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:189: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:307: warning: Member get_status(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:407: warning: Member get_data_trace(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:521: warning: Member change_sweep_mode(self, gated) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:544: warning: Member SetDelay(self, t) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:553: warning: Member GetDelay(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:558: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:569: warning: Member GetLevel(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:199: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:202: warning: Member stopped_or_halt (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:203: warning: Member timetrace_tmp (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:209: warning: Member dll (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:187: warning: Member GATED (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:245: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:245: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:245: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:245: warning: The following parameters of fastcomtecmcs6.FastComtec.configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: The following parameters of fastcomtecmcs6.FastComtec.configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None) are not documented:
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
   parameter 'filename'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:398: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:398: warning: The following parameters of fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: The following parameters of fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
   parameter 'binwidth'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:384: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:384: warning: The following parameters of fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:458: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:458: warning: The following parameters of fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
   parameter 'bitshift'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:411: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_length(self, length_bins)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:411: warning: The following parameters of fastcomtecmcs6.FastComtec.set_length(self, length_bins) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:485: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_length(self, length_bins, preset=None, cycles=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:485: warning: The following parameters of fastcomtecmcs6.FastComtec.set_length(self, length_bins, preset=None, cycles=None) are not documented:
   parameter 'length_bins'
+  parameter 'preset'
+  parameter 'cycles'
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:169: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:281: warning: Member get_status(self) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:340: warning: Member get_data_trace(self, sweep_reset=None) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:465: warning: Member SetDelay(self, t) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:474: warning: Member GetDelay(self) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:481: warning: Member SaveData_locally(self, filename, laser_index) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:491: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:502: warning: Member GetLevel(self) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:511: warning: Member Running(self) (function) of class fastcomtecp7887::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:515: warning: Member GetStatus(self) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:282: warning: Member get_status(self) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:341: warning: Member get_data_trace(self, sweep_reset=None) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:466: warning: Member SetDelay(self, t) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:475: warning: Member GetDelay(self) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:482: warning: Member SaveData_locally(self, filename, laser_index) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:492: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:503: warning: Member GetLevel(self) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:512: warning: Member Running(self) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:516: warning: Member GetStatus(self) (function) of class fastcomtecp7887::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:522: warning: Member load_setup(self, configname) (function) of class fastcomtecp7887::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:178: warning: Member GATED (variable) of class fastcomtecp7887::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:179: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtecp7887::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:182: warning: Member stopped_or_halt (variable) of class fastcomtecp7887::FastComtec is not documented.
@@ -1475,14 +1481,14 @@ IndexError: list index out of range
   parameter 'sweep_reset'
   parameter 'preset'
   parameter 'cycles'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:409: warning: argument 'float' of command @param is not found in the argument list of fastcomtecp7887.FastComtec::set_binwidth(self, binwidth)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:409: warning: The following parameters of fastcomtecp7887.FastComtec.set_binwidth(self, binwidth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:410: warning: argument 'float' of command @param is not found in the argument list of fastcomtecp7887.FastComtec::set_binwidth(self, binwidth)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:410: warning: The following parameters of fastcomtecp7887.FastComtec.set_binwidth(self, binwidth) are not documented:
   parameter 'binwidth'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:394: warning: argument 'int' of command @param is not found in the argument list of fastcomtecp7887.FastComtec::set_bitshift(self, bitshift)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:394: warning: The following parameters of fastcomtecp7887.FastComtec.set_bitshift(self, bitshift) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:395: warning: argument 'int' of command @param is not found in the argument list of fastcomtecp7887.FastComtec::set_bitshift(self, bitshift)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:395: warning: The following parameters of fastcomtecp7887.FastComtec.set_bitshift(self, bitshift) are not documented:
   parameter 'bitshift'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:438: warning: argument 'int' of command @param is not found in the argument list of fastcomtecp7887.FastComtec::set_length(self, N, preset=10000000, cycles=1)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:431: warning: The following parameters of fastcomtecp7887.FastComtec.set_length(self, N, preset=10000000, cycles=1) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:439: warning: argument 'int' of command @param is not found in the argument list of fastcomtecp7887.FastComtec::set_length(self, N, preset=10000000, cycles=1)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecp7887.py:432: warning: The following parameters of fastcomtecp7887.FastComtec.set_length(self, N, preset=10000000, cycles=1) are not documented:
   parameter 'N'
   parameter 'preset'
   parameter 'cycles'

@@ -84,7 +84,7 @@ var searchData=
   ['pulsesequence',['PulseSequence',['../classpulse__objects_1_1PulseSequence.html',1,'pulse_objects']]],
   ['pulsestreamer',['PulseStreamer',['../classpulse__streamer_1_1PulseStreamer.html',1,'pulse_streamer']]],
   ['pulsestreamerservicer',['PulseStreamerServicer',['../classpulse__streamer__pb2_1_1PulseStreamerServicer.html',1,'pulse_streamer_pb2.PulseStreamerServicer'],['../classpulse__streamer__pb2__grpc_1_1PulseStreamerServicer.html',1,'pulse_streamer_pb2_grpc.PulseStreamerServicer']]],
-  ['pulsestreamerstub',['PulseStreamerStub',['../classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2_grpc.PulseStreamerStub'],['../classpulse__streamer__pb2_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2.PulseStreamerStub']]],
+  ['pulsestreamerstub',['PulseStreamerStub',['../classpulse__streamer__pb2_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2.PulseStreamerStub'],['../classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2_grpc.PulseStreamerStub']]],
   ['put_5fcursor_5fin_5fdepth_5fscan',['put_cursor_in_depth_scan',['../classconfocalgui_1_1ConfocalGui.html#a9ffdbbbf6fa24f31d1c1d3fd5ad9fc67',1,'confocalgui::ConfocalGui']]],
   ['put_5fcursor_5fin_5fxy_5fscan',['put_cursor_in_xy_scan',['../classconfocalgui_1_1ConfocalGui.html#ac48f4c21917ec25f1d3a4206b7de7900',1,'confocalgui::ConfocalGui']]]
 ];
