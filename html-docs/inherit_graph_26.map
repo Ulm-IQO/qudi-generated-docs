@@ -33,7 +33,7 @@
 <area shape="rect" id="node36" href="$classmotor__dummy_1_1MotorDummy.html" title="This is the dummy class to simulate a motorized stage. " alt="" coords="459,1676,647,1703"/>
 <area shape="rect" id="node37" href="$classmotor__stage__micos_1_1MotorStageMicos.html" title="unstable Jochen Scheuer. " alt="" coords="450,1793,657,1834"/>
 <area shape="rect" id="node38" href="$classmotor__stage__pi_1_1MotorStagePI.html" title="unstable Christoph Müller, Simon Schmitt This is the Interface class to define the controls for the s..." alt="" coords="456,1859,651,1885"/>
-<area shape="rect" id="node39" href="$classmw__source__agilent_1_1MicrowaveAgilent.html" title="mw_source_agilent.Microwave\lAgilent" alt="" coords="453,2418,654,2459"/>
+<area shape="rect" id="node39" href="$classmw__source__agilent_1_1MicrowaveAgilent.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="453,2418,654,2459"/>
 <area shape="rect" id="node40" href="$classmw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html" title="Hardware control file for Anritsu 70GHz Devices. " alt="" coords="432,2483,675,2525"/>
 <area shape="rect" id="node41" href="$classmw__source__anritsu_1_1MicrowaveAnritsu.html" title="mw_source_anritsu.Microwave\lAnritsu" alt="" coords="452,2549,655,2590"/>
 <area shape="rect" id="node42" href="$classmw__source__dummy_1_1MicrowaveDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="450,2614,657,2655"/>
