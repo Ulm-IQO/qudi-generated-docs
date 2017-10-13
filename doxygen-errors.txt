@@ -1605,6 +1605,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:89: warning: The following parameters of gated_counter_gui.GatedCounterGui.on_activate(self, e=None) are not documented:
   parameter 'e'
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:40: warning: Member __init__(self) (function) of class gated_counter_gui::GatedCounterMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2056: warning: Member digital_channel_switch(self, channel_name, mode=True) (function) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2062: warning: Member digital_out_task (variable) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2064: warning: Member digital_data (variable) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2067: warning: Member digital_read (variable) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2068: warning: Member digital_samples_channel (variable) of class ni_card::NICard is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
@@ -2985,6 +2990,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:481: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_power(self, power=0.)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:481: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_power(self, power=0.) are not documented:
   parameter 'power'
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2056: warning: Member digital_channel_switch(self, channel_name, mode=True) (function) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2062: warning: Member digital_out_task (variable) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2064: warning: Member digital_data (variable) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2067: warning: Member digital_read (variable) of class ni_card::NICard is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/ni_card.py:2068: warning: Member digital_samples_channel (variable) of class ni_card::NICard is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
