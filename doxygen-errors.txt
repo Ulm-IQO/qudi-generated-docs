@@ -26,7 +26,6 @@ Traceback (most recent call last):
   File "/home/travis/miniconda/envs/qudi/lib/python3.6/site-packages/doxypypy/doxypypy.py", line 209, in __alterDocstring
     lines[-1], inCodeBlock)
 IndexError: list index out of range
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:50: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:27: warning: Compound simple_laser_interface::ControlMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:206: warning: Compound poimangui::ReorientRoiDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:38: warning: Compound simple_laser_interface::LaserState is not documented.
@@ -40,7 +39,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/timetagger_fast_counter.py:29: warning: Compound timetagger_fast_counter::TimeTaggerFastCounter is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/high_finesse_wavemeter.py:80: warning: Compound high_finesse_wavemeter::HighFinesseWavemeter is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:119: warning: Compound pulsed_maingui::GeneratorSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:64: warning: Compound pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:47: warning: Compound spectrometergui::SpectrometerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:373: warning: Compound pulse_streamer_pb2::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:144: warning: Compound fastcomtecmcs6::BOARDSETTING is not documented.
@@ -4182,43 +4180,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:37: warning: Member isRunning (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:42: warning: Member hasSequence (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:47: warning: Member getUnderflow (variable) of class pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:79: warning: Member __init__(self, config, kwargs) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:142: warning: Member load_data_clicked(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:149: warning: Member load_data(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:160: warning: Member extract_laser_pulses(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:196: warning: Member analyze_data(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:210: warning: Member analyze(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:226: warning: Member plot_just_laser(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:241: warning: Member plot_result(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:271: warning: Member change_parameters(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:319: warning: Member compute_errorbar_beamwidth(self, x_data) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:153: warning: Member data (variable) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:184: warning: Member laser_y (variable) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:204: warning: Member measuring_error (variable) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:230: warning: Member laser_x (variable) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:77: warning: Member pulsedextractionexternallogic1 (variable) of class pulsed_extraction_external_gui::PulsedExtractionExternalGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_extraction_external_gui.py:52: warning: Member __init__(self) (function) of class pulsed_extraction_external_gui::PulsedExtractionExternalMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:79: warning: Member load_data(self, len_header, column, filename) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:83: warning: Member extract_laser_pulses(self, method, ignore_first, param_dict) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:112: warning: Member length_laser_pulses(self, laser) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:115: warning: Member sum_pulses(self, laser_2) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:119: warning: Member analyze_data(self, laser_data, norm_start_bin, norm_end_bin, signal_start_bin, signal_end_bin) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:126: warning: Member compute_x_values(self, start, increment, alternating) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:134: warning: Member save_file(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:156: warning: Member save_figure(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:160: warning: Member get_analysis_methods(self) (function) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:65: warning: Member threadlock (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:80: warning: Member data (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:122: warning: Member measuring_error (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:53: warning: Member savelogic (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:54: warning: Member pulseextractionlogic (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:55: warning: Member pulseanalysislogic (variable) of class pulsed_extraction_external_logic::PulsedExtractionExternalLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:40: warning: Found unknown command `\signal'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:41: warning: Found unknown command `\signal'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:43: warning: Found unknown command `\sigmal'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:61: warning: argument 'dict' of command @param is not found in the argument list of pulsed_extraction_external_logic.PulsedExtractionExternalLogic::__init__(self, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_extraction_external_logic.py:61: warning: The following parameters of pulsed_extraction_external_logic.PulsedExtractionExternalLogic.__init__(self, kwargs) are not documented:
-  parameter 'kwargs'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:108: warning: Member __init__(self) (function) of class pulsed_maingui::AnalysisSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:120: warning: Member __init__(self) (function) of class pulsed_maingui::GeneratorSettingsDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:143: warning: Member __init__(self) (function) of class pulsed_maingui::PredefinedMethodsConfigDialog is not documented.
