@@ -2256,28 +2256,28 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:513: warning: Member trig_wrapper_normal_mode(self) (function) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:519: warning: Member trig_wrapper_z_mode(self) (function) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:608: warning: Member keep_former_magnet_settings(self) (function) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1376: warning: Member continue_2d_alignment_clicked(self) (function) of class magnet_gui::MagnetGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1378: warning: Member continue_2d_alignment_clicked(self) (function) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:310: warning: Member roi_magnet (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:328: warning: Member hline_magnet (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:330: warning: Member vline_magnet (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:352: warning: Member measurement_type (variable) of class magnet_gui::MagnetGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:176: warning: Member savelogic (variable) of class magnet_gui::MagnetGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1366: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::continue_stop_2d_alignment(self, is_checked)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1368: warning: The following parameters of magnet_gui.MagnetGui.continue_stop_2d_alignment(self, is_checked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1368: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::continue_stop_2d_alignment(self, is_checked)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1370: warning: The following parameters of magnet_gui.MagnetGui.continue_stop_2d_alignment(self, is_checked) are not documented:
   parameter 'is_checked'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1044: warning: Unsupported xml/html tag <axis_label> found
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1044: warning: Unsupported xml/html tag <position> found
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1045: warning: Unsupported xml/html tag <axis_label> found
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1045: warning: Unsupported xml/html tag <position> found
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1027: warning: argument 'str' of command @param is not found in the argument list of magnet_gui.MagnetGui::move_rel(self, axis_label, direction)
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1027: warning: argument 'int' of command @param is not found in the argument list of magnet_gui.MagnetGui::move_rel(self, axis_label, direction)
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1027: warning: The following parameters of magnet_gui.MagnetGui.move_rel(self, axis_label, direction) are not documented:
   parameter 'axis_label'
   parameter 'direction'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1240: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::run_stop_2d_alignment(self, is_checked)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1242: warning: The following parameters of magnet_gui.MagnetGui.run_stop_2d_alignment(self, is_checked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1242: warning: argument 'bool' of command @param is not found in the argument list of magnet_gui.MagnetGui::run_stop_2d_alignment(self, is_checked)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1244: warning: The following parameters of magnet_gui.MagnetGui.run_stop_2d_alignment(self, is_checked) are not documented:
   parameter 'is_checked'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1606: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1216: warning: argument 'list' of command @param is not found in the argument list of magnet_gui.MagnetGui::update_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1216: warning: The following parameters of magnet_gui.MagnetGui.update_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1608: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1218: warning: argument 'list' of command @param is not found in the argument list of magnet_gui.MagnetGui::update_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:1218: warning: The following parameters of magnet_gui.MagnetGui.update_pos(self, param_list=None) are not documented:
   parameter 'param_list'
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:140: warning: Member __init__(self) (function) of class magnet_gui::MagnetMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:151: warning: Member __init__(self) (function) of class magnet_gui::MagnetSettingsWindow is not documented.
@@ -2315,14 +2315,14 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/magnet_interface.py:234: warning: The following parameters of magnet_interface.MagnetInterface.tell(self, param_dict=None) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:237: warning: Member __init__(self, config, kwargs) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:722: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:756: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1862: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2037: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2047: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2050: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:733: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:767: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1873: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2048: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2058: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2061: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:275: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:280: warning: Member move_rel (variable) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:280: warning: Member move_rel_dict (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:291: warning: Member align_2d_axis0_name (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:296: warning: Member align_2d_axis1_name (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:318: warning: Member alignment_methods (variable) of class magnet_logic::MagnetLogic is not documented.
@@ -2403,22 +2403,22 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:233: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:235: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:65: warning: Illegal command par as part of a <h1> tag
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2070: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:413: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:413: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2081: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:427: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:429: warning: The following parameters of magnet_logic.MagnetLogic.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:438: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:440: warning: The following parameters of magnet_logic.MagnetLogic.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:389: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:391: warning: The following parameters of magnet_logic.MagnetLogic.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:400: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:402: warning: The following parameters of magnet_logic.MagnetLogic.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:375: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:375: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:380: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:380: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2058: warning: Found unknown command `\params'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:450: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:450: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2069: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:461: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:461: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:45: warning: Member __init__(self, kwargs) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:260: warning: Member initialize(self) (function) of class magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
@@ -3539,9 +3539,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:128: warning: Member optim_sigma_y (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:129: warning: Member optim_sigma_z (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:143: warning: Member use_custom_params (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:290: warning: Member xy_refocus_image (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:315: warning: Member z_refocus_line (variable) of class optimizer_logic::OptimizerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:318: warning: Member z_fit_data (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:292: warning: Member xy_refocus_image (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:317: warning: Member z_refocus_line (variable) of class optimizer_logic::OptimizerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:320: warning: Member z_fit_data (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:46: warning: Member confocalscanner1 (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:47: warning: Member fitlogic (variable) of class optimizer_logic::OptimizerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:54: warning: Member return_slowness (variable) of class optimizer_logic::OptimizerLogic is not documented.
@@ -3564,12 +3564,12 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:190: warning: argument 'int' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_clock_frequency(self, clock_frequency)
 /home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:192: warning: The following parameters of optimizer_logic.OptimizerLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:686: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:686: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:686: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:686: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:686: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
-/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:686: warning: The following parameters of optimizer_logic.OptimizerLogic.set_position(self, tag, x=None, y=None, z=None, a=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:688: warning: argument 'str' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:688: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:688: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:688: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:688: warning: argument 'float' of command @param is not found in the argument list of optimizer_logic.OptimizerLogic::set_position(self, tag, x=None, y=None, z=None, a=None)
+/home/travis/build/Ulm-IQO/qudi/logic/optimizer_logic.py:688: warning: The following parameters of optimizer_logic.OptimizerLogic.set_position(self, tag, x=None, y=None, z=None, a=None) are not documented:
   parameter 'tag'
   parameter 'x'
   parameter 'y'
@@ -3858,11 +3858,15 @@ IndexError: list index out of range
   parameter 'value'
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:52: warning: Member __init__(self, config, kwargs) (function) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:59: warning: Member analysis_methods (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:100: warning: Member signal_start_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:101: warning: Member signal_end_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:102: warning: Member norm_start_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:103: warning: Member norm_end_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:46: warning: Member current_method (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:47: warning: Member signal_start_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:48: warning: Member signal_end_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:49: warning: Member norm_start_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:50: warning: Member norm_end_bin (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:47: warning: Member signal_start_s (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:48: warning: Member signal_end_s (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:49: warning: Member norm_start_s (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:50: warning: Member norm_end_s (variable) of class pulse_analysis_logic::PulseAnalysisLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:95: warning: argument 'numpy.' of command @param is not found in the argument list of pulse_analysis_logic.PulseAnalysisLogic::analyze_data(self, laser_data)
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:95: warning: argument 'ndarray' of command @param is not found in the argument list of pulse_analysis_logic.PulseAnalysisLogic::analyze_data(self, laser_data)
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_analysis_logic.py:97: warning: The following parameters of pulse_analysis_logic.PulseAnalysisLogic.analyze_data(self, laser_data) are not documented:
@@ -4345,6 +4349,24 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:136: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.__init__(self, config, kwargs) are not documented:
   parameter 'config'
   parameter 'kwargs'
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:536: warning: argument 'signal_start_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:536: warning: argument 'signal_end_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:536: warning: argument 'norm_start_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:536: warning: argument 'norm_end_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:540: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s) are not documented:
+  parameter 'signal_start_s'
+  parameter 'signal_end_s'
+  parameter 'norm_start_s'
+  parameter 'norm_end_s'
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:551: warning: argument 'signal_start_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_updated(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:551: warning: argument 'signal_end_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_updated(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:551: warning: argument 'norm_start_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_updated(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:551: warning: argument 'norm_end_bin' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_updated(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:555: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.analysis_settings_updated(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s) are not documented:
+  parameter 'signal_start_s'
+  parameter 'signal_end_s'
+  parameter 'norm_start_s'
+  parameter 'norm_end_s'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:442: warning: argument 'number_of_lasers' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::fast_counter_settings_updated(self, bin_width_s, record_length_s)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1217: warning: argument 'sampling_format' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1221: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format) are not documented:
@@ -4355,8 +4377,8 @@ IndexError: list index out of range
   parameter 'signal_fft_y'
   parameter 'signal_fft_y2'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:105: warning: Member __init__(self, config, kwargs) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:336: warning: Member set_pulse_sequence_properties(self, controlled_vals, number_of_lasers, sequence_length_s, laser_ignore_list, is_alternating) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:654: warning: Member set_microwave_params(self, frequency=None, power=None, use_ext_mw=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:340: warning: Member set_pulse_sequence_properties(self, controlled_vals, number_of_lasers, sequence_length_s, laser_ignore_list, is_alternating) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:658: warning: Member set_microwave_params(self, frequency=None, power=None, use_ext_mw=None) (function) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:113: warning: Member fast_counter_status (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:114: warning: Member fast_counter_gated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:119: warning: Member controlled_vals (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
@@ -4431,26 +4453,35 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:101: warning: Member sigAnalysisMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:102: warning: Member sigExtractionSettingsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:103: warning: Member sigExtractionMethodsUpdated (variable) of class pulsed_measurement_logic::PulsedMeasurementLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1282: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_method, x_data=None, y_data=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1282: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_method, x_data=None, y_data=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:939: warning: argument 'signal_start_bin' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:939: warning: argument 'signal_end_bin' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:939: warning: argument 'norm_start_bin' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:939: warning: argument 'norm_end_bin' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:943: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.analysis_settings_changed(self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s) are not documented:
+  parameter 'signal_start_s'
+  parameter 'signal_end_s'
+  parameter 'norm_start_s'
+  parameter 'norm_end_s'
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1295: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_method, x_data=None, y_data=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1295: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_method, x_data=None, y_data=None) are not documented:
   parameter 'fit_method'
   parameter 'x_data'
   parameter 'y_data'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:588: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:588: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:589: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:592: warning: argument 'Object' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:592: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:593: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:999: warning: argument 'str' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:999: warning: argument 'str' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:999: warning: argument 'bool' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1001: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1012: warning: argument 'str' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1012: warning: argument 'str' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1012: warning: argument 'bool' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1014: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.save_measurement_data(self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None) are not documented:
   parameter 'controlled_val_unit'
   parameter 'tag'
   parameter 'with_error'
   parameter 'save_ft'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:907: warning: argument 'int' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::set_timer_interval(self, interval)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:909: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.set_timer_interval(self, interval) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:914: warning: argument 'int' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::set_timer_interval(self, interval)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:916: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.set_timer_interval(self, interval) are not documented:
   parameter 'interval'
 /home/travis/build/Ulm-IQO/qudi/hardware/pulser_dummy.py:47: warning: Member __init__(self, config, kwargs) (function) of class pulser_dummy::PulserDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/pulser_dummy.py:52: warning: Member awg_waveform_directory (variable) of class pulser_dummy::PulserDummy is not documented.

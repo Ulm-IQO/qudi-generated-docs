@@ -122,10 +122,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:aeca8c1754d1b6441663a1a9b78e76bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d76981d719775581483b730c6735759"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a0d76981d719775581483b730c6735759">pulse_generator_settings_updated</a> (self, sample_rate_hz, activation_config_name, analogue_amplitude, interleave_on)</td></tr>
 <tr class="separator:a0d76981d719775581483b730c6735759"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dbbfc3684bc3f4c7e9a2c68257e6065"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a7dbbfc3684bc3f4c7e9a2c68257e6065">analysis_settings_changed</a> (self, method, signal_start_bin, signal_end_bin, norm_start_bin, norm_end_bin)</td></tr>
-<tr class="separator:a7dbbfc3684bc3f4c7e9a2c68257e6065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88653e27686d2eaf4db5c3d408b56c06"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a88653e27686d2eaf4db5c3d408b56c06">analysis_settings_updated</a> (self, method, signal_start_bin, signal_end_bin, norm_start_bin, norm_end_bin)</td></tr>
-<tr class="separator:a88653e27686d2eaf4db5c3d408b56c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d58dd9f0190e888968e8e3c78dbf722"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a0d58dd9f0190e888968e8e3c78dbf722">analysis_settings_changed</a> (self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)</td></tr>
+<tr class="separator:a0d58dd9f0190e888968e8e3c78dbf722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3815cfda303335af5d8bb69902f3399"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#ad3815cfda303335af5d8bb69902f3399">analysis_settings_updated</a> (self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)</td></tr>
+<tr class="separator:ad3815cfda303335af5d8bb69902f3399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5549be3033696726aa9edc80326d36b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#af5549be3033696726aa9edc80326d36b">analysis_methods_updated</a> (self, methods_dict)</td></tr>
 <tr class="separator:af5549be3033696726aa9edc80326d36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafd19a511036286a6b2693d3286c4637"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#aafd19a511036286a6b2693d3286c4637">do_fit</a> (self, fit_function)</td></tr>
@@ -317,7 +317,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigTimerIntervalChanged</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:a9a52f8412b68061f5dcbeee16a33eeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cb095b85fa7a224140b581a21e1cd03"><td class="memItemLeft" align="right" valign="top"><a id="a6cb095b85fa7a224140b581a21e1cd03"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsChanged</b> = QtCore.Signal(str, int, int, int, int)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsChanged</b> = QtCore.Signal(str, float, float, float, float)</td></tr>
 <tr class="separator:a6cb095b85fa7a224140b581a21e1cd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac588568f4eaa819f5131778f019cab1d"><td class="memItemLeft" align="right" valign="top"><a id="ac588568f4eaa819f5131778f019cab1d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigManuallyPullData</b> = QtCore.Signal()</td></tr>
@@ -448,7 +448,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigTimerIntervalUpdated</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:ac50d281132d5335d0294b68fee18ad0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3192966a2e140966c121a6c642decbc2"><td class="memItemLeft" align="right" valign="top"><a id="a3192966a2e140966c121a6c642decbc2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(str, int, int, int, int)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(str, float, float, float, float)</td></tr>
 <tr class="separator:a3192966a2e140966c121a6c642decbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9d19e384b1cd59116b89d10e755c05d"><td class="memItemLeft" align="right" valign="top"><a id="ad9d19e384b1cd59116b89d10e755c05d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisMethodsUpdated</b> = QtCore.Signal(dict)</td></tr>
@@ -609,8 +609,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7dbbfc3684bc3f4c7e9a2c68257e6065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dbbfc3684bc3f4c7e9a2c68257e6065">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
+<a id="a0d58dd9f0190e888968e8e3c78dbf722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d58dd9f0190e888968e8e3c78dbf722">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -631,25 +631,25 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_start_bin</em>, </td>
+          <td class="paramname"><em>signal_start_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_end_bin</em>, </td>
+          <td class="paramname"><em>signal_end_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_start_bin</em>, </td>
+          <td class="paramname"><em>norm_start_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_end_bin</em>&#160;</td>
+          <td class="paramname"><em>norm_end_s</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -672,8 +672,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a88653e27686d2eaf4db5c3d408b56c06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88653e27686d2eaf4db5c3d408b56c06">&#9670;&nbsp;</a></span>analysis_settings_updated()</h2>
+<a id="ad3815cfda303335af5d8bb69902f3399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3815cfda303335af5d8bb69902f3399">&#9670;&nbsp;</a></span>analysis_settings_updated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,25 +694,25 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_start_bin</em>, </td>
+          <td class="paramname"><em>signal_start_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_end_bin</em>, </td>
+          <td class="paramname"><em>signal_end_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_start_bin</em>, </td>
+          <td class="paramname"><em>norm_start_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_end_bin</em>&#160;</td>
+          <td class="paramname"><em>norm_end_s</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

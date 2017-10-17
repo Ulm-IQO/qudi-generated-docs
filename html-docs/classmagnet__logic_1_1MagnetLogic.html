@@ -244,9 +244,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a04f384a6b4af141e4fc078306bdfa95d"><td class="memItemLeft" align="right" valign="top"><a id="a04f384a6b4af141e4fc078306bdfa95d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>pathway_modes</b></td></tr>
 <tr class="separator:a04f384a6b4af141e4fc078306bdfa95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56711f7b4377e98a67df9916f7e0979b"><td class="memItemLeft" align="right" valign="top"><a id="a56711f7b4377e98a67df9916f7e0979b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>move_rel</b></td></tr>
-<tr class="separator:a56711f7b4377e98a67df9916f7e0979b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01a264cbe7f6753966f2f4d9b4be878"><td class="memItemLeft" align="right" valign="top"><a id="ab01a264cbe7f6753966f2f4d9b4be878"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>move_rel_dict</b></td></tr>
+<tr class="separator:ab01a264cbe7f6753966f2f4d9b4be878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4098952fd4a46bbcfede4a3aef708afb"><td class="memItemLeft" align="right" valign="top"><a id="a4098952fd4a46bbcfede4a3aef708afb"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>align_2d_axis0_name</b></td></tr>
 <tr class="separator:a4098952fd4a46bbcfede4a3aef708afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -744,10 +744,11 @@ Static Public Attributes</h2></td></tr>
 <p>Moves stage to absolute position (absolute movement) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dict</td><td>param_dict: dictionary, which passes all the relevant parameters, which should be changed. Usage: {'axis_label': &lt;a-value&gt;}. 'axis_label' must correspond to a label given to one of the axis. </td></tr>
+    <tr><td class="paramname">dict</td><td>param_dict: dictionary, which passes all the relevant parameters, which should be changed. Usage: {'axis_label': &lt;a-value&gt;}. 'axis_label' must correspond to a label given to one of the axis.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>param dict: dictionary, which passes all the relevant parameters. E.g., for a movement of an axis labeled with 'x' by 23 the dict should have the form: param_dict = { 'x' : 23 } </dd></dl>
 
 </div>
 </div>
@@ -784,7 +785,7 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>error code (0:OK, -1:error) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>param dict: dictionary, which passes all the relevant parameters. E.g., for a movement of an axis labeled with 'x' by 23 the dict should have the form: param_dict = { 'x' : 23 } </dd></dl>
 
 </div>
 </div>

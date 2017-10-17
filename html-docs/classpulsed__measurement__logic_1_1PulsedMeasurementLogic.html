@@ -187,8 +187,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_microwave_params</
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a45d0bfcc2793859c280248d29bf87604">manually_pull_data</a> (self)</td></tr>
 <tr class="memdesc:a45d0bfcc2793859c280248d29bf87604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyse and display the data. <br /></td></tr>
 <tr class="separator:a45d0bfcc2793859c280248d29bf87604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89eeb0d74db5dd5b157d8e2417e8b615"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a89eeb0d74db5dd5b157d8e2417e8b615">analysis_settings_changed</a> (self, method, signal_start_bin, signal_end_bin, norm_start_bin, norm_end_bin)</td></tr>
-<tr class="separator:a89eeb0d74db5dd5b157d8e2417e8b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8194c786f838ac0cca29f11eeaf9e5c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#af8194c786f838ac0cca29f11eeaf9e5c">analysis_settings_changed</a> (self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)</td></tr>
+<tr class="separator:af8194c786f838ac0cca29f11eeaf9e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34876b993101efcca7849d4053f82dc1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a34876b993101efcca7849d4053f82dc1">extraction_settings_changed</a> (self, method, conv_std_dev, count_treshold, threshold_tolerance_bins, min_laser_length)</td></tr>
 <tr class="separator:a34876b993101efcca7849d4053f82dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#aacb0c8f23f4b0dd780d7c9c5f6107c26">save_measurement_data</a> (self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)</td></tr>
@@ -417,7 +417,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigTimerIntervalUpdated</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:ae018f5c4a6f244b5976dd009c1bdde63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae056b0e6a1a4d6f399d086599e6a43ac"><td class="memItemLeft" align="right" valign="top"><a id="ae056b0e6a1a4d6f399d086599e6a43ac"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(str, int, int, int, int)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(str, float, float, float, float)</td></tr>
 <tr class="separator:ae056b0e6a1a4d6f399d086599e6a43ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdd7b638e40dee00cc83060995a98b0"><td class="memItemLeft" align="right" valign="top"><a id="a1fdd7b638e40dee00cc83060995a98b0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisMethodsUpdated</b> = QtCore.Signal(dict)</td></tr>
@@ -432,8 +432,8 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the Logic class for the control of pulsed measurements. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a89eeb0d74db5dd5b157d8e2417e8b615"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89eeb0d74db5dd5b157d8e2417e8b615">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
+<a id="af8194c786f838ac0cca29f11eeaf9e5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8194c786f838ac0cca29f11eeaf9e5c">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,25 +454,25 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_start_bin</em>, </td>
+          <td class="paramname"><em>signal_start_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_end_bin</em>, </td>
+          <td class="paramname"><em>signal_end_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_start_bin</em>, </td>
+          <td class="paramname"><em>norm_start_s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_end_bin</em>&#160;</td>
+          <td class="paramname"><em>norm_end_s</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
