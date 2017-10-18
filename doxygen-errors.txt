@@ -2713,17 +2713,17 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:113: warning: Member step_third_axis (variable) of class motor_stage_pi::MotorStagePI is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:417: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::calibrate(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:417: warning: The following parameters of motor_stage_pi.MotorStagePI.calibrate(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:419: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::calibrate(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:419: warning: The following parameters of motor_stage_pi.MotorStagePI.calibrate(self, param_list=None) are not documented:
   parameter 'param_list'
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:336: warning: argument 'list' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::get_pos(self, param_list=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:338: warning: The following parameters of motor_stage_pi.MotorStagePI.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:384: warning: argument 'list' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:386: warning: The following parameters of motor_stage_pi.MotorStagePI.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:386: warning: argument 'list' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:388: warning: The following parameters of motor_stage_pi.MotorStagePI.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:449: warning: argument 'list' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::get_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:449: warning: The following parameters of motor_stage_pi.MotorStagePI.get_velocity(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:451: warning: argument 'list' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::get_velocity(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:451: warning: The following parameters of motor_stage_pi.MotorStagePI.get_velocity(self, param_list=None) are not documented:
   parameter 'param_list'
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:287: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::move_abs(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:289: warning: The following parameters of motor_stage_pi.MotorStagePI.move_abs(self, param_dict) are not documented:
@@ -2731,8 +2731,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:255: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::move_rel(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:257: warning: The following parameters of motor_stage_pi.MotorStagePI.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:476: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:476: warning: The following parameters of motor_stage_pi.MotorStagePI.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:478: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_pi.MotorStagePI::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:478: warning: The following parameters of motor_stage_pi.MotorStagePI.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/mw_differential_scanner.py:51: warning: Member __init__(self, config, kwargs) (function) of class mw_differential_scanner::ConfocalScannerInterfaceDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/mw_differential_scanner.py:121: warning: Member on_deactivate(self) (function) of class mw_differential_scanner::ConfocalScannerInterfaceDummy is not documented.
@@ -3704,69 +3704,75 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:103: warning: argument '3' of command @param is not found in the argument list of poi_manager_logic.PoI::add_position_to_history(self, position=None)
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:103: warning: The following parameters of poi_manager_logic.PoI.add_position_to_history(self, position=None) are not documented:
   parameter 'position'
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:170: warning: argument 'bool' of command @param is not found in the argument list of poi_manager_logic.PoI::delete_last_position(self, empty_array_completely=False)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:171: warning: The following parameters of poi_manager_logic.PoI.delete_last_position(self, empty_array_completely=False) are not documented:
+  parameter 'empty_array_completely'
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:128: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoI::set_name(self, name=None)
 /home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:128: warning: The following parameters of poi_manager_logic.PoI.set_name(self, name=None) are not documented:
   parameter 'name'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:203: warning: Member __init__(self, config, kwargs) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:252: warning: Member on_deactivate(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:445: warning: Member set_new_position(self, poikey=None, newpos=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:638: warning: Member reset_roi(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:688: warning: Member update_poi_tag_in_savelogic(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:734: warning: Member load_roi_from_file(self, filename=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:206: warning: Member roi_name (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:207: warning: Member poi_list (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:209: warning: Member go_to_crosshair_after_refocus (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:212: warning: Member timer (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:213: warning: Member time_left (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:214: warning: Member timer_step (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:215: warning: Member timer_duration (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:218: warning: Member threadlock (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:247: warning: Member roi_map_data (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:250: warning: Member active_poi (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:191: warning: Member optimizer1 (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:192: warning: Member scannerlogic (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:193: warning: Member savelogic (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:195: warning: Member signal_timer_updated (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:196: warning: Member signal_poi_updated (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:197: warning: Member signal_poi_deleted (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:198: warning: Member signal_confocal_image_updated (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:199: warning: Member signal_periodic_opt_started (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:200: warning: Member signal_periodic_opt_duration_changed (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:201: warning: Member signal_periodic_opt_stopped (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:352: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::delete_poi(self, poikey=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:352: warning: The following parameters of poi_manager_logic.PoiManagerLogic.delete_poi(self, poikey=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:209: warning: Member __init__(self, config, kwargs) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:258: warning: Member on_deactivate(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:480: warning: Member set_new_position(self, poikey=None, newpos=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:673: warning: Member reset_roi(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:724: warning: Member update_poi_tag_in_savelogic(self) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:770: warning: Member load_roi_from_file(self, filename=None) (function) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:212: warning: Member roi_name (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:213: warning: Member poi_list (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:215: warning: Member go_to_crosshair_after_refocus (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:218: warning: Member timer (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:219: warning: Member time_left (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:220: warning: Member timer_step (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:221: warning: Member timer_duration (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:224: warning: Member threadlock (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:253: warning: Member roi_map_data (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:256: warning: Member active_poi (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:197: warning: Member optimizer1 (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:198: warning: Member scannerlogic (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:199: warning: Member savelogic (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:201: warning: Member signal_timer_updated (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:202: warning: Member signal_poi_updated (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:203: warning: Member signal_poi_deleted (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:204: warning: Member signal_confocal_image_updated (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:205: warning: Member signal_periodic_opt_started (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:206: warning: Member signal_periodic_opt_duration_changed (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:207: warning: Member signal_periodic_opt_stopped (variable) of class poi_manager_logic::PoiManagerLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:360: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::delete_last_position(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:360: warning: The following parameters of poi_manager_logic.PoiManagerLogic.delete_last_position(self, poikey=None) are not documented:
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:422: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::get_poi_position(self, poikey=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:422: warning: The following parameters of poi_manager_logic.PoiManagerLogic.get_poi_position(self, poikey=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:379: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::delete_poi(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:379: warning: The following parameters of poi_manager_logic.PoiManagerLogic.delete_poi(self, poikey=None) are not documented:
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:402: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::go_to_poi(self, poikey=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:402: warning: The following parameters of poi_manager_logic.PoiManagerLogic.go_to_poi(self, poikey=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:457: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::get_poi_position(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:457: warning: The following parameters of poi_manager_logic.PoiManagerLogic.get_poi_position(self, poikey=None) are not documented:
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:382: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::optimise_poi(self, poikey=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:382: warning: The following parameters of poi_manager_logic.PoiManagerLogic.optimise_poi(self, poikey=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:431: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::go_to_poi(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:431: warning: The following parameters of poi_manager_logic.PoiManagerLogic.go_to_poi(self, poikey=None) are not documented:
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:506: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::rename_poi(self, poikey=None, name=None, emit_change=True)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:506: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::rename_poi(self, poikey=None, name=None, emit_change=True)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:506: warning: The following parameters of poi_manager_logic.PoiManagerLogic.rename_poi(self, poikey=None, name=None, emit_change=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:411: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::optimise_poi(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:411: warning: The following parameters of poi_manager_logic.PoiManagerLogic.optimise_poi(self, poikey=None) are not documented:
+  parameter 'poikey'
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:541: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::rename_poi(self, poikey=None, name=None, emit_change=True)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:541: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::rename_poi(self, poikey=None, name=None, emit_change=True)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:541: warning: The following parameters of poi_manager_logic.PoiManagerLogic.rename_poi(self, poikey=None, name=None, emit_change=True) are not documented:
   parameter 'poikey'
   parameter 'name'
   parameter 'emit_change'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:557: warning: argument 'float' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::set_periodic_optimize_duration(self, duration=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:557: warning: The following parameters of poi_manager_logic.PoiManagerLogic.set_periodic_optimize_duration(self, duration=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:592: warning: argument 'float' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::set_periodic_optimize_duration(self, duration=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:592: warning: The following parameters of poi_manager_logic.PoiManagerLogic.set_periodic_optimize_duration(self, duration=None) are not documented:
   parameter 'duration'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:533: warning: argument 'float' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::start_periodic_refocus(self, poikey=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:533: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::start_periodic_refocus(self, poikey=None)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:533: warning: The following parameters of poi_manager_logic.PoiManagerLogic.start_periodic_refocus(self, poikey=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:568: warning: argument 'float' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::start_periodic_refocus(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:568: warning: argument 'string' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::start_periodic_refocus(self, poikey=None)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:568: warning: The following parameters of poi_manager_logic.PoiManagerLogic.start_periodic_refocus(self, poikey=None) are not documented:
   parameter 'poikey'
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
-/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:769: warning: The following parameters of poi_manager_logic.PoiManagerLogic.triangulate(self, r, a1, b1, c1, a2, b2, c2) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'np.' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: argument 'array' of command @param is not found in the argument list of poi_manager_logic.PoiManagerLogic::triangulate(self, r, a1, b1, c1, a2, b2, c2)
+/home/travis/build/Ulm-IQO/qudi/logic/poi_manager_logic.py:805: warning: The following parameters of poi_manager_logic.PoiManagerLogic.triangulate(self, r, a1, b1, c1, a2, b2, c2) are not documented:
   parameter 'r'
   parameter 'a1'
   parameter 'b1'
@@ -3778,23 +3784,23 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:180: warning: Member mouseClickEvent(self, ev) (function) of class poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:186: warning: Member mouseDragEvent(self, ev, axis=0) (function) of class poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:235: warning: Member __init__(self, config, kwargs) (function) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:557: warning: Member shortcut_to_roi_cb_manual(self) (function) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:561: warning: Member shortcut_to_roi_cb_centiles(self) (function) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:637: warning: Member toggle_tracking(self) (function) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:650: warning: Unsupported xml/html tag <key> found
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:736: warning: Member update_poi_pos(self) (function) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:746: warning: Member toggle_follow(self) (function) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:559: warning: Member shortcut_to_roi_cb_manual(self) (function) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:563: warning: Member shortcut_to_roi_cb_centiles(self) (function) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:647: warning: Member toggle_tracking(self) (function) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:663: warning: Unsupported xml/html tag <key> found
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:754: warning: Member update_poi_pos(self) (function) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:767: warning: Member toggle_follow(self) (function) of class poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:309: warning: Member roi_map_image (variable) of class poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:331: warning: Member roi_cb (variable) of class poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:353: warning: Member y_shift_plot (variable) of class poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:363: warning: Member z_shift_plot (variable) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:543: warning: Member roi_map_xmin (variable) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:544: warning: Member roi_map_xmax (variable) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:545: warning: Member roi_map_ymin (variable) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:546: warning: Member roi_map_ymax (variable) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:545: warning: Member roi_map_xmin (variable) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:546: warning: Member roi_map_xmax (variable) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:547: warning: Member roi_map_ymin (variable) of class poimangui::PoiManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:548: warning: Member roi_map_ymax (variable) of class poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:232: warning: Member poimanagerlogic1 (variable) of class poimangui::PoiManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:233: warning: Member confocallogic1 (variable) of class poimangui::PoiManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:650: warning: Unsupported xml/html tag <key> found
+/home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:663: warning: Unsupported xml/html tag <key> found
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:195: warning: Member __init__(self) (function) of class poimangui::PoiManagerMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:57: warning: Member __init__(self, pos, poi=None, click_action=None, viewwidget=None, args) (function) of class poimangui::PoiMark is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:78: warning: Member add_to_viewwidget(self, viewwidget=None) (function) of class poimangui::PoiMark is not documented.
@@ -3977,7 +3983,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:66: warning: Member ungated_extraction_methods (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:67: warning: Member extraction_methods (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:45: warning: Member conv_std_dev (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:46: warning: Member count_treshold (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:46: warning: Member count_threshold (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:47: warning: Member threshold_tolerance_bins (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:48: warning: Member min_laser_length (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulse_extraction_logic.py:50: warning: Member current_method (variable) of class pulse_extraction_logic::PulseExtractionLogic is not documented.

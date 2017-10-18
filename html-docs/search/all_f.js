@@ -23,6 +23,7 @@ var searchData=
   ['openexperiment',['openExperiment',['../classlightfield__spectrometer_1_1Lightfield.html#aa551ba6832f33def07b16d37b9124616',1,'lightfield_spectrometer::Lightfield']]],
   ['optimise_5fpoi',['optimise_poi',['../classpoi__manager__logic_1_1PoiManagerLogic.html#ab82262d45b1dde7ec3d59ec0da20bcc3',1,'poi_manager_logic::PoiManagerLogic']]],
   ['optimize_5fpos_5ffreq_5fchanged',['optimize_pos_freq_changed',['../classmagnet__gui_1_1MagnetGui.html#a319d28cdcbb2b083a8b1177f88aecf8d',1,'magnet_gui::MagnetGui']]],
+  ['optimize_5froi',['optimize_roi',['../classpoimangui_1_1PoiManagerGui.html#a1a03c75be5accdee615f7b0eb867b95b',1,'poimangui::PoiManagerGui']]],
   ['optimizerlogic',['OptimizerLogic',['../classoptimizer__logic_1_1OptimizerLogic.html',1,'optimizer_logic']]],
   ['optimizersettingdialog',['OptimizerSettingDialog',['../classconfocalgui_1_1OptimizerSettingDialog.html',1,'confocalgui']]],
   ['opts',['opts',['../classSpinBox_1_1SpinBox.html#a47ee8142f2213cc9b13a769dd3158008',1,'SpinBox::SpinBox']]],

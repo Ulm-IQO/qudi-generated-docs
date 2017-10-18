@@ -12,6 +12,7 @@ var searchData=
   ['openexperiment',['openExperiment',['../classlightfield__spectrometer_1_1Lightfield.html#aa551ba6832f33def07b16d37b9124616',1,'lightfield_spectrometer::Lightfield']]],
   ['optimise_5fpoi',['optimise_poi',['../classpoi__manager__logic_1_1PoiManagerLogic.html#ab82262d45b1dde7ec3d59ec0da20bcc3',1,'poi_manager_logic::PoiManagerLogic']]],
   ['optimize_5fpos_5ffreq_5fchanged',['optimize_pos_freq_changed',['../classmagnet__gui_1_1MagnetGui.html#a319d28cdcbb2b083a8b1177f88aecf8d',1,'magnet_gui::MagnetGui']]],
+  ['optimize_5froi',['optimize_roi',['../classpoimangui_1_1PoiManagerGui.html#a1a03c75be5accdee615f7b0eb867b95b',1,'poimangui::PoiManagerGui']]],
   ['organizer_5fadd_5flast_5fclicked',['organizer_add_last_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a4369011f16d9cd485d3ae31ab67f60eb',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['organizer_5fadd_5fsel_5fclicked',['organizer_add_sel_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#ad0541874bcb8ee5a6b4efe5dda4efe53',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['organizer_5fclear_5fclicked',['organizer_clear_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a3db0eb42d0973fa1016f552322874c35',1,'pulsed_maingui::PulsedMeasurementGui']]],

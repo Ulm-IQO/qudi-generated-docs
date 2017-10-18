@@ -100,9 +100,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, po
 <tr class="memitem:a2dfa9204773c77436e3c125efe021742"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoI.html#a2dfa9204773c77436e3c125efe021742">get_position_history</a> (self)</td></tr>
 <tr class="memdesc:a2dfa9204773c77436e3c125efe021742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the whole position history as array.  <a href="#a2dfa9204773c77436e3c125efe021742">More...</a><br /></td></tr>
 <tr class="separator:a2dfa9204773c77436e3c125efe021742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8ea4125b9ae511542313985f47b38e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoI.html#aeb8ea4125b9ae511542313985f47b38e">delete_last_position</a> (self)</td></tr>
-<tr class="memdesc:aeb8ea4125b9ae511542313985f47b38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the last position in the history.  <a href="#aeb8ea4125b9ae511542313985f47b38e">More...</a><br /></td></tr>
-<tr class="separator:aeb8ea4125b9ae511542313985f47b38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5343a028ee07cc0454b91c8b18111b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoI.html#a8b5343a028ee07cc0454b91c8b18111b">delete_last_position</a> (self, empty_array_completely=False)</td></tr>
+<tr class="memdesc:a8b5343a028ee07cc0454b91c8b18111b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the last position in the history.  <a href="#a8b5343a028ee07cc0454b91c8b18111b">More...</a><br /></td></tr>
+<tr class="separator:a8b5343a028ee07cc0454b91c8b18111b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -150,8 +150,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb8ea4125b9ae511542313985f47b38e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8ea4125b9ae511542313985f47b38e">&#9670;&nbsp;</a></span>delete_last_position()</h2>
+<a id="a8b5343a028ee07cc0454b91c8b18111b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5343a028ee07cc0454b91c8b18111b">&#9670;&nbsp;</a></span>delete_last_position()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,13 +160,29 @@ Public Attributes</h2></td></tr>
           <td class="memname">def poi_manager_logic.PoI.delete_last_position </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>empty_array_completely</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Delete the last position in the history. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bool</td><td>empty_array_completely: If _position_time_trace can be deleted completely this variable is set to True if not the last value will not be deleted</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>float[4]: the position just deleted. </dd></dl>
 
 </div>
