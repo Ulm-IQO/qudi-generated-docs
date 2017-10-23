@@ -9,7 +9,7 @@
 <area shape="rect" id="node11" href="$classfast__counter__dummy_1_1FastCounterDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="443,1073,663,1114"/>
 <area shape="rect" id="node12" href="$classfast__counter__fpga__pi3_1_1FastCounterFGAPiP3.html" title="fast_counter_fpga_pi3.Fast\lCounterFGAPiP3" alt="" coords="463,1190,643,1231"/>
 <area shape="rect" id="node13" href="$classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html" title="unstable Nikolas Tomek This is the hardware class for the Spartan&#45;6 (Opal Kelly XEM6310) FPGA based f..." alt="" coords="465,1409,642,1450"/>
-<area shape="rect" id="node14" href="$classfastcomtecmcs6_1_1FastComtec.html" title="unstable Jochen Scheuer, Simon Schmitt " alt="" coords="456,1307,651,1333"/>
+<area shape="rect" id="node14" href="$classfastcomtecmcs6_1_1FastComtec.html" title="stable Jochen Scheuer, Simon Schmitt " alt="" coords="456,1307,651,1333"/>
 <area shape="rect" id="node15" href="$classfastcomtecp7887_1_1FastComtec.html" title="unstable Jochen Scheuer " alt="" coords="454,1357,653,1384"/>
 <area shape="rect" id="node16" href="$classtimetagger__fast__counter_1_1TimeTaggerFastCounter.html" title="timetagger_fast_counter.\lTimeTaggerFastCounter" alt="" coords="470,1007,637,1049"/>
 <area shape="rect" id="node18" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="1041,1179,1199,1205"/>

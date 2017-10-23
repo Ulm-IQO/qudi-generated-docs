@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>unstable Jochen Scheuer, Simon Schmitt  
+<p>stable Jochen Scheuer, Simon Schmitt  
  <a href="classfastcomtecmcs6_1_1FastComtec.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for fastcomtecmcs6.FastComtec:</div>
@@ -163,12 +163,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a41636545c5964500742337cd9001cf04"><td class="memItemLeft" align="right" valign="top"><a id="a41636545c5964500742337cd9001cf04"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>change_sweep_mode</b> (self, gated)</td></tr>
 <tr class="separator:a41636545c5964500742337cd9001cf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3599a3cc1ed3ed4980121cc9c6029664"><td class="memItemLeft" align="right" valign="top"><a id="a3599a3cc1ed3ed4980121cc9c6029664"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>SetDelay</b> (self, t)</td></tr>
-<tr class="separator:a3599a3cc1ed3ed4980121cc9c6029664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad76c027eb892ea32b28859c222b27d74"><td class="memItemLeft" align="right" valign="top"><a id="ad76c027eb892ea32b28859c222b27d74"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>GetDelay</b> (self)</td></tr>
-<tr class="separator:ad76c027eb892ea32b28859c222b27d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73af74689804f72303c90c3b9cf4658"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecmcs6_1_1FastComtec.html#ae73af74689804f72303c90c3b9cf4658">change_save_mode</a> (self, mode)</td></tr>
+<tr class="memdesc:ae73af74689804f72303c90c3b9cf4658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the save mode of Mcs6.  <a href="#ae73af74689804f72303c90c3b9cf4658">More...</a><br /></td></tr>
+<tr class="separator:ae73af74689804f72303c90c3b9cf4658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b94df91f329581a8a73a1b4b1c13aa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecmcs6_1_1FastComtec.html#a44b94df91f329581a8a73a1b4b1c13aa">set_delay_start</a> (self, delay_s)</td></tr>
+<tr class="memdesc:a44b94df91f329581a8a73a1b4b1c13aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the record delay length.  <a href="#a44b94df91f329581a8a73a1b4b1c13aa">More...</a><br /></td></tr>
+<tr class="separator:a44b94df91f329581a8a73a1b4b1c13aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa79989ab57d2a94501388ee3bf42ecdb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecmcs6_1_1FastComtec.html#aa79989ab57d2a94501388ee3bf42ecdb">get_delay_start</a> (self)</td></tr>
+<tr class="memdesc:aa79989ab57d2a94501388ee3bf42ecdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current record delay length.  <a href="#aa79989ab57d2a94501388ee3bf42ecdb">More...</a><br /></td></tr>
+<tr class="separator:aa79989ab57d2a94501388ee3bf42ecdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac16e77997045ce8008982d41e455987b"><td class="memItemLeft" align="right" valign="top"><a id="ac16e77997045ce8008982d41e455987b"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>SetLevel</b> (self, start, stop)</td></tr>
 <tr class="separator:ac16e77997045ce8008982d41e455987b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,6 +252,12 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:aaec6e557271be9faa8a5679456cccb8b"><td class="memItemLeft" align="right" valign="top"><a id="aaec6e557271be9faa8a5679456cccb8b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GATED</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('gated', False, missing='warn')</td></tr>
 <tr class="separator:aaec6e557271be9faa8a5679456cccb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081eef50889750b87988fa0e78aa0975"><td class="memItemLeft" align="right" valign="top"><a id="a081eef50889750b87988fa0e78aa0975"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>trigger_safety</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('trigger_safety', 200e-9, missing='warn')</td></tr>
+<tr class="separator:a081eef50889750b87988fa0e78aa0975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a82204cac73ed60b6ffa45b6dfc2830"><td class="memItemLeft" align="right" valign="top"><a id="a5a82204cac73ed60b6ffa45b6dfc2830"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>aom_delay</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('aom_delay', 400e-9, missing='warn')</td></tr>
+<tr class="separator:a5a82204cac73ed60b6ffa45b6dfc2830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_classcore_1_1module_1_1BaseMixin"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classcore_1_1module_1_1BaseMixin')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classcore_1_1module_1_1BaseMixin.html">core.module.BaseMixin</a></td></tr>
 <tr class="memitem:a62bb0ea5c40b14b9aac801db2d20d67c inherit pub_static_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="a62bb0ea5c40b14b9aac801db2d20d67c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>trigger</b> = QtCore.Slot(str, result=bool)(Fysom.trigger)</td></tr>
@@ -265,9 +274,45 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a57f2f4142ef01d14624dd122deabddc1 inherit pub_static_methods_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>unstable Jochen Scheuer, Simon Schmitt </p>
-<p>Hardware Class for the <a class="el" href="classfastcomtecmcs6_1_1FastComtec.html" title="unstable Jochen Scheuer, Simon Schmitt ">FastComtec</a> Card. </p>
+<div class="textblock"><p>stable Jochen Scheuer, Simon Schmitt </p>
+<p>Hardware Class for the <a class="el" href="classfastcomtecmcs6_1_1FastComtec.html" title="stable Jochen Scheuer, Simon Schmitt ">FastComtec</a> Card. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae73af74689804f72303c90c3b9cf4658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae73af74689804f72303c90c3b9cf4658">&#9670;&nbsp;</a></span>change_save_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecmcs6.FastComtec.change_save_mode </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the save mode of Mcs6. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>mode: Specifies the save mode (0: No Save at Halt, 1: Save at Halt, 2 Write list file, No Save at Halt, 3: Write list file, Save at Halt <pre class="fragment">@return int mode: specified save mode</pre> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aa40188cdf049624ce9cda841f20a4088"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa40188cdf049624ce9cda841f20a4088">&#9670;&nbsp;</a></span>configure()</h2>
 
@@ -419,6 +464,27 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa79989ab57d2a94501388ee3bf42ecdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa79989ab57d2a94501388ee3bf42ecdb">&#9670;&nbsp;</a></span>get_delay_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecmcs6.FastComtec.get_delay_start </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current record delay length. </p>
+<dl class="section return"><dt>Returns</dt><dd>float delay_s: current record delay length in seconds </dd></dl>
+
+</div>
+</div>
 <a id="a314ceccea37c8c22fbf066f93916abf5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a314ceccea37c8c22fbf066f93916abf5">&#9670;&nbsp;</a></span>get_length()</h2>
 
@@ -553,6 +619,43 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int: asks the actual bitshift and returns the red out value </dd></dl>
+
+</div>
+</div>
+<a id="a44b94df91f329581a8a73a1b4b1c13aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b94df91f329581a8a73a1b4b1c13aa">&#9670;&nbsp;</a></span>set_delay_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecmcs6.FastComtec.set_delay_start </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>delay_s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the record delay length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>delay_s: Record delay after receiving a start trigger</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int mode: specified save mode </dd></dl>
 
 </div>
 </div>

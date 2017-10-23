@@ -11,7 +11,7 @@
 <area shape="rect" id="node11" href="$classfast__counter__dummy_1_1FastCounterDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="893,305,1113,346"/>
 <area shape="rect" id="node12" href="$classfast__counter__fpga__pi3_1_1FastCounterFGAPiP3.html" title="fast_counter_fpga_pi3.Fast\lCounterFGAPiP3" alt="" coords="913,370,1093,411"/>
 <area shape="rect" id="node13" href="$classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html" title="unstable Nikolas Tomek This is the hardware class for the Spartan&#45;6 (Opal Kelly XEM6310) FPGA based f..." alt="" coords="914,435,1091,477"/>
-<area shape="rect" id="node14" href="$classfastcomtecmcs6_1_1FastComtec.html" title="unstable Jochen Scheuer, Simon Schmitt " alt="" coords="905,501,1100,528"/>
+<area shape="rect" id="node14" href="$classfastcomtecmcs6_1_1FastComtec.html" title="stable Jochen Scheuer, Simon Schmitt " alt="" coords="905,501,1100,528"/>
 <area shape="rect" id="node15" href="$classfastcomtecp7887_1_1FastComtec.html" title="unstable Jochen Scheuer " alt="" coords="903,552,1102,579"/>
 <area shape="rect" id="node16" href="$classflipmirror_1_1FlipMirror.html" title="This class is implements communication with the Radiant Dyes flip mirror driver through pyVISA..." alt="" coords="937,603,1068,629"/>
 <area shape="rect" id="node17" href="$classgeneric__logic_1_1GenericLogic.html" title="A generic logic interface class. " alt="" coords="913,653,1092,680"/>

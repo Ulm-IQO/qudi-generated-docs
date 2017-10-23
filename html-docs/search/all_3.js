@@ -14,6 +14,7 @@ var searchData=
   ['change_5fpoi_5fname',['change_poi_name',['../classpoimangui_1_1PoiManagerGui.html#ad5ccaf08306f0590baf95c5db4b82115',1,'poimangui::PoiManagerGui']]],
   ['change_5frefind_5fmethod',['change_refind_method',['../classpoimangui_1_1PoiManagerGui.html#a74fad8a104862d918b96447dece0f8e9',1,'poimangui::PoiManagerGui']]],
   ['change_5fruntime',['change_runtime',['../classodmrgui_1_1ODMRGui.html#ac786269f9e2a8ebd97a1d5116cea61c6',1,'odmrgui::ODMRGui']]],
+  ['change_5fsave_5fmode',['change_save_mode',['../classfastcomtecmcs6_1_1FastComtec.html#ae73af74689804f72303c90c3b9cf4658',1,'fastcomtecmcs6::FastComtec']]],
   ['change_5fsecond_5fplot',['change_second_plot',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#afab81e92a40049fce37c849ce9f50441',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['change_5fsweep_5fparams',['change_sweep_params',['../classodmrgui_1_1ODMRGui.html#ad6356539c55e6d10ff856417034d7038',1,'odmrgui::ODMRGui']]],
   ['change_5fx_5fimage_5frange',['change_x_image_range',['../classconfocalgui_1_1ConfocalGui.html#a0222fb53601d8e200ab3dbf36f93e29c',1,'confocalgui::ConfocalGui']]],

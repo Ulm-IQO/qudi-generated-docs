@@ -1419,38 +1419,44 @@ IndexError: list index out of range
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:189: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:307: warning: Member get_status(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:407: warning: Member get_data_trace(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:521: warning: Member change_sweep_mode(self, gated) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:544: warning: Member SetDelay(self, t) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:553: warning: Member GetDelay(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:558: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:569: warning: Member GetLevel(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:199: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:202: warning: Member stopped_or_halt (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:203: warning: Member timetrace_tmp (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:209: warning: Member dll (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:191: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:309: warning: Member get_status(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:409: warning: Member get_data_trace(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:523: warning: Member change_sweep_mode(self, gated) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:583: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:594: warning: Member GetLevel(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:201: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:204: warning: Member stopped_or_halt (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:205: warning: Member timetrace_tmp (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:211: warning: Member dll (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:187: warning: Member GATED (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:188: warning: Member trigger_safety (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:189: warning: Member aom_delay (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:279: warning: The following parameters of fastcomtecmcs6.FastComtec.configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:545: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::change_save_mode(self, mode)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:547: warning: The following parameters of fastcomtecmcs6.FastComtec.change_save_mode(self, mode) are not documented:
+  parameter 'mode'
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: The following parameters of fastcomtecmcs6.FastComtec.configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None) are not documented:
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
   parameter 'filename'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:472: warning: The following parameters of fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:474: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:474: warning: The following parameters of fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
   parameter 'binwidth'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:458: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:458: warning: The following parameters of fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:460: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:460: warning: The following parameters of fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
   parameter 'bitshift'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:485: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_length(self, length_bins, preset=None, cycles=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:485: warning: The following parameters of fastcomtecmcs6.FastComtec.set_length(self, length_bins, preset=None, cycles=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:556: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_delay_start(self, delay_s)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:558: warning: The following parameters of fastcomtecmcs6.FastComtec.set_delay_start(self, delay_s) are not documented:
+  parameter 'delay_s'
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:487: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_length(self, length_bins, preset=None, cycles=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:487: warning: The following parameters of fastcomtecmcs6.FastComtec.set_length(self, length_bins, preset=None, cycles=None) are not documented:
   parameter 'length_bins'
   parameter 'preset'
   parameter 'cycles'
@@ -2678,32 +2684,35 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/motor_interface.py:215: warning: argument 'dict' of command @param is not found in the argument list of motor_interface.MotorInterface::set_velocity(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/interface/motor_interface.py:216: warning: The following parameters of motor_interface.MotorInterface.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:84: warning: Member __init__(self, config, kwargs) (function) of class motor_stage_micos::MotorStageMicos is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:93: warning: Member on_activate(self) (function) of class motor_stage_micos::MotorStageMicos is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:104: warning: Member rm (variable) of class motor_stage_micos::MotorStageMicos is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:212: warning: Member rm (variable) of class motor_stage_micos::MotorStageMicos is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:44: warning: Member unit_factor (variable) of class motor_stage_micos::MotorStageMicos is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:146: warning: Member step_first_axis (variable) of class motor_stage_micos::MotorStageMicos is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:147: warning: Member step_second_axis (variable) of class motor_stage_micos::MotorStageMicos is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:148: warning: Member step_third_axis (variable) of class motor_stage_micos::MotorStageMicos is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:149: warning: Member step_fourth_axis (variable) of class motor_stage_micos::MotorStageMicos is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:568: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::calibrate(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:568: warning: The following parameters of motor_stage_micos.MotorStageMicos.calibrate(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:689: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::calibrate(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:689: warning: The following parameters of motor_stage_micos.MotorStageMicos.calibrate(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:470: warning: argument 'list' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:472: warning: The following parameters of motor_stage_micos.MotorStageMicos.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:583: warning: argument 'list' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:585: warning: The following parameters of motor_stage_micos.MotorStageMicos.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:514: warning: argument 'list' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:516: warning: The following parameters of motor_stage_micos.MotorStageMicos.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:628: warning: argument 'list' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:630: warning: The following parameters of motor_stage_micos.MotorStageMicos.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:617: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::get_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:617: warning: The following parameters of motor_stage_micos.MotorStageMicos.get_velocity(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:730: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::get_velocity(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:730: warning: The following parameters of motor_stage_micos.MotorStageMicos.get_velocity(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:333: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:335: warning: The following parameters of motor_stage_micos.MotorStageMicos.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:385: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:387: warning: The following parameters of motor_stage_micos.MotorStageMicos.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:248: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::move_rel(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:250: warning: The following parameters of motor_stage_micos.MotorStageMicos.move_rel(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:352: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::move_rel(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:354: warning: The following parameters of motor_stage_micos.MotorStageMicos.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:652: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:652: warning: The following parameters of motor_stage_micos.MotorStageMicos.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:759: warning: argument 'dict' of command @param is not found in the argument list of motor_stage_micos.MotorStageMicos::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_micos.py:759: warning: The following parameters of motor_stage_micos.MotorStageMicos.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:154: warning: Member __init__(self, kwargs) (function) of class motor_stage_pi::MotorStagePI is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/motor_stage_pi.py:162: warning: Member rm (variable) of class motor_stage_pi::MotorStagePI is not documented.
@@ -4226,12 +4235,12 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1458: warning: Member measuring_error_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1461: warning: Member measuring_error_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:167: warning: Member savelogic (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1683: warning: argument 'bool' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_run_stop_clicked(self, isChecked)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1683: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_run_stop_clicked(self, isChecked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1684: warning: argument 'bool' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_run_stop_clicked(self, isChecked)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1684: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_run_stop_clicked(self, isChecked) are not documented:
   parameter 'isChecked'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1988: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.pulse_generator_settings_updated(self, sample_rate_hz, activation_config_name, activation_config, analogue_amplitude, interleave_on) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1989: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.pulse_generator_settings_updated(self, sample_rate_hz, activation_config_name, activation_config, analogue_amplitude, interleave_on) are not documented:
   parameter 'activation_config'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1785: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.signal_data_updated(self, x_data, y_signal_data, y2_signal_data, y_error_data, y2_error_data, fft_x_data, fft_y_data, fft_y2_data) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1786: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.signal_data_updated(self, x_data, y_signal_data, y2_signal_data, y_error_data, y2_error_data, fft_x_data, fft_y_data, fft_y2_data) are not documented:
   parameter 'fft_x_data'
   parameter 'fft_y_data'
   parameter 'fft_y2_data'
