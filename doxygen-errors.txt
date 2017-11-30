@@ -1419,44 +1419,44 @@ IndexError: list index out of range
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:191: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:309: warning: Member get_status(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:409: warning: Member get_data_trace(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:523: warning: Member change_sweep_mode(self, gated) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:583: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:594: warning: Member GetLevel(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:201: warning: Member MINIMAL_BINWIDTH (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:204: warning: Member stopped_or_halt (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:205: warning: Member timetrace_tmp (variable) of class fastcomtecmcs6::FastComtec is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:211: warning: Member dll (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:192: warning: Member __init__(self, config, kwargs) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:308: warning: Member get_status(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:408: warning: Member get_data_trace(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:522: warning: Member change_sweep_mode(self, gated) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:582: warning: Member SetLevel(self, start, stop) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:593: warning: Member GetLevel(self) (function) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:203: warning: Member stopped_or_halt (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:204: warning: Member timetrace_tmp (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:210: warning: Member dll (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:187: warning: Member GATED (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:187: warning: Member gated (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:188: warning: Member trigger_safety (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:189: warning: Member aom_delay (variable) of class fastcomtecmcs6::FastComtec is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:190: warning: Member minimal_binwidth (variable) of class fastcomtecmcs6::FastComtec is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:545: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::change_save_mode(self, mode)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:547: warning: The following parameters of fastcomtecmcs6.FastComtec.change_save_mode(self, mode) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:544: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::change_save_mode(self, mode)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:546: warning: The following parameters of fastcomtecmcs6.FastComtec.change_save_mode(self, mode) are not documented:
   parameter 'mode'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:281: warning: The following parameters of fastcomtecmcs6.FastComtec.configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:280: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:280: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:280: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:280: warning: The following parameters of fastcomtecmcs6.FastComtec.configure(self, bin_width_s, record_length_s, number_of_gates=0, filename=None) are not documented:
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
   parameter 'filename'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:474: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:474: warning: The following parameters of fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:473: warning: argument 'float' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_binwidth(self, binwidth)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:473: warning: The following parameters of fastcomtecmcs6.FastComtec.set_binwidth(self, binwidth) are not documented:
   parameter 'binwidth'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:460: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:460: warning: The following parameters of fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:459: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_bitshift(self, bitshift)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:459: warning: The following parameters of fastcomtecmcs6.FastComtec.set_bitshift(self, bitshift) are not documented:
   parameter 'bitshift'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:556: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_delay_start(self, delay_s)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:558: warning: The following parameters of fastcomtecmcs6.FastComtec.set_delay_start(self, delay_s) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:555: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_delay_start(self, delay_s)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:557: warning: The following parameters of fastcomtecmcs6.FastComtec.set_delay_start(self, delay_s) are not documented:
   parameter 'delay_s'
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:487: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_length(self, length_bins, preset=None, cycles=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:487: warning: The following parameters of fastcomtecmcs6.FastComtec.set_length(self, length_bins, preset=None, cycles=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:486: warning: argument 'int' of command @param is not found in the argument list of fastcomtecmcs6.FastComtec::set_length(self, length_bins, preset=None, cycles=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:486: warning: The following parameters of fastcomtecmcs6.FastComtec.set_length(self, length_bins, preset=None, cycles=None) are not documented:
   parameter 'length_bins'
   parameter 'preset'
   parameter 'cycles'
@@ -2923,6 +2923,30 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:283: warning: argument 'list' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:283: warning: argument 'float' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:286: warning: The following parameters of mw_source_gigatronics.MicrowaveGigatronics.set_list(self, frequency=None, power=None) are not documented:
+  parameter 'frequency'
+  parameter 'power'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:137: warning: Member off(self) (function) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:154: warning: Member get_status(self) (function) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:178: warning: Member get_frequency(self) (function) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:195: warning: Member cw_on(self) (function) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:254: warning: Member list_on(self) (function) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:315: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:69: warning: Member rm (variable) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:78: warning: Member model (variable) of class mw_source_smbv::MicrowaveSmbv is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:316: warning: Member trigger (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:319: warning: Member sigStateChanged (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:222: warning: argument 'float' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:222: warning: argument 'float' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:225: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_cw(self, frequency=None, power=None) are not documented:
+  parameter 'frequency'
+  parameter 'power'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:358: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_ext_trigger(self, pol=TriggerEdge.RISING)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:358: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+  parameter 'pol'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:266: warning: argument 'list' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:266: warning: argument 'float' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:269: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:154: warning: Member off(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
@@ -5486,11 +5510,10 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:105: warning: Member offset_list (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:106: warning: Member markers_high (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:107: warning: Member is_output_enabled (variable) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:108: warning: Member use_sequencer (variable) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:109: warning: Member active_channel (variable) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:110: warning: Member interleave (variable) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:111: warning: Member current_loaded_asset (variable) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:113: warning: Member current_status (variable) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:108: warning: Member active_channel (variable) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:109: warning: Member interleave (variable) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:110: warning: Member current_loaded_asset (variable) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:112: warning: Member current_status (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:594: warning: Member amplitude_list (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:749: warning: Member markers_low (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:372: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
@@ -5515,18 +5538,18 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:557: warning: The following parameters of tektronix_awg70k.AWG70K.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:170: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:170: warning: Unsupported xml/html tag <channel_list> found
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:171: warning: Unsupported xml/html tag <descriptor_str> found
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:171: warning: Unsupported xml/html tag <channel_list> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:172: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:172: warning: Unsupported xml/html tag <channel_list> found
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:713: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::get_digital_level(self, low=None, high=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:713: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::get_digital_level(self, low=None, high=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:713: warning: The following parameters of tektronix_awg70k.AWG70K.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:372: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:372: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:372: warning: The following parameters of tektronix_awg70k.AWG70K.load_asset(self, asset_name, load_dict=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:371: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:371: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::load_asset(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:371: warning: The following parameters of tektronix_awg70k.AWG70K.load_asset(self, asset_name, load_dict=None) are not documented:
   parameter 'asset_name'
   parameter 'load_dict'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:872: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::set_active_channels(self, ch=None)
@@ -5554,8 +5577,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1128: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::tell(self, command)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1128: warning: The following parameters of tektronix_awg70k.AWG70K.tell(self, command) are not documented:
   parameter 'command'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:309: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::upload_asset(self, asset_name=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:310: warning: The following parameters of tektronix_awg70k.AWG70K.upload_asset(self, asset_name=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:308: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::upload_asset(self, asset_name=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:309: warning: The following parameters of tektronix_awg70k.AWG70K.upload_asset(self, asset_name=None) are not documented:
   parameter 'asset_name'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:57: warning: Member __init__(self, config, kwargs) (function) of class tektronix_awg7122c::AWG7122C is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:61: warning: Member sample_rate (variable) of class tektronix_awg7122c::AWG7122C is not documented.
