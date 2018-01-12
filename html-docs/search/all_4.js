@@ -19,6 +19,7 @@ var searchData=
   ['delete_5fpulse_5fblock',['delete_pulse_block',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a1f149acf182bd696332c9b2f859a0929',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['delete_5frow',['delete_row',['../classpulse__editors_1_1BlockEditor.html#a14fee03bb936298644c13b68f207dc82',1,'pulse_editors.BlockEditor.delete_row()'],['../classpulse__editors_1_1BlockOrganizer.html#af7bbed587e26f846014f73f402b7d4dc',1,'pulse_editors.BlockOrganizer.delete_row()'],['../classpulse__editors_1_1SequenceEditor.html#ae589a453e7b371ad337dd109dc9903c8',1,'pulse_editors.SequenceEditor.delete_row()']]],
   ['delete_5fsequence',['delete_sequence',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a5129bbd69e35e787d96f100127258b2d',1,'pulsed_master_logic.PulsedMasterLogic.delete_sequence()'],['../classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a4a8cc298b822ad182c845b6c34de582a',1,'sequence_generator_logic.SequenceGeneratorLogic.delete_sequence()']]],
+  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
   ['depth',['depth',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a1babaef2d5a48a2dd35bef7d2dd32514',1,'core::util::mutex::Mutex']]],
   ['depth_5fscan_5fclicked',['depth_scan_clicked',['../classconfocalgui_1_1ConfocalGui.html#a5d52c635dae2a009b276743d6a94a75e',1,'confocalgui::ConfocalGui']]],
   ['depth_5fscan_5fend_5fzoom_5fpoint',['depth_scan_end_zoom_point',['../classconfocalgui_1_1ConfocalGui.html#a50b069fec6c29bcadd36d7e8a5c324a2',1,'confocalgui::ConfocalGui']]],

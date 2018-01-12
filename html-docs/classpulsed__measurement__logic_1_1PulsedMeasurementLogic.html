@@ -187,10 +187,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_microwave_params</
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a45d0bfcc2793859c280248d29bf87604">manually_pull_data</a> (self)</td></tr>
 <tr class="memdesc:a45d0bfcc2793859c280248d29bf87604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyse and display the data. <br /></td></tr>
 <tr class="separator:a45d0bfcc2793859c280248d29bf87604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8194c786f838ac0cca29f11eeaf9e5c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#af8194c786f838ac0cca29f11eeaf9e5c">analysis_settings_changed</a> (self, method, signal_start_s, signal_end_s, norm_start_s, norm_end_s)</td></tr>
-<tr class="separator:af8194c786f838ac0cca29f11eeaf9e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ddda27d63746ba50fd8d0d35ce954dc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a2ddda27d63746ba50fd8d0d35ce954dc">extraction_settings_changed</a> (self, method, conv_std_dev, count_threshold, threshold_tolerance_bins, min_laser_length)</td></tr>
-<tr class="separator:a2ddda27d63746ba50fd8d0d35ce954dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ec3f6c648bcb1deffc616c442c7c8f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#ac6ec3f6c648bcb1deffc616c442c7c8f">analysis_settings_changed</a> (self, analysis_settings)</td></tr>
+<tr class="separator:ac6ec3f6c648bcb1deffc616c442c7c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c1d1b25918c95c87c33b41fc9a1dd8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a44c1d1b25918c95c87c33b41fc9a1dd8">extraction_settings_changed</a> (self, extraction_settings)</td></tr>
+<tr class="separator:a44c1d1b25918c95c87c33b41fc9a1dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#aacb0c8f23f4b0dd780d7c9c5f6107c26">save_measurement_data</a> (self, controlled_val_unit='arb.u.', tag=None, with_error=True, save_ft=None)</td></tr>
 <tr class="memdesc:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare data to be saved and create a proper plot of the data.  <a href="#aacb0c8f23f4b0dd780d7c9c5f6107c26">More...</a><br /></td></tr>
 <tr class="separator:aacb0c8f23f4b0dd780d7c9c5f6107c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -417,13 +417,13 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigTimerIntervalUpdated</b> = QtCore.Signal(float)</td></tr>
 <tr class="separator:ae018f5c4a6f244b5976dd009c1bdde63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae056b0e6a1a4d6f399d086599e6a43ac"><td class="memItemLeft" align="right" valign="top"><a id="ae056b0e6a1a4d6f399d086599e6a43ac"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(str, float, float, float, float)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisSettingsUpdated</b> = QtCore.Signal(dict)</td></tr>
 <tr class="separator:ae056b0e6a1a4d6f399d086599e6a43ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdd7b638e40dee00cc83060995a98b0"><td class="memItemLeft" align="right" valign="top"><a id="a1fdd7b638e40dee00cc83060995a98b0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigAnalysisMethodsUpdated</b> = QtCore.Signal(dict)</td></tr>
 <tr class="separator:a1fdd7b638e40dee00cc83060995a98b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4459fd32265f80f09325c472635ba432"><td class="memItemLeft" align="right" valign="top"><a id="a4459fd32265f80f09325c472635ba432"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigExtractionSettingsUpdated</b> = QtCore.Signal(str, float, int, int, int)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigExtractionSettingsUpdated</b> = QtCore.Signal(dict)</td></tr>
 <tr class="separator:a4459fd32265f80f09325c472635ba432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64bc35def7aaaf833a4d0d9458938a0"><td class="memItemLeft" align="right" valign="top"><a id="af64bc35def7aaaf833a4d0d9458938a0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigExtractionMethodsUpdated</b> = QtCore.Signal(dict)</td></tr>
@@ -432,8 +432,8 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the Logic class for the control of pulsed measurements. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af8194c786f838ac0cca29f11eeaf9e5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8194c786f838ac0cca29f11eeaf9e5c">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
+<a id="ac6ec3f6c648bcb1deffc616c442c7c8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ec3f6c648bcb1deffc616c442c7c8f">&#9670;&nbsp;</a></span>analysis_settings_changed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,31 +448,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>method</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_start_s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal_end_s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_start_s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>norm_end_s</em>&#160;</td>
+          <td class="paramname"><em>analysis_settings</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -483,11 +459,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">method</td><td></td></tr>
-    <tr><td class="paramname">signal_start_bin</td><td></td></tr>
-    <tr><td class="paramname">signal_end_bin</td><td></td></tr>
-    <tr><td class="paramname">norm_start_bin</td><td></td></tr>
-    <tr><td class="paramname">norm_end_bin</td><td></td></tr>
+    <tr><td class="paramname">dict</td><td>analysis_settings: </td></tr>
   </table>
   </dd>
 </dl>
@@ -701,8 +673,8 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
 
 </div>
 </div>
-<a id="a2ddda27d63746ba50fd8d0d35ce954dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ddda27d63746ba50fd8d0d35ce954dc">&#9670;&nbsp;</a></span>extraction_settings_changed()</h2>
+<a id="a44c1d1b25918c95c87c33b41fc9a1dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c1d1b25918c95c87c33b41fc9a1dd8">&#9670;&nbsp;</a></span>extraction_settings_changed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -717,31 +689,7 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>method</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>conv_std_dev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>count_threshold</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>threshold_tolerance_bins</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>min_laser_length</em>&#160;</td>
+          <td class="paramname"><em>extraction_settings</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -752,11 +700,7 @@ dict fit_result: a dictionary containing the fit result </dd></dl>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">method</td><td></td></tr>
-    <tr><td class="paramname">conv_std_dev</td><td></td></tr>
-    <tr><td class="paramname">count_threshold</td><td></td></tr>
-    <tr><td class="paramname">threshold_tolerance_bins</td><td></td></tr>
-    <tr><td class="paramname">min_laser_length</td><td></td></tr>
+    <tr><td class="paramname">dict</td><td>extraction_settings: </td></tr>
   </table>
   </dd>
 </dl>

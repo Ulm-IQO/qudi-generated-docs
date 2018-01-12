@@ -1,5 +1,5 @@
 <map id="edwards_vacuum_controller.EdwardsVacuumController" name="edwards_vacuum_controller.EdwardsVacuumController">
-<area shape="rect" id="node2" href="$classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="53,229,179,256"/>
-<area shape="rect" id="node7" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="59,80,227,107"/>
-<area shape="rect" id="node4" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="133,155,291,181"/>
+<area shape="rect" id="node2" href="$classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="35,229,161,256"/>
+<area shape="rect" id="node6" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="76,80,244,107"/>
+<area shape="rect" id="node4" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="81,155,239,181"/>
 </map>

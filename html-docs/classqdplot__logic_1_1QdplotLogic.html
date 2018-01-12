@@ -102,10 +102,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqdplot__logic_1_1QdplotLogic.html#a1aae358bf615e70a35a78a31bf0b73c3">on_deactivate</a> (self)</td></tr>
 <tr class="memdesc:a1aae358bf615e70a35a78a31bf0b73c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module. <br /></td></tr>
 <tr class="separator:a1aae358bf615e70a35a78a31bf0b73c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a100dc76b5d28c9905550de798d6aae8e"><td class="memItemLeft" align="right" valign="top"><a id="a100dc76b5d28c9905550de798d6aae8e"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqdplot__logic_1_1QdplotLogic.html#a100dc76b5d28c9905550de798d6aae8e">set_data</a> (self, x=None, y=None)</td></tr>
-<tr class="memdesc:a100dc76b5d28c9905550de798d6aae8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the data to plot. <br /></td></tr>
-<tr class="separator:a100dc76b5d28c9905550de798d6aae8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4154ae9bee84b3d8d4f389a7e00011"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqdplot__logic_1_1QdplotLogic.html#a5b4154ae9bee84b3d8d4f389a7e00011">set_data</a> (self, x=None, y=None, clear_old=True)</td></tr>
+<tr class="memdesc:a5b4154ae9bee84b3d8d4f389a7e00011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the data to plot.  <a href="#a5b4154ae9bee84b3d8d4f389a7e00011">More...</a><br /></td></tr>
+<tr class="separator:a5b4154ae9bee84b3d8d4f389a7e00011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4544dbeb4b1c0fecb531f9bb2d73dc94"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqdplot__logic_1_1QdplotLogic.html#a4544dbeb4b1c0fecb531f9bb2d73dc94">set_domain</a> (self, newdomain=None)</td></tr>
 <tr class="memdesc:a4544dbeb4b1c0fecb531f9bb2d73dc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the plot domain, to match the data (default) or to a specified new domain.  <a href="#a4544dbeb4b1c0fecb531f9bb2d73dc94">More...</a><br /></td></tr>
 <tr class="separator:a4544dbeb4b1c0fecb531f9bb2d73dc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +144,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af06c2428b7445d89b4d16c8cd821f5eb"><td class="memItemLeft" align="right" valign="top"><a id="af06c2428b7445d89b4d16c8cd821f5eb"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>plot_range</b></td></tr>
 <tr class="separator:af06c2428b7445d89b4d16c8cd821f5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31fcb0f924d789262c48193868b9135"><td class="memItemLeft" align="right" valign="top"><a id="ae31fcb0f924d789262c48193868b9135"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>clear_old</b></td></tr>
+<tr class="separator:ae31fcb0f924d789262c48193868b9135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e8e55444a482bdcb187d77498eedff8"><td class="memItemLeft" align="right" valign="top"><a id="a6e8e55444a482bdcb187d77498eedff8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>h_label</b></td></tr>
 <tr class="separator:a6e8e55444a482bdcb187d77498eedff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +248,56 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>np.array([2 or 3][X]), OrderedDict: array with the </dd></dl>
+
+</div>
+</div>
+<a id="a5b4154ae9bee84b3d8d4f389a7e00011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b4154ae9bee84b3d8d4f389a7e00011">&#9670;&nbsp;</a></span>set_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def qdplot_logic.QdplotLogic.set_data </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>x</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>y</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>clear_old</em> = <code>True</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the data to plot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">np.ndarray/list</td><td>or list of np.ndarrays/lists x: data of independents variable(s) </td></tr>
+    <tr><td class="paramname">np.ndarray/list</td><td>or list of np.ndarrays/lists y: data of dependent variable(s) </td></tr>
+    <tr><td class="paramname">bool</td><td>clear_old: clear old plots in GUI if True </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

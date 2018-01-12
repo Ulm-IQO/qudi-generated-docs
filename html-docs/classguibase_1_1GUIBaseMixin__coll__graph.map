@@ -1,4 +1,4 @@
 <map id="guibase.GUIBaseMixin" name="guibase.GUIBaseMixin">
-<area shape="rect" id="node2" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="54,155,212,181"/>
-<area shape="rect" id="node5" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="199,80,367,107"/>
+<area shape="rect" id="node2" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="41,155,199,181"/>
+<area shape="rect" id="node4" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="111,80,279,107"/>
 </map>

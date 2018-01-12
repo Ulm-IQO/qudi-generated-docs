@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['identify',['identify',['../classcore_1_1module_1_1BaseMixin.html#a57f2f4142ef01d14624dd122deabddc1',1,'core.module.BaseMixin.identify()'],['../classaptmotor_1_1APTMotor.html#a41be1e0410e5d1076ef795e801174634',1,'aptmotor.APTMotor.identify()']]],
+  ['identify',['identify',['../classaptmotor_1_1APTMotor.html#a41be1e0410e5d1076ef795e801174634',1,'aptmotor::APTMotor']]],
   ['idle_5fmagnet',['idle_magnet',['../classmagnet_1_1Magnet.html#ae3ce4cbaad964b55ce16103e69883ad9',1,'magnet::Magnet']]],
   ['importmodule',['importModule',['../classcore_1_1manager_1_1Manager.html#a2df18472ba0b55f5a16acfe173267de2',1,'core::manager::Manager']]],
   ['index',['index',['../classautomation_1_1TreeModel.html#aacd81c7ee812ec3e0d03996cf955a6a0',1,'automation::TreeModel']]],

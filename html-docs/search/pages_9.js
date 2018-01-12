@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['remote_20modules',['Remote Modules',['../md_documentation_remote_modules.html',1,'']]],
-  ['required_20packages',['Required Packages',['../required-python-packages.html',1,'']]]
+  ['qudi_2ddocs_2dimages',['qudi-docs-images',['../md_documentation_images_README.html',1,'']]],
+  ['qudi',['qudi',['../md_README.html',1,'']]]
 ];

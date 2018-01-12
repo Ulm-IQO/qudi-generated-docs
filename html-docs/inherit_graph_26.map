@@ -1,146 +1,147 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html" title="Dummy confocal scanner. " alt="" coords="438,778,669,819"/>
-<area shape="rect" id="node3" href="$classconfocal__scanner__spectrometer__interfuse_1_1SpectrometerScannerInterfuse.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="423,843,683,885"/>
-<area shape="rect" id="node4" href="$classmw__differential__scanner_1_1ConfocalScannerInterfaceDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="444,909,663,950"/>
-<area shape="rect" id="node5" href="$classni__card_1_1NICard.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="498,1559,609,1585"/>
-<area shape="rect" id="node7" href="$classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html" title="This interfuse produces a Z correction corresponding to a tilted surface. " alt="" coords="454,1610,653,1651"/>
-<area shape="rect" id="node6" href="$classgated__ni__card_1_1SlowGatedNICard.html" title="Enable the usage of the gated counter in the slow counter interface. " alt="" coords="733,1584,947,1611"/>
-<area shape="rect" id="node9" href="$classinflux__data__logger_1_1InfluxLogger.html" title="Log instrument values to InfluxDB. " alt="" coords="472,1026,635,1067"/>
-<area shape="rect" id="node11" href="$classfast__counter__dummy_1_1FastCounterDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="443,1157,663,1198"/>
-<area shape="rect" id="node12" href="$classfast__counter__fpga__pi3_1_1FastCounterFGAPiP3.html" title="fast_counter_fpga_pi3.Fast\lCounterFGAPiP3" alt="" coords="463,1442,643,1483"/>
-<area shape="rect" id="node13" href="$classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html" title="unstable Nikolas Tomek This is the hardware class for the Spartan&#45;6 (Opal Kelly XEM6310) FPGA based f..." alt="" coords="465,1325,642,1366"/>
-<area shape="rect" id="node14" href="$classfastcomtecmcs6_1_1FastComtec.html" title="stable Jochen Scheuer, Simon Schmitt " alt="" coords="456,1391,651,1417"/>
-<area shape="rect" id="node15" href="$classfastcomtecp7887_1_1FastComtec.html" title="unstable Jochen Scheuer " alt="" coords="454,1223,653,1249"/>
-<area shape="rect" id="node16" href="$classtimetagger__fast__counter_1_1TimeTaggerFastCounter.html" title="timetagger_fast_counter.\lTimeTaggerFastCounter" alt="" coords="470,1091,637,1133"/>
-<area shape="rect" id="node18" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="1041,1179,1199,1205"/>
-<area shape="rect" id="node76" href="$classgeneric__task_1_1InterruptableTask.html" title="This class represents a task in a module that can be safely executed by checking preconditions and pa..." alt="" coords="1019,1128,1221,1155"/>
-<area shape="rect" id="node77" href="$classgeneric__task_1_1PrePostTask.html" title="Represents a task that creates the necessary conditions for a different task and reverses its own act..." alt="" coords="1032,1229,1208,1256"/>
-<area shape="rect" id="node19" href="$classcore_1_1module_1_1Base.html" title="type" alt="" coords="226,2825,273,2852"/>
-<area shape="rect" id="node74" href="$classguibase_1_1GUIBaseMixin.html" title="This is the GUI base class. " alt="" coords="1294,1179,1450,1205"/>
-<area shape="rect" id="node20" href="$classaptmotor_1_1APTStage.html" title="Control class for an arbitrary collection of axis. " alt="" coords="485,1508,622,1535"/>
-<area shape="rect" id="node24" href="$classCTC100__temperature_1_1CTC100.html" title="This module implements communication with CTC100 temperature controllers or clones/licensed devices..." alt="" coords="453,2796,653,2823"/>
-<area shape="rect" id="node25" href="$classedwards__vacuum__controller_1_1EdwardsVacuumController.html" title="edwards_vacuum_controller.\lEdwardsVacuumController" alt="" coords="459,2847,647,2889"/>
-<area shape="rect" id="node26" href="$classflipmirror_1_1FlipMirror.html" title="This class is implements communication with the Radiant Dyes flip mirror driver through pyVISA..." alt="" coords="488,3116,619,3143"/>
-<area shape="rect" id="node27" href="$classgeneric__logic_1_1GenericLogic.html" title="A generic logic interface class. " alt="" coords="464,2964,643,2991"/>
-<area shape="rect" id="node28" href="$classhbridge_1_1HBridge.html" title="Methods to control slow laser switching devices. " alt="" coords="496,3167,611,3193"/>
-<area shape="rect" id="node29" href="$classhigh__finesse__wavemeter_1_1HighFinesseWavemeter.html" title="high_finesse_wavemeter.High\lFinesseWavemeter" alt="" coords="455,3349,652,3390"/>
-<area shape="rect" id="node30" href="$classinflux__data__client_1_1InfluxDataClient.html" title="Retrieve live data from InfluxDB as if the measurement device was connected directly. " alt="" coords="474,3610,633,3651"/>
-<area shape="rect" id="node31" href="$classlaserquantum__laser_1_1LaserQuantumLaser.html" title="laserquantum_laser.Laser\lQuantumLaser" alt="" coords="468,3479,639,3521"/>
-<area shape="rect" id="node32" href="$classlightfield__spectrometer_1_1Lightfield.html" title="Control Princeton Instruments Lightfield from Qudi. " alt="" coords="475,4330,632,4371"/>
-<area shape="rect" id="node33" href="$classmagnet_1_1Magnet.html" title="Magnet positioning software for superconducting magnet. " alt="" coords="497,4563,609,4589"/>
-<area shape="rect" id="node34" href="$classmagnet__dummy_1_1MagnetDummy.html" title="This is the Interface class to define the controls for the simple magnet hardware. " alt="" coords="449,4613,657,4640"/>
-<area shape="rect" id="node35" href="$classmillennia__ev__laser_1_1MillenniaeVLaser.html" title="Spectra Physics Millennia diode pumped solid state laser. " alt="" coords="458,3545,649,3586"/>
-<area shape="rect" id="node36" href="$classmotor__dummy_1_1MotorDummy.html" title="This is the dummy class to simulate a motorized stage. " alt="" coords="459,1676,647,1703"/>
-<area shape="rect" id="node37" href="$classmotor__stage__micos_1_1MotorStageMicos.html" title="unstable Jochen Scheuer. " alt="" coords="450,1793,657,1834"/>
-<area shape="rect" id="node38" href="$classmotor__stage__pi_1_1MotorStagePI.html" title="unstable Christoph Müller, Simon Schmitt This is the Interface class to define the controls for the s..." alt="" coords="456,1859,651,1885"/>
-<area shape="rect" id="node39" href="$classmw__source__agilent_1_1MicrowaveAgilent.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="453,2250,654,2291"/>
-<area shape="rect" id="node40" href="$classmw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html" title="Hardware control file for Anritsu 70GHz Devices. " alt="" coords="432,2315,675,2357"/>
-<area shape="rect" id="node41" href="$classmw__source__anritsu_1_1MicrowaveAnritsu.html" title="mw_source_anritsu.Microwave\lAnritsu" alt="" coords="452,2381,655,2422"/>
-<area shape="rect" id="node42" href="$classmw__source__dummy_1_1MicrowaveDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="450,2446,657,2487"/>
-<area shape="rect" id="node43" href="$classmw__source__gigatronics_1_1MicrowaveGigatronics.html" title="Hardware file for Gigatronics. " alt="" coords="440,2511,667,2553"/>
-<area shape="rect" id="node44" href="$classmw__source__smbv_1_1MicrowaveSmbv.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="439,2577,668,2604"/>
-<area shape="rect" id="node45" href="$classmw__source__smiq_1_1MicrowaveSmiq.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="443,2628,664,2655"/>
-<area shape="rect" id="node46" href="$classmw__source__smr_1_1MicrowaveSMR.html" title="The hardware control for the device Rohde and Schwarz of type SMR. " alt="" coords="446,2679,661,2705"/>
-<area shape="rect" id="node47" href="$classmw__source__srssg_1_1MicrowaveSRSSG.html" title="Hardware control class to controls SRS SG390 devices. " alt="" coords="456,2730,651,2771"/>
-<area shape="rect" id="node48" href="$classni__pulser_1_1NIPulser.html" title="Pulse generator using NI&#45;DAQmx. " alt="" coords="489,4047,618,4073"/>
-<area shape="rect" id="node49" href="$classodmr__counter__dummy_1_1ODMRCounterDummy.html" title="This is the Dummy hardware class that simulates the controls for a simple ODMR. " alt="" coords="432,2106,675,2147"/>
-<area shape="rect" id="node50" href="$classok__fpga__pulser_1_1OkFpgaPulser.html" title="Methods to control Pulse Generator running on OK FPGA. " alt="" coords="455,4097,652,4124"/>
-<area shape="rect" id="node51" href="$classok__fpga__switch_1_1OkFpgaTtlSwitch.html" title="Methods to control TTL switch running on OK FPGA. " alt="" coords="464,3218,643,3259"/>
-<area shape="rect" id="node52" href="$classok__s6__switch_1_1HardwareSwitchFpga.html" title="ok_s6_switch.HardwareSwitchFpga" alt="" coords="438,3015,669,3041"/>
-<area shape="rect" id="node53" href="$classpi__pwm_1_1PiPWM.html" title="Hardware module for Raspberry Pi&#45;based PWM controller. " alt="" coords="495,4461,611,4488"/>
-<area shape="rect" id="node55" href="$classpolarisation__dependence__sim_1_1PolarizationDependenceSim.html" title="This class wraps the slow&#45;counter dummy and adds polarisation angle dependence in order to simulate d..." alt="" coords="444,1727,663,1769"/>
-<area shape="rect" id="node56" href="$classprocess__dummy_1_1ProcessDummy.html" title="Methods to control slow laser switching devices. " alt="" coords="445,4512,661,4539"/>
-<area shape="rect" id="node57" href="$classpulse__blaster__esrpro_1_1PulseBlasterESRPRO.html" title="UNSTABLE ALEX. " alt="" coords="464,3727,643,3769"/>
-<area shape="rect" id="node58" href="$classpulse__streamer_1_1PulseStreamer.html" title="Methods to control PulseStreamer. " alt="" coords="453,3793,654,3820"/>
-<area shape="rect" id="node59" href="$classpulser__dummy_1_1PulserDummy.html" title="Dummy class for PulseInterface. " alt="" coords="456,3844,651,3871"/>
-<area shape="rect" id="node60" href="$classsimple__data__acq_1_1SimpleAcq.html" title="Read human readable numbers from serial port. " alt="" coords="460,4148,647,4175"/>
-<area shape="rect" id="node61" href="$classsimple__data__dummy_1_1SimpleDummy.html" title="simple_data_dummy.Simple\lDummy" alt="" coords="460,4199,647,4241"/>
-<area shape="rect" id="node62" href="$classsimple__laser__dummy_1_1SimpleLaserDummy.html" title="Lazor dummy. " alt="" coords="459,3414,648,3455"/>
-<area shape="rect" id="node63" href="$classslow__counter__dummy_1_1SlowCounterDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="439,2041,667,2082"/>
-<area shape="rect" id="node64" href="$classspectrometer__dummy_1_1SpectrometerInterfaceDummy.html" title="Dummy spectrometer module. " alt="" coords="438,4395,669,4437"/>
-<area shape="rect" id="node65" href="$classswitch__dummy_1_1SwitchDummy.html" title="Methods to control slow laser switching devices. " alt="" coords="453,3065,653,3092"/>
-<area shape="rect" id="node66" href="$classtektronix__awg5002c_1_1AWG5002C.html" title="Unstable and in construction, Alex Stark. " alt="" coords="447,3895,659,3921"/>
-<area shape="rect" id="node67" href="$classtektronix__awg70k_1_1AWG70K.html" title="tektronix_awg70k.AWG70K" alt="" coords="462,3945,645,3972"/>
-<area shape="rect" id="node68" href="$classtektronix__awg7122c_1_1AWG7122C.html" title="Unstable and under construction, Jochen Scheuer. " alt="" coords="447,3996,659,4023"/>
-<area shape="rect" id="node69" href="$classtimetagger__counter_1_1TimeTaggerCounter.html" title="Using the TimeTagger as a counter. " alt="" coords="450,1975,657,2017"/>
-<area shape="rect" id="node70" href="$classtsys01__spi_1_1TSYS01SPI.html" title="Measurement Systems TSYS01 temperature sensor. " alt="" coords="473,3676,633,3703"/>
-<area shape="rect" id="node71" href="$classwavemeter__dummy_1_1WavemeterDummy.html" title="wavemeter_dummy.Wavemeter\lDummy" alt="" coords="450,3283,657,3325"/>
-<area shape="rect" id="node72" href="$classwinspec__spectrometer_1_1WinSpec32.html" title="Hardware module for reading spectra from the WinSpec32 spectrometer software. " alt="" coords="463,4265,643,4306"/>
-<area shape="rect" id="node73" href="$classzaber__motor__rotation__stage_1_1MotorRotationZaber.html" title="unstable Christoph Müller, Simon Schmitt This is the Interface class to define the controls for the s..." alt="" coords="463,1910,643,1951"/>
-<area shape="rect" id="node161" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="469,727,637,753"/>
-<area shape="rect" id="node21" href="$classaptmotor_1_1APTFourAxisStage.html" title="The module controls three StepperStage56=NRT150 Enc Stage 150mm together with CR1&#45;Z7 rotation stage..." alt="" coords="745,1533,935,1560"/>
-<area shape="rect" id="node22" href="$classaptmotor_1_1APTOneAxisStage.html" title="aptmotor.APTOneAxisStage" alt="" coords="747,1432,933,1459"/>
-<area shape="rect" id="node23" href="$classaptmotor_1_1APTThreeAxisStage.html" title="The module controlles three StepperStage56=NRT150 Enc Stage 150mm. " alt="" coords="742,1483,938,1509"/>
-<area shape="rect" id="node54" href="$classpi__pwm_1_1PiPWMHalf.html" title="PWM controller restricted to positive values. " alt="" coords="770,4461,910,4488"/>
-<area shape="rect" id="node75" href="$classguibase_1_1GUIBase.html" title="guibase.GUIBase" alt="" coords="1540,1179,1665,1205"/>
-<area shape="rect" id="node79" href="$classautomation_1_1AutomationLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="460,5991,647,6017"/>
-<area shape="rect" id="node80" href="$classconfocal__logic_1_1ConfocalLogic.html" title="This is the Logic class for confocal scanning. " alt="" coords="457,6041,649,6068"/>
-<area shape="rect" id="node81" href="$classcounter__logic_1_1CounterLogic.html" title="This logic module gathers data from a hardware counting device. " alt="" coords="463,6092,643,6119"/>
-<area shape="rect" id="node82" href="$classfit__logic_1_1FitLogic.html" title="UNSTABLE:Jochen Scheuer. " alt="" coords="495,6143,612,6169"/>
-<area shape="rect" id="node83" href="$classkernellogic_1_1QudiKernelLogic.html" title="Logic module providing a Jupyer&#45;compatible kernel connected via ZMQ. " alt="" coords="462,6193,645,6220"/>
-<area shape="rect" id="node84" href="$classlaser__logic_1_1LaserLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="478,6244,629,6271"/>
-<area shape="rect" id="node85" href="$classlaser__scanner__logic_1_1LaserScannerLogic.html" title="This logic module controls scans of DC voltage on the fourth analog output channel of the NI Card..." alt="" coords="467,6295,640,6337"/>
-<area shape="rect" id="node86" href="$classmagnet__logic_1_1MagnetLogic.html" title="A general magnet logic to control an magnetic stage with an arbitrary set of axis. " alt="" coords="465,6361,642,6388"/>
-<area shape="rect" id="node87" href="$classmagnet__motor__interfuse_1_1MagnetMotorInterfuse.html" title="magnet_motor_interfuse.Magnet\lMotorInterfuse" alt="" coords="449,4781,658,4822"/>
-<area shape="rect" id="node88" href="$classmagnet__motor__xyz__rot__interfuse_1_1MagnetMotorXYZROTInterfuse.html" title="magnet_motor_xyz_rot\l_interfuse.MagnetMotorXYZROTInterfuse" alt="" coords="421,4715,685,4757"/>
-<area shape="rect" id="node89" href="$classnuclear__operations__logic_1_1NuclearOperationsLogic.html" title="A higher order logic, which combines several lower class logic modules in order to perform measuremen..." alt="" coords="454,4846,653,4887"/>
-<area shape="rect" id="node90" href="$classodmr__counter__microwave__interfuse_1_1ODMRCounterMicrowaveInterfuse.html" title="odmr_counter_microwave\l_interfuse.ODMRCounterMicrowave\lInterfuse" alt="" coords="437,2171,670,2227"/>
-<area shape="rect" id="node91" href="$classodmr__logic_1_1ODMRLogic.html" title="This is the Logic class for ODMR. " alt="" coords="473,4912,634,4939"/>
-<area shape="rect" id="node92" href="$classoptimizer__logic_1_1OptimizerLogic.html" title="This is the Logic class for optimizing scanner position on bright features. " alt="" coords="469,4963,638,5005"/>
-<area shape="rect" id="node93" href="$classpid__logic_1_1PIDLogic.html" title="Control a process via software PID. " alt="" coords="488,5029,619,5056"/>
-<area shape="rect" id="node94" href="$classpoi__manager__logic_1_1PoiManagerLogic.html" title="This is the Logic class for mapping and tracking bright features in the confocal scan. " alt="" coords="452,5081,655,5122"/>
-<area shape="rect" id="node95" href="$classpolarisation__dep__logic_1_1PolarisationDepLogic.html" title="This logic module rotates polarisation and records signal as a function of angle. ..." alt="" coords="442,5146,665,5187"/>
-<area shape="rect" id="node96" href="$classpulse__analysis__logic_1_1PulseAnalysisLogic.html" title="unstable Nikolas Tomek " alt="" coords="464,5211,643,5253"/>
-<area shape="rect" id="node97" href="$classpulse__extraction__logic_1_1PulseExtractionLogic.html" title="pulse_extraction_logic.Pulse\lExtractionLogic" alt="" coords="459,5277,647,5318"/>
-<area shape="rect" id="node98" href="$classpulsed__master__logic_1_1PulsedMasterLogic.html" title="pulsed_master_logic.Pulsed\lMasterLogic" alt="" coords="461,5342,646,5383"/>
-<area shape="rect" id="node99" href="$classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html" title="This is the Logic class for the control of pulsed measurements. " alt="" coords="448,5407,659,5449"/>
-<area shape="rect" id="node100" href="$classqdplot__logic_1_1QdplotLogic.html" title="This logic module helps display user data in plots, and makes it easy to save. " alt="" coords="471,5473,635,5500"/>
-<area shape="rect" id="node101" href="$classsave__logic_1_1SaveLogic.html" title="A general class which saves all kinds of data in a general sense. " alt="" coords="479,5524,628,5551"/>
-<area shape="rect" id="node102" href="$classsequence__generator__logic_1_1SequenceGeneratorLogic.html" title="unstable Nikolas Tomek This is the Logic class for the pulse (sequence) generation. " alt="" coords="450,6413,657,6454"/>
-<area shape="rect" id="node103" href="$classsimple__data__logic_1_1SimpleDataLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="468,5575,639,5617"/>
-<area shape="rect" id="node104" href="$classsingleshot__logic_1_1SingleShotLogic.html" title="This class brings raw data coming from fastcounter measurements (gated or ungated) into trace form pr..." alt="" coords="462,5641,645,5682"/>
-<area shape="rect" id="node105" href="$classsoftware__pid__controller_1_1SoftPIDController.html" title="Control a process via software PID. " alt="" coords="473,6478,633,6519"/>
-<area shape="rect" id="node106" href="$classspectrum_1_1SpectrumLogic.html" title="This logic module gathers data from the spectrometer. " alt="" coords="470,5707,637,5733"/>
-<area shape="rect" id="node107" href="$classswitch__logic_1_1SwitchLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="469,5757,638,5784"/>
-<area shape="rect" id="node108" href="$classtaskrunner_1_1TaskRunner.html" title="This module keeps a collection of tasks that have varying preconditions, postconditions and conflicts..." alt="" coords="474,5808,633,5835"/>
-<area shape="rect" id="node109" href="$classtrace__analysis__logic_1_1TraceAnalysisLogic.html" title="Perform a gated counting measurement with the hardware. " alt="" coords="465,5859,642,5901"/>
-<area shape="rect" id="node110" href="$classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html" title="This logic module gathers data from wavemeter and the counter logic. " alt="" coords="437,5925,670,5966"/>
-<area shape="rect" id="node120" href="$classcore_1_1garbage__collector_1_1GarbageCollector.html" title="core.garbage_collector.Garbage\lCollector" alt="" coords="1499,1281,1706,1322"/>
-<area shape="rect" id="node121" href="$classcore_1_1gui_1_1Gui.html" title="Set up all necessary GUI elements, like application icons, themes, etc. " alt="" coords="1557,1347,1649,1373"/>
-<area shape="rect" id="node122" href="$classcore_1_1remote_1_1RemoteObjectManager.html" title="This shares modules with other computers and is responsible for obtaining modules shared by other com..." alt="" coords="1513,1398,1692,1439"/>
-<area shape="rect" id="node123" href="$classcore_1_1remote_1_1RPyCServer.html" title="Contains a RPyC server that serves modules to remote computers. " alt="" coords="1518,1229,1687,1256"/>
-<area shape="rect" id="node133" href="$classcore_1_1util_1_1interfaces_1_1InterfaceMetaclass.html" title="Metaclass for interfaces. " alt="" coords="748,559,932,601"/>
-<area shape="rect" id="node152" href="$classcore_1_1util_1_1interfaces_1_1TaskMetaclass.html" title="Metaclass for interfaces. " alt="" coords="759,1222,921,1263"/>
-<area shape="rect" id="node134" href="$classconfocal__scanner__interface_1_1ConfocalScannerInterface.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="1027,253,1213,294"/>
-<area shape="rect" id="node135" href="$classdata__logger__interface_1_1DataLoggerInterface.html" title="data_logger_interface.Data\lLoggerInterface" alt="" coords="1031,318,1209,359"/>
-<area shape="rect" id="node136" href="$classfast__counter__interface_1_1FastCounterInterface.html" title="Interface class to define the controls for fast counting devices. " alt="" coords="1029,383,1211,425"/>
-<area shape="rect" id="node137" href="$classmagnet__interface_1_1MagnetInterface.html" title="This is the Interface class to define the controls for the devices controlling the magnetic field..." alt="" coords="1010,449,1230,476"/>
-<area shape="rect" id="node138" href="$classmicrowave__interface_1_1MicrowaveInterface.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="1015,501,1225,542"/>
-<area shape="rect" id="node139" href="$classmotor__interface_1_1MotorInterface.html" title="This is the Interface class to define the controls for the simple step motor device. " alt="" coords="1020,567,1220,593"/>
-<area shape="rect" id="node140" href="$classodmr__counter__interface_1_1ODMRCounterInterface.html" title="This is the Interface class supplies the controls for a simple ODMR. " alt="" coords="995,618,1245,659"/>
-<area shape="rect" id="node141" href="$classpid__controller__interface_1_1PIDControllerInterface.html" title="pid_controller_interface.\lPIDControllerInterface" alt="" coords="1040,683,1200,725"/>
-<area shape="rect" id="node142" href="$classprocess__control__interface_1_1ProcessControlInterface.html" title="A very simple interface to control a single value. " alt="" coords="1033,749,1207,790"/>
-<area shape="rect" id="node143" href="$classprocess__interface_1_1ProcessInterface.html" title="A very simple interface to measure a single value. " alt="" coords="1031,814,1209,855"/>
-<area shape="rect" id="node144" href="$classpulser__interface_1_1PulserInterface.html" title="Interface class to define the abstract controls and communication with all pulsing devices..." alt="" coords="1017,880,1223,907"/>
-<area shape="rect" id="node145" href="$classsimple__data__interface_1_1SimpleDataInterface.html" title="simple_data_interface.Simple\lDataInterface" alt="" coords="1023,931,1217,973"/>
-<area shape="rect" id="node146" href="$classsimple__laser__interface_1_1SimpleLaserInterface.html" title="simple_laser_interface.Simple\lLaserInterface" alt="" coords="1022,997,1218,1038"/>
-<area shape="rect" id="node147" href="$classslow__counter__interface_1_1SlowCounterInterface.html" title="Define the controls for a slow counter. " alt="" coords="1025,1062,1215,1103"/>
-<area shape="rect" id="node148" href="$classspectrometer__interface_1_1SpectrometerInterface.html" title="This is the Interface class to define the controls for the simple optical spectrometer. " alt="" coords="1001,5,1239,46"/>
-<area shape="rect" id="node149" href="$classswitch__interface_1_1SwitchInterface.html" title="Methods to control slow (mechaincal) laser switching devices. " alt="" coords="1014,71,1226,97"/>
-<area shape="rect" id="node150" href="$classvacuum__pump__interface_1_1VacuumPumpInterface.html" title="vacuum_pump_interface.Vacuum\lPumpInterface" alt="" coords="1012,122,1228,163"/>
-<area shape="rect" id="node151" href="$classwavemeter__interface_1_1WavemeterInterface.html" title="Define the controls for a wavemeter hardware. " alt="" coords="1013,187,1227,229"/>
-<area shape="rect" id="node154" href="$classcore_1_1logger_1_1QtLogHandler.html" title="Log handler for displaying log records in a QT gui. " alt="" coords="164,561,335,588"/>
-<area shape="rect" id="node157" href="$classconfig__gui_1_1listmods_1_1Module.html" title="This class represents a Qudi module. " alt="" coords="159,1017,339,1044"/>
-<area shape="rect" id="node158" href="$classconfocal__logic_1_1ConfocalHistoryEntry.html" title="This class contains all relevant parameters of a Confocal scan. " alt="" coords="148,1069,351,1110"/>
-<area shape="rect" id="node159" href="$classcore_1_1____main_____1_1AppWatchdog.html" title="This class periodically runs a function for debugging and handles application exit. " alt="" coords="153,1135,346,1161"/>
-<area shape="rect" id="node160" href="$classcore_1_1manager_1_1Manager.html" title="The Manager object is responsible for: " alt="" coords="172,1185,327,1212"/>
-<area shape="rect" id="node162" href="$classcore_1_1threadmanager_1_1ThreadItem.html" title="This class represents a QThread. " alt="" coords="146,1287,353,1313"/>
-<area shape="rect" id="node163" href="$classfit__logic_1_1FitContainer.html" title="A class for managing a single flexible fit setting in a logic module. " alt="" coords="178,1337,321,1364"/>
-<area shape="rect" id="node164" href="$classgeneric__task_1_1TaskResult.html" title="generic_task.TaskResult" alt="" coords="166,1388,333,1415"/>
-<area shape="rect" id="node165" href="$classhigh__finesse__wavemeter_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="125,1439,373,1465"/>
-<area shape="rect" id="node166" href="$classqzmqkernel_1_1QZMQHeartbeat.html" title="Echo Messages on a ZMQ stream. " alt="" coords="155,1489,344,1516"/>
-<area shape="rect" id="node167" href="$classqzmqkernel_1_1QZMQKernel.html" title="A Qt&#45;based embeddable kernel for Jupyter. " alt="" coords="165,663,334,689"/>
-<area shape="rect" id="node168" href="$classstream_1_1QZMQStream.html" title="Qt based ZMQ stream. " alt="" coords="176,713,323,740"/>
-<area shape="rect" id="node169" href="$classwavemeter__dummy_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="140,764,359,791"/>
-<area shape="rect" id="node170" href="$classwavemeter__logger__logic_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="127,815,371,841"/>
+<area shape="rect" id="node2" href="$classconfocal__scanner__dummy_1_1ConfocalScannerDummy.html" title="Dummy confocal scanner. " alt="" coords="438,542,669,583"/>
+<area shape="rect" id="node3" href="$classconfocal__scanner__spectrometer__interfuse_1_1SpectrometerScannerInterfuse.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="423,686,683,727"/>
+<area shape="rect" id="node4" href="$classmw__differential__scanner_1_1ConfocalScannerInterfaceDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="444,477,663,518"/>
+<area shape="rect" id="node5" href="$classni__card_1_1NICard.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="498,360,609,387"/>
+<area shape="rect" id="node7" href="$classscanner__tilt__interfuse_1_1ScannerTiltInterfuse.html" title="This interfuse produces a Z correction corresponding to a tilted surface. " alt="" coords="454,2817,653,2858"/>
+<area shape="rect" id="node6" href="$classgated__ni__card_1_1SlowGatedNICard.html" title="Enable the usage of the gated counter in the slow counter interface. " alt="" coords="733,427,947,453"/>
+<area shape="rect" id="node9" href="$classinflux__data__logger_1_1InfluxLogger.html" title="Log instrument values to InfluxDB. " alt="" coords="472,1831,635,1873"/>
+<area shape="rect" id="node11" href="$classfast__counter__dummy_1_1FastCounterDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="443,2115,663,2157"/>
+<area shape="rect" id="node12" href="$classfast__counter__fpga__pi3_1_1FastCounterFGAPiP3.html" title="fast_counter_fpga_pi3.Fast\lCounterFGAPiP3" alt="" coords="463,2181,643,2222"/>
+<area shape="rect" id="node13" href="$classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html" title="unstable Nikolas Tomek This is the hardware class for the Spartan&#45;6 (Opal Kelly XEM6310) FPGA based f..." alt="" coords="465,2246,642,2287"/>
+<area shape="rect" id="node14" href="$classfastcomtecmcs6_1_1FastComtec.html" title="stable Jochen Scheuer, Simon Schmitt " alt="" coords="456,1948,651,1975"/>
+<area shape="rect" id="node15" href="$classfastcomtecp7887_1_1FastComtec.html" title="unstable Jochen Scheuer " alt="" coords="454,1999,653,2025"/>
+<area shape="rect" id="node16" href="$classtimetagger__fast__counter_1_1TimeTaggerFastCounter.html" title="timetagger_fast_counter.\lTimeTaggerFastCounter" alt="" coords="470,2050,637,2091"/>
+<area shape="rect" id="node18" href="$classcore_1_1module_1_1ModuleStateMachine.html" title="FIXME. " alt="" coords="1011,183,1229,209"/>
+<area shape="rect" id="node19" href="$classgeneric__task_1_1InterruptableTask.html" title="This class represents a task in a module that can be safely executed by checking preconditions and pa..." alt="" coords="1019,347,1221,373"/>
+<area shape="rect" id="node20" href="$classgeneric__task_1_1PrePostTask.html" title="Represents a task that creates the necessary conditions for a different task and reverses its own act..." alt="" coords="1032,263,1208,289"/>
+<area shape="rect" id="node22" href="$classautomation_1_1AutomationLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="460,4731,647,4757"/>
+<area shape="rect" id="node23" href="$classconfocal__logic_1_1ConfocalLogic.html" title="This is the Logic class for confocal scanning. " alt="" coords="457,4781,649,4808"/>
+<area shape="rect" id="node24" href="$classcounter__logic_1_1CounterLogic.html" title="This logic module gathers data from a hardware counting device. " alt="" coords="463,4832,643,4859"/>
+<area shape="rect" id="node25" href="$classfit__logic_1_1FitLogic.html" title="UNSTABLE:Jochen Scheuer. " alt="" coords="495,4883,612,4909"/>
+<area shape="rect" id="node26" href="$classkernellogic_1_1QudiKernelLogic.html" title="Logic module providing a Jupyer&#45;compatible kernel connected via ZMQ. " alt="" coords="462,4933,645,4960"/>
+<area shape="rect" id="node27" href="$classlaser__logic_1_1LaserLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="478,4984,629,5011"/>
+<area shape="rect" id="node28" href="$classlaser__scanner__logic_1_1LaserScannerLogic.html" title="This logic module controls scans of DC voltage on the fourth analog output channel of the NI Card..." alt="" coords="467,5035,640,5077"/>
+<area shape="rect" id="node29" href="$classmagnet__logic_1_1MagnetLogic.html" title="A general magnet logic to control an magnetic stage with an arbitrary set of axis. " alt="" coords="465,5101,642,5128"/>
+<area shape="rect" id="node30" href="$classmagnet__motor__interfuse_1_1MagnetMotorInterfuse.html" title="magnet_motor_interfuse.Magnet\lMotorInterfuse" alt="" coords="449,4315,658,4357"/>
+<area shape="rect" id="node31" href="$classmagnet__motor__xyz__rot__interfuse_1_1MagnetMotorXYZROTInterfuse.html" title="magnet_motor_xyz_rot\l_interfuse.MagnetMotorXYZROTInterfuse" alt="" coords="421,4250,685,4291"/>
+<area shape="rect" id="node32" href="$classnuclear__operations__logic_1_1NuclearOperationsLogic.html" title="A higher order logic, which combines several lower class logic modules in order to perform measuremen..." alt="" coords="454,5153,653,5194"/>
+<area shape="rect" id="node33" href="$classodmr__counter__microwave__interfuse_1_1ODMRCounterMicrowaveInterfuse.html" title="odmr_counter_microwave\l_interfuse.ODMRCounterMicrowave\lInterfuse" alt="" coords="437,607,670,663"/>
+<area shape="rect" id="node34" href="$classodmr__logic_1_1ODMRLogic.html" title="This is the Logic class for ODMR. " alt="" coords="473,5219,634,5245"/>
+<area shape="rect" id="node35" href="$classoptimizer__logic_1_1OptimizerLogic.html" title="This is the Logic class for optimizing scanner position on bright features. " alt="" coords="469,5270,638,5311"/>
+<area shape="rect" id="node36" href="$classpid__logic_1_1PIDLogic.html" title="Control a process via software PID. " alt="" coords="488,5336,619,5363"/>
+<area shape="rect" id="node37" href="$classpoi__manager__logic_1_1PoiManagerLogic.html" title="This is the Logic class for mapping and tracking bright features in the confocal scan. " alt="" coords="452,5387,655,5429"/>
+<area shape="rect" id="node38" href="$classpolarisation__dep__logic_1_1PolarisationDepLogic.html" title="This logic module rotates polarisation and records signal as a function of angle. ..." alt="" coords="442,5453,665,5494"/>
+<area shape="rect" id="node39" href="$classpulse__analysis__logic_1_1PulseAnalysisLogic.html" title="unstable Nikolas Tomek " alt="" coords="464,5518,643,5559"/>
+<area shape="rect" id="node40" href="$classpulse__extraction__logic_1_1PulseExtractionLogic.html" title="pulse_extraction_logic.Pulse\lExtractionLogic" alt="" coords="459,5583,647,5625"/>
+<area shape="rect" id="node41" href="$classpulsed__master__logic_1_1PulsedMasterLogic.html" title="pulsed_master_logic.Pulsed\lMasterLogic" alt="" coords="461,5649,646,5690"/>
+<area shape="rect" id="node42" href="$classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html" title="This is the Logic class for the control of pulsed measurements. " alt="" coords="448,5714,659,5755"/>
+<area shape="rect" id="node43" href="$classqdplot__logic_1_1QdplotLogic.html" title="This logic module helps display user data in plots, and makes it easy to save. " alt="" coords="471,5780,635,5807"/>
+<area shape="rect" id="node44" href="$classsave__logic_1_1SaveLogic.html" title="A general class which saves all kinds of data in a general sense. " alt="" coords="479,5831,628,5857"/>
+<area shape="rect" id="node45" href="$classsequence__generator__logic_1_1SequenceGeneratorLogic.html" title="unstable Nikolas Tomek This is the Logic class for the pulse (sequence) generation. " alt="" coords="450,5947,657,5989"/>
+<area shape="rect" id="node46" href="$classsimple__data__logic_1_1SimpleDataLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="468,5882,639,5923"/>
+<area shape="rect" id="node47" href="$classsingleshot__logic_1_1SingleShotLogic.html" title="This class brings raw data coming from fastcounter measurements (gated or ungated) into trace form pr..." alt="" coords="462,4381,645,4422"/>
+<area shape="rect" id="node48" href="$classsoftware__pid__controller_1_1SoftPIDController.html" title="Control a process via software PID. " alt="" coords="473,6013,633,6054"/>
+<area shape="rect" id="node49" href="$classspectrum_1_1SpectrumLogic.html" title="This logic module gathers data from the spectrometer. " alt="" coords="470,4447,637,4473"/>
+<area shape="rect" id="node50" href="$classswitch__logic_1_1SwitchLogic.html" title="Logic module agreggating multiple hardware switches. " alt="" coords="469,4497,638,4524"/>
+<area shape="rect" id="node51" href="$classtaskrunner_1_1TaskRunner.html" title="This module keeps a collection of tasks that have varying preconditions, postconditions and conflicts..." alt="" coords="474,4548,633,4575"/>
+<area shape="rect" id="node52" href="$classtrace__analysis__logic_1_1TraceAnalysisLogic.html" title="Perform a gated counting measurement with the hardware. " alt="" coords="465,4599,642,4641"/>
+<area shape="rect" id="node53" href="$classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html" title="This logic module gathers data from wavemeter and the counter logic. " alt="" coords="437,4665,670,4706"/>
+<area shape="rect" id="node55" href="$classmagnet_1_1Magnet.html" title="Magnet positioning software for superconducting magnet. " alt="" coords="497,4148,609,4175"/>
+<area shape="rect" id="node56" href="$classmagnet__dummy_1_1MagnetDummy.html" title="This is the Interface class to define the controls for the simple magnet hardware. " alt="" coords="449,4199,657,4225"/>
+<area shape="rect" id="node58" href="$classmw__source__agilent_1_1MicrowaveAgilent.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="453,985,654,1026"/>
+<area shape="rect" id="node59" href="$classmw__source__anritsu70GHz_1_1MicrowaveAnritsu70GHz.html" title="Hardware control file for Anritsu 70GHz Devices. " alt="" coords="432,1050,675,1091"/>
+<area shape="rect" id="node60" href="$classmw__source__anritsu_1_1MicrowaveAnritsu.html" title="mw_source_anritsu.Microwave\lAnritsu" alt="" coords="452,1233,655,1274"/>
+<area shape="rect" id="node61" href="$classmw__source__dummy_1_1MicrowaveDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="450,919,657,961"/>
+<area shape="rect" id="node62" href="$classmw__source__gigatronics_1_1MicrowaveGigatronics.html" title="Hardware file for Gigatronics. " alt="" coords="440,854,667,895"/>
+<area shape="rect" id="node63" href="$classmw__source__smbv_1_1MicrowaveSmbv.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="439,752,668,779"/>
+<area shape="rect" id="node64" href="$classmw__source__smiq_1_1MicrowaveSmiq.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="443,803,664,829"/>
+<area shape="rect" id="node65" href="$classmw__source__smr_1_1MicrowaveSMR.html" title="The hardware control for the device Rohde and Schwarz of type SMR. " alt="" coords="446,1181,661,1208"/>
+<area shape="rect" id="node66" href="$classmw__source__srssg_1_1MicrowaveSRSSG.html" title="Hardware control class to controls SRS SG390 devices. " alt="" coords="456,1115,651,1157"/>
+<area shape="rect" id="node68" href="$classaptmotor_1_1APTStage.html" title="Control class for an arbitrary collection of axis. " alt="" coords="485,1729,622,1756"/>
+<area shape="rect" id="node72" href="$classmotor__dummy_1_1MotorDummy.html" title="This is the dummy class to simulate a motorized stage. " alt="" coords="459,1495,647,1521"/>
+<area shape="rect" id="node73" href="$classmotor__stage__micos_1_1MotorStageMicos.html" title="unstable Jochen Scheuer. " alt="" coords="450,1663,657,1705"/>
+<area shape="rect" id="node74" href="$classmotor__stage__pi_1_1MotorStagePI.html" title="unstable Christoph Müller, Simon Schmitt This is the Interface class to define the controls for the s..." alt="" coords="456,1780,651,1807"/>
+<area shape="rect" id="node75" href="$classpolarisation__dependence__sim_1_1PolarizationDependenceSim.html" title="This class wraps the slow&#45;counter dummy and adds polarisation angle dependence in order to simulate d..." alt="" coords="444,1429,663,1470"/>
+<area shape="rect" id="node76" href="$classzaber__motor__rotation__stage_1_1MotorRotationZaber.html" title="unstable Christoph Müller, Simon Schmitt This is the Interface class to define the controls for the s..." alt="" coords="463,1546,643,1587"/>
+<area shape="rect" id="node69" href="$classaptmotor_1_1APTFourAxisStage.html" title="The module controls three StepperStage56=NRT150 Enc Stage 150mm together with CR1&#45;Z7 rotation stage..." alt="" coords="745,1577,935,1604"/>
+<area shape="rect" id="node70" href="$classaptmotor_1_1APTOneAxisStage.html" title="aptmotor.APTOneAxisStage" alt="" coords="747,1679,933,1705"/>
+<area shape="rect" id="node71" href="$classaptmotor_1_1APTThreeAxisStage.html" title="The module controlles three StepperStage56=NRT150 Enc Stage 150mm. " alt="" coords="742,1729,938,1756"/>
+<area shape="rect" id="node78" href="$classodmr__counter__dummy_1_1ODMRCounterDummy.html" title="This is the Dummy hardware class that simulates the controls for a simple ODMR. " alt="" coords="432,411,675,453"/>
+<area shape="rect" id="node81" href="$classpi__pwm_1_1PiPWM.html" title="Hardware module for Raspberry Pi&#45;based PWM controller. " alt="" coords="495,3187,611,3213"/>
+<area shape="rect" id="node83" href="$classprocess__dummy_1_1ProcessDummy.html" title="Methods to control slow laser switching devices. " alt="" coords="445,3136,661,3163"/>
+<area shape="rect" id="node82" href="$classpi__pwm_1_1PiPWMHalf.html" title="PWM controller restricted to positive values. " alt="" coords="770,3187,910,3213"/>
+<area shape="rect" id="node85" href="$classinflux__data__client_1_1InfluxDataClient.html" title="Retrieve live data from InfluxDB as if the measurement device was connected directly. " alt="" coords="474,2531,633,2573"/>
+<area shape="rect" id="node86" href="$classtsys01__spi_1_1TSYS01SPI.html" title="Measurement Systems TSYS01 temperature sensor. " alt="" coords="473,2597,633,2624"/>
+<area shape="rect" id="node88" href="$classni__pulser_1_1NIPulser.html" title="Pulse generator using NI&#45;DAQmx. " alt="" coords="489,3085,618,3112"/>
+<area shape="rect" id="node89" href="$classok__fpga__pulser_1_1OkFpgaPulser.html" title="Methods to control Pulse Generator running on OK FPGA. " alt="" coords="455,2648,652,2675"/>
+<area shape="rect" id="node90" href="$classpulse__blaster__esrpro_1_1PulseBlasterESRPRO.html" title="UNSTABLE ALEX. " alt="" coords="464,2699,643,2741"/>
+<area shape="rect" id="node91" href="$classpulse__streamer_1_1PulseStreamer.html" title="Methods to control PulseStreamer. " alt="" coords="453,3035,654,3061"/>
+<area shape="rect" id="node92" href="$classpulser__dummy_1_1PulserDummy.html" title="Dummy class for PulseInterface. " alt="" coords="456,2765,651,2792"/>
+<area shape="rect" id="node93" href="$classtektronix__awg5002c_1_1AWG5002C.html" title="Unstable and in construction, Alex Stark. " alt="" coords="447,2883,659,2909"/>
+<area shape="rect" id="node94" href="$classtektronix__awg70k_1_1AWG70K.html" title="tektronix_awg70k.AWG70K" alt="" coords="462,2933,645,2960"/>
+<area shape="rect" id="node95" href="$classtektronix__awg7122c_1_1AWG7122C.html" title="Unstable and under construction, Jochen Scheuer. " alt="" coords="447,2984,659,3011"/>
+<area shape="rect" id="node97" href="$classcore_1_1garbage__collector_1_1GarbageCollector.html" title="core.garbage_collector.Garbage\lCollector" alt="" coords="1499,2329,1706,2370"/>
+<area shape="rect" id="node98" href="$classcore_1_1gui_1_1Gui.html" title="Set up all necessary GUI elements, like application icons, themes, etc. " alt="" coords="1557,2395,1649,2421"/>
+<area shape="rect" id="node99" href="$classcore_1_1remote_1_1RemoteObjectManager.html" title="This shares modules with other computers and is responsible for obtaining modules shared by other com..." alt="" coords="1513,2446,1692,2487"/>
+<area shape="rect" id="node100" href="$classcore_1_1remote_1_1RPyCServer.html" title="Contains a RPyC server that serves modules to remote computers. " alt="" coords="1518,2512,1687,2539"/>
+<area shape="rect" id="node101" href="$classguibase_1_1GUIBase.html" title="guibase.GUIBase" alt="" coords="1540,2277,1665,2304"/>
+<area shape="rect" id="node105" href="$classsimple__data__acq_1_1SimpleAcq.html" title="Read human readable numbers from serial port. " alt="" coords="460,3304,647,3331"/>
+<area shape="rect" id="node106" href="$classsimple__data__dummy_1_1SimpleDummy.html" title="simple_data_dummy.Simple\lDummy" alt="" coords="460,3238,647,3279"/>
+<area shape="rect" id="node108" href="$classlaserquantum__laser_1_1LaserQuantumLaser.html" title="laserquantum_laser.Laser\lQuantumLaser" alt="" coords="468,3486,639,3527"/>
+<area shape="rect" id="node109" href="$classmillennia__ev__laser_1_1MillenniaeVLaser.html" title="Spectra Physics Millennia diode pumped solid state laser. " alt="" coords="458,3355,649,3397"/>
+<area shape="rect" id="node110" href="$classsimple__laser__dummy_1_1SimpleLaserDummy.html" title="Lazor dummy. " alt="" coords="459,3421,648,3462"/>
+<area shape="rect" id="node112" href="$classslow__counter__dummy_1_1SlowCounterDummy.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="439,1298,667,1339"/>
+<area shape="rect" id="node113" href="$classtimetagger__counter_1_1TimeTaggerCounter.html" title="Using the TimeTagger as a counter. " alt="" coords="450,1363,657,1405"/>
+<area shape="rect" id="node115" href="$classlightfield__spectrometer_1_1Lightfield.html" title="Control Princeton Instruments Lightfield from Qudi. " alt="" coords="475,3682,632,3723"/>
+<area shape="rect" id="node116" href="$classspectrometer__dummy_1_1SpectrometerInterfaceDummy.html" title="Dummy spectrometer module. " alt="" coords="438,3551,669,3593"/>
+<area shape="rect" id="node117" href="$classwinspec__spectrometer_1_1WinSpec32.html" title="Hardware module for reading spectra from the WinSpec32 spectrometer software. " alt="" coords="463,3617,643,3658"/>
+<area shape="rect" id="node119" href="$classflipmirror_1_1FlipMirror.html" title="This class is implements communication with the Radiant Dyes flip mirror driver through pyVISA..." alt="" coords="488,3915,619,3941"/>
+<area shape="rect" id="node120" href="$classhbridge_1_1HBridge.html" title="Methods to control slow laser switching devices. " alt="" coords="496,3965,611,3992"/>
+<area shape="rect" id="node121" href="$classok__fpga__switch_1_1OkFpgaTtlSwitch.html" title="Methods to control TTL switch running on OK FPGA. " alt="" coords="464,3747,643,3789"/>
+<area shape="rect" id="node122" href="$classok__s6__switch_1_1HardwareSwitchFpga.html" title="ok_s6_switch.HardwareSwitchFpga" alt="" coords="438,3813,669,3840"/>
+<area shape="rect" id="node123" href="$classswitch__dummy_1_1SwitchDummy.html" title="Methods to control slow laser switching devices. " alt="" coords="453,3864,653,3891"/>
+<area shape="rect" id="node125" href="$classhigh__finesse__wavemeter_1_1HighFinesseWavemeter.html" title="high_finesse_wavemeter.High\lFinesseWavemeter" alt="" coords="455,4017,652,4058"/>
+<area shape="rect" id="node126" href="$classwavemeter__dummy_1_1WavemeterDummy.html" title="wavemeter_dummy.Wavemeter\lDummy" alt="" coords="450,4082,657,4123"/>
+<area shape="rect" id="node128" href="$classcore_1_1util_1_1interfaces_1_1InterfaceMetaclass.html" title="Metaclass for interfaces. " alt="" coords="748,1781,932,1822"/>
+<area shape="rect" id="node147" href="$classcore_1_1util_1_1interfaces_1_1TaskMetaclass.html" title="Metaclass for interfaces. " alt="" coords="759,310,921,351"/>
+<area shape="rect" id="node129" href="$classconfocal__scanner__interface_1_1ConfocalScannerInterface.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="1027,1650,1213,1691"/>
+<area shape="rect" id="node130" href="$classdata__logger__interface_1_1DataLoggerInterface.html" title="data_logger_interface.Data\lLoggerInterface" alt="" coords="1031,1715,1209,1757"/>
+<area shape="rect" id="node131" href="$classfast__counter__interface_1_1FastCounterInterface.html" title="Interface class to define the controls for fast counting devices. " alt="" coords="1029,1781,1211,1822"/>
+<area shape="rect" id="node132" href="$classmagnet__interface_1_1MagnetInterface.html" title="This is the Interface class to define the controls for the devices controlling the magnetic field..." alt="" coords="1010,1847,1230,1873"/>
+<area shape="rect" id="node133" href="$classmicrowave__interface_1_1MicrowaveInterface.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="1015,1898,1225,1939"/>
+<area shape="rect" id="node134" href="$classmotor__interface_1_1MotorInterface.html" title="This is the Interface class to define the controls for the simple step motor device. " alt="" coords="1020,1964,1220,1991"/>
+<area shape="rect" id="node135" href="$classodmr__counter__interface_1_1ODMRCounterInterface.html" title="This is the Interface class supplies the controls for a simple ODMR. " alt="" coords="995,2015,1245,2057"/>
+<area shape="rect" id="node136" href="$classpid__controller__interface_1_1PIDControllerInterface.html" title="pid_controller_interface.\lPIDControllerInterface" alt="" coords="1040,2081,1200,2122"/>
+<area shape="rect" id="node137" href="$classprocess__control__interface_1_1ProcessControlInterface.html" title="A very simple interface to control a single value. " alt="" coords="1033,2146,1207,2187"/>
+<area shape="rect" id="node138" href="$classprocess__interface_1_1ProcessInterface.html" title="A very simple interface to measure a single value. " alt="" coords="1031,2211,1209,2253"/>
+<area shape="rect" id="node139" href="$classpulser__interface_1_1PulserInterface.html" title="Interface class to define the abstract controls and communication with all pulsing devices..." alt="" coords="1017,1155,1223,1181"/>
+<area shape="rect" id="node140" href="$classsimple__data__interface_1_1SimpleDataInterface.html" title="simple_data_interface.Simple\lDataInterface" alt="" coords="1023,1206,1217,1247"/>
+<area shape="rect" id="node141" href="$classsimple__laser__interface_1_1SimpleLaserInterface.html" title="simple_laser_interface.Simple\lLaserInterface" alt="" coords="1022,1271,1218,1313"/>
+<area shape="rect" id="node142" href="$classslow__counter__interface_1_1SlowCounterInterface.html" title="Define the controls for a slow counter. " alt="" coords="1025,1337,1215,1378"/>
+<area shape="rect" id="node143" href="$classspectrometer__interface_1_1SpectrometerInterface.html" title="This is the Interface class to define the controls for the simple optical spectrometer. " alt="" coords="1001,1402,1239,1443"/>
+<area shape="rect" id="node144" href="$classswitch__interface_1_1SwitchInterface.html" title="Methods to control slow (mechaincal) laser switching devices. " alt="" coords="1014,1468,1226,1495"/>
+<area shape="rect" id="node145" href="$classvacuum__pump__interface_1_1VacuumPumpInterface.html" title="vacuum_pump_interface.Vacuum\lPumpInterface" alt="" coords="1012,1519,1228,1561"/>
+<area shape="rect" id="node146" href="$classwavemeter__interface_1_1WavemeterInterface.html" title="Define the controls for a wavemeter hardware. " alt="" coords="1013,1585,1227,1626"/>
+<area shape="rect" id="node149" href="$classcore_1_1logger_1_1QtLogHandler.html" title="Log handler for displaying log records in a QT gui. " alt="" coords="164,5,335,32"/>
+<area shape="rect" id="node151" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="1041,2277,1199,2304"/>
+<area shape="rect" id="node152" href="$classcore_1_1module_1_1Base.html" title="type" alt="" coords="226,2283,273,2309"/>
+<area shape="rect" id="node156" href="$classguibase_1_1GUIBaseMixin.html" title="This is the GUI base class. " alt="" coords="1294,2277,1450,2304"/>
+<area shape="rect" id="node153" href="$classCTC100__temperature_1_1CTC100.html" title="This module implements communication with CTC100 temperature controllers or clones/licensed devices..." alt="" coords="453,2480,653,2507"/>
+<area shape="rect" id="node154" href="$classedwards__vacuum__controller_1_1EdwardsVacuumController.html" title="edwards_vacuum_controller.\lEdwardsVacuumController" alt="" coords="459,2363,647,2405"/>
+<area shape="rect" id="node155" href="$classgeneric__logic_1_1GenericLogic.html" title="A generic logic interface class. " alt="" coords="464,2429,643,2456"/>
+<area shape="rect" id="node162" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="469,1897,637,1924"/>
+<area shape="rect" id="node158" href="$classconfig__gui_1_1listmods_1_1Module.html" title="This class represents a Qudi module. " alt="" coords="159,1949,339,1976"/>
+<area shape="rect" id="node159" href="$classconfocal__logic_1_1ConfocalHistoryEntry.html" title="This class contains all relevant parameters of a Confocal scan. " alt="" coords="148,2001,351,2042"/>
+<area shape="rect" id="node160" href="$classcore_1_1____main_____1_1AppWatchdog.html" title="This class periodically runs a function for debugging and handles application exit. " alt="" coords="153,2117,346,2144"/>
+<area shape="rect" id="node161" href="$classcore_1_1manager_1_1Manager.html" title="The Manager object is responsible for: " alt="" coords="172,2333,327,2360"/>
+<area shape="rect" id="node163" href="$classcore_1_1threadmanager_1_1ThreadItem.html" title="This class represents a QThread. " alt="" coords="146,2384,353,2411"/>
+<area shape="rect" id="node164" href="$classfit__logic_1_1FitContainer.html" title="A class for managing a single flexible fit setting in a logic module. " alt="" coords="178,56,321,83"/>
+<area shape="rect" id="node165" href="$classgeneric__task_1_1TaskResult.html" title="generic_task.TaskResult" alt="" coords="166,107,333,133"/>
+<area shape="rect" id="node166" href="$classhigh__finesse__wavemeter_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="125,1320,373,1347"/>
+<area shape="rect" id="node167" href="$classqzmqkernel_1_1QZMQHeartbeat.html" title="Echo Messages on a ZMQ stream. " alt="" coords="155,1595,344,1621"/>
+<area shape="rect" id="node168" href="$classqzmqkernel_1_1QZMQKernel.html" title="A Qt&#45;based embeddable kernel for Jupyter. " alt="" coords="165,1645,334,1672"/>
+<area shape="rect" id="node169" href="$classstream_1_1QZMQStream.html" title="Qt based ZMQ stream. " alt="" coords="176,1696,323,1723"/>
+<area shape="rect" id="node170" href="$classwavemeter__dummy_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="140,1848,359,1875"/>
+<area shape="rect" id="node171" href="$classwavemeter__logger__logic_1_1HardwarePull.html" title="Helper class for running the hardware communication in a separate thread. " alt="" coords="127,1899,371,1925"/>
 </map>

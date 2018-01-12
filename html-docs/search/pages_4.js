@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['keyboard_20shortcuts',['Keyboard shortcuts',['../shortcuts.html',1,'']]]
+  ['interfuses',['Interfuses',['../how_to_interfuses.html',1,'']]],
+  ['installation',['Installation',['../installation.html',1,'']]]
 ];

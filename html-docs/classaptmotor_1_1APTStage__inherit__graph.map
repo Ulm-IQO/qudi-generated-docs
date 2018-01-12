@@ -1,8 +1,8 @@
 <map id="aptmotor.APTStage" name="aptmotor.APTStage">
-<area shape="rect" id="node10" href="$classaptmotor_1_1APTFourAxisStage.html" title="The module controls three StepperStage56=NRT150 Enc Stage 150mm together with CR1&#45;Z7 rotation stage..." alt="" coords="5,379,195,405"/>
-<area shape="rect" id="node11" href="$classaptmotor_1_1APTOneAxisStage.html" title="aptmotor.APTOneAxisStage" alt="" coords="219,379,405,405"/>
-<area shape="rect" id="node12" href="$classaptmotor_1_1APTThreeAxisStage.html" title="The module controlles three StepperStage56=NRT150 Enc Stage 150mm. " alt="" coords="430,379,625,405"/>
+<area shape="rect" id="node9" href="$classaptmotor_1_1APTFourAxisStage.html" title="The module controls three StepperStage56=NRT150 Enc Stage 150mm together with CR1&#45;Z7 rotation stage..." alt="" coords="5,379,195,405"/>
+<area shape="rect" id="node10" href="$classaptmotor_1_1APTOneAxisStage.html" title="aptmotor.APTOneAxisStage" alt="" coords="219,379,405,405"/>
+<area shape="rect" id="node11" href="$classaptmotor_1_1APTThreeAxisStage.html" title="The module controlles three StepperStage56=NRT150 Enc Stage 150mm. " alt="" coords="430,379,625,405"/>
 <area shape="rect" id="node2" href="$classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="178,229,304,256"/>
-<area shape="rect" id="node7" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="219,80,387,107"/>
-<area shape="rect" id="node4" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="293,155,451,181"/>
+<area shape="rect" id="node6" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="219,80,387,107"/>
+<area shape="rect" id="node4" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="223,155,381,181"/>
 </map>
