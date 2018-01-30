@@ -70,19 +70,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Control class for an arbitrary collection of axis.  
+<p>Control class for an arbitrary collection of APTmotor axes.  
  <a href="classaptmotor_1_1APTStage.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for aptmotor.APTStage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classaptmotor_1_1APTStage__inherit__graph.png" border="0" usemap="#aptmotor_8APTStage_inherit__map" alt="Inheritance graph"/></div>
 <map name="aptmotor_8APTStage_inherit__map" id="aptmotor_8APTStage_inherit__map">
-<area shape="rect" id="node9" href="classaptmotor_1_1APTFourAxisStage.html" title="The module controls three StepperStage56=NRT150 Enc Stage 150mm together with CR1&#45;Z7 rotation stage..." alt="" coords="5,379,195,405"/>
-<area shape="rect" id="node10" href="classaptmotor_1_1APTOneAxisStage.html" title="aptmotor.APTOneAxisStage" alt="" coords="219,379,405,405"/>
-<area shape="rect" id="node11" href="classaptmotor_1_1APTThreeAxisStage.html" title="The module controlles three StepperStage56=NRT150 Enc Stage 150mm. " alt="" coords="430,379,625,405"/>
-<area shape="rect" id="node2" href="classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="178,229,304,256"/>
-<area shape="rect" id="node6" href="classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="219,80,387,107"/>
-<area shape="rect" id="node4" href="classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="223,155,381,181"/>
+<area shape="rect" id="node2" href="classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="17,229,143,256"/>
+<area shape="rect" id="node6" href="classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,80,225,107"/>
+<area shape="rect" id="node4" href="classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="62,155,220,181"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -102,17 +99,13 @@ Public Member Functions</h2></td></tr>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaptmotor_1_1APTStage.html#aac8d1bf08d3cb18318d7fc1ddc8d6eea">on_activate</a> (self)</td></tr>
 <tr class="memdesc:aac8d1bf08d3cb18318d7fc1ddc8d6eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize instance variables and connect to hardware as configured. <br /></td></tr>
 <tr class="separator:aac8d1bf08d3cb18318d7fc1ddc8d6eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceb0541e619802e4df644aee37911a69"><td class="memItemLeft" align="right" valign="top"><a id="aceb0541e619802e4df644aee37911a69"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaptmotor_1_1APTStage.html#aceb0541e619802e4df644aee37911a69">custom_activation</a> (self)</td></tr>
-<tr class="memdesc:aceb0541e619802e4df644aee37911a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">That activation method can be overwritten in the sub-classed file. <br /></td></tr>
-<tr class="separator:aceb0541e619802e4df644aee37911a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b5c393bef8ddb1745c5ba2518fc7e34"><td class="memItemLeft" align="right" valign="top"><a id="a1b5c393bef8ddb1745c5ba2518fc7e34"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaptmotor_1_1APTStage.html#a1b5c393bef8ddb1745c5ba2518fc7e34">on_deactivate</a> (self)</td></tr>
 <tr class="memdesc:a1b5c393bef8ddb1745c5ba2518fc7e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect from hardware and clean up. <br /></td></tr>
 <tr class="separator:a1b5c393bef8ddb1745c5ba2518fc7e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc4d49125e07aa42adf40d43715f2b82"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaptmotor_1_1APTStage.html#acc4d49125e07aa42adf40d43715f2b82">custom_deactivation</a> (self)</td></tr>
-<tr class="memdesc:acc4d49125e07aa42adf40d43715f2b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">That deactivation method can be overwritten in the sub-classed file.  <a href="#acc4d49125e07aa42adf40d43715f2b82">More...</a><br /></td></tr>
-<tr class="separator:acc4d49125e07aa42adf40d43715f2b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad748be17c9371229cd1e445f5aae8841"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaptmotor_1_1APTStage.html#ad748be17c9371229cd1e445f5aae8841">get_constraints</a> (self)</td></tr>
+<tr class="memdesc:ad748be17c9371229cd1e445f5aae8841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the hardware constrains from the motor device.  <a href="#ad748be17c9371229cd1e445f5aae8841">More...</a><br /></td></tr>
+<tr class="separator:ad748be17c9371229cd1e445f5aae8841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f1481538d1c2aa72a8226b1eb2ad785"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaptmotor_1_1APTStage.html#a9f1481538d1c2aa72a8226b1eb2ad785">move_rel</a> (self, param_dict)</td></tr>
 <tr class="memdesc:a9f1481538d1c2aa72a8226b1eb2ad785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves stage in given direction (relative movement)  <a href="#a9f1481538d1c2aa72a8226b1eb2ad785">More...</a><br /></td></tr>
 <tr class="separator:a9f1481538d1c2aa72a8226b1eb2ad785"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,8 +176,16 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Control class for an arbitrary collection of axis. </p>
-<p>Do not use this Class directly but inherit this class to a new Class, where also the method get_constraints() is specified for that specific set of a hardware. If it is really necessary to change an already existing interface module, then overwrite it in the class, which inherited that class. </p>
+<div class="textblock"><p>Control class for an arbitrary collection of APTmotor axes. </p>
+<p>The required config file entries are based around a few key ideas:</p><ul>
+<li>There needs to be a list of axes, so that everything can be "iterated" across this list.</li>
+<li>There are some config options for each axis that are all in sub-dictionary of the config file. The key is the axis label.</li>
+<li>One of the config parameters is the constraints, which are given in a sub-sub-dictionary, which has the key 'constraints'.</li>
+</ul>
+<p>For example, a config file entry for a single-axis rotating half-wave-plate stage would look like</p>
+<p>hwp_motor: module 'motor.aptmotor.APTStage' dll_path 'C: Files\' axis_labels:</p><ul>
+<li>phi phi: hw_type 'TDC001' serial_num 27500136 pitch 17.87 unit 'degree' constraints: pos_min -360 pos_max 720 vel_min 1.0 vel_max 10.0 acc_min 4.0 acc_max 10.0 </li>
+</ul>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a45fe497c70045b94fa4cbbba400385fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45fe497c70045b94fa4cbbba400385fd">&#9670;&nbsp;</a></span>abort()</h2>
@@ -244,14 +245,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acc4d49125e07aa42adf40d43715f2b82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4d49125e07aa42adf40d43715f2b82">&#9670;&nbsp;</a></span>custom_deactivation()</h2>
+<a id="ad748be17c9371229cd1e445f5aae8841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad748be17c9371229cd1e445f5aae8841">&#9670;&nbsp;</a></span>get_constraints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def aptmotor.APTStage.custom_deactivation </td>
+          <td class="memname">def aptmotor.APTStage.get_constraints </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -260,13 +261,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>That deactivation method can be overwritten in the sub-classed file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>e: Event class object from Fysom. A more detailed explanation can be found in method activation. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Retrieve the hardware constrains from the motor device. </p>
+<dl class="section return"><dt>Returns</dt><dd>dict: dict with constraints for the motor stage hardware. These constraints will be passed via the logic to the GUI so that proper display elements with boundary conditions can be made.</dd></dl>
+<p>Provides all the constraints for each axis of a motorized stage (like total travel distance, velocity, ...) Each axis has its own dictionary, where the label is used as the identifier throughout the whole module. The dictionaries for each axis are again grouped together in a constraints dictionary in the form </p><pre class="fragment">{'&lt;label_axis0&gt;': axis0 }
+</pre><p>where axis0 is again a dict with the possible values defined below. The possible keys in the constraint are defined in the interface file. If the hardware does not support the values for the constraints, then insert just None. If you are not sure about the meaning, look in other hardware files to get an impression. </p>
 
 </div>
 </div>
@@ -445,7 +443,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Moves stage in given direction (relative movement) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dict</td><td>param_dict: dictionary, which passes all the relevant parameters, which should be changed. With get_constraints() you can obtain all possible parameters of that stage. According to this parameter set you have to pass a dictionary with keys that are called like the parameters from get_constraints() and assign a SI value to that. For a movement in x the dict should e.g. have the form: dict = { 'x' : 23 } where the label 'x' corresponds to the chosen axis label.</td></tr>
+    <tr><td class="paramname">dict</td><td>param_dict: dictionary, which passes all the relevant parameters, which should be changed. With <a class="el" href="classaptmotor_1_1APTStage.html#ad748be17c9371229cd1e445f5aae8841" title="Retrieve the hardware constrains from the motor device. ">get_constraints()</a> you can obtain all possible parameters of that stage. According to this parameter set you have to pass a dictionary with keys that are called like the parameters from <a class="el" href="classaptmotor_1_1APTStage.html#ad748be17c9371229cd1e445f5aae8841" title="Retrieve the hardware constrains from the motor device. ">get_constraints()</a> and assign a SI value to that. For a movement in x the dict should e.g. have the form: dict = { 'x' : 23 } where the label 'x' corresponds to the chosen axis label.</td></tr>
   </table>
   </dd>
 </dl>

@@ -33,7 +33,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:39: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:26: warning: Compound threadwidget::ThreadWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1142: warning: Compound aptmotor::APTOneAxisStage is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:35: warning: Compound pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:43: warning: Compound magnet_motor_xyz_rot_interfuse::MagnetMotorXYZROTInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/timetagger_fast_counter.py:29: warning: Compound timetagger_fast_counter::TimeTaggerFastCounter is not documented.
@@ -119,50 +118,48 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/README.md:26: warning: Unexpected html tag <img> found within <a href=...> context
 /home/travis/build/Ulm-IQO/qudi/README.md:27: warning: Unexpected html tag <img> found within <a href=...> context
 /home/travis/build/Ulm-IQO/qudi/README.md:28: warning: Unexpected html tag <img> found within <a href=...> context
-/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:236: warning: Member __init__(self, path_dll, serialnumber, hwtype, label='', unit='m') (function) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:234: warning: Member __init__(self, path_dll, serialnumber, hwtype, label='', unit='m') (function) of class aptmotor::APTMotor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:281: warning: Member initializeHardwareDevice(self) (function) of class aptmotor::APTMotor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:377: warning: Member getHardwareLimitSwitches(self) (function) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:733: warning: Member go_home(self) (function) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:238: warning: Member aptdll (variable) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:242: warning: Member Connected (variable) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:243: warning: Member verbose (variable) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:244: warning: Member label (variable) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:729: warning: Member go_home(self) (function) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:236: warning: Member aptdll (variable) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:240: warning: Member Connected (variable) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:241: warning: Member verbose (variable) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:242: warning: Member label (variable) of class aptmotor::APTMotor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:272: warning: Member SerialNum (variable) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:52: warning: Member hwtype_dict (variable) of class aptmotor::APTMotor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:53: warning: Member hwtype_dict (variable) of class aptmotor::APTMotor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:70: warning: Member error_code (variable) of class aptmotor::APTMotor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:148: warning: Member status_code (variable) of class aptmotor::APTMotor is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:668: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mbAbs(self, absPosition)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:670: warning: The following parameters of aptmotor.APTMotor.mbAbs(self, absPosition) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:664: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mbAbs(self, absPosition)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:666: warning: The following parameters of aptmotor.APTMotor.mbAbs(self, absPosition) are not documented:
   parameter 'absPosition'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:630: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcAbs(self, absPosition, moveVel=0.5)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:630: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcAbs(self, absPosition, moveVel=0.5)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:630: warning: The following parameters of aptmotor.APTMotor.mcAbs(self, absPosition, moveVel=0.5) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:626: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcAbs(self, absPosition, moveVel=0.5)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:626: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcAbs(self, absPosition, moveVel=0.5)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:626: warning: The following parameters of aptmotor.APTMotor.mcAbs(self, absPosition, moveVel=0.5) are not documented:
   parameter 'absPosition'
   parameter 'moveVel'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:610: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcRel(self, relDistance, moveVel=0.5e-3)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:610: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcRel(self, relDistance, moveVel=0.5e-3)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:610: warning: The following parameters of aptmotor.APTMotor.mcRel(self, relDistance, moveVel=0.5e-3) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:606: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcRel(self, relDistance, moveVel=0.5e-3)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:606: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::mcRel(self, relDistance, moveVel=0.5e-3)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:606: warning: The following parameters of aptmotor.APTMotor.mcRel(self, relDistance, moveVel=0.5e-3) are not documented:
   parameter 'relDistance'
   parameter 'moveVel'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:587: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::move_abs(self, absPosition)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:589: warning: The following parameters of aptmotor.APTMotor.move_abs(self, absPosition) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:583: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::move_abs(self, absPosition)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:585: warning: The following parameters of aptmotor.APTMotor.move_abs(self, absPosition) are not documented:
   parameter 'absPosition'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:654: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::move_bc_rel(self, relDistance)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:654: warning: The following parameters of aptmotor.APTMotor.move_bc_rel(self, relDistance) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:650: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::move_bc_rel(self, relDistance)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:650: warning: The following parameters of aptmotor.APTMotor.move_bc_rel(self, relDistance) are not documented:
   parameter 'relDistance'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:566: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::move_rel(self, relDistance)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:568: warning: The following parameters of aptmotor.APTMotor.move_rel(self, relDistance) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:563: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::move_rel(self, relDistance)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:565: warning: The following parameters of aptmotor.APTMotor.move_rel(self, relDistance) are not documented:
   parameter 'relDistance'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:761: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_backlash(self, backlash)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:761: warning: The following parameters of aptmotor.APTMotor.set_backlash(self, backlash) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:757: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_backlash(self, backlash)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:757: warning: The following parameters of aptmotor.APTMotor.set_backlash(self, backlash) are not documented:
   parameter 'backlash'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:530: warning: argument 'int' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:530: warning: argument 'int' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:530: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:530: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:531: warning: The following parameters of aptmotor.APTMotor.set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:527: warning: argument 'int' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:527: warning: argument 'int' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:527: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:527: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:528: warning: The following parameters of aptmotor.APTMotor.set_home_parameter(self, home_dir, switch_dir, home_vel, zero_offset) are not documented:
   parameter 'home_dir'
   parameter 'switch_dir'
   parameter 'home_vel'
@@ -176,49 +173,46 @@ IndexError: list index out of range
   parameter 'pos_max'
   parameter 'pitch'
   parameter 'unit'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:466: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_velocity(self, maxVel)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:466: warning: The following parameters of aptmotor.APTMotor.set_velocity(self, maxVel) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:465: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::set_velocity(self, maxVel)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:465: warning: The following parameters of aptmotor.APTMotor.set_velocity(self, maxVel) are not documented:
   parameter 'maxVel'
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:397: warning: argument 'int' of command @param is not found in the argument list of aptmotor.APTMotor::setHardwareLimitSwitches(self, switch_reverse, switch_forward)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:397: warning: argument 'int' of command @param is not found in the argument list of aptmotor.APTMotor::setHardwareLimitSwitches(self, switch_reverse, switch_forward)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:397: warning: The following parameters of aptmotor.APTMotor.setHardwareLimitSwitches(self, switch_reverse, switch_forward) are not documented:
   parameter 'switch_reverse'
   parameter 'switch_forward'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:450: warning: argument 'flaot' of command @param is not found in the argument list of aptmotor.APTMotor::setVelocityParameters(self, minVel, acc, maxVel)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:450: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::setVelocityParameters(self, minVel, acc, maxVel)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:450: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::setVelocityParameters(self, minVel, acc, maxVel)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:450: warning: The following parameters of aptmotor.APTMotor.setVelocityParameters(self, minVel, acc, maxVel) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:449: warning: argument 'flaot' of command @param is not found in the argument list of aptmotor.APTMotor::setVelocityParameters(self, minVel, acc, maxVel)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:449: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::setVelocityParameters(self, minVel, acc, maxVel)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:449: warning: argument 'float' of command @param is not found in the argument list of aptmotor.APTMotor::setVelocityParameters(self, minVel, acc, maxVel)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:449: warning: The following parameters of aptmotor.APTMotor.setVelocityParameters(self, minVel, acc, maxVel) are not documented:
   parameter 'minVel'
   parameter 'acc'
   parameter 'maxVel'
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1041: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::calibrate(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1041: warning: The following parameters of aptmotor.APTStage.calibrate(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:827: warning: Found unknown command `\Program'
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:827: warning: Found unknown command `\Thorlabs'
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1175: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::calibrate(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1175: warning: The following parameters of aptmotor.APTStage.calibrate(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:895: warning: argument 'object' of command @param is not found in the argument list of aptmotor.APTStage::custom_deactivation(self)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:987: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:989: warning: The following parameters of aptmotor.APTStage.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1123: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1125: warning: The following parameters of aptmotor.APTStage.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1012: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1014: warning: The following parameters of aptmotor.APTStage.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1146: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1148: warning: The following parameters of aptmotor.APTStage.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1104: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::get_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1104: warning: The following parameters of aptmotor.APTStage.get_velocity(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1239: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::get_velocity(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1239: warning: The following parameters of aptmotor.APTStage.get_velocity(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:949: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:951: warning: The following parameters of aptmotor.APTStage.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1084: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1086: warning: The following parameters of aptmotor.APTStage.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:913: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_rel(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:915: warning: The following parameters of aptmotor.APTStage.move_rel(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1046: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_rel(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1048: warning: The following parameters of aptmotor.APTStage.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1125: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1125: warning: The following parameters of aptmotor.APTStage.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1260: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1260: warning: The following parameters of aptmotor.APTStage.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:297: warning: Member model (variable) of class automation::AutomationLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:276: warning: Member taskrunner (variable) of class automation::AutomationLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:278: warning: Member sigRepeat (variable) of class automation::AutomationLogic is not documented.
