@@ -1,5 +1,5 @@
 <map id="gated_ni_card.SlowGatedNICard" name="gated_ni_card.SlowGatedNICard">
-<area shape="rect" id="node2" href="$classni__card_1_1NICard.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="278,304,388,331"/>
+<area shape="rect" id="node2" href="$classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="234,304,432,360"/>
 <area shape="rect" id="node3" href="$classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="17,229,143,256"/>
 <area shape="rect" id="node7" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,80,225,107"/>
 <area shape="rect" id="node5" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="62,155,220,181"/>

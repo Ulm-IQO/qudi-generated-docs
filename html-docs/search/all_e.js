@@ -1,11 +1,11 @@
 var searchData=
 [
+  ['nationalinstrumentspulser',['NationalInstrumentsPulser',['../classnational__instruments__pulser_1_1NationalInstrumentsPulser.html',1,'national_instruments_pulser']]],
+  ['nationalinstrumentsxseries',['NationalInstrumentsXSeries',['../classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html',1,'national_instruments_x_series']]],
   ['new_5fheader',['new_header',['../classqzmqkernel_1_1QZMQKernel.html#a92f16b623ef6615bfed3dafd1ed7c430',1,'qzmqkernel::QZMQKernel']]],
   ['newthread',['newThread',['../classcore_1_1threadmanager_1_1ThreadManager.html#a7348b98a43a935362cb187b927762c6d',1,'core::threadmanager::ThreadManager']]],
   ['nextcheckstate',['nextCheckState',['../classqtwidgets_1_1checkbox_1_1CheckBox.html#aa5347cbfe595dbdfb8f589053556f674',1,'qtwidgets::checkbox::CheckBox']]],
   ['nextmessage',['nextMessage',['../classerrordialog_1_1ErrorDialog.html#a6ab533bf6755233d8e9f7ac6d9cf850c',1,'errordialog::ErrorDialog']]],
-  ['nicard',['NICard',['../classni__card_1_1NICard.html',1,'ni_card']]],
-  ['nipulser',['NIPulser',['../classni__pulser_1_1NIPulser.html',1,'ni_pulser']]],
   ['nm_5fto_5fghz',['nm_to_ghz',['../classwavemeter__logger__logic_1_1WavemeterLoggerLogic.html#a868d0131a8d7b50c108649ee955c6aee',1,'wavemeter_logger_logic::WavemeterLoggerLogic']]],
   ['nodestoconfig',['nodesToConfig',['../classconfig__gui_1_1____main_____1_1ConfigMainWindow.html#a2407867b08d7bc01f31d157b7d5b95ec',1,'config_gui::__main__::ConfigMainWindow']]],
   ['nuclearoperationsgui',['NuclearOperationsGui',['../classnuclear__operations_1_1NuclearOperationsGui.html',1,'nuclear_operations']]],

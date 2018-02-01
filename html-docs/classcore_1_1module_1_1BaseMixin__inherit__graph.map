@@ -36,12 +36,12 @@
 <area shape="rect" id="node38" href="$classmw__source__smiq_1_1MicrowaveSmiq.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="775,1863,996,1889"/>
 <area shape="rect" id="node39" href="$classmw__source__smr_1_1MicrowaveSMR.html" title="The hardware control for the device Rohde and Schwarz of type SMR. " alt="" coords="778,1913,993,1940"/>
 <area shape="rect" id="node40" href="$classmw__source__srssg_1_1MicrowaveSRSSG.html" title="Hardware control class to controls SRS SG390 devices. " alt="" coords="788,1965,983,2006"/>
-<area shape="rect" id="node41" href="$classni__card_1_1NICard.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="830,2031,941,2057"/>
-<area shape="rect" id="node42" href="$classni__pulser_1_1NIPulser.html" title="Pulse generator using NI&#45;DAQmx. " alt="" coords="821,2081,950,2108"/>
-<area shape="rect" id="node43" href="$classodmr__counter__dummy_1_1ODMRCounterDummy.html" title="This is the Dummy hardware class that simulates the controls for a simple ODMR. " alt="" coords="764,2133,1007,2174"/>
-<area shape="rect" id="node44" href="$classok__fpga__pulser_1_1OkFpgaPulser.html" title="Methods to control Pulse Generator running on OK FPGA. " alt="" coords="787,2199,984,2225"/>
-<area shape="rect" id="node45" href="$classok__fpga__switch_1_1OkFpgaTtlSwitch.html" title="Methods to control TTL switch running on OK FPGA. " alt="" coords="796,2250,975,2291"/>
-<area shape="rect" id="node46" href="$classok__s6__switch_1_1HardwareSwitchFpga.html" title="ok_s6_switch.HardwareSwitchFpga" alt="" coords="770,2316,1001,2343"/>
-<area shape="rect" id="node47" href="$classpi__pwm_1_1PiPWM.html" title="Hardware module for Raspberry Pi&#45;based PWM controller. " alt="" coords="827,2367,943,2393"/>
-<area shape="rect" id="node48" href="$classpolarisation__dependence__sim_1_1PolarizationDependenceSim.html" title="This class wraps the slow&#45;counter dummy and adds polarisation angle dependence in order to simulate d..." alt="" coords="776,2418,995,2459"/>
+<area shape="rect" id="node41" href="$classnational__instruments__pulser_1_1NationalInstrumentsPulser.html" title="Pulse generator using NI&#45;DAQmx. " alt="" coords="793,2029,978,2085"/>
+<area shape="rect" id="node42" href="$classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="786,2109,985,2165"/>
+<area shape="rect" id="node43" href="$classodmr__counter__dummy_1_1ODMRCounterDummy.html" title="This is the Dummy hardware class that simulates the controls for a simple ODMR. " alt="" coords="764,2189,1007,2230"/>
+<area shape="rect" id="node44" href="$classok__fpga__pulser_1_1OkFpgaPulser.html" title="Methods to control Pulse Generator running on OK FPGA. " alt="" coords="787,2255,984,2281"/>
+<area shape="rect" id="node45" href="$classok__fpga__switch_1_1OkFpgaTtlSwitch.html" title="Methods to control TTL switch running on OK FPGA. " alt="" coords="796,2306,975,2347"/>
+<area shape="rect" id="node46" href="$classok__s6__switch_1_1HardwareSwitchFpga.html" title="ok_s6_switch.HardwareSwitchFpga" alt="" coords="770,2372,1001,2399"/>
+<area shape="rect" id="node47" href="$classpi__pwm_1_1PiPWM.html" title="Hardware module for Raspberry Pi&#45;based PWM controller. " alt="" coords="827,2423,943,2449"/>
+<area shape="rect" id="node48" href="$classpolarisation__dependence__sim_1_1PolarizationDependenceSim.html" title="This class wraps the slow&#45;counter dummy and adds polarisation angle dependence in order to simulate d..." alt="" coords="776,2474,995,2515"/>
 </map>

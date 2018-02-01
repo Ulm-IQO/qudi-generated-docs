@@ -152,6 +152,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:af1c867179c2645b6d90b3e02103c3a6f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#af1c867179c2645b6d90b3e02103c3a6f">clear_odmr_data</a> (self)</td></tr>
 <tr class="memdesc:af1c867179c2645b6d90b3e02103c3a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">¨Set the option to clear the curret ODMR data.  <a href="#af1c867179c2645b6d90b3e02103c3a6f">More...</a><br /></td></tr>
 <tr class="separator:af1c867179c2645b6d90b3e02103c3a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae87f59d90eb89407d7f9334cdb09b21c"><td class="memItemLeft" align="right" valign="top"><a id="ae87f59d90eb89407d7f9334cdb09b21c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_odmr_channels</b> (self)</td></tr>
+<tr class="separator:ae87f59d90eb89407d7f9334cdb09b21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb59fb2ac5d7cb66d1da9932b7686582"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#afb59fb2ac5d7cb66d1da9932b7686582">get_hw_constraints</a> (self)</td></tr>
 <tr class="memdesc:afb59fb2ac5d7cb66d1da9932b7686582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the names of all ocnfigured fit functions.  <a href="#afb59fb2ac5d7cb66d1da9932b7686582">More...</a><br /></td></tr>
 <tr class="separator:afb59fb2ac5d7cb66d1da9932b7686582"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,9 +167,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a09922cbc05ed9a075bcc2c52b9a81cd2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a09922cbc05ed9a075bcc2c52b9a81cd2">save_odmr_data</a> (self, tag=None, colorscale_range=None, percentile_range=None)</td></tr>
 <tr class="memdesc:a09922cbc05ed9a075bcc2c52b9a81cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current ODMR data to a file.  <a href="#a09922cbc05ed9a075bcc2c52b9a81cd2">More...</a><br /></td></tr>
 <tr class="separator:a09922cbc05ed9a075bcc2c52b9a81cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f77614c6ddc959b88137250eb3345b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a26f77614c6ddc959b88137250eb3345b">draw_figure</a> (self, cbar_range=None, percentile_range=None)</td></tr>
-<tr class="memdesc:a26f77614c6ddc959b88137250eb3345b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the summary figure to save with the data.  <a href="#a26f77614c6ddc959b88137250eb3345b">More...</a><br /></td></tr>
-<tr class="separator:a26f77614c6ddc959b88137250eb3345b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970ad836365d7113b2ad03ba082c5c38"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a970ad836365d7113b2ad03ba082c5c38">draw_figure</a> (self, channel_number, cbar_range=None, percentile_range=None)</td></tr>
+<tr class="memdesc:a970ad836365d7113b2ad03ba082c5c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the summary figure to save with the data.  <a href="#a970ad836365d7113b2ad03ba082c5c38">More...</a><br /></td></tr>
+<tr class="separator:a970ad836365d7113b2ad03ba082c5c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d6d16676a0b44a50c21dc8cc20b0b8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a96d6d16676a0b44a50c21dc8cc20b0b8">perform_odmr_measurement</a> (self, freq_start, freq_step, freq_stop, power, runtime, fit_function='No Fit', save_after_meas=True, name_tag='')</td></tr>
 <tr class="memdesc:a96d6d16676a0b44a50c21dc8cc20b0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">An independant method, which can be called by a task with the proper input values to perform an odmr measurement.  <a href="#a96d6d16676a0b44a50c21dc8cc20b0b8">More...</a><br /></td></tr>
 <tr class="separator:a96d6d16676a0b44a50c21dc8cc20b0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,8 +366,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a26f77614c6ddc959b88137250eb3345b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26f77614c6ddc959b88137250eb3345b">&#9670;&nbsp;</a></span>draw_figure()</h2>
+<a id="a970ad836365d7113b2ad03ba082c5c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a970ad836365d7113b2ad03ba082c5c38">&#9670;&nbsp;</a></span>draw_figure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,6 +377,12 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>channel_number</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

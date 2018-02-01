@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['nicard',['NICard',['../classni__card_1_1NICard.html',1,'ni_card']]],
-  ['nipulser',['NIPulser',['../classni__pulser_1_1NIPulser.html',1,'ni_pulser']]],
+  ['nationalinstrumentspulser',['NationalInstrumentsPulser',['../classnational__instruments__pulser_1_1NationalInstrumentsPulser.html',1,'national_instruments_pulser']]],
+  ['nationalinstrumentsxseries',['NationalInstrumentsXSeries',['../classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html',1,'national_instruments_x_series']]],
   ['nuclearoperationsgui',['NuclearOperationsGui',['../classnuclear__operations_1_1NuclearOperationsGui.html',1,'nuclear_operations']]],
   ['nuclearoperationslogic',['NuclearOperationsLogic',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html',1,'nuclear_operations_logic']]],
   ['nuclearoperationsmainwindow',['NuclearOperationsMainWindow',['../classnuclear__operations_1_1NuclearOperationsMainWindow.html',1,'nuclear_operations']]]
