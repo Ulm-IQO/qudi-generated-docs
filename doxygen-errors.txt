@@ -2464,71 +2464,71 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:321: warning: Unsupported xml/html tag <the> found
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:319: warning: The following parameters of magnet_motor_xyz_rot_interfuse.MagnetMotorXYZROTInterfuse.tell(self, param_dict=None) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:569: warning: Member __init__(self) (function) of class managergui::ConsoleSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:379: warning: Member consoleSetFontSize(self, fontsize) (function) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:95: warning: Member modlist (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:96: warning: Member modules (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:119: warning: Member errorDialog (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:127: warning: Member versionLabel (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:163: warning: Member checkTimer (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:286: warning: Member kernel_manager (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:288: warning: Member kernel (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:289: warning: Member namespace (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:75: warning: Member consoleFontSize (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:78: warning: Member sigStartAll (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:79: warning: Member sigStartModule (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:80: warning: Member sigReloadModule (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:81: warning: Member sigCleanupStatus (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:82: warning: Member sigStopModule (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:83: warning: Member sigLoadConfig (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:84: warning: Member sigSaveConfig (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:85: warning: Member sigRealQuit (variable) of class managergui::ManagerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:315: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:573: warning: Member __init__(self) (function) of class managergui::ConsoleSettingsDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:380: warning: Member consoleSetFontSize(self, fontsize) (function) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:96: warning: Member modlist (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:97: warning: Member modules (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:120: warning: Member errorDialog (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:128: warning: Member versionLabel (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:164: warning: Member checkTimer (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:287: warning: Member kernel_manager (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:289: warning: Member kernel (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:290: warning: Member namespace (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:76: warning: Member consoleFontSize (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:79: warning: Member sigStartAll (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:80: warning: Member sigStartModule (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:81: warning: Member sigReloadModule (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:82: warning: Member sigCleanupStatus (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:83: warning: Member sigStopModule (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:84: warning: Member sigLoadConfig (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:85: warning: Member sigSaveConfig (variable) of class managergui::ManagerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:86: warning: Member sigRealQuit (variable) of class managergui::ManagerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:316: warning: Found unknown command `\signal'
 /home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:317: warning: Found unknown command `\signal'
 /home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:318: warning: Found unknown command `\signal'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:93: warning: argument 'object' of command @param is not found in the argument list of managergui.ManagerGui::__init__(self, kwargs)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:93: warning: argument 'str' of command @param is not found in the argument list of managergui.ManagerGui::__init__(self, kwargs)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:93: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::__init__(self, kwargs)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:93: warning: The following parameters of managergui.ManagerGui.__init__(self, kwargs) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:319: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:94: warning: argument 'object' of command @param is not found in the argument list of managergui.ManagerGui::__init__(self, kwargs)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:94: warning: argument 'str' of command @param is not found in the argument list of managergui.ManagerGui::__init__(self, kwargs)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:94: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::__init__(self, kwargs)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:94: warning: The following parameters of managergui.ManagerGui.__init__(self, kwargs) are not documented:
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:404: warning: argument 'QLayout' of command @param is not found in the argument list of managergui.ManagerGui::fillModuleList(self, layout, base)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:404: warning: argument 'str' of command @param is not found in the argument list of managergui.ManagerGui::fillModuleList(self, layout, base)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:404: warning: The following parameters of managergui.ManagerGui.fillModuleList(self, layout, base) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:405: warning: argument 'QLayout' of command @param is not found in the argument list of managergui.ManagerGui::fillModuleList(self, layout, base)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:405: warning: argument 'str' of command @param is not found in the argument list of managergui.ManagerGui::fillModuleList(self, layout, base)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:405: warning: The following parameters of managergui.ManagerGui.fillModuleList(self, layout, base) are not documented:
   parameter 'layout'
   parameter 'base'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:422: warning: argument 'QTreeWidgetItem' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:422: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:422: warning: argument 'list' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:422: warning: argument 'etc' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:422: warning: The following parameters of managergui.ManagerGui.fillTreeItem(self, item, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:423: warning: argument 'QTreeWidgetItem' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:423: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:423: warning: argument 'list' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:423: warning: argument 'etc' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeItem(self, item, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:423: warning: The following parameters of managergui.ManagerGui.fillTreeItem(self, item, value) are not documented:
   parameter 'item'
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:468: warning: argument 'QTreeWidget' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeWidget(self, widget, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:468: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeWidget(self, widget, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:468: warning: argument 'OrderedDict' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeWidget(self, widget, value)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:470: warning: The following parameters of managergui.ManagerGui.fillTreeWidget(self, widget, value) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:469: warning: argument 'QTreeWidget' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeWidget(self, widget, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:469: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeWidget(self, widget, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:469: warning: argument 'OrderedDict' of command @param is not found in the argument list of managergui.ManagerGui::fillTreeWidget(self, widget, value)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:471: warning: The following parameters of managergui.ManagerGui.fillTreeWidget(self, widget, value) are not documented:
   parameter 'widget'
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:273: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::handleLogEntry(self, entry)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:273: warning: The following parameters of managergui.ManagerGui.handleLogEntry(self, entry) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:274: warning: argument 'dict' of command @param is not found in the argument list of managergui.ManagerGui::handleLogEntry(self, entry)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:274: warning: The following parameters of managergui.ManagerGui.handleLogEntry(self, entry) are not documented:
   parameter 'entry'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:543: warning: Member guilayout (variable) of class managergui::ManagerMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:544: warning: Member logiclayout (variable) of class managergui::ManagerMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:545: warning: Member hwlayout (variable) of class managergui::ManagerMainWindow is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:609: warning: Member manager (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:610: warning: Member name (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:611: warning: Member base (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:590: warning: Member sigLoadThis (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:591: warning: Member sigReloadThis (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:592: warning: Member sigDeactivateThis (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:593: warning: Member sigCleanupStatus (variable) of class managergui::ModuleListItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:588: warning: Found unknown command `\signal'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:590: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:545: warning: Member guilayout (variable) of class managergui::ManagerMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:546: warning: Member logiclayout (variable) of class managergui::ManagerMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:547: warning: Member hwlayout (variable) of class managergui::ManagerMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:614: warning: Member manager (variable) of class managergui::ModuleListItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:615: warning: Member name (variable) of class managergui::ModuleListItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:616: warning: Member base (variable) of class managergui::ModuleListItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:595: warning: Member sigLoadThis (variable) of class managergui::ModuleListItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:596: warning: Member sigReloadThis (variable) of class managergui::ModuleListItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:597: warning: Member sigDeactivateThis (variable) of class managergui::ModuleListItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:598: warning: Member sigCleanupStatus (variable) of class managergui::ModuleListItem is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:592: warning: Found unknown command `\signal'
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:600: warning: argument 'str' of command @param is not found in the argument list of managergui.ModuleListItem::__init__(self, manager, basename, modulename)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:600: warning: argument 'str' of command @param is not found in the argument list of managergui.ModuleListItem::__init__(self, manager, basename, modulename)
-/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:600: warning: The following parameters of managergui.ModuleListItem.__init__(self, manager, basename, modulename) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:594: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:596: warning: Found unknown command `\signal'
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:605: warning: argument 'str' of command @param is not found in the argument list of managergui.ModuleListItem::__init__(self, manager, basename, modulename)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:605: warning: argument 'str' of command @param is not found in the argument list of managergui.ModuleListItem::__init__(self, manager, basename, modulename)
+/home/travis/build/Ulm-IQO/qudi/gui/manager/managergui.py:605: warning: The following parameters of managergui.ModuleListItem.__init__(self, manager, basename, modulename) are not documented:
   parameter 'manager'
   parameter 'basename'
   parameter 'modulename'

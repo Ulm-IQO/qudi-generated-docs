@@ -110,9 +110,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmanagergui_1_1ModuleListItem.html#ad41cc72a177116206446976192d6ec40">cleanupButtonClicked</a> (self)</td></tr>
 <tr class="memdesc:ad41cc72a177116206446976192d6ec40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send signal to deactivate this module. <br /></td></tr>
 <tr class="separator:ad41cc72a177116206446976192d6ec40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06df6dc94301440f27a0b0eca0a8a8cc"><td class="memItemLeft" align="right" valign="top"><a id="a06df6dc94301440f27a0b0eca0a8a8cc"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmanagergui_1_1ModuleListItem.html#a06df6dc94301440f27a0b0eca0a8a8cc">checkModuleState</a> (self)</td></tr>
-<tr class="memdesc:a06df6dc94301440f27a0b0eca0a8a8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state of this module and display it in the statusLabel. <br /></td></tr>
+<tr class="memitem:a06df6dc94301440f27a0b0eca0a8a8cc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmanagergui_1_1ModuleListItem.html#a06df6dc94301440f27a0b0eca0a8a8cc">checkModuleState</a> (self)</td></tr>
+<tr class="memdesc:a06df6dc94301440f27a0b0eca0a8a8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state of this module and update visual indications in the GUI.  <a href="#a06df6dc94301440f27a0b0eca0a8a8cc">More...</a><br /></td></tr>
 <tr class="separator:a06df6dc94301440f27a0b0eca0a8a8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -192,6 +191,29 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a06df6dc94301440f27a0b0eca0a8a8cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06df6dc94301440f27a0b0eca0a8a8cc">&#9670;&nbsp;</a></span>checkModuleState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def managergui.ModuleListItem.checkModuleState </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the state of this module and update visual indications in the GUI. </p>
+<p>Modules cannot be unloaded, but they can be deactivated.</p>
+<p>Once loaded, the "load &lt;module&gt;" button will remain checked and its text will be updated to indicate that loading is no longer possible. </p>
 
 </div>
 </div>
