@@ -31,7 +31,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:38: warning: Compound simple_laser_interface::LaserState is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:87: warning: Compound pulsed_maingui::SequenceGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:39: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:40: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:26: warning: Compound threadwidget::ThreadWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:35: warning: Compound pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:43: warning: Compound magnet_motor_xyz_rot_interfuse::MagnetMotorXYZROTInterfuse is not documented.
@@ -53,7 +53,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:142: warning: Compound pulsed_maingui::PredefinedMethodsConfigDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/checkbox.py:46: warning: Compound qtwidgets::checkbox::CheckBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/mapper.py:114: warning: Compound core::mapper::Mapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:53: warning: Compound wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:54: warning: Compound wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:28: warning: Compound data_logger_interface::DataLoggerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:553: warning: Compound pulser_interface::PulserConstraints is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:38: warning: Compound odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
@@ -5872,20 +5872,20 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:297: warning: argument 'bool' of command @param is not found in the argument list of wavemeter_logger_logic.WavemeterLoggerLogic::start_scanning(self, resume=False)
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:299: warning: The following parameters of wavemeter_logger_logic.WavemeterLoggerLogic.start_scanning(self, resume=False) are not documented:
   parameter 'resume'
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:72: warning: Member __init__(self, config, kwargs) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:226: warning: Member doFit(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:261: warning: Member add_data_point(self, point) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:316: warning: Member recalculate_histogram(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:323: warning: Member set_auto_range(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:142: warning: Member curve_nm_counts (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:147: warning: Member curve_hz_counts (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:152: warning: Member curve_envelope (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:157: warning: Member curve_fit (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:65: warning: Member savelogic (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:67: warning: Member sigStartCounter (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:68: warning: Member sigStopCounter (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:69: warning: Member sigFitChanged (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:70: warning: Member sigDoFit (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:73: warning: Member __init__(self, config, kwargs) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:227: warning: Member doFit(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:262: warning: Member add_data_point(self, point) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:317: warning: Member recalculate_histogram(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:324: warning: Member set_auto_range(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:143: warning: Member curve_nm_counts (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:148: warning: Member curve_hz_counts (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:153: warning: Member curve_envelope (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:158: warning: Member curve_fit (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:66: warning: Member savelogic (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:68: warning: Member sigStartCounter (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:69: warning: Member sigStopCounter (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:70: warning: Member sigFitChanged (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:71: warning: Member sigDoFit (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/winspec_spectrometer.py:49: warning: Member expt_is_running (variable) of class winspec_spectrometer::WinSpec32 is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/winspec_spectrometer.py:50: warning: Member path (variable) of class winspec_spectrometer::WinSpec32 is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/winspec_spectrometer.py:51: warning: Member prefix (variable) of class winspec_spectrometer::WinSpec32 is not documented.
