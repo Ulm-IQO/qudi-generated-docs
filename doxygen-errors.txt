@@ -3281,28 +3281,28 @@ IndexError: list index out of range
   parameter 'clock_channel'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:53: warning: Member __init__(self, config, kwargs) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:62: warning: Member on_deactivate(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:158: warning: Member off(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:167: warning: Member get_status(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:186: warning: Member get_frequency(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:195: warning: Member cw_on(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:218: warning: Member list_on(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:257: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:164: warning: Member off(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:173: warning: Member get_status(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:192: warning: Member get_frequency(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:201: warning: Member cw_on(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:224: warning: Member list_on(self) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:263: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:50: warning: Member slowcounter (variable) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:51: warning: Member microwave (variable) of class odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:120: warning: argument 'int' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::count_odmr(self, length=100)
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:120: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.count_odmr(self, length=100) are not documented:
   parameter 'length'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:206: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:206: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:209: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_cw(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:212: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:212: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:215: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:275: warning: argument 'TriggerEdge' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:275: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:281: warning: argument 'TriggerEdge' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_ext_trigger(self, pol=TriggerEdge.RISING)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:281: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
   parameter 'pol'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:226: warning: argument 'list' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:226: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:229: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_list(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:232: warning: argument 'list' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:232: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:235: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:109: warning: argument 'int' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_odmr_length(self, length=100)
@@ -5873,10 +5873,10 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/wavemeter_logger_logic.py:299: warning: The following parameters of wavemeter_logger_logic.WavemeterLoggerLogic.start_scanning(self, resume=False) are not documented:
   parameter 'resume'
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:73: warning: Member __init__(self, config, kwargs) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:227: warning: Member doFit(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:262: warning: Member add_data_point(self, point) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:317: warning: Member recalculate_histogram(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:324: warning: Member set_auto_range(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:225: warning: Member doFit(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:260: warning: Member add_data_point(self, point) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:312: warning: Member recalculate_histogram(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:319: warning: Member set_auto_range(self) (function) of class wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:143: warning: Member curve_nm_counts (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:148: warning: Member curve_hz_counts (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:153: warning: Member curve_envelope (variable) of class wavemeterloggui::WavemeterLogGui is not documented.
