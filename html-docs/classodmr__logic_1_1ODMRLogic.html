@@ -161,9 +161,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>get_odmr_channels</b> 
 <tr class="memitem:a6bd891e4c87592eb49ad86af42a49ef7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a6bd891e4c87592eb49ad86af42a49ef7">get_fit_functions</a> (self)</td></tr>
 <tr class="memdesc:a6bd891e4c87592eb49ad86af42a49ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the hardware constraints/limits.  <a href="#a6bd891e4c87592eb49ad86af42a49ef7">More...</a><br /></td></tr>
 <tr class="separator:a6bd891e4c87592eb49ad86af42a49ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7628b28cc2fd4a70bb3878300912cb80"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a7628b28cc2fd4a70bb3878300912cb80">do_fit</a> (self, fit_function=None, x_data=None, y_data=None)</td></tr>
-<tr class="memdesc:a7628b28cc2fd4a70bb3878300912cb80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the currently configured fit on the measurement data.  <a href="#a7628b28cc2fd4a70bb3878300912cb80">More...</a><br /></td></tr>
-<tr class="separator:a7628b28cc2fd4a70bb3878300912cb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e7e6061e39abc7995bccf36c730087"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a58e7e6061e39abc7995bccf36c730087">do_fit</a> (self, fit_function=None, x_data=None, y_data=None, channel_index=0)</td></tr>
+<tr class="memdesc:a58e7e6061e39abc7995bccf36c730087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the currently configured fit on the measurement data.  <a href="#a58e7e6061e39abc7995bccf36c730087">More...</a><br /></td></tr>
+<tr class="separator:a58e7e6061e39abc7995bccf36c730087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09922cbc05ed9a075bcc2c52b9a81cd2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a09922cbc05ed9a075bcc2c52b9a81cd2">save_odmr_data</a> (self, tag=None, colorscale_range=None, percentile_range=None)</td></tr>
 <tr class="memdesc:a09922cbc05ed9a075bcc2c52b9a81cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current ODMR data to a file.  <a href="#a09922cbc05ed9a075bcc2c52b9a81cd2">More...</a><br /></td></tr>
 <tr class="separator:a09922cbc05ed9a075bcc2c52b9a81cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,8 +323,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7628b28cc2fd4a70bb3878300912cb80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7628b28cc2fd4a70bb3878300912cb80">&#9670;&nbsp;</a></span>do_fit()</h2>
+<a id="a58e7e6061e39abc7995bccf36c730087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e7e6061e39abc7995bccf36c730087">&#9670;&nbsp;</a></span>do_fit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,7 +351,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>y_data</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>y_data</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>channel_index</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

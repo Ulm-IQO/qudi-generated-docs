@@ -3235,28 +3235,28 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/nuclear_operations_logic.py:891: warning: The following parameters of nuclear_operations_logic.NuclearOperationsLogic.save_nuclear_operation_measurement(self, name_tag=None, timestamp=None) are not documented:
   parameter 'name_tag'
   parameter 'timestamp'
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:49: warning: Member __init__(self, config, kwargs) (function) of class odmr_counter_dummy::ODMRCounterDummy is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:53: warning: Member __init__(self, config, kwargs) (function) of class odmr_counter_dummy::ODMRCounterDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:41: warning: Member fitlogic (variable) of class odmr_counter_dummy::ODMRCounterDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:128: warning: argument 'int' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::count_odmr(self, length=100)
 /home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:128: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.count_odmr(self, length=100) are not documented:
   parameter 'length'
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:113: warning: argument 'int' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_odmr_length(self, length=100)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:113: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.set_odmr_length(self, length=100) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:117: warning: argument 'int' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_odmr_length(self, length=100)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:117: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.set_odmr_length(self, length=100) are not documented:
   parameter 'length'
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:93: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:93: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:93: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:93: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:93: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:97: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:97: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:97: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:97: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:97: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.set_up_odmr(self, counter_channel=None, photon_source=None, clock_channel=None, odmr_trigger_channel=None) are not documented:
   parameter 'counter_channel'
   parameter 'photon_source'
   parameter 'clock_channel'
   parameter 'odmr_trigger_channel'
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:72: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:72: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:72: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.set_up_odmr_clock(self, clock_frequency=None, clock_channel=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:76: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:76: warning: argument 'str' of command @param is not found in the argument list of odmr_counter_dummy.ODMRCounterDummy::set_up_odmr_clock(self, clock_frequency=None, clock_channel=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/odmr_counter_dummy.py:76: warning: The following parameters of odmr_counter_dummy.ODMRCounterDummy.set_up_odmr_clock(self, clock_frequency=None, clock_channel=None) are not documented:
   parameter 'clock_frequency'
   parameter 'clock_channel'
 /home/travis/build/Ulm-IQO/qudi/interface/odmr_counter_interface.py:85: warning: argument 'int' of command @param is not found in the argument list of odmr_counter_interface.ODMRCounterInterface::count_odmr(self, length=100)
