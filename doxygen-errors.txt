@@ -190,26 +190,26 @@ IndexError: list index out of range
   parameter 'maxVel'
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1177: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::calibrate(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1177: warning: The following parameters of aptmotor.APTStage.calibrate(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1213: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::calibrate(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1213: warning: The following parameters of aptmotor.APTStage.calibrate(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1125: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_pos(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1127: warning: The following parameters of aptmotor.APTStage.get_pos(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1161: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_pos(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1163: warning: The following parameters of aptmotor.APTStage.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1148: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_status(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1150: warning: The following parameters of aptmotor.APTStage.get_status(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1184: warning: argument 'list' of command @param is not found in the argument list of aptmotor.APTStage::get_status(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1186: warning: The following parameters of aptmotor.APTStage.get_status(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1241: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::get_velocity(self, param_list=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1241: warning: The following parameters of aptmotor.APTStage.get_velocity(self, param_list=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1277: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::get_velocity(self, param_list=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1277: warning: The following parameters of aptmotor.APTStage.get_velocity(self, param_list=None) are not documented:
   parameter 'param_list'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1086: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_abs(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1088: warning: The following parameters of aptmotor.APTStage.move_abs(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1120: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_abs(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1122: warning: The following parameters of aptmotor.APTStage.move_abs(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1048: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_rel(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1050: warning: The following parameters of aptmotor.APTStage.move_rel(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1082: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::move_rel(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1084: warning: The following parameters of aptmotor.APTStage.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1262: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::set_velocity(self, param_dict)
-/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1262: warning: The following parameters of aptmotor.APTStage.set_velocity(self, param_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1298: warning: argument 'dict' of command @param is not found in the argument list of aptmotor.APTStage::set_velocity(self, param_dict)
+/home/travis/build/Ulm-IQO/qudi/hardware/motor/aptmotor.py:1298: warning: The following parameters of aptmotor.APTStage.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:297: warning: Member model (variable) of class automation::AutomationLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/automation.py:276: warning: Member taskrunner (variable) of class automation::AutomationLogic is not documented.
