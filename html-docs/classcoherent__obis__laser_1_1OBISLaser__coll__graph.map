@@ -1,0 +1,5 @@
+<map id="coherent_obis_laser.OBISLaser" name="coherent_obis_laser.OBISLaser">
+<area shape="rect" id="node2" href="$classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="17,229,143,256"/>
+<area shape="rect" id="node6" href="$classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,80,225,107"/>
+<area shape="rect" id="node4" href="$classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="62,155,220,181"/>
+</map>

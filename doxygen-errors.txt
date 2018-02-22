@@ -261,6 +261,25 @@ IndexError: list index out of range
   parameter 'editor'
   parameter 'model'
   parameter 'index'
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:59: warning: Member obis (variable) of class coherent_obis_laser::OBISLaser is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:50: warning: Member eol (variable) of class coherent_obis_laser::OBISLaser is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:111: warning: argument 'ControlMode' of command @param is not found in the argument list of coherent_obis_laser.OBISLaser::set_control_mode(self, mode)
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:111: warning: The following parameters of coherent_obis_laser.OBISLaser.set_control_mode(self, mode) are not documented:
+  parameter 'mode'
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:187: warning: argument 'float' of command @param is not found in the argument list of coherent_obis_laser.OBISLaser::set_current(self, current_percent)
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:187: warning: The following parameters of coherent_obis_laser.OBISLaser.set_current(self, current_percent) are not documented:
+  parameter 'current_percent'
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:251: warning: argument 'LaserState' of command @param is not found in the argument list of coherent_obis_laser.OBISLaser::set_laser_state(self, status)
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:251: warning: The following parameters of coherent_obis_laser.OBISLaser.set_laser_state(self, status) are not documented:
+  parameter 'status'
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:146: warning: argument 'float' of command @param is not found in the argument list of coherent_obis_laser.OBISLaser::set_power(self, power)
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:148: warning: The following parameters of coherent_obis_laser.OBISLaser.set_power(self, power) are not documented:
+  parameter 'power'
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:203: warning: argument 'ShutterState' of command @param is not found in the argument list of coherent_obis_laser.OBISLaser::set_shutter_state(self, state)
+/home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:203: warning: The following parameters of coherent_obis_laser.OBISLaser.set_shutter_state(self, state) are not documented:
+  parameter 'state'
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:31: warning: Member __init__(self) (function) of class colordefs::ColorScale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:34: warning: Member colormap (variable) of class colordefs::ColorScale is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/colordefs.py:35: warning: Member cmap_normed (variable) of class colordefs::ColorScale is not documented.

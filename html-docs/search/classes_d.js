@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['obislaser',['OBISLaser',['../classcoherent__obis__laser_1_1OBISLaser.html',1,'coherent_obis_laser']]],
   ['odmrcounterdummy',['ODMRCounterDummy',['../classodmr__counter__dummy_1_1ODMRCounterDummy.html',1,'odmr_counter_dummy']]],
   ['odmrcounterinterface',['ODMRCounterInterface',['../classodmr__counter__interface_1_1ODMRCounterInterface.html',1,'odmr_counter_interface']]],
   ['odmrcountermicrowaveinterfuse',['ODMRCounterMicrowaveInterfuse',['../classodmr__counter__microwave__interfuse_1_1ODMRCounterMicrowaveInterfuse.html',1,'odmr_counter_microwave_interfuse']]],
