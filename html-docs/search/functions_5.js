@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['editingfinishedevent',['editingFinishedEvent',['../classSpinBox_1_1SpinBox.html#a746bdf5425743e0f79e1a8a79b6932ac',1,'SpinBox::SpinBox']]],
   ['elapsed_5ftime_5fupdated',['elapsed_time_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#abd1f4b81f3a287d0b5819b7dac82b032',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['emit',['emit',['../classcore_1_1logger_1_1QtLogHandler.html#aca5e6adb42e2cf6ef99229cea993a295',1,'core::logger::QtLogHandler']]],
   ['enable_5foutput',['enable_output',['../classCTC100__temperature_1_1CTC100.html#a94335e7779a63da80af5d276b6200afa',1,'CTC100_temperature::CTC100']]],

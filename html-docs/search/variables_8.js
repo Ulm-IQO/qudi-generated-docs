@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['roi_5fxy_5fimage_5fdata',['roi_xy_image_data',['../classpoimangui_1_1PoiManagerGui.html#a94e2721ea5dd15212eafaa34fe58761e',1,'poimangui::PoiManagerGui']]]
+  ['simplelogic',['simplelogic',['../classsimpledatagui_1_1SimpleDataGui.html#a673bdfe2c647b56b9095b7b00fbc008d',1,'simpledatagui::SimpleDataGui']]],
+  ['switchlogic',['switchlogic',['../classswitchgui_1_1SwitchGui.html#a41fe629d9f8598c78533f5e6235914ea',1,'switchgui::SwitchGui']]]
 ];

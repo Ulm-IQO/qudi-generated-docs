@@ -8,7 +8,6 @@ var searchData=
   ['wavemeterloggerlogic1',['wavemeterloggerlogic1',['../classwavemeterloggui_1_1WavemeterLogGui.html#af02148ad05de2e88b2a522b41f362fc2',1,'wavemeterloggui::WavemeterLogGui']]],
   ['wavemeterloggui',['WavemeterLogGui',['../classwavemeterloggui_1_1WavemeterLogGui.html',1,'wavemeterloggui']]],
   ['wavemeterlogwindow',['WavemeterLogWindow',['../classwavemeterloggui_1_1WavemeterLogWindow.html',1,'wavemeterloggui']]],
-  ['wheelevent',['wheelEvent',['../classSpinBox_1_1SpinBox.html#acfd48cf3c75b6a13d1c6c30bed3a0b4f',1,'SpinBox::SpinBox']]],
   ['winspec32',['WinSpec32',['../classwinspec__spectrometer_1_1WinSpec32.html',1,'winspec_spectrometer']]],
   ['write_5fpulse_5fform',['write_pulse_form',['../classpulse__blaster__esrpro_1_1PulseBlasterESRPRO.html#a31b2b3acabb40638bb295d0eb5b05ae0',1,'pulse_blaster_esrpro::PulseBlasterESRPRO']]],
   ['writeconfigfile',['writeConfigFile',['../classcore_1_1manager_1_1Manager.html#a181e03f63ab05639d07e3a7ecda5f41c',1,'core::manager::Manager']]]

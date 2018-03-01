@@ -23,8 +23,8 @@ var searchData=
   ['insert_5frows',['insert_rows',['../classpulse__editors_1_1BlockEditor.html#a48f2181444f194efdae49dc98020bf9b',1,'pulse_editors.BlockEditor.insert_rows()'],['../classpulse__editors_1_1BlockOrganizer.html#adfb3870e0175ad1bdc44af2b945889d8',1,'pulse_editors.BlockOrganizer.insert_rows()'],['../classpulse__editors_1_1SequenceEditor.html#a8e5c048a9cb6646fc34a3cfa27c96010',1,'pulse_editors.SequenceEditor.insert_rows()']]],
   ['insertrows',['insertRows',['../classlogwidget_1_1LogModel.html#af336027cd848d1070bc7cc4b1ed2fb92',1,'logwidget::LogModel']]],
   ['installation',['Installation',['../installation.html',1,'']]],
+  ['integervalidator',['IntegerValidator',['../classqtwidgets_1_1scientific__spinbox_1_1IntegerValidator.html',1,'qtwidgets::scientific_spinbox']]],
   ['interfacemetaclass',['InterfaceMetaclass',['../classcore_1_1util_1_1interfaces_1_1InterfaceMetaclass.html',1,'core::util::interfaces']]],
-  ['interpret',['interpret',['../classSpinBox_1_1SpinBox.html#a85bf1aa3f5ac38f728842125ce98ec8b',1,'SpinBox::SpinBox']]],
   ['interruptabletask',['InterruptableTask',['../classgeneric__task_1_1InterruptableTask.html',1,'generic_task']]],
   ['is_5fchannel_5fselected',['is_channel_selected',['../classCTC100__temperature_1_1CTC100.html#ac830f3e2134eee549270e80ab8394cf6',1,'CTC100_temperature::CTC100']]],
   ['is_5fgated',['is_gated',['../classfast__counter__dummy_1_1FastCounterDummy.html#a1fb0790a07e5f2eb8edf448cfa4dabad',1,'fast_counter_dummy.FastCounterDummy.is_gated()'],['../classfastcomtecmcs6_1_1FastComtec.html#a89836092b35d5ef8d9154afbd5a69699',1,'fastcomtecmcs6.FastComtec.is_gated()'],['../classfastcomtecp7887_1_1FastComtec.html#acdad2442a7959f90999b38ad1f05f5b8',1,'fastcomtecp7887.FastComtec.is_gated()'],['../classfast__counter__fpga__pi3_1_1FastCounterFGAPiP3.html#a068c779b462fa05ebb74b124e700255c',1,'fast_counter_fpga_pi3.FastCounterFGAPiP3.is_gated()'],['../classfast__counter__fpga__qo_1_1FastCounterFPGAQO.html#aff2473522a5c6915129ae108a0a3884b',1,'fast_counter_fpga_qo.FastCounterFPGAQO.is_gated()'],['../classtimetagger__fast__counter_1_1TimeTaggerFastCounter.html#aa6cf8222c0f3e229038235716fa2f3be',1,'timetagger_fast_counter.TimeTaggerFastCounter.is_gated()'],['../classfast__counter__interface_1_1FastCounterInterface.html#afb42a0f98a026b0395f96c4083585249',1,'fast_counter_interface.FastCounterInterface.is_gated()']]],
@@ -33,5 +33,5 @@ var searchData=
   ['ismoduleactive',['isModuleActive',['../classcore_1_1manager_1_1Manager.html#a0d065aa64295bd5e44c4467085038278',1,'core::manager::Manager']]],
   ['ismoduledefined',['isModuleDefined',['../classcore_1_1manager_1_1Manager.html#abbe60e92537004d3b9029e5bb7cd37a6',1,'core::manager::Manager']]],
   ['ismoduleloaded',['isModuleLoaded',['../classcore_1_1manager_1_1Manager.html#a2cfb4a2c83401488777836bd7792a824',1,'core::manager::Manager']]],
-  ['isreadonly',['isReadOnly',['../classSpinBox_1_1SpinBox.html#acbc9166449f43fdd215653f9583247d5',1,'SpinBox.SpinBox.isReadOnly()'],['../classqtwidgets_1_1qradiobutton__custom_1_1CustomQRadioButton.html#a66d2cfd7274940b69d2288de488bc8fc',1,'qtwidgets.qradiobutton_custom.CustomQRadioButton.isReadOnly()']]]
+  ['isreadonly',['isReadOnly',['../classqtwidgets_1_1qradiobutton__custom_1_1CustomQRadioButton.html#a66d2cfd7274940b69d2288de488bc8fc',1,'qtwidgets::qradiobutton_custom::CustomQRadioButton']]]
 ];

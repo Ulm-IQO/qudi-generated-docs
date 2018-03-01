@@ -33,7 +33,6 @@ var searchData=
   ['spectrometerscannerinterfuse',['SpectrometerScannerInterfuse',['../classconfocal__scanner__spectrometer__interfuse_1_1SpectrometerScannerInterfuse.html',1,'confocal_scanner_spectrometer_interfuse']]],
   ['spectrometerwindow',['SpectrometerWindow',['../classspectrometergui_1_1SpectrometerWindow.html',1,'spectrometergui']]],
   ['spectrumlogic',['SpectrumLogic',['../classspectrum_1_1SpectrumLogic.html',1,'spectrum']]],
-  ['spinbox',['SpinBox',['../classSpinBox_1_1SpinBox.html',1,'SpinBox']]],
   ['spinboxdelegate',['SpinBoxDelegate',['../classspinbox__delegate_1_1SpinBoxDelegate.html',1,'spinbox_delegate']]],
   ['statusvar',['StatusVar',['../classcore_1_1module_1_1StatusVar.html',1,'core::module']]],
   ['switchdummy',['SwitchDummy',['../classswitch__dummy_1_1SwitchDummy.html',1,'switch_dummy']]],

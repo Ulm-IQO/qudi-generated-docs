@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['decopts',['decOpts',['../classSpinBox_1_1SpinBox.html#ad30e7bf94b37d08dda70986d43d6779a',1,'SpinBox::SpinBox']]]
+  ['gatedcounterlogic1',['gatedcounterlogic1',['../classgated__counter__gui_1_1GatedCounterGui.html#a2329c47ec521b12f82aa18dc60d9e31e',1,'gated_counter_gui::GatedCounterGui']]]
 ];
