@@ -62,7 +62,34 @@ $(function() {
 <div class="title">Changelog </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Release 0.8</h2>
+<div class="textblock"><h2>Release 0.9</h2>
+<p>Released on 6 Mar 2018 Available at <a href="https://github.com/Ulm-IQO/qudi/releases/tag/v0.9">https://github.com/Ulm-IQO/qudi/releases/tag/v0.9</a></p>
+<p>Changes/New features:</p>
+<ul>
+<li>Huge amount of small and medium sized bug fixes and usability/stability improvements</li>
+<li>Replaced scientific SpinBoxes with a new implementation that is more powerful and does not use pyqtgraph</li>
+<li>Fixed Python crash upon closing qudi which was related to saving images with matplotlib (Windows)</li>
+<li>Added hardware module to control <em>Coherent OBIS</em> lasers</li>
+<li>Manager GUI now properly reflects the state of each module</li>
+<li>Full multichannel support for slow counting / confocal / ODMR</li>
+<li>Moved to fysom v2.1.4</li>
+<li>Module base classes now nest fysom state machine in <code>module_state</code> instead of subclassing it. The current state is accessible via <code>module_state.current</code> or <code>module_state()</code></li>
+<li>Changed the sampling algorithm for waveforms. Formerly each <code>PulseBlockElement</code> was sampled to match the specified length as closely as possible. Now the ideal time on which a transition between elements should occur is matched to a global quantized timeline. The sampled waveform length will now not deviate more than one timebin from the ideal length. However ideally identical elements can slightly vary (1 bin) in length throughout the entire waveform. This should lead in general to better results since the overall definition of the waveform is more closely matched to a quantized timeline</li>
+<li>Commonly used parameters in pulsed measurements are now shared for all predefined methods (less input widgets / clean UI). Each <code>generate_*</code> method still needs all parameters but input widgets are reused by name. Available names are: <div class="fragment"><div class="line">[&#39;mw_channel&#39;, </div><div class="line"> &#39;gate_count_channel&#39;, </div><div class="line"> &#39;sync_trig_channel&#39;, </div><div class="line"> &#39;mw_amp&#39;, </div><div class="line"> &#39;mw_freq&#39;, </div><div class="line"> &#39;channel_amp&#39;, </div><div class="line"> &#39;delay_length&#39;, </div><div class="line"> &#39;wait_time&#39;, </div><div class="line"> &#39;laser_length&#39;, </div><div class="line"> &#39;rabi_period&#39;]</div></div><!-- fragment --></li>
+<li>Generalized APT motor stages class (multi-axis support via config)</li>
+<li>Simple digital channel based switch on/off capability added to <code>hardware/ni_card.py</code></li>
+<li><em>National Instruments X series</em> card hardware module renamed from <code>ni_card.py</code> to <code>national_instruments_x_series.py</code></li>
+<li><code>qudikernel.py</code> moved to core</li>
+<li>Listening address and port of qudi can now be changed in config (default: localhost)</li>
+<li>Analog signal input (for PDMR measurements) now supported for slow counter/confocal/ODMR (see config changes)</li>
+<li>Use of rpyc became optional (does not need to be installed if no remote module capability is needed)</li>
+<li>Mayor cleanup/overhaul of the <code>microwave_interface.py</code> and adaption of all affected modules (hardware/logic)</li>
+</ul>
+<p>Config changes:</p><ul>
+<li>New remote server declaration (old one working but deprecated): <div class="fragment"><div class="line">[global]</div><div class="line">module_server:</div><div class="line">    address: &#39;&#39;</div><div class="line">    port: 12345</div><div class="line">    certfile: &#39;filename.cert&#39;</div><div class="line">    keyfile: &#39;filename.key&#39;</div></div><!-- fragment --></li>
+<li>New full example config for <code>national_instruments_x_series.py</code>: <div class="fragment"><div class="line">mynicard:</div><div class="line">    module.Class: &#39;national_instruments_x_series.NationalInstrumentsXSeries&#39;</div><div class="line">    clock_channel: &#39;/Dev1/Ctr0&#39;</div><div class="line">    scanner_clock_channel: &#39;/Dev1/Ctr2&#39;</div><div class="line">    photon_sources:</div><div class="line">        - &#39;/Dev1/PFI8&#39;</div><div class="line">        - &#39;/Dev1/PFI9&#39;</div><div class="line">    counter_channels:</div><div class="line">        - &#39;/Dev1/Ctr1&#39;</div><div class="line">    counter_ai_channels:  # optional</div><div class="line">        - &#39;/Dev1/AI1&#39;</div><div class="line">    scanner_counter_channels:</div><div class="line">        - &#39;/Dev1/Ctr3&#39;</div><div class="line">    scanner_ai_channels:  # optional</div><div class="line">        - &#39;/Dev1/AI0&#39;</div><div class="line">    scanner_ao_channels:</div><div class="line">        - &#39;/Dev1/AO0&#39;</div><div class="line">        - &#39;/Dev1/AO1&#39;</div><div class="line">        - &#39;/Dev1/AO2&#39;</div><div class="line">        - &#39;/Dev1/AO3&#39;</div><div class="line">    scanner_position_ranges:</div><div class="line">        - [0e-6, 200e-6]</div><div class="line">        - [0e-6, 200e-6]</div><div class="line">        - [-100e-6, 100e-6]</div><div class="line">        - [-10, 10]</div><div class="line">    scanner_voltage_ranges:</div><div class="line">        - [-10, 10]</div><div class="line">        - [-10, 10]</div><div class="line">        - [-10, 10]</div><div class="line">        - [-10, 10]</div><div class="line">    default_samples_number: 10</div><div class="line">    default_clock_frequency: 100</div><div class="line">    default_scanner_clock_frequency: 100</div><div class="line">    gate_in_channel: &#39;/Dev1/PFI9&#39;</div><div class="line">    counting_edge_rising: True</div><div class="line">    odmr_trigger_channel: &#39;/Dev1/PFI15&#39;</div></div><!-- fragment --></li>
+</ul>
+<h2>Release 0.8</h2>
 <p>Released on 2 Mar 2017. Available at <a href="https://github.com/Ulm-IQO/qudi/releases/tag/v0.8">https://github.com/Ulm-IQO/qudi/releases/tag/v0.8</a></p>
 <p>Caution: fits need to be configured in the respective settings dialog and may not include printed results or may be just broken. If you find a defective fit, consider fixing it and submitting a pull request.</p>
 <p>Changes/New features:</p>
