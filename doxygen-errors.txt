@@ -4331,27 +4331,27 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:541: warning: argument 'dict' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::analysis_settings_updated(self, analysis_settings)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:545: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.analysis_settings_updated(self, analysis_settings) are not documented:
   parameter 'analysis_settings'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:892: warning: argument 'dict' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::extraction_settings_changed(self, extraction_settings)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:896: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.extraction_settings_changed(self, extraction_settings) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:896: warning: argument 'dict' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::extraction_settings_changed(self, extraction_settings)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:900: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.extraction_settings_changed(self, extraction_settings) are not documented:
   parameter 'extraction_settings'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:901: warning: argument 'dict' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::extraction_settings_updated(self, extraction_settings)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:905: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.extraction_settings_updated(self, extraction_settings) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:905: warning: argument 'dict' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::extraction_settings_updated(self, extraction_settings)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:909: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.extraction_settings_updated(self, extraction_settings) are not documented:
   parameter 'extraction_settings'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:442: warning: argument 'number_of_lasers' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::fast_counter_settings_updated(self, bin_width_s, record_length_s)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1198: warning: argument 'sampling_format' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1202: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1202: warning: argument 'sampling_format' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:1206: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.generator_settings_updated(self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format) are not documented:
   parameter 'waveform_format'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:778: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::load_asset_into_channels(self, asset_name, load_dict=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:689: warning: argument 'str' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:689: warning: argument 'str' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:689: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:689: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:690: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:782: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::load_asset_into_channels(self, asset_name, load_dict=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:693: warning: argument 'str' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:693: warning: argument 'str' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:693: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:693: warning: argument 'bool' of command @param is not found in the argument list of pulsed_master_logic.PulsedMasterLogic::save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:694: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.save_measurement_data(self, controlled_val_unit, tag, with_error, save_ft) are not documented:
   parameter 'controlled_val_unit'
   parameter 'tag'
   parameter 'with_error'
   parameter 'save_ft'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:885: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.signal_data_updated(self, signal_data_x, signal_data_y, signal_data_y2, error_data_y, error_data_y2, signal_fft_x, signal_fft_y, signal_fft_y2) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_master_logic.py:889: warning: The following parameters of pulsed_master_logic.PulsedMasterLogic.signal_data_updated(self, signal_data_x, signal_data_y, signal_data_y2, error_data_y, error_data_y2, signal_fft_x, signal_fft_y, signal_fft_y2) are not documented:
   parameter 'signal_fft_x'
   parameter 'signal_fft_y'
   parameter 'signal_fft_y2'
@@ -4962,76 +4962,76 @@ IndexError: list index out of range
   parameter 'editor'
   parameter 'option'
   parameter 'index'
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:97: warning: Member __init__(self, config, kwargs) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:335: warning: Member get_saved_asset(self, name) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:112: warning: Member current_block (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:113: warning: Member current_ensemble (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:114: warning: Member current_sequence (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:117: warning: Member saved_pulse_blocks (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:120: warning: Member saved_pulse_block_ensembles (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:122: warning: Member saved_pulse_sequences (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:125: warning: Member pulsed_file_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:142: warning: Member sampling_overhead_bytes (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:153: warning: Member additional_methods_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:162: warning: Member block_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:163: warning: Member ensemble_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:164: warning: Member sequence_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:165: warning: Member waveform_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:166: warning: Member temp_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:170: warning: Member analog_channels (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:171: warning: Member digital_channels (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:173: warning: Member sequence_format (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:176: warning: Member generate_methods (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:102: warning: Member __init__(self, config, kwargs) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:343: warning: Member get_saved_asset(self, name) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:117: warning: Member current_block (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:118: warning: Member current_ensemble (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:119: warning: Member current_sequence (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:122: warning: Member saved_pulse_blocks (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:125: warning: Member saved_pulse_block_ensembles (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:127: warning: Member saved_pulse_sequences (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:130: warning: Member pulsed_file_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:147: warning: Member sampling_overhead_bytes (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:158: warning: Member additional_methods_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:167: warning: Member block_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:168: warning: Member ensemble_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:169: warning: Member sequence_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:170: warning: Member waveform_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:171: warning: Member temp_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:175: warning: Member analog_channels (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:176: warning: Member digital_channels (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:178: warning: Member sequence_format (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:181: warning: Member generate_methods (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:74: warning: Member activation_config (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:77: warning: Member laser_channel (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:78: warning: Member amplitude_dict (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:81: warning: Member sample_rate (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:82: warning: Member waveform_format (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:85: warning: Member sigBlockDictUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:86: warning: Member sigEnsembleDictUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:87: warning: Member sigSequenceDictUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:88: warning: Member sigSampleEnsembleComplete (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:89: warning: Member sigSampleSequenceComplete (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:90: warning: Member sigCurrentBlockUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:91: warning: Member sigCurrentEnsembleUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:92: warning: Member sigCurrentSequenceUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:93: warning: Member sigSettingsUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:94: warning: Member sigPredefinedSequencesUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:95: warning: Member sigPredefinedSequenceGenerated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:591: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::delete_sequence(self, name)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:591: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.delete_sequence(self, name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:87: warning: Member waveform_format (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:90: warning: Member sigBlockDictUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:91: warning: Member sigEnsembleDictUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:92: warning: Member sigSequenceDictUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:93: warning: Member sigSampleEnsembleComplete (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:94: warning: Member sigSampleSequenceComplete (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:95: warning: Member sigCurrentBlockUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:96: warning: Member sigCurrentEnsembleUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:97: warning: Member sigCurrentSequenceUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:98: warning: Member sigSettingsUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:99: warning: Member sigPredefinedSequencesUpdated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:100: warning: Member sigPredefinedSequenceGenerated (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:599: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::delete_sequence(self, name)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:599: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.delete_sequence(self, name) are not documented:
   parameter 'name'
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:830: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:830: warning: argument 'bool' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:830: warning: argument 'int' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:830: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:843: warning: Unsupported xml/html tag <created_files> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:848: warning: Unsupported xml/html tag <created_files> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:875: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:876: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:877: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:878: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:879: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:880: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:881: warning: Unsupported xml/html tag <ensemble> found
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:830: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:838: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:838: warning: argument 'bool' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:838: warning: argument 'int' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:838: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:851: warning: Unsupported xml/html tag <created_files> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:856: warning: Unsupported xml/html tag <created_files> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:883: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:884: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:885: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:886: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:887: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:888: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:889: warning: Unsupported xml/html tag <ensemble> found
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:838: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_block_ensemble(self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None) are not documented:
   parameter 'ensemble_name'
   parameter 'write_to_file'
   parameter 'offset_bin'
   parameter 'name_tag'
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:1022: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:1022: warning: argument 'bool' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:1022: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_sequence(self, sequence_name, write_to_file=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:1030: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:1030: warning: argument 'bool' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence_name, write_to_file=True)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:1030: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_sequence(self, sequence_name, write_to_file=True) are not documented:
   parameter 'sequence_name'
   parameter 'write_to_file'
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:447: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, name, ensemble)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:447: warning: argument 'obj' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, name, ensemble)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:447: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_ensemble(self, name, ensemble) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:455: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, name, ensemble)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:455: warning: argument 'obj' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, name, ensemble)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:455: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_ensemble(self, name, ensemble) are not documented:
   parameter 'name'
   parameter 'ensemble'
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:552: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_sequence(self, name, sequence)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:552: warning: argument 'object' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_sequence(self, name, sequence)
-/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:552: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_sequence(self, name, sequence) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:560: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_sequence(self, name, sequence)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:560: warning: argument 'object' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_sequence(self, name, sequence)
+/home/travis/build/Ulm-IQO/qudi/logic/sequence_generator_logic.py:560: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_sequence(self, name, sequence) are not documented:
   parameter 'name'
   parameter 'sequence'
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_acq.py:46: warning: Member rm (variable) of class simple_data_acq::SimpleAcq is not documented.
