@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pull_5frequest_5ftemplate',['PULL_REQUEST_TEMPLATE',['../md_PULL_REQUEST_TEMPLATE.html',1,'']]],
   ['p',['P',['../classsoftware__pid__controller_1_1SoftPIDController.html#ae5b38d3d52ca40627df7184ee83a9c1b',1,'software_pid_controller::SoftPIDController']]],
   ['paint',['paint',['../classguiutils_1_1ColorBar.html#a0daa1eead9ff9049b99614ca9c76d1f1',1,'guiutils::ColorBar']]],
   ['paintevent',['paintEvent',['../classqtwidgets_1_1scientific__spinbox_1_1ScienDSpinBox.html#a02a8f77b148062cacfe18953711c3d4b',1,'qtwidgets::scientific_spinbox::ScienDSpinBox']]],

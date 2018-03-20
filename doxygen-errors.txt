@@ -6002,7 +6002,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/zaber_motor_rotation_stage.py:334: warning: argument 'dict' of command @param is not found in the argument list of zaber_motor_rotation_stage.MotorRotationZaber::set_velocity(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/hardware/motor/zaber_motor_rotation_stage.py:334: warning: The following parameters of zaber_motor_rotation_stage.MotorRotationZaber.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/documentation/main.md:24: warning: Found unknown command `\red'
-/home/travis/build/Ulm-IQO/qudi/documentation/main.md:28: warning: unable to resolve reference to `managergui' for \ref command
-/home/travis/build/Ulm-IQO/qudi/documentation/main.md:24: warning: Found unknown command `\red'
-/home/travis/build/Ulm-IQO/qudi/documentation/main.md:28: warning: unable to resolve reference to `managergui' for \ref command
+/home/travis/build/Ulm-IQO/qudi/documentation/main.md:25: warning: unable to resolve reference to `remote_modules' for \ref command
+/home/travis/build/Ulm-IQO/qudi/documentation/main.md:29: warning: unable to resolve reference to `managergui' for \ref command
+/home/travis/build/Ulm-IQO/qudi/documentation/main.md:25: warning: unable to resolve reference to `remote_modules' for \ref command
+/home/travis/build/Ulm-IQO/qudi/documentation/main.md:29: warning: unable to resolve reference to `managergui' for \ref command
