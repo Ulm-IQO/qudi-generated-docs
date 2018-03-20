@@ -116,6 +116,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\MONTH'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\DAY'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\Confocal'
+/home/travis/build/Ulm-IQO/qudi/documentation/how_to_get_started.md:15: warning: unable to resolve reference to `installation.md' for \ref command
+/home/travis/build/Ulm-IQO/qudi/documentation/how_to_get_started.md:35: warning: unable to resolve reference to `how_to_use_config_file.md' for \ref command
+/home/travis/build/Ulm-IQO/qudi/documentation/how_to_get_started.md:46: warning: unable to resolve reference to `gui/confocal.md' for \ref command
 /home/travis/build/Ulm-IQO/qudi/documentation/task_usage.md:126: warning: Found unknown command `\trunk'
 /home/travis/build/Ulm-IQO/qudi/documentation/task_usage.md:126: warning: Found unknown command `\logic'
 /home/travis/build/Ulm-IQO/qudi/documentation/task_usage.md:126: warning: Found unknown command `\task'

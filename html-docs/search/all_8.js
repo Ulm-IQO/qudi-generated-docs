@@ -3,6 +3,7 @@ var searchData=
   ['how_20to_20build_20the_20documentation',['How to build the documentation',['../build-docs.html',1,'']]],
   ['how_20to_20use_20and_20understand_20a_20config_20file',['How to use and understand a config file',['../config-explanation.html',1,'']]],
   ['how_20to_20use_20fitting_20in_20qudi',['How to use fitting in Qudi',['../fit_logic.html',1,'']]],
+  ['how_20to_20get_20started',['How to get started',['../get-started.html',1,'']]],
   ['handle_5factive_5fpoi_5fcombobox_5findex_5fchange',['handle_active_poi_ComboBox_index_change',['../classpoimangui_1_1PoiManagerGui.html#a578c232a846108bd88783ca523591181',1,'poimangui::PoiManagerGui']]],
   ['handle_5ftimer',['handle_timer',['../classhigh__finesse__wavemeter_1_1HardwarePull.html#aea8f7f6e42beb1339ec678e30f43f29d',1,'high_finesse_wavemeter.HardwarePull.handle_timer()'],['../classwavemeter__dummy_1_1HardwarePull.html#a4f4a903c29e7d59a4b6b759118892395',1,'wavemeter_dummy.HardwarePull.handle_timer()'],['../classwavemeter__logger__logic_1_1HardwarePull.html#ae481ac4a00d936e1a9ab156cf1f2f192',1,'wavemeter_logger_logic.HardwarePull.handle_timer()']]],
   ['handle_5fwavelength',['handle_wavelength',['../classhigh__finesse__wavemeter_1_1HighFinesseWavemeter.html#aa9564f8a01e1c6e56c4693de18a5a660',1,'high_finesse_wavemeter::HighFinesseWavemeter']]],
