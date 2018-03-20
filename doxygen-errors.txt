@@ -4829,7 +4829,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:30: warning: Member __init__(self) (function) of class remotewidget::RemoteWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/samples_write_methods.py:35: warning: Member __init__(self) (function) of class samples_write_methods::SamplesWriteMethods is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:31: warning: Member __init__(self) (function) of class sampling_functions::SamplingFunctions is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:87: warning: Member func_config (variable) of class sampling_functions::SamplingFunctions is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/sampling_functions.py:90: warning: Member func_config (variable) of class sampling_functions::SamplingFunctions is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:53: warning: Member __init__(self, base_filename, savelogic) (function) of class save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:69: warning: Member filename(self) (function) of class save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:80: warning: Member emit(self, record) (function) of class save_logic::DailyLogHandler is not documented.
