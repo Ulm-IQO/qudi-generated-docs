@@ -154,9 +154,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a732d552ff32702e1ef730751631b6e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c46670282befbd4abda36f374c50ffa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a4c46670282befbd4abda36f374c50ffa">pulser_running_updated</a> (self, is_running)</td></tr>
 <tr class="separator:a4c46670282befbd4abda36f374c50ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0822f12a9f6d3abcb5189347b3298bf5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a0822f12a9f6d3abcb5189347b3298bf5">save_measurement_data</a> (self, controlled_val_unit, tag, with_error, save_ft)</td></tr>
-<tr class="memdesc:a0822f12a9f6d3abcb5189347b3298bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare data to be saved and create a proper plot of the data.  <a href="#a0822f12a9f6d3abcb5189347b3298bf5">More...</a><br /></td></tr>
-<tr class="separator:a0822f12a9f6d3abcb5189347b3298bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9865f16eba12a6d2676eb06cf347b3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a8f9865f16eba12a6d2676eb06cf347b3">save_measurement_data</a> (self, controlled_val_unit, tag, with_error, save_second_plot)</td></tr>
+<tr class="memdesc:a8f9865f16eba12a6d2676eb06cf347b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare data to be saved and create a proper plot of the data.  <a href="#a8f9865f16eba12a6d2676eb06cf347b3">More...</a><br /></td></tr>
+<tr class="separator:a8f9865f16eba12a6d2676eb06cf347b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2429116ae76aa09003a95407a7e54fd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#ab2429116ae76aa09003a95407a7e54fd">clear_pulse_generator</a> (self)</td></tr>
 <tr class="separator:ab2429116ae76aa09003a95407a7e54fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6e959be5a035242e07a675eb3ca3aa5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#ad6e959be5a035242e07a675eb3ca3aa5">upload_ensemble</a> (self, ensemble_name, analog_samples=None, digital_samples=None)</td></tr>
@@ -2601,8 +2601,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0822f12a9f6d3abcb5189347b3298bf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0822f12a9f6d3abcb5189347b3298bf5">&#9670;&nbsp;</a></span>save_measurement_data()</h2>
+<a id="a8f9865f16eba12a6d2676eb06cf347b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9865f16eba12a6d2676eb06cf347b3">&#9670;&nbsp;</a></span>save_measurement_data()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2635,7 +2635,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>save_ft</em>&#160;</td>
+          <td class="paramname"><em>save_second_plot</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2652,7 +2652,7 @@ Static Public Attributes</h2></td></tr>
     <tr><td class="paramname">str</td><td>controlled_val_unit: unit of the x axis of the plot </td></tr>
     <tr><td class="paramname">str</td><td>tag: a filetag which will be included in the filename </td></tr>
     <tr><td class="paramname">bool</td><td>with_error: select whether errors should be saved/plotted </td></tr>
-    <tr><td class="paramname">bool</td><td>save_ft: select wether the Fourier Transform is plotted</td></tr>
+    <tr><td class="paramname">bool</td><td>save_second_plot: select wether the second plot (FFT, diff etc.) is saved</td></tr>
   </table>
   </dd>
 </dl>

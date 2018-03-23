@@ -25,6 +25,7 @@ var searchData=
   ['history_5fforward',['history_forward',['../classconfocal__logic_1_1ConfocalLogic.html#a3492c61ca09887167b64f853d6da1af7',1,'confocal_logic::ConfocalLogic']]],
   ['how_20to_20use_20the_20qudi_20jupyter_20notebook',['How to use the Qudi Jupyter Notebook',['../jupyterkernel.html',1,'']]],
   ['how_20to_20use_20the_20logger_20in_20qudi',['How to use the logger in Qudi',['../logger_usage.html',1,'']]],
+  ['how_20to_20create_20modules',['How to create modules',['../make-modules.html',1,'']]],
   ['how_20to_20use_20and_20create_20tasks',['How to use and create tasks',['../task-usage.html',1,'']]],
   ['how_20to_20write_20easily_20documentations_20in_20markdown_20notation',['How to write easily documentations in markdown notation',['../write-markdown.html',1,'']]]
 ];
