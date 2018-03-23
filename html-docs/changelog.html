@@ -62,7 +62,21 @@ $(function() {
 <div class="title">Changelog </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Release 0.9</h2>
+<div class="textblock"><h2>Pre-release</h2>
+<p>Changes/New features:</p>
+<ul>
+<li>Bug fix for waveform generation larger than ~2 GSamples</li>
+<li>Bug fix for POI manager was losing active POI when moving crosshair in confocal</li>
+<li>Default waveform format can now be set via optional config option for <code>SequenceGeneratorLogic</code></li>
+<li>Added a how-to-get-started guide to the documentation</li>
+<li>Added chirp function to available analog shapes in pulsed measurements</li>
+<li>Bug fix for pulsed measurements with large photon count numbers (<code>numpy.int32</code> vs. <code>numpy.int64</code>)</li>
+<li>Bug fixes and improvements for the scientific SpinBox introduced in v0.9</li>
+<li>Tab order in pulsed measurement GUI is now more useful</li>
+<li>Various stability improvements and minor bug fixes</li>
+</ul>
+<p>Config changes:</p>
+<h2>Release 0.9</h2>
 <p>Released on 6 Mar 2018 Available at <a href="https://github.com/Ulm-IQO/qudi/releases/tag/v0.9">https://github.com/Ulm-IQO/qudi/releases/tag/v0.9</a></p>
 <p>Changes/New features:</p>
 <ul>
