@@ -4230,8 +4230,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1470: warning: Member measuring_error_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1473: warning: Member measuring_error_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:167: warning: Member savelogic (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2349: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::analysis_settings_updated(self, analysis_settings)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2353: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.analysis_settings_updated(self, analysis_settings) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2357: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::analysis_settings_updated(self, analysis_settings)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2361: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.analysis_settings_updated(self, analysis_settings) are not documented:
   parameter 'analysis_settings'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2269: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::extraction_settings_updated(self, extraction_settings)
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2273: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated(self, extraction_settings) are not documented:
