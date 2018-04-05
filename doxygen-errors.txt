@@ -4221,25 +4221,26 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1430: warning: Member fit_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1434: warning: Member signal_image_error_bars (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1438: warning: Member signal_image_error_bars2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1444: warning: Member second_plot_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1447: warning: Member second_plot_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1453: warning: Member sig_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1457: warning: Member sig_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1461: warning: Member ref_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1465: warning: Member ref_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1470: warning: Member measuring_error_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1473: warning: Member measuring_error_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1442: warning: Member second_image_error_bars (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1448: warning: Member second_plot_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1451: warning: Member second_plot_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1457: warning: Member sig_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1461: warning: Member sig_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1465: warning: Member ref_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1469: warning: Member ref_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1474: warning: Member measuring_error_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1477: warning: Member measuring_error_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:167: warning: Member savelogic (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2357: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::analysis_settings_updated(self, analysis_settings)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2361: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.analysis_settings_updated(self, analysis_settings) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2408: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::analysis_settings_updated(self, analysis_settings)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2412: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.analysis_settings_updated(self, analysis_settings) are not documented:
   parameter 'analysis_settings'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2269: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::extraction_settings_updated(self, extraction_settings)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2273: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated(self, extraction_settings) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2320: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::extraction_settings_updated(self, extraction_settings)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2324: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated(self, extraction_settings) are not documented:
   parameter 'extraction_settings'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1695: warning: argument 'bool' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_run_stop_clicked(self, isChecked)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1695: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_run_stop_clicked(self, isChecked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1699: warning: argument 'bool' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_run_stop_clicked(self, isChecked)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1699: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_run_stop_clicked(self, isChecked) are not documented:
   parameter 'isChecked'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2010: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.pulse_generator_settings_updated(self, sample_rate_hz, activation_config_name, activation_config, analogue_amplitude, interleave_on) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2017: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.pulse_generator_settings_updated(self, sample_rate_hz, activation_config_name, activation_config, analogue_amplitude, interleave_on) are not documented:
   parameter 'activation_config'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:55: warning: Member __init__(self) (function) of class pulsed_maingui::PulsedMeasurementMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:98: warning: Member __init__(self) (function) of class pulsed_maingui::PulseExtractionTab is not documented.
@@ -4432,8 +4433,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:933: warning: argument 'dict' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::analysis_settings_changed(self, analysis_settings)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:937: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.analysis_settings_changed(self, analysis_settings) are not documented:
   parameter 'analysis_settings'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1302: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_method, x_data=None, y_data=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1302: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_method, x_data=None, y_data=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1305: warning: argument 'string' of command @param is not found in the argument list of pulsed_measurement_logic.PulsedMeasurementLogic::do_fit(self, fit_method, x_data=None, y_data=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed_measurement_logic.py:1305: warning: The following parameters of pulsed_measurement_logic.PulsedMeasurementLogic.do_fit(self, fit_method, x_data=None, y_data=None) are not documented:
   parameter 'fit_method'
   parameter 'x_data'
   parameter 'y_data'
