@@ -15,7 +15,6 @@ var searchData=
   ['temperaturecelsius',['temperatureCelsius',['../classtsys01__spi_1_1TSYS01SPI.html#a8eb096ebfe9e38283b6174018b37e1b5',1,'tsys01_spi::TSYS01SPI']]],
   ['temperaturekelvin',['temperatureKelvin',['../classtsys01__spi_1_1TSYS01SPI.html#a04f7b36c8494be81471fc0b4c00ab4d8',1,'tsys01_spi::TSYS01SPI']]],
   ['testgui',['TestGui',['../classtestgui_1_1TestGui.html',1,'testgui']]],
-  ['testing',['testing',['../classpoi__manager__logic_1_1PoiManagerLogic.html#aac655dc443877077ecac94fcc5ead028',1,'poi_manager_logic::PoiManagerLogic']]],
   ['threaditem',['ThreadItem',['../classcore_1_1threadmanager_1_1ThreadItem.html',1,'core::threadmanager']]],
   ['threadmanager',['ThreadManager',['../classcore_1_1threadmanager_1_1ThreadManager.html',1,'core::threadmanager']]],
   ['threadwidget',['ThreadWidget',['../classthreadwidget_1_1ThreadWidget.html',1,'threadwidget']]],

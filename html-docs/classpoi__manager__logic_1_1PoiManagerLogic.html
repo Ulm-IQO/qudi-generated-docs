@@ -105,9 +105,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>on_deactivate</b> (sel
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoiManagerLogic.html#aae4062745b46a1bbf7046403b22b0b66">user_move_deactivates_poi</a> (self, tag)</td></tr>
 <tr class="memdesc:aae4062745b46a1bbf7046403b22b0b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate the active POI if the confocal microscope scanner position is moved by anything other than the optimizer. <br /></td></tr>
 <tr class="separator:aae4062745b46a1bbf7046403b22b0b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac655dc443877077ecac94fcc5ead028"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoiManagerLogic.html#aac655dc443877077ecac94fcc5ead028">testing</a> (self)</td></tr>
-<tr class="memdesc:aac655dc443877077ecac94fcc5ead028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug function for testing.  <a href="#aac655dc443877077ecac94fcc5ead028">More...</a><br /></td></tr>
-<tr class="separator:aac655dc443877077ecac94fcc5ead028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa686af7547562f94d9d0df1c8a3b389"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoiManagerLogic.html#aaa686af7547562f94d9d0df1c8a3b389">add_poi</a> (self, position=None, key=None, emit_change=True)</td></tr>
 <tr class="memdesc:aaa686af7547562f94d9d0df1c8a3b389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new poi and adds it to the list.  <a href="#aaa686af7547562f94d9d0df1c8a3b389">More...</a><br /></td></tr>
 <tr class="separator:aaa686af7547562f94d9d0df1c8a3b389"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +166,18 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a72c6f995ebbf5851f0b66f8c1600e901"><td class="memItemLeft" align="right" valign="top"><a id="a72c6f995ebbf5851f0b66f8c1600e901"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>load_roi_from_file</b> (self, filename=None)</td></tr>
 <tr class="separator:a72c6f995ebbf5851f0b66f8c1600e901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef901d46be591abca44b38d8fd9360e4"><td class="memItemLeft" align="right" valign="top"><a id="aef901d46be591abca44b38d8fd9360e4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>dict_to_poi_list</b> (self, val)</td></tr>
+<tr class="separator:aef901d46be591abca44b38d8fd9360e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba57634626b6e563df0580573c32fb4"><td class="memItemLeft" align="right" valign="top"><a id="a5ba57634626b6e563df0580573c32fb4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>poi_list_to_dict</b> (self, val)</td></tr>
+<tr class="separator:a5ba57634626b6e563df0580573c32fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320a8cef46342579c67de4da431933dc"><td class="memItemLeft" align="right" valign="top"><a id="a320a8cef46342579c67de4da431933dc"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>active_poi_to_dict</b> (self, val)</td></tr>
+<tr class="separator:a320a8cef46342579c67de4da431933dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca3f3870047fc86246d6fb2295c267f1"><td class="memItemLeft" align="right" valign="top"><a id="aca3f3870047fc86246d6fb2295c267f1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>dict_to_active_poi</b> (self, val)</td></tr>
+<tr class="separator:aca3f3870047fc86246d6fb2295c267f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afed7e27b8445da5d93de924e164769dd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpoi__manager__logic_1_1PoiManagerLogic.html#afed7e27b8445da5d93de924e164769dd">triangulate</a> (self, r, a1, b1, c1, a2, b2, c2)</td></tr>
 <tr class="memdesc:afed7e27b8445da5d93de924e164769dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorients a coordinate r that is known relative to reference points a1, b1, c1 to produce a new vector rnew that has exactly the same relation to rotated/shifted/tilted reference positions a2, b2, c2.  <a href="#afed7e27b8445da5d93de924e164769dd">More...</a><br /></td></tr>
 <tr class="separator:afed7e27b8445da5d93de924e164769dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,12 +190,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>load_roi_from_file</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aaed22fc21ac8d81cb4d00a868e66e1ea"><td class="memItemLeft" align="right" valign="top"><a id="aaed22fc21ac8d81cb4d00a868e66e1ea"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>roi_name</b></td></tr>
-<tr class="separator:aaed22fc21ac8d81cb4d00a868e66e1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec08f9061fe0ce101b56ef25e044451"><td class="memItemLeft" align="right" valign="top"><a id="a1ec08f9061fe0ce101b56ef25e044451"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>poi_list</b></td></tr>
-<tr class="separator:a1ec08f9061fe0ce101b56ef25e044451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae07c52dead73c4e950aa04cbadbaf6e0"><td class="memItemLeft" align="right" valign="top"><a id="ae07c52dead73c4e950aa04cbadbaf6e0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>go_to_crosshair_after_refocus</b></td></tr>
 <tr class="separator:ae07c52dead73c4e950aa04cbadbaf6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,9 +211,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac45f38beface71db43e371b8248d4793"><td class="memItemLeft" align="right" valign="top"><a id="ac45f38beface71db43e371b8248d4793"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>roi_map_data</b></td></tr>
 <tr class="separator:ac45f38beface71db43e371b8248d4793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a713c2debce3e33ea0ee38afd833ce567"><td class="memItemLeft" align="right" valign="top"><a id="a713c2debce3e33ea0ee38afd833ce567"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>active_poi</b></td></tr>
-<tr class="separator:a713c2debce3e33ea0ee38afd833ce567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -223,6 +223,15 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a6038e1be7c83864487f26a29d44a9add"><td class="memItemLeft" align="right" valign="top"><a id="a6038e1be7c83864487f26a29d44a9add"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>savelogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='SaveLogic')</td></tr>
 <tr class="separator:a6038e1be7c83864487f26a29d44a9add"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec08f9061fe0ce101b56ef25e044451"><td class="memItemLeft" align="right" valign="top"><a id="a1ec08f9061fe0ce101b56ef25e044451"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>poi_list</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=OrderedDict())</td></tr>
+<tr class="separator:a1ec08f9061fe0ce101b56ef25e044451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed22fc21ac8d81cb4d00a868e66e1ea"><td class="memItemLeft" align="right" valign="top"><a id="aaed22fc21ac8d81cb4d00a868e66e1ea"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>roi_name</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default='')</td></tr>
+<tr class="separator:aaed22fc21ac8d81cb4d00a868e66e1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a713c2debce3e33ea0ee38afd833ce567"><td class="memItemLeft" align="right" valign="top"><a id="a713c2debce3e33ea0ee38afd833ce567"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>active_poi</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=None)</td></tr>
+<tr class="separator:a713c2debce3e33ea0ee38afd833ce567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f5a7e26a7aee758097352a06e42ff2"><td class="memItemLeft" align="right" valign="top"><a id="aa0f5a7e26a7aee758097352a06e42ff2"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>signal_timer_updated</b> = QtCore.Signal()</td></tr>
 <tr class="separator:aa0f5a7e26a7aee758097352a06e42ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -774,26 +783,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Stops the perodic refocussing of the poi. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="aac655dc443877077ecac94fcc5ead028"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac655dc443877077ecac94fcc5ead028">&#9670;&nbsp;</a></span>testing()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def poi_manager_logic.PoiManagerLogic.testing </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Debug function for testing. </p>
 
 </div>
 </div>
