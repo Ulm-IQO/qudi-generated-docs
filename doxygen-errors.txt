@@ -4843,16 +4843,16 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:111: warning: Member value (variable) of class save_logic::FunctionImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:170: warning: Member __init__(self, config, kwargs) (function) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:217: warning: Member on_deactivate(self) (function) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:559: warning: Member save_array_as_text(self, data, filename, filepath='', fmt='%.15e', header='', delimiter='\t', comments='#', append=False) (function) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:566: warning: Member save_array_as_text(self, data, filename, filepath='', fmt='%.15e', header='', delimiter='\t', comments='#', append=False) (function) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:174: warning: Member lock (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:177: warning: Member active_poi_name (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:180: warning: Member os_system (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:186: warning: Member data_dir (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:140: warning: Member log_into_daily_directory (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:143: warning: Member mpl_qd_style (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:586: warning: Unsupported xml/html tag <root_dir> found
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:632: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::get_path_for_module(self, module_name)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:633: warning: The following parameters of save_logic.SaveLogic.get_path_for_module(self, module_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:593: warning: Unsupported xml/html tag <root_dir> found
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:639: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::get_path_for_module(self, module_name)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:640: warning: The following parameters of save_logic.SaveLogic.get_path_for_module(self, module_name) are not documented:
   parameter 'module_name'
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
