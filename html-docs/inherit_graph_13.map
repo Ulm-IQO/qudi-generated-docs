@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classconfig__gui_1_1menu_1_1MenuItem.html" title="config_gui.menu.MenuItem" alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$classconfig__gui_1_1config__model_1_1ModuleConfigModel.html" title="config_gui.config_model.\lModuleConfigModel" alt="" coords="210,5,377,46"/>
+<area shape="rect" id="node3" href="$classcore_1_1threadmanager_1_1ThreadManager.html" title="This class keeps track of all the QThreads that are needed somewhere. " alt="" coords="203,70,384,111"/>
+<area shape="rect" id="node4" href="$classcore_1_1util_1_1models_1_1DictTableModel.html" title="Qt model storing a tabel in dictionaries. " alt="" coords="206,135,381,177"/>
+<area shape="rect" id="node5" href="$classcore_1_1util_1_1models_1_1ListTableModel.html" title="Qt model storing a table in lists. " alt="" coords="208,201,379,242"/>
+<area shape="rect" id="node7" href="$classlogwidget_1_1LogModel.html" title="This is a Qt model that represents the log for dislpay in a QTableView. " alt="" coords="225,267,362,293"/>
+<area shape="rect" id="node6" href="$classtaskrunner_1_1TaskListTableModel.html" title="An extension of the ListTableModel for keeping a task list in a TaskRunner. " alt="" coords="433,201,602,242"/>
 </map>
