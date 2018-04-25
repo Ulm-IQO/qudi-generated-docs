@@ -1618,8 +1618,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:64: warning: Member traceanalysislogic1 (variable) of class gated_counter_gui::GatedCounterGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:67: warning: Member sigStartGatedCounter (variable) of class gated_counter_gui::GatedCounterGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:68: warning: Member sigStopGatedCounter (variable) of class gated_counter_gui::GatedCounterGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:271: warning: argument 'int' of command @param is not found in the argument list of gated_counter_gui.GatedCounterGui::num_bins_changed(self, num_bins)
-/home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:274: warning: The following parameters of gated_counter_gui.GatedCounterGui.num_bins_changed(self, num_bins) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:274: warning: argument 'int' of command @param is not found in the argument list of gated_counter_gui.GatedCounterGui::num_bins_changed(self, num_bins)
+/home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:277: warning: The following parameters of gated_counter_gui.GatedCounterGui.num_bins_changed(self, num_bins) are not documented:
   parameter 'num_bins'
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:89: warning: argument 'object' of command @param is not found in the argument list of gated_counter_gui.GatedCounterGui::on_activate(self, e=None)
 /home/travis/build/Ulm-IQO/qudi/gui/gated_counter/gated_counter_gui.py:89: warning: The following parameters of gated_counter_gui.GatedCounterGui.on_activate(self, e=None) are not documented:
@@ -2324,12 +2324,12 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/magnet_interface.py:234: warning: The following parameters of magnet_interface.MagnetInterface.tell(self, param_dict=None) are not documented:
   parameter 'param_dict'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:237: warning: Member __init__(self, config, kwargs) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:733: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:767: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1873: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2048: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2058: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2061: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:737: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:771: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1877: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2052: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2062: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2065: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:275: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:280: warning: Member move_rel_dict (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:291: warning: Member align_2d_axis0_name (variable) of class magnet_logic::MagnetLogic is not documented.
@@ -2412,7 +2412,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:233: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:235: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:65: warning: Illegal command par as part of a <h1> tag
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2081: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2085: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
@@ -2425,7 +2425,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:380: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:380: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2069: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2073: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:461: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:461: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
@@ -5763,92 +5763,114 @@ IndexError: list index out of range
   parameter 'bin_width_s'
   parameter 'record_length_s'
   parameter 'number_of_gates'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:513: warning: Member do_doublegaussian_fit(self, axis, data) (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:570: warning: Member do_doublepossonian_fit(self, axis, data) (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:608: warning: Member do_possonian_fit(self, axis, data) (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:69: warning: Member hist_data (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:83: warning: Member current_fit_function (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:405: warning: Member debug_lifetime_x (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:406: warning: Member debug_lifetime_y (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:48: warning: Member counterlogic1 (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:49: warning: Member savelogic (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:50: warning: Member fitlogic (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:52: warning: Member sigHistogramUpdated (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:60: warning: argument 'dict' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::__init__(self, config, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:60: warning: argument 'dict' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::__init__(self, config, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:60: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.__init__(self, config, kwargs) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:343: warning: Member analyze_flip_prob4(self, trace, bins=30, init_threshold=[1, ana_threshold=[1, analyze_mode='full') (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:683: warning: Member do_doublegaussian_fit(self, axis, data) (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:746: warning: Member do_doublepossonian_fit(self, axis, data) (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:784: warning: Member do_possonian_fit(self, axis, data) (function) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:63: warning: Member hist_data (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:65: warning: Member spin_flip_prob (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:66: warning: Member fidelity_left (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:67: warning: Member fidelity_right (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:76: warning: Member trace (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:81: warning: Member current_fit_function (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:580: warning: Member debug_lifetime_x (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:581: warning: Member debug_lifetime_y (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:43: warning: Member counterlogic1 (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:44: warning: Member savelogic (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:45: warning: Member fitlogic (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:47: warning: Member sigHistogramUpdated (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:48: warning: Member sigAnalysisResultsUpdated (variable) of class trace_analysis_logic::TraceAnalysisLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:53: warning: argument 'dict' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::__init__(self, config, kwargs)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:53: warning: argument 'dict' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::__init__(self, config, kwargs)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:54: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.__init__(self, config, kwargs) are not documented:
   parameter 'config'
   parameter 'kwargs'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:182: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:182: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:182: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:182: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:182: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.analyze_flip_prob(self, trace, num_bins=None, threshold=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:173: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:173: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:173: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:173: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob(self, trace, num_bins=None, threshold=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:174: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.analyze_flip_prob(self, trace, num_bins=None, threshold=None) are not documented:
   parameter 'trace'
   parameter 'num_bins'
   parameter 'threshold'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:324: warning: argument 'numpy' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:324: warning: argument 'string' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:324: warning: argument 'string' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:324: warning: argument 'string' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:324: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:326: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:242: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob2(self, trace, threshold=1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:242: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob2(self, trace, threshold=1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:242: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob2(self, trace, threshold=1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:242: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob2(self, trace, threshold=1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:243: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.analyze_flip_prob2(self, trace, threshold=1, analyze_mode='full') are not documented:
+  parameter 'trace'
+  parameter 'threshold'
+  parameter 'analyze_mode'
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:292: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob3(self, trace, init_threshold=[1, ana_threshold=[1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:292: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob3(self, trace, init_threshold=[1, ana_threshold=[1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:292: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_flip_prob3(self, trace, init_threshold=[1, ana_threshold=[1, analyze_mode='full')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:293: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.analyze_flip_prob3(self, trace, init_threshold=[1, ana_threshold=[1, analyze_mode='full') are not documented:
+  parameter 'trace'
+  parameter 'init_threshold'
+  parameter 'ana_threshold'
+  parameter 'analyze_mode'
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:500: warning: argument 'numpy' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:500: warning: argument 'string' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:500: warning: argument 'string' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:500: warning: argument 'string' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:500: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:502: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.analyze_lifetime(self, trace, dt, method='postselect', distr='gaussian_normalized', state='|-1 >', num_bins=50) are not documented:
   parameter 'trace'
   parameter 'dt'
   parameter 'method'
   parameter 'distr'
   parameter 'state'
   parameter 'num_bins'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:901: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_binary_trace(self, trace, threshold)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:901: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_binary_trace(self, trace, threshold)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:901: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_binary_trace(self, trace, threshold)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:901: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.calculate_binary_trace(self, trace, threshold) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1062: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_binary_trace(self, trace, threshold)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1062: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_binary_trace(self, trace, threshold)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1062: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_binary_trace(self, trace, threshold)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1063: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.calculate_binary_trace(self, trace, threshold) are not documented:
   parameter 'trace'
   parameter 'threshold'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:134: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:134: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:134: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:134: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:134: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:134: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:126: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:126: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:126: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:126: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:126: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:127: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.calculate_histogram(self, trace, num_bins=None, custom_bin_arr=None) are not documented:
   parameter 'trace'
   parameter 'num_bins'
   parameter 'custom_bin_arr'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:709: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_threshold(self, hist_data=None, distr='poissonian')
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:709: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_threshold(self, hist_data=None, distr='poissonian')
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:709: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.calculate_threshold(self, hist_data=None, distr='poissonian') are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:873: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_threshold(self, hist_data=None, distr='poissonian')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:873: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::calculate_threshold(self, hist_data=None, distr='poissonian')
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:874: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.calculate_threshold(self, hist_data=None, distr='poissonian') are not documented:
   parameter 'hist_data'
   parameter 'distr'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:266: warning: argument 'str' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::do_fit(self, fit_function=None)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:266: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.do_fit(self, fit_function=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:443: warning: argument 'str' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::do_fit(self, fit_function=None)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:444: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.do_fit(self, fit_function=None) are not documented:
   parameter 'fit_function'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:916: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::extract_filtered_values(self, trace, threshold, below=True)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:916: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::extract_filtered_values(self, trace, threshold, below=True)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:916: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::extract_filtered_values(self, trace, threshold, below=True)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:916: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.extract_filtered_values(self, trace, threshold, below=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1075: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::extract_filtered_values(self, trace, threshold, below=True)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1075: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::extract_filtered_values(self, trace, threshold, below=True)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1075: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::extract_filtered_values(self, trace, threshold, below=True)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:1076: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.extract_filtered_values(self, trace, threshold, below=True) are not documented:
   parameter 'trace'
   parameter 'threshold'
   parameter 'below'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:647: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:647: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:647: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:647: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:647: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.get_poissonian(self, x_val, mu, amplitude) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:819: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:819: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:819: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:819: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::get_poissonian(self, x_val, mu, amplitude)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:820: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.get_poissonian(self, x_val, mu, amplitude) are not documented:
   parameter 'x_val'
   parameter 'mu'
   parameter 'amplitude'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:679: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:679: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:679: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:679: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:679: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:679: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:847: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:847: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:847: warning: argument 'np.' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:847: warning: argument 'array' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:847: warning: argument 'float' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:848: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.guess_threshold(self, hist_val=None, trace=None, max_ratio_value=0.1) are not documented:
   parameter 'hist_val'
   parameter 'trace'
   parameter 'max_ratio_value'
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:94: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::set_num_bins_histogram(self, num_bins, update=True)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:94: warning: argument 'bool' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::set_num_bins_histogram(self, num_bins, update=True)
-/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:96: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.set_num_bins_histogram(self, num_bins, update=True) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:91: warning: argument 'int' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::set_num_bins_histogram(self, num_bins, update=True)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:91: warning: argument 'bool' of command @param is not found in the argument list of trace_analysis_logic.TraceAnalysisLogic::set_num_bins_histogram(self, num_bins, update=True)
+/home/travis/build/Ulm-IQO/qudi/logic/trace_analysis_logic.py:93: warning: The following parameters of trace_analysis_logic.TraceAnalysisLogic.set_num_bins_histogram(self, num_bins, update=True) are not documented:
   parameter 'num_bins'
   parameter 'update'
 /home/travis/build/Ulm-IQO/qudi/gui/trayicon.py:64: warning: Member right_menu (variable) of class trayicon::SystemTrayIcon is not documented.

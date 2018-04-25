@@ -14,6 +14,7 @@ var searchData=
   ['update_5falign_5f2d_5faxis1_5fstep',['update_align_2d_axis1_step',['../classmagnet__gui_1_1MagnetGui.html#a1d6728de1353695ff1cb3d5dbf8b9612',1,'magnet_gui::MagnetGui']]],
   ['update_5falign_5f2d_5faxis1_5fvel',['update_align_2d_axis1_vel',['../classmagnet__gui_1_1MagnetGui.html#a1a7a8f2c06811e3fc5e6d5fe2656ba07',1,'magnet_gui::MagnetGui']]],
   ['update_5fall_5flogic_5fparameter',['update_all_logic_parameter',['../classnuclear__operations_1_1NuclearOperationsGui.html#a34de67b38f00995fd3ef9f8c124ff5bc',1,'nuclear_operations::NuclearOperationsGui']]],
+  ['update_5fanalysis_5fresults',['update_analysis_results',['../classgated__counter__gui_1_1GatedCounterGui.html#a76de41dfa8e73d209e92d1209e99e297',1,'gated_counter_gui::GatedCounterGui']]],
   ['update_5fanalysis_5fsettings',['update_analysis_settings',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a7d65f72ed8104b07cc99f4e4ce93b1b9',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['update_5fblock_5fdict',['update_block_dict',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a91399c0a8965d0ed333635d24b928dc3',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['update_5fcolorbar',['update_colorbar',['../classodmrgui_1_1ODMRGui.html#a5403d1fa6b0460f9325db7f15fe899b3',1,'odmrgui::ODMRGui']]],

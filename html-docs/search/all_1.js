@@ -42,6 +42,8 @@ var searchData=
   ['analysissettingdialog',['AnalysisSettingDialog',['../classpulsed__maingui_1_1AnalysisSettingDialog.html',1,'pulsed_maingui']]],
   ['analyze_5fdata',['analyze_data',['../classpulse__analysis__logic_1_1PulseAnalysisLogic.html#af7b47ba7fdb44bc8cad250b02565a0ff',1,'pulse_analysis_logic.PulseAnalysisLogic.analyze_data()'],['../classPulse__analysis__standalone_1_1PulseAnalysis.html#a3e9d82cf247cf0c82fd76da6aac3a728',1,'Pulse_analysis_standalone.PulseAnalysis.analyze_data()']]],
   ['analyze_5fflip_5fprob',['analyze_flip_prob',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a0b80fbd01c4495384bd97d1593522afa',1,'trace_analysis_logic::TraceAnalysisLogic']]],
+  ['analyze_5fflip_5fprob2',['analyze_flip_prob2',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#af8f9a7c3736820dde3127250edf2873a',1,'trace_analysis_logic::TraceAnalysisLogic']]],
+  ['analyze_5fflip_5fprob3',['analyze_flip_prob3',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a15c13314b8df65013074da8b5b307c28',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['analyze_5fflip_5fprob_5fpostselect',['analyze_flip_prob_postselect',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a6df58b85b6c9fc4c4360c195e0004168',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['analyze_5flifetime',['analyze_lifetime',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#aa9ea80c70d5791184b9c713de8b47de5',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['append',['append',['../classcore_1_1util_1_1models_1_1ListTableModel.html#aa4108baeea12d65257f741d458b9642b',1,'core.util.models.ListTableModel.append()'],['../classtaskrunner_1_1TaskListTableModel.html#a7999ba1ceb002f0a36fb0914297ae1ad',1,'taskrunner.TaskListTableModel.append()']]],
