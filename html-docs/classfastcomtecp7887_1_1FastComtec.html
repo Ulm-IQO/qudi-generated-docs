@@ -65,13 +65,14 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classfastcomtecp7887_1_1FastComtec-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">fastcomtecp7887.FastComtec Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>unstable Jochen Scheuer  
+<p>unstable Jochen Scheuer, Simon Schmitt  
  <a href="classfastcomtecp7887_1_1FastComtec.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for fastcomtecp7887.FastComtec:</div>
@@ -110,15 +111,18 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:acf84ed87fd2b172739e152467dfa8e0f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#acf84ed87fd2b172739e152467dfa8e0f">get_constraints</a> (self)</td></tr>
 <tr class="memdesc:acf84ed87fd2b172739e152467dfa8e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the hardware constrains from the Fast counting device.  <a href="#acf84ed87fd2b172739e152467dfa8e0f">More...</a><br /></td></tr>
 <tr class="separator:acf84ed87fd2b172739e152467dfa8e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d011e8ac407a88de8bc2c898cfad06c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a8d011e8ac407a88de8bc2c898cfad06c">configure</a> (self, bin_width_s, record_length_s, number_of_gates=0, sweep_reset=False, preset=None, cycles=None)</td></tr>
-<tr class="memdesc:a8d011e8ac407a88de8bc2c898cfad06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the fast counter.  <a href="#a8d011e8ac407a88de8bc2c898cfad06c">More...</a><br /></td></tr>
-<tr class="separator:a8d011e8ac407a88de8bc2c898cfad06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1cea5fa83936880c9728ec4523c41f3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#aa1cea5fa83936880c9728ec4523c41f3">get_binwidth</a> (self)</td></tr>
-<tr class="memdesc:aa1cea5fa83936880c9728ec4523c41f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width of a single timebin in the timetrace in seconds.  <a href="#aa1cea5fa83936880c9728ec4523c41f3">More...</a><br /></td></tr>
-<tr class="separator:aa1cea5fa83936880c9728ec4523c41f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5fc85f17b8b01ddf11d94a24937dca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a8e5fc85f17b8b01ddf11d94a24937dca">configure</a> (self, bin_width_s, record_length_s, number_of_gates=0, filename=None)</td></tr>
+<tr class="memdesc:a8e5fc85f17b8b01ddf11d94a24937dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the fast counter.  <a href="#a8e5fc85f17b8b01ddf11d94a24937dca">More...</a><br /></td></tr>
+<tr class="separator:a8e5fc85f17b8b01ddf11d94a24937dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe5450c35dca456fd25304509fd66338"><td class="memItemLeft" align="right" valign="top"><a id="afe5450c35dca456fd25304509fd66338"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_status</b> (self)</td></tr>
 <tr class="separator:afe5450c35dca456fd25304509fd66338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17d62950bd8dc9ea81448708866b806"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#ad17d62950bd8dc9ea81448708866b806">get_current_runtime</a> (self)</td></tr>
+<tr class="memdesc:ad17d62950bd8dc9ea81448708866b806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current runtime.  <a href="#ad17d62950bd8dc9ea81448708866b806">More...</a><br /></td></tr>
+<tr class="separator:ad17d62950bd8dc9ea81448708866b806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa018936b12793bbae6bf40ab661d6f74"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#aa018936b12793bbae6bf40ab661d6f74">get_current_sweeps</a> (self)</td></tr>
+<tr class="memdesc:aa018936b12793bbae6bf40ab661d6f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current runtime.  <a href="#aa018936b12793bbae6bf40ab661d6f74">More...</a><br /></td></tr>
+<tr class="separator:aa018936b12793bbae6bf40ab661d6f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af45626a867233e13ff98359baddd32db"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#af45626a867233e13ff98359baddd32db">start_measure</a> (self)</td></tr>
 <tr class="memdesc:af45626a867233e13ff98359baddd32db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the measurement.  <a href="#af45626a867233e13ff98359baddd32db">More...</a><br /></td></tr>
 <tr class="separator:af45626a867233e13ff98359baddd32db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,16 +135,19 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>get_status</b> (self)<
 <tr class="memitem:ad87d6addc618eb1bfc1a2cc305fde9e2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#ad87d6addc618eb1bfc1a2cc305fde9e2">continue_measure</a> (self)</td></tr>
 <tr class="memdesc:ad87d6addc618eb1bfc1a2cc305fde9e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continue a paused measurement.  <a href="#ad87d6addc618eb1bfc1a2cc305fde9e2">More...</a><br /></td></tr>
 <tr class="separator:ad87d6addc618eb1bfc1a2cc305fde9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804da2a56cfe72a0440b61d3c3daf3ba"><td class="memItemLeft" align="right" valign="top"><a id="a804da2a56cfe72a0440b61d3c3daf3ba"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>get_data_trace</b> (self, sweep_reset=None)</td></tr>
-<tr class="separator:a804da2a56cfe72a0440b61d3c3daf3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1cea5fa83936880c9728ec4523c41f3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#aa1cea5fa83936880c9728ec4523c41f3">get_binwidth</a> (self)</td></tr>
+<tr class="memdesc:aa1cea5fa83936880c9728ec4523c41f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width of a single timebin in the timetrace in seconds.  <a href="#aa1cea5fa83936880c9728ec4523c41f3">More...</a><br /></td></tr>
+<tr class="separator:aa1cea5fa83936880c9728ec4523c41f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdad2442a7959f90999b38ad1f05f5b8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#acdad2442a7959f90999b38ad1f05f5b8">is_gated</a> (self)</td></tr>
+<tr class="memdesc:acdad2442a7959f90999b38ad1f05f5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the gated counting possibility.  <a href="#acdad2442a7959f90999b38ad1f05f5b8">More...</a><br /></td></tr>
+<tr class="separator:acdad2442a7959f90999b38ad1f05f5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90af3028901d430024173a4cf6d3f1ff"><td class="memItemLeft" align="right" valign="top"><a id="a90af3028901d430024173a4cf6d3f1ff"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_data_trace</b> (self)</td></tr>
+<tr class="separator:a90af3028901d430024173a4cf6d3f1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a633b86be3fc17dc61871bba205370674"><td class="memItemLeft" align="right" valign="top"><a id="a633b86be3fc17dc61871bba205370674"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a633b86be3fc17dc61871bba205370674">get_data_testfile</a> (self)</td></tr>
 <tr class="memdesc:a633b86be3fc17dc61871bba205370674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load data test file. <br /></td></tr>
 <tr class="separator:a633b86be3fc17dc61871bba205370674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdad2442a7959f90999b38ad1f05f5b8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#acdad2442a7959f90999b38ad1f05f5b8">is_gated</a> (self)</td></tr>
-<tr class="memdesc:acdad2442a7959f90999b38ad1f05f5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the gated counting possibility.  <a href="#acdad2442a7959f90999b38ad1f05f5b8">More...</a><br /></td></tr>
-<tr class="separator:acdad2442a7959f90999b38ad1f05f5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79539d0c4d08180d91fc128287111dcf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a79539d0c4d08180d91fc128287111dcf">get_bitshift</a> (self)</td></tr>
 <tr class="memdesc:a79539d0c4d08180d91fc128287111dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bitshift from Fastcomtec.  <a href="#a79539d0c4d08180d91fc128287111dcf">More...</a><br /></td></tr>
 <tr class="separator:a79539d0c4d08180d91fc128287111dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,15 +157,30 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a6eaa3bbfd86211bd3a099e2aa7c7b2bf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a6eaa3bbfd86211bd3a099e2aa7c7b2bf">set_binwidth</a> (self, binwidth)</td></tr>
 <tr class="memdesc:a6eaa3bbfd86211bd3a099e2aa7c7b2bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set defined binwidth in Card.  <a href="#a6eaa3bbfd86211bd3a099e2aa7c7b2bf">More...</a><br /></td></tr>
 <tr class="separator:a6eaa3bbfd86211bd3a099e2aa7c7b2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a068680397f8309edd4d34c673ebed8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a9a068680397f8309edd4d34c673ebed8">get_settings</a> (self)</td></tr>
-<tr class="memdesc:a9a068680397f8309edd4d34c673ebed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get defined axis nanoseconds or bins  <a href="#a9a068680397f8309edd4d34c673ebed8">More...</a><br /></td></tr>
-<tr class="separator:a9a068680397f8309edd4d34c673ebed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a712c37a4d3de4c00bb74819bb3a6d469"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a712c37a4d3de4c00bb74819bb3a6d469">set_length</a> (self, N, preset=10000000, cycles=1)</td></tr>
-<tr class="memdesc:a712c37a4d3de4c00bb74819bb3a6d469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the length of the length of the actual measurement.  <a href="#a712c37a4d3de4c00bb74819bb3a6d469">More...</a><br /></td></tr>
-<tr class="separator:a712c37a4d3de4c00bb74819bb3a6d469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43bfc13fdf0b28a3785f0143b8afdf5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#ac43bfc13fdf0b28a3785f0143b8afdf5">set_length</a> (self, length_bins, preset=None, cycles=None, sequences=None)</td></tr>
+<tr class="memdesc:ac43bfc13fdf0b28a3785f0143b8afdf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the length of the length of the actual measurement.  <a href="#ac43bfc13fdf0b28a3785f0143b8afdf5">More...</a><br /></td></tr>
+<tr class="separator:ac43bfc13fdf0b28a3785f0143b8afdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9aa97657784300a22e2f7312fb599b"><td class="memItemLeft" align="right" valign="top"><a id="a1c9aa97657784300a22e2f7312fb599b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_preset</b> (self, preset)</td></tr>
+<tr class="separator:a1c9aa97657784300a22e2f7312fb599b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582073180eeee390194a301d43339a77"><td class="memItemLeft" align="right" valign="top"><a id="a582073180eeee390194a301d43339a77"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_cycles</b> (self, cycles)</td></tr>
+<tr class="separator:a582073180eeee390194a301d43339a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade5a0e2fadd5a9421ceb739d35a59151"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#ade5a0e2fadd5a9421ceb739d35a59151">get_length</a> (self)</td></tr>
 <tr class="memdesc:ade5a0e2fadd5a9421ceb739d35a59151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the length of the current measurement.  <a href="#ade5a0e2fadd5a9421ceb739d35a59151">More...</a><br /></td></tr>
 <tr class="separator:ade5a0e2fadd5a9421ceb739d35a59151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15579f4e73d50bd2fe9f3e48000005bf"><td class="memItemLeft" align="right" valign="top"><a id="a15579f4e73d50bd2fe9f3e48000005bf"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>change_sweep_mode</b> (self, gated)</td></tr>
+<tr class="separator:a15579f4e73d50bd2fe9f3e48000005bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3034654a6f42d1717aca81d095a5378"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#aa3034654a6f42d1717aca81d095a5378">change_save_mode</a> (self, mode)</td></tr>
+<tr class="memdesc:aa3034654a6f42d1717aca81d095a5378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the save mode of p7887.  <a href="#aa3034654a6f42d1717aca81d095a5378">More...</a><br /></td></tr>
+<tr class="separator:aa3034654a6f42d1717aca81d095a5378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c73f457384d8212a77451e0a7d93f8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a97c73f457384d8212a77451e0a7d93f8">set_delay_start</a> (self, delay_s)</td></tr>
+<tr class="memdesc:a97c73f457384d8212a77451e0a7d93f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the record delay length.  <a href="#a97c73f457384d8212a77451e0a7d93f8">More...</a><br /></td></tr>
+<tr class="separator:a97c73f457384d8212a77451e0a7d93f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10cfb30dfa342c9b27c9cc33a4ffd803"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfastcomtecp7887_1_1FastComtec.html#a10cfb30dfa342c9b27c9cc33a4ffd803">get_delay_start</a> (self)</td></tr>
+<tr class="memdesc:a10cfb30dfa342c9b27c9cc33a4ffd803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current record delay length.  <a href="#a10cfb30dfa342c9b27c9cc33a4ffd803">More...</a><br /></td></tr>
+<tr class="separator:a10cfb30dfa342c9b27c9cc33a4ffd803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a301ce17c980e1062a6eed08e0dda83"><td class="memItemLeft" align="right" valign="top"><a id="a6a301ce17c980e1062a6eed08e0dda83"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>SetDelay</b> (self, t)</td></tr>
 <tr class="separator:a6a301ce17c980e1062a6eed08e0dda83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,15 +242,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aab292834f72318b0778cbdeea0e0c52f"><td class="memItemLeft" align="right" valign="top"><a id="aab292834f72318b0778cbdeea0e0c52f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>GATED</b></td></tr>
-<tr class="separator:aab292834f72318b0778cbdeea0e0c52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14dcfaf71313dd7c412a90c8ee28e891"><td class="memItemLeft" align="right" valign="top"><a id="a14dcfaf71313dd7c412a90c8ee28e891"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MINIMAL_BINWIDTH</b></td></tr>
-<tr class="separator:a14dcfaf71313dd7c412a90c8ee28e891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4823dc95a5dd4421895702cbd5eb8a6b"><td class="memItemLeft" align="right" valign="top"><a id="a4823dc95a5dd4421895702cbd5eb8a6b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>stopped_or_halt</b></td></tr>
 <tr class="separator:a4823dc95a5dd4421895702cbd5eb8a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f9f00f5e3a9e05c3037b943ab1d3d35"><td class="memItemLeft" align="right" valign="top"><a id="a1f9f00f5e3a9e05c3037b943ab1d3d35"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>timetrace_tmp</b></td></tr>
+<tr class="separator:a1f9f00f5e3a9e05c3037b943ab1d3d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57ba7000c9303f32f6cd80a1785b2fb2"><td class="memItemLeft" align="right" valign="top"><a id="a57ba7000c9303f32f6cd80a1785b2fb2"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>dll</b></td></tr>
 <tr class="separator:a57ba7000c9303f32f6cd80a1785b2fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,13 +258,64 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="ab6fc14182a8e42fc0804b848f4de3d24"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connectors</b></td></tr>
 <tr class="separator:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a2d82137ed722634c699223887cb6eaa3"><td class="memItemLeft" align="right" valign="top"><a id="a2d82137ed722634c699223887cb6eaa3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>gated</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('gated', False, missing='warn')</td></tr>
+<tr class="separator:a2d82137ed722634c699223887cb6eaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30d67f7d01a790a06dca51ad91d68a9"><td class="memItemLeft" align="right" valign="top"><a id="ac30d67f7d01a790a06dca51ad91d68a9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>trigger_safety</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('trigger_safety', 200e-9, missing='warn')</td></tr>
+<tr class="separator:ac30d67f7d01a790a06dca51ad91d68a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7a607d6f8810a75be335188dad7742"><td class="memItemLeft" align="right" valign="top"><a id="abb7a607d6f8810a75be335188dad7742"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>aom_delay</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('aom_delay', 400e-9, missing='warn')</td></tr>
+<tr class="separator:abb7a607d6f8810a75be335188dad7742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ba8e023b5b7d20ac454602119dca1c"><td class="memItemLeft" align="right" valign="top"><a id="a29ba8e023b5b7d20ac454602119dca1c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>minimal_binwidth</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('minimal_binwidth', 0.25e-9, missing='warn')</td></tr>
+<tr class="separator:a29ba8e023b5b7d20ac454602119dca1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>unstable Jochen Scheuer </p>
-<p>Hardware Class for the <a class="el" href="classfastcomtecp7887_1_1FastComtec.html" title="unstable Jochen Scheuer ">FastComtec</a> Card. </p>
+<div class="textblock"><p>unstable Jochen Scheuer, Simon Schmitt </p>
+<p>Hardware Class for the <a class="el" href="classfastcomtecp7887_1_1FastComtec.html" title="unstable Jochen Scheuer, Simon Schmitt ">FastComtec</a> Card. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8d011e8ac407a88de8bc2c898cfad06c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d011e8ac407a88de8bc2c898cfad06c">&#9670;&nbsp;</a></span>configure()</h2>
+<a id="aa3034654a6f42d1717aca81d095a5378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3034654a6f42d1717aca81d095a5378">&#9670;&nbsp;</a></span>change_save_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecp7887.FastComtec.change_save_mode </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the save mode of p7887. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>mode: Specifies the save mode (0: No Save at Halt, 1: Save at Halt, 2 Write list file, No Save at Halt, 3: Write list file, Save at Halt <pre class="fragment">@return int mode: specified save mode</pre> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8e5fc85f17b8b01ddf11d94a24937dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5fc85f17b8b01ddf11d94a24937dca">&#9670;&nbsp;</a></span>configure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -278,19 +348,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sweep_reset</em> = <code>False</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>preset</em> = <code>None</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cycles</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>filename</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -309,7 +367,7 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>tuple(binwidth_s, gate_length_s, number_of_gates): binwidth_s float the actual set binwidth in seconds gate_length_s the actual set gate length in seconds number_of_gates the number of gated, which are accepted </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>tuple(binwidth_s, record_length_s, number_of_gates): binwidth_s float the actual set binwidth in seconds gate_length_s the actual record length in seconds number_of_gates the number of gated, which are accepted, None if not-gated </dd></dl>
 
 </div>
 </div>
@@ -407,6 +465,69 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad17d62950bd8dc9ea81448708866b806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad17d62950bd8dc9ea81448708866b806">&#9670;&nbsp;</a></span>get_current_runtime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecp7887.FastComtec.get_current_runtime </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current runtime. </p>
+<dl class="section return"><dt>Returns</dt><dd>float runtime: in s </dd></dl>
+
+</div>
+</div>
+<a id="aa018936b12793bbae6bf40ab661d6f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa018936b12793bbae6bf40ab661d6f74">&#9670;&nbsp;</a></span>get_current_sweeps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecp7887.FastComtec.get_current_sweeps </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current runtime. </p>
+<dl class="section return"><dt>Returns</dt><dd>int sweeps: in sweeps </dd></dl>
+
+</div>
+</div>
+<a id="a10cfb30dfa342c9b27c9cc33a4ffd803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10cfb30dfa342c9b27c9cc33a4ffd803">&#9670;&nbsp;</a></span>get_delay_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecp7887.FastComtec.get_delay_start </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current record delay length. </p>
+<dl class="section return"><dt>Returns</dt><dd>float delay_s: current record delay length in seconds </dd></dl>
+
+</div>
+</div>
 <a id="ade5a0e2fadd5a9421ceb739d35a59151"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade5a0e2fadd5a9421ceb739d35a59151">&#9670;&nbsp;</a></span>get_length()</h2>
 
@@ -425,27 +546,6 @@ Public Attributes</h2></td></tr>
 
 <p>Get the length of the current measurement. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: length of the current measurement </dd></dl>
-
-</div>
-</div>
-<a id="a9a068680397f8309edd4d34c673ebed8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a068680397f8309edd4d34c673ebed8">&#9670;&nbsp;</a></span>get_settings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def fastcomtecp7887.FastComtec.get_settings </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get defined axis nanoseconds or bins </p>
-<dl class="section return"><dt>Returns</dt><dd>float: settings class object </dd></dl>
 
 </div>
 </div>
@@ -565,8 +665,45 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a712c37a4d3de4c00bb74819bb3a6d469"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a712c37a4d3de4c00bb74819bb3a6d469">&#9670;&nbsp;</a></span>set_length()</h2>
+<a id="a97c73f457384d8212a77451e0a7d93f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c73f457384d8212a77451e0a7d93f8">&#9670;&nbsp;</a></span>set_delay_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def fastcomtecp7887.FastComtec.set_delay_start </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>delay_s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the record delay length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>delay_s: Record delay after receiving a start trigger</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int mode: specified save mode </dd></dl>
+
+</div>
+</div>
+<a id="ac43bfc13fdf0b28a3785f0143b8afdf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac43bfc13fdf0b28a3785f0143b8afdf5">&#9670;&nbsp;</a></span>set_length()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -581,19 +718,25 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
+          <td class="paramname"><em>length_bins</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>preset</em> = <code>10000000</code>, </td>
+          <td class="paramname"><em>preset</em> = <code>None</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cycles</em> = <code>1</code>&#160;</td>
+          <td class="paramname"><em>cycles</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequences</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -606,7 +749,7 @@ Public Attributes</h2></td></tr>
 <p>Sets the length of the length of the actual measurement. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">int</td><td>N: Length of the measurement</td></tr>
+    <tr><td class="paramname">int</td><td>length_bins: Length of the measurement in bins</td></tr>
   </table>
   </dd>
 </dl>
