@@ -2960,27 +2960,27 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:269: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:154: warning: Member off(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:178: warning: Member get_status(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:206: warning: Member get_frequency(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:227: warning: Member cw_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:286: warning: Member list_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:398: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:69: warning: Member rm (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:79: warning: Member model (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:172: warning: Member off(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:196: warning: Member get_status(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:224: warning: Member get_frequency(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:245: warning: Member cw_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:304: warning: Member list_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:416: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:82: warning: Member rm (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:97: warning: Member model (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:254: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:254: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:257: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_cw(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:272: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:272: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:275: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:441: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:441: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:459: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol=TriggerEdge.RISING)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:459: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
   parameter 'pol'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:312: warning: argument 'list' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:312: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:315: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_list(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:330: warning: argument 'list' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:330: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:333: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:329: warning: Member list_on(self) (function) of class mw_source_smr::MicrowaveSMR is not documented.
