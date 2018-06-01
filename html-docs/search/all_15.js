@@ -61,6 +61,7 @@ var searchData=
   ['update_5froi_5fxy',['update_roi_xy',['../classconfocalgui_1_1ConfocalGui.html#a7f8bcecf9a5ee2b1c36554e31d829782',1,'confocalgui::ConfocalGui']]],
   ['update_5froi_5fxy_5fsize',['update_roi_xy_size',['../classconfocalgui_1_1ConfocalGui.html#afe3dd9e97b388acd949fddcc5eb10382',1,'confocalgui::ConfocalGui']]],
   ['update_5fsaving_5faction',['update_saving_Action',['../classcountergui_1_1CounterGui.html#aeaacc562d4160c3fdfd64a5246938f3d',1,'countergui::CounterGui']]],
+  ['update_5fscan_5frange_5finputs',['update_scan_range_inputs',['../classconfocalgui_1_1ConfocalGui.html#afab47c94e64afca9b503f6e895a794fb',1,'confocalgui::ConfocalGui']]],
   ['update_5fsequence_5fdict',['update_sequence_dict',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a407df37bb97d719ea739cbd6946cc3de',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['update_5fsettings',['update_settings',['../classconfocalgui_1_1ConfocalGui.html#a955880d24963a8160b124f4acaacf228',1,'confocalgui.ConfocalGui.update_settings()'],['../classodmrgui_1_1ODMRGui.html#ab673c764f23c2a289c4ee0ddf924af32',1,'odmrgui.ODMRGui.update_settings()']]],
   ['update_5fslider_5fx',['update_slider_x',['../classconfocalgui_1_1ConfocalGui.html#a1ec0a8d96c2c95af3ef8df1ba3479980',1,'confocalgui::ConfocalGui']]],

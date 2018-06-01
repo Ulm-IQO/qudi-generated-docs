@@ -101,6 +101,8 @@ var searchData=
   ['set_5ffit_5ffunctions',['set_fit_functions',['../classfit__logic_1_1FitContainer.html#adbd55d1583d11a50b97a6bf85154db72',1,'fit_logic::FitContainer']]],
   ['set_5ffluorescence_5fintegration_5ftime',['set_fluorescence_integration_time',['../classmagnet__logic_1_1MagnetLogic.html#a7848302d8df20d55ebcbdcf28d6d135c',1,'magnet_logic::MagnetLogic']]],
   ['set_5ffrequency',['set_frequency',['../classmw__source__agilent_1_1MicrowaveAgilent.html#a1c0ae71617fd86528ccf1bdac1216613',1,'mw_source_agilent.MicrowaveAgilent.set_frequency()'],['../classmw__source__srssg_1_1MicrowaveSRSSG.html#a526a884bb5e730355f0fb973a358c96c',1,'mw_source_srssg.MicrowaveSRSSG.set_frequency()']]],
+  ['set_5ffull_5fscan_5frange_5fxy',['set_full_scan_range_xy',['../classconfocalgui_1_1ConfocalGui.html#ae60086749b5ba5c0d59828ac56f73e84',1,'confocalgui::ConfocalGui']]],
+  ['set_5ffull_5fscan_5frange_5fz',['set_full_scan_range_z',['../classconfocalgui_1_1ConfocalGui.html#a59984e5f520058e47c739b8393f17188',1,'confocalgui::ConfocalGui']]],
   ['set_5ffunction_5fconfig',['set_function_config',['../classpulse__editors_1_1BlockEditor.html#aa0f92d8db785a2b6efe9fd8f09cc53ab',1,'pulse_editors::BlockEditor']]],
   ['set_5fgated',['set_gated',['../classfastcomtecmcs6_1_1FastComtec.html#aaab1a86b741b7ae3c9f84833329339dc',1,'fastcomtecmcs6::FastComtec']]],
   ['set_5fhistory_5factions',['set_history_actions',['../classconfocalgui_1_1ConfocalGui.html#a65ee4efa4df2b7e078ca38d511a14d5a',1,'confocalgui::ConfocalGui']]],

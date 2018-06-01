@@ -9,6 +9,7 @@ var searchData=
   ['acqstatus',['AcqStatus',['../classfastcomtecmcs6_1_1AcqStatus.html',1,'fastcomtecmcs6.AcqStatus'],['../classfastcomtecp7887_1_1AcqStatus.html',1,'fastcomtecp7887.AcqStatus']]],
   ['acquire',['acquire',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a52e28d4a14f037ca5478cfef7daab98d',1,'core::util::mutex::Mutex']]],
   ['activate',['activate',['../classbuiltin__trap_1_1BuiltinTrap.html#abb9c2ad3d6c754c88e9410b5c4de5ac5',1,'builtin_trap::BuiltinTrap']]],
+  ['activate_5fzoom_5fdouble_5fclick',['activate_zoom_double_click',['../classconfocalgui_1_1ConfocalGui.html#a6e14e722a6b628d171c8f2a63e84b64a',1,'confocalgui::ConfocalGui']]],
   ['activatemodule',['activateModule',['../classcore_1_1manager_1_1Manager.html#a5aa17affcb66b8f8ca2cc7128729e921',1,'core::manager::Manager']]],
   ['add',['add',['../classcore_1_1util_1_1models_1_1DictTableModel.html#a0f7922c016a31506958cf8991a5fdc98',1,'core::util::models::DictTableModel']]],
   ['add_5fbuiltin',['add_builtin',['../classbuiltin__trap_1_1BuiltinTrap.html#a19f46ff8efb6447fd0e38d21ca3761c4',1,'builtin_trap::BuiltinTrap']]],
