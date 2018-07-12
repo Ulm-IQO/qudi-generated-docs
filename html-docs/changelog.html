@@ -80,8 +80,11 @@ $(function() {
 <li>POI manager keeps POIs as StatusVar across restarts and fixes to distance measurement</li>
 <li>Various stability improvements and minor bug fixes</li>
 <li>Update conda environment to more recent versions of packages</li>
+<li>Fix installation procedure for the conda environment in windows by using powershell in the cmd and catch with that potential exceptions (e.g. if conda environment is not present). Config changes:</li>
+<li>Add separate conda environments for windows 7 32bit, windows 7 64bit, and windows 10 64bit.</li>
+<li>Extend the windows installation procedure of the conda environment for qudi. The conda environments is selected automatically for the correct windows version and the appropriate environment file is taken.</li>
+<li>Rewrite the documentation for required python packages for Qudi and mention instead the installation procedure, how to create manually a python environment for qudi.</li>
 </ul>
-<p>Config changes:</p>
 <h2>Release 0.9</h2>
 <p>Released on 6 Mar 2018 Available at <a href="https://github.com/Ulm-IQO/qudi/releases/tag/v0.9">https://github.com/Ulm-IQO/qudi/releases/tag/v0.9</a></p>
 <p>Changes/New features:</p>

@@ -18,6 +18,7 @@ var searchData=
   ['manager',['Manager',['../classcore_1_1manager_1_1Manager.html',1,'core::manager']]],
   ['managergui',['ManagerGui',['../classmanagergui_1_1ManagerGui.html',1,'managergui']]],
   ['managermainwindow',['ManagerMainWindow',['../classmanagergui_1_1ManagerMainWindow.html',1,'managergui']]],
+  ['manual_20installation_20of_20a_20python_20environment_20with_20conda_20for_20qudi',['Manual installation of a python environment with conda for Qudi',['../manual-package-installation.html',1,'']]],
   ['manual_5fupdate_5fpoi',['manual_update_poi',['../classpoimangui_1_1PoiManagerGui.html#add7a2a60b0d81a94cd327efabae102ab',1,'poimangui::PoiManagerGui']]],
   ['manually_5fpull_5fdata',['manually_pull_data',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#af0df1600ebb3647f0d7affb0fce22bf9',1,'pulsed_master_logic.PulsedMasterLogic.manually_pull_data()'],['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a45d0bfcc2793859c280248d29bf87604',1,'pulsed_measurement_logic.PulsedMeasurementLogic.manually_pull_data()']]],
   ['mapper',['Mapper',['../classcore_1_1mapper_1_1Mapper.html',1,'core::mapper']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['national_20instruments_20x_20series_20data_20acquisition_20cards',['National Instruments X Series Data Acquisition Cards',['../nidaq-x-series.html',1,'']]]
+  ['manual_20installation_20of_20a_20python_20environment_20with_20conda_20for_20qudi',['Manual installation of a python environment with conda for Qudi',['../manual-package-installation.html',1,'']]]
 ];
