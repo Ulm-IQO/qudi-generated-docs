@@ -74,7 +74,7 @@ $(function() {
 <h4>Anaconda vs Manual</h4>
 <p>Qudi is a Python 3 program that need some modules to work. In order to use Python version 3 and theses dependencies, Qudi might be used with <a href="https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)">Anaconda</a>, a free open source tool that let your computer have multiples "environments" installed at the same time, and just switch from one to another in a command terminal.</p>
 <p>This tool also ease the installation as you can create an environment for Qudi with all the modules needed by importing them from the <code>.yml</code> file in the <code>tool</code> folder.</p>
-<p>It is highly recommended you use this option. If however you want to go mannual, you can find more information here</p>
+<p>It is highly recommended you use this option. If however you want to go mannual, you can find more information <a class="el" href="manual-package-installation.html">here</a></p>
 <h4>Git vs Download</h4>
 <p>If you just want to run Qudi as is, you can download the source code from GitHub and use this installation guide to run it.</p>
 <p>However, Qudi is in constant development for new features and bug fixes, so it is highly recommended to use Git, even for production environment.</p>
@@ -98,11 +98,12 @@ $(function() {
 <p>You can create a Desktop shortcut to launch Qudi easily on your machine.</p>
 <ul>
 <li>On your Desktop, right click and go to <code>New-&gt;Shortcut</code></li>
-<li>For the location you need to copy the following target :<ul>
-<li>windir%.exe "/K" C:.bat "C:\Users\username\Miniconda3\envs\qudi" &amp;#65120;&amp;#65120; python "start.py"<ul>
-<li>The &amp;#65120; might cause troube when copy/pasting, you might need to add it by hand</li>
-<li><code>C:\ProgramData\Miniconda3\Scripts\activate.bat</code> is the Anaconda activation file, it might be in another location depending on your installation</li>
-<li><code>C:\Users\username\Miniconda3\envs\qudi</code> is the environment folder for Qudi. You can find it by typing <code>conda info</code> in the terminal while qudi is activated</li>
+<li>For the location you need to copy the following target<ul>
+<li><code>windir%\System32\cmd.exe "/K" &lt;path-to-activation-script&gt; "&lt;path-to-qudi-environment&gt;" &amp;&amp; cd "&lt;path-to-qudi-directory&gt;" &amp;&amp; python "start.py"</code></li>
+<li>In order for the shortcut to work on every windows setup, you need to specify 3 things :<ul>
+<li><code>&lt;path-to-activation-script&gt;</code> : the path to the Anaconda activate.bat file, for example <code>C:\ProgramData\Miniconda3\Scripts\activate.bat</code>.</li>
+<li><code>&lt;path-to-qudi-environment&gt;</code> : this can be found using command <code>conda info --envs</code> in a terminal.</li>
+<li><code>&lt;path-to-qudi-directory&gt;</code> : the path where Qudi's <code>start.py</code> can be found.</li>
 </ul>
 </li>
 </ul>
@@ -110,10 +111,13 @@ $(function() {
 <li>Click <code>Next</code></li>
 <li>Give the name you want fot the shortcut : <code>Qudi</code></li>
 <li>Click <code>Finish</code></li>
-<li>Right click on the newly created shortcut and go to <code>Proprerties</code></li>
-<li>In the <code>Start in :</code> line, write the path to to Qudi folder where the <code>start.py</code> can be found</li>
-<li>(Optionally) Click <code>Change Icon...</code> and browse for the <code>artwork\logo\logo_qudi.ico</code> logo</li>
+<li>(Optional) Right click on the newly created shortcut and go to <code>Proprerties</code><ul>
+<li>Click <code>Change Icon...</code> and browse for the <code>artwork\logo\logo_qudi.ico</code> logo</li>
 </ul>
+</li>
+</ul>
+<h5>Troubleshooting</h5>
+<p>Please note, in Windows you cannot switch directly between partitions with cd (i.e. between C: and D:). If Qudi's program is stored in another partition, you need to change the command to : <code>windir%\System32\cmd.exe "/K" &lt;path-to-activation-script&gt; "&lt;path-to-qudi-environment&gt;" &amp;&amp; D: &amp;&amp; cd "&lt;path-to-qudi-directory-on-D-partition&gt;" &amp;&amp; python "start.py"</code></p>
 <h2>Linux installation</h2>
 <ol type="1">
 <li>Install git using system package manager.</li>
