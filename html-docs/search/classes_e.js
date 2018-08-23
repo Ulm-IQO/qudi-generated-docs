@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parentpollerunix',['ParentPollerUnix',['../classcore_1_1parentpoller_1_1ParentPollerUnix.html',1,'core.parentpoller.ParentPollerUnix'],['../classparentpoller_1_1ParentPollerUnix.html',1,'parentpoller.ParentPollerUnix']]],
+  ['parentpollerunix',['ParentPollerUnix',['../classparentpoller_1_1ParentPollerUnix.html',1,'parentpoller.ParentPollerUnix'],['../classcore_1_1parentpoller_1_1ParentPollerUnix.html',1,'core.parentpoller.ParentPollerUnix']]],
   ['parentpollerwindows',['ParentPollerWindows',['../classcore_1_1parentpoller_1_1ParentPollerWindows.html',1,'core.parentpoller.ParentPollerWindows'],['../classparentpoller_1_1ParentPollerWindows.html',1,'parentpoller.ParentPollerWindows']]],
   ['pidcontrollerinterface',['PIDControllerInterface',['../classpid__controller__interface_1_1PIDControllerInterface.html',1,'pid_controller_interface']]],
   ['pidgui',['PIDGui',['../classpidgui_1_1PIDGui.html',1,'pidgui']]],
@@ -43,5 +43,5 @@ var searchData=
   ['pulsesequence',['PulseSequence',['../classpulse__objects_1_1PulseSequence.html',1,'pulse_objects']]],
   ['pulsestreamer',['PulseStreamer',['../classpulse__streamer_1_1PulseStreamer.html',1,'pulse_streamer']]],
   ['pulsestreamerservicer',['PulseStreamerServicer',['../classpulse__streamer__pb2_1_1PulseStreamerServicer.html',1,'pulse_streamer_pb2.PulseStreamerServicer'],['../classpulse__streamer__pb2__grpc_1_1PulseStreamerServicer.html',1,'pulse_streamer_pb2_grpc.PulseStreamerServicer']]],
-  ['pulsestreamerstub',['PulseStreamerStub',['../classpulse__streamer__pb2_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2.PulseStreamerStub'],['../classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2_grpc.PulseStreamerStub']]]
+  ['pulsestreamerstub',['PulseStreamerStub',['../classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2_grpc.PulseStreamerStub'],['../classpulse__streamer__pb2_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2.PulseStreamerStub']]]
 ];

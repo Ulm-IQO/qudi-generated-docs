@@ -112,6 +112,7 @@ $(function() {
 <li>Analog signal input (for PDMR measurements) now supported for slow counter/confocal/ODMR (see config changes)</li>
 <li>Use of rpyc became optional (does not need to be installed if no remote module capability is needed)</li>
 <li>Mayor cleanup/overhaul of the <code>microwave_interface.py</code> and adaption of all affected modules (hardware/logic)</li>
+<li>New hardware file for Microwave source - Anritsu MG3691C has been added.</li>
 </ul>
 <p>Config changes:</p><ul>
 <li>New remote server declaration (old one working but deprecated): <div class="fragment"><div class="line">[global]</div><div class="line">module_server:</div><div class="line">    address: &#39;&#39;</div><div class="line">    port: 12345</div><div class="line">    certfile: &#39;filename.cert&#39;</div><div class="line">    keyfile: &#39;filename.key&#39;</div></div><!-- fragment --></li>
