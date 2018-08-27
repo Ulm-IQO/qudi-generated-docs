@@ -33,7 +33,7 @@ var searchData=
   ['save_5fraw_5fspectrometer_5ffile',['save_raw_spectrometer_file',['../classspectrum_1_1SpectrumLogic.html#afb790efbaac3950a19e73f527bda1e64',1,'spectrum::SpectrumLogic']]],
   ['save_5froi',['save_roi',['../classpoimangui_1_1PoiManagerGui.html#ab713842c5fb29a4a4f64035e4c913af6',1,'poimangui::PoiManagerGui']]],
   ['save_5fsequence',['save_sequence',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a3d8ffe4cf27f028a5026425e8ec15095',1,'pulsed_master_logic.PulsedMasterLogic.save_sequence()'],['../classsequence__generator__logic_1_1SequenceGeneratorLogic.html#ab91b0142f4206f3e1350e3dec594420b',1,'sequence_generator_logic.SequenceGeneratorLogic.save_sequence()']]],
-  ['save_5fspectrum_5fdata',['save_spectrum_data',['../classspectrum_1_1SpectrumLogic.html#a9959e48bedeec6b524883b87cab0001c',1,'spectrum::SpectrumLogic']]],
+  ['save_5fspectrum_5fdata',['save_spectrum_data',['../classspectrum_1_1SpectrumLogic.html#acff5846f546aae767dcae27979c042a3',1,'spectrum::SpectrumLogic']]],
   ['save_5fto_5fdict',['save_to_dict',['../classfit__logic_1_1FitContainer.html#a459b9423ac0932f937f84131962e0307',1,'fit_logic::FitContainer']]],
   ['save_5fxy_5fdata',['save_xy_data',['../classconfocal__logic_1_1ConfocalLogic.html#a3063f12416a12848d00c825593316330',1,'confocal_logic::ConfocalLogic']]],
   ['save_5fxy_5fscan_5fdata',['save_xy_scan_data',['../classconfocalgui_1_1ConfocalGui.html#a6a7c3802f078484a8d39dff08630b594',1,'confocalgui::ConfocalGui']]],
