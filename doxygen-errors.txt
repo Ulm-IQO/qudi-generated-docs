@@ -39,7 +39,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/timetagger_fast_counter.py:29: warning: Compound timetagger_fast_counter::TimeTaggerFastCounter is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/high_finesse_wavemeter.py:80: warning: Compound high_finesse_wavemeter::HighFinesseWavemeter is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:131: warning: Compound pulsed_maingui::GeneratorSettingsDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:47: warning: Compound spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:51: warning: Compound spectrometergui::SpectrometerGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:373: warning: Compound pulse_streamer_pb2::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:145: warning: Compound fastcomtecmcs6::BOARDSETTING is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:418: warning: Compound pulse_streamer_pb2::PulseStreamerServicer is not documented.
@@ -102,7 +102,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/qudikernel.py:38: warning: Compound core::qudikernel::Qudi is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:52: warning: Compound laserscannergui::VoltScanGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:106: warning: Compound fastcomtecmcs6::AcqSettings is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:32: warning: Compound spectrometergui::SpectrometerWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:36: warning: Compound spectrometergui::SpectrometerWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:41: warning: Compound mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:300: warning: documented symbol `core.module.ModuleStateMachine::_baseStateList' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/core/remote.py:59: warning: no uniquely matching class member found for 
@@ -5305,41 +5305,58 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:37: warning: Member fitlogic (variable) of class spectrometer_dummy::SpectrometerInterfaceDummy is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:87: warning: argument 'str' of command @param is not found in the argument list of spectrometer_dummy.SpectrometerInterfaceDummy::saveSpectrum(self, path, postfix='')
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:87: warning: argument 'str' of command @param is not found in the argument list of spectrometer_dummy.SpectrometerInterfaceDummy::saveSpectrum(self, path, postfix='')
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:87: warning: The following parameters of spectrometer_dummy.SpectrometerInterfaceDummy.saveSpectrum(self, path, postfix='') are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:89: warning: argument 'str' of command @param is not found in the argument list of spectrometer_dummy.SpectrometerInterfaceDummy::saveSpectrum(self, path, postfix='')
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:89: warning: argument 'str' of command @param is not found in the argument list of spectrometer_dummy.SpectrometerInterfaceDummy::saveSpectrum(self, path, postfix='')
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:89: warning: The following parameters of spectrometer_dummy.SpectrometerInterfaceDummy.saveSpectrum(self, path, postfix='') are not documented:
   parameter 'path'
   parameter 'postfix'
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:102: warning: argument 'float' of command @param is not found in the argument list of spectrometer_dummy.SpectrometerInterfaceDummy::setExposure(self, exposureTime)
-/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:102: warning: The following parameters of spectrometer_dummy.SpectrometerInterfaceDummy.setExposure(self, exposureTime) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:104: warning: argument 'float' of command @param is not found in the argument list of spectrometer_dummy.SpectrometerInterfaceDummy::setExposure(self, exposureTime)
+/home/travis/build/Ulm-IQO/qudi/hardware/spectrometer/spectrometer_dummy.py:104: warning: The following parameters of spectrometer_dummy.SpectrometerInterfaceDummy.setExposure(self, exposureTime) are not documented:
   parameter 'exposureTime'
 /home/travis/build/Ulm-IQO/qudi/interface/spectrometer_interface.py:31: warning: Member recordSpectrum(self) (function) of class spectrometer_interface::SpectrometerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/spectrometer_interface.py:35: warning: Member setExposure(self, exposureTime) (function) of class spectrometer_interface::SpectrometerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/spectrometer_interface.py:39: warning: Member getExposure(self) (function) of class spectrometer_interface::SpectrometerInterface is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:60: warning: Member __init__(self, config, kwargs) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:147: warning: Member start_differential_measurement(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:157: warning: Member stop_differential_measurement(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:166: warning: Member resume_differential_measurement(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:175: warning: Member save_spectrum_data(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:178: warning: Member correct_background(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:181: warning: Member acquire_background(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:184: warning: Member save_background_data(self) (function) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:58: warning: Member spectrumlogic (variable) of class spectrometergui::SpectrometerGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:131: warning: Member spectrum_data(self) (function) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:139: warning: Member background_correction(self) (function) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:143: warning: Member background_correction(self, correction=None) (function) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:78: warning: Member threadlock (variable) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:86: warning: Member diff_spec_data_mod_on (variable) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:87: warning: Member diff_spec_data_mod_off (variable) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:88: warning: Member repetition_count (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:64: warning: Member __init__(self, config, kwargs) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:196: warning: Member start_differential_measurement(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:206: warning: Member stop_differential_measurement(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:215: warning: Member resume_differential_measurement(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:224: warning: Member save_spectrum_data(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:227: warning: Member correct_background(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:230: warning: Member acquire_background(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:233: warning: Member save_background_data(self) (function) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:62: warning: Member spectrumlogic (variable) of class spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:169: warning: Member spectrum_data(self) (function) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:177: warning: Member background_correction(self) (function) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:181: warning: Member background_correction(self, correction=None) (function) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:84: warning: Member threadlock (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:92: warning: Member spectrum_fit (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:93: warning: Member fit_domain (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:95: warning: Member diff_spec_data_mod_on (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:96: warning: Member diff_spec_data_mod_off (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:97: warning: Member repetition_count (variable) of class spectrum::SpectrumLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:48: warning: Member spectrometer (variable) of class spectrum::SpectrumLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:49: warning: Member odmrlogic (variable) of class spectrum::SpectrumLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:50: warning: Member savelogic (variable) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:67: warning: Member sig_specdata_updated (variable) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:68: warning: Member sig_next_diff_loop (variable) of class spectrum::SpectrumLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:74: warning: argument 'dict' of command @param is not found in the argument list of spectrum.SpectrumLogic::__init__(self, kwargs)
-/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:74: warning: The following parameters of spectrum.SpectrumLogic.__init__(self, kwargs) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:51: warning: Member fitlogic (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:66: warning: Member fc (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:69: warning: Member sig_specdata_updated (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:70: warning: Member sig_next_diff_loop (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:73: warning: Member spectrum_fit_updated_Signal (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:74: warning: Member fit_domain_updated_Signal (variable) of class spectrum::SpectrumLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:80: warning: argument 'dict' of command @param is not found in the argument list of spectrum.SpectrumLogic::__init__(self, kwargs)
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:80: warning: The following parameters of spectrum.SpectrumLogic.__init__(self, kwargs) are not documented:
   parameter 'kwargs'
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:285: warning: argument 'bool' of command @param is not found in the argument list of spectrum.SpectrumLogic::save_spectrum_data(self, background=False, name_tag='', custom_header=None)
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:285: warning: argument 'string' of command @param is not found in the argument list of spectrum.SpectrumLogic::save_spectrum_data(self, background=False, name_tag='', custom_header=None)
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:285: warning: argument 'OrderedDict' of command @param is not found in the argument list of spectrum.SpectrumLogic::save_spectrum_data(self, background=False, name_tag='', custom_header=None)
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:285: warning: The following parameters of spectrum.SpectrumLogic.save_spectrum_data(self, background=False, name_tag='', custom_header=None) are not documented:
+  parameter 'background'
+  parameter 'name_tag'
+  parameter 'custom_header'
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:457: warning: argument 'np.' of command @param is not found in the argument list of spectrum.SpectrumLogic::set_fit_domain(self, domain=None)
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:457: warning: argument 'array' of command @param is not found in the argument list of spectrum.SpectrumLogic::set_fit_domain(self, domain=None)
+/home/travis/build/Ulm-IQO/qudi/logic/spectrum.py:457: warning: The following parameters of spectrum.SpectrumLogic.set_fit_domain(self, domain=None) are not documented:
+  parameter 'domain'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:46: warning: Member item_dict (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:53: warning: Member norm_val (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/spinbox_delegate.py:57: warning: Member model_data_access (variable) of class spinbox_delegate::SpinBoxDelegate is not documented.
