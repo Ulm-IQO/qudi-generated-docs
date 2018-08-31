@@ -1888,10 +1888,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:84: warning: Member sigCtrlMode (variable) of class laser::LaserGUI is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:54: warning: Member __init__(self) (function) of class laser::LaserWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:42: warning: Member __init__(self, args, kwargs) (function) of class laser::TimeAxisItem is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:51: warning: Member stopRequest (variable) of class laser_logic::LaserLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:52: warning: Member bufferLength (variable) of class laser_logic::LaserLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:53: warning: Member data (variable) of class laser_logic::LaserLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:55: warning: Member queryInterval (variable) of class laser_logic::LaserLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:53: warning: Member stopRequest (variable) of class laser_logic::LaserLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:54: warning: Member bufferLength (variable) of class laser_logic::LaserLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:55: warning: Member data (variable) of class laser_logic::LaserLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:58: warning: Member queryTimer (variable) of class laser_logic::LaserLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:64: warning: Member laser_state (variable) of class laser_logic::LaserLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:65: warning: Member laser_shutter (variable) of class laser_logic::LaserLogic is not documented.
@@ -1908,8 +1907,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:104: warning: Member laser_power (variable) of class laser_logic::LaserLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:106: warning: Member laser_current (variable) of class laser_logic::LaserLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:108: warning: Member laser_temps (variable) of class laser_logic::LaserLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:43: warning: Member laser (variable) of class laser_logic::LaserLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:45: warning: Member sigUpdate (variable) of class laser_logic::LaserLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:44: warning: Member laser (variable) of class laser_logic::LaserLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:45: warning: Member queryInterval (variable) of class laser_logic::LaserLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/laser_logic.py:47: warning: Member sigUpdate (variable) of class laser_logic::LaserLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_scanner_logic.py:235: warning: Member set_scan_lines(self, scan_lines) (function) of class laser_scanner_logic::LaserScannerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_scanner_logic.py:86: warning: Member threadlock (variable) of class laser_scanner_logic::LaserScannerLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/laser_scanner_logic.py:87: warning: Member stopRequested (variable) of class laser_scanner_logic::LaserScannerLogic is not documented.

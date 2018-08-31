@@ -72,7 +72,7 @@ $(function() {
 <h2>Installation on the setup machine</h2>
 <p>Now that you have explored the basic features of Qudi and are convinced to use it in you lab, you need to install Qudi on a machine that have access to the instruments.</p>
 <p>The basic installation is exactly the same as for the test machine.</p>
-<p>Once you have done this, you will need to configure Qudi to your requirements.</p>
+<p>Once you have done this, you will need to configure Qudi to your requirements. It is best to create a <code>config/local</code> directory to hold your site-specific config files. An <code>app_status</code> folder is created in the directory of the active config file, and this directory holds saved status variables that allow Qudi to restore to the previous state after shutdown. Some modules may have different values (number of channels, etc) for different config files, and so it is important to have a subdirectory for each config file.</p>
 <h4>Basic Configuration</h4>
 <p>The Qudi suite was originally built around a NI card controlled confocal fluorescence microscope experiments. For this reason, let's assume your setup is similar.</p>
 <p>For a detailed explanation on the config file, please refer to the dedicated article <a class="el" href="config-explanation.html">How to use and understand a config file</a></p>
@@ -84,7 +84,7 @@ $(function() {
 <p>For now, the <code>hardware/national_instruments_x_series</code> file used with a NI Card is the main hardware module and a lot the Qudi code is build around it. In future versions, the separation between hardware and logic should be refined.</p>
 <p>For now, you can refer to [National Instrument X Series Hardware] to understand how to configure this hardware module.</p>
 <h2>Other modules</h2>
-<p>Qudi now have a lot of other modules and capabilities. We won't go through all of them here, we're just going to cite some of them. To find out about all of them, you will need to go through the documentation and might need to dive into the Python code.</p><ul>
+<p>Qudi now has a lot of other modules and capabilities. We won't go through all of them here, we're just going to cite some of them. To find out about all of them, you will need to go through the documentation and might need to dive into the Python code.</p><ul>
 <li>[ODMR] (Continous wave, sweep or list)</li>
 <li>[Microwave pulse generator]</li>
 <li>[Spectroscoy]</li>
