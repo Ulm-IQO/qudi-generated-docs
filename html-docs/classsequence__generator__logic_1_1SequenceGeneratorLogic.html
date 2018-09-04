@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>unstable Nikolas Tomek This is the Logic class for the pulse (sequence) generation.  
+<p>This is the Logic class for the pulse (sequence) generation.  
  <a href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for sequence_generator_logic.SequenceGeneratorLogic:</div>
@@ -102,119 +102,124 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a387f6e0fe41f263cbb98cd14cf34b0a3">on_deactivate</a> (self)</td></tr>
 <tr class="memdesc:a387f6e0fe41f263cbb98cd14cf34b0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisation performed during deactivation of the module. <br /></td></tr>
 <tr class="separator:a387f6e0fe41f263cbb98cd14cf34b0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad7f784e314a62c8c70b1dfb80a5d6e9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#aad7f784e314a62c8c70b1dfb80a5d6e9">request_init_values</a> (self)</td></tr>
-<tr class="separator:aad7f784e314a62c8c70b1dfb80a5d6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dce42c40046e9818bbffdf36982bbf2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a7dce42c40046e9818bbffdf36982bbf2">set_settings</a> (self, activation_config, laser_channel, sample_rate, amplitude_dict, waveform_format)</td></tr>
-<tr class="memdesc:a7dce42c40046e9818bbffdf36982bbf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all settings for the generator logic.  <a href="#a7dce42c40046e9818bbffdf36982bbf2">More...</a><br /></td></tr>
-<tr class="separator:a7dce42c40046e9818bbffdf36982bbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d4d50aee193403c9ba6a8fd5d59a03c"><td class="memItemLeft" align="right" valign="top"><a id="a6d4d50aee193403c9ba6a8fd5d59a03c"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>get_saved_asset</b> (self, name)</td></tr>
-<tr class="separator:a6d4d50aee193403c9ba6a8fd5d59a03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ce1df07630a8b9e8b6ac1f5a2583dac"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a0ce1df07630a8b9e8b6ac1f5a2583dac">save_block</a> (self, name, block)</td></tr>
-<tr class="memdesc:a0ce1df07630a8b9e8b6ac1f5a2583dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a PulseBlock object to a *.blk file.  <a href="#a0ce1df07630a8b9e8b6ac1f5a2583dac">More...</a><br /></td></tr>
-<tr class="separator:a0ce1df07630a8b9e8b6ac1f5a2583dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a787a263a892252f0109f4214a8ade9f3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a787a263a892252f0109f4214a8ade9f3">load_block</a> (self, name)</td></tr>
-<tr class="separator:a787a263a892252f0109f4214a8ade9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfec5e8df74387f3f489275f8dd69f95"><td class="memItemLeft" align="right" valign="top"><a id="adfec5e8df74387f3f489275f8dd69f95"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#adfec5e8df74387f3f489275f8dd69f95">pulse_generator_settings</a> (self)</td></tr>
+<tr class="memdesc:adfec5e8df74387f3f489275f8dd69f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pulse generator control methods and properties. <br /></td></tr>
+<tr class="separator:adfec5e8df74387f3f489275f8dd69f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab89ad19131a7fcfa6e292e2307c7b121"><td class="memItemLeft" align="right" valign="top"><a id="ab89ad19131a7fcfa6e292e2307c7b121"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>pulse_generator_settings</b> (self, settings_dict)</td></tr>
+<tr class="separator:ab89ad19131a7fcfa6e292e2307c7b121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e72c4d32ed04f87e595356c5d00492"><td class="memItemLeft" align="right" valign="top"><a id="ab2e72c4d32ed04f87e595356c5d00492"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>pulse_generator_constraints</b> (self)</td></tr>
+<tr class="separator:ab2e72c4d32ed04f87e595356c5d00492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624a0f51a80d92f3ac12010f04246ee0"><td class="memItemLeft" align="right" valign="top"><a id="a624a0f51a80d92f3ac12010f04246ee0"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>sampled_waveforms</b> (self)</td></tr>
+<tr class="separator:a624a0f51a80d92f3ac12010f04246ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3aeaa10191db6af7b1ea89600d0ba8"><td class="memItemLeft" align="right" valign="top"><a id="a0c3aeaa10191db6af7b1ea89600d0ba8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>sampled_sequences</b> (self)</td></tr>
+<tr class="separator:a0c3aeaa10191db6af7b1ea89600d0ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9f4251c749922f7bcf814fbe79b1ef"><td class="memItemLeft" align="right" valign="top"><a id="a4b9f4251c749922f7bcf814fbe79b1ef"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>analog_channels</b> (self)</td></tr>
+<tr class="separator:a4b9f4251c749922f7bcf814fbe79b1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe627cad1de1579aea4f87839d605f26"><td class="memItemLeft" align="right" valign="top"><a id="abe627cad1de1579aea4f87839d605f26"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>digital_channels</b> (self)</td></tr>
+<tr class="separator:abe627cad1de1579aea4f87839d605f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34af38d7722510898e0d87255a248b68"><td class="memItemLeft" align="right" valign="top"><a id="a34af38d7722510898e0d87255a248b68"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>loaded_asset</b> (self)</td></tr>
+<tr class="separator:a34af38d7722510898e0d87255a248b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8aed864c89fc1e1ac91e4e13ce9f641"><td class="memItemLeft" align="right" valign="top"><a id="aa8aed864c89fc1e1ac91e4e13ce9f641"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_pulse_generator_settings</b> (self, settings_dict=None, kwargs)</td></tr>
+<tr class="separator:aa8aed864c89fc1e1ac91e4e13ce9f641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd8e1560eb7a8c6b8e5d9430eee3dc4"><td class="memItemLeft" align="right" valign="top"><a id="a0dd8e1560eb7a8c6b8e5d9430eee3dc4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>clear_pulser</b> (self)</td></tr>
+<tr class="separator:a0dd8e1560eb7a8c6b8e5d9430eee3dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b14b714d1dea801ebb4c1f5b6d6ca6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a62b14b714d1dea801ebb4c1f5b6d6ca6">load_ensemble</a> (self, ensemble)</td></tr>
+<tr class="separator:a62b14b714d1dea801ebb4c1f5b6d6ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1d481cf666ba4168f205dc0ac0b6b0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a0e1d481cf666ba4168f205dc0ac0b6b0">load_sequence</a> (self, sequence)</td></tr>
+<tr class="separator:a0e1d481cf666ba4168f205dc0ac0b6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac258610e7d733b05d7f46526933077a8"><td class="memItemLeft" align="right" valign="top"><a id="ac258610e7d733b05d7f46526933077a8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#ac258610e7d733b05d7f46526933077a8">generate_methods</a> (self)</td></tr>
+<tr class="memdesc:ac258610e7d733b05d7f46526933077a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waveform/Sequence generation control methods and properties. <br /></td></tr>
+<tr class="separator:ac258610e7d733b05d7f46526933077a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f56a26d25ea02bf46322a96f04917c4"><td class="memItemLeft" align="right" valign="top"><a id="a6f56a26d25ea02bf46322a96f04917c4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>generate_method_params</b> (self)</td></tr>
+<tr class="separator:a6f56a26d25ea02bf46322a96f04917c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7bf4443e2c8a01616cc08943cf81bb"><td class="memItemLeft" align="right" valign="top"><a id="a2d7bf4443e2c8a01616cc08943cf81bb"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>generation_parameters</b> (self)</td></tr>
+<tr class="separator:a2d7bf4443e2c8a01616cc08943cf81bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c12d4a4ee6460702d1c29b8cddff7f5"><td class="memItemLeft" align="right" valign="top"><a id="a0c12d4a4ee6460702d1c29b8cddff7f5"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>generation_parameters</b> (self, settings_dict)</td></tr>
+<tr class="separator:a0c12d4a4ee6460702d1c29b8cddff7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb7169357ea3d863cd45ac939a9b219"><td class="memItemLeft" align="right" valign="top"><a id="a8fb7169357ea3d863cd45ac939a9b219"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>saved_pulse_blocks</b> (self)</td></tr>
+<tr class="separator:a8fb7169357ea3d863cd45ac939a9b219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7244ca185c5bf637ac9461b6d7c89094"><td class="memItemLeft" align="right" valign="top"><a id="a7244ca185c5bf637ac9461b6d7c89094"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>saved_pulse_block_ensembles</b> (self)</td></tr>
+<tr class="separator:a7244ca185c5bf637ac9461b6d7c89094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a55692cb7d642976a597ea5bf477af8"><td class="memItemLeft" align="right" valign="top"><a id="a1a55692cb7d642976a597ea5bf477af8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>saved_pulse_sequences</b> (self)</td></tr>
+<tr class="separator:a1a55692cb7d642976a597ea5bf477af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e9067c7262e22df6fa9d197f0ce81b"><td class="memItemLeft" align="right" valign="top"><a id="a68e9067c7262e22df6fa9d197f0ce81b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_generation_parameters</b> (self, settings_dict=None, kwargs)</td></tr>
+<tr class="separator:a68e9067c7262e22df6fa9d197f0ce81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15840bda47925e263fc9c378763bb54d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a15840bda47925e263fc9c378763bb54d">save_block</a> (self, block)</td></tr>
+<tr class="memdesc:a15840bda47925e263fc9c378763bb54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a PulseBlock instance.  <a href="#a15840bda47925e263fc9c378763bb54d">More...</a><br /></td></tr>
+<tr class="separator:a15840bda47925e263fc9c378763bb54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c29e2ca32110288750e9db820aea58"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a54c29e2ca32110288750e9db820aea58">get_block</a> (self, name)</td></tr>
+<tr class="separator:a54c29e2ca32110288750e9db820aea58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ceaa795b528bc48389d02325974f152"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a1ceaa795b528bc48389d02325974f152">delete_block</a> (self, name)</td></tr>
 <tr class="memdesc:a1ceaa795b528bc48389d02325974f152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the serialized object "name" from the block list and HDD.  <a href="#a1ceaa795b528bc48389d02325974f152">More...</a><br /></td></tr>
 <tr class="separator:a1ceaa795b528bc48389d02325974f152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebee8384fdd388019cf98e2256d1efad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#aebee8384fdd388019cf98e2256d1efad">save_ensemble</a> (self, name, ensemble)</td></tr>
-<tr class="memdesc:aebee8384fdd388019cf98e2256d1efad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a PulseBlockEnsemble with name name to file.  <a href="#aebee8384fdd388019cf98e2256d1efad">More...</a><br /></td></tr>
-<tr class="separator:aebee8384fdd388019cf98e2256d1efad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89958fac62ccf40a5e48f479f058a82c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a89958fac62ccf40a5e48f479f058a82c">load_ensemble</a> (self, name)</td></tr>
-<tr class="separator:a89958fac62ccf40a5e48f479f058a82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a827e69bdcc8f990ab3cc04411513dfe3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a827e69bdcc8f990ab3cc04411513dfe3">delete_ensemble</a> (self, name)</td></tr>
-<tr class="memdesc:a827e69bdcc8f990ab3cc04411513dfe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the ensemble with 'name' from the ensemble list and HDD.  <a href="#a827e69bdcc8f990ab3cc04411513dfe3">More...</a><br /></td></tr>
+<tr class="memitem:a517d85d661244c0f42b9fa41df496981"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a517d85d661244c0f42b9fa41df496981">save_ensemble</a> (self, ensemble)</td></tr>
+<tr class="memdesc:a517d85d661244c0f42b9fa41df496981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a PulseBlockEnsemble instance.  <a href="#a517d85d661244c0f42b9fa41df496981">More...</a><br /></td></tr>
+<tr class="separator:a517d85d661244c0f42b9fa41df496981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7303053db986bc4811fcb350f5b8984d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a7303053db986bc4811fcb350f5b8984d">get_ensemble</a> (self, name)</td></tr>
+<tr class="separator:a7303053db986bc4811fcb350f5b8984d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827e69bdcc8f990ab3cc04411513dfe3"><td class="memItemLeft" align="right" valign="top"><a id="a827e69bdcc8f990ab3cc04411513dfe3"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>delete_ensemble</b> (self, name)</td></tr>
 <tr class="separator:a827e69bdcc8f990ab3cc04411513dfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91b0142f4206f3e1350e3dec594420b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#ab91b0142f4206f3e1350e3dec594420b">save_sequence</a> (self, name, sequence)</td></tr>
-<tr class="memdesc:ab91b0142f4206f3e1350e3dec594420b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the PulseSequence object with name 'name' to file.  <a href="#ab91b0142f4206f3e1350e3dec594420b">More...</a><br /></td></tr>
-<tr class="separator:ab91b0142f4206f3e1350e3dec594420b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c059381a167f0a72286e5247b205526"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a9c059381a167f0a72286e5247b205526">load_sequence</a> (self, name)</td></tr>
-<tr class="separator:a9c059381a167f0a72286e5247b205526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a8cc298b822ad182c845b6c34de582a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a4a8cc298b822ad182c845b6c34de582a">delete_sequence</a> (self, name)</td></tr>
-<tr class="memdesc:a4a8cc298b822ad182c845b6c34de582a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the sequence "name" from the sequence list and HDD.  <a href="#a4a8cc298b822ad182c845b6c34de582a">More...</a><br /></td></tr>
+<tr class="memitem:a873c05f1cb4af6d9b26090020c7ea1e5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a873c05f1cb4af6d9b26090020c7ea1e5">save_sequence</a> (self, sequence)</td></tr>
+<tr class="memdesc:a873c05f1cb4af6d9b26090020c7ea1e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a PulseSequence instance.  <a href="#a873c05f1cb4af6d9b26090020c7ea1e5">More...</a><br /></td></tr>
+<tr class="separator:a873c05f1cb4af6d9b26090020c7ea1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978dc2a3e6640ee2f221cd73ab5ffad6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a978dc2a3e6640ee2f221cd73ab5ffad6">get_sequence</a> (self, name)</td></tr>
+<tr class="separator:a978dc2a3e6640ee2f221cd73ab5ffad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8cc298b822ad182c845b6c34de582a"><td class="memItemLeft" align="right" valign="top"><a id="a4a8cc298b822ad182c845b6c34de582a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>delete_sequence</b> (self, name)</td></tr>
 <tr class="separator:a4a8cc298b822ad182c845b6c34de582a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5065c1d5fa7c96c0f13053da0bef9d6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#af5065c1d5fa7c96c0f13053da0bef9d6">generate_predefined_sequence</a> (self, predefined_sequence_name, kwargs_dict)</td></tr>
 <tr class="separator:af5065c1d5fa7c96c0f13053da0bef9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8631e12827cd332c5d67acec8b786a47"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a8631e12827cd332c5d67acec8b786a47">sample_pulse_block_ensemble</a> (self, ensemble_name, write_to_file=True, offset_bin=0, name_tag=None)</td></tr>
-<tr class="memdesc:a8631e12827cd332c5d67acec8b786a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">General sampling of a PulseBlockEnsemble object, which serves as the construction plan.  <a href="#a8631e12827cd332c5d67acec8b786a47">More...</a><br /></td></tr>
-<tr class="separator:a8631e12827cd332c5d67acec8b786a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f20737fdac3c62831e8ab6a68ba955c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a6f20737fdac3c62831e8ab6a68ba955c">sample_pulse_sequence</a> (self, sequence_name, write_to_file=True)</td></tr>
-<tr class="memdesc:a6f20737fdac3c62831e8ab6a68ba955c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Samples the PulseSequence object, which serves as the construction plan.  <a href="#a6f20737fdac3c62831e8ab6a68ba955c">More...</a><br /></td></tr>
-<tr class="separator:a6f20737fdac3c62831e8ab6a68ba955c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0deed10e86b7ecb835ff7004648a9a97"><td class="memItemLeft" align="right" valign="top"><a id="a0deed10e86b7ecb835ff7004648a9a97"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_ensemble_info</b> (self, ensemble)</td></tr>
+<tr class="separator:a0deed10e86b7ecb835ff7004648a9a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a456cf9cdd6f6cdb7d5591f7c31cb220f"><td class="memItemLeft" align="right" valign="top"><a id="a456cf9cdd6f6cdb7d5591f7c31cb220f"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_sequence_info</b> (self, sequence)</td></tr>
+<tr class="separator:a456cf9cdd6f6cdb7d5591f7c31cb220f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00aa5f60f1f3da031da9ba8c665b369c"><td class="memItemLeft" align="right" valign="top"><a id="a00aa5f60f1f3da031da9ba8c665b369c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>analyze_block_ensemble</b> (self, ensemble)</td></tr>
+<tr class="separator:a00aa5f60f1f3da031da9ba8c665b369c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ba5032d0a4e34b873e51bcd224d33d"><td class="memItemLeft" align="right" valign="top"><a id="a88ba5032d0a4e34b873e51bcd224d33d"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>analyze_sequence</b> (self, sequence)</td></tr>
+<tr class="separator:a88ba5032d0a4e34b873e51bcd224d33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791f13f2efe57e6c30881da938080349"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a791f13f2efe57e6c30881da938080349">sample_pulse_block_ensemble</a> (self, ensemble, offset_bin=0, name_tag=None)</td></tr>
+<tr class="memdesc:a791f13f2efe57e6c30881da938080349"><td class="mdescLeft">&#160;</td><td class="mdescRight">General sampling of a PulseBlockEnsemble object, which serves as the construction plan.  <a href="#a791f13f2efe57e6c30881da938080349">More...</a><br /></td></tr>
+<tr class="separator:a791f13f2efe57e6c30881da938080349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b5e5001cab17dfadbc74ca2b2e264a0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsequence__generator__logic_1_1SequenceGeneratorLogic.html#a4b5e5001cab17dfadbc74ca2b2e264a0">sample_pulse_sequence</a> (self, sequence)</td></tr>
+<tr class="memdesc:a4b5e5001cab17dfadbc74ca2b2e264a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Samples the PulseSequence object, which serves as the construction plan.  <a href="#a4b5e5001cab17dfadbc74ca2b2e264a0">More...</a><br /></td></tr>
+<tr class="separator:a4b5e5001cab17dfadbc74ca2b2e264a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a314238c81915a7ebc09e5896efc00ede"><td class="memItemLeft" align="right" valign="top"><a id="a314238c81915a7ebc09e5896efc00ede"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_block</b></td></tr>
-<tr class="separator:a314238c81915a7ebc09e5896efc00ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e2150e6313452282071b11fe13fd74"><td class="memItemLeft" align="right" valign="top"><a id="a38e2150e6313452282071b11fe13fd74"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_ensemble</b></td></tr>
-<tr class="separator:a38e2150e6313452282071b11fe13fd74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332017abfb71b5c6367586a1f98c0a70"><td class="memItemLeft" align="right" valign="top"><a id="a332017abfb71b5c6367586a1f98c0a70"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_sequence</b></td></tr>
-<tr class="separator:a332017abfb71b5c6367586a1f98c0a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010194453fd8a77a6c775ba84f2ee26d"><td class="memItemLeft" align="right" valign="top"><a id="a010194453fd8a77a6c775ba84f2ee26d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>saved_pulse_blocks</b></td></tr>
-<tr class="separator:a010194453fd8a77a6c775ba84f2ee26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a512627f9107e1bf68ddcb2a955266470"><td class="memItemLeft" align="right" valign="top"><a id="a512627f9107e1bf68ddcb2a955266470"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>saved_pulse_block_ensembles</b></td></tr>
-<tr class="separator:a512627f9107e1bf68ddcb2a955266470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9509e69f96f143ca19418c9799329a64"><td class="memItemLeft" align="right" valign="top"><a id="a9509e69f96f143ca19418c9799329a64"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>saved_pulse_sequences</b></td></tr>
-<tr class="separator:a9509e69f96f143ca19418c9799329a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dce2a3ab55782b6906c9100b2e0e645"><td class="memItemLeft" align="right" valign="top"><a id="a5dce2a3ab55782b6906c9100b2e0e645"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>pulsed_file_dir</b></td></tr>
-<tr class="separator:a5dce2a3ab55782b6906c9100b2e0e645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a897e606dcb39f0883edad8d5c3f6c4b3"><td class="memItemLeft" align="right" valign="top"><a id="a897e606dcb39f0883edad8d5c3f6c4b3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sampling_overhead_bytes</b></td></tr>
-<tr class="separator:a897e606dcb39f0883edad8d5c3f6c4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ad6cc1d579ed1c1cf2b21e6880b79a0"><td class="memItemLeft" align="right" valign="top"><a id="a7ad6cc1d579ed1c1cf2b21e6880b79a0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>additional_methods_dir</b></td></tr>
-<tr class="separator:a7ad6cc1d579ed1c1cf2b21e6880b79a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3ba443a68ae6f8861801dc8498e9c9"><td class="memItemLeft" align="right" valign="top"><a id="a1c3ba443a68ae6f8861801dc8498e9c9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>block_dir</b></td></tr>
-<tr class="separator:a1c3ba443a68ae6f8861801dc8498e9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37a211f031e583b063965e5d5d22274c"><td class="memItemLeft" align="right" valign="top"><a id="a37a211f031e583b063965e5d5d22274c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ensemble_dir</b></td></tr>
-<tr class="separator:a37a211f031e583b063965e5d5d22274c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1e049ab29ba7dd1358ef9e59f8276bb"><td class="memItemLeft" align="right" valign="top"><a id="ae1e049ab29ba7dd1358ef9e59f8276bb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sequence_dir</b></td></tr>
-<tr class="separator:ae1e049ab29ba7dd1358ef9e59f8276bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba0b4858150d717b52539253a617ba75"><td class="memItemLeft" align="right" valign="top"><a id="aba0b4858150d717b52539253a617ba75"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>waveform_dir</b></td></tr>
-<tr class="separator:aba0b4858150d717b52539253a617ba75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e23359de38ea67f839d06b4a77b0a91"><td class="memItemLeft" align="right" valign="top"><a id="a6e23359de38ea67f839d06b4a77b0a91"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>temp_dir</b></td></tr>
-<tr class="separator:a6e23359de38ea67f839d06b4a77b0a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a142d8c265d0c101108316210db458f50"><td class="memItemLeft" align="right" valign="top"><a id="a142d8c265d0c101108316210db458f50"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>analog_channels</b></td></tr>
-<tr class="separator:a142d8c265d0c101108316210db458f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a815ffe577cccf85e71bf5e214a7e088e"><td class="memItemLeft" align="right" valign="top"><a id="a815ffe577cccf85e71bf5e214a7e088e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>digital_channels</b></td></tr>
-<tr class="separator:a815ffe577cccf85e71bf5e214a7e088e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab09de3fc951341ac4396371d10f05da8"><td class="memItemLeft" align="right" valign="top"><a id="ab09de3fc951341ac4396371d10f05da8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sequence_format</b></td></tr>
-<tr class="separator:ab09de3fc951341ac4396371d10f05da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a44002281ebd3033c237f431bc19318"><td class="memItemLeft" align="right" valign="top"><a id="a1a44002281ebd3033c237f431bc19318"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>generate_methods</b></td></tr>
-<tr class="separator:a1a44002281ebd3033c237f431bc19318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1b397b7f5e51a609042cedf09a3e33"><td class="memItemLeft" align="right" valign="top"><a id="a6a1b397b7f5e51a609042cedf09a3e33"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>generation_parameters</b></td></tr>
+<tr class="separator:a6a1b397b7f5e51a609042cedf09a3e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa7b8ddef1ea43d05598eacaf8e14f2ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>activation_config</b></td></tr>
-<tr class="separator:aa7b8ddef1ea43d05598eacaf8e14f2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5cd0e37f99e1bc5ad78b78a283ff9ca"><td class="memItemLeft" align="right" valign="top"><a id="af5cd0e37f99e1bc5ad78b78a283ff9ca"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>laser_channel</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>('laser_channel', 'd_ch1')</td></tr>
-<tr class="separator:af5cd0e37f99e1bc5ad78b78a283ff9ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a16d88c02b22f8c0e949347f36f01aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>amplitude_dict</b></td></tr>
-<tr class="separator:a3a16d88c02b22f8c0e949347f36f01aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c1035d9fa21f6fd9c0556c327a61960"><td class="memItemLeft" align="right" valign="top"><a id="a5c1035d9fa21f6fd9c0556c327a61960"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sample_rate</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>('sample_rate', 25e9)</td></tr>
-<tr class="separator:a5c1035d9fa21f6fd9c0556c327a61960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a665a56a635249bcfacc483f35773cc8b"><td class="memItemLeft" align="right" valign="top"><a id="a665a56a635249bcfacc483f35773cc8b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>waveform_format</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>('waveform_format', None)</td></tr>
-<tr class="separator:a665a56a635249bcfacc483f35773cc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b70a0936832dd043eba7fa8a2cea38e"><td class="memItemLeft" align="right" valign="top"><a id="a6b70a0936832dd043eba7fa8a2cea38e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>pulsegenerator</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='PulserInterface')</td></tr>
+<tr class="separator:a6b70a0936832dd043eba7fa8a2cea38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad6cc1d579ed1c1cf2b21e6880b79a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>additional_methods_dir</b></td></tr>
+<tr class="separator:a7ad6cc1d579ed1c1cf2b21e6880b79a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a417a7b7f696455b16d8f3c8e9f4238c7"><td class="memItemLeft" align="right" valign="top"><a id="a417a7b7f696455b16d8f3c8e9f4238c7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigBlockDictUpdated</b> = QtCore.Signal(dict)</td></tr>
 <tr class="separator:a417a7b7f696455b16d8f3c8e9f4238c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,35 +230,34 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigSequenceDictUpdated</b> = QtCore.Signal(dict)</td></tr>
 <tr class="separator:ab73b382a751a14f641884b07b0474ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e324094e98b90d6796fcb206a60529"><td class="memItemLeft" align="right" valign="top"><a id="ac1e324094e98b90d6796fcb206a60529"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigSampleEnsembleComplete</b> = QtCore.Signal(str, np.ndarray, np.ndarray)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigSampleEnsembleComplete</b> = QtCore.Signal(object)</td></tr>
 <tr class="separator:ac1e324094e98b90d6796fcb206a60529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f1ba7890dbffd54fe6f41e192d25df4"><td class="memItemLeft" align="right" valign="top"><a id="a3f1ba7890dbffd54fe6f41e192d25df4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigSampleSequenceComplete</b> = QtCore.Signal(str, list)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigSampleSequenceComplete</b> = QtCore.Signal(object)</td></tr>
 <tr class="separator:a3f1ba7890dbffd54fe6f41e192d25df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61acb36bb2172ef3f70da58d727b9296"><td class="memItemLeft" align="right" valign="top"><a id="a61acb36bb2172ef3f70da58d727b9296"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigCurrentBlockUpdated</b> = QtCore.Signal(object)</td></tr>
-<tr class="separator:a61acb36bb2172ef3f70da58d727b9296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f7ccbf15980f1979a6c6e8b8e93988"><td class="memItemLeft" align="right" valign="top"><a id="a91f7ccbf15980f1979a6c6e8b8e93988"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigCurrentEnsembleUpdated</b> = QtCore.Signal(object)</td></tr>
-<tr class="separator:a91f7ccbf15980f1979a6c6e8b8e93988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f3bc8f858473cdbb5c9df6a4925d18"><td class="memItemLeft" align="right" valign="top"><a id="a51f3bc8f858473cdbb5c9df6a4925d18"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigCurrentSequenceUpdated</b> = QtCore.Signal(object)</td></tr>
-<tr class="separator:a51f3bc8f858473cdbb5c9df6a4925d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d4190e81e9d55b144137521b27851fc"><td class="memItemLeft" align="right" valign="top"><a id="a8d4190e81e9d55b144137521b27851fc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigSettingsUpdated</b> = QtCore.Signal(list, str, float, dict, str)</td></tr>
-<tr class="separator:a8d4190e81e9d55b144137521b27851fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db31d099270b21d7a4ca22cc6c6683e"><td class="memItemLeft" align="right" valign="top"><a id="a8db31d099270b21d7a4ca22cc6c6683e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigPredefinedSequencesUpdated</b> = QtCore.Signal(dict)</td></tr>
-<tr class="separator:a8db31d099270b21d7a4ca22cc6c6683e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b5a9587905d2b74f8ecc30a065efb8"><td class="memItemLeft" align="right" valign="top"><a id="a94b5a9587905d2b74f8ecc30a065efb8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigLoadedAssetUpdated</b> = QtCore.Signal(str, str)</td></tr>
+<tr class="separator:a94b5a9587905d2b74f8ecc30a065efb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd74989d1d04065b3dd2f1a66aaa2a6"><td class="memItemLeft" align="right" valign="top"><a id="a1fd74989d1d04065b3dd2f1a66aaa2a6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigGeneratorSettingsUpdated</b> = QtCore.Signal(dict)</td></tr>
+<tr class="separator:a1fd74989d1d04065b3dd2f1a66aaa2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189a0708a5cdaae680664b2c9f8f83c2"><td class="memItemLeft" align="right" valign="top"><a id="a189a0708a5cdaae680664b2c9f8f83c2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigSamplingSettingsUpdated</b> = QtCore.Signal(dict)</td></tr>
+<tr class="separator:a189a0708a5cdaae680664b2c9f8f83c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e61c68bd6e75c6eadd322eec9c192e"><td class="memItemLeft" align="right" valign="top"><a id="a68e61c68bd6e75c6eadd322eec9c192e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAvailableWaveformsUpdated</b> = QtCore.Signal(list)</td></tr>
+<tr class="separator:a68e61c68bd6e75c6eadd322eec9c192e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2db9f489c26687a7f063c9d3030e07"><td class="memItemLeft" align="right" valign="top"><a id="a0a2db9f489c26687a7f063c9d3030e07"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigAvailableSequencesUpdated</b> = QtCore.Signal(list)</td></tr>
+<tr class="separator:a0a2db9f489c26687a7f063c9d3030e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53301e63913a152566ae96f9e581d08"><td class="memItemLeft" align="right" valign="top"><a id="ab53301e63913a152566ae96f9e581d08"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigPredefinedSequenceGenerated</b> = QtCore.Signal(str)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigPredefinedSequenceGenerated</b> = QtCore.Signal(object)</td></tr>
 <tr class="separator:ab53301e63913a152566ae96f9e581d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>unstable Nikolas Tomek This is the Logic class for the pulse (sequence) generation. </p>
-<p>The basis communication with the GUI should be done as follows: The logic holds all the created objects in its internal lists. The GUI is able to view this list and get the element of this list.</p>
-<p>How the logic will contruct its objects according to configuration dicts. The configuration dicts contain essentially, which parameters of either the PulseBlockElement objects or the PulseBlock objects can be changed and set via the GUI.</p>
-<p>In the end the information transfer happend through lists (read by the GUI) and dicts (set by the GUI). The logic sets(creats) the objects in the list and read the dict, which tell it which parameters to expect from the GUI. </p>
+<div class="textblock"><p>This is the Logic class for the pulse (sequence) generation. </p>
+<p>It is responsible for creating the theoretical (ideal) contruction plan for a pulse sequence or waveform (digital and/or analog) by creating PulseBlockElements, PulseBlocks, PulseBlockEnsembles and PulseSequences. Based on these objects the logic can sample waveforms according to the underlying hardware constraints (especially the sample rate) and upload these samples to the connected pulse generator hardware.</p>
+<p>This logic is also responsible to manipulate and read back hardware settings for waveform/sequence playback (pp-amplitude, sample rate, active channels etc.). </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1ceaa795b528bc48389d02325974f152"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ceaa795b528bc48389d02325974f152">&#9670;&nbsp;</a></span>delete_block()</h2>
@@ -285,72 +289,6 @@ Static Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>string, name of the PulseBlock object to be removed. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a827e69bdcc8f990ab3cc04411513dfe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a827e69bdcc8f990ab3cc04411513dfe3">&#9670;&nbsp;</a></span>delete_ensemble()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.delete_ensemble </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove the ensemble with 'name' from the ensemble list and HDD. </p>
-
-</div>
-</div>
-<a id="a4a8cc298b822ad182c845b6c34de582a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a8cc298b822ad182c845b6c34de582a">&#9670;&nbsp;</a></span>delete_sequence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.delete_sequence </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove the sequence "name" from the sequence list and HDD. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>name: name of the sequence object, which should be deleted. </td></tr>
   </table>
   </dd>
 </dl>
@@ -399,14 +337,49 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a787a263a892252f0109f4214a8ade9f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a787a263a892252f0109f4214a8ade9f3">&#9670;&nbsp;</a></span>load_block()</h2>
+<a id="a54c29e2ca32110288750e9db820aea58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54c29e2ca32110288750e9db820aea58">&#9670;&nbsp;</a></span>get_block()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.load_block </td>
+          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.get_block </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>name: </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>PulseBlock: </dd></dl>
+
+</div>
+</div>
+<a id="a7303053db986bc4811fcb350f5b8984d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7303053db986bc4811fcb350f5b8984d">&#9670;&nbsp;</a></span>get_ensemble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.get_ensemble </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -434,8 +407,43 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a89958fac62ccf40a5e48f479f058a82c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89958fac62ccf40a5e48f479f058a82c">&#9670;&nbsp;</a></span>load_ensemble()</h2>
+<a id="a978dc2a3e6640ee2f221cd73ab5ffad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978dc2a3e6640ee2f221cd73ab5ffad6">&#9670;&nbsp;</a></span>get_sequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.get_sequence </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+
+</div>
+</div>
+<a id="a62b14b714d1dea801ebb4c1f5b6d6ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62b14b714d1dea801ebb4c1f5b6d6ca6">&#9670;&nbsp;</a></span>load_ensemble()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -450,7 +458,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
+          <td class="paramname"><em>ensemble</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -461,16 +469,15 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td></td></tr>
+    <tr><td class="paramname">str|PulseBlockEnsemble</td><td>ensemble: </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
 </div>
 </div>
-<a id="a9c059381a167f0a72286e5247b205526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c059381a167f0a72286e5247b205526">&#9670;&nbsp;</a></span>load_sequence()</h2>
+<a id="a0e1d481cf666ba4168f205dc0ac0b6b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1d481cf666ba4168f205dc0ac0b6b0">&#9670;&nbsp;</a></span>load_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,7 +492,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
+          <td class="paramname"><em>sequence</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -496,35 +503,15 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td></td></tr>
+    <tr><td class="paramname">str|PulseSequence</td><td>sequence: </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
 
 </div>
 </div>
-<a id="aad7f784e314a62c8c70b1dfb80a5d6e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad7f784e314a62c8c70b1dfb80a5d6e9">&#9670;&nbsp;</a></span>request_init_values()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.request_init_values </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
-
-</div>
-</div>
-<a id="a8631e12827cd332c5d67acec8b786a47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8631e12827cd332c5d67acec8b786a47">&#9670;&nbsp;</a></span>sample_pulse_block_ensemble()</h2>
+<a id="a791f13f2efe57e6c30881da938080349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791f13f2efe57e6c30881da938080349">&#9670;&nbsp;</a></span>sample_pulse_block_ensemble()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,13 +526,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ensemble_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>write_to_file</em> = <code>True</code>, </td>
+          <td class="paramname"><em>ensemble</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -570,23 +551,22 @@ Static Public Attributes</h2></td></tr>
 <p>General sampling of a PulseBlockEnsemble object, which serves as the construction plan. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>ensemble_name: Name, which should correlate with the name of on of the displayed ensembles. </td></tr>
-    <tr><td class="paramname">bool</td><td>write_to_file: Write either to RAM or to File (depends on the available space in RAM). If set to FALSE, this method will return the samples (digital and analog) as numpy arrays </td></tr>
+    <tr><td class="paramname">str|PulseBlockEnsemble</td><td>ensemble: PulseBlockEnsemble instance or name of a saved PulseBlockEnsemble to sample </td></tr>
     <tr><td class="paramname">int</td><td>offset_bin: If many pulse ensembles are samples sequentially, then the offset_bin of the previous sampling can be passed to maintain rotating frame across pulse_block_ensembles </td></tr>
     <tr><td class="paramname">str</td><td>name_tag: a name tag, which is used to keep the sampled files together, which where sampled from the same PulseBlockEnsemble object but where different offset_bins were used.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>tuple: of length 4 with (analog_samples, digital_samples, [&lt;created_files&gt;], offset_bin). analog_samples: numpy arrays containing the sampled voltages digital_samples: numpy arrays containing the sampled logic levels [&lt;created_files&gt;]: list of strings, with the actual created files through the pulsing device offset_bin: integer, which is used for maintaining the rotation frame.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>tuple: of length 3 with (offset_bin, created_waveforms, ensemble_info). offset_bin: integer, which is used for maintaining the rotation frame created_waveforms: list, a list of created waveform names ensemble_info: dict, information about the ensemble returned by analyze_block_ensemble</dd></dl>
 <p>This method is creating the actual samples (voltages and logic states) for each time step of the analog and digital channels specified in the PulseBlockEnsemble. Therefore it iterates through all blocks, repetitions and elements of the ensemble and calculates the exact voltages (float64) according to the specified math_function. The samples are later on stored inside a float32 array. So each element is calculated with high precision (float64) and then down-converted to float32 to be stored.</p>
 <p>To preserve the rotating frame, an offset counter is used to indicate the absolute time within the ensemble. All calculations are done with time bins (dtype=int) to avoid rounding errors. Only in the last step when a single PulseBlockElement object is sampled these integer bin values are translated into a floating point time.</p>
-<p>The chunkwise write mode is used to save memory usage at the expense of time. Here for each PulseBlockElement the write_to_file method in the HW module is called to avoid large arrays inside the memory. In other words: The whole sample arrays are never created at any time. This results in more function calls and general overhead causing the much longer time to complete.</p>
-<p>In addition the pulse_block_ensemble gets analyzed and important parameters used during sampling get stored in the ensemble object itself. Those attributes are: &lt;ensemble&gt;.length_bins &lt;ensemble&gt;.length_elements_bins &lt;ensemble&gt;.number_of_elements &lt;ensemble&gt;.digital_rising_bins &lt;ensemble&gt;.sample_rate &lt;ensemble&gt;.activation_config &lt;ensemble&gt;.amplitude_dict </p>
+<p>The chunkwise write mode is used to save memory usage at the expense of time. In other words: The whole sample arrays are never created at any time. This results in more function calls and general overhead causing much longer time to complete.</p>
+<p>In addition the pulse_block_ensemble gets analyzed and important parameters used during sampling get stored in the ensemble object "sampling_information" attribute. It is a dictionary containing: TODO Add parameters that are stored </p>
 
 </div>
 </div>
-<a id="a6f20737fdac3c62831e8ab6a68ba955c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f20737fdac3c62831e8ab6a68ba955c">&#9670;&nbsp;</a></span>sample_pulse_sequence()</h2>
+<a id="a4b5e5001cab17dfadbc74ca2b2e264a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b5e5001cab17dfadbc74ca2b2e264a0">&#9670;&nbsp;</a></span>sample_pulse_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,145 +576,6 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sequence_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>write_to_file</em> = <code>True</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Samples the PulseSequence object, which serves as the construction plan. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>ensemble_name: Name, which should correlate with the name of on of the displayed ensembles. </td></tr>
-    <tr><td class="paramname">bool</td><td>write_to_file: Write either to RAM or to File (depends on the available space in RAM). If set to FALSE, this method will return the samples (digital and analog) as numpy arrays</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>The sequence object is sampled by call subsequently the sampling routine for the PulseBlockEnsemble objects and passing if needed the rotating frame option.</p>
-<p>Only those PulseBlockEnsemble object where sampled that are different! These can be directly obtained from the internal attribute different_ensembles_dict of a PulseSequence.</p>
-<p>Right now two 'simple' methods of sampling where implemented, which reuse the sample function for the Pulse_Block_Ensembles. One, which samples by preserving the phase (i.e. staying in the rotating frame) and the other which samples without keep a phase relationship between the different entries of the PulseSequence object.</p>
-<p>More sophisticated sequence sampling method can be implemented here. </p>
-
-</div>
-</div>
-<a id="a0ce1df07630a8b9e8b6ac1f5a2583dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce1df07630a8b9e8b6ac1f5a2583dac">&#9670;&nbsp;</a></span>save_block()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.save_block </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>block</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Serialize a PulseBlock object to a *.blk file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>string, name of the block to save </td></tr>
-    <tr><td class="paramname">block</td><td>PulseBlock object which will be serialized </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aebee8384fdd388019cf98e2256d1efad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebee8384fdd388019cf98e2256d1efad">&#9670;&nbsp;</a></span>save_ensemble()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.save_ensemble </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ensemble</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Saves a PulseBlockEnsemble with name name to file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>name: name of the ensemble, which will be serialized. </td></tr>
-    <tr><td class="paramname">obj</td><td>ensemble: a PulseBlockEnsemble object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ab91b0142f4206f3e1350e3dec594420b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab91b0142f4206f3e1350e3dec594420b">&#9670;&nbsp;</a></span>save_sequence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.save_sequence </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -750,26 +591,27 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Serialize the PulseSequence object with name 'name' to file. </p>
+<p>Samples the PulseSequence object, which serves as the construction plan. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>name: name of the sequence object. </td></tr>
-    <tr><td class="paramname">object</td><td>sequence: a PulseSequence object, which is going to be serialized to file.</td></tr>
+    <tr><td class="paramname">str|PulseSequence</td><td>sequence: Name or instance of the PulseSequence to be sampled.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: str: name of the serialized object, if needed. </dd></dl>
+<p>The sequence object is sampled by call subsequently the sampling routine for the PulseBlockEnsemble objects and passing if needed the rotating frame option.</p>
+<p>Right now two 'simple' methods of sampling where implemented, which reuse the sample function for the Pulse_Block_Ensembles. One, which samples by preserving the phase (i.e. staying in the rotating frame) and the other which samples without keep a phase relationship between the different entries of the PulseSequence object. ATTENTION The phase preservation within a single PulseBlockEnsemble is NOT affected by this method.</p>
+<p>More sophisticated sequence sampling method can be implemented here. </p>
 
 </div>
 </div>
-<a id="a7dce42c40046e9818bbffdf36982bbf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dce42c40046e9818bbffdf36982bbf2">&#9670;&nbsp;</a></span>set_settings()</h2>
+<a id="a15840bda47925e263fc9c378763bb54d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15840bda47925e263fc9c378763bb54d">&#9670;&nbsp;</a></span>save_block()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.set_settings </td>
+          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.save_block </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -778,31 +620,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activation_config</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>laser_channel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sample_rate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>amplitude_dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>waveform_format</em>&#160;</td>
+          <td class="paramname"><em>block</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -812,24 +630,92 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets all settings for the generator logic. </p>
+<p>Saves a PulseBlock instance. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">activation_config</td><td></td></tr>
-    <tr><td class="paramname">laser_channel</td><td></td></tr>
-    <tr><td class="paramname">sample_rate</td><td></td></tr>
-    <tr><td class="paramname">amplitude_dict</td><td></td></tr>
-    <tr><td class="paramname">waveform_format</td><td></td></tr>
+    <tr><td class="paramname">PulseBlock</td><td>block: PulseBlock instance to save </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+
+</div>
+</div>
+<a id="a517d85d661244c0f42b9fa41df496981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a517d85d661244c0f42b9fa41df496981">&#9670;&nbsp;</a></span>save_ensemble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.save_ensemble </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ensemble</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves a PulseBlockEnsemble instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PulseBlockEnsemble</td><td>ensemble: PulseBlockEnsemble instance to save </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a873c05f1cb4af6d9b26090020c7ea1e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873c05f1cb4af6d9b26090020c7ea1e5">&#9670;&nbsp;</a></span>save_sequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sequence_generator_logic.SequenceGeneratorLogic.save_sequence </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves a PulseSequence instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>sequence: a PulseSequence object, which is going to be serialized to file.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: str: name of the serialized object, if needed. </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa7b8ddef1ea43d05598eacaf8e14f2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7b8ddef1ea43d05598eacaf8e14f2ce">&#9670;&nbsp;</a></span>activation_config</h2>
+<a id="a7ad6cc1d579ed1c1cf2b21e6880b79a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad6cc1d579ed1c1cf2b21e6880b79a0">&#9670;&nbsp;</a></span>additional_methods_dir</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -838,7 +724,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">sequence_generator_logic.SequenceGeneratorLogic.activation_config</td>
+          <td class="memname">sequence_generator_logic.SequenceGeneratorLogic.additional_methods_dir</td>
         </tr>
       </table>
   </td>
@@ -847,33 +733,11 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=  StatusVar(</div><div class="line">        <span class="stringliteral">&#39;activation_config&#39;</span>,</div><div class="line">        [<span class="stringliteral">&#39;a_ch1&#39;</span>, <span class="stringliteral">&#39;d_ch1&#39;</span>, <span class="stringliteral">&#39;d_ch2&#39;</span>, <span class="stringliteral">&#39;a_ch2&#39;</span>, <span class="stringliteral">&#39;d_ch3&#39;</span>, <span class="stringliteral">&#39;d_ch4&#39;</span>])</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a3a16d88c02b22f8c0e949347f36f01aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a16d88c02b22f8c0e949347f36f01aa">&#9670;&nbsp;</a></span>amplitude_dict</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">sequence_generator_logic.SequenceGeneratorLogic.amplitude_dict</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=  StatusVar(</div><div class="line">        <span class="stringliteral">&#39;amplitude_dict&#39;</span>,</div><div class="line">        OrderedDict({<span class="stringliteral">&#39;a_ch1&#39;</span>: 0.5, <span class="stringliteral">&#39;a_ch2&#39;</span>: 0.5, <span class="stringliteral">&#39;a_ch3&#39;</span>: 0.5, <span class="stringliteral">&#39;a_ch4&#39;</span>: 0.5}))</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">=  ConfigOption(name=<span class="stringliteral">&#39;additional_predefined_methods_path&#39;</span>,</div><div class="line">                                          default=<span class="keywordtype">None</span>,</div><div class="line">                                          missing=<span class="stringliteral">&#39;nothing&#39;</span>)</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>logic/sequence_generator_logic.py</li>
+<li>logic/pulsed/sequence_generator_logic.py</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -2,6 +2,9 @@ var searchData=
 [
   ['base',['Base',['../classcore_1_1module_1_1Base.html',1,'core::module']]],
   ['basemixin',['BaseMixin',['../classcore_1_1module_1_1BaseMixin.html',1,'core::module']]],
+  ['basicpredefinedgenerator',['BasicPredefinedGenerator',['../classbasic__predefined__methods_1_1BasicPredefinedGenerator.html',1,'basic_predefined_methods']]],
+  ['basicpulseanalyzer',['BasicPulseAnalyzer',['../classbasic__analysis__methods_1_1BasicPulseAnalyzer.html',1,'basic_analysis_methods']]],
+  ['basicpulseextractor',['BasicPulseExtractor',['../classbasic__extraction__methods_1_1BasicPulseExtractor.html',1,'basic_extraction_methods']]],
   ['beat',['beat',['../classqzmqkernel_1_1QZMQHeartbeat.html#a917f53fc8d4f65fede632a6bd72ebf79',1,'qzmqkernel::QZMQHeartbeat']]],
   ['betapulsestreamerservicer',['BetaPulseStreamerServicer',['../classpulse__streamer__pb2_1_1BetaPulseStreamerServicer.html',1,'pulse_streamer_pb2']]],
   ['betapulsestreamerstub',['BetaPulseStreamerStub',['../classpulse__streamer__pb2_1_1BetaPulseStreamerStub.html',1,'pulse_streamer_pb2']]],
@@ -11,7 +14,7 @@ var searchData=
   ['block_5fdel_5flast_5fclicked',['block_del_last_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a619c2edc1a572d8abf84ff5e11974dc6',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['block_5fdel_5fsel_5fclicked',['block_del_sel_clicked',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a2761158d787710aa5a8e3c6ab4136d29',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['blockeditor',['BlockEditor',['../classpulse__editors_1_1BlockEditor.html',1,'pulse_editors']]],
-  ['blockorganizer',['BlockOrganizer',['../classpulse__editors_1_1BlockOrganizer.html',1,'pulse_editors']]],
+  ['blockeditortablemodel',['BlockEditorTableModel',['../classpulse__editors_1_1BlockEditorTableModel.html',1,'pulse_editors']]],
   ['boardsetting',['BOARDSETTING',['../classfastcomtecmcs6_1_1BOARDSETTING.html',1,'fastcomtecmcs6']]],
   ['boundingrect',['boundingRect',['../classguiutils_1_1ColorBar.html#a3dc43e81479655cf384dcdb8c4fe1374',1,'guiutils::ColorBar']]],
   ['build_5fsubmenu',['build_submenu',['../classconfig__gui_1_1menu_1_1ModMenu.html#a0c389f71d0616f15765568ff1d174ac8',1,'config_gui::menu::ModMenu']]],

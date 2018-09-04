@@ -153,8 +153,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:ab15e6392a00b6eeda8e898784382380d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg5002c_1_1AWG5002C.html#ab15e6392a00b6eeda8e898784382380d">get_active_channels</a> (self, ch=None)</td></tr>
 <tr class="memdesc:ab15e6392a00b6eeda8e898784382380d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active channels of the pulse generator hardware.  <a href="#ab15e6392a00b6eeda8e898784382380d">More...</a><br /></td></tr>
 <tr class="separator:ab15e6392a00b6eeda8e898784382380d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac203c0ec4ff170139c5f9bc0aea56f19"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg5002c_1_1AWG5002C.html#ac203c0ec4ff170139c5f9bc0aea56f19">set_active_channels</a> (self, ch=None)</td></tr>
-<tr class="memdesc:ac203c0ec4ff170139c5f9bc0aea56f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active channels for the pulse generator hardware.  <a href="#ac203c0ec4ff170139c5f9bc0aea56f19">More...</a><br /></td></tr>
+<tr class="memitem:ac203c0ec4ff170139c5f9bc0aea56f19"><td class="memItemLeft" align="right" valign="top"><a id="ac203c0ec4ff170139c5f9bc0aea56f19"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_active_channels</b> (self, ch=None)</td></tr>
 <tr class="separator:ac203c0ec4ff170139c5f9bc0aea56f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3792a1f17b940f26e7cb8bcc27125c35"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg5002c_1_1AWG5002C.html#a3792a1f17b940f26e7cb8bcc27125c35">get_uploaded_asset_names</a> (self)</td></tr>
 <tr class="memdesc:a3792a1f17b940f26e7cb8bcc27125c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded assets on the device.  <a href="#a3792a1f17b940f26e7cb8bcc27125c35">More...</a><br /></td></tr>
@@ -870,48 +870,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reset the device. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="ac203c0ec4ff170139c5f9bc0aea56f19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac203c0ec4ff170139c5f9bc0aea56f19">&#9670;&nbsp;</a></span>set_active_channels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def tektronix_awg5002c.AWG5002C.set_active_channels </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ch</em> = <code>None</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the active channels for the pulse generator hardware. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dict</td><td>ch: dictionary with keys being the analog or digital string generic names for the channels with items being a boolean value.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>dict: with the actual set values for active channels for analog and digital values.</dd></dl>
-<p>If nothing is passed then the command will return an empty dict.</p>
-<dl class="section note"><dt>Note</dt><dd>After setting the active channels of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
-<p>Example for possible input: ch True, 'd_ch1': False, 'd_ch3': True, 'd_ch4': True} to activate analog channel 2 digital channel 3 and 4 and to deactivate digital channel 1.</p>
-<p>The hardware itself has to handle, whether separate channel activation is possible.</p>
-<p>AWG5000 Series instruments support only 14-bit resolution. Therefore this command will have no effect on the DAC for these instruments. On other devices the deactivation of digital channels increase the DAC resolution of the analog channels. </p>
 
 </div>
 </div>

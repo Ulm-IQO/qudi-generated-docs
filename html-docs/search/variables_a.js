@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['voltagescannerlogic1',['voltagescannerlogic1',['../classlaserscannergui_1_1VoltScanGui.html#a1e54f3c247fe823e8d79ad57b048dcdb',1,'laserscannergui::VoltScanGui']]]
+  ['tasklogic',['tasklogic',['../classtaskgui_1_1TaskGui.html#aee0c61befdd3ab88eb8fcb0896d5f5cf',1,'taskgui::TaskGui']]]
 ];

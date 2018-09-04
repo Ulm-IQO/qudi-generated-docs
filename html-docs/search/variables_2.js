@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gatedcounterlogic1',['gatedcounterlogic1',['../classgated__counter__gui_1_1GatedCounterGui.html#a2329c47ec521b12f82aa18dc60d9e31e',1,'gated_counter_gui::GatedCounterGui']]]
+  ['fitlogic',['fitlogic',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a2e261f1c536ad46e02f5f5b4c5493a01',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]]
 ];

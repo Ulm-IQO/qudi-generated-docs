@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classfitsettings_1_1FitSettingsComboBox.html" title="A QComboBox for use with FitContainer. " alt="" coords="152,5,363,32"/>
+<area shape="rect" id="node2" href="$classfastcomtecmcs6_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="149,5,337,32"/>
+<area shape="rect" id="node3" href="$classfastcomtecmcs6_1_1AcqSettings.html" title="fastcomtecmcs6.AcqSettings" alt="" coords="145,56,340,83"/>
+<area shape="rect" id="node4" href="$classfastcomtecmcs6_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="151,107,335,133"/>
+<area shape="rect" id="node5" href="$classfastcomtecmcs6_1_1BOARDSETTING.html" title="fastcomtecmcs6.BOARDSETTING" alt="" coords="128,157,357,184"/>
+<area shape="rect" id="node6" href="$classfastcomtecp7887_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="147,208,338,235"/>
+<area shape="rect" id="node7" href="$classfastcomtecp7887_1_1AcqSettings.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="144,259,341,285"/>
+<area shape="rect" id="node8" href="$classfastcomtecp7887_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="149,309,336,336"/>
 </map>

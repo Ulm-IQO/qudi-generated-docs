@@ -65,7 +65,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classtektronix__awg70k_1_1AWG70K-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">tektronix_awg70k.AWG70K Class Reference</div>  </div>
@@ -94,6 +93,9 @@ Collaboration diagram for tektronix_awg70k.AWG70K:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a474b5f6ca1cae07b867dc16388d74463"><td class="memItemLeft" align="right" valign="top"><a id="a474b5f6ca1cae07b867dc16388d74463"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args, kwargs)</td></tr>
+<tr class="separator:a474b5f6ca1cae07b867dc16388d74463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81fe360ba4f6d58c27ef0554f2c914e8"><td class="memItemLeft" align="right" valign="top"><a id="a81fe360ba4f6d58c27ef0554f2c914e8"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a81fe360ba4f6d58c27ef0554f2c914e8">on_activate</a> (self)</td></tr>
 <tr class="memdesc:a81fe360ba4f6d58c27ef0554f2c914e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation performed during activation of the module. <br /></td></tr>
@@ -111,17 +113,35 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:ae0de136b687441aeb75a2f0ba3470c90"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ae0de136b687441aeb75a2f0ba3470c90">pulser_off</a> (self)</td></tr>
 <tr class="memdesc:ae0de136b687441aeb75a2f0ba3470c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the pulsing device off.  <a href="#ae0de136b687441aeb75a2f0ba3470c90">More...</a><br /></td></tr>
 <tr class="separator:ae0de136b687441aeb75a2f0ba3470c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60c529f25722f48b76ab4bdb90abf851"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a60c529f25722f48b76ab4bdb90abf851">upload_asset</a> (self, asset_name=None)</td></tr>
-<tr class="memdesc:a60c529f25722f48b76ab4bdb90abf851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload an already hardware conform file to the device.  <a href="#a60c529f25722f48b76ab4bdb90abf851">More...</a><br /></td></tr>
-<tr class="separator:a60c529f25722f48b76ab4bdb90abf851"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9502a37323a1284940aff61c9fd6cebb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a9502a37323a1284940aff61c9fd6cebb">load_asset</a> (self, asset_name, load_dict=None)</td></tr>
-<tr class="memdesc:a9502a37323a1284940aff61c9fd6cebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence or waveform to the specified channel of the pulsing device.  <a href="#a9502a37323a1284940aff61c9fd6cebb">More...</a><br /></td></tr>
-<tr class="separator:a9502a37323a1284940aff61c9fd6cebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18c54b3e1982585c5ff6184e2e8d9b9d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a18c54b3e1982585c5ff6184e2e8d9b9d">get_loaded_asset</a> (self)</td></tr>
-<tr class="memdesc:a18c54b3e1982585c5ff6184e2e8d9b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the currently loaded asset name of the device.  <a href="#a18c54b3e1982585c5ff6184e2e8d9b9d">More...</a><br /></td></tr>
-<tr class="separator:a18c54b3e1982585c5ff6184e2e8d9b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa8d39fdb5d6b5abbeb847633e92edb"><td class="memItemLeft" align="right" valign="top"><a id="a1fa8d39fdb5d6b5abbeb847633e92edb"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_waveform</b> (self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples)</td></tr>
+<tr class="separator:a1fa8d39fdb5d6b5abbeb847633e92edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae954cc758a088f50885f672ba718ff0d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ae954cc758a088f50885f672ba718ff0d">write_sequence</a> (self, name, sequence_parameter_list)</td></tr>
+<tr class="memdesc:ae954cc758a088f50885f672ba718ff0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a new sequence on the device memory.  <a href="#ae954cc758a088f50885f672ba718ff0d">More...</a><br /></td></tr>
+<tr class="separator:ae954cc758a088f50885f672ba718ff0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4fd171415102f2f1ba73289773b644d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ac4fd171415102f2f1ba73289773b644d">get_waveform_names</a> (self)</td></tr>
+<tr class="memdesc:ac4fd171415102f2f1ba73289773b644d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded waveforms on the device.  <a href="#ac4fd171415102f2f1ba73289773b644d">More...</a><br /></td></tr>
+<tr class="separator:ac4fd171415102f2f1ba73289773b644d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5ffbd9e08416bc3ccfe9a353f5febee"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ae5ffbd9e08416bc3ccfe9a353f5febee">get_sequence_names</a> (self)</td></tr>
+<tr class="memdesc:ae5ffbd9e08416bc3ccfe9a353f5febee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded sequence on the device.  <a href="#ae5ffbd9e08416bc3ccfe9a353f5febee">More...</a><br /></td></tr>
+<tr class="separator:ae5ffbd9e08416bc3ccfe9a353f5febee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09655994844145e53ebdf49e4e8ba4b8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a09655994844145e53ebdf49e4e8ba4b8">delete_waveform</a> (self, waveform_name)</td></tr>
+<tr class="memdesc:a09655994844145e53ebdf49e4e8ba4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the waveform with name "waveform_name" from the device memory.  <a href="#a09655994844145e53ebdf49e4e8ba4b8">More...</a><br /></td></tr>
+<tr class="separator:a09655994844145e53ebdf49e4e8ba4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6efa55477259acfe547a9cda034217b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#aa6efa55477259acfe547a9cda034217b">delete_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:aa6efa55477259acfe547a9cda034217b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the sequence with name "sequence_name" from the device memory.  <a href="#aa6efa55477259acfe547a9cda034217b">More...</a><br /></td></tr>
+<tr class="separator:aa6efa55477259acfe547a9cda034217b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbcdcb0a2fef5e48dbd40e32ce5197fc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#adbcdcb0a2fef5e48dbd40e32ce5197fc">load_waveform</a> (self, load_dict)</td></tr>
+<tr class="memdesc:adbcdcb0a2fef5e48dbd40e32ce5197fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a waveform to the specified channel of the pulsing device.  <a href="#adbcdcb0a2fef5e48dbd40e32ce5197fc">More...</a><br /></td></tr>
+<tr class="separator:adbcdcb0a2fef5e48dbd40e32ce5197fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4c2178a9a93bbd7a2f449a6d0b0564"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#aff4c2178a9a93bbd7a2f449a6d0b0564">load_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:aff4c2178a9a93bbd7a2f449a6d0b0564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence to the channels of the device in order to be ready for playback.  <a href="#aff4c2178a9a93bbd7a2f449a6d0b0564">More...</a><br /></td></tr>
+<tr class="separator:aff4c2178a9a93bbd7a2f449a6d0b0564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad8e9bfc8fb88414cf40b6b708c15f7"><td class="memItemLeft" align="right" valign="top"><a id="a3ad8e9bfc8fb88414cf40b6b708c15f7"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_loaded_assets</b> (self)</td></tr>
+<tr class="separator:a3ad8e9bfc8fb88414cf40b6b708c15f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d03e026a851d147e2392e046559e48"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ab0d03e026a851d147e2392e046559e48">clear_all</a> (self)</td></tr>
-<tr class="memdesc:ab0d03e026a851d147e2392e046559e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the loaded waveform from the pulse generators RAM.  <a href="#ab0d03e026a851d147e2392e046559e48">More...</a><br /></td></tr>
+<tr class="memdesc:ab0d03e026a851d147e2392e046559e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all loaded waveform from the pulse generators RAM.  <a href="#ab0d03e026a851d147e2392e046559e48">More...</a><br /></td></tr>
 <tr class="separator:ab0d03e026a851d147e2392e046559e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1453d083f130bb38db33bed99f6e3d40"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a1453d083f130bb38db33bed99f6e3d40">get_status</a> (self)</td></tr>
 <tr class="memdesc:a1453d083f130bb38db33bed99f6e3d40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the status of the pulsing hardware.  <a href="#a1453d083f130bb38db33bed99f6e3d40">More...</a><br /></td></tr>
@@ -147,46 +167,53 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a9fb24d921fbec8efdb8d729572041936"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a9fb24d921fbec8efdb8d729572041936">get_active_channels</a> (self, ch=None)</td></tr>
 <tr class="memdesc:a9fb24d921fbec8efdb8d729572041936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active channels of the pulse generator hardware.  <a href="#a9fb24d921fbec8efdb8d729572041936">More...</a><br /></td></tr>
 <tr class="separator:a9fb24d921fbec8efdb8d729572041936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab4a887205ad10571ae2c59e9e18272"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#adab4a887205ad10571ae2c59e9e18272">set_active_channels</a> (self, ch=None)</td></tr>
-<tr class="memdesc:adab4a887205ad10571ae2c59e9e18272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active channels for the pulse generator hardware.  <a href="#adab4a887205ad10571ae2c59e9e18272">More...</a><br /></td></tr>
+<tr class="memitem:adab4a887205ad10571ae2c59e9e18272"><td class="memItemLeft" align="right" valign="top"><a id="adab4a887205ad10571ae2c59e9e18272"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_active_channels</b> (self, ch=None)</td></tr>
 <tr class="separator:adab4a887205ad10571ae2c59e9e18272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89fbef46fe565d4d108edbec7bdb65ab"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a89fbef46fe565d4d108edbec7bdb65ab">get_uploaded_asset_names</a> (self)</td></tr>
-<tr class="memdesc:a89fbef46fe565d4d108edbec7bdb65ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded assets on the device.  <a href="#a89fbef46fe565d4d108edbec7bdb65ab">More...</a><br /></td></tr>
-<tr class="separator:a89fbef46fe565d4d108edbec7bdb65ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8dbb2ded057170d5e1a19a88c6869f7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ac8dbb2ded057170d5e1a19a88c6869f7">get_saved_asset_names</a> (self)</td></tr>
-<tr class="memdesc:ac8dbb2ded057170d5e1a19a88c6869f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all sampled and saved assets on the host PC.  <a href="#ac8dbb2ded057170d5e1a19a88c6869f7">More...</a><br /></td></tr>
-<tr class="separator:ac8dbb2ded057170d5e1a19a88c6869f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8b5c805ed0c26251dd8f801d75066c1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ac8b5c805ed0c26251dd8f801d75066c1">delete_asset</a> (self, asset_name)</td></tr>
-<tr class="memdesc:ac8b5c805ed0c26251dd8f801d75066c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete all files associated with an asset with the passed asset_name from the device memory.  <a href="#ac8b5c805ed0c26251dd8f801d75066c1">More...</a><br /></td></tr>
-<tr class="separator:ac8b5c805ed0c26251dd8f801d75066c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bb84cdafbe9e6e38e41fe8c5f75c66b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a2bb84cdafbe9e6e38e41fe8c5f75c66b">set_asset_dir_on_device</a> (self, dir_path)</td></tr>
-<tr class="memdesc:a2bb84cdafbe9e6e38e41fe8c5f75c66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the directory where the assets are stored on the device.  <a href="#a2bb84cdafbe9e6e38e41fe8c5f75c66b">More...</a><br /></td></tr>
-<tr class="separator:a2bb84cdafbe9e6e38e41fe8c5f75c66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bbf758d982dc7292528b430500c3979"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a4bbf758d982dc7292528b430500c3979">get_asset_dir_on_device</a> (self)</td></tr>
-<tr class="memdesc:a4bbf758d982dc7292528b430500c3979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask for the directory where the assets are stored on the device.  <a href="#a4bbf758d982dc7292528b430500c3979">More...</a><br /></td></tr>
-<tr class="separator:a4bbf758d982dc7292528b430500c3979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17bf57df11bd28230e4cc81604cdf921"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a17bf57df11bd28230e4cc81604cdf921">has_sequence_mode</a> (self)</td></tr>
-<tr class="memdesc:a17bf57df11bd28230e4cc81604cdf921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the pulse generator whether sequence mode exists.  <a href="#a17bf57df11bd28230e4cc81604cdf921">More...</a><br /></td></tr>
-<tr class="separator:a17bf57df11bd28230e4cc81604cdf921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2add93f2d260f578f2a3197b8250eb0a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a2add93f2d260f578f2a3197b8250eb0a">get_interleave</a> (self)</td></tr>
+<tr class="memdesc:a2add93f2d260f578f2a3197b8250eb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether Interleave is ON or OFF in AWG.  <a href="#a2add93f2d260f578f2a3197b8250eb0a">More...</a><br /></td></tr>
+<tr class="separator:a2add93f2d260f578f2a3197b8250eb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b87a2f1d4d96af817c7b91dd3d1a757"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a9b87a2f1d4d96af817c7b91dd3d1a757">set_interleave</a> (self, state=False)</td></tr>
 <tr class="memdesc:a9b87a2f1d4d96af817c7b91dd3d1a757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns the interleave of an AWG on or off.  <a href="#a9b87a2f1d4d96af817c7b91dd3d1a757">More...</a><br /></td></tr>
 <tr class="separator:a9b87a2f1d4d96af817c7b91dd3d1a757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2add93f2d260f578f2a3197b8250eb0a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a2add93f2d260f578f2a3197b8250eb0a">get_interleave</a> (self)</td></tr>
-<tr class="memdesc:a2add93f2d260f578f2a3197b8250eb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether Interleave is on in AWG.  <a href="#a2add93f2d260f578f2a3197b8250eb0a">More...</a><br /></td></tr>
-<tr class="separator:a2add93f2d260f578f2a3197b8250eb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17bf57df11bd28230e4cc81604cdf921"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a17bf57df11bd28230e4cc81604cdf921">has_sequence_mode</a> (self)</td></tr>
+<tr class="memdesc:a17bf57df11bd28230e4cc81604cdf921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the pulse generator whether sequence mode exists.  <a href="#a17bf57df11bd28230e4cc81604cdf921">More...</a><br /></td></tr>
+<tr class="separator:a17bf57df11bd28230e4cc81604cdf921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d9ced8c7f9389d398a17eb610499ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a05d9ced8c7f9389d398a17eb610499ae">reset</a> (self)</td></tr>
 <tr class="memdesc:a05d9ced8c7f9389d398a17eb610499ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the device.  <a href="#a05d9ced8c7f9389d398a17eb610499ae">More...</a><br /></td></tr>
 <tr class="separator:a05d9ced8c7f9389d398a17eb610499ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1c91f113c1465d55d20f1f703a12fe"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a8f1c91f113c1465d55d20f1f703a12fe">ask</a> (self, question)</td></tr>
-<tr class="memdesc:a8f1c91f113c1465d55d20f1f703a12fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a8f1c91f113c1465d55d20f1f703a12fe">More...</a><br /></td></tr>
-<tr class="separator:a8f1c91f113c1465d55d20f1f703a12fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414dd3d9d11cb16b1a86e52983e05c75"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a414dd3d9d11cb16b1a86e52983e05c75">tell</a> (self, command)</td></tr>
-<tr class="memdesc:a414dd3d9d11cb16b1a86e52983e05c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#a414dd3d9d11cb16b1a86e52983e05c75">More...</a><br /></td></tr>
-<tr class="separator:a414dd3d9d11cb16b1a86e52983e05c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4d460d8c01655c6fbe9a425f5427fd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#aaf4d460d8c01655c6fbe9a425f5427fd">direct_write_ensemble</a> (self, ensemble_name, analog_samples, digital_samples)</td></tr>
-<tr class="separator:aaf4d460d8c01655c6fbe9a425f5427fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d527d5529dfca94cee2e3a9947d228"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ad4d527d5529dfca94cee2e3a9947d228">direct_write_sequence</a> (self, sequence_name, sequence_params)</td></tr>
-<tr class="separator:ad4d527d5529dfca94cee2e3a9947d228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c2f64320ce74b0cc84ac39d68f5aec"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a77c2f64320ce74b0cc84ac39d68f5aec">query</a> (self, question)</td></tr>
+<tr class="memdesc:a77c2f64320ce74b0cc84ac39d68f5aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a77c2f64320ce74b0cc84ac39d68f5aec">More...</a><br /></td></tr>
+<tr class="separator:a77c2f64320ce74b0cc84ac39d68f5aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c89953a1f1bd04b8ed81646bb02922"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#ad1c89953a1f1bd04b8ed81646bb02922">write</a> (self, command)</td></tr>
+<tr class="memdesc:ad1c89953a1f1bd04b8ed81646bb02922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#ad1c89953a1f1bd04b8ed81646bb02922">More...</a><br /></td></tr>
+<tr class="separator:ad1c89953a1f1bd04b8ed81646bb02922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb00cc1b0c7f7f50c9cb9b01f5a11854"><td class="memItemLeft" align="right" valign="top"><a id="afb00cc1b0c7f7f50c9cb9b01f5a11854"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>new_sequence</b> (self, name, steps)</td></tr>
+<tr class="separator:afb00cc1b0c7f7f50c9cb9b01f5a11854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5997df621ef4b1363596ccbb434a10b4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a5997df621ef4b1363596ccbb434a10b4">sequence_set_waveform</a> (self, sequence_name, waveform_name, step, track)</td></tr>
+<tr class="memdesc:a5997df621ef4b1363596ccbb434a10b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the waveform 'waveform_name' to position 'step' in the sequence 'sequence_name'.  <a href="#a5997df621ef4b1363596ccbb434a10b4">More...</a><br /></td></tr>
+<tr class="separator:a5997df621ef4b1363596ccbb434a10b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e95161f79e1ee72503718709c9a669"><td class="memItemLeft" align="right" valign="top"><a id="a70e95161f79e1ee72503718709c9a669"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>sequence_set_repetitions</b> (self, sequence_name, step, repeat=1)</td></tr>
+<tr class="separator:a70e95161f79e1ee72503718709c9a669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c44f79ec7523b353b9c1fbd08647bdd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a4c44f79ec7523b353b9c1fbd08647bdd">sequence_set_goto</a> (self, sequence_name, step, goto=-1)</td></tr>
+<tr class="separator:a4c44f79ec7523b353b9c1fbd08647bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801dd801c4c6be993a9efd6177221784"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a801dd801c4c6be993a9efd6177221784">sequence_set_event_jump</a> (self, sequence_name, step, trigger='OFF', jumpto=0)</td></tr>
+<tr class="memdesc:a801dd801c4c6be993a9efd6177221784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the event trigger input of the specified sequence step and the jump_to destination.  <a href="#a801dd801c4c6be993a9efd6177221784">More...</a><br /></td></tr>
+<tr class="separator:a801dd801c4c6be993a9efd6177221784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa214291325a598fc603e7093533d5f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtektronix__awg70k_1_1AWG70K.html#a6aa214291325a598fc603e7093533d5f">sequence_set_wait_trigger</a> (self, sequence_name, step, trigger='OFF')</td></tr>
+<tr class="memdesc:a6aa214291325a598fc603e7093533d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a certain sequence step wait for a trigger to start playing.  <a href="#a6aa214291325a598fc603e7093533d5f">More...</a><br /></td></tr>
+<tr class="separator:a6aa214291325a598fc603e7093533d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ee0aad9fc4d9118c58bc5a1b15a8ae"><td class="memItemLeft" align="right" valign="top"><a id="ad8ee0aad9fc4d9118c58bc5a1b15a8ae"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>sequence_set_flags</b> (self, sequence_name, step, flags=None, trigger=False)</td></tr>
+<tr class="separator:ad8ee0aad9fc4d9118c58bc5a1b15a8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ff1dd612ee1072a818e88817d7896f"><td class="memItemLeft" align="right" valign="top"><a id="a79ff1dd612ee1072a818e88817d7896f"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>make_sequence_continuous</b> (self, sequencename)</td></tr>
+<tr class="separator:a79ff1dd612ee1072a818e88817d7896f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe124326d40528cb6c9e33f638e6dbe3"><td class="memItemLeft" align="right" valign="top"><a id="abe124326d40528cb6c9e33f638e6dbe3"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>force_jump_sequence</b> (self, final_step, channel=1)</td></tr>
+<tr class="separator:abe124326d40528cb6c9e33f638e6dbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcore_1_1module_1_1BaseMixin"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1module_1_1BaseMixin')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1module_1_1BaseMixin.html">core.module.BaseMixin</a></td></tr>
 <tr class="memitem:ad68ad62cea611ca8c4e6ba2efb259a3a inherit pub_methods_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1module_1_1BaseMixin.html#ad68ad62cea611ca8c4e6ba2efb259a3a">__init__</a> (self, manager, name, config=None, callbacks=None, kwargs)</td></tr>
 <tr class="memdesc:ad68ad62cea611ca8c4e6ba2efb259a3a inherit pub_methods_classcore_1_1module_1_1BaseMixin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise <a class="el" href="classcore_1_1module_1_1Base.html">Base</a> class object and set up its state machine.  <a href="classcore_1_1module_1_1BaseMixin.html#ad68ad62cea611ca8c4e6ba2efb259a3a">More...</a><br /></td></tr>
@@ -224,57 +251,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aff372f02bbd99409f85d0f1ce6a5d3db"><td class="memItemLeft" align="right" valign="top"><a id="aff372f02bbd99409f85d0f1ce6a5d3db"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>pulsed_file_dir</b></td></tr>
-<tr class="separator:aff372f02bbd99409f85d0f1ce6a5d3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd0ad187cb36c018e739994971ac0002"><td class="memItemLeft" align="right" valign="top"><a id="acd0ad187cb36c018e739994971ac0002"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>host_waveform_directory</b></td></tr>
-<tr class="separator:acd0ad187cb36c018e739994971ac0002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743b78453d34b1bf47ba205182a77acc"><td class="memItemLeft" align="right" valign="top"><a id="a743b78453d34b1bf47ba205182a77acc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>asset_directory</b></td></tr>
-<tr class="separator:a743b78453d34b1bf47ba205182a77acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2d7635a72fea0a6c1f2c2cb1ae0c57f"><td class="memItemLeft" align="right" valign="top"><a id="af2d7635a72fea0a6c1f2c2cb1ae0c57f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>awg</b></td></tr>
 <tr class="separator:af2d7635a72fea0a6c1f2c2cb1ae0c57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ab236e95c8d36d1fc1ca07991840107"><td class="memItemLeft" align="right" valign="top"><a id="a3ab236e95c8d36d1fc1ca07991840107"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ftp</b></td></tr>
-<tr class="separator:a3ab236e95c8d36d1fc1ca07991840107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e52f603da42b616b16c2a351a8e9941"><td class="memItemLeft" align="right" valign="top"><a id="a7e52f603da42b616b16c2a351a8e9941"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>connected</b></td></tr>
-<tr class="separator:a7e52f603da42b616b16c2a351a8e9941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1736200025d3e04608d738a8287bcfb1"><td class="memItemLeft" align="right" valign="top"><a id="a1736200025d3e04608d738a8287bcfb1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>awg_model</b></td></tr>
 <tr class="separator:a1736200025d3e04608d738a8287bcfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8615c6ce42508b94363b9cd1231d2b60"><td class="memItemLeft" align="right" valign="top"><a id="a8615c6ce42508b94363b9cd1231d2b60"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sample_rate</b></td></tr>
-<tr class="separator:a8615c6ce42508b94363b9cd1231d2b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9f75b92c5eb1a86e7ab35ff23bdbe5"><td class="memItemLeft" align="right" valign="top"><a id="a9d9f75b92c5eb1a86e7ab35ff23bdbe5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>offset_list</b></td></tr>
-<tr class="separator:a9d9f75b92c5eb1a86e7ab35ff23bdbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7482b3b9acce198736e736d50f42888"><td class="memItemLeft" align="right" valign="top"><a id="ac7482b3b9acce198736e736d50f42888"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>markers_high</b></td></tr>
-<tr class="separator:ac7482b3b9acce198736e736d50f42888"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87dae9591b1954912dae948c7ab23768"><td class="memItemLeft" align="right" valign="top"><a id="a87dae9591b1954912dae948c7ab23768"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>is_output_enabled</b></td></tr>
-<tr class="separator:a87dae9591b1954912dae948c7ab23768"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a389eb205d84f5a1dbc61c701ab8d8975"><td class="memItemLeft" align="right" valign="top"><a id="a389eb205d84f5a1dbc61c701ab8d8975"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>active_channel</b></td></tr>
-<tr class="separator:a389eb205d84f5a1dbc61c701ab8d8975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fca7ea5a7506e3b12f9544cbf60401c"><td class="memItemLeft" align="right" valign="top"><a id="a2fca7ea5a7506e3b12f9544cbf60401c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>interleave</b></td></tr>
-<tr class="separator:a2fca7ea5a7506e3b12f9544cbf60401c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c4461590f863202c31e12eef5828ea5"><td class="memItemLeft" align="right" valign="top"><a id="a5c4461590f863202c31e12eef5828ea5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_loaded_asset</b></td></tr>
-<tr class="separator:a5c4461590f863202c31e12eef5828ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ca0ba27a8f54d830170886552880ef0"><td class="memItemLeft" align="right" valign="top"><a id="a5ca0ba27a8f54d830170886552880ef0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_status</b></td></tr>
-<tr class="separator:a5ca0ba27a8f54d830170886552880ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedb3edd049d30f779c292a3ae1c47aef"><td class="memItemLeft" align="right" valign="top"><a id="aedb3edd049d30f779c292a3ae1c47aef"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>amplitude_list</b></td></tr>
-<tr class="separator:aedb3edd049d30f779c292a3ae1c47aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73062aed09705a903d457a1d35ace65c"><td class="memItemLeft" align="right" valign="top"><a id="a73062aed09705a903d457a1d35ace65c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>markers_low</b></td></tr>
-<tr class="separator:a73062aed09705a903d457a1d35ace65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf951202f0706828f9ac1323c14954b"><td class="memItemLeft" align="right" valign="top"><a id="a2cf951202f0706828f9ac1323c14954b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ftp_working_dir</b></td></tr>
+<tr class="separator:a2cf951202f0706828f9ac1323c14954b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classcore_1_1module_1_1BaseMixin"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classcore_1_1module_1_1BaseMixin')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classcore_1_1module_1_1BaseMixin.html">core.module.BaseMixin</a></td></tr>
 <tr class="memitem:ae798a19db540fd6b0f70f82750b99fba inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="ae798a19db540fd6b0f70f82750b99fba"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>module_state</b></td></tr>
@@ -282,63 +267,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="ab6fc14182a8e42fc0804b848f4de3d24"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connectors</b></td></tr>
 <tr class="separator:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a940d60c70c5a03b72d3373b981cace61"><td class="memItemLeft" align="right" valign="top"><a id="a940d60c70c5a03b72d3373b981cace61"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>visa_address</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('awg_visa_address', missing='error')</td></tr>
-<tr class="separator:a940d60c70c5a03b72d3373b981cace61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9297681b1b9c8afbd819e7ebcd2113f3"><td class="memItemLeft" align="right" valign="top"><a id="a9297681b1b9c8afbd819e7ebcd2113f3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ip_address</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('awg_ip_address', missing='error')</td></tr>
-<tr class="separator:a9297681b1b9c8afbd819e7ebcd2113f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2abb7f63cae0609e0a00fdc8871efd"><td class="memItemLeft" align="right" valign="top"><a id="a0d2abb7f63cae0609e0a00fdc8871efd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ftp_root_directory</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('ftp_root_dir', 'C:\\inetpub\\ftproot', missing='warn')</td></tr>
-<tr class="separator:a0d2abb7f63cae0609e0a00fdc8871efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d78b5a1be71db4140f2c8032ec546f0"><td class="memItemLeft" align="right" valign="top"><a id="a8d78b5a1be71db4140f2c8032ec546f0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>user</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('ftp_login', 'anonymous', missing='warn')</td></tr>
-<tr class="separator:a8d78b5a1be71db4140f2c8032ec546f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a015546af6f64a06aa7ec9e2798f35c62"><td class="memItemLeft" align="right" valign="top"><a id="a015546af6f64a06aa7ec9e2798f35c62"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>passwd</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('ftp_passwd', 'anonymous@', missing='warn')</td></tr>
-<tr class="separator:a015546af6f64a06aa7ec9e2798f35c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8f1c91f113c1465d55d20f1f703a12fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f1c91f113c1465d55d20f1f703a12fe">&#9670;&nbsp;</a></span>ask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.ask </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>question</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Asks the device a 'question' and receive and return an answer from it. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
-
-</div>
-</div>
 <a id="ab0d03e026a851d147e2392e046559e48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0d03e026a851d147e2392e046559e48">&#9670;&nbsp;</a></span>clear_all()</h2>
 
@@ -355,20 +285,20 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Clears the loaded waveform from the pulse generators RAM. </p>
+<p>Clears all loaded waveform from the pulse generators RAM. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Delete all waveforms and sequences from Hardware memory and clear the visual display. Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<p>Unused for digital pulse generators without storage capability (PulseBlaster, FPGA). </p>
 
 </div>
 </div>
-<a id="ac8b5c805ed0c26251dd8f801d75066c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8b5c805ed0c26251dd8f801d75066c1">&#9670;&nbsp;</a></span>delete_asset()</h2>
+<a id="aa6efa55477259acfe547a9cda034217b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6efa55477259acfe547a9cda034217b">&#9670;&nbsp;</a></span>delete_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.delete_asset </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.delete_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -377,7 +307,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -387,26 +317,25 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delete all files associated with an asset with the passed asset_name from the device memory. </p>
+<p>Delete the sequence with name "sequence_name" from the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be deleted Optionally a list of asset names can be passed.</td></tr>
+    <tr><td class="paramname">str</td><td>sequence_name: The name of the sequence to be deleted Optionally a list of sequence names can be passed.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>list: a list with strings of the files which were deleted.</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted sequence names. </dd></dl>
 
 </div>
 </div>
-<a id="aaf4d460d8c01655c6fbe9a425f5427fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf4d460d8c01655c6fbe9a425f5427fd">&#9670;&nbsp;</a></span>direct_write_ensemble()</h2>
+<a id="a09655994844145e53ebdf49e4e8ba4b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09655994844145e53ebdf49e4e8ba4b8">&#9670;&nbsp;</a></span>delete_waveform()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.direct_write_ensemble </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.delete_waveform </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -415,19 +344,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ensemble_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>analog_samples</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>digital_samples</em>&#160;</td>
+          <td class="paramname"><em>waveform_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -436,57 +353,15 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Delete the waveform with name "waveform_name" from the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ensemble_name</td><td>Name for the waveform to be created. </td></tr>
-    <tr><td class="paramname">analog_samples</td><td>numpy.ndarray of type float32 containing the voltage samples. </td></tr>
-    <tr><td class="paramname">digital_samples</td><td>numpy.ndarray of type bool containing the marker states for each sample. First dimension is marker index; second dimension is sample number </td></tr>
+    <tr><td class="paramname">str</td><td>waveform_name: The name of the waveform to be deleted Optionally a list of waveform names can be passed.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
-
-</div>
-</div>
-<a id="ad4d527d5529dfca94cee2e3a9947d228"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d527d5529dfca94cee2e3a9947d228">&#9670;&nbsp;</a></span>direct_write_sequence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.direct_write_sequence </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sequence_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sequence_params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sequence_name</td><td></td></tr>
-    <tr><td class="paramname">sequence_params</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted waveform names. </dd></dl>
 
 </div>
 </div>
@@ -569,31 +444,11 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: ({}, {}): tuple of two dicts, with keys being the channel number and items being the values for those channels. Amplitude is always denoted in Volt-peak-to-peak and Offset in (absolute) Voltage.</dd></dl>
-<p>If no entries provided then the levels of all channels where simply returned. If no analog channels provided, return just an empty dict. Example of a possible input: amplitude = [1,4], offset =[1,3] to obtain the amplitude of channel 1 and 4 and the offset {1: -0.5, 4: 2.0} {} since no high request was performed.</p>
-<p>Note, the major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (denoted by an (absolute) voltage). </p>
-
-</div>
-</div>
-<a id="a4bbf758d982dc7292528b430500c3979"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bbf758d982dc7292528b430500c3979">&#9670;&nbsp;</a></span>get_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.get_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Ask for the directory where the assets are stored on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>string: The current sequence directory</dd></dl>
-<p>Unused for digital pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>dict: with keys being the generic string channel names and items being the values for those channels. Amplitude is always denoted in Volt-peak-to-peak and Offset in (absolute) Voltage.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Do not return a saved amplitude and/or offset value but instead retrieve the current amplitude and/or offset directly from the device.</dd></dl>
+<p>If no entries provided then the levels of all channels where simply returned. If no analog channels provided, return just an empty dict. Example of a possible input: amplitude = ['a_ch1','a_ch4'], offset =[1,3] to obtain the amplitude of channel 1 and 4 and the offset {'a_ch1': -0.5, 'a_ch4': 2.0} {'a_ch1': 0.0, 'a_ch3':-0.75} since no high request was performed.</p>
+<p>The major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (a value around which the signal oscillates, denoted by an (absolute) voltage).</p>
+<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
 
 </div>
 </div>
@@ -618,7 +473,7 @@ Static Public Attributes</h2></td></tr>
 <p>Provides all the constraints (e.g. sample_rate, amplitude, total_length_bins, channel_config, ...) related to the pulse generator hardware to the caller. </p><pre class="fragment">SEE PulserConstraints CLASS IN pulser_interface.py FOR AVAILABLE CONSTRAINTS!!!
 </pre><p>If you are not sure about the meaning, look in other hardware files to get an impression. If still additional constraints are needed, then they have to be added to the PulserConstraints class.</p>
 <p>Each scalar parameter is an ScalarConstraints object defined in cor.util.interfaces. Essentially it contains min/max values as well as min step size, default value and unit of the parameter.</p>
-<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_list&gt;, &lt;descriptor_str&gt;: &lt;channel_list&gt;, ...}</p>
+<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_set&gt;, &lt;descriptor_str&gt;: &lt;channel_set&gt;, ...}</p>
 <p>If the constraints cannot be set in the pulsing hardware (e.g. because it might have no sequence mode) just leave it out so that the default is used (only zeros). </p>
 
 </div>
@@ -663,10 +518,12 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: tuple of two dicts, with keys being the channel number and items being the values for those channels. Both low and high value of a channel is denoted in (absolute) Voltage.</dd></dl>
-<p>If no entries provided then the levels of all channels where simply returned. If no digital channels provided, return just an empty dict. Example of a possible input: low = [1,4] to obtain the low voltage values of digital channel 1 an 4. A possible answer might be {1: -0.5, 4: 2.0} {} since no high request was performed.</p>
-<p>Note, the major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
-<p>In general there is not a bijective correspondence between (amplitude, offset) for analog and (value high, value low) for digital! </p>
+<dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel number and items being the values for those channels. Both low and high value of a channel is denoted in (absolute) Voltage.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Do not return a saved low and/or high value but instead retrieve the current low and/or high value directly from the device.</dd></dl>
+<p>If no entries provided then the levels of all channels where simply returned. If no digital channels provided, return just an empty dict.</p>
+<p>Example of a possible input: low = ['d_ch1', 'd_ch4'] to obtain the low voltage values of digital channel 1 an 4. A possible answer might be {'d_ch1': -0.5, 'd_ch4': 2.0} {} since no high request was performed.</p>
+<p>The major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
+<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
 
 </div>
 </div>
@@ -686,30 +543,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check whether Interleave is on in AWG. </p>
-<p>Unused for pulse generator hardware other than an AWG. The AWG 70000 Series does not have an interleave mode and this method exists only for compability reasons.</p>
-<dl class="section return"><dt>Returns</dt><dd>bool: will be always False since no interleave functionality </dd></dl>
-
-</div>
-</div>
-<a id="a18c54b3e1982585c5ff6184e2e8d9b9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18c54b3e1982585c5ff6184e2e8d9b9d">&#9670;&nbsp;</a></span>get_loaded_asset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.get_loaded_asset </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Retrieve the currently loaded asset name of the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: Name of the current asset, that can be either a filename a waveform, a sequence ect. </dd></dl>
+<p>Check whether Interleave is ON or OFF in AWG. </p>
+<dl class="section return"><dt>Returns</dt><dd>bool: True: ON, False: OFF</dd></dl>
+<p>Unused for pulse generator hardware other than an AWG. </p>
 
 </div>
 </div>
@@ -734,14 +570,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac8dbb2ded057170d5e1a19a88c6869f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8dbb2ded057170d5e1a19a88c6869f7">&#9670;&nbsp;</a></span>get_saved_asset_names()</h2>
+<a id="ae5ffbd9e08416bc3ccfe9a353f5febee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ffbd9e08416bc3ccfe9a353f5febee">&#9670;&nbsp;</a></span>get_sequence_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.get_saved_asset_names </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.get_sequence_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -750,9 +586,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all sampled and saved assets on the host PC. </p>
-<p>This is no list of the file names.</p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all saved asset name strings in the current directory of the host PC. </dd></dl>
+<p>Retrieve the names of all uploaded sequence on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded sequence name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -773,18 +608,18 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieves the status of the pulsing hardware. </p>
-<dl class="section return"><dt>Returns</dt><dd>(int, dict): inter value of the current status with the corresponding dictionary containing status description for all the possible status variables of the pulse generator hardware. 0 indicates that the instrument has stopped. 1 indicates that the instrument is waiting for trigger. 2 indicates that the instrument is running. -1 indicates that the request of the status for AWG has failed. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>(int, dict): inter value of the current status with the corresponding dictionary containing status description for all the possible status variables of the pulse generator hardware </dd></dl>
 
 </div>
 </div>
-<a id="a89fbef46fe565d4d108edbec7bdb65ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89fbef46fe565d4d108edbec7bdb65ab">&#9670;&nbsp;</a></span>get_uploaded_asset_names()</h2>
+<a id="ac4fd171415102f2f1ba73289773b644d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4fd171415102f2f1ba73289773b644d">&#9670;&nbsp;</a></span>get_waveform_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.get_uploaded_asset_names </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.get_waveform_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -793,9 +628,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all uploaded assets on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded asset name strings in the current device directory. This is no list of the file names.</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<p>Retrieve the names of all uploaded waveforms on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded waveform name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -820,14 +654,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9502a37323a1284940aff61c9fd6cebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9502a37323a1284940aff61c9fd6cebb">&#9670;&nbsp;</a></span>load_asset()</h2>
+<a id="aff4c2178a9a93bbd7a2f449a6d0b0564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff4c2178a9a93bbd7a2f449a6d0b0564">&#9670;&nbsp;</a></span>load_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.load_asset </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.load_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -836,13 +670,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>load_dict</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -852,16 +680,53 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads a sequence or waveform to the specified channel of the pulsing device. </p>
+<p>Loads a sequence to the channels of the device in order to be ready for playback. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the sequence from the device workspace into the channels.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be loaded</td></tr>
-    <tr><td class="paramname">dict</td><td>load_dict: a dictionary with keys being one of the available channel numbers and items being the name of the already sampled waveform/sequence files. Examples {1: rabi_ch1, 2: rabi_ch2} {1: rabi_ch2, 2: rabi_ch1} This parameter is optional. If none is given then the channel association is invoked from the sequence generation, i.e. the filename appendix (_ch1, _ch2 etc.)</td></tr>
+    <tr><td class="paramname">sequence_name</td><td>str, name of the sequence to load</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>(dict, str): Dictionary with keys being the channel number and values being the respective asset loaded into the channel, string describing the asset type ('waveform' or 'sequence') </dd></dl>
+
+</div>
+</div>
+<a id="adbcdcb0a2fef5e48dbd40e32ce5197fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbcdcb0a2fef5e48dbd40e32ce5197fc">&#9670;&nbsp;</a></span>load_waveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def tektronix_awg70k.AWG70K.load_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>load_dict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a waveform to the specified channel of the pulsing device. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the waveform from the device workspace into the channel. For a device without mass memory this will make the waveform/pattern that has been previously written with self.write_waveform ready to play.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">load_dict</td><td>dict|list, a dictionary with keys being one of the available channel index and values being the name of the already written waveform to load into the channel. Examples {1: rabi_ch1, 2: rabi_ch2} or {1: rabi_ch2, 2: rabi_ch1} If just a list of waveform names if given, the channel association will be invoked from the channel suffix '_ch1', '_ch2' etc.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(dict, str): Dictionary with keys being the channel number and values being the respective asset loaded into the channel, string describing the asset type ('waveform' or 'sequence') </dd></dl>
 
 </div>
 </div>
@@ -907,6 +772,43 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a77c2f64320ce74b0cc84ac39d68f5aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c2f64320ce74b0cc84ac39d68f5aec">&#9670;&nbsp;</a></span>query()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def tektronix_awg70k.AWG70K.query </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>question</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asks the device a 'question' and receive and return an answer from it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
+
+</div>
+</div>
 <a id="a05d9ced8c7f9389d398a17eb610499ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05d9ced8c7f9389d398a17eb610499ae">&#9670;&nbsp;</a></span>reset()</h2>
 
@@ -928,14 +830,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adab4a887205ad10571ae2c59e9e18272"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adab4a887205ad10571ae2c59e9e18272">&#9670;&nbsp;</a></span>set_active_channels()</h2>
+<a id="a801dd801c4c6be993a9efd6177221784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a801dd801c4c6be993a9efd6177221784">&#9670;&nbsp;</a></span>sequence_set_event_jump()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.set_active_channels </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.sequence_set_event_jump </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -944,7 +846,25 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ch</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>trigger</em> = <code>'OFF'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>jumpto</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -954,18 +874,175 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the active channels for the pulse generator hardware. </p>
+<p>Set the event trigger input of the specified sequence step and the jump_to destination. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dict</td><td>ch: dictionary with keys being the analog or digital string generic names for the channels with items being a boolean value.</td></tr>
+    <tr><td class="paramname">str</td><td>sequence_name: Name of the sequence to be edited </td></tr>
+    <tr><td class="paramname">int</td><td>step: Sequence step to be edited </td></tr>
+    <tr><td class="paramname">str</td><td>trigger: Trigger string specifier. ('OFF', 'A', 'B' or 'INT') </td></tr>
+    <tr><td class="paramname">int</td><td>jumpto: The sequence step to jump to. 0 or -1 is interpreted as next step</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>dict: with the actual set values for active channels for analog and digital values.</dd></dl>
-<p>If nothing is passed then the command will return an empty dict.</p>
-<dl class="section note"><dt>Note</dt><dd>After setting the active channels of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
-<p>Example for possible input: ch True, 'd_ch1': False, 'd_ch3': True, 'd_ch4': True} to activate analog channel 2 digital channel 3 and 4 and to deactivate digital channel 1.</p>
-<p>AWG5000 Series instruments support only 14-bit resolution. Therefore this command will have no effect on the DAC for these instruments. On other devices the deactivation of digital channels increase the DAC resolution of the analog channels. </p>
+<dl class="section return"><dt>Returns</dt><dd>int: error code </dd></dl>
+
+</div>
+</div>
+<a id="a4c44f79ec7523b353b9c1fbd08647bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c44f79ec7523b353b9c1fbd08647bdd">&#9670;&nbsp;</a></span>sequence_set_goto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def tektronix_awg70k.AWG70K.sequence_set_goto </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>goto</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>sequence_name: </td></tr>
+    <tr><td class="paramname">int</td><td>step: </td></tr>
+    <tr><td class="paramname">int</td><td>goto:</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int: error code </dd></dl>
+
+</div>
+</div>
+<a id="a6aa214291325a598fc603e7093533d5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa214291325a598fc603e7093533d5f">&#9670;&nbsp;</a></span>sequence_set_wait_trigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def tektronix_awg70k.AWG70K.sequence_set_wait_trigger </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>trigger</em> = <code>'OFF'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make a certain sequence step wait for a trigger to start playing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>sequence_name: Name of the sequence to be edited </td></tr>
+    <tr><td class="paramname">int</td><td>step: Sequence step to be edited </td></tr>
+    <tr><td class="paramname">str</td><td>trigger: Trigger string specifier. ('OFF', 'A', 'B' or 'INT')</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int: error code </dd></dl>
+
+</div>
+</div>
+<a id="a5997df621ef4b1363596ccbb434a10b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5997df621ef4b1363596ccbb434a10b4">&#9670;&nbsp;</a></span>sequence_set_waveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def tektronix_awg70k.AWG70K.sequence_set_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>waveform_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>track</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the waveform 'waveform_name' to position 'step' in the sequence 'sequence_name'. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>sequence_name: Name of the sequence which should be editted </td></tr>
+    <tr><td class="paramname">str</td><td>waveform_name: Name of the waveform which should be added </td></tr>
+    <tr><td class="paramname">int</td><td>step: Position of the added waveform </td></tr>
+    <tr><td class="paramname">int</td><td>track: track which should be editted</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int: error code </dd></dl>
 
 </div>
 </div>
@@ -1009,47 +1086,11 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>If nothing is passed then the command is being ignored.</p>
-<p>Note, the major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (denoted by an (absolute) voltage).</p>
-<p>In general there is not a bijective correspondence between (amplitude, offset) for analog and (value high, value low) for digital! </p>
-
-</div>
-</div>
-<a id="a2bb84cdafbe9e6e38e41fe8c5f75c66b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bb84cdafbe9e6e38e41fe8c5f75c66b">&#9670;&nbsp;</a></span>set_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.set_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>dir_path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Change the directory where the assets are stored on the device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">string</td><td>dir_path: The target directory</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts with the actual set values for amplitude and offset.</dd></dl>
+<p>If nothing is passed then the command will return two empty dicts.</p>
+<dl class="section note"><dt>Note</dt><dd>After setting the analog and/or offset of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
+<p>The major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (a value around which the signal oscillates, denoted by an (absolute) voltage).</p>
+<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
 
 </div>
 </div>
@@ -1093,9 +1134,11 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>If nothing is passed then the command is being ignored.</p>
-<p>Note, the major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
-<p>In general there is not a bijective correspondence between (amplitude, offset) for analog and (value high, value low) for digital! </p>
+<dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts where first dict denotes the current low value and the second dict the high value.</dd></dl>
+<p>If nothing is passed then the command will return two empty dicts.</p>
+<dl class="section note"><dt>Note</dt><dd>After setting the high and/or low values of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
+<p>The major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
+<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
 
 </div>
 </div>
@@ -1128,12 +1171,13 @@ Static Public Attributes</h2></td></tr>
 <p>Turns the interleave of an AWG on or off. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bool</td><td>state: The state the interleave should be set to (True: ON, False: OFF) </td></tr>
+    <tr><td class="paramname">bool</td><td>state: The state the interleave should be set to (True: ON, False: OFF)</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for pulse generator hardware other than an AWG. The AWG 5000 Series does not have an interleave mode and this method exists only for compability reasons. </p>
+<dl class="section return"><dt>Returns</dt><dd>bool: actual interleave status (True: ON, False: OFF)</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>After setting the interleave of the device, retrieve the interleave again and use that information for further processing.</dd></dl>
+<p>Unused for pulse generator hardware other than an AWG. </p>
 
 </div>
 </div>
@@ -1174,14 +1218,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a414dd3d9d11cb16b1a86e52983e05c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a414dd3d9d11cb16b1a86e52983e05c75">&#9670;&nbsp;</a></span>tell()</h2>
+<a id="ad1c89953a1f1bd04b8ed81646bb02922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1c89953a1f1bd04b8ed81646bb02922">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.tell </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.write </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1211,14 +1255,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a60c529f25722f48b76ab4bdb90abf851"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c529f25722f48b76ab4bdb90abf851">&#9670;&nbsp;</a></span>upload_asset()</h2>
+<a id="ae954cc758a088f50885f672ba718ff0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae954cc758a088f50885f672ba718ff0d">&#9670;&nbsp;</a></span>write_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def tektronix_awg70k.AWG70K.upload_asset </td>
+          <td class="memname">def tektronix_awg70k.AWG70K.write_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1227,7 +1271,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_parameter_list</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1237,16 +1287,15 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Upload an already hardware conform file to the device. </p>
-<p>Does NOT load it into channels.</p>
+<p>Write a new sequence on the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>name: name of the ensemble/sequence to be uploaded</td></tr>
+    <tr><td class="paramname">name</td><td>str, the name of the waveform to be created/append to </td></tr>
+    <tr><td class="paramname">sequence_parameter_list</td><td>list, contains the parameters for each sequence step and the according waveform names.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>If nothing is passed, method will be skipped. </p>
+<dl class="section return"><dt>Returns</dt><dd>: int, number of sequence steps written (-1 indicates failed process) </dd></dl>
 
 </div>
 </div>

@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classqtwidgets_1_1plotwidget__modified_1_1PlotWidgetModified.html" title="Extend the PlotWidget Class with more adjustment possibilities. " alt="" coords="141,5,336,46"/>
+<area shape="rect" id="node2" href="$classpulsed__item__delegates_1_1AnalogParametersItemDelegate.html" title="pulsed_item_delegates.Analog\lParametersItemDelegate" alt="" coords="202,5,401,46"/>
+<area shape="rect" id="node3" href="$classpulsed__item__delegates_1_1CheckBoxItemDelegate.html" title="pulsed_item_delegates.Check\lBoxItemDelegate" alt="" coords="203,70,400,111"/>
+<area shape="rect" id="node4" href="$classpulsed__item__delegates_1_1ComboBoxItemDelegate.html" title="pulsed_item_delegates.Combo\lBoxItemDelegate" alt="" coords="201,135,402,177"/>
+<area shape="rect" id="node5" href="$classpulsed__item__delegates_1_1DigitalStatesItemDelegate.html" title="pulsed_item_delegates.Digital\lStatesItemDelegate" alt="" coords="203,201,399,242"/>
+<area shape="rect" id="node6" href="$classpulsed__item__delegates_1_1ScienDSpinBoxItemDelegate.html" title="pulsed_item_delegates.Scien\lDSpinBoxItemDelegate" alt="" coords="205,266,397,307"/>
+<area shape="rect" id="node7" href="$classpulsed__item__delegates_1_1SpinBoxItemDelegate.html" title="pulsed_item_delegates.Spin\lBoxItemDelegate" alt="" coords="209,331,394,373"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wavemeterloggerlogic1',['wavemeterloggerlogic1',['../classwavemeterloggui_1_1WavemeterLogGui.html#af02148ad05de2e88b2a522b41f362fc2',1,'wavemeterloggui::WavemeterLogGui']]]
+  ['voltagescannerlogic1',['voltagescannerlogic1',['../classlaserscannergui_1_1VoltScanGui.html#a1e54f3c247fe823e8d79ad57b048dcdb',1,'laserscannergui::VoltScanGui']]]
 ];

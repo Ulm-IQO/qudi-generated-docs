@@ -1,9 +1,11 @@
 var searchData=
 [
   ['aboutdialog',['AboutDialog',['../classmanagergui_1_1AboutDialog.html',1,'managergui']]],
-  ['acqdata',['ACQDATA',['../classfastcomtecmcs6_1_1ACQDATA.html',1,'fastcomtecmcs6.ACQDATA'],['../classfastcomtecp7887_1_1ACQDATA.html',1,'fastcomtecp7887.ACQDATA']]],
+  ['acqdata',['ACQDATA',['../classfastcomtecp7887_1_1ACQDATA.html',1,'fastcomtecp7887.ACQDATA'],['../classfastcomtecmcs6_1_1ACQDATA.html',1,'fastcomtecmcs6.ACQDATA']]],
   ['acqsettings',['AcqSettings',['../classfastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtecmcs6.AcqSettings'],['../classfastcomtecp7887_1_1AcqSettings.html',1,'fastcomtecp7887.AcqSettings']]],
   ['acqstatus',['AcqStatus',['../classfastcomtecmcs6_1_1AcqStatus.html',1,'fastcomtecmcs6.AcqStatus'],['../classfastcomtecp7887_1_1AcqStatus.html',1,'fastcomtecp7887.AcqStatus']]],
+  ['analogparametersitemdelegate',['AnalogParametersItemDelegate',['../classpulsed__item__delegates_1_1AnalogParametersItemDelegate.html',1,'pulsed_item_delegates']]],
+  ['analogparameterswidget',['AnalogParametersWidget',['../classpulsed__custom__widgets_1_1AnalogParametersWidget.html',1,'pulsed_custom_widgets']]],
   ['analysissettingdialog',['AnalysisSettingDialog',['../classpulsed__maingui_1_1AnalysisSettingDialog.html',1,'pulsed_maingui']]],
   ['appwatchdog',['AppWatchdog',['../classcore_1_1____main_____1_1AppWatchdog.html',1,'core::__main__']]],
   ['aptmotor',['APTMotor',['../classaptmotor_1_1APTMotor.html',1,'aptmotor']]],

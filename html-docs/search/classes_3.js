@@ -2,7 +2,8 @@ var searchData=
 [
   ['cachingcompiler',['CachingCompiler',['../classcompilerop_1_1CachingCompiler.html',1,'compilerop']]],
   ['checkbox',['CheckBox',['../classqtwidgets_1_1checkbox_1_1CheckBox.html',1,'qtwidgets::checkbox']]],
-  ['checkboxdelegate',['CheckBoxDelegate',['../classcheckbox__delegate_1_1CheckBoxDelegate.html',1,'checkbox_delegate']]],
+  ['checkboxitemdelegate',['CheckBoxItemDelegate',['../classpulsed__item__delegates_1_1CheckBoxItemDelegate.html',1,'pulsed_item_delegates']]],
+  ['chirp',['Chirp',['../classbasic__sampling__functions_1_1Chirp.html',1,'basic_sampling_functions']]],
   ['colorbar',['ColorBar',['../classguiutils_1_1ColorBar.html',1,'guiutils']]],
   ['colorscale',['ColorScale',['../classcolordefs_1_1ColorScale.html',1,'colordefs']]],
   ['colorscaleinferno',['ColorScaleInferno',['../classcolordefs_1_1ColorScaleInferno.html',1,'colordefs']]],
@@ -10,7 +11,7 @@ var searchData=
   ['colorscaleplasma',['ColorScalePlasma',['../classcolordefs_1_1ColorScalePlasma.html',1,'colordefs']]],
   ['colorscalerainbow',['ColorScaleRainbow',['../classcolordefs_1_1ColorScaleRainbow.html',1,'colordefs']]],
   ['colorscaleviridis',['ColorScaleViridis',['../classcolordefs_1_1ColorScaleViridis.html',1,'colordefs']]],
-  ['comboboxdelegate',['ComboBoxDelegate',['../classcombobox__delegate_1_1ComboBoxDelegate.html',1,'combobox_delegate']]],
+  ['comboboxitemdelegate',['ComboBoxItemDelegate',['../classpulsed__item__delegates_1_1ComboBoxItemDelegate.html',1,'pulsed_item_delegates']]],
   ['configmainwindow',['ConfigMainWindow',['../classconfig__gui_1_1____main_____1_1ConfigMainWindow.html',1,'config_gui::__main__']]],
   ['configoption',['ConfigOption',['../classcore_1_1module_1_1ConfigOption.html',1,'core::module']]],
   ['confocalgui',['ConfocalGui',['../classconfocalgui_1_1ConfocalGui.html',1,'confocalgui']]],

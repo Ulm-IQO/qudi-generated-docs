@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['idle',['Idle',['../classbasic__sampling__functions_1_1Idle.html',1,'basic_sampling_functions']]],
   ['influxdataclient',['InfluxDataClient',['../classinflux__data__client_1_1InfluxDataClient.html',1,'influx_data_client']]],
   ['influxlogger',['InfluxLogger',['../classinflux__data__logger_1_1InfluxLogger.html',1,'influx_data_logger']]],
   ['inlinebackend',['InlineBackend',['../classconfig_1_1InlineBackend.html',1,'config']]],

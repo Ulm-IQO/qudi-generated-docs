@@ -65,7 +65,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classok__fpga__pulser_1_1OkFpgaPulser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ok_fpga_pulser.OkFpgaPulser Class Reference</div>  </div>
@@ -115,14 +114,17 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>on_deactivate</b> (sel
 <tr class="memitem:a8f7955c3b07421ef6dc4cd572f2f8b4a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a8f7955c3b07421ef6dc4cd572f2f8b4a">pulser_off</a> (self)</td></tr>
 <tr class="memdesc:a8f7955c3b07421ef6dc4cd572f2f8b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the pulsing device off.  <a href="#a8f7955c3b07421ef6dc4cd572f2f8b4a">More...</a><br /></td></tr>
 <tr class="separator:a8f7955c3b07421ef6dc4cd572f2f8b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d6b4ca1f9b28533c1ce5ab6c3baaab3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a8d6b4ca1f9b28533c1ce5ab6c3baaab3">upload_asset</a> (self, asset_name=None)</td></tr>
-<tr class="memdesc:a8d6b4ca1f9b28533c1ce5ab6c3baaab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload an already hardware conform file to the device.  <a href="#a8d6b4ca1f9b28533c1ce5ab6c3baaab3">More...</a><br /></td></tr>
-<tr class="separator:a8d6b4ca1f9b28533c1ce5ab6c3baaab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262bcc525af0f28ac5b0a5441462697e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a262bcc525af0f28ac5b0a5441462697e">load_asset</a> (self, asset_name, load_dict=None)</td></tr>
-<tr class="memdesc:a262bcc525af0f28ac5b0a5441462697e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence or waveform to the specified channel of the pulsing device.  <a href="#a262bcc525af0f28ac5b0a5441462697e">More...</a><br /></td></tr>
-<tr class="separator:a262bcc525af0f28ac5b0a5441462697e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b899e93f04b07c3559393897e8ebc1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a05b899e93f04b07c3559393897e8ebc1">load_waveform</a> (self, load_dict)</td></tr>
+<tr class="memdesc:a05b899e93f04b07c3559393897e8ebc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a waveform to the specified channel of the pulsing device.  <a href="#a05b899e93f04b07c3559393897e8ebc1">More...</a><br /></td></tr>
+<tr class="separator:a05b899e93f04b07c3559393897e8ebc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b66a15794f93b9d67c512c276ec75b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a92b66a15794f93b9d67c512c276ec75b">load_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:a92b66a15794f93b9d67c512c276ec75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence to the channels of the device in order to be ready for playback.  <a href="#a92b66a15794f93b9d67c512c276ec75b">More...</a><br /></td></tr>
+<tr class="separator:a92b66a15794f93b9d67c512c276ec75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0454f93823c7a28819ca63aea5b6380a"><td class="memItemLeft" align="right" valign="top"><a id="a0454f93823c7a28819ca63aea5b6380a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_loaded_assets</b> (self)</td></tr>
+<tr class="separator:a0454f93823c7a28819ca63aea5b6380a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3bb7ab15561eff734dbbd98e0139a48"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#ae3bb7ab15561eff734dbbd98e0139a48">clear_all</a> (self)</td></tr>
-<tr class="memdesc:ae3bb7ab15561eff734dbbd98e0139a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all loaded waveforms from the pulse generators RAM.  <a href="#ae3bb7ab15561eff734dbbd98e0139a48">More...</a><br /></td></tr>
+<tr class="memdesc:ae3bb7ab15561eff734dbbd98e0139a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all loaded waveforms from the pulse generators RAM/workspace.  <a href="#ae3bb7ab15561eff734dbbd98e0139a48">More...</a><br /></td></tr>
 <tr class="separator:ae3bb7ab15561eff734dbbd98e0139a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea46c1288fafe1fdc3d5e6a1f30fb6f1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#aea46c1288fafe1fdc3d5e6a1f30fb6f1">get_status</a> (self)</td></tr>
 <tr class="memdesc:aea46c1288fafe1fdc3d5e6a1f30fb6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the status of the pulsing hardware.  <a href="#aea46c1288fafe1fdc3d5e6a1f30fb6f1">More...</a><br /></td></tr>
@@ -137,50 +139,50 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>on_deactivate</b> (sel
 <tr class="memdesc:a9a15f42df9fc057ef52f083c786e3c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the analog amplitude and offset of the provided channels.  <a href="#a9a15f42df9fc057ef52f083c786e3c09">More...</a><br /></td></tr>
 <tr class="separator:a9a15f42df9fc057ef52f083c786e3c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc00bcae95835e7f0b96279c2cf2f3c8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#adc00bcae95835e7f0b96279c2cf2f3c8">set_analog_level</a> (self, amplitude=None, offset=None)</td></tr>
-<tr class="memdesc:adc00bcae95835e7f0b96279c2cf2f3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set amplitude and/or offset value of the provided analog channel.  <a href="#adc00bcae95835e7f0b96279c2cf2f3c8">More...</a><br /></td></tr>
+<tr class="memdesc:adc00bcae95835e7f0b96279c2cf2f3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set amplitude and/or offset value of the provided analog channel(s).  <a href="#adc00bcae95835e7f0b96279c2cf2f3c8">More...</a><br /></td></tr>
 <tr class="separator:adc00bcae95835e7f0b96279c2cf2f3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80997040d64c82bdb37cf4196b994499"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a80997040d64c82bdb37cf4196b994499">get_digital_level</a> (self, low=None, high=None)</td></tr>
-<tr class="memdesc:a80997040d64c82bdb37cf4196b994499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the digital low and high level of the provided channels.  <a href="#a80997040d64c82bdb37cf4196b994499">More...</a><br /></td></tr>
+<tr class="memdesc:a80997040d64c82bdb37cf4196b994499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the digital low and high level of the provided/all channels.  <a href="#a80997040d64c82bdb37cf4196b994499">More...</a><br /></td></tr>
 <tr class="separator:a80997040d64c82bdb37cf4196b994499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0cac447c488f97c2d91ad570ba3e104"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#ae0cac447c488f97c2d91ad570ba3e104">set_digital_level</a> (self, low=None, high=None)</td></tr>
 <tr class="memdesc:ae0cac447c488f97c2d91ad570ba3e104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set low and/or high value of the provided digital channel.  <a href="#ae0cac447c488f97c2d91ad570ba3e104">More...</a><br /></td></tr>
 <tr class="separator:ae0cac447c488f97c2d91ad570ba3e104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5340ddcaf82fb8c238c77f74004a33ae"><td class="memItemLeft" align="right" valign="top"><a id="a5340ddcaf82fb8c238c77f74004a33ae"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>get_active_channels</b> (self, ch=None)</td></tr>
+<tr class="memitem:a5340ddcaf82fb8c238c77f74004a33ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a5340ddcaf82fb8c238c77f74004a33ae">get_active_channels</a> (self, ch=None)</td></tr>
+<tr class="memdesc:a5340ddcaf82fb8c238c77f74004a33ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active channels of the pulse generator hardware.  <a href="#a5340ddcaf82fb8c238c77f74004a33ae">More...</a><br /></td></tr>
 <tr class="separator:a5340ddcaf82fb8c238c77f74004a33ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dee7dc8b6c32ce877754cf4defdcf7a"><td class="memItemLeft" align="right" valign="top"><a id="a5dee7dc8b6c32ce877754cf4defdcf7a"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>set_active_channels</b> (self, ch=None)</td></tr>
 <tr class="separator:a5dee7dc8b6c32ce877754cf4defdcf7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65279f846e650bb113a12d2f443b3298"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a65279f846e650bb113a12d2f443b3298">get_loaded_asset</a> (self)</td></tr>
-<tr class="memdesc:a65279f846e650bb113a12d2f443b3298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the currently loaded asset name of the device.  <a href="#a65279f846e650bb113a12d2f443b3298">More...</a><br /></td></tr>
-<tr class="separator:a65279f846e650bb113a12d2f443b3298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9438d4af1e79e24eafff90d382d44d3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#ab9438d4af1e79e24eafff90d382d44d3">get_uploaded_asset_names</a> (self)</td></tr>
-<tr class="memdesc:ab9438d4af1e79e24eafff90d382d44d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded assets on the device.  <a href="#ab9438d4af1e79e24eafff90d382d44d3">More...</a><br /></td></tr>
-<tr class="separator:ab9438d4af1e79e24eafff90d382d44d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcbbb6623bbb835e08a0a6a1039bec85"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#adcbbb6623bbb835e08a0a6a1039bec85">get_saved_asset_names</a> (self)</td></tr>
-<tr class="memdesc:adcbbb6623bbb835e08a0a6a1039bec85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all sampled and saved assets on the host PC.  <a href="#adcbbb6623bbb835e08a0a6a1039bec85">More...</a><br /></td></tr>
-<tr class="separator:adcbbb6623bbb835e08a0a6a1039bec85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba87ff3a1d67ddbbbf05025af6a8c648"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#aba87ff3a1d67ddbbbf05025af6a8c648">delete_asset</a> (self, asset_name)</td></tr>
-<tr class="memdesc:aba87ff3a1d67ddbbbf05025af6a8c648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete all files associated with an asset with the passed asset_name from the device memory.  <a href="#aba87ff3a1d67ddbbbf05025af6a8c648">More...</a><br /></td></tr>
-<tr class="separator:aba87ff3a1d67ddbbbf05025af6a8c648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acda3e15ea4b3ab4880d883b353337187"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#acda3e15ea4b3ab4880d883b353337187">set_asset_dir_on_device</a> (self, dir_path)</td></tr>
-<tr class="memdesc:acda3e15ea4b3ab4880d883b353337187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the directory where the assets are stored on the device.  <a href="#acda3e15ea4b3ab4880d883b353337187">More...</a><br /></td></tr>
-<tr class="separator:acda3e15ea4b3ab4880d883b353337187"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc277154543fdee82c88113fe14acea6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#afc277154543fdee82c88113fe14acea6">get_asset_dir_on_device</a> (self)</td></tr>
-<tr class="memdesc:afc277154543fdee82c88113fe14acea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask for the directory where the hardware conform files are stored on the device.  <a href="#afc277154543fdee82c88113fe14acea6">More...</a><br /></td></tr>
-<tr class="separator:afc277154543fdee82c88113fe14acea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9631a6a30410c76f1be6e2c68bf0bf"><td class="memItemLeft" align="right" valign="top"><a id="a1e9631a6a30410c76f1be6e2c68bf0bf"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_waveform</b> (self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples)</td></tr>
+<tr class="separator:a1e9631a6a30410c76f1be6e2c68bf0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1715c478d52b8cdeb8bddaf8c20f3e43"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a1715c478d52b8cdeb8bddaf8c20f3e43">write_sequence</a> (self, name, sequence_parameters)</td></tr>
+<tr class="memdesc:a1715c478d52b8cdeb8bddaf8c20f3e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a new sequence on the device memory.  <a href="#a1715c478d52b8cdeb8bddaf8c20f3e43">More...</a><br /></td></tr>
+<tr class="separator:a1715c478d52b8cdeb8bddaf8c20f3e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fc015b28c672e3446244142ac0cc4d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a28fc015b28c672e3446244142ac0cc4d">get_waveform_names</a> (self)</td></tr>
+<tr class="memdesc:a28fc015b28c672e3446244142ac0cc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded waveforms on the device.  <a href="#a28fc015b28c672e3446244142ac0cc4d">More...</a><br /></td></tr>
+<tr class="separator:a28fc015b28c672e3446244142ac0cc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510d0bbc2c4ca6ba48e33e0fadd5109f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a510d0bbc2c4ca6ba48e33e0fadd5109f">get_sequence_names</a> (self)</td></tr>
+<tr class="memdesc:a510d0bbc2c4ca6ba48e33e0fadd5109f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded sequence on the device.  <a href="#a510d0bbc2c4ca6ba48e33e0fadd5109f">More...</a><br /></td></tr>
+<tr class="separator:a510d0bbc2c4ca6ba48e33e0fadd5109f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc027d6cf5da997a6fb63f426fa291e0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#afc027d6cf5da997a6fb63f426fa291e0">delete_waveform</a> (self, waveform_name)</td></tr>
+<tr class="memdesc:afc027d6cf5da997a6fb63f426fa291e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the waveform with name "waveform_name" from the device memory.  <a href="#afc027d6cf5da997a6fb63f426fa291e0">More...</a><br /></td></tr>
+<tr class="separator:afc027d6cf5da997a6fb63f426fa291e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cc3d5d446b84793aa8291023800f90"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#ab8cc3d5d446b84793aa8291023800f90">delete_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:ab8cc3d5d446b84793aa8291023800f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the sequence with name "sequence_name" from the device memory.  <a href="#ab8cc3d5d446b84793aa8291023800f90">More...</a><br /></td></tr>
+<tr class="separator:ab8cc3d5d446b84793aa8291023800f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a4b55a3edecd65588d26ea1a1acdc98"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a0a4b55a3edecd65588d26ea1a1acdc98">get_interleave</a> (self)</td></tr>
 <tr class="memdesc:a0a4b55a3edecd65588d26ea1a1acdc98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether Interleave is ON or OFF in AWG.  <a href="#a0a4b55a3edecd65588d26ea1a1acdc98">More...</a><br /></td></tr>
 <tr class="separator:a0a4b55a3edecd65588d26ea1a1acdc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b4a3ffc01809a643651c9ef0ba78395"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a2b4a3ffc01809a643651c9ef0ba78395">set_interleave</a> (self, state=False)</td></tr>
 <tr class="memdesc:a2b4a3ffc01809a643651c9ef0ba78395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns the interleave of an AWG on or off.  <a href="#a2b4a3ffc01809a643651c9ef0ba78395">More...</a><br /></td></tr>
 <tr class="separator:a2b4a3ffc01809a643651c9ef0ba78395"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6cee284c859226785b9348b1f5400b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a2d6cee284c859226785b9348b1f5400b">tell</a> (self, command)</td></tr>
-<tr class="memdesc:a2d6cee284c859226785b9348b1f5400b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#a2d6cee284c859226785b9348b1f5400b">More...</a><br /></td></tr>
-<tr class="separator:a2d6cee284c859226785b9348b1f5400b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a829a38b3d603df1ee69e50e59c5d86cc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a829a38b3d603df1ee69e50e59c5d86cc">ask</a> (self, question)</td></tr>
-<tr class="memdesc:a829a38b3d603df1ee69e50e59c5d86cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a829a38b3d603df1ee69e50e59c5d86cc">More...</a><br /></td></tr>
-<tr class="separator:a829a38b3d603df1ee69e50e59c5d86cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7078584d93584bfa4d4b330e3a360f66"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a7078584d93584bfa4d4b330e3a360f66">write</a> (self, command)</td></tr>
+<tr class="memdesc:a7078584d93584bfa4d4b330e3a360f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#a7078584d93584bfa4d4b330e3a360f66">More...</a><br /></td></tr>
+<tr class="separator:a7078584d93584bfa4d4b330e3a360f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4971a310b44c8e8e61320fe84db5e28b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a4971a310b44c8e8e61320fe84db5e28b">query</a> (self, question=None)</td></tr>
+<tr class="memdesc:a4971a310b44c8e8e61320fe84db5e28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a4971a310b44c8e8e61320fe84db5e28b">More...</a><br /></td></tr>
+<tr class="separator:a4971a310b44c8e8e61320fe84db5e28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4797d664aec2265a20f25e5bcb144099"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classok__fpga__pulser_1_1OkFpgaPulser.html#a4797d664aec2265a20f25e5bcb144099">reset</a> (self)</td></tr>
 <tr class="memdesc:a4797d664aec2265a20f25e5bcb144099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the device.  <a href="#a4797d664aec2265a20f25e5bcb144099">More...</a><br /></td></tr>
 <tr class="separator:a4797d664aec2265a20f25e5bcb144099"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,24 +226,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9ea9df61355433f36c1499c161bc0364"><td class="memItemLeft" align="right" valign="top"><a id="a9ea9df61355433f36c1499c161bc0364"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>pulsed_file_dir</b></td></tr>
-<tr class="separator:a9ea9df61355433f36c1499c161bc0364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a315077e09e9fb682aa10204b8f0176e0"><td class="memItemLeft" align="right" valign="top"><a id="a315077e09e9fb682aa10204b8f0176e0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>host_waveform_directory</b></td></tr>
-<tr class="separator:a315077e09e9fb682aa10204b8f0176e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50888bf7748b585859b602f298e1186a"><td class="memItemLeft" align="right" valign="top"><a id="a50888bf7748b585859b602f298e1186a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_status</b></td></tr>
-<tr class="separator:a50888bf7748b585859b602f298e1186a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9811b0b4915f3861178d408c54b0744a"><td class="memItemLeft" align="right" valign="top"><a id="a9811b0b4915f3861178d408c54b0744a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sample_rate</b></td></tr>
-<tr class="separator:a9811b0b4915f3861178d408c54b0744a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a087243b65f5d9dad15a7e9777020a86d"><td class="memItemLeft" align="right" valign="top"><a id="a087243b65f5d9dad15a7e9777020a86d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_loaded_asset</b></td></tr>
-<tr class="separator:a087243b65f5d9dad15a7e9777020a86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee681790f7292138ec9fa516a4735f93"><td class="memItemLeft" align="right" valign="top"><a id="aee681790f7292138ec9fa516a4735f93"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>fpga</b></td></tr>
 <tr class="separator:aee681790f7292138ec9fa516a4735f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50888bf7748b585859b602f298e1186a"><td class="memItemLeft" align="right" valign="top"><a id="a50888bf7748b585859b602f298e1186a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>current_status</b></td></tr>
+<tr class="separator:a50888bf7748b585859b602f298e1186a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classcore_1_1module_1_1BaseMixin"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classcore_1_1module_1_1BaseMixin')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classcore_1_1module_1_1BaseMixin.html">core.module.BaseMixin</a></td></tr>
 <tr class="memitem:ae798a19db540fd6b0f70f82750b99fba inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="ae798a19db540fd6b0f70f82750b99fba"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>module_state</b></td></tr>
@@ -249,55 +239,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="ab6fc14182a8e42fc0804b848f4de3d24"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connectors</b></td></tr>
 <tr class="separator:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a785dc427d3b5bda0d518a4809316437d"><td class="memItemLeft" align="right" valign="top"><a id="a785dc427d3b5bda0d518a4809316437d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>fpga_serial</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('fpga_serial', missing='error')</td></tr>
-<tr class="separator:a785dc427d3b5bda0d518a4809316437d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Methods to control Pulse Generator running on OK FPGA. </p>
 <h2>Chan PIN </h2>
 <p>Ch1 A3 Ch2 C5 Ch3 D6 Ch4 B6 Ch5 C7 Ch6 B8 Ch7 D9 Ch8 C9 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a829a38b3d603df1ee69e50e59c5d86cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a829a38b3d603df1ee69e50e59c5d86cc">&#9670;&nbsp;</a></span>ask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.ask </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>question</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Asks the device a 'question' and receive and return an answer from it. </p>
-<p>a </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
-
-</div>
-</div>
 <a id="ae3bb7ab15561eff734dbbd98e0139a48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3bb7ab15561eff734dbbd98e0139a48">&#9670;&nbsp;</a></span>clear_all()</h2>
 
@@ -314,20 +261,19 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Clears all loaded waveforms from the pulse generators RAM. </p>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without storage capability (PulseBlaster, FPGA). </p>
+<p>Clears all loaded waveforms from the pulse generators RAM/workspace. </p>
+<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
 
 </div>
 </div>
-<a id="aba87ff3a1d67ddbbbf05025af6a8c648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba87ff3a1d67ddbbbf05025af6a8c648">&#9670;&nbsp;</a></span>delete_asset()</h2>
+<a id="ab8cc3d5d446b84793aa8291023800f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8cc3d5d446b84793aa8291023800f90">&#9670;&nbsp;</a></span>delete_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.delete_asset </td>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.delete_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -336,7 +282,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -346,15 +292,90 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delete all files associated with an asset with the passed asset_name from the device memory. </p>
+<p>Delete the sequence with name "sequence_name" from the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be deleted Optionally a list of asset names can be passed.</td></tr>
+    <tr><td class="paramname">str</td><td>sequence_name: The name of the sequence to be deleted Optionally a list of sequence names can be passed.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted sequence names. </dd></dl>
+
+</div>
+</div>
+<a id="afc027d6cf5da997a6fb63f426fa291e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc027d6cf5da997a6fb63f426fa291e0">&#9670;&nbsp;</a></span>delete_waveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.delete_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>waveform_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete the waveform with name "waveform_name" from the device memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>waveform_name: The name of the waveform to be deleted Optionally a list of waveform names can be passed.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted waveform names. </dd></dl>
+
+</div>
+</div>
+<a id="a5340ddcaf82fb8c238c77f74004a33ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5340ddcaf82fb8c238c77f74004a33ae">&#9670;&nbsp;</a></span>get_active_channels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_active_channels </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ch</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the active channels of the pulse generator hardware. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>ch: optional, if specific analog or digital channels are needed to be asked without obtaining all the channels.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dict: where keys denoting the channel string and items boolean expressions whether channel are active or not.</dd></dl>
+<p>Example for an possible input (order is not important): ch = ['a_ch2', 'd_ch2', 'a_ch1', 'd_ch5', 'd_ch1'] then the output might look like {'a_ch2': True, 'd_ch2': False, 'a_ch1': False, 'd_ch5': True, 'd_ch1': False}</p>
+<p>If no parameter (or None) is passed to this method all channel states will be returned. </p>
 
 </div>
 </div>
@@ -393,34 +414,15 @@ Static Public Attributes</h2></td></tr>
 <p>Retrieve the analog amplitude and offset of the provided channels. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">list</td><td>amplitude: optional, if a specific amplitude value (in Volt peak to peak, i.e. the full amplitude) of a channel is desired. </td></tr>
-    <tr><td class="paramname">list</td><td>offset: optional, if a specific high value (in Volt) of a channel is desired.</td></tr>
+    <tr><td class="paramname">list</td><td>amplitude: optional, if the amplitude value (in Volt peak to peak, i.e. the full amplitude) of a specific channel is desired. </td></tr>
+    <tr><td class="paramname">list</td><td>offset: optional, if the offset value (in Volt) of a specific channel is desired.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel number and items being the values for those channels. Amplitude is always denoted in Volt-peak-to-peak and Offset in (absolute) Voltage. </dd></dl>
-
-</div>
-</div>
-<a id="afc277154543fdee82c88113fe14acea6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc277154543fdee82c88113fe14acea6">&#9670;&nbsp;</a></span>get_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Ask for the directory where the hardware conform files are stored on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: The current file directory</dd></dl>
-<p>Unused for digital pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel descriptor string (i.e. 'a_ch1') and items being the values for those channels. Amplitude is always denoted in Volt-peak-to-peak and Offset in volts.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Do not return a saved amplitude and/or offset value but instead retrieve the current amplitude and/or offset directly from the device.</dd></dl>
+<p>If nothing (or None) is passed then the levels of all channels will be returned. If no analog channels are present in the device, return just empty dicts.</p>
+<p>Example of a possible input: amplitude = ['a_ch1', 'a_ch4'], offset = None to obtain the amplitude of channel 1 and 4 and the offset of all channels {'a_ch1': -0.5, 'a_ch4': 2.0} {'a_ch1': 0.0, 'a_ch2': 0.0, 'a_ch3': 1.0, 'a_ch4': 0.0} </p>
 
 </div>
 </div>
@@ -445,7 +447,7 @@ Static Public Attributes</h2></td></tr>
 <p>Provides all the constraints (e.g. sample_rate, amplitude, total_length_bins, channel_config, ...) related to the pulse generator hardware to the caller. </p><pre class="fragment">SEE PulserConstraints CLASS IN pulser_interface.py FOR AVAILABLE CONSTRAINTS!!!
 </pre><p>If you are not sure about the meaning, look in other hardware files to get an impression. If still additional constraints are needed, then they have to be added to the PulserConstraints class.</p>
 <p>Each scalar parameter is an ScalarConstraints object defined in cor.util.interfaces. Essentially it contains min/max values as well as min step size, default value and unit of the parameter.</p>
-<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_list&gt;, &lt;descriptor_str&gt;: &lt;channel_list&gt;, ...}</p>
+<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_set&gt;, &lt;descriptor_str&gt;: &lt;channel_set&gt;, ...}</p>
 <p>If the constraints cannot be set in the pulsing hardware (e.g. because it might have no sequence mode) just leave it out so that the default is used (only zeros). </p>
 
 </div>
@@ -482,20 +484,18 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the digital low and high level of the provided channels. </p>
+<p>Retrieve the digital low and high level of the provided/all channels. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">list</td><td>low: optional, if a specific low value (in Volt) of a channel is desired. </td></tr>
-    <tr><td class="paramname">list</td><td>high: optional, if a specific high value (in Volt) of a channel is desired.</td></tr>
+    <tr><td class="paramname">list</td><td>low: optional, if the low value (in Volt) of a specific channel is desired. </td></tr>
+    <tr><td class="paramname">list</td><td>high: optional, if the high value (in Volt) of a specific channel is desired.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel number and items being the values for those channels. Both low and high value of a channel is denoted in (absolute) Voltage.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel descriptor strings (i.e. 'd_ch1', 'd_ch2') and items being the values for those channels. Both low and high value of a channel is denoted in volts.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Do not return a saved low and/or high value but instead retrieve the current low and/or high value directly from the device.</dd></dl>
-<p>If no entries provided then the levels of all channels where simply returned. If no digital channels provided, return just an empty dict.</p>
-<p>Example of a possible input: low = [1,4] to obtain the low voltage values of digital channel 1 an 4. A possible answer might be {1: -0.5, 4: 2.0} {} since no high request was performed.</p>
-<p>The major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
-<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
+<p>If nothing (or None) is passed then the levels of all channels are being returned. If no digital channels are present, return just an empty dict.</p>
+<p>Example of a possible input: low = ['d_ch1', 'd_ch4'] to obtain the low voltage values of digital channel 1 an 4. A possible answer might be {'d_ch1': -0.5, 'd_ch4': 2.0} {'d_ch1': 1.0, 'd_ch2': 1.0, 'd_ch3': 1.0, 'd_ch4': 4.0} Since no high request was performed, the high values for ALL channels are returned (here 4). </p>
 
 </div>
 </div>
@@ -517,28 +517,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Check whether Interleave is ON or OFF in AWG. </p>
 <dl class="section return"><dt>Returns</dt><dd>bool: True: ON, False: OFF</dd></dl>
-<p>Unused for pulse generator hardware other than an AWG. </p>
-
-</div>
-</div>
-<a id="a65279f846e650bb113a12d2f443b3298"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65279f846e650bb113a12d2f443b3298">&#9670;&nbsp;</a></span>get_loaded_asset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_loaded_asset </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Retrieve the currently loaded asset name of the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: Name of the current asset, that can be either a filename a waveform, a sequence ect. </dd></dl>
+<p>Will always return False for pulse generator hardware without interleave. </p>
 
 </div>
 </div>
@@ -559,19 +538,18 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the sample rate of the pulse generator hardware. </p>
-<dl class="section return"><dt>Returns</dt><dd>float: The current sample rate of the device (in Hz)</dd></dl>
-<p>Do not return a saved sample rate in a class variable, but instead retrieve the current sample rate directly from the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>float: The current sample rate of the device (in Hz) </dd></dl>
 
 </div>
 </div>
-<a id="adcbbb6623bbb835e08a0a6a1039bec85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcbbb6623bbb835e08a0a6a1039bec85">&#9670;&nbsp;</a></span>get_saved_asset_names()</h2>
+<a id="a510d0bbc2c4ca6ba48e33e0fadd5109f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a510d0bbc2c4ca6ba48e33e0fadd5109f">&#9670;&nbsp;</a></span>get_sequence_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_saved_asset_names </td>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_sequence_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -580,9 +558,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all sampled and saved assets on the host PC. </p>
-<p>This is no list of the file names.</p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all saved asset name strings in the current directory of the host PC. </dd></dl>
+<p>Retrieve the names of all uploaded sequence on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded sequence name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -607,14 +584,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9438d4af1e79e24eafff90d382d44d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9438d4af1e79e24eafff90d382d44d3">&#9670;&nbsp;</a></span>get_uploaded_asset_names()</h2>
+<a id="a28fc015b28c672e3446244142ac0cc4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28fc015b28c672e3446244142ac0cc4d">&#9670;&nbsp;</a></span>get_waveform_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_uploaded_asset_names </td>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.get_waveform_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -623,9 +600,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all uploaded assets on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded asset name strings in the current device directory. This is no list of the file names.</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<p>Retrieve the names of all uploaded waveforms on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded waveform name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -650,14 +626,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a262bcc525af0f28ac5b0a5441462697e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a262bcc525af0f28ac5b0a5441462697e">&#9670;&nbsp;</a></span>load_asset()</h2>
+<a id="a92b66a15794f93b9d67c512c276ec75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b66a15794f93b9d67c512c276ec75b">&#9670;&nbsp;</a></span>load_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.load_asset </td>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.load_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -666,13 +642,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>load_dict</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -682,16 +652,53 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads a sequence or waveform to the specified channel of the pulsing device. </p>
+<p>Loads a sequence to the channels of the device in order to be ready for playback. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the sequence from the device workspace into the channels. For a device without mass memory this will make the waveform/pattern that has been previously written with self.write_waveform ready to play.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be loaded</td></tr>
-    <tr><td class="paramname">dict</td><td>load_dict: a dictionary with keys being one of the available channel numbers and items being the name of the already sampled waveform/sequence files. Examples {1: rabi_Ch1, 2: rabi_Ch2} {1: rabi_Ch2, 2: rabi_Ch1} This parameter is optional. If none is given then the channel association is invoked from the sequence generation, i.e. the filename appendix (_Ch1, _Ch2 etc.)</td></tr>
+    <tr><td class="paramname">sequence_name</td><td>dict|list, a dictionary with keys being one of the available channel index and values being the name of the already written waveform to load into the channel. Examples {1: rabi_ch1, 2: rabi_ch2} or {1: rabi_ch2, 2: rabi_ch1} If just a list of waveform names if given, the channel association will be invoked from the channel suffix '_ch1', '_ch2' etc.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>dict: Dictionary containing the actually loaded waveforms per channel. </dd></dl>
+
+</div>
+</div>
+<a id="a05b899e93f04b07c3559393897e8ebc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b899e93f04b07c3559393897e8ebc1">&#9670;&nbsp;</a></span>load_waveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.load_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>load_dict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a waveform to the specified channel of the pulsing device. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the waveform from the device workspace into the channel. For a device without mass memory this will make the waveform/pattern that has been previously written with self.write_waveform ready to play.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">load_dict</td><td>dict|list, a dictionary with keys being one of the available channel index and values being the name of the already written waveform to load into the channel. Examples {1: rabi_ch1, 2: rabi_ch2} or {1: rabi_ch2, 2: rabi_ch1} If just a list of waveform names if given, the channel association will be invoked from the channel suffix '_ch1', '_ch2' etc.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dict: Dictionary containing the actually loaded waveforms per channel. </dd></dl>
 
 </div>
 </div>
@@ -734,6 +741,43 @@ Static Public Attributes</h2></td></tr>
 
 <p>Switches the pulsing device on. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
+
+</div>
+</div>
+<a id="a4971a310b44c8e8e61320fe84db5e28b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4971a310b44c8e8e61320fe84db5e28b">&#9670;&nbsp;</a></span>query()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.query </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>question</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asks the device a 'question' and receive and return an answer from it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
 
 </div>
 </div>
@@ -790,54 +834,17 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set amplitude and/or offset value of the provided analog channel. </p>
+<p>Set amplitude and/or offset value of the provided analog channel(s). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dict</td><td>amplitude: dictionary, with key being the channel and items being the amplitude values (in Volt peak to peak, i.e. the full amplitude) for the desired channel. </td></tr>
-    <tr><td class="paramname">dict</td><td>offset: dictionary, with key being the channel and items being the offset values (in absolute volt) for the desired channel.</td></tr>
+    <tr><td class="paramname">dict</td><td>amplitude: dictionary, with key being the channel descriptor string (i.e. 'a_ch1', 'a_ch2') and items being the amplitude values (in Volt peak to peak, i.e. the full amplitude) for the desired channel. </td></tr>
+    <tr><td class="paramname">dict</td><td>offset: dictionary, with key being the channel descriptor string (i.e. 'a_ch1', 'a_ch2') and items being the offset values (in absolute volt) for the desired channel.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts with the actual set values for amplitude and offset.</dd></dl>
-<p>If nothing is passed then the command will return two empty dicts. </p>
-
-</div>
-</div>
-<a id="acda3e15ea4b3ab4880d883b353337187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acda3e15ea4b3ab4880d883b353337187">&#9670;&nbsp;</a></span>set_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.set_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>dir_path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Change the directory where the assets are stored on the device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>dir_path: The target directory</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts with the actual set values for amplitude and offset for ALL channels.</dd></dl>
+<p>If nothing is passed then the command will return the current amplitudes/offsets.</p>
+<dl class="section note"><dt>Note</dt><dd>After setting the amplitude and/or offset values of the device, use the actual set return values for further processing. </dd></dl>
 
 </div>
 </div>
@@ -876,16 +883,14 @@ Static Public Attributes</h2></td></tr>
 <p>Set low and/or high value of the provided digital channel. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dict</td><td>low: dictionary, with key being the channel and items being the low values (in volt) for the desired channel. </td></tr>
-    <tr><td class="paramname">dict</td><td>high: dictionary, with key being the channel and items being the high values (in volt) for the desired channel.</td></tr>
+    <tr><td class="paramname">dict</td><td>low: dictionary, with key being the channel descriptor string (i.e. 'd_ch1', 'd_ch2') and items being the low values (in volt) for the desired channel. </td></tr>
+    <tr><td class="paramname">dict</td><td>high: dictionary, with key being the channel descriptor string (i.e. 'd_ch1', 'd_ch2') and items being the high values (in volt) for the desired channel.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts where first dict denotes the current low value and the second dict the high value.</dd></dl>
-<p>If nothing is passed then the command will return two empty dicts.</p>
-<dl class="section note"><dt>Note</dt><dd>After setting the high and/or low values of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
-<p>The major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
-<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
+<dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts where first dict denotes the current low value and the second dict the high value for ALL digital channels. Keys are the channel descriptor strings (i.e. 'd_ch1', 'd_ch2')</dd></dl>
+<p>If nothing is passed then the command will return the current voltage levels.</p>
+<dl class="section note"><dt>Note</dt><dd>After setting the high and/or low values of the device, use the actual set return values for further processing. </dd></dl>
 
 </div>
 </div>
@@ -961,19 +966,19 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>float: the sample rate returned from the device.</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>After setting the sampling rate of the device, retrieve it again for obtaining the actual set value and use that information for further processing. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float: the sample rate returned from the device (in Hz).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>After setting the sampling rate of the device, use the actually set return value for further processing. </dd></dl>
 
 </div>
 </div>
-<a id="a2d6cee284c859226785b9348b1f5400b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6cee284c859226785b9348b1f5400b">&#9670;&nbsp;</a></span>tell()</h2>
+<a id="a7078584d93584bfa4d4b330e3a360f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7078584d93584bfa4d4b330e3a360f66">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.tell </td>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.write </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1003,14 +1008,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d6b4ca1f9b28533c1ce5ab6c3baaab3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d6b4ca1f9b28533c1ce5ab6c3baaab3">&#9670;&nbsp;</a></span>upload_asset()</h2>
+<a id="a1715c478d52b8cdeb8bddaf8c20f3e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1715c478d52b8cdeb8bddaf8c20f3e43">&#9670;&nbsp;</a></span>write_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.upload_asset </td>
+          <td class="memname">def ok_fpga_pulser.OkFpgaPulser.write_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1019,7 +1024,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_parameters</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1029,15 +1040,15 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Upload an already hardware conform file to the device. </p>
-<p>Does NOT load it into channels.</p>
+<p>Write a new sequence on the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>string, name of the ensemble/seqeunce to be uploaded</td></tr>
+    <tr><td class="paramname">name</td><td>str, the name of the waveform to be created/append to </td></tr>
+    <tr><td class="paramname">sequence_parameters</td><td>dict, dictionary containing the parameters for a sequence</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>: int, number of sequence steps written (-1 indicates failed process) </dd></dl>
 
 </div>
 </div>

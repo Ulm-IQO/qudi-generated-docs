@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcolordefs_1_1QudiPalette.html" title="Qudi saturated color palette. " alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$classbasic__sampling__functions_1_1Chirp.html" title="Object representing a chirp element. " alt="" coords="171,5,347,46"/>
+<area shape="rect" id="node3" href="$classbasic__sampling__functions_1_1DC.html" title="Object representing an DC element (constant voltage) " alt="" coords="161,71,357,97"/>
+<area shape="rect" id="node4" href="$classbasic__sampling__functions_1_1DoubleSin.html" title="Object representing a double sine wave element (Superposition of two sine waves; NOT normalized) ..." alt="" coords="171,122,347,163"/>
+<area shape="rect" id="node5" href="$classbasic__sampling__functions_1_1Idle.html" title="Object representing an idle element (zero voltage) " alt="" coords="160,188,357,215"/>
+<area shape="rect" id="node6" href="$classbasic__sampling__functions_1_1Sin.html" title="Object representing a sine wave element. " alt="" coords="161,239,356,265"/>
+<area shape="rect" id="node7" href="$classbasic__sampling__functions_1_1TripleSin.html" title="basic_sampling_functions.\lTripleSin" alt="" coords="171,290,347,331"/>
 </map>

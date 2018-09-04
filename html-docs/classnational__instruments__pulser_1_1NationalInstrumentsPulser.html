@@ -160,8 +160,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a4be651c1d9018b86bfc4668227148a04"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnational__instruments__pulser_1_1NationalInstrumentsPulser.html#a4be651c1d9018b86bfc4668227148a04">get_active_channels</a> (self, ch=None)</td></tr>
 <tr class="memdesc:a4be651c1d9018b86bfc4668227148a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active channels of the pulse generator hardware.  <a href="#a4be651c1d9018b86bfc4668227148a04">More...</a><br /></td></tr>
 <tr class="separator:a4be651c1d9018b86bfc4668227148a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d1a4829076f2582e8ae0ff6472c10b6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnational__instruments__pulser_1_1NationalInstrumentsPulser.html#a0d1a4829076f2582e8ae0ff6472c10b6">set_active_channels</a> (self, ch=None)</td></tr>
-<tr class="memdesc:a0d1a4829076f2582e8ae0ff6472c10b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active channels for the pulse generator hardware.  <a href="#a0d1a4829076f2582e8ae0ff6472c10b6">More...</a><br /></td></tr>
+<tr class="memitem:a0d1a4829076f2582e8ae0ff6472c10b6"><td class="memItemLeft" align="right" valign="top"><a id="a0d1a4829076f2582e8ae0ff6472c10b6"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_active_channels</b> (self, ch=None)</td></tr>
 <tr class="separator:a0d1a4829076f2582e8ae0ff6472c10b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70c875807358f9ba88678788f1500dad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnational__instruments__pulser_1_1NationalInstrumentsPulser.html#a70c875807358f9ba88678788f1500dad">get_uploaded_asset_names</a> (self)</td></tr>
 <tr class="memdesc:a70c875807358f9ba88678788f1500dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded assets on the device.  <a href="#a70c875807358f9ba88678788f1500dad">More...</a><br /></td></tr>
@@ -863,48 +863,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reset the device. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="a0d1a4829076f2582e8ae0ff6472c10b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d1a4829076f2582e8ae0ff6472c10b6">&#9670;&nbsp;</a></span>set_active_channels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def national_instruments_pulser.NationalInstrumentsPulser.set_active_channels </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ch</em> = <code>None</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the active channels for the pulse generator hardware. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dict</td><td>ch: dictionary with keys being the analog or digital string generic names for the channels (i.e. 'd_ch1', 'a_ch2') with values being a boolean value. True Activate channel, False: Deactivate channel <pre class="fragment">@return dict: with the actual set values for ALL active analog and digital channels
-
-If nothing is passed then the command will simply return the unchanged current state.
-</pre></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>After setting the active channels of the device, use the returned dict for further processing.</dd></dl>
-<p>Example for possible input: ch True, 'd_ch1': False, 'd_ch3': True, 'd_ch4': True} to activate analog channel 2 digital channel 3 and 4 and to deactivate digital channel 1.</p>
-<p>The hardware itself has to handle, whether separate channel activation is possible. </p>
 
 </div>
 </div>

@@ -64,32 +64,70 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classsampling__functions_1_1SamplingFunctions-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">sampling_functions.SamplingFunctions Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Collection of mathematical functions used for sampling of the pulse sequences.  
- <a href="classsampling__functions_1_1SamplingFunctions.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa81b5c210d8cbe8b08b8f913e91fdf62"><td class="memItemLeft" align="right" valign="top"><a id="aa81b5c210d8cbe8b08b8f913e91fdf62"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self)</td></tr>
-<tr class="separator:aa81b5c210d8cbe8b08b8f913e91fdf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b4955445f51ebe9202f5fed1be89b1"><td class="memItemLeft" align="right" valign="top"><a id="ac8b4955445f51ebe9202f5fed1be89b1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>import_sampling_functions</b> (cls, path_list)</td></tr>
+<tr class="separator:ac8b4955445f51ebe9202f5fed1be89b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a2d140df90619df19b4146fa72b3ed8a9"><td class="memItemLeft" align="right" valign="top"><a id="a2d140df90619df19b4146fa72b3ed8a9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>func_config</b></td></tr>
-<tr class="separator:a2d140df90619df19b4146fa72b3ed8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae40b92eb89292a90c5b6cd8e3d77bf42"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsampling__functions_1_1SamplingFunctions.html#ae40b92eb89292a90c5b6cd8e3d77bf42">is_sampling_function_class</a> (obj)</td></tr>
+<tr class="memdesc:ae40b92eb89292a90c5b6cd8e3d77bf42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to check if an object is a valid sampling function class.  <a href="#ae40b92eb89292a90c5b6cd8e3d77bf42">More...</a><br /></td></tr>
+<tr class="separator:ae40b92eb89292a90c5b6cd8e3d77bf42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ab101bfd746b40bc87cf1587b833b8852"><td class="memItemLeft" align="right" valign="top"><a id="ab101bfd746b40bc87cf1587b833b8852"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>parameters</b> = dict()</td></tr>
+<tr class="separator:ab101bfd746b40bc87cf1587b833b8852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Collection of mathematical functions used for sampling of the pulse sequences. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>logic/sampling_functions.py</li>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae40b92eb89292a90c5b6cd8e3d77bf42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae40b92eb89292a90c5b6cd8e3d77bf42">&#9670;&nbsp;</a></span>is_sampling_function_class()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sampling_functions.SamplingFunctions.is_sampling_function_class </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper method to check if an object is a valid sampling function class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>obj: object to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool: True if obj is a valid sampling function class, False otherwise </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>logic/pulsed/sampling_functions.py</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

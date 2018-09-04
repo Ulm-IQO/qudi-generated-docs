@@ -65,6 +65,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classpulser__dummy_1_1PulserDummy-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">pulser_dummy.PulserDummy Class Reference</div>  </div>
@@ -116,19 +117,33 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a19ea2b00f645d45cb611df6b703e3634"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a19ea2b00f645d45cb611df6b703e3634">pulser_off</a> (self)</td></tr>
 <tr class="memdesc:a19ea2b00f645d45cb611df6b703e3634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the pulsing device off.  <a href="#a19ea2b00f645d45cb611df6b703e3634">More...</a><br /></td></tr>
 <tr class="separator:a19ea2b00f645d45cb611df6b703e3634"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3358058e6c972c6139c37bc750b3d7c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#af3358058e6c972c6139c37bc750b3d7c">direct_write_ensemble</a> (self, ensemble_name, analog_samples, digital_samples)</td></tr>
-<tr class="separator:af3358058e6c972c6139c37bc750b3d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04643226a378a5c41d2b013ad084eaa4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a04643226a378a5c41d2b013ad084eaa4">direct_write_sequence</a> (self, sequence_name, sequence_params)</td></tr>
-<tr class="separator:a04643226a378a5c41d2b013ad084eaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73fe146041f9c300708f093be444ad26"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a73fe146041f9c300708f093be444ad26">upload_asset</a> (self, asset_name=None)</td></tr>
-<tr class="memdesc:a73fe146041f9c300708f093be444ad26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload an already hardware conform file to the device.  <a href="#a73fe146041f9c300708f093be444ad26">More...</a><br /></td></tr>
-<tr class="separator:a73fe146041f9c300708f093be444ad26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8811dcc384f189d02ec67a9255d5879"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#ac8811dcc384f189d02ec67a9255d5879">load_asset</a> (self, asset_name, load_dict=None)</td></tr>
-<tr class="memdesc:ac8811dcc384f189d02ec67a9255d5879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence or waveform to the specified channel of the pulsing device.  <a href="#ac8811dcc384f189d02ec67a9255d5879">More...</a><br /></td></tr>
-<tr class="separator:ac8811dcc384f189d02ec67a9255d5879"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2128e92d8c188a9c662e21b478b6ea16"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a2128e92d8c188a9c662e21b478b6ea16">get_loaded_asset</a> (self)</td></tr>
-<tr class="memdesc:a2128e92d8c188a9c662e21b478b6ea16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the currently loaded asset name of the device.  <a href="#a2128e92d8c188a9c662e21b478b6ea16">More...</a><br /></td></tr>
-<tr class="separator:a2128e92d8c188a9c662e21b478b6ea16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0d6afb79394fa68e7ebff900a93e6d"><td class="memItemLeft" align="right" valign="top"><a id="abc0d6afb79394fa68e7ebff900a93e6d"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_waveform</b> (self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples)</td></tr>
+<tr class="separator:abc0d6afb79394fa68e7ebff900a93e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8f7cb0e74fa02cf2c1ecce0fa83745"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a6c8f7cb0e74fa02cf2c1ecce0fa83745">write_sequence</a> (self, name, sequence_parameter_list)</td></tr>
+<tr class="memdesc:a6c8f7cb0e74fa02cf2c1ecce0fa83745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a new sequence on the device memory.  <a href="#a6c8f7cb0e74fa02cf2c1ecce0fa83745">More...</a><br /></td></tr>
+<tr class="separator:a6c8f7cb0e74fa02cf2c1ecce0fa83745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e6aa58ffe63a6a11c1f417c3a03dd7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#ac9e6aa58ffe63a6a11c1f417c3a03dd7">get_waveform_names</a> (self)</td></tr>
+<tr class="memdesc:ac9e6aa58ffe63a6a11c1f417c3a03dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded waveforms on the device.  <a href="#ac9e6aa58ffe63a6a11c1f417c3a03dd7">More...</a><br /></td></tr>
+<tr class="separator:ac9e6aa58ffe63a6a11c1f417c3a03dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835ae3e48977d539530725bb055fd4de"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a835ae3e48977d539530725bb055fd4de">get_sequence_names</a> (self)</td></tr>
+<tr class="memdesc:a835ae3e48977d539530725bb055fd4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded sequence on the device.  <a href="#a835ae3e48977d539530725bb055fd4de">More...</a><br /></td></tr>
+<tr class="separator:a835ae3e48977d539530725bb055fd4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c0e497f055a91b683809d26bd35c31d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a0c0e497f055a91b683809d26bd35c31d">delete_waveform</a> (self, waveform_name)</td></tr>
+<tr class="memdesc:a0c0e497f055a91b683809d26bd35c31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the waveform with name "waveform_name" from the device memory.  <a href="#a0c0e497f055a91b683809d26bd35c31d">More...</a><br /></td></tr>
+<tr class="separator:a0c0e497f055a91b683809d26bd35c31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd2510ae51d4412cf967de4e524cc8f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a2dd2510ae51d4412cf967de4e524cc8f">delete_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:a2dd2510ae51d4412cf967de4e524cc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the sequence with name "sequence_name" from the device memory.  <a href="#a2dd2510ae51d4412cf967de4e524cc8f">More...</a><br /></td></tr>
+<tr class="separator:a2dd2510ae51d4412cf967de4e524cc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23b6450a08b9543d5137e3b5e5db9546"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a23b6450a08b9543d5137e3b5e5db9546">load_waveform</a> (self, load_dict)</td></tr>
+<tr class="memdesc:a23b6450a08b9543d5137e3b5e5db9546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a waveform to the specified channel of the pulsing device.  <a href="#a23b6450a08b9543d5137e3b5e5db9546">More...</a><br /></td></tr>
+<tr class="separator:a23b6450a08b9543d5137e3b5e5db9546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3339333b91437d6cb962bb7d45f3e20b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a3339333b91437d6cb962bb7d45f3e20b">load_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:a3339333b91437d6cb962bb7d45f3e20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence to the channels of the device in order to be ready for playback.  <a href="#a3339333b91437d6cb962bb7d45f3e20b">More...</a><br /></td></tr>
+<tr class="separator:a3339333b91437d6cb962bb7d45f3e20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a92cf37e84769d3b5b66e6225646aa"><td class="memItemLeft" align="right" valign="top"><a id="a91a92cf37e84769d3b5b66e6225646aa"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_loaded_assets</b> (self)</td></tr>
+<tr class="separator:a91a92cf37e84769d3b5b66e6225646aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f647e3b675856ff6dd162caebea7779"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a2f647e3b675856ff6dd162caebea7779">clear_all</a> (self)</td></tr>
 <tr class="memdesc:a2f647e3b675856ff6dd162caebea7779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all loaded waveform from the pulse generators RAM.  <a href="#a2f647e3b675856ff6dd162caebea7779">More...</a><br /></td></tr>
 <tr class="separator:a2f647e3b675856ff6dd162caebea7779"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,36 +171,21 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a4272ee48a5b7a433309e9cf0ac2c1efd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a4272ee48a5b7a433309e9cf0ac2c1efd">get_active_channels</a> (self, ch=None)</td></tr>
 <tr class="memdesc:a4272ee48a5b7a433309e9cf0ac2c1efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active channels of the pulse generator hardware.  <a href="#a4272ee48a5b7a433309e9cf0ac2c1efd">More...</a><br /></td></tr>
 <tr class="separator:a4272ee48a5b7a433309e9cf0ac2c1efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b681a7418742f04a9a63c76be9df8d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a04b681a7418742f04a9a63c76be9df8d">set_active_channels</a> (self, ch=None)</td></tr>
-<tr class="memdesc:a04b681a7418742f04a9a63c76be9df8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active channels for the pulse generator hardware.  <a href="#a04b681a7418742f04a9a63c76be9df8d">More...</a><br /></td></tr>
+<tr class="memitem:a04b681a7418742f04a9a63c76be9df8d"><td class="memItemLeft" align="right" valign="top"><a id="a04b681a7418742f04a9a63c76be9df8d"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_active_channels</b> (self, ch=None)</td></tr>
 <tr class="separator:a04b681a7418742f04a9a63c76be9df8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab860a06bf12119b8c761b2ad504876b7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#ab860a06bf12119b8c761b2ad504876b7">get_uploaded_asset_names</a> (self)</td></tr>
-<tr class="memdesc:ab860a06bf12119b8c761b2ad504876b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded assets on the device.  <a href="#ab860a06bf12119b8c761b2ad504876b7">More...</a><br /></td></tr>
-<tr class="separator:ab860a06bf12119b8c761b2ad504876b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a649809b1c4a3a7371422ec6ea5257736"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a649809b1c4a3a7371422ec6ea5257736">get_saved_asset_names</a> (self)</td></tr>
-<tr class="memdesc:a649809b1c4a3a7371422ec6ea5257736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all sampled and saved assets on the host PC.  <a href="#a649809b1c4a3a7371422ec6ea5257736">More...</a><br /></td></tr>
-<tr class="separator:a649809b1c4a3a7371422ec6ea5257736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddd1f3b2cd385aa0e78364ef719daae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a0ddd1f3b2cd385aa0e78364ef719daae">delete_asset</a> (self, asset_name)</td></tr>
-<tr class="memdesc:a0ddd1f3b2cd385aa0e78364ef719daae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete all files associated with an asset with the passed asset_name from the device memory.  <a href="#a0ddd1f3b2cd385aa0e78364ef719daae">More...</a><br /></td></tr>
-<tr class="separator:a0ddd1f3b2cd385aa0e78364ef719daae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9351d9f6c4c10574376b7e801257aa98"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a9351d9f6c4c10574376b7e801257aa98">set_asset_dir_on_device</a> (self, dir_path)</td></tr>
-<tr class="memdesc:a9351d9f6c4c10574376b7e801257aa98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the directory where the assets are stored on the device.  <a href="#a9351d9f6c4c10574376b7e801257aa98">More...</a><br /></td></tr>
-<tr class="separator:a9351d9f6c4c10574376b7e801257aa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a274a65c93ee2a8c2dbb685ade71e0223"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a274a65c93ee2a8c2dbb685ade71e0223">get_asset_dir_on_device</a> (self)</td></tr>
-<tr class="memdesc:a274a65c93ee2a8c2dbb685ade71e0223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask for the directory where the hardware conform files are stored on the device.  <a href="#a274a65c93ee2a8c2dbb685ade71e0223">More...</a><br /></td></tr>
-<tr class="separator:a274a65c93ee2a8c2dbb685ade71e0223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98ffa6aa89d3aadf6a69e69fff1cb220"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a98ffa6aa89d3aadf6a69e69fff1cb220">get_interleave</a> (self)</td></tr>
 <tr class="memdesc:a98ffa6aa89d3aadf6a69e69fff1cb220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether Interleave is ON or OFF in AWG.  <a href="#a98ffa6aa89d3aadf6a69e69fff1cb220">More...</a><br /></td></tr>
 <tr class="separator:a98ffa6aa89d3aadf6a69e69fff1cb220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b38564dec2e7ac94b8cefe6effebfef"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a7b38564dec2e7ac94b8cefe6effebfef">set_interleave</a> (self, state=False)</td></tr>
 <tr class="memdesc:a7b38564dec2e7ac94b8cefe6effebfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns the interleave of an AWG on or off.  <a href="#a7b38564dec2e7ac94b8cefe6effebfef">More...</a><br /></td></tr>
 <tr class="separator:a7b38564dec2e7ac94b8cefe6effebfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad09b33e50390548fbe4fda5dc212be85"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#ad09b33e50390548fbe4fda5dc212be85">tell</a> (self, command)</td></tr>
-<tr class="memdesc:ad09b33e50390548fbe4fda5dc212be85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#ad09b33e50390548fbe4fda5dc212be85">More...</a><br /></td></tr>
-<tr class="separator:ad09b33e50390548fbe4fda5dc212be85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a241f5fb5decfe8cf4c4c7b43b41e20e1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a241f5fb5decfe8cf4c4c7b43b41e20e1">ask</a> (self, question)</td></tr>
-<tr class="memdesc:a241f5fb5decfe8cf4c4c7b43b41e20e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a241f5fb5decfe8cf4c4c7b43b41e20e1">More...</a><br /></td></tr>
-<tr class="separator:a241f5fb5decfe8cf4c4c7b43b41e20e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24d88b366e1b91f1cfcc3a14562cc09"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#ae24d88b366e1b91f1cfcc3a14562cc09">write</a> (self, command)</td></tr>
+<tr class="memdesc:ae24d88b366e1b91f1cfcc3a14562cc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#ae24d88b366e1b91f1cfcc3a14562cc09">More...</a><br /></td></tr>
+<tr class="separator:ae24d88b366e1b91f1cfcc3a14562cc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f270b205c03cb62497eda0b4eacbe67"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a0f270b205c03cb62497eda0b4eacbe67">query</a> (self, question)</td></tr>
+<tr class="memdesc:a0f270b205c03cb62497eda0b4eacbe67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a0f270b205c03cb62497eda0b4eacbe67">More...</a><br /></td></tr>
+<tr class="separator:a0f270b205c03cb62497eda0b4eacbe67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b420e363e42468a8b12da25afc86bfe"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__dummy_1_1PulserDummy.html#a5b420e363e42468a8b12da25afc86bfe">reset</a> (self)</td></tr>
 <tr class="memdesc:a5b420e363e42468a8b12da25afc86bfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the device.  <a href="#a5b420e363e42468a8b12da25afc86bfe">More...</a><br /></td></tr>
 <tr class="separator:a5b420e363e42468a8b12da25afc86bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,57 +229,36 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa99f4baef178435a82851e2c7ae2e1c6"><td class="memItemLeft" align="right" valign="top"><a id="aa99f4baef178435a82851e2c7ae2e1c6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>awg_waveform_directory</b></td></tr>
-<tr class="separator:aa99f4baef178435a82851e2c7ae2e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a954c2054ab82d9da0e579124dd4b5ec7"><td class="memItemLeft" align="right" valign="top"><a id="a954c2054ab82d9da0e579124dd4b5ec7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>pulsed_file_dir</b></td></tr>
-<tr class="separator:a954c2054ab82d9da0e579124dd4b5ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc266ae2fc349b4b5406b6684a971939"><td class="memItemLeft" align="right" valign="top"><a id="adc266ae2fc349b4b5406b6684a971939"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>host_waveform_directory</b></td></tr>
-<tr class="separator:adc266ae2fc349b4b5406b6684a971939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef2eda40fe3e066cb38a0031e828527"><td class="memItemLeft" align="right" valign="top"><a id="aaef2eda40fe3e066cb38a0031e828527"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>compatible_waveform_format</b></td></tr>
-<tr class="separator:aaef2eda40fe3e066cb38a0031e828527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2c7809b471f6c0e5db333e107bdac1f"><td class="memItemLeft" align="right" valign="top"><a id="af2c7809b471f6c0e5db333e107bdac1f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>compatible_sequence_format</b></td></tr>
-<tr class="separator:af2c7809b471f6c0e5db333e107bdac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeff4e1b9133c0c8ed13c833c3008ecf7"><td class="memItemLeft" align="right" valign="top"><a id="aeff4e1b9133c0c8ed13c833c3008ecf7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connected</b></td></tr>
 <tr class="separator:aeff4e1b9133c0c8ed13c833c3008ecf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50dfc2db4421bf7d1477e4ab2ae8e746"><td class="memItemLeft" align="right" valign="top"><a id="a50dfc2db4421bf7d1477e4ab2ae8e746"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sample_rate</b></td></tr>
 <tr class="separator:a50dfc2db4421bf7d1477e4ab2ae8e746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a627c373f06ebbf43de9fcb4d21adc316"><td class="memItemLeft" align="right" valign="top"><a id="a627c373f06ebbf43de9fcb4d21adc316"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>active_channel</b></td></tr>
-<tr class="separator:a627c373f06ebbf43de9fcb4d21adc316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e9804bc4c7a069f70bfb2feb333a4e6"><td class="memItemLeft" align="right" valign="top"><a id="a3e9804bc4c7a069f70bfb2feb333a4e6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>amplitude_list</b></td></tr>
-<tr class="separator:a3e9804bc4c7a069f70bfb2feb333a4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37345ca834f53346c3e50d217070aac7"><td class="memItemLeft" align="right" valign="top"><a id="a37345ca834f53346c3e50d217070aac7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>offset_list</b></td></tr>
-<tr class="separator:a37345ca834f53346c3e50d217070aac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643407313802dca5e96fd2c94b6ee89b"><td class="memItemLeft" align="right" valign="top"><a id="a643407313802dca5e96fd2c94b6ee89b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>digital_high_list</b></td></tr>
-<tr class="separator:a643407313802dca5e96fd2c94b6ee89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb27748e4b95d8a854ebe0ae935fb349"><td class="memItemLeft" align="right" valign="top"><a id="acb27748e4b95d8a854ebe0ae935fb349"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>digital_low_list</b></td></tr>
-<tr class="separator:acb27748e4b95d8a854ebe0ae935fb349"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f623a4f6a5a73d84ea25374e685ee45"><td class="memItemLeft" align="right" valign="top"><a id="a5f623a4f6a5a73d84ea25374e685ee45"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>uploaded_assets_list</b></td></tr>
-<tr class="separator:a5f623a4f6a5a73d84ea25374e685ee45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedcbce1b67f38a0883f7de5a95296cd8"><td class="memItemLeft" align="right" valign="top"><a id="aedcbce1b67f38a0883f7de5a95296cd8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>uploaded_files_list</b></td></tr>
-<tr class="separator:aedcbce1b67f38a0883f7de5a95296cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a284293441fe5e7f59f10fdf9f5272e9b"><td class="memItemLeft" align="right" valign="top"><a id="a284293441fe5e7f59f10fdf9f5272e9b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_loaded_asset</b></td></tr>
-<tr class="separator:a284293441fe5e7f59f10fdf9f5272e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cdace0ff19cd87a46d006c1558441dc"><td class="memItemLeft" align="right" valign="top"><a id="a8cdace0ff19cd87a46d006c1558441dc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>is_output_enabled</b></td></tr>
-<tr class="separator:a8cdace0ff19cd87a46d006c1558441dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc0e1f41ef920d62fc19c446c5aeedb5"><td class="memItemLeft" align="right" valign="top"><a id="afc0e1f41ef920d62fc19c446c5aeedb5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>asset_directory</b></td></tr>
-<tr class="separator:afc0e1f41ef920d62fc19c446c5aeedb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a929e6a76634a2eca2198bbf0b223d476"><td class="memItemLeft" align="right" valign="top"><a id="a929e6a76634a2eca2198bbf0b223d476"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>channel_states</b></td></tr>
+<tr class="separator:a929e6a76634a2eca2198bbf0b223d476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594a97916708877d25df8cd0a42f351a"><td class="memItemLeft" align="right" valign="top"><a id="a594a97916708877d25df8cd0a42f351a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>amplitude_dict</b></td></tr>
+<tr class="separator:a594a97916708877d25df8cd0a42f351a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa017f94746d335bd2baebaef656baf32"><td class="memItemLeft" align="right" valign="top"><a id="aa017f94746d335bd2baebaef656baf32"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>offset_dict</b></td></tr>
+<tr class="separator:aa017f94746d335bd2baebaef656baf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c06af4d7f5a439c958dd0757c106a0"><td class="memItemLeft" align="right" valign="top"><a id="a06c06af4d7f5a439c958dd0757c106a0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>digital_high_dict</b></td></tr>
+<tr class="separator:a06c06af4d7f5a439c958dd0757c106a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c6c36800eab1a24be4633dbce7da54e"><td class="memItemLeft" align="right" valign="top"><a id="a6c6c36800eab1a24be4633dbce7da54e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>digital_low_dict</b></td></tr>
+<tr class="separator:a6c6c36800eab1a24be4633dbce7da54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122de8f94a995982998f56494b5c143d"><td class="memItemLeft" align="right" valign="top"><a id="a122de8f94a995982998f56494b5c143d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>waveform_set</b></td></tr>
+<tr class="separator:a122de8f94a995982998f56494b5c143d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c60ceaf54c3cfc04a346bb3a445e365"><td class="memItemLeft" align="right" valign="top"><a id="a0c60ceaf54c3cfc04a346bb3a445e365"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sequence_dict</b></td></tr>
+<tr class="separator:a0c60ceaf54c3cfc04a346bb3a445e365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742f30955a2ec45f18fa72cb1cc24364"><td class="memItemLeft" align="right" valign="top"><a id="a742f30955a2ec45f18fa72cb1cc24364"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>current_loaded_assets</b></td></tr>
+<tr class="separator:a742f30955a2ec45f18fa72cb1cc24364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8325b579769385a2a91bca00fde28f22"><td class="memItemLeft" align="right" valign="top"><a id="a8325b579769385a2a91bca00fde28f22"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>use_sequencer</b></td></tr>
 <tr class="separator:a8325b579769385a2a91bca00fde28f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,48 +275,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memItemLeft" align="right" valign="top"><a id="ab6fc14182a8e42fc0804b848f4de3d24"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connectors</b></td></tr>
 <tr class="separator:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a927230628578682c427dd5976818b708"><td class="memItemLeft" align="right" valign="top"><a id="a927230628578682c427dd5976818b708"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>activation_config</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>(default=None)</td></tr>
+<tr class="separator:a927230628578682c427dd5976818b708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Dummy class for PulseInterface. </p>
 <p>Be careful in adjusting the method names in that class, since some of them are also connected to the mwsourceinterface (to give the AWG the possibility to act like a microwave source). </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a241f5fb5decfe8cf4c4c7b43b41e20e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a241f5fb5decfe8cf4c4c7b43b41e20e1">&#9670;&nbsp;</a></span>ask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.ask </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>question</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Asks the device a 'question' and receive and return an answer from it. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
-
-</div>
-</div>
 <a id="a2f647e3b675856ff6dd162caebea7779"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f647e3b675856ff6dd162caebea7779">&#9670;&nbsp;</a></span>clear_all()</h2>
 
@@ -360,14 +308,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ddd1f3b2cd385aa0e78364ef719daae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ddd1f3b2cd385aa0e78364ef719daae">&#9670;&nbsp;</a></span>delete_asset()</h2>
+<a id="a2dd2510ae51d4412cf967de4e524cc8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd2510ae51d4412cf967de4e524cc8f">&#9670;&nbsp;</a></span>delete_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.delete_asset </td>
+          <td class="memname">def pulser_dummy.PulserDummy.delete_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -376,7 +324,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -386,26 +334,25 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delete all files associated with an asset with the passed asset_name from the device memory. </p>
+<p>Delete the sequence with name "sequence_name" from the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be deleted Optionally a list of asset names can be passed.</td></tr>
+    <tr><td class="paramname">str</td><td>sequence_name: The name of the sequence to be deleted Optionally a list of sequence names can be passed.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted sequence names. </dd></dl>
 
 </div>
 </div>
-<a id="af3358058e6c972c6139c37bc750b3d7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3358058e6c972c6139c37bc750b3d7c">&#9670;&nbsp;</a></span>direct_write_ensemble()</h2>
+<a id="a0c0e497f055a91b683809d26bd35c31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c0e497f055a91b683809d26bd35c31d">&#9670;&nbsp;</a></span>delete_waveform()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.direct_write_ensemble </td>
+          <td class="memname">def pulser_dummy.PulserDummy.delete_waveform </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -414,19 +361,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ensemble_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>analog_samples</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>digital_samples</em>&#160;</td>
+          <td class="paramname"><em>waveform_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -435,57 +370,15 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Delete the waveform with name "waveform_name" from the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ensemble_name</td><td></td></tr>
-    <tr><td class="paramname">analog_samples</td><td></td></tr>
-    <tr><td class="paramname">digital_samples</td><td></td></tr>
+    <tr><td class="paramname">str</td><td>waveform_name: The name of the waveform to be deleted Optionally a list of waveform names can be passed.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
-
-</div>
-</div>
-<a id="a04643226a378a5c41d2b013ad084eaa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04643226a378a5c41d2b013ad084eaa4">&#9670;&nbsp;</a></span>direct_write_sequence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.direct_write_sequence </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sequence_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sequence_params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sequence_name</td><td></td></tr>
-    <tr><td class="paramname">sequence_params</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>: </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted waveform names. </dd></dl>
 
 </div>
 </div>
@@ -576,28 +469,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a274a65c93ee2a8c2dbb685ade71e0223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a274a65c93ee2a8c2dbb685ade71e0223">&#9670;&nbsp;</a></span>get_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.get_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Ask for the directory where the hardware conform files are stored on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>string: The current file directory</dd></dl>
-<p>Unused for digital pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
-
-</div>
-</div>
 <a id="ab758a83339e39d19d46a7eeb5247fc5b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab758a83339e39d19d46a7eeb5247fc5b">&#9670;&nbsp;</a></span>get_constraints()</h2>
 
@@ -619,7 +490,7 @@ Public Attributes</h2></td></tr>
 <p>Provides all the constraints (e.g. sample_rate, amplitude, total_length_bins, channel_config, ...) related to the pulse generator hardware to the caller. </p><pre class="fragment">SEE PulserConstraints CLASS IN pulser_interface.py FOR AVAILABLE CONSTRAINTS!!!
 </pre><p>If you are not sure about the meaning, look in other hardware files to get an impression. If still additional constraints are needed, then they have to be added to the PulserConstraints class.</p>
 <p>Each scalar parameter is an ScalarConstraints object defined in cor.util.interfaces. Essentially it contains min/max values as well as min step size, default value and unit of the parameter.</p>
-<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_list&gt;, &lt;descriptor_str&gt;: &lt;channel_list&gt;, ...}</p>
+<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_set&gt;, &lt;descriptor_str&gt;: &lt;channel_set&gt;, ...}</p>
 <p>If the constraints cannot be set in the pulsing hardware (e.g. because it might have no sequence mode) just leave it out so that the default is used (only zeros). </p>
 
 </div>
@@ -695,27 +566,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2128e92d8c188a9c662e21b478b6ea16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2128e92d8c188a9c662e21b478b6ea16">&#9670;&nbsp;</a></span>get_loaded_asset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.get_loaded_asset </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Retrieve the currently loaded asset name of the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: Name of the current asset, that can be either a filename a waveform, a sequence ect. </dd></dl>
-
-</div>
-</div>
 <a id="af87b1af2f3fa0cc09cfa7901a3b4ad44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af87b1af2f3fa0cc09cfa7901a3b4ad44">&#9670;&nbsp;</a></span>get_sample_rate()</h2>
 
@@ -738,14 +588,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a649809b1c4a3a7371422ec6ea5257736"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a649809b1c4a3a7371422ec6ea5257736">&#9670;&nbsp;</a></span>get_saved_asset_names()</h2>
+<a id="a835ae3e48977d539530725bb055fd4de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a835ae3e48977d539530725bb055fd4de">&#9670;&nbsp;</a></span>get_sequence_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.get_saved_asset_names </td>
+          <td class="memname">def pulser_dummy.PulserDummy.get_sequence_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -754,9 +604,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all sampled and saved assets on the host PC. </p>
-<p>This is no list of the file names.</p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all saved asset name strings in the current directory of the host PC. </dd></dl>
+<p>Retrieve the names of all uploaded sequence on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded sequence name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -781,14 +630,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab860a06bf12119b8c761b2ad504876b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab860a06bf12119b8c761b2ad504876b7">&#9670;&nbsp;</a></span>get_uploaded_asset_names()</h2>
+<a id="ac9e6aa58ffe63a6a11c1f417c3a03dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e6aa58ffe63a6a11c1f417c3a03dd7">&#9670;&nbsp;</a></span>get_waveform_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.get_uploaded_asset_names </td>
+          <td class="memname">def pulser_dummy.PulserDummy.get_waveform_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -797,9 +646,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all uploaded assets on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded asset name strings in the current device directory. This is no list of the file names.</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<p>Retrieve the names of all uploaded waveforms on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded waveform name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -824,14 +672,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac8811dcc384f189d02ec67a9255d5879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8811dcc384f189d02ec67a9255d5879">&#9670;&nbsp;</a></span>load_asset()</h2>
+<a id="a3339333b91437d6cb962bb7d45f3e20b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3339333b91437d6cb962bb7d45f3e20b">&#9670;&nbsp;</a></span>load_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.load_asset </td>
+          <td class="memname">def pulser_dummy.PulserDummy.load_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -840,13 +688,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>load_dict</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -856,16 +698,53 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads a sequence or waveform to the specified channel of the pulsing device. </p>
+<p>Loads a sequence to the channels of the device in order to be ready for playback. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the sequence from the device workspace into the channels.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be loaded</td></tr>
-    <tr><td class="paramname">dict</td><td>load_dict: a dictionary with keys being one of the available channel numbers and items being the name of the already sampled waveform/sequence files. Examples {1: rabi_Ch1, 2: rabi_Ch2} {1: rabi_Ch2, 2: rabi_Ch1} This parameter is optional. If none is given then the channel association is invoked from the sequence generation, i.e. the filename appendix (_Ch1, _Ch2 etc.)</td></tr>
+    <tr><td class="paramname">sequence_name</td><td>str, name of the sequence to load</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<dl class="section return"><dt>Returns</dt><dd>(dict, str): Dictionary with keys being the channel number and values being the respective asset loaded into the channel, string describing the asset type ('waveform' or 'sequence') </dd></dl>
+
+</div>
+</div>
+<a id="a23b6450a08b9543d5137e3b5e5db9546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b6450a08b9543d5137e3b5e5db9546">&#9670;&nbsp;</a></span>load_waveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulser_dummy.PulserDummy.load_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>load_dict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a waveform to the specified channel of the pulsing device. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the waveform from the device workspace into the channel. For a device without mass memory this will make the waveform/pattern that has been previously written with self.write_waveform ready to play.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">load_dict</td><td>dict|list, a dictionary with keys being one of the available channel index and values being the name of the already written waveform to load into the channel. Examples {1: rabi_ch1, 2: rabi_ch2} or {1: rabi_ch2, 2: rabi_ch1} If just a list of waveform names if given, the channel association will be invoked from the channel suffix '_ch1', '_ch2' etc.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(dict, str): Dictionary with keys being the channel number and values being the respective asset loaded into the channel, string describing the asset type ('waveform' or 'sequence') </dd></dl>
 
 </div>
 </div>
@@ -911,6 +790,43 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0f270b205c03cb62497eda0b4eacbe67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f270b205c03cb62497eda0b4eacbe67">&#9670;&nbsp;</a></span>query()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulser_dummy.PulserDummy.query </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>question</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asks the device a 'question' and receive and return an answer from it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
+
+</div>
+</div>
 <a id="a5b420e363e42468a8b12da25afc86bfe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b420e363e42468a8b12da25afc86bfe">&#9670;&nbsp;</a></span>reset()</h2>
 
@@ -929,47 +845,6 @@ Public Attributes</h2></td></tr>
 
 <p>Reset the device. </p>
 <dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="a04b681a7418742f04a9a63c76be9df8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04b681a7418742f04a9a63c76be9df8d">&#9670;&nbsp;</a></span>set_active_channels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.set_active_channels </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ch</em> = <code>None</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the active channels for the pulse generator hardware. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dict</td><td>ch: dictionary with keys being the analog or digital string generic names for the channels with items being a boolean value.current_loaded_asset</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>dict: with the actual set values for active channels for analog and digital values.</dd></dl>
-<p>If nothing is passed then the command will return an empty dict.</p>
-<dl class="section note"><dt>Note</dt><dd>After setting the active channels of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
-<p>Example for possible input: ch True, 'd_ch1': False, 'd_ch3': True, 'd_ch4': True} to activate analog channel 2 digital channel 3 and 4 and to deactivate digital channel 1.</p>
-<p>The hardware itself has to handle, whether separate channel activation is possible. </p>
 
 </div>
 </div>
@@ -1018,44 +893,6 @@ Public Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>After setting the analog and/or offset of the device, retrieve them again for obtaining the actual set value(s) and use that information for further processing.</dd></dl>
 <p>The major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (a value around which the signal oscillates, denoted by an (absolute) voltage).</p>
 <p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
-
-</div>
-</div>
-<a id="a9351d9f6c4c10574376b7e801257aa98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9351d9f6c4c10574376b7e801257aa98">&#9670;&nbsp;</a></span>set_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.set_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>dir_path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Change the directory where the assets are stored on the device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">string</td><td>dir_path: The target directory</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for digital pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
 
 </div>
 </div>
@@ -1184,14 +1021,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad09b33e50390548fbe4fda5dc212be85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad09b33e50390548fbe4fda5dc212be85">&#9670;&nbsp;</a></span>tell()</h2>
+<a id="ae24d88b366e1b91f1cfcc3a14562cc09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24d88b366e1b91f1cfcc3a14562cc09">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.tell </td>
+          <td class="memname">def pulser_dummy.PulserDummy.write </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1221,14 +1058,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a73fe146041f9c300708f093be444ad26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73fe146041f9c300708f093be444ad26">&#9670;&nbsp;</a></span>upload_asset()</h2>
+<a id="a6c8f7cb0e74fa02cf2c1ecce0fa83745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8f7cb0e74fa02cf2c1ecce0fa83745">&#9670;&nbsp;</a></span>write_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_dummy.PulserDummy.upload_asset </td>
+          <td class="memname">def pulser_dummy.PulserDummy.write_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1237,7 +1074,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_parameter_list</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1247,16 +1090,15 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Upload an already hardware conform file to the device. </p>
-<p>Does NOT load it into channels.</p>
+<p>Write a new sequence on the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>string, name of the ensemble/seqeunce to be uploaded</td></tr>
+    <tr><td class="paramname">name</td><td>str, the name of the waveform to be created/append to </td></tr>
+    <tr><td class="paramname">sequence_parameter_list</td><td>list, contains the parameters for each sequence step and the according waveform names.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>If nothing is passed, method will be skipped. </p>
+<dl class="section return"><dt>Returns</dt><dd>: int, number of sequence steps written (-1 indicates failed process) </dd></dl>
 
 </div>
 </div>

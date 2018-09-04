@@ -1,10 +1,11 @@
 var searchData=
 [
   ['edwardsvacuumcontroller',['EdwardsVacuumController',['../classedwards__vacuum__controller_1_1EdwardsVacuumController.html',1,'edwards_vacuum_controller']]],
-  ['elapsed_5ftime_5fupdated',['elapsed_time_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#abd1f4b81f3a287d0b5819b7dac82b032',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['emit',['emit',['../classcore_1_1logger_1_1QtLogHandler.html#aca5e6adb42e2cf6ef99229cea993a295',1,'core::logger::QtLogHandler']]],
   ['enable_5foutput',['enable_output',['../classCTC100__temperature_1_1CTC100.html#a94335e7779a63da80af5d276b6200afa',1,'CTC100_temperature::CTC100']]],
   ['enable_5fscan_5factions',['enable_scan_actions',['../classconfocalgui_1_1ConfocalGui.html#a2f1bd41b8d068f40baba37c62be8c6c8',1,'confocalgui::ConfocalGui']]],
+  ['ensembleeditor',['EnsembleEditor',['../classpulse__editors_1_1EnsembleEditor.html',1,'pulse_editors']]],
+  ['ensembleeditortablemodel',['EnsembleEditorTableModel',['../classpulse__editors_1_1EnsembleEditorTableModel.html',1,'pulse_editors']]],
   ['errordialog',['ErrorDialog',['../classerrordialog_1_1ErrorDialog.html',1,'errordialog']]],
   ['estimatorchanged',['estimatorChanged',['../classfitsettings_1_1FitConfigWidget.html#aea6d3b31103df3c122eac4069782e1e4',1,'fitsettings::FitConfigWidget']]],
   ['eventmanager',['EventManager',['../classevents_1_1EventManager.html',1,'events']]],
@@ -12,14 +13,10 @@ var searchData=
   ['executionresult',['ExecutionResult',['../classhelpers_1_1ExecutionResult.html',1,'helpers']]],
   ['exithandler',['exitHandler',['../classlightfield__spectrometer_1_1Lightfield.html#abdcf58fe78315683cf663232f2fee891',1,'lightfield_spectrometer::Lightfield']]],
   ['ext_5fmicrowave_5frunning_5fupdated',['ext_microwave_running_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a6d77e43db6931d610650c1aa684ea360',1,'pulsed_master_logic::PulsedMasterLogic']]],
-  ['ext_5fmicrowave_5fsettings_5fchanged',['ext_microwave_settings_changed',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#accaaecb0233ef008ea6fbde3f0b9f9e0',1,'pulsed_master_logic::PulsedMasterLogic']]],
-  ['ext_5fmicrowave_5fsettings_5fupdated',['ext_microwave_settings_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a3b5fce394d86704cc06bda2dc99684f2',1,'pulsed_master_logic::PulsedMasterLogic']]],
-  ['ext_5fmicrowave_5ftoggled',['ext_microwave_toggled',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a1b421e264985915143754f94340dbb7f',1,'pulsed_master_logic::PulsedMasterLogic']]],
-  ['ext_5fmw_5fparams_5fchanged',['ext_mw_params_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#ad193b7e97080b8f1a62fe3d8458b20ab',1,'pulsed_maingui::PulsedMeasurementGui']]],
+  ['ext_5fmicrowave_5fsettings',['ext_microwave_settings',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#ade9557374b8ba6515d1e6d81a20c174d',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],
   ['extensions',['Extensions',['../extensions.html',1,'']]],
   ['extract_5ffiltered_5fvalues',['extract_filtered_values',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a232c531b728c29f5d1ea10f1cf299c4a',1,'trace_analysis_logic::TraceAnalysisLogic']]],
-  ['extract_5flaser_5fpulses',['extract_laser_pulses',['../classpulse__extraction__logic_1_1PulseExtractionLogic.html#a4f37e67e70b82c1fd3d67cc6544b6bf5',1,'pulse_extraction_logic::PulseExtractionLogic']]],
-  ['extraction_5fmethods_5fupdated',['extraction_methods_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#adf66a11d8adef787d5da94e36eeee3d8',1,'pulsed_maingui.PulsedMeasurementGui.extraction_methods_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#aab77a069ba134f18b46ebf7563ab9503',1,'pulsed_master_logic.PulsedMasterLogic.extraction_methods_updated()']]],
-  ['extraction_5fsettings_5fchanged',['extraction_settings_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a469c5b37b040de6256e99096e01c0f76',1,'pulsed_maingui.PulsedMeasurementGui.extraction_settings_changed()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a543ee85e4f043eb1765dc93f88d1ae09',1,'pulsed_master_logic.PulsedMasterLogic.extraction_settings_changed()'],['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#a44c1d1b25918c95c87c33b41fc9a1dd8',1,'pulsed_measurement_logic.PulsedMeasurementLogic.extraction_settings_changed()']]],
-  ['extraction_5fsettings_5fupdated',['extraction_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a1764ad5ad8ad8dffe427a1108adb0be7',1,'pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated()'],['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a805204f5eec14a7909094c2e62d4ab81',1,'pulsed_master_logic.PulsedMasterLogic.extraction_settings_updated()']]]
+  ['extraction_5fmethods',['extraction_methods',['../classpulse__extractor_1_1PulseExtractor.html#a55af9c5d0df2c596848d02cb125e7fb4',1,'pulse_extractor::PulseExtractor']]],
+  ['extraction_5fsettings_5fchanged',['extraction_settings_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a469c5b37b040de6256e99096e01c0f76',1,'pulsed_maingui::PulsedMeasurementGui']]],
+  ['extraction_5fsettings_5fupdated',['extraction_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a48d6837c2a15f1f32b7328c6236bf2cf',1,'pulsed_maingui::PulsedMeasurementGui']]]
 ];

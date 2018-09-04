@@ -102,15 +102,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25e22aba6bc1029ece4fa89f0294b4a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a25e22aba6bc1029ece4fa89f0294b4a2">pulser_off</a> (self)</td></tr>
 <tr class="memdesc:a25e22aba6bc1029ece4fa89f0294b4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the pulsing device off.  <a href="#a25e22aba6bc1029ece4fa89f0294b4a2">More...</a><br /></td></tr>
 <tr class="separator:a25e22aba6bc1029ece4fa89f0294b4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2c879b401f14867791c840bf625cc5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#aad2c879b401f14867791c840bf625cc5">upload_asset</a> (self, asset_name=None)</td></tr>
-<tr class="memdesc:aad2c879b401f14867791c840bf625cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload an already hardware conform file to the device mass memory.  <a href="#aad2c879b401f14867791c840bf625cc5">More...</a><br /></td></tr>
-<tr class="separator:aad2c879b401f14867791c840bf625cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b6f846fd562037424b14c09dd0c3b6b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a8b6f846fd562037424b14c09dd0c3b6b">load_asset</a> (self, asset_name, load_dict=None)</td></tr>
-<tr class="memdesc:a8b6f846fd562037424b14c09dd0c3b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence or waveform to the specified channel of the pulsing device.  <a href="#a8b6f846fd562037424b14c09dd0c3b6b">More...</a><br /></td></tr>
-<tr class="separator:a8b6f846fd562037424b14c09dd0c3b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b4f85b77be8b3ce4a276a11a809ead2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a0b4f85b77be8b3ce4a276a11a809ead2">get_loaded_asset</a> (self)</td></tr>
-<tr class="memdesc:a0b4f85b77be8b3ce4a276a11a809ead2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the currently loaded asset name of the device.  <a href="#a0b4f85b77be8b3ce4a276a11a809ead2">More...</a><br /></td></tr>
-<tr class="separator:a0b4f85b77be8b3ce4a276a11a809ead2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae252dcaa55e8f7b3b347dea52da5904a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#ae252dcaa55e8f7b3b347dea52da5904a">load_waveform</a> (self, load_dict)</td></tr>
+<tr class="memdesc:ae252dcaa55e8f7b3b347dea52da5904a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a waveform to the specified channel of the pulsing device.  <a href="#ae252dcaa55e8f7b3b347dea52da5904a">More...</a><br /></td></tr>
+<tr class="separator:ae252dcaa55e8f7b3b347dea52da5904a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22cd03c59214b2a2158308da48c34735"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a22cd03c59214b2a2158308da48c34735">load_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:a22cd03c59214b2a2158308da48c34735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sequence to the channels of the device in order to be ready for playback.  <a href="#a22cd03c59214b2a2158308da48c34735">More...</a><br /></td></tr>
+<tr class="separator:a22cd03c59214b2a2158308da48c34735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb628e4009f60a7bfc593acf998345f6"><td class="memItemLeft" align="right" valign="top"><a id="acb628e4009f60a7bfc593acf998345f6"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_loaded_assets</b> (self)</td></tr>
+<tr class="separator:acb628e4009f60a7bfc593acf998345f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96943f0d8ae8d04c871bd9118ea673f5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a96943f0d8ae8d04c871bd9118ea673f5">clear_all</a> (self)</td></tr>
 <tr class="memdesc:a96943f0d8ae8d04c871bd9118ea673f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all loaded waveforms from the pulse generators RAM/workspace.  <a href="#a96943f0d8ae8d04c871bd9118ea673f5">More...</a><br /></td></tr>
 <tr class="separator:a96943f0d8ae8d04c871bd9118ea673f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,36 +138,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f4161306892eed47cedc982a74d707e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a8f4161306892eed47cedc982a74d707e">get_active_channels</a> (self, ch=None)</td></tr>
 <tr class="memdesc:a8f4161306892eed47cedc982a74d707e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active channels of the pulse generator hardware.  <a href="#a8f4161306892eed47cedc982a74d707e">More...</a><br /></td></tr>
 <tr class="separator:a8f4161306892eed47cedc982a74d707e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb86e24eb9f79b83c0793263db95a4cd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#abb86e24eb9f79b83c0793263db95a4cd">set_active_channels</a> (self, ch=None)</td></tr>
-<tr class="memdesc:abb86e24eb9f79b83c0793263db95a4cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active channels for the pulse generator hardware.  <a href="#abb86e24eb9f79b83c0793263db95a4cd">More...</a><br /></td></tr>
+<tr class="memitem:abb86e24eb9f79b83c0793263db95a4cd"><td class="memItemLeft" align="right" valign="top"><a id="abb86e24eb9f79b83c0793263db95a4cd"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>set_active_channels</b> (self, ch=None)</td></tr>
 <tr class="separator:abb86e24eb9f79b83c0793263db95a4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a671c2e90f49c6d33f055acf0ea9d9b3c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a671c2e90f49c6d33f055acf0ea9d9b3c">get_uploaded_asset_names</a> (self)</td></tr>
-<tr class="memdesc:a671c2e90f49c6d33f055acf0ea9d9b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded assets on the device.  <a href="#a671c2e90f49c6d33f055acf0ea9d9b3c">More...</a><br /></td></tr>
-<tr class="separator:a671c2e90f49c6d33f055acf0ea9d9b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09624fb00166362c43937d738ac8fb20"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a09624fb00166362c43937d738ac8fb20">get_saved_asset_names</a> (self)</td></tr>
-<tr class="memdesc:a09624fb00166362c43937d738ac8fb20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all sampled and saved assets on the host PC.  <a href="#a09624fb00166362c43937d738ac8fb20">More...</a><br /></td></tr>
-<tr class="separator:a09624fb00166362c43937d738ac8fb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab804b18df0f444e45392f3b20abffeca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#ab804b18df0f444e45392f3b20abffeca">delete_asset</a> (self, asset_name)</td></tr>
-<tr class="memdesc:ab804b18df0f444e45392f3b20abffeca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete all files associated with an asset with the passed asset_name from the device memory (mass storage as well as i.e.  <a href="#ab804b18df0f444e45392f3b20abffeca">More...</a><br /></td></tr>
-<tr class="separator:ab804b18df0f444e45392f3b20abffeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa2da6cd0ca56f620c2e733221a5d705"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#afa2da6cd0ca56f620c2e733221a5d705">set_asset_dir_on_device</a> (self, dir_path)</td></tr>
-<tr class="memdesc:afa2da6cd0ca56f620c2e733221a5d705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the directory where the assets are stored on the device.  <a href="#afa2da6cd0ca56f620c2e733221a5d705">More...</a><br /></td></tr>
-<tr class="separator:afa2da6cd0ca56f620c2e733221a5d705"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9283463c128a9d0b25710ad1e27ed4f2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a9283463c128a9d0b25710ad1e27ed4f2">get_asset_dir_on_device</a> (self)</td></tr>
-<tr class="memdesc:a9283463c128a9d0b25710ad1e27ed4f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask for the directory where the hardware conform files are stored on the device.  <a href="#a9283463c128a9d0b25710ad1e27ed4f2">More...</a><br /></td></tr>
-<tr class="separator:a9283463c128a9d0b25710ad1e27ed4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49da5a53e9544f848b13388e6f140cf8"><td class="memItemLeft" align="right" valign="top"><a id="a49da5a53e9544f848b13388e6f140cf8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_waveform</b> (self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples)</td></tr>
+<tr class="separator:a49da5a53e9544f848b13388e6f140cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a326a6ecb9bb8c7b81dc71d84de799a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a1a326a6ecb9bb8c7b81dc71d84de799a">write_sequence</a> (self, name, sequence_parameters)</td></tr>
+<tr class="memdesc:a1a326a6ecb9bb8c7b81dc71d84de799a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a new sequence on the device memory.  <a href="#a1a326a6ecb9bb8c7b81dc71d84de799a">More...</a><br /></td></tr>
+<tr class="separator:a1a326a6ecb9bb8c7b81dc71d84de799a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b29b21bd487f6d2bbcc02a711bcb11"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a57b29b21bd487f6d2bbcc02a711bcb11">get_waveform_names</a> (self)</td></tr>
+<tr class="memdesc:a57b29b21bd487f6d2bbcc02a711bcb11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded waveforms on the device.  <a href="#a57b29b21bd487f6d2bbcc02a711bcb11">More...</a><br /></td></tr>
+<tr class="separator:a57b29b21bd487f6d2bbcc02a711bcb11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2310c0f943bc9495b2089f3851951e5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#aa2310c0f943bc9495b2089f3851951e5">get_sequence_names</a> (self)</td></tr>
+<tr class="memdesc:aa2310c0f943bc9495b2089f3851951e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the names of all uploaded sequence on the device.  <a href="#aa2310c0f943bc9495b2089f3851951e5">More...</a><br /></td></tr>
+<tr class="separator:aa2310c0f943bc9495b2089f3851951e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e868c57d2e12258d20306e72fba8853"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a0e868c57d2e12258d20306e72fba8853">delete_waveform</a> (self, waveform_name)</td></tr>
+<tr class="memdesc:a0e868c57d2e12258d20306e72fba8853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the waveform with name "waveform_name" from the device memory.  <a href="#a0e868c57d2e12258d20306e72fba8853">More...</a><br /></td></tr>
+<tr class="separator:a0e868c57d2e12258d20306e72fba8853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ccf928fa2984ab99b6694d4ce3d25d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a42ccf928fa2984ab99b6694d4ce3d25d">delete_sequence</a> (self, sequence_name)</td></tr>
+<tr class="memdesc:a42ccf928fa2984ab99b6694d4ce3d25d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the sequence with name "sequence_name" from the device memory.  <a href="#a42ccf928fa2984ab99b6694d4ce3d25d">More...</a><br /></td></tr>
+<tr class="separator:a42ccf928fa2984ab99b6694d4ce3d25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e9f361beb75b16eab14eaf36ba90f7d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a0e9f361beb75b16eab14eaf36ba90f7d">get_interleave</a> (self)</td></tr>
 <tr class="memdesc:a0e9f361beb75b16eab14eaf36ba90f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether Interleave is ON or OFF in AWG.  <a href="#a0e9f361beb75b16eab14eaf36ba90f7d">More...</a><br /></td></tr>
 <tr class="separator:a0e9f361beb75b16eab14eaf36ba90f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1d81ce98f2748b8fffaebb34f72ec16"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#af1d81ce98f2748b8fffaebb34f72ec16">set_interleave</a> (self, state=False)</td></tr>
 <tr class="memdesc:af1d81ce98f2748b8fffaebb34f72ec16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns the interleave of an AWG on or off.  <a href="#af1d81ce98f2748b8fffaebb34f72ec16">More...</a><br /></td></tr>
 <tr class="separator:af1d81ce98f2748b8fffaebb34f72ec16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea96c1035a653ba04f25a8c2d1fdf48f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#aea96c1035a653ba04f25a8c2d1fdf48f">tell</a> (self, command)</td></tr>
-<tr class="memdesc:aea96c1035a653ba04f25a8c2d1fdf48f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command string to the device.  <a href="#aea96c1035a653ba04f25a8c2d1fdf48f">More...</a><br /></td></tr>
-<tr class="separator:aea96c1035a653ba04f25a8c2d1fdf48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4212759bb0362d655fc234c495bf9fd9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a4212759bb0362d655fc234c495bf9fd9">ask</a> (self, question)</td></tr>
-<tr class="memdesc:a4212759bb0362d655fc234c495bf9fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the device a 'question' and receive and return an answer from it.  <a href="#a4212759bb0362d655fc234c495bf9fd9">More...</a><br /></td></tr>
-<tr class="separator:a4212759bb0362d655fc234c495bf9fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28bd01837635a6512c9074b40b206e80"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulser__interface_1_1PulserInterface.html#a28bd01837635a6512c9074b40b206e80">reset</a> (self)</td></tr>
 <tr class="memdesc:a28bd01837635a6512c9074b40b206e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the device.  <a href="#a28bd01837635a6512c9074b40b206e80">More...</a><br /></td></tr>
 <tr class="separator:a28bd01837635a6512c9074b40b206e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,43 +179,6 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface class to define the abstract controls and communication with all pulsing devices. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4212759bb0362d655fc234c495bf9fd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4212759bb0362d655fc234c495bf9fd9">&#9670;&nbsp;</a></span>ask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_interface.PulserInterface.ask </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>question</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Asks the device a 'question' and receive and return an answer from it. </p>
-<p>a </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">string</td><td>question: string containing the command</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string: the answer of the device to the 'question' in a string </dd></dl>
-
-</div>
-</div>
 <a id="a96943f0d8ae8d04c871bd9118ea673f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96943f0d8ae8d04c871bd9118ea673f5">&#9670;&nbsp;</a></span>clear_all()</h2>
 
@@ -240,14 +200,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab804b18df0f444e45392f3b20abffeca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab804b18df0f444e45392f3b20abffeca">&#9670;&nbsp;</a></span>delete_asset()</h2>
+<a id="a42ccf928fa2984ab99b6694d4ce3d25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ccf928fa2984ab99b6694d4ce3d25d">&#9670;&nbsp;</a></span>delete_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_interface.PulserInterface.delete_asset </td>
+          <td class="memname">def pulser_interface.PulserInterface.delete_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -256,7 +216,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -266,13 +226,52 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delete all files associated with an asset with the passed asset_name from the device memory (mass storage as well as i.e. </p>
-<p>awg workspace/channels). </p><pre class="fragment">   @param str asset_name: The name of the asset to be deleted
-                          Optionally a list of asset names can be passed.
+<p>Delete the sequence with name "sequence_name" from the device memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>sequence_name: The name of the sequence to be deleted Optionally a list of sequence names can be passed.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted sequence names. </dd></dl>
 
-   @return list: a list with strings of the files which were deleted.
+</div>
+</div>
+<a id="a0e868c57d2e12258d20306e72fba8853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e868c57d2e12258d20306e72fba8853">&#9670;&nbsp;</a></span>delete_waveform()</h2>
 
-   Unused for pulse generators without sequence storage capability (PulseBlaster, FPGA).</pre> 
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulser_interface.PulserInterface.delete_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>waveform_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete the waveform with name "waveform_name" from the device memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>waveform_name: The name of the waveform to be deleted Optionally a list of waveform names can be passed.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>list: a list of deleted waveform names. </dd></dl>
+
 </div>
 </div>
 <a id="a8f4161306892eed47cedc982a74d707e"></a>
@@ -357,31 +356,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel descriptor string (i.e. 'a_ch1') and items being the values for those channels. Amplitude is always denoted in Volt-peak-to-peak and Offset in volts.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Do not return a saved amplitude and/or offset value but instead retrieve the current amplitude and/or offset directly from the device.</dd></dl>
 <p>If nothing (or None) is passed then the levels of all channels will be returned. If no analog channels are present in the device, return just empty dicts.</p>
-<p>Example of a possible input: amplitude = ['a_ch1', 'a_ch4'], offset = None to obtain the amplitude of channel 1 and 4 and the offset of all channels {'a_ch1': -0.5, 'a_ch4': 2.0} {'a_ch1': 0.0, 'a_ch2': 0.0, 'a_ch3': 1.0, 'a_ch4': 0.0}</p>
-<p>The major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (a value around which the signal oscillates, denoted by an (absolute) voltage).</p>
-<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
-
-</div>
-</div>
-<a id="a9283463c128a9d0b25710ad1e27ed4f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9283463c128a9d0b25710ad1e27ed4f2">&#9670;&nbsp;</a></span>get_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_interface.PulserInterface.get_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Ask for the directory where the hardware conform files are stored on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: The current file directory</dd></dl>
-<p>Unused for pulse generators without changeable file structure (i.e. PulseBlaster, FPGA). </p>
+<p>Example of a possible input: amplitude = ['a_ch1', 'a_ch4'], offset = None to obtain the amplitude of channel 1 and 4 and the offset of all channels {'a_ch1': -0.5, 'a_ch4': 2.0} {'a_ch1': 0.0, 'a_ch2': 0.0, 'a_ch3': 1.0, 'a_ch4': 0.0} </p>
 
 </div>
 </div>
@@ -406,30 +381,27 @@ Public Member Functions</h2></td></tr>
 <p>Provides all the constraints (e.g. sample_rate, amplitude, total_length_bins, channel_config, ...) related to the pulse generator hardware to the caller. </p><pre class="fragment">SEE PulserConstraints CLASS IN pulser_interface.py FOR AVAILABLE CONSTRAINTS!!!
 </pre><p>If you are not sure about the meaning, look in other hardware files to get an impression. If still additional constraints are needed, then they have to be added to the <a class="el" href="classpulser__interface_1_1PulserConstraints.html">PulserConstraints</a> class.</p>
 <p>Each scalar parameter is an ScalarConstraints object defined in cor.util.interfaces. Essentially it contains min/max values as well as min step size, default value and unit of the parameter.</p>
-<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_list&gt;, &lt;descriptor_str&gt;: &lt;channel_list&gt;, ...}</p>
+<p>PulserConstraints.activation_config differs, since it contain the channel configuration/activation information of the form: {&lt;descriptor_str&gt;: &lt;channel_set&gt;, &lt;descriptor_str&gt;: &lt;channel_set&gt;, ...}</p>
 <p>If the constraints cannot be set in the pulsing hardware (e.g. because it might have no sequence mode) just leave it out so that the default is used (only zeros).</p>
 <h1>Example for configuration with default values:</h1>
 <p>constraints = PulserConstraints()</p>
-<h1>The file formats are hardware specific.</h1>
-<p>constraints.waveform_format = ['wfm', 'wfmx'] constraints.sequence_format = ['seq', 'seqx']</p>
 <p>constraints.sample_rate.min = 10.0e6 constraints.sample_rate.max = 12.0e9 constraints.sample_rate.step = 10.0e6 constraints.sample_rate.default = 12.0e9</p>
 <p>constraints.a_ch_amplitude.min = 0.02 constraints.a_ch_amplitude.max = 2.0 constraints.a_ch_amplitude.step = 0.001 constraints.a_ch_amplitude.default = 2.0</p>
 <p>constraints.a_ch_offset.min = -1.0 constraints.a_ch_offset.max = 1.0 constraints.a_ch_offset.step = 0.001 constraints.a_ch_offset.default = 0.0</p>
 <p>constraints.d_ch_low.min = -1.0 constraints.d_ch_low.max = 4.0 constraints.d_ch_low.step = 0.01 constraints.d_ch_low.default = 0.0</p>
 <p>constraints.d_ch_high.min = 0.0 constraints.d_ch_high.max = 5.0 constraints.d_ch_high.step = 0.01 constraints.d_ch_high.default = 5.0</p>
-<p>constraints.sampled_file_length.min = 80 constraints.sampled_file_length.max = 64800000 constraints.sampled_file_length.step = 1 constraints.sampled_file_length.default = 80</p>
+<p>constraints.waveform_length.min = 80 constraints.waveform_length.max = 64800000 constraints.waveform_length.step = 1 constraints.waveform_length.default = 80</p>
 <p>constraints.waveform_num.min = 1 constraints.waveform_num.max = 32000 constraints.waveform_num.step = 1 constraints.waveform_num.default = 1</p>
 <p>constraints.sequence_num.min = 1 constraints.sequence_num.max = 8000 constraints.sequence_num.step = 1 constraints.sequence_num.default = 1</p>
 <p>constraints.subsequence_num.min = 1 constraints.subsequence_num.max = 4000 constraints.subsequence_num.step = 1 constraints.subsequence_num.default = 1</p>
 <h1>If sequencer mode is available then these should be specified</h1>
 <p>constraints.repetitions.min = 0 constraints.repetitions.max = 65539 constraints.repetitions.step = 1 constraints.repetitions.default = 0</p>
-<p>constraints.trigger_in.min = 0 constraints.trigger_in.max = 2 constraints.trigger_in.step = 1 constraints.trigger_in.default = 0</p>
-<p>constraints.event_jump_to.min = 0 constraints.event_jump_to.max = 8000 constraints.event_jump_to.step = 1 constraints.event_jump_to.default = 0</p>
-<p>constraints.go_to.min = 0 constraints.go_to.max = 8000 constraints.go_to.step = 1 constraints.go_to.default = 0</p>
+<p>constraints.event_triggers = ['A', 'B'] constraints.flags = ['A', 'B', 'C', 'D']</p>
+<p>constraints.sequence_steps.min = 0 constraints.sequence_steps.max = 8000 constraints.sequence_steps.step = 1 constraints.sequence_steps.default = 0</p>
 <h1>the name a_ch&lt;num&gt; and d_ch&lt;num&gt; are generic names, which describe UNAMBIGUOUSLY the</h1>
 <h1>channels. Here all possible channel configurations are stated, where only the generic</h1>
 <h1>names should be used. The names for the different configurations can be customary chosen.</h1>
-<p>activation_conf = OrderedDict() activation_conf['yourconf'] = ['a_ch1', 'd_ch1', 'd_ch2', 'a_ch2', 'd_ch3', 'd_ch4'] activation_conf['different_conf'] = ['a_ch1', 'd_ch1', 'd_ch2'] activation_conf['something_else'] = ['a_ch2', 'd_ch3', 'd_ch4'] constraints.activation_config = activation_conf </p>
+<p>activation_conf = OrderedDict() activation_conf['yourconf'] = {'a_ch1', 'd_ch1', 'd_ch2', 'a_ch2', 'd_ch3', 'd_ch4'} activation_conf['different_conf'] = {'a_ch1', 'd_ch1', 'd_ch2'} activation_conf['something_else'] = {'a_ch2', 'd_ch3', 'd_ch4'} constraints.activation_config = activation_conf </p>
 
 </div>
 </div>
@@ -476,9 +448,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>: (dict, dict): tuple of two dicts, with keys being the channel descriptor strings (i.e. 'd_ch1', 'd_ch2') and items being the values for those channels. Both low and high value of a channel is denoted in volts.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Do not return a saved low and/or high value but instead retrieve the current low and/or high value directly from the device.</dd></dl>
 <p>If nothing (or None) is passed then the levels of all channels are being returned. If no digital channels are present, return just an empty dict.</p>
-<p>Example of a possible input: low = ['d_ch1', 'd_ch4'] to obtain the low voltage values of digital channel 1 an 4. A possible answer might be {'d_ch1': -0.5, 'd_ch4': 2.0} {'d_ch1': 1.0, 'd_ch2': 1.0, 'd_ch3': 1.0, 'd_ch4': 4.0} Since no high request was performed, the high values for ALL channels are returned (here 4).</p>
-<p>The major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
-<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
+<p>Example of a possible input: low = ['d_ch1', 'd_ch4'] to obtain the low voltage values of digital channel 1 an 4. A possible answer might be {'d_ch1': -0.5, 'd_ch4': 2.0} {'d_ch1': 1.0, 'd_ch2': 1.0, 'd_ch3': 1.0, 'd_ch4': 4.0} Since no high request was performed, the high values for ALL channels are returned (here 4). </p>
 
 </div>
 </div>
@@ -504,27 +474,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b4f85b77be8b3ce4a276a11a809ead2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b4f85b77be8b3ce4a276a11a809ead2">&#9670;&nbsp;</a></span>get_loaded_asset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_interface.PulserInterface.get_loaded_asset </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Retrieve the currently loaded asset name of the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>str: Name of the current asset ready to play. (no filename) </dd></dl>
-
-</div>
-</div>
 <a id="ad75ee9f91617dffe505503f13f44c606"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad75ee9f91617dffe505503f13f44c606">&#9670;&nbsp;</a></span>get_sample_rate()</h2>
 
@@ -547,14 +496,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a09624fb00166362c43937d738ac8fb20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09624fb00166362c43937d738ac8fb20">&#9670;&nbsp;</a></span>get_saved_asset_names()</h2>
+<a id="aa2310c0f943bc9495b2089f3851951e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2310c0f943bc9495b2089f3851951e5">&#9670;&nbsp;</a></span>get_sequence_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_interface.PulserInterface.get_saved_asset_names </td>
+          <td class="memname">def pulser_interface.PulserInterface.get_sequence_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -563,9 +512,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all sampled and saved assets on the host PC. </p>
-<p>This is no list of the file names.</p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all saved asset name strings in the current directory of the host PC. </dd></dl>
+<p>Retrieve the names of all uploaded sequence on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded sequence name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -590,14 +538,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a671c2e90f49c6d33f055acf0ea9d9b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a671c2e90f49c6d33f055acf0ea9d9b3c">&#9670;&nbsp;</a></span>get_uploaded_asset_names()</h2>
+<a id="a57b29b21bd487f6d2bbcc02a711bcb11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b29b21bd487f6d2bbcc02a711bcb11">&#9670;&nbsp;</a></span>get_waveform_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_interface.PulserInterface.get_uploaded_asset_names </td>
+          <td class="memname">def pulser_interface.PulserInterface.get_waveform_names </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -606,9 +554,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieve the names of all uploaded assets on the device. </p>
-<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded asset name strings in the current device directory. This is no list of the file names.</dd></dl>
-<p>Unused for pulse generators without sequence storage capability (PulseBlaster, FPGA). </p>
+<p>Retrieve the names of all uploaded waveforms on the device. </p>
+<dl class="section return"><dt>Returns</dt><dd>list: List of all uploaded waveform name strings in the device workspace. </dd></dl>
 
 </div>
 </div>
@@ -633,14 +580,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b6f846fd562037424b14c09dd0c3b6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b6f846fd562037424b14c09dd0c3b6b">&#9670;&nbsp;</a></span>load_asset()</h2>
+<a id="a22cd03c59214b2a2158308da48c34735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22cd03c59214b2a2158308da48c34735">&#9670;&nbsp;</a></span>load_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_interface.PulserInterface.load_asset </td>
+          <td class="memname">def pulser_interface.PulserInterface.load_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -649,13 +596,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>load_dict</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>sequence_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -665,16 +606,56 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads a sequence or waveform to the specified channel of the pulsing device. </p>
-<p>For devices that have a workspace (i.e. AWG) this will load the asset from the device workspace into the channel. For a device without mass memory this will transfer the waveform/sequence/pattern data directly to the device so that it is ready to play.</p>
+<p>Loads a sequence to the channels of the device in order to be ready for playback. </p>
+<p>For devices that have a workspace (i.e. AWG) this will load the sequence from the device workspace into the channels. For a device without mass memory this will make the waveform/pattern that has been previously written with self.write_waveform ready to play.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>asset_name: The name of the asset to be loaded</td></tr>
-    <tr><td class="paramname">dict</td><td>load_dict: a dictionary with keys being one of the available channel numbers and items being the name of the already sampled waveform/sequence files. Examples {1: rabi_Ch1, 2: rabi_Ch2} {1: rabi_Ch2, 2: rabi_Ch1} This parameter is optional. If none is given then the channel association is invoked from the file name, i.e. the appendix (_ch1, _ch2 etc.)</td></tr>
+    <tr><td class="paramname">sequence_name</td><td>dict|list, a dictionary with keys being one of the available channel index and values being the name of the already written waveform to load into the channel. Examples {1: rabi_ch1, 2: rabi_ch2} or {1: rabi_ch2, 2: rabi_ch1} If just a list of waveform names if given, the channel association will be invoked from the channel suffix '_ch1', '_ch2' etc.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>dict: Dictionary containing the actually loaded waveforms per channel. </dd></dl>
+
+</div>
+</div>
+<a id="ae252dcaa55e8f7b3b347dea52da5904a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae252dcaa55e8f7b3b347dea52da5904a">&#9670;&nbsp;</a></span>load_waveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def pulser_interface.PulserInterface.load_waveform </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>load_dict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a waveform to the specified channel of the pulsing device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dict|list</td><td>load_dict: a dictionary with keys being one of the available channel index and values being the name of the already written waveform to load into the channel. Examples: <pre class="fragment">{1: rabi_ch1, 2: rabi_ch2}
+</pre> or {1: rabi_ch2, 2: rabi_ch1}</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>If just a list of waveform names if given, the channel association will be invoked from the channel suffix '_ch1', '_ch2' etc. A possible configuration can be e.g. </p><pre class="fragment">['rabi_ch1', 'rabi_ch2', 'rabi_ch3']
+</pre><dl class="section return"><dt>Returns</dt><dd>dict: Dictionary containing the actually loaded waveforms per channel.</dd></dl>
+<p>For devices that have a workspace (i.e. AWG) this will load the waveform from the device workspace into the channel. For a device without mass memory, this will make the waveform/pattern that has been previously written with self.write_waveform ready to play.</p>
+<p>Please note that the channel index used here is not to be confused with the number suffix in the generic channel descriptors (i.e. 'd_ch1', 'a_ch1'). The channel index used here is highly hardware specific and corresponds to a collection of digital and analog channels being associated to a SINGLE wavfeorm asset. </p>
 
 </div>
 </div>
@@ -741,48 +722,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abb86e24eb9f79b83c0793263db95a4cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb86e24eb9f79b83c0793263db95a4cd">&#9670;&nbsp;</a></span>set_active_channels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_interface.PulserInterface.set_active_channels </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ch</em> = <code>None</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the active channels for the pulse generator hardware. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dict</td><td>ch: dictionary with keys being the analog or digital string generic names for the channels (i.e. 'd_ch1', 'a_ch2') with items being a boolean value. True Activate channel, False: Deactivate channel <pre class="fragment">@return dict: with the actual set values for ALL active analog and digital channels
-
-If nothing is passed then the command will simply return the unchanged current state.
-</pre></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>After setting the active channels of the device, use the returned dict for further processing.</dd></dl>
-<p>Example for possible input: ch True, 'd_ch1': False, 'd_ch3': True, 'd_ch4': True} to activate analog channel 2 digital channel 3 and 4 and to deactivate digital channel 1.</p>
-<p>The hardware itself has to handle, whether separate channel activation is possible. </p>
-
-</div>
-</div>
 <a id="aa7d34dc1e43359ec27b46092bafa52e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7d34dc1e43359ec27b46092bafa52e6">&#9670;&nbsp;</a></span>set_analog_level()</h2>
 
@@ -825,47 +764,7 @@ If nothing is passed then the command will simply return the unchanged current s
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts with the actual set values for amplitude and offset for ALL channels.</dd></dl>
 <p>If nothing is passed then the command will return the current amplitudes/offsets.</p>
-<dl class="section note"><dt>Note</dt><dd>After setting the amplitude and/or offset values of the device, use the actual set return values for further processing.</dd></dl>
-<p>The major difference to digital signals is that analog signals are always oscillating or changing signals, otherwise you can use just digital output. In contrast to digital output levels, analog output levels are defined by an amplitude (here total signal span, denoted in Voltage peak to peak) and an offset (a value around which the signal oscillates, denoted by an (absolute) voltage).</p>
-<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
-
-</div>
-</div>
-<a id="afa2da6cd0ca56f620c2e733221a5d705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa2da6cd0ca56f620c2e733221a5d705">&#9670;&nbsp;</a></span>set_asset_dir_on_device()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_interface.PulserInterface.set_asset_dir_on_device </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>dir_path</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Change the directory where the assets are stored on the device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>dir_path: The target directory</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>Unused for pulse generators without changeable file structure (PulseBlaster, FPGA). </p>
+<dl class="section note"><dt>Note</dt><dd>After setting the amplitude and/or offset values of the device, use the actual set return values for further processing. </dd></dl>
 
 </div>
 </div>
@@ -911,9 +810,7 @@ If nothing is passed then the command will simply return the unchanged current s
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(dict, dict): tuple of two dicts where first dict denotes the current low value and the second dict the high value for ALL digital channels. Keys are the channel descriptor strings (i.e. 'd_ch1', 'd_ch2')</dd></dl>
 <p>If nothing is passed then the command will return the current voltage levels.</p>
-<dl class="section note"><dt>Note</dt><dd>After setting the high and/or low values of the device, use the actual set return values for further processing.</dd></dl>
-<p>The major difference to analog signals is that digital signals are either ON or OFF, whereas analog channels have a varying amplitude range. In contrast to analog output levels, digital output levels are defined by a voltage, which corresponds to the ON status and a voltage which corresponds to the OFF status (both denoted in (absolute) voltage)</p>
-<p>In general there is no bijective correspondence between (amplitude, offset) and (value high, value low)! </p>
+<dl class="section note"><dt>Note</dt><dd>After setting the high and/or low values of the device, use the actual set return values for further processing. </dd></dl>
 
 </div>
 </div>
@@ -994,14 +891,14 @@ If nothing is passed then the command will simply return the unchanged current s
 
 </div>
 </div>
-<a id="aea96c1035a653ba04f25a8c2d1fdf48f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea96c1035a653ba04f25a8c2d1fdf48f">&#9670;&nbsp;</a></span>tell()</h2>
+<a id="a1a326a6ecb9bb8c7b81dc71d84de799a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a326a6ecb9bb8c7b81dc71d84de799a">&#9670;&nbsp;</a></span>write_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def pulser_interface.PulserInterface.tell </td>
+          <td class="memname">def pulser_interface.PulserInterface.write_sequence </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1010,7 +907,13 @@ If nothing is passed then the command will simply return the unchanged current s
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>command</em>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sequence_parameters</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1020,54 +923,15 @@ If nothing is passed then the command will simply return the unchanged current s
       </table>
 </div><div class="memdoc">
 
-<p>Sends a command string to the device. </p>
+<p>Write a new sequence on the device memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">string</td><td>command: string containing the command</td></tr>
+    <tr><td class="paramname">name</td><td>str, the name of the waveform to be created/append to </td></tr>
+    <tr><td class="paramname">sequence_parameters</td><td>dict, dictionary containing the parameters for a sequence</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
-
-</div>
-</div>
-<a id="aad2c879b401f14867791c840bf625cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad2c879b401f14867791c840bf625cc5">&#9670;&nbsp;</a></span>upload_asset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulser_interface.PulserInterface.upload_asset </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>asset_name</em> = <code>None</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Upload an already hardware conform file to the device mass memory. </p>
-<p>Also loads these files into the device workspace if present. Does NOT load waveforms/sequences/patterns into channels.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">asset_name</td><td>string, name of the ensemble/sequence to be uploaded</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error)</dd></dl>
-<p>If nothing is passed, method will be skipped.</p>
-<p>This method has no effect when using pulser hardware without own mass memory (i.e. PulseBlaster, FPGA) </p>
+<dl class="section return"><dt>Returns</dt><dd>: int, number of sequence steps written (-1 indicates failed process) </dd></dl>
 
 </div>
 </div>

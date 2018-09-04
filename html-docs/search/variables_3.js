@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['laserlogic',['laserlogic',['../classlaser_1_1LaserGUI.html#a8ce7fddb42492f72cdc864f0a78c781b',1,'laser::LaserGUI']]]
+  ['gatedcounterlogic1',['gatedcounterlogic1',['../classgated__counter__gui_1_1GatedCounterGui.html#a2329c47ec521b12f82aa18dc60d9e31e',1,'gated_counter_gui::GatedCounterGui']]]
 ];

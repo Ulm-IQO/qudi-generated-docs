@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['task',['Task',['../classrefocus_1_1Task.html',1,'refocus.Task'],['../classprepostdummy_1_1Task.html',1,'prepostdummy.Task'],['../classdummy_1_1Task.html',1,'dummy.Task'],['../classflipmirror_1_1Task.html',1,'flipmirror.Task']]],
+  ['task',['Task',['../classflipmirror_1_1Task.html',1,'flipmirror.Task'],['../classprepostdummy_1_1Task.html',1,'prepostdummy.Task'],['../classdummy_1_1Task.html',1,'dummy.Task'],['../classrefocus_1_1Task.html',1,'refocus.Task']]],
   ['taskgui',['TaskGui',['../classtaskgui_1_1TaskGui.html',1,'taskgui']]],
   ['tasklisttablemodel',['TaskListTableModel',['../classtaskrunner_1_1TaskListTableModel.html',1,'taskrunner']]],
   ['taskmainwindow',['TaskMainWindow',['../classtaskgui_1_1TaskMainWindow.html',1,'taskgui']]],
@@ -19,5 +19,6 @@ var searchData=
   ['treeitem',['TreeItem',['../classautomation_1_1TreeItem.html',1,'automation']]],
   ['treemodel',['TreeModel',['../classautomation_1_1TreeModel.html',1,'automation']]],
   ['triggeredge',['TriggerEdge',['../classmicrowave__interface_1_1TriggerEdge.html',1,'microwave_interface']]],
+  ['triplesin',['TripleSin',['../classbasic__sampling__functions_1_1TripleSin.html',1,'basic_sampling_functions']]],
   ['tsys01spi',['TSYS01SPI',['../classtsys01__spi_1_1TSYS01SPI.html',1,'tsys01_spi']]]
 ];
