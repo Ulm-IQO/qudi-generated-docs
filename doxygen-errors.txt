@@ -74,7 +74,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:37: warning: Compound laserscannergui::VoltScanMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:41: warning: Compound tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/fit_logic_standalone.py:73: warning: Compound fit_logic_standalone::FitLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:115: warning: Compound qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:116: warning: Compound qtwidgets::scientific_spinbox::IntegerValidator is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:32: warning: Compound nuclear_operations::NuclearOperationsMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:32: warning: Compound simple_laser_interface::ShutterState is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/mapper.py:47: warning: Compound core::mapper::Converter is not documented.
@@ -100,7 +100,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/vacuum_pump_interface.py:26: warning: Compound vacuum_pump_interface::VacuumPumpInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:28: warning: Compound magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:44: warning: Compound simple_laser_interface::SimpleLaserInterface is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:974: warning: Compound qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:975: warning: Compound qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_analysis_methods/basic_analysis_methods.py:30: warning: Compound basic_analysis_methods::BasicPulseAnalyzer is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:34: warning: Compound edwards_vacuum_controller::EdwardsVacuumController is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/config_model.py:22: warning: Compound config_gui::config_model::ModuleConfigModel is not documented.
@@ -116,7 +116,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:53: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:128: warning: Compound pulsed_item_delegates::SpinBoxItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:192: warning: Compound qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:193: warning: Compound qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/qudikernel.py:38: warning: Compound core::qudikernel::Qudi is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:52: warning: Compound laserscannergui::VoltScanGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:106: warning: Compound fastcomtecmcs6::AcqSettings is not documented.
@@ -5017,80 +5017,80 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/qradiobutton_custom.py:84: warning: The following parameters of qtwidgets.qradiobutton_custom.CustomQRadioButton.setReadOnly(self, state) are not documented:
   parameter 'state'
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:58: warning: Member validate(self, string, position) (function) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:91: warning: Member get_group_dict(self, string) (function) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:101: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:92: warning: Member get_group_dict(self, string) (function) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:102: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:37: warning: Member float_re (variable) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:38: warning: Member group_map (variable) of class qtwidgets::scientific_spinbox::FloatValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:138: warning: Member validate(self, string, position) (function) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:165: warning: Member get_group_dict(self, string) (function) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:175: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:117: warning: Member int_re (variable) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:118: warning: Member group_map (variable) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:226: warning: Member __init__(self, args, kwargs) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:251: warning: Member dynamic_stepping(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:261: warning: Member dynamic_stepping(self, use_dynamic_stepping) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:272: warning: Member dynamic_precision(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:282: warning: Member dynamic_precision(self, use_dynamic_precision) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:294: warning: Member is_valid(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:310: warning: Member update_value(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:344: warning: Member setValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:401: warning: Member check_range(self, value) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:415: warning: Member minimum(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:424: warning: Member setMinimum(self, minimum) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:433: warning: Member maximum(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:442: warning: Member setMaximum(self, maximum) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:458: warning: Member setRange(self, minimum, maximum) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:462: warning: Member decimals(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:477: warning: Member setDecimals(self, decimals, dynamic_precision=True) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:489: warning: Member prefix(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:501: warning: Member suffix(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:510: warning: Member setSuffix(self, suffix) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:514: warning: Member singleStep(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:553: warning: Member minimalStep(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:569: warning: Member setMinimalStep(self, step) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:592: warning: Member cleanText(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:605: warning: Member update_display(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:618: warning: Member keyPressEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:672: warning: Member focusInEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:677: warning: Member focusOutEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:738: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:806: warning: Member textFromValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:915: warning: Member stepBy(self, steps) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:941: warning: Member selectAll(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:240: warning: Member validator (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:487: warning: Member dynamic_precision (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:551: warning: Member dynamic_stepping (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:194: warning: Member valueChanged (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:993: warning: Member __init__(self, args, kwargs) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1015: warning: Member dynamic_stepping(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1025: warning: Member dynamic_stepping(self, use_dynamic_stepping) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1037: warning: Member update_value(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1065: warning: Member setValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1098: warning: Member check_range(self, value) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1111: warning: Member minimum(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1120: warning: Member setMinimum(self, minimum) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1125: warning: Member maximum(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1134: warning: Member setMaximum(self, maximum) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1146: warning: Member setRange(self, minimum, maximum) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1150: warning: Member prefix(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1162: warning: Member suffix(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1171: warning: Member setSuffix(self, suffix) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1175: warning: Member singleStep(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1198: warning: Member minimalStep(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1211: warning: Member setMinimalStep(self, step) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1223: warning: Member cleanText(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1236: warning: Member update_display(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1249: warning: Member keyPressEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1304: warning: Member focusInEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1309: warning: Member focusOutEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1352: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1365: warning: Member valueFromText(self, text) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1394: warning: Member textFromValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1439: warning: Member stepBy(self, steps) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1466: warning: Member selectAll(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1004: warning: Member validator (variable) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1196: warning: Member dynamic_stepping (variable) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
-/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:976: warning: Member valueChanged (variable) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:139: warning: Member validate(self, string, position) (function) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:166: warning: Member get_group_dict(self, string) (function) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:176: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:118: warning: Member int_re (variable) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:119: warning: Member group_map (variable) of class qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:227: warning: Member __init__(self, args, kwargs) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:252: warning: Member dynamic_stepping(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:262: warning: Member dynamic_stepping(self, use_dynamic_stepping) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:273: warning: Member dynamic_precision(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:283: warning: Member dynamic_precision(self, use_dynamic_precision) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:295: warning: Member is_valid(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:311: warning: Member update_value(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:345: warning: Member setValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:402: warning: Member check_range(self, value) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:416: warning: Member minimum(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:425: warning: Member setMinimum(self, minimum) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:434: warning: Member maximum(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:443: warning: Member setMaximum(self, maximum) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:459: warning: Member setRange(self, minimum, maximum) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:463: warning: Member decimals(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:478: warning: Member setDecimals(self, decimals, dynamic_precision=True) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:490: warning: Member prefix(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:502: warning: Member suffix(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:511: warning: Member setSuffix(self, suffix) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:515: warning: Member singleStep(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:554: warning: Member minimalStep(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:570: warning: Member setMinimalStep(self, step) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:593: warning: Member cleanText(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:606: warning: Member update_display(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:619: warning: Member keyPressEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:673: warning: Member focusInEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:678: warning: Member focusOutEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:739: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:807: warning: Member textFromValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:916: warning: Member stepBy(self, steps) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:942: warning: Member selectAll(self) (function) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:241: warning: Member validator (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:488: warning: Member dynamic_precision (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:552: warning: Member dynamic_stepping (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:195: warning: Member valueChanged (variable) of class qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:994: warning: Member __init__(self, args, kwargs) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1016: warning: Member dynamic_stepping(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1026: warning: Member dynamic_stepping(self, use_dynamic_stepping) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1038: warning: Member update_value(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1066: warning: Member setValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1099: warning: Member check_range(self, value) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1112: warning: Member minimum(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1121: warning: Member setMinimum(self, minimum) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1126: warning: Member maximum(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1135: warning: Member setMaximum(self, maximum) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1147: warning: Member setRange(self, minimum, maximum) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1151: warning: Member prefix(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1163: warning: Member suffix(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1172: warning: Member setSuffix(self, suffix) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1176: warning: Member singleStep(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1199: warning: Member minimalStep(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1212: warning: Member setMinimalStep(self, step) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1224: warning: Member cleanText(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1237: warning: Member update_display(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1250: warning: Member keyPressEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1305: warning: Member focusInEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1310: warning: Member focusOutEvent(self, event) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1353: warning: Member fixup(self, text) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1366: warning: Member valueFromText(self, text) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1395: warning: Member textFromValue(self, value) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1440: warning: Member stepBy(self, steps) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1467: warning: Member selectAll(self) (function) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1005: warning: Member validator (variable) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:1197: warning: Member dynamic_stepping (variable) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:977: warning: Member valueChanged (variable) of class qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:74: warning: Member __init__(self, stream) (function) of class qzmqkernel::QZMQHeartbeat is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:76: warning: Member stream (variable) of class qzmqkernel::QZMQHeartbeat is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/qzmqkernel.py:112: warning: Member __init__(self, config=None) (function) of class qzmqkernel::QZMQKernel is not documented.
