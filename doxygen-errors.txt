@@ -4664,10 +4664,10 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:689: warning: Member sample_sequence_finished(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:701: warning: Member load_ensemble(self, ensemble_name) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:711: warning: Member load_sequence(self, sequence_name) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:822: warning: Member set_pulse_generator_settings(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:841: warning: Member set_generation_parameters(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:869: warning: Member get_ensemble_info(self, ensemble) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:874: warning: Member get_sequence_info(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:824: warning: Member set_pulse_generator_settings(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:843: warning: Member set_generation_parameters(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:871: warning: Member get_ensemble_info(self, ensemble) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:876: warning: Member get_sequence_info(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:127: warning: Member status_dict (variable) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:59: warning: Member pulsedmeasurementlogic (variable) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:60: warning: Member sequencegeneratorlogic (variable) of class pulsed_master_logic::PulsedMasterLogic is not documented.
