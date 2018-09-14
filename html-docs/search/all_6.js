@@ -24,6 +24,7 @@ var searchData=
   ['fit_5fdata_5fupdated',['fit_data_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a2a701620adcf867983d3b1e25751a769',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['fit_5fdomain_5fto_5fdata',['fit_domain_to_data',['../classqdplottergui_1_1QdplotterGui.html#a63a80f584ec20b5d51d678608eef71e9',1,'qdplottergui::QdplotterGui']]],
   ['fit_5frange_5fto_5fdata',['fit_range_to_data',['../classqdplottergui_1_1QdplotterGui.html#aa506d0a4eab1597fce87d4fafd87caec',1,'qdplottergui::QdplotterGui']]],
+  ['fit_5fupdated',['fit_updated',['../classpulsed__master__logic_1_1PulsedMasterLogic.html#a65c81f1680b17d9e4a92c9af4032dff2',1,'pulsed_master_logic::PulsedMasterLogic']]],
   ['fitchanged',['fitChanged',['../classfitsettings_1_1FitConfigWidget.html#ab483061d827d29a1905931284a9a909a',1,'fitsettings::FitConfigWidget']]],
   ['fitconfigwidget',['FitConfigWidget',['../classfitsettings_1_1FitConfigWidget.html',1,'fitsettings']]],
   ['fitcontainer',['FitContainer',['../classfit__logic_1_1FitContainer.html',1,'fit_logic']]],
