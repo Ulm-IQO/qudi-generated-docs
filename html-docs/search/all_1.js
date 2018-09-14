@@ -42,6 +42,7 @@ var searchData=
   ['analogparameterswidget',['AnalogParametersWidget',['../classpulsed__custom__widgets_1_1AnalogParametersWidget.html',1,'pulsed_custom_widgets']]],
   ['analyse_5fmean',['analyse_mean',['../classbasic__analysis__methods_1_1BasicPulseAnalyzer.html#aca0a13fe014783332440e6c2d6565d7d',1,'basic_analysis_methods::BasicPulseAnalyzer']]],
   ['analyse_5fmean_5fnorm',['analyse_mean_norm',['../classbasic__analysis__methods_1_1BasicPulseAnalyzer.html#a41d26607f37b4ff4947225fed38f400a',1,'basic_analysis_methods::BasicPulseAnalyzer']]],
+  ['analyse_5fsum',['analyse_sum',['../classbasic__analysis__methods_1_1BasicPulseAnalyzer.html#a98ee78f20b61ccde54f771749e17fe53',1,'basic_analysis_methods::BasicPulseAnalyzer']]],
   ['analysis_5fmethods',['analysis_methods',['../classpulse__analyzer_1_1PulseAnalyzer.html#a0ea969b464bd48ecaa9e6a9e19ffa0bc',1,'pulse_analyzer::PulseAnalyzer']]],
   ['analysis_5fsettings_5fchanged',['analysis_settings_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a4f3c41220424023cdb30aa53a61d0655',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['analysis_5fsettings_5fupdated',['analysis_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a8d5a026f7c42444cdbccfef0b3b05be0',1,'pulsed_maingui::PulsedMeasurementGui']]],
