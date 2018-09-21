@@ -273,11 +273,11 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_pulse_generator_se
 <tr class="memitem:a6ec7995c48d512253d821ab5bba64fb7"><td class="memItemLeft" align="right" valign="top"><a id="a6ec7995c48d512253d821ab5bba64fb7"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>set_generation_parameters</b> (self, settings_dict=None, kwargs)</td></tr>
 <tr class="separator:a6ec7995c48d512253d821ab5bba64fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13293203db9990acb1feaa6545c0c250"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a13293203db9990acb1feaa6545c0c250">generate_predefined_sequence</a> (self, generator_method_name, kwarg_dict=None)</td></tr>
-<tr class="separator:a13293203db9990acb1feaa6545c0c250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea7101ba969c37fbae0c8247f1d6aaf6"><td class="memItemLeft" align="right" valign="top"><a id="aea7101ba969c37fbae0c8247f1d6aaf6"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>predefined_sequence_generated</b> (self, generated_name)</td></tr>
-<tr class="separator:aea7101ba969c37fbae0c8247f1d6aaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9afe45ed3ba09e1c0bd99e8dc5b5ee2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#aa9afe45ed3ba09e1c0bd99e8dc5b5ee2">generate_predefined_sequence</a> (self, generator_method_name, kwarg_dict=None, sample_and_load=False)</td></tr>
+<tr class="separator:aa9afe45ed3ba09e1c0bd99e8dc5b5ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa561af0c6d3a88cd0b67a34533caee65"><td class="memItemLeft" align="right" valign="top"><a id="aa561af0c6d3a88cd0b67a34533caee65"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>predefined_sequence_generated</b> (self, asset_name, is_sequence)</td></tr>
+<tr class="separator:aa561af0c6d3a88cd0b67a34533caee65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53f640ce8f29de7ad0d46681c35074ed"><td class="memItemLeft" align="right" valign="top"><a id="a53f640ce8f29de7ad0d46681c35074ed"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_ensemble_info</b> (self, ensemble)</td></tr>
 <tr class="separator:a53f640ce8f29de7ad0d46681c35074ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,7 +444,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigSamplingSettingsUpdated</b> = QtCore.Signal(dict)</td></tr>
 <tr class="separator:a39df9a0220eea72db36afa2a687bda2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b9ec7c92d919c5533b22bd106db2251"><td class="memItemLeft" align="right" valign="top"><a id="a8b9ec7c92d919c5533b22bd106db2251"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigPredefinedSequenceGenerated</b> = QtCore.Signal(object)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigPredefinedSequenceGenerated</b> = QtCore.Signal(object, bool)</td></tr>
 <tr class="separator:a8b9ec7c92d919c5533b22bd106db2251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -709,8 +709,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a13293203db9990acb1feaa6545c0c250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13293203db9990acb1feaa6545c0c250">&#9670;&nbsp;</a></span>generate_predefined_sequence()</h2>
+<a id="aa9afe45ed3ba09e1c0bd99e8dc5b5ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9afe45ed3ba09e1c0bd99e8dc5b5ee2">&#9670;&nbsp;</a></span>generate_predefined_sequence()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -731,7 +731,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>kwarg_dict</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>kwarg_dict</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>sample_and_load</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -744,6 +750,7 @@ Static Public Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">generator_method_name</td><td></td></tr>
     <tr><td class="paramname">kwarg_dict</td><td></td></tr>
+    <tr><td class="paramname">sample_and_load</td><td></td></tr>
   </table>
   </dd>
 </dl>
