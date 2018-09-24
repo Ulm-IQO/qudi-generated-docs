@@ -2872,24 +2872,24 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:130: warning: Member off(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:142: warning: Member get_status(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:165: warning: Member get_frequency(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:242: warning: Member list_on(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:343: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:241: warning: Member list_on(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:339: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:70: warning: Member rm (variable) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:79: warning: Member model (variable) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:214: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:214: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:214: warning: argument 'bool' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:217: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_cw(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:213: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:213: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:213: warning: argument 'bool' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:216: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:386: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:386: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:382: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_ext_trigger(self, pol=TriggerEdge.RISING)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:382: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
   parameter 'pol'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:265: warning: argument 'list' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:265: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:268: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_list(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:264: warning: argument 'list' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:264: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:267: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:128: warning: Member off(self) (function) of class mw_source_anritsu70GHz::MicrowaveAnritsu70GHz is not documented.
@@ -3423,7 +3423,7 @@ IndexError: list index out of range
   parameter 'odmr_trigger_channel'
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:84: warning: Member __init__(self, config, kwargs) (function) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:163: warning: Member sv_set_fits(self, val) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:659: warning: Member get_odmr_channels(self) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:667: warning: Member get_odmr_channels(self) (function) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:86: warning: Member threadlock (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:112: warning: Member mw_trigger_pol (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:116: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
@@ -3434,7 +3434,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:210: warning: Member odmr_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:211: warning: Member odmr_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:212: warning: Member odmr_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:493: warning: Member stopRequested (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:501: warning: Member stopRequested (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:50: warning: Member odmrcounter (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:51: warning: Member fitlogic (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:52: warning: Member microwave1 (variable) of class odmr_logic::ODMRLogic is not documented.
@@ -3457,7 +3457,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:80: warning: Member sigOdmrPlotsUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:81: warning: Member sigOdmrFitUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:82: warning: Member sigOdmrElapsedTimeUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:779: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:787: warning: expected whitespace after : command
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:240: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:243: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
