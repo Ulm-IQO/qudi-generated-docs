@@ -88,7 +88,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_analyzer.py:81: warning: Compound pulse_analyzer::PulseAnalyzer is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:84: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extractor.py:37: warning: Compound pulse_extractor::PulseExtractorBase is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:80: warning: Compound sampling_functions::SamplingFunctions is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:82: warning: Compound sampling_functions::SamplingFunctions is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:1156: warning: Compound pulse_editors::SequenceEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:106: warning: Compound pulsed_maingui::GeneratorSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laserquantum_laser::LaserQuantumLaser is not documented.
@@ -5161,15 +5161,16 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/tasks/refocus.py:29: warning: Member __init__(self, kwargs) (function) of class refocus::Task is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/remotewidget.py:30: warning: Member __init__(self) (function) of class remotewidget::RemoteWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/samples_write_methods.py:35: warning: Member __init__(self) (function) of class samples_write_methods::SamplesWriteMethods is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:37: warning: Member __repr__(self) (function) of class sampling_functions::SamplingBase is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:46: warning: Member __str__(self) (function) of class sampling_functions::SamplingBase is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:55: warning: Member __eq__(self, other) (function) of class sampling_functions::SamplingBase is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:68: warning: Member get_dict_representation(self) (function) of class sampling_functions::SamplingBase is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:35: warning: Member params (variable) of class sampling_functions::SamplingBase is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:84: warning: Member import_sampling_functions(cls, path_list) (function) of class sampling_functions::SamplingFunctions is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:81: warning: Member parameters (variable) of class sampling_functions::SamplingFunctions is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:129: warning: argument 'object' of command @param is not found in the argument list of sampling_functions.SamplingFunctions::is_sampling_function_class(obj)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:131: warning: The following parameters of sampling_functions.SamplingFunctions.is_sampling_function_class(obj) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:39: warning: Member __repr__(self) (function) of class sampling_functions::SamplingBase is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:48: warning: Member __str__(self) (function) of class sampling_functions::SamplingBase is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:57: warning: Member __eq__(self, other) (function) of class sampling_functions::SamplingBase is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:70: warning: Member get_dict_representation(self) (function) of class sampling_functions::SamplingBase is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:36: warning: Member params (variable) of class sampling_functions::SamplingBase is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:37: warning: Member log (variable) of class sampling_functions::SamplingBase is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:86: warning: Member import_sampling_functions(cls, path_list) (function) of class sampling_functions::SamplingFunctions is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:83: warning: Member parameters (variable) of class sampling_functions::SamplingFunctions is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:131: warning: argument 'object' of command @param is not found in the argument list of sampling_functions.SamplingFunctions::is_sampling_function_class(obj)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:133: warning: The following parameters of sampling_functions.SamplingFunctions.is_sampling_function_class(obj) are not documented:
   parameter 'obj'
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:53: warning: Member __init__(self, base_filename, savelogic) (function) of class save_logic::DailyLogHandler is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:69: warning: Member filename(self) (function) of class save_logic::DailyLogHandler is not documented.
