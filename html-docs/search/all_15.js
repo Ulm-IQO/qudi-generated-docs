@@ -2,6 +2,7 @@ var searchData=
 [
   ['user_20interface_20_28gui_29_20design_20concept',['User Interface (GUI) Design Concept',['../uiguidelines.html',1,'']]],
   ['ungated_5fconv_5fderiv',['ungated_conv_deriv',['../classbasic__extraction__methods_1_1BasicPulseExtractor.html#a251ee31f34724df37982b524da0f9a7d',1,'basic_extraction_methods::BasicPulseExtractor']]],
+  ['ungated_5fgated_5fconv_5fderiv',['ungated_gated_conv_deriv',['../classbasic__extraction__methods_1_1BasicPulseExtractor.html#ac2cfb4cc97c7652f11b984533c517c18',1,'basic_extraction_methods::BasicPulseExtractor']]],
   ['ungated_5fthreshold',['ungated_threshold',['../classbasic__extraction__methods_1_1BasicPulseExtractor.html#abb5dea47c4a4b67ae5bfbf118916c57a',1,'basic_extraction_methods::BasicPulseExtractor']]],
   ['unlock',['unlock',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a90bdf764f58dd776c39a5a56e70230e6',1,'core::util::mutex::Mutex']]],
   ['unregister',['unregister',['../classevents_1_1EventManager.html#a45dffe9db7523127e1e240f6f4384c80',1,'events::EventManager']]],

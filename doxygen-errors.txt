@@ -259,6 +259,13 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extraction_methods/basic_extraction_methods.py:125: warning: The following parameters of basic_extraction_methods.BasicPulseExtractor.ungated_conv_deriv(self, count_data, conv_std_dev=20.0) are not documented:
   parameter 'count_data'
   parameter 'conv_std_dev'
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extraction_methods/basic_extraction_methods.py:352: warning: argument 'numpy.' of command @param is not found in the argument list of basic_extraction_methods.BasicPulseExtractor::ungated_gated_conv_deriv(self, count_data, conv_std_dev=20.0, delay=5e-7, safety=2e-7)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extraction_methods/basic_extraction_methods.py:352: warning: argument 'ndarray' of command @param is not found in the argument list of basic_extraction_methods.BasicPulseExtractor::ungated_gated_conv_deriv(self, count_data, conv_std_dev=20.0, delay=5e-7, safety=2e-7)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extraction_methods/basic_extraction_methods.py:355: warning: The following parameters of basic_extraction_methods.BasicPulseExtractor.ungated_gated_conv_deriv(self, count_data, conv_std_dev=20.0, delay=5e-7, safety=2e-7) are not documented:
+  parameter 'count_data'
+  parameter 'conv_std_dev'
+  parameter 'delay'
+  parameter 'safety'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extraction_methods/basic_extraction_methods.py:262: warning: The following parameters of basic_extraction_methods.BasicPulseExtractor.ungated_threshold(self, count_data, count_threshold=10, min_laser_length=200e-9, threshold_tolerance=20e-9) are not documented:
   parameter 'count_threshold'
   parameter 'min_laser_length'

@@ -97,6 +97,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>gated_conv_deriv</b> (
 <tr class="separator:a251ee31f34724df37982b524da0f9a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb5dea47c4a4b67ae5bfbf118916c57a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic__extraction__methods_1_1BasicPulseExtractor.html#abb5dea47c4a4b67ae5bfbf118916c57a">ungated_threshold</a> (self, count_data, count_threshold=10, min_laser_length=200e-9, threshold_tolerance=20e-9)</td></tr>
 <tr class="separator:abb5dea47c4a4b67ae5bfbf118916c57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2cfb4cc97c7652f11b984533c517c18"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic__extraction__methods_1_1BasicPulseExtractor.html#ac2cfb4cc97c7652f11b984533c517c18">ungated_gated_conv_deriv</a> (self, count_data, conv_std_dev=20.0, delay=5e-7, safety=2e-7)</td></tr>
+<tr class="memdesc:ac2cfb4cc97c7652f11b984533c517c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts the laser pulses in the ungated timetrace data using laser_start_indices and laser_length.  <a href="#ac2cfb4cc97c7652f11b984533c517c18">More...</a><br /></td></tr>
+<tr class="separator:ac2cfb4cc97c7652f11b984533c517c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a251ee31f34724df37982b524da0f9a7d"></a>
@@ -148,6 +151,64 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>gated_conv_deriv</b> (
 <p>The maxima and minima are not found sequentially, pulse by pulse, but are rather globally obtained. I.e. the convolved and derived array is searched iteratively for a maximum and a minimum, and after finding those the array entries within the 4 times self.conv_std_dev (2*self.conv_std_dev to the left and 2*self.conv_std_dev) are set to zero.</p>
 <p>The crucial part is the knowledge of the number of laser pulses and the choice of the appropriate std_dev for the gauss filter.</p>
 <p>To ensure a good performance of the edge detection, you have to ensure a steep rising and falling edge of the laser pulse! Be also careful in choosing a large conv_std_dev value and using a small laser pulse (rule of thumb: conv_std_dev &lt; laser_length/10). </p>
+
+</div>
+</div>
+<a id="ac2cfb4cc97c7652f11b984533c517c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2cfb4cc97c7652f11b984533c517c18">&#9670;&nbsp;</a></span>ungated_gated_conv_deriv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def basic_extraction_methods.BasicPulseExtractor.ungated_gated_conv_deriv </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>count_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>conv_std_dev</em> = <code>20.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>delay</em> = <code>5e-7</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>safety</em> = <code>2e-7</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extracts the laser pulses in the ungated timetrace data using laser_start_indices and laser_length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numpy.ndarray</td><td>count_data: 1D array the raw timetrace data from an ungated fast counter</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>2D numpy.ndarray: 2D array, the extracted laser pulses of the timetrace. dimensions 0: laser number, 1: time bin</dd></dl>
+<dl class="section user"><dt>Procedure</dt><dd><h2>Threshold detection: </h2>
+</dd></dl>
+<dl class="section user"><dt></dt><dd>Finds the laser pulses from the ungated timetrace using that their positions are known. The laser pulses are the extracted using gated_conv_deriv. </dd></dl>
 
 </div>
 </div>
