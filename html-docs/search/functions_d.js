@@ -20,7 +20,7 @@ var searchData=
   ['measurement_5ftimer_5fchanged',['measurement_timer_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a5547887b70c0b6b455489fbde22f5a0f',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['measurement_5ftimer_5fupdated',['measurement_timer_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a19b0d19c2bf594da920005c429e1707b',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['menu_5foptimizer_5fsettings',['menu_optimizer_settings',['../classconfocalgui_1_1ConfocalGui.html#abceedd8bc782c938d57441174d6ae625',1,'confocalgui::ConfocalGui']]],
-  ['menu_5fsettings',['menu_settings',['../classconfocalgui_1_1ConfocalGui.html#ac2f76509e4c421c5da524d30ccb242a5',1,'confocalgui::ConfocalGui']]],
+  ['menu_5fsettings',['menu_settings',['../classcameragui_1_1CameraGUI.html#ad50aec3a556742a874f0e6a20b23d9db',1,'cameragui.CameraGUI.menu_settings()'],['../classconfocalgui_1_1ConfocalGui.html#ac2f76509e4c421c5da524d30ccb242a5',1,'confocalgui.ConfocalGui.menu_settings()']]],
   ['metalheatcapacity',['metalHeatCapacity',['../classprocess__dummy_1_1ProcessDummy.html#a9475a79c57376274f7a26ed6f04fb51b',1,'process_dummy::ProcessDummy']]],
   ['microwave_5foff',['microwave_off',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#aadd0180ffb0e5f392e0a65d31ebcefd9',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],
   ['microwave_5fon',['microwave_on',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#acc549fef494f496ad5516f916fb75707',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],

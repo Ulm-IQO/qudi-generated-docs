@@ -1,9 +1,57 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classfastcomtecmcs6_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="149,5,337,32"/>
-<area shape="rect" id="node3" href="$classfastcomtecmcs6_1_1AcqSettings.html" title="fastcomtecmcs6.AcqSettings" alt="" coords="145,56,340,83"/>
-<area shape="rect" id="node4" href="$classfastcomtecmcs6_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="151,107,335,133"/>
-<area shape="rect" id="node5" href="$classfastcomtecmcs6_1_1BOARDSETTING.html" title="fastcomtecmcs6.BOARDSETTING" alt="" coords="128,157,357,184"/>
-<area shape="rect" id="node6" href="$classfastcomtecp7887_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="147,208,338,235"/>
-<area shape="rect" id="node7" href="$classfastcomtecp7887_1_1AcqSettings.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="144,259,341,285"/>
-<area shape="rect" id="node8" href="$classfastcomtecp7887_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="149,309,336,336"/>
+<area shape="rect" id="node2" href="$classfastcomtecmcs6_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="165,5,353,32"/>
+<area shape="rect" id="node3" href="$classfastcomtecmcs6_1_1AcqSettings.html" title="fastcomtecmcs6.AcqSettings" alt="" coords="161,56,356,83"/>
+<area shape="rect" id="node4" href="$classfastcomtecmcs6_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="167,107,351,133"/>
+<area shape="rect" id="node5" href="$classfastcomtecmcs6_1_1BOARDSETTING.html" title="fastcomtecmcs6.BOARDSETTING" alt="" coords="144,157,373,184"/>
+<area shape="rect" id="node6" href="$classfastcomtecp7887_1_1ACQDATA.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="163,208,354,235"/>
+<area shape="rect" id="node7" href="$classfastcomtecp7887_1_1AcqSettings.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="160,259,357,285"/>
+<area shape="rect" id="node8" href="$classfastcomtecp7887_1_1AcqStatus.html" title="Create a structured Data type with ctypes where the dll can write into. " alt="" coords="165,309,352,336"/>
+<area shape="rect" id="node9" href="$classuc480__h_1_1AOI__SEQUENCE__PARAMS.html" title="uc480_h.AOI_SEQUENCE\l_PARAMS" alt="" coords="168,361,349,402"/>
+<area shape="rect" id="node10" href="$classuc480__h_1_1AUTO__BRIGHT__STATUS.html" title="uc480_h.AUTO_BRIGHT\l_STATUS" alt="" coords="173,426,344,467"/>
+<area shape="rect" id="node11" href="$classuc480__h_1_1AUTO__WB__CHANNNEL__STATUS.html" title="uc480_h.AUTO_WB_CHANNNEL\l_STATUS" alt="" coords="147,491,370,533"/>
+<area shape="rect" id="node12" href="$classuc480__h_1_1AUTO__WB__STATUS.html" title="uc480_h.AUTO_WB_STATUS" alt="" coords="158,557,359,584"/>
+<area shape="rect" id="node13" href="$classuc480__h_1_1BOARDINFO.html" title="uc480_h.BOARDINFO" alt="" coords="181,608,336,635"/>
+<area shape="rect" id="node14" href="$classuc480__h_1_1BUFFER__CONVERSION__PARAMS.html" title="uc480_h.BUFFER_CONVERSION\l_PARAMS" alt="" coords="145,659,372,701"/>
+<area shape="rect" id="node15" href="$classuc480__h_1_1FDT__INFO__EL.html" title="uc480_h.FDT_INFO_EL" alt="" coords="177,725,340,752"/>
+<area shape="rect" id="node16" href="$classuc480__h_1_1ID__RANGE.html" title="uc480_h.ID_RANGE" alt="" coords="187,776,331,803"/>
+<area shape="rect" id="node17" href="$classuc480__h_1_1IMAGE__FILE__PARAMS.html" title="uc480_h.IMAGE_FILE\l_PARAMS" alt="" coords="182,827,335,869"/>
+<area shape="rect" id="node18" href="$classuc480__h_1_1IMAGE__FORMAT__INFO.html" title="uc480_h.IMAGE_FORMAT_INFO" alt="" coords="149,893,369,920"/>
+<area shape="rect" id="node19" href="$classuc480__h_1_1IMGBUF__ITERATION__INFO.html" title="uc480_h.IMGBUF_ITERATION_INFO" alt="" coords="136,944,381,971"/>
+<area shape="rect" id="node20" href="$classuc480__h_1_1IO__FLASH__PARAMS.html" title="uc480_h.IO_FLASH_PARAMS" alt="" coords="157,995,360,1021"/>
+<area shape="rect" id="node21" href="$classuc480__h_1_1IO__GPIO__CONFIGURATION.html" title="uc480_h.IO_GPIO_CONFIGURATION" alt="" coords="134,1045,383,1072"/>
+<area shape="rect" id="node22" href="$classuc480__h_1_1IO__PWM__PARAMS.html" title="uc480_h.IO_PWM_PARAMS" alt="" coords="162,1096,355,1123"/>
+<area shape="rect" id="node23" href="$classuc480__h_1_1IS__DEVICE__INFO.html" title="uc480_h.IS_DEVICE_INFO" alt="" coords="166,1147,351,1173"/>
+<area shape="rect" id="node24" href="$classuc480__h_1_1IS__DEVICE__INFO__CONTROL.html" title="uc480_h.IS_DEVICE_INFO\l_CONTROL" alt="" coords="166,1198,351,1239"/>
+<area shape="rect" id="node25" href="$classuc480__h_1_1IS__DEVICE__INFO__HEARTBEAT.html" title="uc480_h.IS_DEVICE_INFO\l_HEARTBEAT" alt="" coords="166,1263,351,1305"/>
+<area shape="rect" id="node26" href="$classuc480__h_1_1IS__POINT__2D.html" title="uc480_h.IS_POINT_2D" alt="" coords="179,1329,339,1356"/>
+<area shape="rect" id="node27" href="$classuc480__h_1_1IS__RANGE__S32.html" title="uc480_h.IS_RANGE_S32" alt="" coords="172,1380,345,1407"/>
+<area shape="rect" id="node28" href="$classuc480__h_1_1IS__RECT.html" title="uc480_h.IS_RECT" alt="" coords="193,1431,325,1457"/>
+<area shape="rect" id="node29" href="$classuc480__h_1_1IS__SIZE__2D.html" title="uc480_h.IS_SIZE_2D" alt="" coords="184,1481,333,1508"/>
+<area shape="rect" id="node30" href="$classuc480__h_1_1KNEEPOINT.html" title="uc480_h.KNEEPOINT" alt="" coords="182,1532,335,1559"/>
+<area shape="rect" id="node31" href="$classuc480__h_1_1KNEEPOINTARRAY.html" title="uc480_h.KNEEPOINTARRAY" alt="" coords="159,1583,359,1609"/>
+<area shape="rect" id="node32" href="$classuc480__h_1_1KNEEPOINTINFO.html" title="uc480_h.KNEEPOINTINFO" alt="" coords="166,1633,351,1660"/>
+<area shape="rect" id="node33" href="$classuc480__h_1_1MEASURE__SHARPNESS__AOI__INFO.html" title="uc480_h.MEASURE_SHARPNESS\l_AOI_INFO" alt="" coords="142,1685,375,1726"/>
+<area shape="rect" id="node34" href="$classuc480__h_1_1OPENGL__DISPLAY.html" title="uc480_h.OPENGL_DISPLAY" alt="" coords="161,1751,356,1777"/>
+<area shape="rect" id="node35" href="$classuc480__h_1_1RANGE__OF__VALUES__U32.html" title="uc480_h.RANGE_OF_VALUES_U32" alt="" coords="139,1801,378,1828"/>
+<area shape="rect" id="node36" href="$classuc480__h_1_1REVISIONINFO.html" title="uc480_h.REVISIONINFO" alt="" coords="173,1852,345,1879"/>
+<area shape="rect" id="node37" href="$classuc480__h_1_1SENSORINFO.html" title="uc480_h.SENSORINFO" alt="" coords="177,1903,341,1929"/>
+<area shape="rect" id="node38" href="$classuc480__h_1_1SENSORSCALERINFO.html" title="uc480_h.SENSORSCALERINFO" alt="" coords="149,1953,368,1980"/>
+<area shape="rect" id="node39" href="$classuc480__h_1_1UC480__AUTO__INFO.html" title="uc480_h.UC480_AUTO_INFO" alt="" coords="159,2004,358,2031"/>
+<area shape="rect" id="node40" href="$classuc480__h_1_1UC480__CAMERA__INFO.html" title="uc480_h.UC480_CAMERA_INFO" alt="" coords="149,2055,369,2081"/>
+<area shape="rect" id="node41" href="$classuc480__h_1_1UC480__CAPTURE__ERROR__INFO.html" title="uc480_h.UC480_CAPTURE\l_ERROR_INFO" alt="" coords="165,2106,353,2147"/>
+<area shape="rect" id="node42" href="$classuc480__h_1_1UC480__CAPTURE__STATUS__INFO.html" title="uc480_h.UC480_CAPTURE\l_STATUS_INFO" alt="" coords="165,2171,353,2213"/>
+<area shape="rect" id="node43" href="$classuc480__h_1_1UC480__COMPORT__CONFIGURATION.html" title=":var WORD wComportNumber: " alt="" coords="163,2237,354,2278"/>
+<area shape="rect" id="node44" href="$classuc480__h_1_1UC480__ETH__ADAPTER__INFO.html" title="uc480_h.UC480_ETH_ADAPTER_INFO" alt="" coords="129,2303,389,2329"/>
+<area shape="rect" id="node45" href="$classuc480__h_1_1UC480__ETH__ADDR__IPV4.html" title="uc480_h.UC480_ETH_ADDR_IPV4" alt="" coords="143,2353,375,2380"/>
+<area shape="rect" id="node46" href="$classuc480__h_1_1UC480__ETH__ADDR__IPV4__by.html" title="uc480_h.UC480_ETH_ADDR\l_IPV4_by" alt="" coords="161,2405,357,2446"/>
+<area shape="rect" id="node47" href="$classuc480__h_1_1UC480__ETH__ADDR__MAC.html" title=":var BYTE[6] abyOctet: " alt="" coords="142,2471,375,2497"/>
+<area shape="rect" id="node48" href="$classuc480__h_1_1UC480__ETH__AUTOCFG__IP__SETUP.html" title="uc480_h.UC480_ETH_AUTOCFG\l_IP_SETUP" alt="" coords="147,2522,370,2563"/>
+<area shape="rect" id="node49" href="$classuc480__h_1_1UC480__ETH__DEVICE__INFO.html" title="uc480_h.UC480_ETH_DEVICE_INFO" alt="" coords="135,2588,382,2615"/>
+<area shape="rect" id="node50" href="$classuc480__h_1_1UC480__ETH__DEVICE__INFO__CONTROL.html" title="uc480_h.UC480_ETH_DEVICE\l_INFO_CONTROL" alt="" coords="155,2639,363,2681"/>
+<area shape="rect" id="node51" href="$classuc480__h_1_1UC480__ETH__DEVICE__INFO__HEARTBEAT.html" title="uc480_h.UC480_ETH_DEVICE\l_INFO_HEARTBEAT" alt="" coords="155,2705,363,2746"/>
+<area shape="rect" id="node52" href="$classuc480__h_1_1UC480__ETH__DRIVER__INFO.html" title="uc480_h.UC480_ETH_DRIVER_INFO" alt="" coords="135,2771,383,2797"/>
+<area shape="rect" id="node53" href="$classuc480__h_1_1UC480__ETH__ETHERNET__CONFIGURATION.html" title="uc480_h.UC480_ETH_ETHERNET\l_CONFIGURATION" alt="" coords="143,2822,374,2863"/>
+<area shape="rect" id="node54" href="$classuc480__h_1_1UC480__ETH__IP__CONFIGURATION.html" title="uc480_h.UC480_ETH_IP\l_CONFIGURATION" alt="" coords="173,2887,344,2929"/>
+<area shape="rect" id="node55" href="$classuc480__h_1_1UC480IMAGEINFO.html" title="uc480_h.UC480IMAGEINFO" alt="" coords="163,2953,354,2980"/>
+<area shape="rect" id="node56" href="$classuc480__h_1_1UC480TIME.html" title="uc480_h.UC480TIME" alt="" coords="185,3004,333,3031"/>
 </map>

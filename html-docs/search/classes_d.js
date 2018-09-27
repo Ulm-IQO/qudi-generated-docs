@@ -1,16 +1,8 @@
 var searchData=
 [
-  ['obislaser',['OBISLaser',['../classcoherent__obis__laser_1_1OBISLaser.html',1,'coherent_obis_laser']]],
-  ['odmrcounterdummy',['ODMRCounterDummy',['../classodmr__counter__dummy_1_1ODMRCounterDummy.html',1,'odmr_counter_dummy']]],
-  ['odmrcounterinterface',['ODMRCounterInterface',['../classodmr__counter__interface_1_1ODMRCounterInterface.html',1,'odmr_counter_interface']]],
-  ['odmrcountermicrowaveinterfuse',['ODMRCounterMicrowaveInterfuse',['../classodmr__counter__microwave__interfuse_1_1ODMRCounterMicrowaveInterfuse.html',1,'odmr_counter_microwave_interfuse']]],
-  ['odmrgui',['ODMRGui',['../classodmrgui_1_1ODMRGui.html',1,'odmrgui']]],
-  ['odmrlogic',['ODMRLogic',['../classodmr__logic_1_1ODMRLogic.html',1,'odmr_logic']]],
-  ['odmrmainwindow',['ODMRMainWindow',['../classodmrgui_1_1ODMRMainWindow.html',1,'odmrgui']]],
-  ['odmrsettingdialog',['ODMRSettingDialog',['../classodmrgui_1_1ODMRSettingDialog.html',1,'odmrgui']]],
-  ['okfpgapulser',['OkFpgaPulser',['../classok__fpga__pulser_1_1OkFpgaPulser.html',1,'ok_fpga_pulser']]],
-  ['okfpgattlswitch',['OkFpgaTtlSwitch',['../classok__fpga__switch_1_1OkFpgaTtlSwitch.html',1,'ok_fpga_switch']]],
-  ['oldconfigfileerror',['OldConfigFileError',['../classconfocal__logic_1_1OldConfigFileError.html',1,'confocal_logic']]],
-  ['optimizerlogic',['OptimizerLogic',['../classoptimizer__logic_1_1OptimizerLogic.html',1,'optimizer_logic']]],
-  ['optimizersettingdialog',['OptimizerSettingDialog',['../classconfocalgui_1_1OptimizerSettingDialog.html',1,'confocalgui']]]
+  ['nationalinstrumentspulser',['NationalInstrumentsPulser',['../classnational__instruments__pulser_1_1NationalInstrumentsPulser.html',1,'national_instruments_pulser']]],
+  ['nationalinstrumentsxseries',['NationalInstrumentsXSeries',['../classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html',1,'national_instruments_x_series']]],
+  ['nuclearoperationsgui',['NuclearOperationsGui',['../classnuclear__operations_1_1NuclearOperationsGui.html',1,'nuclear_operations']]],
+  ['nuclearoperationslogic',['NuclearOperationsLogic',['../classnuclear__operations__logic_1_1NuclearOperationsLogic.html',1,'nuclear_operations_logic']]],
+  ['nuclearoperationsmainwindow',['NuclearOperationsMainWindow',['../classnuclear__operations_1_1NuclearOperationsMainWindow.html',1,'nuclear_operations']]]
 ];

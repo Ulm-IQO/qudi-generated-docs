@@ -45,5 +45,5 @@ var searchData=
   ['logic_5fstarted_5fscanning',['logic_started_scanning',['../classconfocalgui_1_1ConfocalGui.html#a1320cd17d1f09f70ded1a7837e6e6352',1,'confocalgui::ConfocalGui']]],
   ['logmodel',['LogModel',['../classlogwidget_1_1LogModel.html',1,'logwidget']]],
   ['logwidget',['LogWidget',['../classlogwidget_1_1LogWidget.html',1,'logwidget']]],
-  ['loop',['loop',['../classpid__logic_1_1PIDLogic.html#acef96a7ea50fa812eb9f2046fefe5289',1,'pid_logic::PIDLogic']]]
+  ['loop',['loop',['../classcamera__logic_1_1CameraLogic.html#abdbfbb000c3ad4892e84790264aa7106',1,'camera_logic.CameraLogic.loop()'],['../classpid__logic_1_1PIDLogic.html#acef96a7ea50fa812eb9f2046fefe5289',1,'pid_logic.PIDLogic.loop()']]]
 ];

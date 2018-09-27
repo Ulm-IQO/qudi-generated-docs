@@ -27,14 +27,22 @@ Traceback (most recent call last):
     lines[-1], inCodeBlock)
 IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:27: warning: Compound simple_laser_interface::ControlMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2895: warning: Compound uc480_h::IS_SIZE_2D is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:207: warning: Compound poimangui::ReorientRoiDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2360: warning: Compound uc480_h::UC480_ETH_DEVICE_INFO_HEARTBEAT is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:38: warning: Compound simple_laser_interface::LaserState is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:74: warning: Compound pulsed_maingui::SequenceGeneratorTab is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3395: warning: Compound uc480_h::IMGBUF_ITERATION_INFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3383: warning: Compound uc480_h::IMGBUF_ITERATION_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extractor.py:81: warning: Compound pulse_extractor::PulseExtractor is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_dummy.py:31: warning: Compound simple_data_dummy::SimpleDummy is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1796: warning: Compound uc480_h::BOARDINFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_function_defs/basic_sampling_functions.py:168: warning: Compound basic_sampling_functions::TripleSin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3257: warning: Compound uc480_h::BUFFER_CONVERSION_PARAMS is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:36: warning: Compound iXon897_ultra::ReadMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:40: warning: Compound wavemeterloggui::WavemeterLogWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:26: warning: Compound threadwidget::ThreadWidget is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2447: warning: Compound uc480_h::UC480_ETH_AUTOCFG_IP_SETUP is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:35: warning: Compound qtwidgets::scientific_spinbox::FloatValidator is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_xyz_rot_interfuse.py:43: warning: Compound magnet_motor_xyz_rot_interfuse::MagnetMotorXYZROTInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/timetagger_fast_counter.py:29: warning: Compound timetagger_fast_counter::TimeTaggerFastCounter is not documented.
@@ -45,80 +53,123 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:604: warning: Compound pulse_editors::EnsembleEditorTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extraction_methods/basic_extraction_methods.py:31: warning: Compound basic_extraction_methods::BasicPulseExtractor is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:51: warning: Compound spectrometergui::SpectrometerGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2592: warning: Compound uc480_h::OPENGL_DISPLAY is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:373: warning: Compound pulse_streamer_pb2::PulseStreamerStub is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2234: warning: Compound uc480_h::UC480IMAGEINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2182: warning: Compound uc480_h::SENSORSCALERINFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:145: warning: Compound fastcomtecmcs6::BOARDSETTING is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2.py:418: warning: Compound pulse_streamer_pb2::PulseStreamerServicer is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:30: warning: Compound pulsed_item_delegates::CheckBoxItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:32: warning: Compound generic_task::TaskResult is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:51: warning: Compound save_logic::DailyLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2435: warning: Compound uc480_h::UC480_ETH_ETHERNET_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2505: warning: Compound uc480_h::UC480_ETH_DRIVER_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:410: warning: Compound pulse_editors::BlockEditor is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:792: warning: Compound pulse_editors::EnsembleEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2296: warning: Compound uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:939: warning: Compound pulse_editors::SequenceEditorTableModel is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2262: warning: Compound uc480_h::UC480_ETH_ADDR_IPV4_by is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_objects.py:893: warning: Compound pulse_objects::PredefinedGeneratorBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:9: warning: Compound pulse_streamer_pb2_grpc::PulseStreamerStub is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fpga_fastcounter/fast_counter_fpga_pi3.py:31: warning: Compound fast_counter_fpga_pi3::FastCounterFGAPiP3 is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:41: warning: Compound pulsed_maingui::PulsedMeasurementMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3320: warning: Compound uc480_h::IS_RANGE_S32 is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1952: warning: Compound uc480_h::UC480_CAMERA_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:130: warning: Compound pulsed_maingui::PredefinedMethodsConfigDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:36: warning: Compound pulse_editors::BlockEditorTableModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/checkbox.py:46: warning: Compound qtwidgets::checkbox::CheckBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3348: warning: Compound uc480_h::MEASURE_SHARPNESS_AOI_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_objects.py:1295: warning: Compound pulse_objects::PulseObjectGenerator is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/mapper.py:114: warning: Compound core::mapper::Mapper is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:54: warning: Compound wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:28: warning: Compound data_logger_interface::DataLoggerInterface is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2632: warning: Compound uc480_h::IMAGE_FORMAT_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:541: warning: Compound pulser_interface::PulserConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2521: warning: Compound uc480_h::UC480_ETH_DEVICE_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:359: warning: Compound pulsed_item_delegates::ComboBoxItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:38: warning: Compound odmr_counter_microwave_interfuse::ODMRCounterMicrowaveInterfuse is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_data_interface.py:27: warning: Compound simple_data_interface::SimpleDataInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:108: warning: Compound save_logic::FunctionImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:37: warning: Compound laserscannergui::VoltScanMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2154: warning: Compound uc480_h::KNEEPOINTINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2566: warning: Compound uc480_h::IS_DEVICE_INFO_CONTROL is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:41: warning: Compound tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/fit_logic_standalone.py:73: warning: Compound fit_logic_standalone::FitLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:116: warning: Compound qtwidgets::scientific_spinbox::IntegerValidator is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2988: warning: Compound uc480_h::RANGE_OF_VALUES_U32 is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/nuclear_operations/nuclear_operations.py:32: warning: Compound nuclear_operations::NuclearOperationsMainWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2480: warning: Compound uc480_h::UC480_ETH_ADAPTER_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:32: warning: Compound simple_laser_interface::ShutterState is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3301: warning: Compound uc480_h::IMAGE_FILE_PARAMS is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2702: warning: Compound uc480_h::FDT_INFO_EL is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/mapper.py:47: warning: Compound core::mapper::Converter is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/magnet/magnet_gui.py:150: warning: Compound magnet_gui::MagnetSettingsWindow is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1931: warning: Compound uc480_h::UC480_CAPTURE_STATUS_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/wavemeter_dummy.py:74: warning: Compound wavemeter_dummy::WavemeterDummy is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:174: warning: Compound poimangui::CustomViewBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/poimanager/poimangui.py:194: warning: Compound poimangui::PoiManagerMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/port.py:12: warning: Compound config_gui::port::QudiPortType is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1866: warning: Compound uc480_h::REVISIONINFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pid_controller_interface.py:26: warning: Compound pid_controller_interface::PIDControllerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:94: warning: Compound pulsed_maingui::AnalysisSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_analyzer.py:81: warning: Compound pulse_analyzer::PulseAnalyzer is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:84: warning: Compound pulsed_maingui::PulseExtractionTab is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2047: warning: Compound uc480_h::AUTO_BRIGHT_STATUS is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_extractor.py:37: warning: Compound pulse_extractor::PulseExtractorBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sampling_functions.py:82: warning: Compound sampling_functions::SamplingFunctions is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulse_editors.py:1156: warning: Compound pulse_editors::SequenceEditor is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1908: warning: Compound uc480_h::UC480_CAPTURE_ERROR_INFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2422: warning: Compound uc480_h::UC480_ETH_DEVICE_INFO_CONTROL is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:106: warning: Compound pulsed_maingui::GeneratorSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laserquantum_laser::LaserQuantumLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_custom_widgets.py:31: warning: Compound pulsed_custom_widgets::DigitalChannelsWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2205: warning: Compound uc480_h::UC480TIME is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2126: warning: Compound uc480_h::KNEEPOINT is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:120: warning: Compound slow_counter_interface::CountingMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2137: warning: Compound uc480_h::KNEEPOINTARRAY is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/samples_write_methods.py:34: warning: Compound samples_write_methods::SamplesWriteMethods is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:44: warning: Compound mw_source_anritsu_mg3691c::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/vacuum_pump_interface.py:26: warning: Compound vacuum_pump_interface::VacuumPumpInterface is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2549: warning: Compound uc480_h::IS_DEVICE_INFO_HEARTBEAT is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2578: warning: Compound uc480_h::IS_DEVICE_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/magnet_motor_interfuse.py:28: warning: Compound magnet_motor_interfuse::MagnetMotorInterfuse is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2908: warning: Compound uc480_h::IS_RECT is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/simple_laser_interface.py:44: warning: Compound simple_laser_interface::SimpleLaserInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:975: warning: Compound qtwidgets::scientific_spinbox::ScienSpinBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_analysis_methods/basic_analysis_methods.py:30: warning: Compound basic_analysis_methods::BasicPulseAnalyzer is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/edwards_vacuum_controller.py:34: warning: Compound edwards_vacuum_controller::EdwardsVacuumController is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/config_model.py:22: warning: Compound config_gui::config_model::ModuleConfigModel is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/menu.py:23: warning: Compound config_gui::menu::MenuItem is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3130: warning: Compound uc480_h::IO_FLASH_PARAMS is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:43: warning: Compound iXon897_ultra::AcquisitionMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2884: warning: Compound uc480_h::IS_POINT_2D is not documented.
 /home/travis/build/Ulm-IQO/qudi/tools/config_gui/__main__.py:47: warning: Compound config_gui::__main__::ModNode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:118: warning: Compound pulsed_maingui::PredefinedMethodsTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:64: warning: Compound pulsed_maingui::PulseGeneratorTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:126: warning: Compound slow_counter_interface::SlowCounterConstraints is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3155: warning: Compound uc480_h::IO_GPIO_CONFIGURATION is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/switches/ok_fpga/ok_s6_switch.py:41: warning: Compound ok_s6_switch::HardwareSwitchFpga is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:54: warning: Compound pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2113: warning: Compound uc480_h::UC480_AUTO_INFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2094: warning: Compound uc480_h::UC480_AUTO_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:452: warning: Compound pulsed_item_delegates::DigitalStatesItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:244: warning: Compound pulsed_item_delegates::ScienDSpinBoxItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:54: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3371: warning: Compound uc480_h::ID_RANGE is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2075: warning: Compound uc480_h::AUTO_WB_STATUS is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:128: warning: Compound pulsed_item_delegates::SpinBoxItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:29: warning: Compound core::garbage_collector::GarbageCollector is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3141: warning: Compound uc480_h::IO_PWM_PARAMS is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2061: warning: Compound uc480_h::AUTO_WB_CHANNNEL_STATUS is not documented.
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/scientific_spinbox.py:193: warning: Compound qtwidgets::scientific_spinbox::ScienDSpinBox is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2930: warning: Compound uc480_h::AOI_SEQUENCE_PARAMS is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1829: warning: Compound uc480_h::SENSORINFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/qudikernel.py:38: warning: Compound core::qudikernel::Qudi is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2275: warning: Compound uc480_h::UC480_ETH_ADDR_IPV4 is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laserscanner/laserscannergui.py:52: warning: Compound laserscannergui::VoltScanGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/fastcomtec/fastcomtecmcs6.py:106: warning: Compound fastcomtecmcs6::AcqSettings is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:50: warning: Compound iXon897_ultra::TriggerMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/spectrometer/spectrometergui.py:36: warning: Compound spectrometergui::SpectrometerWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_analyzer.py:37: warning: Compound pulse_analyzer::PulseAnalyzerBase is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:41: warning: Compound mw_source_anritsu::MicrowaveAnritsu is not documented.
@@ -127,6 +178,10 @@ IndexError: list index out of range
   core.remote.RemoteObjectManager::_manager
 
 /home/travis/build/Ulm-IQO/qudi/core/util/win_interrupt.py:28: warning: documented symbol `core::util::win_interrupt::_fields_' was not declared or defined.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1991: warning: documented symbol `uc480_h::_fields_' was not declared or defined.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2666: warning: documented symbol `uc480_h::_fields_' was not declared or defined.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2736: warning: documented symbol `uc480_h::_fields_' was not declared or defined.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:3036: warning: documented symbol `uc480_h::_fields_' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/hardware/national_instruments_x_series.py:2006: warning: documented symbol `national_instruments_x_series.NationalInstrumentsXSeries::_gated_count_data' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:372: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
@@ -340,6 +395,50 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/builtin_trap.py:87: warning: Found unknown command `\prarm'
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/builtin_trap.py:88: warning: The following parameters of builtin_trap.BuiltinTrap.__exit__(self, type, value, traceback) are not documented:
   parameter 'value'
+/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/camera_dummy.py:148: warning: argument 'float' of command @param is not found in the argument list of camera_dummy.CameraDummy::set_exposure(self, exposure)
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/camera_dummy.py:150: warning: The following parameters of camera_dummy.CameraDummy.set_exposure(self, exposure) are not documented:
+  parameter 'exposure'
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/camera_dummy.py:166: warning: argument 'float' of command @param is not found in the argument list of camera_dummy.CameraDummy::set_gain(self, gain)
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/camera_dummy.py:168: warning: The following parameters of camera_dummy.CameraDummy.set_gain(self, gain) are not documented:
+  parameter 'gain'
+/home/travis/build/Ulm-IQO/qudi/interface/camera_interface.py:104: warning: argument 'float' of command @param is not found in the argument list of camera_interface.CameraInterface::set_exposure(self, exposure)
+/home/travis/build/Ulm-IQO/qudi/interface/camera_interface.py:107: warning: The following parameters of camera_interface.CameraInterface.set_exposure(self, exposure) are not documented:
+  parameter 'exposure'
+/home/travis/build/Ulm-IQO/qudi/interface/camera_interface.py:123: warning: argument 'float' of command @param is not found in the argument list of camera_interface.CameraInterface::set_gain(self, gain)
+/home/travis/build/Ulm-IQO/qudi/interface/camera_interface.py:126: warning: The following parameters of camera_interface.CameraInterface.set_gain(self, gain) are not documented:
+  parameter 'gain'
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:82: warning: Member __init__(self, config, kwargs) (function) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:117: warning: Member set_gain(self, gain) (function) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:120: warning: Member get_gain(self) (function) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:128: warning: Member start_single_acquistion(self) (function) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:85: warning: Member threadlock (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:93: warning: Member enabled (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:50: warning: Member hardware (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:51: warning: Member savelogic (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:62: warning: Member sigUpdateDisplay (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:63: warning: Member sigAcquisitionFinished (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:64: warning: Member sigVideoFinished (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:65: warning: Member timer (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:67: warning: Member enabled (variable) of class camera_logic::CameraLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:255: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/camera_logic.py:188: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:103: warning: Member __init__(self, config, kwargs) (function) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:213: warning: Member start_image_clicked(self) (function) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:218: warning: Member acquisition_finished(self) (function) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:234: warning: Member enable_start_image_action(self) (function) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:149: warning: Member my_colors (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:163: warning: Member xy_cb (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:164: warning: Member depth_cb (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:81: warning: Member camera_logic (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:82: warning: Member savelogic (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:84: warning: Member sigVideoStart (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:85: warning: Member sigVideoStop (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:86: warning: Member sigImageStart (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:87: warning: Member sigImageStop (variable) of class cameragui::CameraGUI is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:43: warning: Member __init__(self) (function) of class cameragui::CameraSettingDialog is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/camera/cameragui.py:58: warning: Member __init__(self) (function) of class cameragui::CameraWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/coherent_obis_laser.py:65: warning: Member obis (variable) of class coherent_obis_laser::OBISLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
@@ -1896,6 +1995,35 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:44: warning: Member series (variable) of class influx_data_logger::InfluxLogger is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:45: warning: Member field (variable) of class influx_data_logger::InfluxLogger is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/influx_data_logger.py:46: warning: Member cr (variable) of class influx_data_logger::InfluxLogger is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:44: warning: Member SINGLE_SCAN (variable) of class iXon897_ultra::AcquisitionMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:45: warning: Member ACCUMULATE (variable) of class iXon897_ultra::AcquisitionMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:46: warning: Member KINETICS (variable) of class iXon897_ultra::AcquisitionMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:47: warning: Member FAST_KINETICS (variable) of class iXon897_ultra::AcquisitionMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:48: warning: Member RUN_TILL_ABORT (variable) of class iXon897_ultra::AcquisitionMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:424: warning: Member set_up_counter(self) (function) of class iXon897_ultra::IxonUltra is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:456: warning: Member count_odmr(self, length) (function) of class iXon897_ultra::IxonUltra is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:473: warning: Member get_down_time(self) (function) of class iXon897_ultra::IxonUltra is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:476: warning: Member get_counter_channels(self) (function) of class iXon897_ultra::IxonUltra is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:222: warning: Member dll (variable) of class iXon897_ultra::IxonUltra is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:362: warning: argument 'float' of command @param is not found in the argument list of iXon897_ultra.IxonUltra::set_exposure(self, exposure)
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:364: warning: The following parameters of iXon897_ultra.IxonUltra.set_exposure(self, exposure) are not documented:
+  parameter 'exposure'
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:387: warning: argument 'float' of command @param is not found in the argument list of iXon897_ultra.IxonUltra::set_gain(self, gain)
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:389: warning: The following parameters of iXon897_ultra.IxonUltra.set_gain(self, gain) are not documented:
+  parameter 'gain'
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:37: warning: Member FVB (variable) of class iXon897_ultra::ReadMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:38: warning: Member MULTI_TRACK (variable) of class iXon897_ultra::ReadMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:39: warning: Member RANDOM_TRACK (variable) of class iXon897_ultra::ReadMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:40: warning: Member SINGLE_TRACK (variable) of class iXon897_ultra::ReadMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:41: warning: Member IMAGE (variable) of class iXon897_ultra::ReadMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:51: warning: Member INTERNAL (variable) of class iXon897_ultra::TriggerMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:52: warning: Member EXTERNAL (variable) of class iXon897_ultra::TriggerMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:53: warning: Member EXTERNAL_START (variable) of class iXon897_ultra::TriggerMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:54: warning: Member EXTERNAL_EXPOSURE (variable) of class iXon897_ultra::TriggerMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:55: warning: Member SOFTWARE_TRIGGER (variable) of class iXon897_ultra::TriggerMode is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/andor/iXon897_ultra.py:56: warning: Member EXTERNAL_CHARGE_SHIFTING (variable) of class iXon897_ultra::TriggerMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:51: warning: Member kernellist (variable) of class kernellogic::QudiKernelLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:52: warning: Member modules (variable) of class kernellogic::QudiKernelLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/jupyterkernel/kernellogic.py:44: warning: Member sigStartKernel (variable) of class kernellogic::QudiKernelLogic is not documented.
@@ -6002,6 +6130,9 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/testgui.py:45: warning: The following parameters of testgui.TestGui.__init__(self, config, kwargs) are not documented:
   parameter 'config'
   parameter 'kwargs'
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/thorlabs_DCx.py:371: warning: Member set_exposure(self, time) (function) of class thorlabs_DCx::CameraThorlabs is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/manager/threadwidget.py:28: warning: Member __init__(self) (function) of class threadwidget::ThreadWidget is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/timetagger_counter.py:158: warning: Member get_counter_channels(self) (function) of class timetagger_counter::TimeTaggerCounter is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/timetagger_counter.py:126: warning: Member counter (variable) of class timetagger_counter::TimeTaggerCounter is not documented.
@@ -6176,6 +6307,45 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/tsys01_spi.py:151: warning: argument 'int' of command @param is not found in the argument list of tsys01_spi.TSYS01SPI::temperatureKelvin(self, adcValue)
 /home/travis/build/Ulm-IQO/qudi/hardware/tsys01_spi.py:151: warning: The following parameters of tsys01_spi.TSYS01SPI.temperatureKelvin(self, adcValue) are not documented:
   parameter 'adcValue'
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1893: warning: Member IS_CAPERR_API_NO_DEST_MEM (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1894: warning: Member IS_CAPERR_API_CONVERSION_FAILED (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1895: warning: Member IS_CAPERR_API_IMAGE_LOCKED (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1896: warning: Member IS_CAPERR_DRV_OUT_OF_BUFFERS (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1897: warning: Member IS_CAPERR_DRV_DEVICE_NOT_READY (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1898: warning: Member IS_CAPERR_USB_TRANSFER_FAILED (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1899: warning: Member IS_CAPERR_DEV_TIMEOUT (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1900: warning: Member IS_CAPERR_ETH_BUFFER_OVERRUN (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:1901: warning: Member IS_CAPERR_ETH_MISSED_IMAGES (variable) of class uc480_h::REVISIONINFO is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2456: warning: Member IS_ETH_PCKTFLT_PASSALL (variable) of class uc480_h::UC480_ETH_AUTOCFG_IP_SETUP is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2457: warning: Member IS_ETH_PCKTFLT_BLOCKUEGET (variable) of class uc480_h::UC480_ETH_AUTOCFG_IP_SETUP is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2458: warning: Member IS_ETH_PCKTFLT_BLOCKALL (variable) of class uc480_h::UC480_ETH_AUTOCFG_IP_SETUP is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2461: warning: Member IS_ETH_LINKSPEED_100MB (variable) of class uc480_h::UC480_ETH_AUTOCFG_IP_SETUP is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2462: warning: Member IS_ETH_LINKSPEED_1000MB (variable) of class uc480_h::UC480_ETH_AUTOCFG_IP_SETUP is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2389: warning: Member IS_ETH_CTRLSTATUS_AVAILABLE (variable) of class uc480_h::UC480_ETH_DEVICE_INFO_HEARTBEAT is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2390: warning: Member IS_ETH_CTRLSTATUS_ACCESSIBLE1 (variable) of class uc480_h::UC480_ETH_DEVICE_INFO_HEARTBEAT is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2391: warning: Member IS_ETH_CTRLSTATUS_ACCESSIBLE2 (variable) of class uc480_h::UC480_ETH_DEVICE_INFO_HEARTBEAT is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2393: warning: Member IS_ETH_CTRLSTATUS_PERSISTENT_IP_USED (variable) of class uc480_h::UC480_ETH_DEVICE_INFO_HEARTBEAT is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2394: warning: Member IS_ETH_CTRLSTATUS_COMPATIBLE (variable) of class uc480_h::UC480_ETH_DEVICE_INFO_HEARTBEAT is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2305: warning: Member IS_ETH_DEVSTATUS_READY_TO_OPERATE (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2306: warning: Member IS_ETH_DEVSTATUS_TESTING_IP_CURRENT (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2307: warning: Member IS_ETH_DEVSTATUS_TESTING_IP_PERSISTENT (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2308: warning: Member IS_ETH_DEVSTATUS_TESTING_IP_RANGE (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2310: warning: Member IS_ETH_DEVSTATUS_INAPPLICABLE_IP_CURRENT (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2311: warning: Member IS_ETH_DEVSTATUS_INAPPLICABLE_IP_PERSISTENT (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2312: warning: Member IS_ETH_DEVSTATUS_INAPPLICABLE_IP_RANGE (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2314: warning: Member IS_ETH_DEVSTATUS_UNPAIRED (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2315: warning: Member IS_ETH_DEVSTATUS_PAIRING_IN_PROGRESS (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2316: warning: Member IS_ETH_DEVSTATUS_PAIRED (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2318: warning: Member IS_ETH_DEVSTATUS_FORCE_100MBPS (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2319: warning: Member IS_ETH_DEVSTATUS_NO_COMPORT (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2321: warning: Member IS_ETH_DEVSTATUS_RECEIVING_FW_STARTER (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2322: warning: Member IS_ETH_DEVSTATUS_RECEIVING_FW_RUNTIME (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2323: warning: Member IS_ETH_DEVSTATUS_INAPPLICABLE_FW_RUNTIME (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2324: warning: Member IS_ETH_DEVSTATUS_INAPPLICABLE_FW_STARTER (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2326: warning: Member IS_ETH_DEVSTATUS_REBOOTING_FW_RUNTIME (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2327: warning: Member IS_ETH_DEVSTATUS_REBOOTING_FW_STARTER (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2328: warning: Member IS_ETH_DEVSTATUS_REBOOTING_FW_FAILSAFE (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2330: warning: Member IS_ETH_DEVSTATUS_RUNTIME_FW_ERR0 (variable) of class uc480_h::UC480_ETH_IP_CONFIGURATION is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/vacuum_pump_interface.py:53: warning: Member get_pump_speeds(self) (function) of class vacuum_pump_interface::VacuumPumpInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/vacuum_pump_interface.py:74: warning: argument 'dict' of command @param is not found in the argument list of vacuum_pump_interface.VacuumPumpInterface::set_pump_states(self, states)
 /home/travis/build/Ulm-IQO/qudi/interface/vacuum_pump_interface.py:76: warning: The following parameters of vacuum_pump_interface.VacuumPumpInterface.set_pump_states(self, states) are not documented:

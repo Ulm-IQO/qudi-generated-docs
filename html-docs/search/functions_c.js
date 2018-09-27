@@ -30,5 +30,5 @@ var searchData=
   ['logic_5fcontinued_5fscanning',['logic_continued_scanning',['../classconfocalgui_1_1ConfocalGui.html#abc7def95be9f378eaf903a3e1805096f',1,'confocalgui::ConfocalGui']]],
   ['logic_5fstarted_5frefocus',['logic_started_refocus',['../classconfocalgui_1_1ConfocalGui.html#ab2e920291a393678557faa09f5372854',1,'confocalgui::ConfocalGui']]],
   ['logic_5fstarted_5fscanning',['logic_started_scanning',['../classconfocalgui_1_1ConfocalGui.html#a1320cd17d1f09f70ded1a7837e6e6352',1,'confocalgui::ConfocalGui']]],
-  ['loop',['loop',['../classpid__logic_1_1PIDLogic.html#acef96a7ea50fa812eb9f2046fefe5289',1,'pid_logic::PIDLogic']]]
+  ['loop',['loop',['../classcamera__logic_1_1CameraLogic.html#abdbfbb000c3ad4892e84790264aa7106',1,'camera_logic.CameraLogic.loop()'],['../classpid__logic_1_1PIDLogic.html#acef96a7ea50fa812eb9f2046fefe5289',1,'pid_logic.PIDLogic.loop()']]]
 ];

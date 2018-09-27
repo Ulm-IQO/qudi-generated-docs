@@ -1,12 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node2" href="$classcore_1_1module_1_1MissingOption.html" title="Representation for missing ConfigOption. " alt="" coords="142,5,322,32"/>
-<area shape="rect" id="node3" href="$classlaserquantum__laser_1_1PSUTypes.html" title="LaserQuantum power supply types. " alt="" coords="131,56,333,83"/>
-<area shape="rect" id="node4" href="$classlightfield__spectrometer_1_1LFImageMode.html" title="Spectrometer imaging mode. " alt="" coords="153,107,311,149"/>
-<area shape="rect" id="node5" href="$classmicrowave__interface_1_1MicrowaveMode.html" title="Modes for microwave generators: CW continuous wave LIST ouptut list of arbitrary frequencies, each step triggered by electrical input SWEEP frequency sweep from f1 to f2, each step triggered by electrical input ASWEEP frequency sweep from f1 to f2, triggered only on the start of the sweep. " alt="" coords="111,173,353,200"/>
-<area shape="rect" id="node6" href="$classmicrowave__interface_1_1TriggerEdge.html" title="On which electrical signal edge does a trigger occur? So edgy! " alt="" coords="124,224,340,251"/>
-<area shape="rect" id="node7" href="$classmillennia__ev__laser_1_1Models.html" title="Model numbers for Millennia lasers. " alt="" coords="145,275,319,301"/>
-<area shape="rect" id="node8" href="$classsimple__laser__interface_1_1ControlMode.html" title="simple_laser_interface.ControlMode" alt="" coords="117,325,347,352"/>
-<area shape="rect" id="node9" href="$classsimple__laser__interface_1_1LaserState.html" title="simple_laser_interface.Laser\lState" alt="" coords="138,377,326,418"/>
-<area shape="rect" id="node10" href="$classsimple__laser__interface_1_1ShutterState.html" title="simple_laser_interface.Shutter\lState" alt="" coords="133,442,331,483"/>
-<area shape="rect" id="node11" href="$classslow__counter__interface_1_1CountingMode.html" title="slow_counter_interface.CountingMode" alt="" coords="110,508,354,535"/>
+<area shape="rect" id="node3" href="$classiXon897__ultra_1_1AcquisitionMode.html" title="iXon897_ultra.AcquisitionMode" alt="" coords="131,56,333,83"/>
+<area shape="rect" id="node4" href="$classiXon897__ultra_1_1ReadMode.html" title="iXon897_ultra.ReadMode" alt="" coords="148,107,316,133"/>
+<area shape="rect" id="node5" href="$classiXon897__ultra_1_1TriggerMode.html" title="iXon897_ultra.TriggerMode" alt="" coords="143,157,321,184"/>
+<area shape="rect" id="node6" href="$classlaserquantum__laser_1_1PSUTypes.html" title="LaserQuantum power supply types. " alt="" coords="131,208,333,235"/>
+<area shape="rect" id="node7" href="$classlightfield__spectrometer_1_1LFImageMode.html" title="Spectrometer imaging mode. " alt="" coords="153,259,311,301"/>
+<area shape="rect" id="node8" href="$classmicrowave__interface_1_1MicrowaveMode.html" title="Modes for microwave generators: CW continuous wave LIST ouptut list of arbitrary frequencies, each step triggered by electrical input SWEEP frequency sweep from f1 to f2, each step triggered by electrical input ASWEEP frequency sweep from f1 to f2, triggered only on the start of the sweep. " alt="" coords="111,325,353,352"/>
+<area shape="rect" id="node9" href="$classmicrowave__interface_1_1TriggerEdge.html" title="On which electrical signal edge does a trigger occur? So edgy! " alt="" coords="124,376,340,403"/>
+<area shape="rect" id="node10" href="$classmillennia__ev__laser_1_1Models.html" title="Model numbers for Millennia lasers. " alt="" coords="145,427,319,453"/>
+<area shape="rect" id="node11" href="$classsimple__laser__interface_1_1ControlMode.html" title="simple_laser_interface.ControlMode" alt="" coords="117,477,347,504"/>
+<area shape="rect" id="node12" href="$classsimple__laser__interface_1_1LaserState.html" title="simple_laser_interface.Laser\lState" alt="" coords="138,529,326,570"/>
+<area shape="rect" id="node13" href="$classsimple__laser__interface_1_1ShutterState.html" title="simple_laser_interface.Shutter\lState" alt="" coords="133,594,331,635"/>
+<area shape="rect" id="node14" href="$classslow__counter__interface_1_1CountingMode.html" title="slow_counter_interface.CountingMode" alt="" coords="110,660,354,687"/>
 </map>
