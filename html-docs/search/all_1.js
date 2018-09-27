@@ -71,5 +71,5 @@ var searchData=
   ['autotooltipdelegate',['AutoToolTipDelegate',['../classlogwidget_1_1AutoToolTipDelegate.html',1,'logwidget']]],
   ['awg5002c',['AWG5002C',['../classtektronix__awg5002c_1_1AWG5002C.html',1,'tektronix_awg5002c']]],
   ['awg70k',['AWG70K',['../classtektronix__awg70k_1_1AWG70K.html',1,'tektronix_awg70k']]],
-  ['awg7122c',['AWG7122C',['../classtektronix__awg7122c_1_1AWG7122C.html',1,'tektronix_awg7122c']]]
+  ['awg7k',['AWG7k',['../classtektronix__awg7k_1_1AWG7k.html',1,'tektronix_awg7k']]]
 ];

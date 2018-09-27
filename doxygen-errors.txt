@@ -63,7 +63,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/qtwidgets/checkbox.py:46: warning: Compound qtwidgets::checkbox::CheckBox is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_objects.py:1295: warning: Compound pulse_objects::PulseObjectGenerator is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/mapper.py:114: warning: Compound core::mapper::Mapper is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:41: warning: Compound tektronix_awg7122c::AWG7122C is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/wavemeterlogger/wavemeterloggui.py:54: warning: Compound wavemeterloggui::WavemeterLogGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/data_logger_interface.py:28: warning: Compound data_logger_interface::DataLoggerInterface is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/pulser_interface.py:541: warning: Compound pulser_interface::PulserConstraints is not documented.
@@ -132,6 +131,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:372: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:376: warning: documented symbol `generic_task.PrePostTask::_stateList' was not declared or defined.
+/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:189: warning: explicit link request to 'INSTR' could not be resolved
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\Data'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\YEAR'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\MONTH'
@@ -5894,69 +5894,97 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1189: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::write(self, command)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1189: warning: The following parameters of tektronix_awg70k.AWG70K.write(self, command) are not documented:
   parameter 'command'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:88: warning: Member __init__(self, config, kwargs) (function) of class tektronix_awg7122c::AWG7122C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:400: warning: Member get_loaded_assets(self) (function) of class tektronix_awg7122c::AWG7122C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:898: warning: Member set_active_channels(self, ch=None) (function) of class tektronix_awg7122c::AWG7122C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:969: warning: Member write_waveform(self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples) (function) of class tektronix_awg7122c::AWG7122C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:94: warning: Member awg (variable) of class tektronix_awg7122c::AWG7122C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:96: warning: Member ftp_working_dir (variable) of class tektronix_awg7122c::AWG7122C is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:98: warning: Member installed_options (variable) of class tektronix_awg7122c::AWG7122C is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:86: warning: Member __init__(self, config, kwargs) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:430: warning: Member get_loaded_assets(self) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:843: warning: Member set_active_channels(self, ch=None) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:915: warning: Member write_waveform(self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1499: warning: Member sequence_set_repetitions(self, step, repeat=1) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1589: warning: Member make_sequence_continuous(self) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1619: warning: Member force_jump_sequence(self, final_step, channel=1) (function) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:92: warning: Member awg (variable) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:94: warning: Member ftp_working_dir (variable) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:96: warning: Member installed_options (variable) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:133: warning: Member fw_ver (variable) of class tektronix_awg7k::AWG7k is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:196: warning: Member model (variable) of class tektronix_awg7k::AWG7k is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1119: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::delete_sequence(self, sequence_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1119: warning: The following parameters of tektronix_awg7122c.AWG7122C.delete_sequence(self, sequence_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1113: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::delete_sequence(self, sequence_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1113: warning: The following parameters of tektronix_awg7k.AWG7k.delete_sequence(self, sequence_name) are not documented:
   parameter 'sequence_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1100: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::delete_waveform(self, waveform_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1100: warning: The following parameters of tektronix_awg7122c.AWG7122C.delete_waveform(self, waveform_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1094: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::delete_waveform(self, waveform_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1094: warning: The following parameters of tektronix_awg7k.AWG7k.delete_waveform(self, waveform_name) are not documented:
   parameter 'waveform_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:840: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:840: warning: The following parameters of tektronix_awg7122c.AWG7122C.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:782: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:782: warning: The following parameters of tektronix_awg7k.AWG7k.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:614: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:614: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::get_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:614: warning: The following parameters of tektronix_awg7122c.AWG7122C.get_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:532: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:532: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::get_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:532: warning: The following parameters of tektronix_awg7k.AWG7k.get_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:196: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:196: warning: Unsupported xml/html tag <channel_set> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:197: warning: Unsupported xml/html tag <descriptor_str> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:197: warning: Unsupported xml/html tag <channel_set> found
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:752: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:752: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::get_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:752: warning: The following parameters of tektronix_awg7122c.AWG7122C.get_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:209: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:209: warning: Unsupported xml/html tag <channel_set> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:210: warning: Unsupported xml/html tag <descriptor_str> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:210: warning: Unsupported xml/html tag <channel_set> found
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:670: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:670: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::get_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:670: warning: The following parameters of tektronix_awg7k.AWG7k.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1250: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1173: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::query(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1173: warning: The following parameters of tektronix_awg7122c.AWG7122C.query(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1249: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1170: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::query(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1170: warning: The following parameters of tektronix_awg7k.AWG7k.query(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:669: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:669: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_analog_level(self, amplitude=None, offset=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:669: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_analog_level(self, amplitude=None, offset=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1540: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_event_jump(self, step, jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1540: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_event_jump(self, step, jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1540: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_event_jump(self, step, jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1541: warning: The following parameters of tektronix_awg7k.AWG7k.sequence_set_event_jump(self, step, jumpto=0) are not documented:
+  parameter 'step'
+  parameter 'jumpto'
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1514: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_goto(self, step, goto=-1)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1514: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_goto(self, step, goto=-1)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1518: warning: The following parameters of tektronix_awg7k.AWG7k.sequence_set_goto(self, step, goto=-1) are not documented:
+  parameter 'step'
+  parameter 'goto'
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1560: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_wait_trigger(self, step, trigger='OFF')
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1560: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_wait_trigger(self, step, trigger='OFF')
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1561: warning: The following parameters of tektronix_awg7k.AWG7k.sequence_set_wait_trigger(self, step, trigger='OFF') are not documented:
+  parameter 'step'
+  parameter 'trigger'
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1480: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_waveform(self, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1480: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_waveform(self, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1480: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::sequence_set_waveform(self, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1481: warning: The following parameters of tektronix_awg7k.AWG7k.sequence_set_waveform(self, waveform_name, step, track) are not documented:
+  parameter 'waveform_name'
+  parameter 'step'
+  parameter 'track'
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:587: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:587: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_analog_level(self, amplitude=None, offset=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:587: warning: The following parameters of tektronix_awg7k.AWG7k.set_analog_level(self, amplitude=None, offset=None) are not documented:
   parameter 'amplitude'
   parameter 'offset'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:810: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:810: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_digital_level(self, low=None, high=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:810: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_digital_level(self, low=None, high=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:728: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:728: warning: argument 'dict' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_digital_level(self, low=None, high=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:728: warning: The following parameters of tektronix_awg7k.AWG7k.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1144: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1144: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1140: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1140: warning: The following parameters of tektronix_awg7k.AWG7k.set_interleave(self, state=False) are not documented:
   parameter 'state'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1216: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_jump_timing(self, synchronous=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1216: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_jump_timing(self, synchronous=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1215: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_jump_timing(self, synchronous=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1215: warning: The following parameters of tektronix_awg7k.AWG7k.set_jump_timing(self, synchronous=False) are not documented:
   parameter 'synchronous'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1202: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_lowpass_filter(self, a_ch, cutoff_freq)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1202: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_lowpass_filter(self, a_ch, cutoff_freq) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1201: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_lowpass_filter(self, a_ch, cutoff_freq)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1201: warning: The following parameters of tektronix_awg7k.AWG7k.set_lowpass_filter(self, a_ch, cutoff_freq) are not documented:
   parameter 'a_ch'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1229: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_mode(self, mode)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1229: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_mode(self, mode) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1228: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_mode(self, mode)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1228: warning: The following parameters of tektronix_awg7k.AWG7k.set_mode(self, mode) are not documented:
   parameter 'mode'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:460: warning: argument 'float' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::set_sample_rate(self, sample_rate)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:460: warning: The following parameters of tektronix_awg7122c.AWG7122C.set_sample_rate(self, sample_rate) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:501: warning: argument 'float' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::set_sample_rate(self, sample_rate)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:501: warning: The following parameters of tektronix_awg7k.AWG7k.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1163: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg7122c.AWG7122C::write(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7122c.py:1163: warning: The following parameters of tektronix_awg7122c.AWG7122C.write(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1160: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg7k.AWG7k::write(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:1160: warning: The following parameters of tektronix_awg7k.AWG7k.write(self, command) are not documented:
   parameter 'command'
 /home/travis/build/Ulm-IQO/qudi/gui/testgui.py:71: warning: Member on_deactivate(self) (function) of class testgui::TestGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/testgui.py:86: warning: Member getState(self) (function) of class testgui::TestGui is not documented.
