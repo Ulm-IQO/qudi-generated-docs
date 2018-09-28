@@ -141,9 +141,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>get_status</b> (self)<
 <tr class="memitem:a4c897810291a4af265ba625c28db82cc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#a4c897810291a4af265ba625c28db82cc">reset_sweeppos</a> (self)</td></tr>
 <tr class="memdesc:a4c897810291a4af265ba625c28db82cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset of MW List Mode position to start from first given frequency.  <a href="#a4c897810291a4af265ba625c28db82cc">More...</a><br /></td></tr>
 <tr class="separator:a4c897810291a4af265ba625c28db82cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d47ae8101750b6af0b01a294e872e27"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#a1d47ae8101750b6af0b01a294e872e27">set_ext_trigger</a> (self, pol, timing)</td></tr>
-<tr class="memdesc:a1d47ae8101750b6af0b01a294e872e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#a1d47ae8101750b6af0b01a294e872e27">More...</a><br /></td></tr>
-<tr class="separator:a1d47ae8101750b6af0b01a294e872e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8f7766635d0fcee24b49dd4bd2f310"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#a3f8f7766635d0fcee24b49dd4bd2f310">set_ext_trigger</a> (self, pol=TriggerEdge.FALLING)</td></tr>
+<tr class="memdesc:a3f8f7766635d0fcee24b49dd4bd2f310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#a3f8f7766635d0fcee24b49dd4bd2f310">More...</a><br /></td></tr>
+<tr class="separator:a3f8f7766635d0fcee24b49dd4bd2f310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf214464268b6b533ea6e997b1268dc0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__agilent_1_1MicrowaveAgilent.html#adf214464268b6b533ea6e997b1268dc0">trigger</a> (self)</td></tr>
 <tr class="memdesc:adf214464268b6b533ea6e997b1268dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the next element in the list or sweep mode programmatically.  <a href="#adf214464268b6b533ea6e997b1268dc0">More...</a><br /></td></tr>
 <tr class="separator:adf214464268b6b533ea6e997b1268dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,8 +425,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>actual_power</b> = sel
 
 </div>
 </div>
-<a id="a1d47ae8101750b6af0b01a294e872e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d47ae8101750b6af0b01a294e872e27">&#9670;&nbsp;</a></span>set_ext_trigger()</h2>
+<a id="a3f8f7766635d0fcee24b49dd4bd2f310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8f7766635d0fcee24b49dd4bd2f310">&#9670;&nbsp;</a></span>set_ext_trigger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,13 +441,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>actual_power</b> = sel
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>pol</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>timing</em>&#160;</td>
+          <td class="paramname"><em>pol</em> = <code>TriggerEdge.FALLING</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -460,12 +454,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>actual_power</b> = sel
 <p>Set the external trigger for this device with proper polarization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>pol: polarisation of the trigger (basically rising edge or falling edge) </td></tr>
-    <tr><td class="paramname">float</td><td>timing: estimated time between triggers</td></tr>
+    <tr><td class="paramname">str</td><td>source: channel name, where external trigger is expected. </td></tr>
+    <tr><td class="paramname">str</td><td>pol: polarisation of the trigger (basically rising edge or falling edge)</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>object, float: current trigger polarity [TriggerEdge.RISING, TriggerEdge.FALLING], trigger timing </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int: error code (0:OK, -1:error) </dd></dl>
 
 </div>
 </div>

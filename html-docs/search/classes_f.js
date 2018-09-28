@@ -47,5 +47,5 @@ var searchData=
   ['pulsesequence',['PulseSequence',['../classpulse__objects_1_1PulseSequence.html',1,'pulse_objects']]],
   ['pulsestreamer',['PulseStreamer',['../classpulse__streamer_1_1PulseStreamer.html',1,'pulse_streamer']]],
   ['pulsestreamerservicer',['PulseStreamerServicer',['../classpulse__streamer__pb2_1_1PulseStreamerServicer.html',1,'pulse_streamer_pb2.PulseStreamerServicer'],['../classpulse__streamer__pb2__grpc_1_1PulseStreamerServicer.html',1,'pulse_streamer_pb2_grpc.PulseStreamerServicer']]],
-  ['pulsestreamerstub',['PulseStreamerStub',['../classpulse__streamer__pb2_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2.PulseStreamerStub'],['../classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2_grpc.PulseStreamerStub']]]
+  ['pulsestreamerstub',['PulseStreamerStub',['../classpulse__streamer__pb2__grpc_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2_grpc.PulseStreamerStub'],['../classpulse__streamer__pb2_1_1PulseStreamerStub.html',1,'pulse_streamer_pb2.PulseStreamerStub']]]
 ];
