@@ -186,7 +186,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:372: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:376: warning: documented symbol `generic_task.PrePostTask::_stateList' was not declared or defined.
-/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:189: warning: explicit link request to 'INSTR' could not be resolved
+/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:191: warning: explicit link request to 'INSTR' could not be resolved
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\Data'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\YEAR'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\MONTH'
@@ -2766,32 +2766,32 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:126: warning: The following parameters of microwave_interface.MicrowaveInterface.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:197: warning: argument 'TriggerEdge' of command @param is not found in the argument list of microwave_interface.MicrowaveInterface::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:198: warning: The following parameters of microwave_interface.MicrowaveInterface.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:199: warning: argument 'TriggerEdge' of command @param is not found in the argument list of microwave_interface.MicrowaveInterface::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:200: warning: The following parameters of microwave_interface.MicrowaveInterface.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:144: warning: argument 'list' of command @param is not found in the argument list of microwave_interface.MicrowaveInterface::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:144: warning: argument 'float' of command @param is not found in the argument list of microwave_interface.MicrowaveInterface::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:148: warning: The following parameters of microwave_interface.MicrowaveInterface.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:256: warning: Member frequency_in_range(self, frequency) (function) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:259: warning: Member power_in_range(self, power) (function) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:262: warning: Member list_step_in_range(self, step) (function) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:265: warning: Member sweep_step_in_range(self, step) (function) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:268: warning: Member slope_in_range(self, slope) (function) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:227: warning: Member supported_modes (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:235: warning: Member min_frequency (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:236: warning: Member max_frequency (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:239: warning: Member min_power (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:240: warning: Member max_power (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:243: warning: Member list_minstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:244: warning: Member list_maxstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:245: warning: Member list_maxentries (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:248: warning: Member sweep_minstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:249: warning: Member sweep_maxstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:250: warning: Member sweep_maxentries (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:253: warning: Member sweep_minslope (variable) of class microwave_interface::MicrowaveLimits is not documented.
-/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:254: warning: Member sweep_maxslope (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:258: warning: Member frequency_in_range(self, frequency) (function) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:261: warning: Member power_in_range(self, power) (function) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:264: warning: Member list_step_in_range(self, step) (function) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:267: warning: Member sweep_step_in_range(self, step) (function) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:270: warning: Member slope_in_range(self, slope) (function) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:229: warning: Member supported_modes (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:237: warning: Member min_frequency (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:238: warning: Member max_frequency (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:241: warning: Member min_power (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:242: warning: Member max_power (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:245: warning: Member list_minstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:246: warning: Member list_maxstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:247: warning: Member list_maxentries (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:250: warning: Member sweep_minstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:251: warning: Member sweep_maxstep (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:252: warning: Member sweep_maxentries (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:255: warning: Member sweep_minslope (variable) of class microwave_interface::MicrowaveLimits is not documented.
+/home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:256: warning: Member sweep_maxslope (variable) of class microwave_interface::MicrowaveLimits is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:44: warning: Member CW (variable) of class microwave_interface::MicrowaveMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:45: warning: Member LIST (variable) of class microwave_interface::MicrowaveMode is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/microwave_interface.py:46: warning: Member SWEEP (variable) of class microwave_interface::MicrowaveMode is not documented.
@@ -2974,39 +2974,40 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/mw_differential_scanner.py:183: warning: argument 'float' of command @param is not found in the argument list of mw_differential_scanner.ConfocalScannerInterfaceDummy::set_voltage_range(self, myrange=None)
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/mw_differential_scanner.py:183: warning: The following parameters of mw_differential_scanner.ConfocalScannerInterfaceDummy.set_voltage_range(self, myrange=None) are not documented:
   parameter 'myrange'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:117: warning: Member get_status(self) (function) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:190: warning: explicit link request to 'For' could not be resolved
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:493: warning: Member get_limits(self) (function) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:69: warning: Member rm (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:75: warning: Member model (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:115: warning: Member get_status(self) (function) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:187: warning: explicit link request to 'For' could not be resolved
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:481: warning: Member get_limits(self) (function) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:68: warning: Member rm (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:74: warning: Member model (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:304: warning: Member actual_power (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:307: warning: Member actual_freq (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:308: warning: Member mode (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:308: warning: Member dummy (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:190: warning: explicit link request to 'For' could not be resolved
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:198: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_cw(self, freq=None, power=None, useinterleave=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:198: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_cw(self, freq=None, power=None, useinterleave=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:198: warning: argument 'bool' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_cw(self, freq=None, power=None, useinterleave=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:200: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_cw(self, freq=None, power=None, useinterleave=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:300: warning: Member actual_power (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:303: warning: Member actual_freq (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:304: warning: Member mode (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:304: warning: Member dummy (variable) of class mw_source_agilent::MicrowaveAgilent is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:187: warning: explicit link request to 'For' could not be resolved
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:195: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_cw(self, freq=None, power=None, useinterleave=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:195: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_cw(self, freq=None, power=None, useinterleave=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:195: warning: argument 'bool' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_cw(self, freq=None, power=None, useinterleave=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:197: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_cw(self, freq=None, power=None, useinterleave=None) are not documented:
   parameter 'freq'
   parameter 'power'
   parameter 'useinterleave'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:459: warning: argument 'str' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_ext_trigger(self, pol=TriggerEdge.FALLING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:459: warning: argument 'str' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_ext_trigger(self, pol=TriggerEdge.FALLING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:459: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_ext_trigger(self, pol=TriggerEdge.FALLING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:448: warning: argument 'str' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:448: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:448: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:543: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_frequency(self, freq=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:543: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_frequency(self, freq=None) are not documented:
+  parameter 'timing'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:530: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_frequency(self, freq=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:530: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_frequency(self, freq=None) are not documented:
   parameter 'freq'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:249: warning: argument 'list' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_list(self, freq=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:249: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_list(self, freq=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:251: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_list(self, freq=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:245: warning: argument 'list' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_list(self, freq=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:245: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_list(self, freq=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:247: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_list(self, freq=None, power=None) are not documented:
   parameter 'freq'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:529: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_power(self, power=0.)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:529: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_power(self, power=0.) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:516: warning: argument 'float' of command @param is not found in the argument list of mw_source_agilent.MicrowaveAgilent::set_power(self, power=0.)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_agilent.py:516: warning: The following parameters of mw_source_agilent.MicrowaveAgilent.set_power(self, power=0.) are not documented:
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:130: warning: Member off(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:142: warning: Member get_status(self) (function) of class mw_source_anritsu::MicrowaveAnritsu is not documented.
@@ -3023,9 +3024,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:216: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:382: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:382: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:384: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:384: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:384: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:264: warning: argument 'list' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:264: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu.py:267: warning: The following parameters of mw_source_anritsu.MicrowaveAnritsu.set_list(self, frequency=None, power=None) are not documented:
@@ -3046,9 +3049,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:199: warning: The following parameters of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:348: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:348: warning: The following parameters of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:350: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:350: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:350: warning: The following parameters of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:264: warning: argument 'list' of command @param is not found in the argument list of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:264: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu70GHz.py:267: warning: The following parameters of mw_source_anritsu70GHz.MicrowaveAnritsu70GHz.set_list(self, frequency=None, power=None) are not documented:
@@ -3069,9 +3074,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:234: warning: The following parameters of mw_source_anritsu_mg3691c.MicrowaveAnritsu.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:365: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu_mg3691c.MicrowaveAnritsu::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:365: warning: The following parameters of mw_source_anritsu_mg3691c.MicrowaveAnritsu.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:367: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_anritsu_mg3691c.MicrowaveAnritsu::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:367: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu_mg3691c.MicrowaveAnritsu::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:367: warning: The following parameters of mw_source_anritsu_mg3691c.MicrowaveAnritsu.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:284: warning: argument 'list' of command @param is not found in the argument list of mw_source_anritsu_mg3691c.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:284: warning: argument 'float' of command @param is not found in the argument list of mw_source_anritsu_mg3691c.MicrowaveAnritsu::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_anritsu_mg3691c.py:287: warning: The following parameters of mw_source_anritsu_mg3691c.MicrowaveAnritsu.set_list(self, frequency=None, power=None) are not documented:
@@ -3100,9 +3107,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:167: warning: The following parameters of mw_source_dummy.MicrowaveDummy.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:267: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_dummy.MicrowaveDummy::set_ext_trigger(self, pol)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:267: warning: The following parameters of mw_source_dummy.MicrowaveDummy.set_ext_trigger(self, pol) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:268: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_dummy.MicrowaveDummy::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:268: warning: argument 'float' of command @param is not found in the argument list of mw_source_dummy.MicrowaveDummy::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:268: warning: The following parameters of mw_source_dummy.MicrowaveDummy.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:196: warning: argument 'list' of command @param is not found in the argument list of mw_source_dummy.MicrowaveDummy::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:196: warning: argument 'float' of command @param is not found in the argument list of mw_source_dummy.MicrowaveDummy::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_dummy.py:199: warning: The following parameters of mw_source_dummy.MicrowaveDummy.set_list(self, frequency=None, power=None) are not documented:
@@ -3112,7 +3121,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:166: warning: Member get_status(self) (function) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:191: warning: Member get_frequency(self) (function) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:260: warning: Member list_on(self) (function) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:373: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:375: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:68: warning: Member rm (variable) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:82: warning: Member model (variable) of class mw_source_gigatronics::MicrowaveGigatronics is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
@@ -3122,9 +3131,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:231: warning: The following parameters of mw_source_gigatronics.MicrowaveGigatronics.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:353: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:353: warning: The following parameters of mw_source_gigatronics.MicrowaveGigatronics.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:355: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:355: warning: argument 'float' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:355: warning: The following parameters of mw_source_gigatronics.MicrowaveGigatronics.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:283: warning: argument 'list' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:283: warning: argument 'float' of command @param is not found in the argument list of mw_source_gigatronics.MicrowaveGigatronics::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_gigatronics.py:286: warning: The following parameters of mw_source_gigatronics.MicrowaveGigatronics.set_list(self, frequency=None, power=None) are not documented:
@@ -3145,9 +3156,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:225: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:358: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:358: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:360: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:360: warning: argument 'float' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:360: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:266: warning: argument 'list' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:266: warning: argument 'float' of command @param is not found in the argument list of mw_source_smbv.MicrowaveSmbv::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:269: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_list(self, frequency=None, power=None) are not documented:
@@ -3168,9 +3181,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:275: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:459: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:459: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:461: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:461: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:461: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:330: warning: argument 'list' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:330: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:333: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_list(self, frequency=None, power=None) are not documented:
@@ -3186,16 +3201,18 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:300: warning: The following parameters of mw_source_smr.MicrowaveSMR.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:513: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:513: warning: The following parameters of mw_source_smr.MicrowaveSMR.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:515: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:515: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:515: warning: The following parameters of mw_source_smr.MicrowaveSMR.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
+  parameter 'timing'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:356: warning: argument 'list' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:356: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:359: warning: The following parameters of mw_source_smr.MicrowaveSMR.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:579: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::turn_AM_on(self, depth)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:579: warning: The following parameters of mw_source_smr.MicrowaveSMR.turn_AM_on(self, depth) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:581: warning: argument 'float' of command @param is not found in the argument list of mw_source_smr.MicrowaveSMR::turn_AM_on(self, depth)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:581: warning: The following parameters of mw_source_smr.MicrowaveSMR.turn_AM_on(self, depth) are not documented:
   parameter 'depth'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:116: warning: Member cw_on(self) (function) of class mw_source_srssg::MicrowaveSRSSG is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:127: warning: Member get_status(self) (function) of class mw_source_srssg::MicrowaveSRSSG is not documented.
@@ -3208,19 +3225,49 @@ IndexError: list index out of range
   parameter 'frequency'
   parameter 'power'
   parameter 'useinterleave'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:410: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:410: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:411: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:411: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:411: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:491: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_frequency(self, freq=0.)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:491: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_frequency(self, freq=0.) are not documented:
+  parameter 'timing'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:492: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_frequency(self, freq=0.)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:492: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_frequency(self, freq=0.) are not documented:
   parameter 'freq'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:248: warning: argument 'list' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:248: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:250: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:481: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_power(self, power=0.)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:481: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_power(self, power=0.) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:482: warning: argument 'float' of command @param is not found in the argument list of mw_source_srssg.MicrowaveSRSSG::set_power(self, power=0.)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_srssg.py:482: warning: The following parameters of mw_source_srssg.MicrowaveSRSSG.set_power(self, power=0.) are not documented:
+  parameter 'power'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:124: warning: Member get_status(self) (function) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:165: warning: Member get_frequency(self) (function) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:183: warning: Member cw_on(self) (function) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:227: warning: Member list_on(self) (function) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:283: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:62: warning: Member rm (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:70: warning: Member model (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:71: warning: Member sernr (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:72: warning: Member mod_hw (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:73: warning: Member mod_fw (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:90: warning: Member current_output_mode (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:230: warning: Member output_active (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:248: warning: Member mw_frequency_list (variable) of class mw_source_windfreak_synthhdpro::MicrowaveSynthHDPro is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:193: warning: argument 'float' of command @param is not found in the argument list of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:193: warning: argument 'float' of command @param is not found in the argument list of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:196: warning: The following parameters of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro.set_cw(self, frequency=None, power=None) are not documented:
+  parameter 'frequency'
+  parameter 'power'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:343: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro::set_ext_trigger(self, pol, dwelltime)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:343: warning: The following parameters of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro.set_ext_trigger(self, pol, dwelltime) are not documented:
+  parameter 'pol'
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:239: warning: argument 'list' of command @param is not found in the argument list of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:239: warning: argument 'float' of command @param is not found in the argument list of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_windfreak_synthhdpro.py:242: warning: The following parameters of mw_source_windfreak_synthhdpro.MicrowaveSynthHDPro.set_list(self, frequency=None, power=None) are not documented:
+  parameter 'frequency'
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/hardware/national_instruments_pulser.py:643: warning: Member set_active_channels(self, ch=None) (function) of class national_instruments_pulser::NationalInstrumentsPulser is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/national_instruments_pulser.py:55: warning: Member pulsed_file_dir (variable) of class national_instruments_pulser::NationalInstrumentsPulser is not documented.
@@ -3560,69 +3607,71 @@ IndexError: list index out of range
   parameter 'photon_source'
   parameter 'clock_channel'
   parameter 'odmr_trigger_channel'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:84: warning: Member __init__(self, config, kwargs) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:163: warning: Member sv_set_fits(self, val) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:667: warning: Member get_odmr_channels(self) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:86: warning: Member threadlock (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:112: warning: Member mw_trigger_pol (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:116: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:117: warning: Member elapsed_sweeps (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:128: warning: Member odmr_raw_data (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:208: warning: Member odmr_plot_x (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:209: warning: Member odmr_plot_y (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:210: warning: Member odmr_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:211: warning: Member odmr_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:212: warning: Member odmr_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:501: warning: Member stopRequested (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:50: warning: Member odmrcounter (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:51: warning: Member fitlogic (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:52: warning: Member microwave1 (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:53: warning: Member savelogic (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:54: warning: Member taskrunner (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:57: warning: Member mw_scanmode (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:63: warning: Member clock_frequency (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:64: warning: Member cw_mw_frequency (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:65: warning: Member cw_mw_power (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:66: warning: Member sweep_mw_power (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:67: warning: Member mw_start (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:68: warning: Member mw_stop (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:69: warning: Member mw_step (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:70: warning: Member run_time (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:71: warning: Member number_of_lines (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:72: warning: Member fc (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:75: warning: Member sigNextLine (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:78: warning: Member sigParameterUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:79: warning: Member sigOutputStateUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:80: warning: Member sigOdmrPlotsUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:81: warning: Member sigOdmrFitUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:82: warning: Member sigOdmrElapsedTimeUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:787: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:240: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:243: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:85: warning: Member __init__(self, config, kwargs) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:164: warning: Member sv_set_fits(self, val) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:674: warning: Member get_odmr_channels(self) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:87: warning: Member threadlock (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:113: warning: Member mw_trigger_pol (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:117: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:118: warning: Member elapsed_sweeps (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:129: warning: Member odmr_raw_data (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:209: warning: Member odmr_plot_x (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:210: warning: Member odmr_plot_y (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:211: warning: Member odmr_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:212: warning: Member odmr_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:213: warning: Member odmr_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:506: warning: Member stopRequested (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:51: warning: Member odmrcounter (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:52: warning: Member fitlogic (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:53: warning: Member microwave1 (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:54: warning: Member savelogic (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:55: warning: Member taskrunner (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:58: warning: Member mw_scanmode (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:64: warning: Member clock_frequency (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:65: warning: Member cw_mw_frequency (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:66: warning: Member cw_mw_power (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:67: warning: Member sweep_mw_power (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:68: warning: Member mw_start (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:69: warning: Member mw_stop (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:70: warning: Member mw_step (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:71: warning: Member run_time (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:72: warning: Member number_of_lines (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:73: warning: Member fc (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:76: warning: Member sigNextLine (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:79: warning: Member sigParameterUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:80: warning: Member sigOutputStateUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:81: warning: Member sigOdmrPlotsUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:82: warning: Member sigOdmrFitUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:83: warning: Member sigOdmrElapsedTimeUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:794: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:242: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:245: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:297: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:297: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:297: warning: The following parameters of odmr_logic.ODMRLogic.set_cw_parameters(self, frequency, power) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:299: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:299: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:299: warning: The following parameters of odmr_logic.ODMRLogic.set_cw_parameters(self, frequency, power) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:259: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_matrix_line_number(self, number_of_lines)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:262: warning: The following parameters of odmr_logic.ODMRLogic.set_matrix_line_number(self, number_of_lines) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:261: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_matrix_line_number(self, number_of_lines)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:264: warning: The following parameters of odmr_logic.ODMRLogic.set_matrix_line_number(self, number_of_lines) are not documented:
   parameter 'number_of_lines'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:277: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_runtime(self, runtime)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:280: warning: The following parameters of odmr_logic.ODMRLogic.set_runtime(self, runtime) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:279: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_runtime(self, runtime)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:282: warning: The following parameters of odmr_logic.ODMRLogic.set_runtime(self, runtime) are not documented:
   parameter 'runtime'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:320: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:320: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:320: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:320: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: The following parameters of odmr_logic.ODMRLogic.set_sweep_parameters(self, start, stop, step, power) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:324: warning: The following parameters of odmr_logic.ODMRLogic.set_sweep_parameters(self, start, stop, step, power) are not documented:
   parameter 'start'
   parameter 'stop'
   parameter 'step'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:225: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger_pol(self, trigger_pol)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:226: warning: The following parameters of odmr_logic.ODMRLogic.set_trigger_pol(self, trigger_pol) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:227: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger(self, trigger_pol, frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:227: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger(self, trigger_pol, frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:228: warning: The following parameters of odmr_logic.ODMRLogic.set_trigger(self, trigger_pol, frequency) are not documented:
   parameter 'trigger_pol'
+  parameter 'frequency'
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:100: warning: Member __init__(self, config, kwargs) (function) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:389: warning: Member resume_odmr(self, is_checked) (function) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:514: warning: Member update_channel(self, index) (function) of class odmrgui::ODMRGui is not documented.
@@ -5938,12 +5987,12 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:89: warning: Member __init__(self, args, kwargs) (function) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:326: warning: Member write_waveform(self, name, analog_samples, digital_samples, is_first_chunk, is_last_chunk, total_number_of_samples) (function) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:647: warning: Member get_loaded_assets(self) (function) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1082: warning: Member set_active_channels(self, ch=None) (function) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1202: warning: Member new_sequence(self, name, steps) (function) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1246: warning: Member sequence_set_repetitions(self, sequence_name, step, repeat=1) (function) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1338: warning: Member sequence_set_flags(self, sequence_name, step, flags=None, trigger=False) (function) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1365: warning: Member make_sequence_continuous(self, sequencename) (function) of class tektronix_awg70k::AWG70K is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1395: warning: Member force_jump_sequence(self, final_step, channel=1) (function) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1100: warning: Member set_active_channels(self, ch=None) (function) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1220: warning: Member new_sequence(self, name, steps) (function) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1264: warning: Member sequence_set_repetitions(self, sequence_name, step, repeat=1) (function) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1356: warning: Member sequence_set_flags(self, sequence_name, step, flags=None, trigger=False) (function) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1383: warning: Member make_sequence_continuous(self, sequencename) (function) of class tektronix_awg70k::AWG70K is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1413: warning: Member force_jump_sequence(self, final_step, channel=1) (function) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:95: warning: Member awg (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:96: warning: Member awg_model (variable) of class tektronix_awg70k::AWG70K is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:98: warning: Member ftp_working_dir (variable) of class tektronix_awg70k::AWG70K is not documented.
@@ -5955,8 +6004,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:515: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::delete_waveform(self, waveform_name)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:515: warning: The following parameters of tektronix_awg70k.AWG70K.delete_waveform(self, waveform_name) are not documented:
   parameter 'waveform_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1022: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::get_active_channels(self, ch=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1022: warning: The following parameters of tektronix_awg70k.AWG70K.get_active_channels(self, ch=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1040: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::get_active_channels(self, ch=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1040: warning: The following parameters of tektronix_awg70k.AWG70K.get_active_channels(self, ch=None) are not documented:
   parameter 'ch'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:771: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::get_analog_level(self, amplitude=None, offset=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:771: warning: argument 'list' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::get_analog_level(self, amplitude=None, offset=None)
@@ -5972,37 +6021,37 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:927: warning: The following parameters of tektronix_awg70k.AWG70K.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1180: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::query(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1180: warning: The following parameters of tektronix_awg70k.AWG70K.query(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1198: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::query(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1198: warning: The following parameters of tektronix_awg70k.AWG70K.query(self, question) are not documented:
   parameter 'question'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1282: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1282: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1282: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1282: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1283: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1300: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1300: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1300: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1300: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1301: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_event_jump(self, sequence_name, step, trigger='OFF', jumpto=0) are not documented:
   parameter 'sequence_name'
   parameter 'step'
   parameter 'trigger'
   parameter 'jumpto'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1259: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_goto(self, sequence_name, step, goto=-1)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1259: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_goto(self, sequence_name, step, goto=-1)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1259: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_goto(self, sequence_name, step, goto=-1)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1263: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_goto(self, sequence_name, step, goto=-1) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1277: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_goto(self, sequence_name, step, goto=-1)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1277: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_goto(self, sequence_name, step, goto=-1)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1277: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_goto(self, sequence_name, step, goto=-1)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1281: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_goto(self, sequence_name, step, goto=-1) are not documented:
   parameter 'sequence_name'
   parameter 'step'
   parameter 'goto'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1310: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF')
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1310: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF')
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1310: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF')
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1311: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF') are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1328: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF')
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1328: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF')
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1328: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF')
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1329: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_wait_trigger(self, sequence_name, step, trigger='OFF') are not documented:
   parameter 'sequence_name'
   parameter 'step'
   parameter 'trigger'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1223: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1223: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1223: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1223: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1224: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_waveform(self, sequence_name, waveform_name, step, track) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1241: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1241: warning: argument 'str' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1241: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1241: warning: argument 'int' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::sequence_set_waveform(self, sequence_name, waveform_name, step, track)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1242: warning: The following parameters of tektronix_awg70k.AWG70K.sequence_set_waveform(self, sequence_name, waveform_name, step, track) are not documented:
   parameter 'sequence_name'
   parameter 'waveform_name'
   parameter 'step'
@@ -6017,14 +6066,14 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:986: warning: The following parameters of tektronix_awg70k.AWG70K.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1151: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1151: warning: The following parameters of tektronix_awg70k.AWG70K.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1169: warning: argument 'bool' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1169: warning: The following parameters of tektronix_awg70k.AWG70K.set_interleave(self, state=False) are not documented:
   parameter 'state'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:716: warning: argument 'float' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::set_sample_rate(self, sample_rate)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:718: warning: The following parameters of tektronix_awg70k.AWG70K.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1189: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::write(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1189: warning: The following parameters of tektronix_awg70k.AWG70K.write(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1207: warning: argument 'string' of command @param is not found in the argument list of tektronix_awg70k.AWG70K::write(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg70k.py:1207: warning: The following parameters of tektronix_awg70k.AWG70K.write(self, command) are not documented:
   parameter 'command'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:86: warning: Member __init__(self, config, kwargs) (function) of class tektronix_awg7k::AWG7k is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/tektronix_awg7k.py:430: warning: Member get_loaded_assets(self) (function) of class tektronix_awg7k::AWG7k is not documented.

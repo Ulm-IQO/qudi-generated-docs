@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['task',['Task',['../classrefocus_1_1Task.html',1,'refocus.Task'],['../classprepostdummy_1_1Task.html',1,'prepostdummy.Task'],['../classdummy_1_1Task.html',1,'dummy.Task'],['../classflipmirror_1_1Task.html',1,'flipmirror.Task']]],
+  ['task',['Task',['../classrefocus_1_1Task.html',1,'refocus.Task'],['../classdummy_1_1Task.html',1,'dummy.Task'],['../classflipmirror_1_1Task.html',1,'flipmirror.Task'],['../classprepostdummy_1_1Task.html',1,'prepostdummy.Task']]],
   ['taskgui',['TaskGui',['../classtaskgui_1_1TaskGui.html',1,'taskgui']]],
   ['tasklisttablemodel',['TaskListTableModel',['../classtaskrunner_1_1TaskListTableModel.html',1,'taskrunner']]],
   ['taskmainwindow',['TaskMainWindow',['../classtaskgui_1_1TaskMainWindow.html',1,'taskgui']]],
