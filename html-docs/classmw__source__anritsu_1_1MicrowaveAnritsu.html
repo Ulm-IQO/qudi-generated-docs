@@ -140,9 +140,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>set_sweep</b> (self, s
 <tr class="memitem:aada0379f1972ef5d38deb1df0b917a80"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#aada0379f1972ef5d38deb1df0b917a80">reset_sweeppos</a> (self)</td></tr>
 <tr class="memdesc:aada0379f1972ef5d38deb1df0b917a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset of MW sweep mode position to start (start frequency)  <a href="#aada0379f1972ef5d38deb1df0b917a80">More...</a><br /></td></tr>
 <tr class="separator:aada0379f1972ef5d38deb1df0b917a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac979bdbfb68c915aa14eeebd3ee23c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#acac979bdbfb68c915aa14eeebd3ee23c">set_ext_trigger</a> (self, pol=TriggerEdge.RISING)</td></tr>
-<tr class="memdesc:acac979bdbfb68c915aa14eeebd3ee23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#acac979bdbfb68c915aa14eeebd3ee23c">More...</a><br /></td></tr>
-<tr class="separator:acac979bdbfb68c915aa14eeebd3ee23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa74add757be24fa856dc9d05ee2db4be"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#aa74add757be24fa856dc9d05ee2db4be">set_ext_trigger</a> (self, pol, timing)</td></tr>
+<tr class="memdesc:aa74add757be24fa856dc9d05ee2db4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the external trigger for this device with proper polarization.  <a href="#aa74add757be24fa856dc9d05ee2db4be">More...</a><br /></td></tr>
+<tr class="separator:aa74add757be24fa856dc9d05ee2db4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5f2f55364e9df7d8191bba799fe8512"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmw__source__anritsu_1_1MicrowaveAnritsu.html#aa5f2f55364e9df7d8191bba799fe8512">trigger</a> (self)</td></tr>
 <tr class="memdesc:aa5f2f55364e9df7d8191bba799fe8512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the next element in the list or sweep mode programmatically.  <a href="#aa5f2f55364e9df7d8191bba799fe8512">More...</a><br /></td></tr>
 <tr class="separator:aa5f2f55364e9df7d8191bba799fe8512"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,8 +348,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acac979bdbfb68c915aa14eeebd3ee23c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acac979bdbfb68c915aa14eeebd3ee23c">&#9670;&nbsp;</a></span>set_ext_trigger()</h2>
+<a id="aa74add757be24fa856dc9d05ee2db4be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa74add757be24fa856dc9d05ee2db4be">&#9670;&nbsp;</a></span>set_ext_trigger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,7 +364,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>pol</em> = <code>TriggerEdge.RISING</code>&#160;</td>
+          <td class="paramname"><em>pol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>timing</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -377,11 +383,12 @@ Public Attributes</h2></td></tr>
 <p>Set the external trigger for this device with proper polarization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">TriggerEdge</td><td>pol: polarisation of the trigger (basically rising edge or falling edge)</td></tr>
+    <tr><td class="paramname">TriggerEdge</td><td>pol: polarisation of the trigger (basically rising edge or falling edge) </td></tr>
+    <tr><td class="paramname">float</td><td>timing: estimated time between triggers</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>object: current trigger polarity [TriggerEdge.RISING, TriggerEdge.FALLING] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>object, float: current trigger polarity [TriggerEdge.RISING, TriggerEdge.FALLING], trigger timing </dd></dl>
 
 </div>
 </div>

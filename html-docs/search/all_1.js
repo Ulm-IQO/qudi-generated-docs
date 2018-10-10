@@ -5,7 +5,7 @@ var searchData=
   ['aboutdialog',['AboutDialog',['../classmanagergui_1_1AboutDialog.html',1,'managergui']]],
   ['accept_5fstate_5fchange_5fcallback',['accept_state_change_callback',['../classqtwidgets_1_1checkbox_1_1CheckBox.html#a91f673972c4c1642c5c8f533e0999c4d',1,'qtwidgets.checkbox.CheckBox.accept_state_change_callback(self)'],['../classqtwidgets_1_1checkbox_1_1CheckBox.html#a48eb6bc99251abfc1e0c3a207c8fddcb',1,'qtwidgets.checkbox.CheckBox.accept_state_change_callback(self, value)']]],
   ['acqdata',['ACQDATA',['../classfastcomtecmcs6_1_1ACQDATA.html',1,'fastcomtecmcs6.ACQDATA'],['../classfastcomtecp7887_1_1ACQDATA.html',1,'fastcomtecp7887.ACQDATA']]],
-  ['acqsettings',['AcqSettings',['../classfastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtecmcs6.AcqSettings'],['../classfastcomtecp7887_1_1AcqSettings.html',1,'fastcomtecp7887.AcqSettings']]],
+  ['acqsettings',['AcqSettings',['../classfastcomtecp7887_1_1AcqSettings.html',1,'fastcomtecp7887.AcqSettings'],['../classfastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtecmcs6.AcqSettings']]],
   ['acqstatus',['AcqStatus',['../classfastcomtecmcs6_1_1AcqStatus.html',1,'fastcomtecmcs6.AcqStatus'],['../classfastcomtecp7887_1_1AcqStatus.html',1,'fastcomtecp7887.AcqStatus']]],
   ['acquire',['acquire',['../classcore_1_1util_1_1mutex_1_1Mutex.html#a52e28d4a14f037ca5478cfef7daab98d',1,'core::util::mutex::Mutex']]],
   ['acquisitionmode',['AcquisitionMode',['../classiXon897__ultra_1_1AcquisitionMode.html',1,'iXon897_ultra']]],

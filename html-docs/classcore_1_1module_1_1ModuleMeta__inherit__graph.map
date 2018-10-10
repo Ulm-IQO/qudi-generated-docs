@@ -23,9 +23,9 @@
 <area shape="rect" id="node23" href="$classinflux__data__client_1_1InfluxDataClient.html" title="Retrieve live data from InfluxDB as if the measurement device was connected directly. " alt="" coords="923,973,1082,1014"/>
 <area shape="rect" id="node24" href="$classinflux__data__logger_1_1InfluxLogger.html" title="Log instrument values to InfluxDB. " alt="" coords="921,1038,1084,1079"/>
 <area shape="rect" id="node25" href="$classiXon897__ultra_1_1IxonUltra.html" title="Hardware class for Andors Ixon Ultra 897. " alt="" coords="923,1104,1082,1131"/>
-<area shape="rect" id="node26" href="$classlaserquantum__laser_1_1LaserQuantumLaser.html" title="laserquantum_laser.Laser\lQuantumLaser" alt="" coords="917,1155,1088,1197"/>
-<area shape="rect" id="node27" href="$classlightfield__spectrometer_1_1Lightfield.html" title="Control Princeton Instruments Lightfield from Qudi. " alt="" coords="924,1221,1081,1262"/>
-<area shape="rect" id="node28" href="$classmagnet_1_1Magnet.html" title="Magnet positioning software for superconducting magnet. " alt="" coords="947,1287,1059,1313"/>
+<area shape="rect" id="node26" href="$classkeysight__M3202A_1_1M3202A.html" title="Qudi module for the Keysight M3202A PXIe AWG card (1GHz sampling frequency) " alt="" coords="913,1155,1092,1181"/>
+<area shape="rect" id="node27" href="$classlaserquantum__laser_1_1LaserQuantumLaser.html" title="laserquantum_laser.Laser\lQuantumLaser" alt="" coords="917,1206,1088,1247"/>
+<area shape="rect" id="node28" href="$classlightfield__spectrometer_1_1Lightfield.html" title="Control Princeton Instruments Lightfield from Qudi. " alt="" coords="924,1271,1081,1313"/>
 <area shape="rect" id="node31" href="$classcamera__interface_1_1CameraInterface.html" title="This interface is used to manage and visualize a simple camera. " alt="" coords="587,755,810,781"/>
 <area shape="rect" id="node32" href="$classconfocal__scanner__interface_1_1ConfocalScannerInterface.html" title="This is the Interface class to define the controls for the simple microwave hardware. " alt="" coords="606,806,791,847"/>
 <area shape="rect" id="node33" href="$classdata__logger__interface_1_1DataLoggerInterface.html" title="data_logger_interface.Data\lLoggerInterface" alt="" coords="609,871,788,913"/>

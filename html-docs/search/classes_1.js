@@ -2,7 +2,7 @@ var searchData=
 [
   ['aboutdialog',['AboutDialog',['../classmanagergui_1_1AboutDialog.html',1,'managergui']]],
   ['acqdata',['ACQDATA',['../classfastcomtecmcs6_1_1ACQDATA.html',1,'fastcomtecmcs6.ACQDATA'],['../classfastcomtecp7887_1_1ACQDATA.html',1,'fastcomtecp7887.ACQDATA']]],
-  ['acqsettings',['AcqSettings',['../classfastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtecmcs6.AcqSettings'],['../classfastcomtecp7887_1_1AcqSettings.html',1,'fastcomtecp7887.AcqSettings']]],
+  ['acqsettings',['AcqSettings',['../classfastcomtecp7887_1_1AcqSettings.html',1,'fastcomtecp7887.AcqSettings'],['../classfastcomtecmcs6_1_1AcqSettings.html',1,'fastcomtecmcs6.AcqSettings']]],
   ['acqstatus',['AcqStatus',['../classfastcomtecmcs6_1_1AcqStatus.html',1,'fastcomtecmcs6.AcqStatus'],['../classfastcomtecp7887_1_1AcqStatus.html',1,'fastcomtecp7887.AcqStatus']]],
   ['acquisitionmode',['AcquisitionMode',['../classiXon897__ultra_1_1AcquisitionMode.html',1,'iXon897_ultra']]],
   ['analogparametersitemdelegate',['AnalogParametersItemDelegate',['../classpulsed__item__delegates_1_1AnalogParametersItemDelegate.html',1,'pulsed_item_delegates']]],
