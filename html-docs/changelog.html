@@ -65,7 +65,7 @@ $(function() {
 <div class="textblock"><h2>Pre-release</h2>
 <p>Changes/New features:</p>
 <ul>
-<li>Improved scientific SpinBox validators to allow for more intuitive keyboard input</li>
+<li>Added the keyword "labels" to the "measurement_information" dict container in predefined methods. This can be used to specify the axis labels for the measurement (excluding units)</li>
 <li>All modules use new connector style where feasible.</li>
 <li>Bug fix for POI manager was losing active POI when moving crosshair in confocal</li>
 <li>Added a how-to-get-started guide to the documentation</li>
@@ -87,6 +87,9 @@ $(function() {
 <li>Add separate conda environments for windows 7 32bit, windows 7 64bit, and windows 10 64bit.</li>
 <li>Extend the windows installation procedure of the conda environment for qudi. The conda environments is selected automatically for the correct windows version and the appropriate environment file is taken.</li>
 <li>Rewrite the documentation for required python packages for Qudi and mention instead the installation procedure, how to create manually a python environment for qudi.</li>
+<li>Correct the low level implementation for the PulseBlasterESR-PRO.</li>
+<li>Implement the pulser interface for PulseBlasterESR-PRO devices.</li>
+<li>Implement the switch interface for PulseBlasterESR-PRO devices.</li>
 <li><b>Pulsed 3.0:</b>\ <em>A truckload of changes regarding all pulsed measurement related modules</em><ul>
 <li>Bug fix for waveform generation larger than ~2 GSamples</li>
 <li>Added chirp function to available analog shapes in pulsed measurements</li>
@@ -117,6 +120,7 @@ $(function() {
 <li>New dialog box for pulse generator hardware settings. Previously the settings were located directly in a tab of the PulsedMainGUI. Also added voltage settings for digital and analog channels that were missing in the GUI before.</li>
 <li>Lots of smaller changes to improve programming flexibility and robustness against users</li>
 <li>Added a new ungated extraction method ('ungated_gated_conv_deriv') which uses the keys in the sampling information to convert an ungated timetrace into a gated timetrace which is then anaylzed with the ungated method 'gated_conv_deriv'. The conversion is based on the rising and falling bins in the laser channel which indicate the positions of the laser pulses in the ungated trace. For fine-tuning additional delays (for example from AOMs) can be taken into account. This method speeds up laser extractions from ungated timetraced by a lot.</li>
+<li>Improved pulsed measurement textfile and plot layout for saved data</li>
 </ul>
 </li>
 </ul>
