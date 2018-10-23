@@ -65,6 +65,8 @@ $(function() {
 <div class="textblock"><h2>Pre-release</h2>
 <p>Changes/New features:</p>
 <ul>
+<li>Save_logic now expands environment variables in the configured data path (e.g. $HOME under Unix or $HOMEPATH under Windows)</li>
+<li>Added command line argument &ndash;logdir to specify the path to the logging directory</li>
 <li>Added the keyword "labels" to the "measurement_information" dict container in predefined methods. This can be used to specify the axis labels for the measurement (excluding units)</li>
 <li>All modules use new connector style where feasible.</li>
 <li>Bug fix for POI manager was losing active POI when moving crosshair in confocal</li>

@@ -187,7 +187,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:372: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:376: warning: documented symbol `generic_task.PrePostTask::_stateList' was not declared or defined.
-/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:197: warning: explicit link request to 'INSTR' could not be resolved
+/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:199: warning: explicit link request to 'INSTR' could not be resolved
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\Data'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\YEAR'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\MONTH'
@@ -952,17 +952,17 @@ IndexError: list index out of range
   parameter 'update'
   parameter 'finish'
 /home/travis/build/Ulm-IQO/qudi/gui/confocal/confocalgui.py:173: warning: Member __init__(self) (function) of class confocalgui::OptimizerSettingDialog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:155: warning: Member __init__(self) (function) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:157: warning: Member alreadyQuit (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:158: warning: Member hasGui (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:159: warning: Member exitcode (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:162: warning: Member timer (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:180: warning: Member parent_handle (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:181: warning: Member interrupt (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:184: warning: Member poller (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:153: warning: Member sigDoQuit (variable) of class core::__main__::AppWatchdog is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:206: warning: argument 'object' of command @param is not found in the argument list of core.__main__.AppWatchdog::quitApplication(self, manager, restart=False)
-/home/travis/build/Ulm-IQO/qudi/core/__main__.py:206: warning: The following parameters of core.__main__.AppWatchdog.quitApplication(self, manager, restart=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:156: warning: Member __init__(self) (function) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:158: warning: Member alreadyQuit (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:159: warning: Member hasGui (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:160: warning: Member exitcode (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:163: warning: Member timer (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:181: warning: Member parent_handle (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:182: warning: Member interrupt (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:185: warning: Member poller (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:154: warning: Member sigDoQuit (variable) of class core::__main__::AppWatchdog is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:207: warning: argument 'object' of command @param is not found in the argument list of core.__main__.AppWatchdog::quitApplication(self, manager, restart=False)
+/home/travis/build/Ulm-IQO/qudi/core/__main__.py:207: warning: The following parameters of core.__main__.AppWatchdog.quitApplication(self, manager, restart=False) are not documented:
   parameter 'manager'
   parameter 'restart'
 /home/travis/build/Ulm-IQO/qudi/core/garbage_collector.py:55: warning: Member check(self) (function) of class core::garbage_collector::GarbageCollector is not documented.
@@ -980,13 +980,13 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/gui.py:55: warning: The following parameters of core.gui.Gui.setTheme(self, theme, path) are not documented:
   parameter 'theme'
   parameter 'path'
-/home/travis/build/Ulm-IQO/qudi/core/logger.py:52: warning: argument 'object' of command @param is not found in the argument list of core.logger.QtLogFormatter::format(self, record)
-/home/travis/build/Ulm-IQO/qudi/core/logger.py:54: warning: The following parameters of core.logger.QtLogFormatter.format(self, record) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/logger.py:53: warning: argument 'object' of command @param is not found in the argument list of core.logger.QtLogFormatter::format(self, record)
+/home/travis/build/Ulm-IQO/qudi/core/logger.py:55: warning: The following parameters of core.logger.QtLogFormatter.format(self, record) are not documented:
   parameter 'record'
-/home/travis/build/Ulm-IQO/qudi/core/logger.py:98: warning: Member __init__(self, parent=None, level=0) (function) of class core::logger::QtLogHandler is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/logger.py:95: warning: Member sigLoggedMessage (variable) of class core::logger::QtLogHandler is not documented.
-/home/travis/build/Ulm-IQO/qudi/core/logger.py:109: warning: argument 'object' of command @param is not found in the argument list of core.logger.QtLogHandler::emit(self, record)
-/home/travis/build/Ulm-IQO/qudi/core/logger.py:109: warning: The following parameters of core.logger.QtLogHandler.emit(self, record) are not documented:
+/home/travis/build/Ulm-IQO/qudi/core/logger.py:99: warning: Member __init__(self, parent=None, level=0) (function) of class core::logger::QtLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/logger.py:96: warning: Member sigLoggedMessage (variable) of class core::logger::QtLogHandler is not documented.
+/home/travis/build/Ulm-IQO/qudi/core/logger.py:110: warning: argument 'object' of command @param is not found in the argument list of core.logger.QtLogHandler::emit(self, record)
+/home/travis/build/Ulm-IQO/qudi/core/logger.py:110: warning: The following parameters of core.logger.QtLogHandler.emit(self, record) are not documented:
   parameter 'record'
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:1329: warning: Member removeStatusFile(self, base, module) (function) of class core::manager::Manager is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/manager.py:83: warning: Member lock (variable) of class core::manager::Manager is not documented.
@@ -2624,10 +2624,10 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:237: warning: Member __init__(self, config, kwargs) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:737: warning: Member start_1d_alignment(self, axis_name, axis_range, axis_step, axis_vel, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:771: warning: Member start_2d_alignment(self, stepwise_meas=True, continue_meas=False) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1877: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2052: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2062: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2065: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:1878: warning: Member save_1d_data(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2053: warning: Member set_pos_checktime(self, checktime) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2063: warning: Member get_2d_data_matrix(self) (function) of class magnet_logic::MagnetLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2066: warning: Member get_2d_axis_arrays(self) (function) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:275: warning: Member pathway_modes (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:280: warning: Member move_rel_dict (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:291: warning: Member align_2d_axis0_name (variable) of class magnet_logic::MagnetLogic is not documented.
@@ -2710,7 +2710,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:233: warning: Member sigODMRHighFreqChanged (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:235: warning: Member sigTest (variable) of class magnet_logic::MagnetLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:65: warning: Illegal command par as part of a <h1> tag
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2085: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2086: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: argument 'list' of command @param is not found in the argument list of magnet_logic.MagnetLogic::get_pos(self, param_list=None)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:424: warning: The following parameters of magnet_logic.MagnetLogic.get_pos(self, param_list=None) are not documented:
   parameter 'param_list'
@@ -2723,7 +2723,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:380: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::move_rel(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:380: warning: The following parameters of magnet_logic.MagnetLogic.move_rel(self, param_dict) are not documented:
   parameter 'param_dict'
-/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2073: warning: Found unknown command `\params'
+/home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:2074: warning: Found unknown command `\params'
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:461: warning: argument 'dict' of command @param is not found in the argument list of magnet_logic.MagnetLogic::set_velocity(self, param_dict)
 /home/travis/build/Ulm-IQO/qudi/logic/magnet_logic.py:461: warning: The following parameters of magnet_logic.MagnetLogic.set_velocity(self, param_dict) are not documented:
   parameter 'param_dict'
@@ -5623,30 +5623,30 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:113: warning: Member __str__(self) (function) of class save_logic::FunctionImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:111: warning: Member value (variable) of class save_logic::FunctionImplementationError is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:170: warning: Member __init__(self, config, kwargs) (function) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:217: warning: Member on_deactivate(self) (function) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:566: warning: Member save_array_as_text(self, data, filename, filepath='', fmt='%.15e', header='', delimiter='\t', comments='#', append=False) (function) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:220: warning: Member on_deactivate(self) (function) of class save_logic::SaveLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:569: warning: Member save_array_as_text(self, data, filename, filepath='', fmt='%.15e', header='', delimiter='\t', comments='#', append=False) (function) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:174: warning: Member lock (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:177: warning: Member active_poi_name (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:180: warning: Member os_system (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:186: warning: Member data_dir (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:140: warning: Member log_into_daily_directory (variable) of class save_logic::SaveLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:143: warning: Member mpl_qd_style (variable) of class save_logic::SaveLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:593: warning: Unsupported xml/html tag <root_dir> found
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:639: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::get_path_for_module(self, module_name)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:640: warning: The following parameters of save_logic.SaveLogic.get_path_for_module(self, module_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:596: warning: Unsupported xml/html tag <root_dir> found
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:642: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::get_path_for_module(self, module_name)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:643: warning: The following parameters of save_logic.SaveLogic.get_path_for_module(self, module_name) are not documented:
   parameter 'module_name'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:347: warning: Found unknown command `\parem'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:357: warning: Found unknown command `\parem'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'datetime' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:326: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:384: warning: Found unknown command `\t'
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:410: warning: Unsupported xml/html tag <identifier> found
-/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:327: warning: The following parameters of save_logic.SaveLogic.save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'dictionary' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:350: warning: Found unknown command `\parem'
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:360: warning: Found unknown command `\parem'
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'datetime' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:329: warning: argument 'string' of command @param is not found in the argument list of save_logic.SaveLogic::save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None)
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:387: warning: Found unknown command `\t'
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:413: warning: Unsupported xml/html tag <identifier> found
+/home/travis/build/Ulm-IQO/qudi/logic/save_logic.py:330: warning: The following parameters of save_logic.SaveLogic.save_data(self, data, filepath=None, parameters=None, filename=None, filelabel=None, timestamp=None, filetype='text', fmt='%.15e', delimiter='\t', plotfig=None) are not documented:
   parameter 'data'
   parameter 'filepath'
   parameter 'parameters'
