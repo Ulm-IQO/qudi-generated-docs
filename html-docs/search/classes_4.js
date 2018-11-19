@@ -8,6 +8,7 @@ var searchData=
   ['digitalstatesitemdelegate',['DigitalStatesItemDelegate',['../classpulsed__item__delegates_1_1DigitalStatesItemDelegate.html',1,'pulsed_item_delegates']]],
   ['displayhook',['DisplayHook',['../classhelpers_1_1DisplayHook.html',1,'helpers']]],
   ['displaytrap',['DisplayTrap',['../classdisplay__trap_1_1DisplayTrap.html',1,'display_trap']]],
-  ['doublesin',['DoubleSin',['../classbasic__sampling__functions_1_1DoubleSin.html',1,'basic_sampling_functions']]],
+  ['doublesinproduct',['DoubleSinProduct',['../classbasic__sampling__functions_1_1DoubleSinProduct.html',1,'basic_sampling_functions']]],
+  ['doublesinsum',['DoubleSinSum',['../classbasic__sampling__functions_1_1DoubleSinSum.html',1,'basic_sampling_functions']]],
   ['dtg5334',['DTG5334',['../classdtg5334_1_1DTG5334.html',1,'dtg5334']]]
 ];

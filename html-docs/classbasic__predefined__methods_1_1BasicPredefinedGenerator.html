@@ -90,7 +90,7 @@ Public Member Functions</h2></td></tr>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args, kwargs)</td></tr>
 <tr class="separator:aca1eb5749ea717cce3ce4a020891838f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a442150ff5f0306b1c58c6426b16390"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic__predefined__methods_1_1BasicPredefinedGenerator.html#a2a442150ff5f0306b1c58c6426b16390">generate_laser_on</a> (self, name='laser_on', length=3.0e-6)</td></tr>
-<tr class="memdesc:a2a442150ff5f0306b1c58c6426b16390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates Laser on.  <a href="#a2a442150ff5f0306b1c58c6426b16390">More...</a><br /></td></tr>
+<tr class="memdesc:a2a442150ff5f0306b1c58c6426b16390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generation methods for waveforms #.  <a href="#a2a442150ff5f0306b1c58c6426b16390">More...</a><br /></td></tr>
 <tr class="separator:a2a442150ff5f0306b1c58c6426b16390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedc0d8c361021c4e9952860c031b15d3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic__predefined__methods_1_1BasicPredefinedGenerator.html#aedc0d8c361021c4e9952860c031b15d3">generate_laser_mw_on</a> (self, name='laser_mw_on', length=3.0e-6)</td></tr>
 <tr class="memdesc:aedc0d8c361021c4e9952860c031b15d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">General generation method for laser on and microwave on generation.  <a href="#aedc0d8c361021c4e9952860c031b15d3">More...</a><br /></td></tr>
@@ -137,6 +137,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>generate_xy8_tau</b> (
 <tr class="memitem:acbcaf2cd377056ad7e0bef7618b82cf0"><td class="memItemLeft" align="right" valign="top"><a id="acbcaf2cd377056ad7e0bef7618b82cf0"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>generate_xy8_freq</b> (self, name='xy8_freq', freq_start=0.1e6, freq_step=0.01e6, num_of_points=50, xy8_order=4, alternating=True)</td></tr>
 <tr class="separator:acbcaf2cd377056ad7e0bef7618b82cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ac897d255036877bc694164612e97d"><td class="memItemLeft" align="right" valign="top"><a id="aa1ac897d255036877bc694164612e97d"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic__predefined__methods_1_1BasicPredefinedGenerator.html#aa1ac897d255036877bc694164612e97d">generate_t1_sequencing</a> (self, name='t1_seq', tau_start=1.0e-6, tau_max=1.0e-3, num_of_points=10)</td></tr>
+<tr class="memdesc:aa1ac897d255036877bc694164612e97d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generation methods for sequences #. <br /></td></tr>
+<tr class="separator:aa1ac897d255036877bc694164612e97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad00ad3ba4d550b3599605faa2046e4bb"></a>
@@ -259,16 +263,11 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>generate_xy8_freq</b> 
       </table>
 </div><div class="memdoc">
 
-<p>Generates Laser on. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>name: Name of the PulseBlockEnsemble </td></tr>
-    <tr><td class="paramname">float</td><td>length: laser duration in seconds</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>object: the generated PulseBlockEnsemble object. </dd></dl>
+<p>Generation methods for waveforms #. </p>
+<p>Generates Laser on. </p><pre class="fragment">    @param str name: Name of the PulseBlockEnsemble
+    @param float length: laser duration in seconds
 
+    @return object: the generated PulseBlockEnsemble object.</pre> 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

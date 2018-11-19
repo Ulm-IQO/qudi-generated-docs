@@ -121,8 +121,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__delitem__</b> (self,
 <tr class="memitem:a0651101976a51e7250a50d43bffd7aae"><td class="memItemLeft" align="right" valign="top"><a id="a0651101976a51e7250a50d43bffd7aae"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>pop</b> (self, position=None)</td></tr>
 <tr class="separator:a0651101976a51e7250a50d43bffd7aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a989cce26387e884a6b76a42d1f838d84"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulse__objects_1_1PulseSequence.html#a989cce26387e884a6b76a42d1f838d84">insert</a> (self, position, element)</td></tr>
-<tr class="memdesc:a989cce26387e884a6b76a42d1f838d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a (PulseSequence.name, parameters) tuple at the given position.  <a href="#a989cce26387e884a6b76a42d1f838d84">More...</a><br /></td></tr>
+<tr class="memitem:a989cce26387e884a6b76a42d1f838d84"><td class="memItemLeft" align="right" valign="top"><a id="a989cce26387e884a6b76a42d1f838d84"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (self, position, element)</td></tr>
 <tr class="separator:a989cce26387e884a6b76a42d1f838d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a346378070e54b2880708b073153f30b2"><td class="memItemLeft" align="right" valign="top"><a id="a346378070e54b2880708b073153f30b2"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>append</b> (self, element)</td></tr>
@@ -220,51 +220,6 @@ Public Attributes</h2></td></tr>
 <p>If only 'repetitions' are in the dictionary, then the dict will look like: seq_param = {'repetitions': 41} and so the respective sequence step will play 42 times. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bool</td><td>rotating_frame: indicates, whether the phase has to be preserved in all analog signals ACROSS different waveforms </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a989cce26387e884a6b76a42d1f838d84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a989cce26387e884a6b76a42d1f838d84">&#9670;&nbsp;</a></span>insert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pulse_objects.PulseSequence.insert </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>element</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Insert a (PulseSequence.name, parameters) tuple at the given position. </p>
-<p>The old element at this position and all consecutive elements after that will be shifted to higher indices.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">int</td><td>position: position in the ensemble list </td></tr>
-    <tr><td class="paramname">tuple|str</td><td>element: <a class="el" href="classpulse__objects_1_1PulseBlock.html" title="Collection of Pulse_Block_Elements which is called a Pulse_Block. ">PulseBlock</a> name (str)[, seq_parameters (dict)] </td></tr>
   </table>
   </dd>
 </dl>

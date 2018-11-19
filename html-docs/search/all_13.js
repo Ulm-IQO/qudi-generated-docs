@@ -73,6 +73,7 @@ var searchData=
   ['sequenceeditortablemodel',['SequenceEditorTableModel',['../classpulse__editors_1_1SequenceEditorTableModel.html',1,'pulse_editors']]],
   ['sequencegeneratorlogic',['SequenceGeneratorLogic',['../classsequence__generator__logic_1_1SequenceGeneratorLogic.html',1,'sequence_generator_logic']]],
   ['sequencegeneratortab',['SequenceGeneratorTab',['../classpulsed__maingui_1_1SequenceGeneratorTab.html',1,'pulsed_maingui']]],
+  ['sequencestep',['SequenceStep',['../classpulse__objects_1_1SequenceStep.html',1,'pulse_objects']]],
   ['serialize',['serialize',['../classconfocal__logic_1_1ConfocalHistoryEntry.html#a26bf30a07bca99dadeeabe8ed6d65e82',1,'confocal_logic::ConfocalHistoryEntry']]],
   ['set',['set',['../classdisplay__trap_1_1DisplayTrap.html#ac58123f7ef8e599280f238a82bd8e288',1,'display_trap::DisplayTrap']]],
   ['set_5factivation_5fconfig',['set_activation_config',['../classpulse__editors_1_1BlockEditorTableModel.html#abab2b90bbc931ed7b7db1429450f9392',1,'pulse_editors.BlockEditorTableModel.set_activation_config()'],['../classpulse__editors_1_1BlockEditor.html#a0bd5a97271b0133f0e3a58128381b275',1,'pulse_editors.BlockEditor.set_activation_config()']]],
