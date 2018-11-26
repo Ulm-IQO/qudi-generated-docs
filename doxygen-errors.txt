@@ -124,7 +124,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:106: warning: Compound pulsed_maingui::GeneratorSettingDialog is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/laser/laserquantum_laser.py:45: warning: Compound laserquantum_laser::LaserQuantumLaser is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_custom_widgets.py:31: warning: Compound pulsed_custom_widgets::DigitalChannelsWidget is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:27: warning: Compound Pulse_analysis_standalone::PulseAnalysis is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2205: warning: Compound uc480_h::UC480TIME is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2126: warning: Compound uc480_h::KNEEPOINT is not documented.
 /home/travis/build/Ulm-IQO/qudi/interface/slow_counter_interface.py:120: warning: Compound slow_counter_interface::CountingMode is not documented.
@@ -189,7 +188,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:91: warning: documented symbol `generic_task.InterruptableTask::_stateDict' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:372: warning: documented symbol `generic_task.PrePostTask::_default_callbacks' was not declared or defined.
 /home/travis/build/Ulm-IQO/qudi/logic/generic_task.py:376: warning: documented symbol `generic_task.PrePostTask::_stateList' was not declared or defined.
-/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:199: warning: explicit link request to 'INSTR' could not be resolved
+/home/travis/build/Ulm-IQO/qudi/documentation/changelog.md:201: warning: explicit link request to 'INSTR' could not be resolved
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\Data'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\YEAR'
 /home/travis/build/Ulm-IQO/qudi/documentation/gui/confocal.md:24: warning: Found unknown command `\MONTH'
@@ -3295,29 +3294,29 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smbv.py:269: warning: The following parameters of mw_source_smbv.MicrowaveSmbv.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:172: warning: Member off(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:196: warning: Member get_status(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:224: warning: Member get_frequency(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:245: warning: Member cw_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:304: warning: Member list_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:416: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:82: warning: Member rm (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:97: warning: Member model (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:201: warning: Member off(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:225: warning: Member get_status(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:253: warning: Member get_frequency(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:274: warning: Member cw_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:333: warning: Member list_on(self) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:445: warning: Member set_sweep(self, start=None, stop=None, step=None, power=None) (function) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:102: warning: Member rm (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:117: warning: Member model (variable) of class mw_source_smiq::MicrowaveSmiq is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:272: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:272: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:275: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_cw(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:301: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:301: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_cw(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:304: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:461: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol, timing)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:461: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol, timing)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:461: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_ext_trigger(self, pol, timing) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:490: warning: argument 'TriggerEdge' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:490: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:490: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
   parameter 'timing'
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:330: warning: argument 'list' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:330: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
-/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:333: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_list(self, frequency=None, power=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:359: warning: argument 'list' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:359: warning: argument 'float' of command @param is not found in the argument list of mw_source_smiq.MicrowaveSmiq::set_list(self, frequency=None, power=None)
+/home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smiq.py:362: warning: The following parameters of mw_source_smiq.MicrowaveSmiq.set_list(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
 /home/travis/build/Ulm-IQO/qudi/hardware/microwave/mw_source_smr.py:329: warning: Member list_on(self) (function) of class mw_source_smr::MicrowaveSMR is not documented.
@@ -3716,8 +3715,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:215: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_cw(self, frequency=None, power=None) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:281: warning: argument 'TriggerEdge' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_ext_trigger(self, pol=TriggerEdge.RISING)
-/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:281: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_ext_trigger(self, pol=TriggerEdge.RISING) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:282: warning: argument 'TriggerEdge' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_ext_trigger(self, pol, timing)
+/home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:282: warning: The following parameters of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse.set_ext_trigger(self, pol, timing) are not documented:
   parameter 'pol'
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:232: warning: argument 'list' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_list(self, frequency=None, power=None)
 /home/travis/build/Ulm-IQO/qudi/logic/interfuse/odmr_counter_microwave_interfuse.py:232: warning: argument 'float' of command @param is not found in the argument list of odmr_counter_microwave_interfuse.ODMRCounterMicrowaveInterfuse::set_list(self, frequency=None, power=None)
@@ -3736,20 +3735,20 @@ IndexError: list index out of range
   parameter 'photon_source'
   parameter 'clock_channel'
   parameter 'odmr_trigger_channel'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:85: warning: Member __init__(self, config, kwargs) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:164: warning: Member sv_set_fits(self, val) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:674: warning: Member get_odmr_channels(self) (function) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:87: warning: Member threadlock (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:113: warning: Member mw_trigger_pol (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:117: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:118: warning: Member elapsed_sweeps (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:129: warning: Member odmr_raw_data (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:209: warning: Member odmr_plot_x (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:210: warning: Member odmr_plot_y (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:211: warning: Member odmr_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:212: warning: Member odmr_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:213: warning: Member odmr_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:506: warning: Member stopRequested (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:86: warning: Member __init__(self, config, kwargs) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:165: warning: Member sv_set_fits(self, val) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:713: warning: Member get_odmr_channels(self) (function) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:88: warning: Member threadlock (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:114: warning: Member mw_trigger_pol (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:118: warning: Member elapsed_time (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:119: warning: Member elapsed_sweeps (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:130: warning: Member odmr_raw_data (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:210: warning: Member odmr_plot_x (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:211: warning: Member odmr_plot_y (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:212: warning: Member odmr_fit_x (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:213: warning: Member odmr_fit_y (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:214: warning: Member odmr_plot_xy (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:534: warning: Member stopRequested (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:51: warning: Member odmrcounter (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:52: warning: Member fitlogic (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:53: warning: Member microwave1 (variable) of class odmr_logic::ODMRLogic is not documented.
@@ -3766,51 +3765,55 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:71: warning: Member run_time (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:72: warning: Member number_of_lines (variable) of class odmr_logic::ODMRLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:73: warning: Member fc (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:76: warning: Member sigNextLine (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:79: warning: Member sigParameterUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:80: warning: Member sigOutputStateUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:81: warning: Member sigOdmrPlotsUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:82: warning: Member sigOdmrFitUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:83: warning: Member sigOdmrElapsedTimeUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:794: warning: expected whitespace after : command
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:242: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:245: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:74: warning: Member lines_to_average (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:77: warning: Member sigNextLine (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:80: warning: Member sigParameterUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:81: warning: Member sigOutputStateUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:82: warning: Member sigOdmrPlotsUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:83: warning: Member sigOdmrFitUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:84: warning: Member sigOdmrElapsedTimeUpdated (variable) of class odmr_logic::ODMRLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:833: warning: expected whitespace after : command
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:243: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_average_length(self, lines_to_average)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:246: warning: The following parameters of odmr_logic.ODMRLogic.set_average_length(self, lines_to_average) are not documented:
+  parameter 'lines_to_average'
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:270: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_clock_frequency(self, clock_frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:273: warning: The following parameters of odmr_logic.ODMRLogic.set_clock_frequency(self, clock_frequency) are not documented:
   parameter 'clock_frequency'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:299: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:299: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:299: warning: The following parameters of odmr_logic.ODMRLogic.set_cw_parameters(self, frequency, power) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:327: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:327: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_cw_parameters(self, frequency, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:327: warning: The following parameters of odmr_logic.ODMRLogic.set_cw_parameters(self, frequency, power) are not documented:
   parameter 'frequency'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:261: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_matrix_line_number(self, number_of_lines)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:264: warning: The following parameters of odmr_logic.ODMRLogic.set_matrix_line_number(self, number_of_lines) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:289: warning: argument 'int' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_matrix_line_number(self, number_of_lines)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:292: warning: The following parameters of odmr_logic.ODMRLogic.set_matrix_line_number(self, number_of_lines) are not documented:
   parameter 'number_of_lines'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:279: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_runtime(self, runtime)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:282: warning: The following parameters of odmr_logic.ODMRLogic.set_runtime(self, runtime) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:307: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_runtime(self, runtime)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:310: warning: The following parameters of odmr_logic.ODMRLogic.set_runtime(self, runtime) are not documented:
   parameter 'runtime'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:322: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:324: warning: The following parameters of odmr_logic.ODMRLogic.set_sweep_parameters(self, start, stop, step, power) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:350: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:350: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:350: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:350: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_sweep_parameters(self, start, stop, step, power)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:352: warning: The following parameters of odmr_logic.ODMRLogic.set_sweep_parameters(self, start, stop, step, power) are not documented:
   parameter 'start'
   parameter 'stop'
   parameter 'step'
   parameter 'power'
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:227: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger(self, trigger_pol, frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:227: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger(self, trigger_pol, frequency)
-/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:228: warning: The following parameters of odmr_logic.ODMRLogic.set_trigger(self, trigger_pol, frequency) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:228: warning: argument 'object' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger(self, trigger_pol, frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:228: warning: argument 'float' of command @param is not found in the argument list of odmr_logic.ODMRLogic::set_trigger(self, trigger_pol, frequency)
+/home/travis/build/Ulm-IQO/qudi/logic/odmr_logic.py:229: warning: The following parameters of odmr_logic.ODMRLogic.set_trigger(self, trigger_pol, frequency) are not documented:
   parameter 'trigger_pol'
   parameter 'frequency'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:100: warning: Member __init__(self, config, kwargs) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:389: warning: Member resume_odmr(self, is_checked) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:514: warning: Member update_channel(self, index) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:566: warning: Member restore_defaultview(self) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:590: warning: Member do_fit(self) (function) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:117: warning: Member mwsettings (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:154: warning: Member display_channel (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:162: warning: Member odmr_matrix_image (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:172: warning: Member odmr_image (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:180: warning: Member odmr_fit_image (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:101: warning: Member __init__(self, config, kwargs) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:396: warning: Member resume_odmr(self, is_checked) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:521: warning: Member update_channel(self, index) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:580: warning: Member restore_defaultview(self) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:604: warning: Member do_fit(self) (function) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:118: warning: Member mwsettings (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:155: warning: Member display_channel (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:163: warning: Member odmr_matrix_image (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:173: warning: Member odmr_image (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:181: warning: Member odmr_fit_image (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:81: warning: Member odmrlogic1 (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:82: warning: Member savelogic (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:84: warning: Member sigStartOdmrScan (variable) of class odmrgui::ODMRGui is not documented.
@@ -3828,12 +3831,13 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:96: warning: Member sigRuntimeChanged (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:97: warning: Member sigDoFit (variable) of class odmrgui::ODMRGui is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:98: warning: Member sigSaveMeasurement (variable) of class odmrgui::ODMRGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:536: warning: argument 'list' of command @param is not found in the argument list of odmrgui.ODMRGui::update_colorbar(self, cb_range)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:537: warning: The following parameters of odmrgui.ODMRGui.update_colorbar(self, cb_range) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:99: warning: Member sigAverageLinesChanged (variable) of class odmrgui::ODMRGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:550: warning: argument 'list' of command @param is not found in the argument list of odmrgui.ODMRGui::update_colorbar(self, cb_range)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:551: warning: The following parameters of odmrgui.ODMRGui.update_colorbar(self, cb_range) are not documented:
   parameter 'cb_range'
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:429: warning: argument 'str' of command @param is not found in the argument list of odmrgui.ODMRGui::update_status(self, mw_mode, is_running)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:429: warning: argument 'bool' of command @param is not found in the argument list of odmrgui.ODMRGui::update_status(self, mw_mode, is_running)
-/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:430: warning: The following parameters of odmrgui.ODMRGui.update_status(self, mw_mode, is_running) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:436: warning: argument 'str' of command @param is not found in the argument list of odmrgui.ODMRGui::update_status(self, mw_mode, is_running)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:436: warning: argument 'bool' of command @param is not found in the argument list of odmrgui.ODMRGui::update_status(self, mw_mode, is_running)
+/home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:437: warning: The following parameters of odmrgui.ODMRGui.update_status(self, mw_mode, is_running) are not documented:
   parameter 'mw_mode'
   parameter 'is_running'
 /home/travis/build/Ulm-IQO/qudi/gui/odmr/odmrgui.py:42: warning: Member __init__(self) (function) of class odmrgui::ODMRMainWindow is not documented.
@@ -4277,20 +4281,6 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/process_dummy.py:73: warning: argument 'flaot' of command @param is not found in the argument list of process_dummy.ProcessDummy::setControlValue(self, value)
 /home/travis/build/Ulm-IQO/qudi/hardware/process_dummy.py:73: warning: The following parameters of process_dummy.ProcessDummy.setControlValue(self, value) are not documented:
   parameter 'value'
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:29: warning: Member __init__(self) (function) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:30: warning: Member is_counter_gated (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:33: warning: Member conv_std_dev (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:35: warning: Member signal_start_bin (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:36: warning: Member signal_width_bins (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:37: warning: Member norm_start_bin (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:38: warning: Member norm_width_bins (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:40: warning: Member number_of_lasers (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:42: warning: Member tau_vector (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:43: warning: Member signal_vector (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:44: warning: Member laser_data (variable) of class Pulse_analysis_standalone::PulseAnalysis is not documented.
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:143: warning: argument 'int' of command @param is not found in the argument list of Pulse_analysis_standalone.PulseAnalysis::analyze_data(self, raw_data)
-/home/travis/build/Ulm-IQO/qudi/tools/Pulse_analysis_standalone.py:144: warning: The following parameters of Pulse_analysis_standalone.PulseAnalysis.analyze_data(self, raw_data) are not documented:
-  parameter 'raw_data'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_analyzer.py:83: warning: Member __init__(self, pulsedmeasurementlogic) (function) of class pulse_analyzer::PulseAnalyzer is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_analyzer.py:133: warning: Member analysis_settings(self) (function) of class pulse_analyzer::PulseAnalyzer is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulse_analyzer.py:152: warning: Member analysis_settings(self, settings_dict) (function) of class pulse_analyzer::PulseAnalyzer is not documented.
@@ -5018,63 +5008,66 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:119: warning: Member __init__(self) (function) of class pulsed_maingui::PredefinedMethodsTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:55: warning: Member __init__(self) (function) of class pulsed_maingui::PulseAnalysisTab is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:208: warning: Member __init__(self, config, kwargs) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1124: warning: Member keep_former_predefined_methods_config(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1131: warning: Member apply_predefined_methods_config(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1708: warning: Member editor_generate_block_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1719: warning: Member editor_delete_block_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1725: warning: Member editor_load_block_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1743: warning: Member editor_generate_ensemble_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1760: warning: Member editor_delete_ensemble_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1766: warning: Member editor_load_ensemble_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1950: warning: Member predefined_generated(self, asset_name, is_sequence) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2043: warning: Member editor_generate_sequence_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2060: warning: Member editor_delete_sequence_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2066: warning: Member editor_load_sequence_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2188: warning: Member signal_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2194: warning: Member signal_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2205: warning: Member fit_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2209: warning: Member signal_image_error_bars (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2214: warning: Member signal_image_error_bars2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2221: warning: Member second_plot_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2222: warning: Member second_plot_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2752: warning: Member sig_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2755: warning: Member sig_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2758: warning: Member ref_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2761: warning: Member ref_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2764: warning: Member lasertrace_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2774: warning: Member measuring_error_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2775: warning: Member measuring_error_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2989: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::analysis_settings_updated(self, settings_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2994: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.analysis_settings_updated(self, settings_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1142: warning: Member keep_former_predefined_methods_config(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1149: warning: Member apply_predefined_methods_config(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1726: warning: Member editor_generate_block_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1737: warning: Member editor_delete_block_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1743: warning: Member editor_delete_all_blocks_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1756: warning: Member editor_load_block_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1774: warning: Member editor_generate_ensemble_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1791: warning: Member editor_delete_ensemble_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1797: warning: Member editor_delete_all_ensembles_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1811: warning: Member editor_load_ensemble_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1995: warning: Member predefined_generated(self, asset_name, is_sequence) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2088: warning: Member editor_generate_sequence_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2105: warning: Member editor_delete_sequence_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2111: warning: Member editor_delete_all_sequences_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2125: warning: Member editor_load_sequence_clicked(self) (function) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2247: warning: Member signal_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2253: warning: Member signal_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2264: warning: Member fit_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2268: warning: Member signal_image_error_bars (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2273: warning: Member signal_image_error_bars2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2280: warning: Member second_plot_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2281: warning: Member second_plot_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2811: warning: Member sig_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2814: warning: Member sig_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2817: warning: Member ref_start_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2820: warning: Member ref_end_line (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2823: warning: Member lasertrace_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2833: warning: Member measuring_error_image (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2834: warning: Member measuring_error_image2 (variable) of class pulsed_maingui::PulsedMeasurementGui is not documented.
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:3048: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::analysis_settings_updated(self, settings_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:3053: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.analysis_settings_updated(self, settings_dict) are not documented:
   parameter 'settings_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2845: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::extraction_settings_updated(self, settings_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2850: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated(self, settings_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2904: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::extraction_settings_updated(self, settings_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2909: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.extraction_settings_updated(self, settings_dict) are not documented:
   parameter 'settings_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2494: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::fast_counter_settings_updated(self, settings_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2499: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.fast_counter_settings_updated(self, settings_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2553: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::fast_counter_settings_updated(self, settings_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2558: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.fast_counter_settings_updated(self, settings_dict) are not documented:
   parameter 'settings_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:708: warning: argument 'bool' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_run_stop_clicked(self, isChecked)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:709: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_run_stop_clicked(self, isChecked) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:720: warning: argument 'bool' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_run_stop_clicked(self, isChecked)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:721: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_run_stop_clicked(self, isChecked) are not documented:
   parameter 'isChecked'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2552: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_settings_updated(self, settings_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2557: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_settings_updated(self, settings_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2611: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_settings_updated(self, settings_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2616: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_settings_updated(self, settings_dict) are not documented:
   parameter 'settings_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:835: warning: argument 'float' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:835: warning: argument 'int' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:835: warning: argument 'float' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:837: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:853: warning: argument 'float' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:853: warning: argument 'int' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:853: warning: argument 'float' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:855: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.measurement_timer_updated(self, elapsed_time, elapsed_sweeps, timer_interval) are not documented:
   parameter 'elapsed_time'
   parameter 'elapsed_sweeps'
   parameter 'timer_interval'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2423: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::microwave_settings_updated(self, settings_dict)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2428: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.microwave_settings_updated(self, settings_dict) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2482: warning: argument 'dict' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::microwave_settings_updated(self, settings_dict)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2487: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.microwave_settings_updated(self, settings_dict) are not documented:
   parameter 'settings_dict'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2170: warning: argument 'list' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::sequence_list_updated(self, sequence_list)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2175: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.sequence_list_updated(self, sequence_list) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2229: warning: argument 'list' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::sequence_list_updated(self, sequence_list)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2234: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.sequence_list_updated(self, sequence_list) are not documented:
   parameter 'sequence_list'
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2638: warning: argument 'alternating' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::set_plot_dimensions(self)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1972: warning: argument 'list' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::waveform_list_updated(self, waveform_list)
-/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:1977: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.waveform_list_updated(self, waveform_list) are not documented:
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2697: warning: argument 'alternating' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::set_plot_dimensions(self)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2017: warning: argument 'list' of command @param is not found in the argument list of pulsed_maingui.PulsedMeasurementGui::waveform_list_updated(self, waveform_list)
+/home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:2022: warning: The following parameters of pulsed_maingui.PulsedMeasurementGui.waveform_list_updated(self, waveform_list) are not documented:
   parameter 'waveform_list'
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:42: warning: Member __init__(self) (function) of class pulsed_maingui::PulsedMeasurementMainWindow is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:85: warning: Member __init__(self) (function) of class pulsed_maingui::PulseExtractionTab is not documented.
@@ -5110,17 +5103,17 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:634: warning: Member loaded_asset(self) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:638: warning: Member generate_methods(self) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:642: warning: Member generate_method_params(self) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:661: warning: Member sample_ensemble(self, ensemble_name, with_load=False) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:675: warning: Member sample_ensemble_finished(self, ensemble) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:688: warning: Member sample_sequence(self, sequence_name, with_load=False) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:702: warning: Member sample_sequence_finished(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:714: warning: Member load_ensemble(self, ensemble_name) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:724: warning: Member load_sequence(self, sequence_name) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:837: warning: Member set_pulse_generator_settings(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:856: warning: Member set_generation_parameters(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:888: warning: Member predefined_sequence_generated(self, asset_name, is_sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:902: warning: Member get_ensemble_info(self, ensemble) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:907: warning: Member get_sequence_info(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:667: warning: Member sample_ensemble(self, ensemble_name, with_load=False) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:681: warning: Member sample_ensemble_finished(self, ensemble) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:694: warning: Member sample_sequence(self, sequence_name, with_load=False) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:708: warning: Member sample_sequence_finished(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:720: warning: Member load_ensemble(self, ensemble_name) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:739: warning: Member load_sequence(self, sequence_name) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:908: warning: Member set_pulse_generator_settings(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:927: warning: Member set_generation_parameters(self, settings_dict=None, kwargs) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:959: warning: Member predefined_sequence_generated(self, asset_name, is_sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:973: warning: Member get_ensemble_info(self, ensemble) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:978: warning: Member get_sequence_info(self, sequence) (function) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:127: warning: Member status_dict (variable) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:59: warning: Member pulsedmeasurementlogic (variable) of class pulsed_master_logic::PulsedMasterLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/pulsed_master_logic.py:60: warning: Member sequencegeneratorlogic (variable) of class pulsed_master_logic::PulsedMasterLogic is not documented.
@@ -5735,12 +5728,12 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:618: warning: Member saved_pulse_block_ensembles(self) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:622: warning: Member saved_pulse_sequences(self) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:636: warning: Member set_generation_parameters(self, settings_dict=None, kwargs) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:819: warning: Member delete_ensemble(self, name) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:941: warning: Member delete_sequence(self, name) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1088: warning: Member get_ensemble_info(self, ensemble) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1151: warning: Member get_sequence_info(self, sequence) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1197: warning: Member analyze_block_ensemble(self, ensemble) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1314: warning: Member analyze_sequence(self, sequence) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:820: warning: Member delete_ensemble(self, name) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:943: warning: Member delete_sequence(self, name) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1091: warning: Member get_ensemble_info(self, ensemble) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1154: warning: Member get_sequence_info(self, sequence) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1200: warning: Member analyze_block_ensemble(self, ensemble) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1317: warning: Member analyze_sequence(self, sequence) (function) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:420: warning: Member generation_parameters (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:63: warning: Member pulsegenerator (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:77: warning: Member additional_methods_dir (variable) of class sequence_generator_logic::SequenceGeneratorLogic is not documented.
@@ -5766,26 +5759,26 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:489: warning: argument 'PulseSequence' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::load_sequence(self, sequence)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:495: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.load_sequence(self, sequence) are not documented:
   parameter 'sequence'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1429: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1429: warning: argument 'PulseBlockEnsemble' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1429: warning: argument 'int' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1429: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1430: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1432: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1432: warning: argument 'PulseBlockEnsemble' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1432: warning: argument 'int' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1432: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1433: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_block_ensemble(self, ensemble, offset_bin=0, name_tag=None) are not documented:
   parameter 'ensemble'
   parameter 'offset_bin'
   parameter 'name_tag'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1631: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1631: warning: argument 'PulseSequence' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1632: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_sequence(self, sequence) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1634: warning: argument 'str' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1634: warning: argument 'PulseSequence' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::sample_pulse_sequence(self, sequence)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:1635: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.sample_pulse_sequence(self, sequence) are not documented:
   parameter 'sequence'
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:692: warning: argument 'PulseBlock' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_block(self, block)
 /home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:694: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_block(self, block) are not documented:
   parameter 'block'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:796: warning: argument 'PulseBlockEnsemble' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, ensemble)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:798: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_ensemble(self, ensemble) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:797: warning: argument 'PulseBlockEnsemble' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_ensemble(self, ensemble)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:799: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_ensemble(self, ensemble) are not documented:
   parameter 'ensemble'
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:918: warning: argument 'object' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_sequence(self, sequence)
-/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:920: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_sequence(self, sequence) are not documented:
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:920: warning: argument 'object' of command @param is not found in the argument list of sequence_generator_logic.SequenceGeneratorLogic::save_sequence(self, sequence)
+/home/travis/build/Ulm-IQO/qudi/logic/pulsed/sequence_generator_logic.py:922: warning: The following parameters of sequence_generator_logic.SequenceGeneratorLogic.save_sequence(self, sequence) are not documented:
   parameter 'sequence'
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_acq.py:46: warning: Member rm (variable) of class simple_data_acq::SimpleAcq is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/simple_data_acq.py:48: warning: Member my_instrument (variable) of class simple_data_acq::SimpleAcq is not documented.

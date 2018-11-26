@@ -112,6 +112,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a6cb62c08ac81ddf3a4e7b95f2bbb02da"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a6cb62c08ac81ddf3a4e7b95f2bbb02da">set_trigger</a> (self, trigger_pol, frequency)</td></tr>
 <tr class="memdesc:a6cb62c08ac81ddf3a4e7b95f2bbb02da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set trigger polarity of external microwave trigger (for list and sweep mode).  <a href="#a6cb62c08ac81ddf3a4e7b95f2bbb02da">More...</a><br /></td></tr>
 <tr class="separator:a6cb62c08ac81ddf3a4e7b95f2bbb02da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef197871ce7a8417fdaf030ed2d8b95d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#aef197871ce7a8417fdaf030ed2d8b95d">set_average_length</a> (self, lines_to_average)</td></tr>
+<tr class="memdesc:aef197871ce7a8417fdaf030ed2d8b95d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of lines to average for the sum of the data.  <a href="#aef197871ce7a8417fdaf030ed2d8b95d">More...</a><br /></td></tr>
+<tr class="separator:aef197871ce7a8417fdaf030ed2d8b95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50fcb43f868bf2bfa20939b32d8c86ea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classodmr__logic_1_1ODMRLogic.html#a50fcb43f868bf2bfa20939b32d8c86ea">set_clock_frequency</a> (self, clock_frequency)</td></tr>
 <tr class="memdesc:a50fcb43f868bf2bfa20939b32d8c86ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the frequency of the counter clock.  <a href="#a50fcb43f868bf2bfa20939b32d8c86ea">More...</a><br /></td></tr>
 <tr class="separator:a50fcb43f868bf2bfa20939b32d8c86ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,6 +262,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac9568032d5680d83aa3f984884296e73"><td class="memItemLeft" align="right" valign="top"><a id="ac9568032d5680d83aa3f984884296e73"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>fc</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>('fits', None)</td></tr>
 <tr class="separator:ac9568032d5680d83aa3f984884296e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d780077abf1a0de32353b0a66181793"><td class="memItemLeft" align="right" valign="top"><a id="a2d780077abf1a0de32353b0a66181793"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>lines_to_average</b> = <a class="el" href="classcore_1_1module_1_1StatusVar.html">StatusVar</a>('lines_to_average', 0)</td></tr>
+<tr class="separator:a2d780077abf1a0de32353b0a66181793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf5f447f04ba1911e49288efae6db35e"><td class="memItemLeft" align="right" valign="top"><a id="acf5f447f04ba1911e49288efae6db35e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigNextLine</b> = QtCore.Signal()</td></tr>
 <tr class="separator:acf5f447f04ba1911e49288efae6db35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -637,6 +643,43 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Saves the current ODMR data to a file. </p>
+
+</div>
+</div>
+<a id="aef197871ce7a8417fdaf030ed2d8b95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef197871ce7a8417fdaf030ed2d8b95d">&#9670;&nbsp;</a></span>set_average_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def odmr_logic.ODMRLogic.set_average_length </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>lines_to_average</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the number of lines to average for the sum of the data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>lines_to_average: desired number of lines to average (0 means all)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int: actually set lines to average </dd></dl>
 
 </div>
 </div>

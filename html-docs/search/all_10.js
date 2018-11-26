@@ -53,7 +53,6 @@ var searchData=
   ['pulse_5fgenerator_5fon',['pulse_generator_on',['../classpulsed__measurement__logic_1_1PulsedMeasurementLogic.html#ad7c8e731cbee05de1bcb2070520de356',1,'pulsed_measurement_logic::PulsedMeasurementLogic']]],
   ['pulse_5fgenerator_5fsettings',['pulse_generator_settings',['../classsequence__generator__logic_1_1SequenceGeneratorLogic.html#adfec5e8df74387f3f489275f8dd69f95',1,'sequence_generator_logic::SequenceGeneratorLogic']]],
   ['pulse_5fgenerator_5fsettings_5fupdated',['pulse_generator_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a3cf8b379565a0afac9e9a20159763c51',1,'pulsed_maingui::PulsedMeasurementGui']]],
-  ['pulseanalysis',['PulseAnalysis',['../classPulse__analysis__standalone_1_1PulseAnalysis.html',1,'Pulse_analysis_standalone']]],
   ['pulseanalysistab',['PulseAnalysisTab',['../classpulsed__maingui_1_1PulseAnalysisTab.html',1,'pulsed_maingui']]],
   ['pulseanalyzer',['PulseAnalyzer',['../classpulse__analyzer_1_1PulseAnalyzer.html',1,'pulse_analyzer']]],
   ['pulseanalyzerbase',['PulseAnalyzerBase',['../classpulse__analyzer_1_1PulseAnalyzerBase.html',1,'pulse_analyzer']]],

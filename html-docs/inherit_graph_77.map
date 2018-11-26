@@ -1,5 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classredirect_1_1__RedirectStream.html" title="A base class for a context manager to redirect streams from the sys module. " alt="" coords="6,31,173,57"/>
-<area shape="rect" id="node2" href="$classredirect_1_1RedirectedStdErr.html" title="Context manager for temporarily redirecting stderr to another file. " alt="" coords="223,5,393,32"/>
-<area shape="rect" id="node3" href="$classredirect_1_1RedirectedStdOut.html" title="Context manager for temporarily redirecting stdout to another file. " alt="" coords="221,56,395,83"/>
+<area shape="rect" id="node2" href="$classremotewidget_1_1RemoteWidget.html" title="This widget shows information about shared or imported remote modules. " alt="" coords="129,5,319,32"/>
+<area shape="rect" id="node3" href="$classthreadwidget_1_1ThreadWidget.html" title="threadwidget.ThreadWidget" alt="" coords="133,56,315,83"/>
 </map>

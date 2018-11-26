@@ -24,7 +24,6 @@ var searchData=
   ['processdummy',['ProcessDummy',['../classprocess__dummy_1_1ProcessDummy.html',1,'process_dummy']]],
   ['processinterface',['ProcessInterface',['../classprocess__interface_1_1ProcessInterface.html',1,'process_interface']]],
   ['psutypes',['PSUTypes',['../classlaserquantum__laser_1_1PSUTypes.html',1,'laserquantum_laser']]],
-  ['pulseanalysis',['PulseAnalysis',['../classPulse__analysis__standalone_1_1PulseAnalysis.html',1,'Pulse_analysis_standalone']]],
   ['pulseanalysistab',['PulseAnalysisTab',['../classpulsed__maingui_1_1PulseAnalysisTab.html',1,'pulsed_maingui']]],
   ['pulseanalyzer',['PulseAnalyzer',['../classpulse__analyzer_1_1PulseAnalyzer.html',1,'pulse_analyzer']]],
   ['pulseanalyzerbase',['PulseAnalyzerBase',['../classpulse__analyzer_1_1PulseAnalyzerBase.html',1,'pulse_analyzer']]],

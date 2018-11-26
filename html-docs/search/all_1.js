@@ -49,7 +49,6 @@ var searchData=
   ['analysis_5fsettings_5fchanged',['analysis_settings_changed',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a4f3c41220424023cdb30aa53a61d0655',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['analysis_5fsettings_5fupdated',['analysis_settings_updated',['../classpulsed__maingui_1_1PulsedMeasurementGui.html#a8d5a026f7c42444cdbccfef0b3b05be0',1,'pulsed_maingui::PulsedMeasurementGui']]],
   ['analysissettingdialog',['AnalysisSettingDialog',['../classpulsed__maingui_1_1AnalysisSettingDialog.html',1,'pulsed_maingui']]],
-  ['analyze_5fdata',['analyze_data',['../classPulse__analysis__standalone_1_1PulseAnalysis.html#a3e9d82cf247cf0c82fd76da6aac3a728',1,'Pulse_analysis_standalone::PulseAnalysis']]],
   ['analyze_5fflip_5fprob',['analyze_flip_prob',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a0b80fbd01c4495384bd97d1593522afa',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['analyze_5fflip_5fprob2',['analyze_flip_prob2',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#af8f9a7c3736820dde3127250edf2873a',1,'trace_analysis_logic::TraceAnalysisLogic']]],
   ['analyze_5fflip_5fprob3',['analyze_flip_prob3',['../classtrace__analysis__logic_1_1TraceAnalysisLogic.html#a15c13314b8df65013074da8b5b307c28',1,'trace_analysis_logic::TraceAnalysisLogic']]],
@@ -75,6 +74,7 @@ var searchData=
   ['automationlogic',['AutomationLogic',['../classautomation_1_1AutomationLogic.html',1,'automation.AutomationLogic'],['../classautomationgui_1_1AutomationGui.html#ac5af107787bfadc651ea6a806fe36c81',1,'automationgui.AutomationGui.automationlogic()']]],
   ['automationmainwindow',['AutomationMainWindow',['../classautomationgui_1_1AutomationMainWindow.html',1,'automationgui']]],
   ['autotooltipdelegate',['AutoToolTipDelegate',['../classlogwidget_1_1AutoToolTipDelegate.html',1,'logwidget']]],
+  ['average_5flevel_5fchanged',['average_level_changed',['../classodmrgui_1_1ODMRGui.html#a500f51053752ffc8de383e71b1b1ca87',1,'odmrgui::ODMRGui']]],
   ['awg5002c',['AWG5002C',['../classtektronix__awg5002c_1_1AWG5002C.html',1,'tektronix_awg5002c']]],
   ['awg70k',['AWG70K',['../classtektronix__awg70k_1_1AWG70K.html',1,'tektronix_awg70k']]],
   ['awg7k',['AWG7k',['../classtektronix__awg7k_1_1AWG7k.html',1,'tektronix_awg7k']]]

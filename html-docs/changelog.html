@@ -83,6 +83,8 @@ $(function() {
 <li>Added fitting to the spectrometer</li>
 <li>Microwave interface passes trigger timing to microwave source, needs hardware module adjustments for not-in-tree modules</li>
 <li>Bug fixes and support for SMD12 laser controller</li>
+<li>For SMIQs added config options to additionally limit frequency and power. Added constraint for SMQ06B model.</li>
+<li>Added live OMDR functionality to only calculate the average signal over a limited amount of scanned lines</li>
 <li>New hardware file for Microwave source - Anritsu MG3691C has been added.</li>
 <li>New hardware file for Microwave source - WindFreak Technologies SynthHDPro 54MHz-13GHz source</li>
 <li>New hardware file for AWG - Keysight M3202A 1GS/s 4-channel PXIe AWG</li>
@@ -123,6 +125,7 @@ $(function() {
 <li>Lots of smaller changes to improve programming flexibility and robustness against users</li>
 <li>Added a new ungated extraction method ('ungated_gated_conv_deriv') which uses the keys in the sampling information to convert an ungated timetrace into a gated timetrace which is then anaylzed with the ungated method 'gated_conv_deriv'. The conversion is based on the rising and falling bins in the laser channel which indicate the positions of the laser pulses in the ungated trace. For fine-tuning additional delays (for example from AOMs) can be taken into account. This method speeds up laser extractions from ungated timetraced by a lot.</li>
 <li>Improved pulsed measurement textfile and plot layout for saved data</li>
+<li>Added buttons to delete all saved PulseBlock/PulseBlockEnsemble/PulseSequence objects at once.</li>
 </ul>
 </li>
 </ul>
