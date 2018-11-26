@@ -153,7 +153,7 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/swabian_instruments/pulse_streamer_pb2_grpc.py:54: warning: Compound pulse_streamer_pb2_grpc::PulseStreamerServicer is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2113: warning: Compound uc480_h::UC480_AUTO_INFO is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/camera/thorlabs/uc480_h.py:2094: warning: Compound uc480_h::UC480_AUTO_INFO is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:798: warning: Compound keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:799: warning: Compound keysight_M3202A::M3202ChannelCfg is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:453: warning: Compound pulsed_item_delegates::DigitalStatesItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_item_delegates.py:245: warning: Compound pulsed_item_delegates::ScienDSpinBoxItemDelegate is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/pulsed/pulsed_maingui.py:54: warning: Compound pulsed_maingui::PulseAnalysisTab is not documented.
@@ -2103,13 +2103,13 @@ IndexError: list index out of range
   parameter 'kernelid'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:72: warning: Member on_activate(self) (function) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:180: warning: Member on_deactivate(self) (function) of class keysight_M3202A::M3202A is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:789: warning: Member sync_clock(self) (function) of class keysight_M3202A::M3202A is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:790: warning: Member sync_clock(self) (function) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:73: warning: Member analog_amplitudes (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:74: warning: Member analog_offsets (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:76: warning: Member last_sequence (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:78: warning: Member loaded_waveforms (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:80: warning: Member written_waveforms (variable) of class keysight_M3202A::M3202A is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:82: warning: Member cfg (variable) of class keysight_M3202A::M3202A is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:82: warning: Member chcfg (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:157: warning: Member awg (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:166: warning: Member ser (variable) of class keysight_M3202A::M3202A is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:167: warning: Member model (variable) of class keysight_M3202A::M3202A is not documented.
@@ -2120,11 +2120,11 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/core/module.py:423: warning: Member module_state (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/core/module.py:426: warning: Member connectors (variable) of class core::module::BaseMixin is not documented.
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:60: warning: Member serial (variable) of class keysight_M3202A::M3202A is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:652: warning: argument 'str' of command @param is not found in the argument list of keysight_M3202A.M3202A::delete_sequence(self, sequence_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:652: warning: The following parameters of keysight_M3202A.M3202A.delete_sequence(self, sequence_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:651: warning: argument 'str' of command @param is not found in the argument list of keysight_M3202A.M3202A::delete_sequence(self, sequence_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:651: warning: The following parameters of keysight_M3202A.M3202A.delete_sequence(self, sequence_name) are not documented:
   parameter 'sequence_name'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:642: warning: argument 'str' of command @param is not found in the argument list of keysight_M3202A.M3202A::delete_waveform(self, waveform_name)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:642: warning: The following parameters of keysight_M3202A.M3202A.delete_waveform(self, waveform_name) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:641: warning: argument 'str' of command @param is not found in the argument list of keysight_M3202A.M3202A::delete_waveform(self, waveform_name)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:641: warning: The following parameters of keysight_M3202A.M3202A.delete_waveform(self, waveform_name) are not documented:
   parameter 'waveform_name'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:420: warning: argument 'list' of command @param is not found in the argument list of keysight_M3202A.M3202A::get_active_channels(self, ch=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:420: warning: The following parameters of keysight_M3202A.M3202A.get_active_channels(self, ch=None) are not documented:
@@ -2139,8 +2139,8 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:392: warning: The following parameters of keysight_M3202A.M3202A.get_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:689: warning: argument 'string' of command @param is not found in the argument list of keysight_M3202A.M3202A::query(self, question)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:689: warning: The following parameters of keysight_M3202A.M3202A.query(self, question) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:688: warning: argument 'string' of command @param is not found in the argument list of keysight_M3202A.M3202A::query(self, question)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:688: warning: The following parameters of keysight_M3202A.M3202A.query(self, question) are not documented:
   parameter 'question'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:433: warning: argument 'dict' of command @param is not found in the argument list of keysight_M3202A.M3202A::set_active_channels(self, ch=None)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:433: warning: The following parameters of keysight_M3202A.M3202A.set_active_channels(self, ch=None) are not documented:
@@ -2155,27 +2155,28 @@ IndexError: list index out of range
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:408: warning: The following parameters of keysight_M3202A.M3202A.set_digital_level(self, low=None, high=None) are not documented:
   parameter 'low'
   parameter 'high'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:671: warning: argument 'bool' of command @param is not found in the argument list of keysight_M3202A.M3202A::set_interleave(self, state=False)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:671: warning: The following parameters of keysight_M3202A.M3202A.set_interleave(self, state=False) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:670: warning: argument 'bool' of command @param is not found in the argument list of keysight_M3202A.M3202A::set_interleave(self, state=False)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:670: warning: The following parameters of keysight_M3202A.M3202A.set_interleave(self, state=False) are not documented:
   parameter 'state'
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:333: warning: argument 'float' of command @param is not found in the argument list of keysight_M3202A.M3202A::set_sample_rate(self, sample_rate)
 /home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:333: warning: The following parameters of keysight_M3202A.M3202A.set_sample_rate(self, sample_rate) are not documented:
   parameter 'sample_rate'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:680: warning: argument 'string' of command @param is not found in the argument list of keysight_M3202A.M3202A::write(self, command)
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:680: warning: The following parameters of keysight_M3202A.M3202A.write(self, command) are not documented:
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:679: warning: argument 'string' of command @param is not found in the argument list of keysight_M3202A.M3202A::write(self, command)
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:679: warning: The following parameters of keysight_M3202A.M3202A.write(self, command) are not documented:
   parameter 'command'
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:799: warning: Member __init__(self) (function) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:800: warning: Member enable_trigger (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:801: warning: Member trig_source (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:802: warning: Member trig_behaviour (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:803: warning: Member trig_sync (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:805: warning: Member mark_sync (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:806: warning: Member mark_mode (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:807: warning: Member mark_pxi (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:808: warning: Member mark_io (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:809: warning: Member mark_value (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:810: warning: Member mark_length (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
-/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:811: warning: Member mark_delay (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:800: warning: Member __init__(self) (function) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:801: warning: Member enable_trigger (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:802: warning: Member trig_source (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:803: warning: Member trig_behaviour (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:804: warning: Member trig_sync (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:806: warning: Member mark_sync (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:807: warning: Member mark_mode (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:808: warning: Member mark_pxi (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:809: warning: Member mark_io (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:810: warning: Member mark_value (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:811: warning: Member mark_length (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:812: warning: Member mark_delay (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
+/home/travis/build/Ulm-IQO/qudi/hardware/awg/keysight_M3202A.py:814: warning: Member queue_sync (variable) of class keysight_M3202A::M3202ChannelCfg is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:86: warning: Member __init__(self, config, kwargs) (function) of class laser::LaserGUI is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:118: warning: Member curves (variable) of class laser::LaserGUI is not documented.
 /home/travis/build/Ulm-IQO/qudi/gui/laser/laser.py:133: warning: Member plot1 (variable) of class laser::LaserGUI is not documented.
