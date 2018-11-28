@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>stable Kay Jahnke, Alexander Stark  
+<p>A National Instruments device that can count and control microvave generators.  
  <a href="classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for national_instruments_x_series.NationalInstrumentsXSeries:</div>
@@ -267,10 +267,35 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab6fc14182a8e42fc0804b848f4de3d24 inherit pub_attribs_classcore_1_1module_1_1BaseMixin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>stable Kay Jahnke, Alexander Stark </p>
-<p>A National Instruments device that can count and control microvave generators.</p>
+<div class="textblock"><p>A National Instruments device that can count and control microvave generators. </p>
 <p>!!!!!! NI USB 63XX, NI PCIe 63XX and NI PXIe 63XX DEVICES ONLY !!!!!!</p>
-<p>See <a class="el" href="nidaq-x-series.html">National Instruments X Series Documentation</a> for details. </p>
+<p>See <a class="el" href="nidaq-x-series.html">National Instruments X Series Documentation</a> for details.</p>
+<p>stable Kay Jahnke, Alexander Stark</p>
+<p>Example config for copy-paste:</p>
+<p>nicard_6343: module '<a class="el" href="classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="A National Instruments device that can count and control microvave generators. ">national_instruments_x_series.NationalInstrumentsXSeries</a>' photon_sources:</p><ul>
+<li>'/Dev1/PFI8' <h1>- '/Dev1/PFI9'</h1>
+</li>
+</ul>
+<p>clock_channel '/Dev1/Ctr0' default_clock_frequency 100 # optional, in Hz counter_channels:</p><ul>
+<li>'/Dev1/Ctr1' counter_ai_channels:</li>
+<li>'/Dev1/AI0' default_scanner_clock_frequency 100 # optional, in Hz scanner_clock_channel '/Dev1/Ctr2' pixel_clock_channel '/Dev1/PFI6' scanner_ao_channels:</li>
+<li>'/Dev1/AO0'</li>
+<li>'/Dev1/AO1'</li>
+<li>'/Dev1/AO2'</li>
+<li>'/Dev1/AO3' scanner_ai_channels:</li>
+<li>'/Dev1/AI1' scanner_counter_channels:</li>
+<li>'/Dev1/Ctr3' scanner_voltage_ranges:</li>
+<li>[-10, 10]</li>
+<li>[-10, 10]</li>
+<li>[-10, 10]</li>
+<li>[-10, 10] scanner_position_ranges:</li>
+<li>[0e-6, 200e-6]</li>
+<li>[0e-6, 200e-6]</li>
+<li>[-100e-6, 100e-6]</li>
+<li>[-10, 10]</li>
+</ul>
+<p>odmr_trigger_channel '/Dev1/PFI7'</p>
+<p>gate_in_channel '/Dev1/PFI9' default_samples_number 50 max_counts 3e7 read_write_timeout 10 counting_edge_rising True </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a23f3a3dba49ec446cbaeaae0fbeb7162"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23f3a3dba49ec446cbaeaae0fbeb7162">&#9670;&nbsp;</a></span>close_clock()</h2>

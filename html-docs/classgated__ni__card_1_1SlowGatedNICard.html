@@ -77,7 +77,7 @@ Inheritance diagram for gated_ni_card.SlowGatedNICard:</div>
 <div class="dyncontent">
 <div class="center"><img src="classgated__ni__card_1_1SlowGatedNICard__inherit__graph.png" border="0" usemap="#gated__ni__card_8SlowGatedNICard_inherit__map" alt="Inheritance graph"/></div>
 <map name="gated__ni__card_8SlowGatedNICard_inherit__map" id="gated__ni__card_8SlowGatedNICard_inherit__map">
-<area shape="rect" id="node2" href="classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="234,304,432,360"/>
+<area shape="rect" id="node2" href="classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="A National Instruments device that can count and control microvave generators. " alt="" coords="234,304,432,360"/>
 <area shape="rect" id="node3" href="classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="17,229,143,256"/>
 <area shape="rect" id="node7" href="classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,80,225,107"/>
 <area shape="rect" id="node5" href="classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="62,155,220,181"/>
@@ -88,7 +88,7 @@ Collaboration diagram for gated_ni_card.SlowGatedNICard:</div>
 <div class="dyncontent">
 <div class="center"><img src="classgated__ni__card_1_1SlowGatedNICard__coll__graph.png" border="0" usemap="#gated__ni__card_8SlowGatedNICard_coll__map" alt="Collaboration graph"/></div>
 <map name="gated__ni__card_8SlowGatedNICard_coll__map" id="gated__ni__card_8SlowGatedNICard_coll__map">
-<area shape="rect" id="node2" href="classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="stable Kay Jahnke, Alexander Stark " alt="" coords="234,304,432,360"/>
+<area shape="rect" id="node2" href="classnational__instruments__x__series_1_1NationalInstrumentsXSeries.html" title="A National Instruments device that can count and control microvave generators. " alt="" coords="234,304,432,360"/>
 <area shape="rect" id="node3" href="classcore_1_1module_1_1Base.html" title="core.module.Base" alt="" coords="17,229,143,256"/>
 <area shape="rect" id="node7" href="classcore_1_1module_1_1ModuleMeta.html" title="Metaclass for Qudi modules. " alt="" coords="57,80,225,107"/>
 <area shape="rect" id="node5" href="classcore_1_1module_1_1BaseMixin.html" title="Base class for all loadable modules. " alt="" coords="62,155,220,181"/>
@@ -292,7 +292,32 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Enable the usage of the gated counter in the slow counter interface. </p>
-<p>Overwrite in this new class therefore the appropriate methods. </p>
+<p>Overwrite in this new class therefore the appropriate methods.</p>
+<p>Example config for copy-paste:</p>
+<p>slowgated_ni: module '<a class="el" href="classgated__ni__card_1_1SlowGatedNICard.html" title="Enable the usage of the gated counter in the slow counter interface. ">gated_ni_card.SlowGatedNICard</a>' photon_sources:</p><ul>
+<li>'/Dev1/PFI8' <h1>- '/Dev1/PFI9'</h1>
+</li>
+</ul>
+<p>clock_channel '/Dev1/Ctr0' default_clock_frequency 100 # optional, in Hz counter_channels:</p><ul>
+<li>'/Dev1/Ctr1' counter_ai_channels:</li>
+<li>'/Dev1/AI0' default_scanner_clock_frequency 100 # optional, in Hz scanner_clock_channel '/Dev1/Ctr2' pixel_clock_channel '/Dev1/PFI6' scanner_ao_channels:</li>
+<li>'/Dev1/AO0'</li>
+<li>'/Dev1/AO1'</li>
+<li>'/Dev1/AO2'</li>
+<li>'/Dev1/AO3' scanner_ai_channels:</li>
+<li>'/Dev1/AI1' scanner_counter_channels:</li>
+<li>'/Dev1/Ctr3' scanner_voltage_ranges:</li>
+<li>[-10, 10]</li>
+<li>[-10, 10]</li>
+<li>[-10, 10]</li>
+<li>[-10, 10] scanner_position_ranges:</li>
+<li>[0e-6, 200e-6]</li>
+<li>[0e-6, 200e-6]</li>
+<li>[-100e-6, 100e-6]</li>
+<li>[-10, 10]</li>
+</ul>
+<p>odmr_trigger_channel '/Dev1/PFI7'</p>
+<p>gate_in_channel '/Dev1/PFI9' default_samples_number 50 max_counts 3e7 read_write_timeout 10 counting_edge_rising True </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7016a6d2110826add7c9f8d97f827833"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7016a6d2110826add7c9f8d97f827833">&#9670;&nbsp;</a></span>close_clock()</h2>

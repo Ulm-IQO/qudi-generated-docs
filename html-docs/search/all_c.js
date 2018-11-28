@@ -2,6 +2,7 @@ var searchData=
 [
   ['licensing_20terms',['Licensing terms',['../bsdlicense-ipython.html',1,'']]],
   ['licensing_20terms',['Licensing terms',['../bsdlicense-scipy.html',1,'']]],
+  ['laseraominterfuse',['LaserAomInterfuse',['../classaom__laser__interfuse_1_1LaserAomInterfuse.html',1,'aom_laser_interfuse']]],
   ['lasergui',['LaserGUI',['../classlaser_1_1LaserGUI.html',1,'laser']]],
   ['laserlogic',['LaserLogic',['../classlaser__logic_1_1LaserLogic.html',1,'laser_logic.LaserLogic'],['../classlaser_1_1LaserGUI.html#a8ce7fddb42492f72cdc864f0a78c781b',1,'laser.LaserGUI.laserlogic()']]],
   ['laserquantumlaser',['LaserQuantumLaser',['../classlaserquantum__laser_1_1LaserQuantumLaser.html',1,'laserquantum_laser']]],

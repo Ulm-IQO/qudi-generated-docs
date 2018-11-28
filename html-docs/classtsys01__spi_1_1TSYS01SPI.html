@@ -198,10 +198,10 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a7160719bbc05b0fa11051c96352882fc"><td class="memItemLeft" align="right" valign="top"><a id="a7160719bbc05b0fa11051c96352882fc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>bus</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('bus', 0, missing='warn')</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>bus</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('bus', default=0, missing='warn')</td></tr>
 <tr class="separator:a7160719bbc05b0fa11051c96352882fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c19b2b74f0804a17f357f82464d24db"><td class="memItemLeft" align="right" valign="top"><a id="a3c19b2b74f0804a17f357f82464d24db"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>device</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('device', 0, missing='warn')</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>device</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('device', default=0, missing='warn')</td></tr>
 <tr class="separator:a3c19b2b74f0804a17f357f82464d24db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20a64b8714cc5406d91592db156a5a21"><td class="memItemLeft" align="right" valign="top"><a id="a20a64b8714cc5406d91592db156a5a21"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>READ_ADC</b> = 0x00</td></tr>
@@ -218,6 +218,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>READ_ROM0</b> = 0xA0</
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Measurement Systems TSYS01 temperature sensor. </p>
+<p>Example config for copy-paste:</p>
+<p>temp_tsys: module '<a class="el" href="classtsys01__spi_1_1TSYS01SPI.html" title="Measurement Systems TSYS01 temperature sensor. ">tsys01_spi.TSYS01SPI</a>' bus 0 device 0 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac0d082e49733ed5c71bf23db79ab39a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0d082e49733ed5c71bf23db79ab39a2">&#9670;&nbsp;</a></span>getProcessUnit()</h2>

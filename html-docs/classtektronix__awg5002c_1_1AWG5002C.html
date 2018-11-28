@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Unstable and in construction, Alex Stark.  
+<p>A hardware module for the Tektronix AWG5000 series for generating waveforms and sequences thereof.  
  <a href="classtektronix__awg5002c_1_1AWG5002C.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for tektronix_awg5002c.AWG5002C:</div>
@@ -256,9 +256,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab244f963be4d8d4024f1667ae9e26b5e"><td class="memItemLeft" align="right" valign="top"><a id="ab244f963be4d8d4024f1667ae9e26b5e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>asset_directory</b></td></tr>
 <tr class="separator:ab244f963be4d8d4024f1667ae9e26b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adefa01b6c558e5abdcb13f9c008eafe1"><td class="memItemLeft" align="right" valign="top"><a id="adefa01b6c558e5abdcb13f9c008eafe1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>pulsed_file_dir</b></td></tr>
-<tr class="separator:adefa01b6c558e5abdcb13f9c008eafe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4af15352002121ab75ea64a900b9bd0f"><td class="memItemLeft" align="right" valign="top"><a id="a4af15352002121ab75ea64a900b9bd0f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>host_waveform_directory</b></td></tr>
 <tr class="separator:a4af15352002121ab75ea64a900b9bd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,7 +276,7 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a93cb666c430738373ceab90ca112b535"><td class="memItemLeft" align="right" valign="top"><a id="a93cb666c430738373ceab90ca112b535"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ip_address</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('awg_IP_address', missing='error')</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ip_address</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('awg_ip_address', missing='error')</td></tr>
 <tr class="separator:a93cb666c430738373ceab90ca112b535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d34ef6dc2a9ece14860f7d75ed4a01"><td class="memItemLeft" align="right" valign="top"><a id="a64d34ef6dc2a9ece14860f7d75ed4a01"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>port</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('awg_port', missing='error')</td></tr>
@@ -293,9 +290,19 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a74425253c53bcb96fc4bd13931619af8"><td class="memItemLeft" align="right" valign="top"><a id="a74425253c53bcb96fc4bd13931619af8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>passwd</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('ftp_passwd', 'anonymous@', missing='warn')</td></tr>
 <tr class="separator:a74425253c53bcb96fc4bd13931619af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c602a4220acc0af60fc540381977d78"><td class="memItemLeft" align="right" valign="top"><a id="a8c602a4220acc0af60fc540381977d78"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>default_sample_rate</b> = <a class="el" href="classcore_1_1module_1_1ConfigOption.html">ConfigOption</a>('default_sample_rate', missing='warn')</td></tr>
+<tr class="separator:a8c602a4220acc0af60fc540381977d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Unstable and in construction, Alex Stark. </p>
+<div class="textblock"><p>A hardware module for the Tektronix AWG5000 series for generating waveforms and sequences thereof. </p>
+<p>Unstable and in construction, Alexander Stark</p>
+<p>Example config for copy-paste:</p>
+<p>pulser_awg5000: module 'awg.tektronix_awg5002c.AWG5002C' awg_ip_address '10.42.0.211' awg_port 3000 # the port number as integer timeout 20 </p><h1>tmp_work_dir: 'C:\Software\qudi_pulsed_files' # optional</h1>
+<h1>ftp_root_dir: 'C:\inetpub\ftproot' # optional, root directory on AWG device</h1>
+<h1>ftp_login: 'anonymous' # optional, the username for ftp login</h1>
+<h1>ftp_passwd: 'anonymous@' # optional, the password for ftp login</h1>
+<h1>default_sample_rate: 600.0e6 # optional, the default sampling rate</h1>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac07842bd1095f46311efebdb0b7a7333"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac07842bd1095f46311efebdb0b7a7333">&#9670;&nbsp;</a></span>ask()</h2>

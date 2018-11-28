@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['laseraominterfuse',['LaserAomInterfuse',['../classaom__laser__interfuse_1_1LaserAomInterfuse.html',1,'aom_laser_interfuse']]],
   ['lasergui',['LaserGUI',['../classlaser_1_1LaserGUI.html',1,'laser']]],
   ['laserlogic',['LaserLogic',['../classlaser__logic_1_1LaserLogic.html',1,'laser_logic']]],
   ['laserquantumlaser',['LaserQuantumLaser',['../classlaserquantum__laser_1_1LaserQuantumLaser.html',1,'laserquantum_laser']]],

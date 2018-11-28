@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>This is the Interface class to define the controls for the simple microwave hardware.  
+<p>Hardware control file for Agilent Devices.  
  <a href="classmw__source__agilent_1_1MicrowaveAgilent.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for mw_source_agilent.MicrowaveAgilent:</div>
@@ -223,8 +223,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>actual_power</b> = sel
 <tr class="separator:a2ded6480ed5cbb977fde4f4422df65b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is the Interface class to define the controls for the simple microwave hardware. </p>
-<p>The hardware file was tested using the model N9310A. </p>
+<div class="textblock"><p>Hardware control file for Agilent Devices. </p>
+<p>The hardware file was tested using the model N9310A.</p>
+<p>Example config for copy-paste:</p>
+<p>mw_source_agilent: module 'microwave.mw_source_agilent.MicrowaveAgilent' usb_address USB0::10::INSTR usb_timeout 100 # in seconds </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a918ccd4c89baf85ac128e45f3fc2130b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a918ccd4c89baf85ac128e45f3fc2130b">&#9670;&nbsp;</a></span>cw_on()</h2>

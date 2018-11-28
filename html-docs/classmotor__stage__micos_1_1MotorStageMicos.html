@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>unstable Jochen Scheuer.  
+<p>Hardware class to define the controls for the Micos stage of PI.  
  <a href="classmotor__stage__micos_1_1MotorStageMicos.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for motor_stage_micos.MotorStageMicos:</div>
@@ -197,8 +197,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>unit_factor</b> = 1000
 <tr class="separator:a764f72d4ab948b7729b718e68d5a2299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>unstable Jochen Scheuer. </p>
-<p>Hardware class to define the controls for the Micos stage of PI. </p>
+<div class="textblock"><p>Hardware class to define the controls for the Micos stage of PI. </p>
+<p>unstable Jochen Scheuer.</p>
+<p>Example config for copy-paste:</p>
+<p>motorstage_micos: module 'motor.motor_stage_micos.MotorStageMicos' com_port_xy 'COM4' baud_rate_xy 57600 timeout_xy 1000 term_char_xy '<br />
+' com_port_zphi 'COM2' baud_rate_zphi 57600 timeout_zphi 1000 term_char_zphi '<br />
+'</p>
+<p>first_axis_label 'x' second_axis_label 'y' third_axis_label 'z' fourth_axis_label 'phi' first_axis_ID '0' second_axis_ID '1' third_axis_ID '0' fourth_axis_ID '1'</p>
+<p>first_min -0.1 # in m first_max 0.1 # in m second_min -0.1 # in m second_max 0.1 # in m third_min -0.1 # in m third_max 0.1 # in m fourth_min -0.1 # in m fourth_max 0.1 # in m</p>
+<p>first_axis_step 1e-7 # in m second_axis_step 1e-7 # in m third_axis_step 1e-7 # in m fourth_axis_step 1e-7 # in m</p>
+<p>vel_first_min 1e-5 # in m/s vel_first_max 5e-2 # in m/s vel_second_min 1e-5 # in m/s vel_second_max 5e-2 # in m/s vel_third_min 1e-5 # in m/s vel_third_max 5e-2 # in m/s vel_fourth_min 1e-5 # in m/s vel_fourth_max 5e-2 # in m/s</p>
+<p>vel_first_axis_step 1e-5 # in m/s vel_second_axis_step 1e-5 # in m/s vel_third_axis_step 1e-5 # in m/s vel_fourth_axis_step 1e-5 # in m/s </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5c20411857c3bac66d32db0a570631bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c20411857c3bac66d32db0a570631bc">&#9670;&nbsp;</a></span>abort()</h2>

@@ -197,7 +197,9 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>unstable Nikolas Tomek This is the hardware class for the Spartan-6 (Opal Kelly XEM6310) FPGA based fast counter. </p>
 <p>The command reference for the communicating via the OpalKelly Frontend can be looked up here: </p><pre class="fragment">https://library.opalkelly.com/library/FrontPanelAPI/index.html
-</pre><p>The Frontpanel is basically a C++ interface, where a wrapper was used (SWIG) to access the dll library. Be aware that the wrapper is specified for a specific version of python (here python 3.4), and it is not guaranteed to be working with other versions. </p>
+</pre><p>The Frontpanel is basically a C++ interface, where a wrapper was used (SWIG) to access the dll library. Be aware that the wrapper is specified for a specific version of python (here python 3.4), and it is not guaranteed to be working with other versions.</p>
+<p>Example config for copy-paste:</p>
+<p>fpga_qo: module 'fpga_fastcounter.fast_counter_fpga_qo.FastCounterFPGAQO' fpgacounter_serial '143400058N' fpga_type 'XEM6310_LX150' #threshV_ch1: 0.5 # optional, threshold voltage for detection #threshV_ch2: 0.5 # optional, threshold voltage for detection #threshV_ch3: 0.5 # optional, threshold voltage for detection #threshV_ch4: 0.5 # optional, threshold voltage for detection #threshV_ch5: 0.5 # optional, threshold voltage for detection #threshV_ch6: 0.5 # optional, threshold voltage for detection #threshV_ch7: 0.5 # optional, threshold voltage for detection #threshV_ch8: 0.5 # optional, threshold voltage for detection </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a287e1e1952c520ccacf787ea61e7b616"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a287e1e1952c520ccacf787ea61e7b616">&#9670;&nbsp;</a></span>configure()</h2>

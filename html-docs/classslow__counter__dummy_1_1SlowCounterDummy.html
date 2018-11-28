@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>This is the Interface class to define the controls for the simple microwave hardware.  
+<p>Dummy hardware class to emulate a slow counter with various distributions.  
  <a href="classslow__counter__dummy_1_1SlowCounterDummy.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for slow_counter_dummy.SlowCounterDummy:</div>
@@ -211,7 +211,10 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:ab41545256a3422af4a9b710186313254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is the Interface class to define the controls for the simple microwave hardware. </p>
+<div class="textblock"><p>Dummy hardware class to emulate a slow counter with various distributions. </p>
+<p>Example config for copy-paste:</p>
+<p>slow_counter_dummy: module '<a class="el" href="classslow__counter__dummy_1_1SlowCounterDummy.html" title="Dummy hardware class to emulate a slow counter with various distributions. ">slow_counter_dummy.SlowCounterDummy</a>' clock_frequency 100 # in Hz samples_number 10 source_channels 2 count_distribution 'dark_bright_gaussian' # other options are: </p><h1>'uniform, 'exponential', 'single_poisson', 'dark_bright_poisson'</h1>
+<h1>and 'single_gaussian'.</h1>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a80a65760302051019994cb661696ab43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80a65760302051019994cb661696ab43">&#9670;&nbsp;</a></span>close_clock()</h2>

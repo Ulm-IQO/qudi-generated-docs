@@ -302,7 +302,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classmagnet_1_1Magnet.html" title="Magnet positioning software for superconducting magnet. ">Magnet</a> positioning software for superconducting magnet. </p>
-<p>Enables precise positioning of the magnetic field in spherical coordinates with the angle theta, phi and the radius rho. The superconducting magnet has three coils, one in x, y and z direction respectively. The current through these coils is used to compute theta, phi and rho. The alignment can be done manually as well as automatically via fluorescence alignment. </p>
+<p>Enables precise positioning of the magnetic field in spherical coordinates with the angle theta, phi and the radius rho. The superconducting magnet has three coils, one in x, y and z direction respectively. The current through these coils is used to compute theta, phi and rho. The alignment can be done manually as well as automatically via fluorescence alignment.</p>
+<p>Example config for copy-paste:</p>
+<p>sc_magnet: module 'sc_magnet.magnet.Magnet' magnet_port 3000 magnet_IP_address_x 192.168.0.12 magnet_IP_address_y 192.168.0.13 magnet_IP_address_z 192.168.0.14 magnet_waitingtime 0.01 # in seconds magnet_x_constr 1.0 magnet_y_constr 2.0 magnet_z_constr 3.0 magnet_rho_constr 1.2 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3aa1a107b0188866d36e85a401665f44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3aa1a107b0188866d36e85a401665f44">&#9670;&nbsp;</a></span>abort()</h2>
