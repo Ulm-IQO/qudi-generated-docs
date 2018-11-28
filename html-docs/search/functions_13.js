@@ -222,7 +222,7 @@ var searchData=
   ['setsinglestep',['setSingleStep',['../classqtwidgets_1_1scientific__spinbox_1_1ScienDSpinBox.html#ab5a73d9451d79dd8af60e17aae6dc127',1,'qtwidgets.scientific_spinbox.ScienDSpinBox.setSingleStep()'],['../classqtwidgets_1_1scientific__spinbox_1_1ScienSpinBox.html#a73696423cf2026b359308a04e26489c0',1,'qtwidgets.scientific_spinbox.ScienSpinBox.setSingleStep()']]],
   ['setsize',['setSize',['../classconfocalgui_1_1CrossROI.html#a3681c97533856e2d2e96c876208d520c',1,'confocalgui.CrossROI.setSize()'],['../classmagnet__gui_1_1CrossROI.html#a778c70ba405f2bc3050c50c0cba349ed',1,'magnet_gui.CrossROI.setSize()']]],
   ['setstatusvariables',['setStatusVariables',['../classcore_1_1module_1_1BaseMixin.html#a930ce24451be8938e1fe8521329b9265',1,'core::module::BaseMixin']]],
-  ['setstylesheet',['setStylesheet',['../classlogwidget_1_1LogWidget.html#a95eab79248a101fc4e202be5da9e3519',1,'logwidget.LogWidget.setStylesheet()'],['../classcore_1_1gui_1_1Gui.html#a60c5122b322a48613849bb58c60a6f99',1,'core.gui.Gui.setStyleSheet()']]],
+  ['setstylesheet',['setStyleSheet',['../classcore_1_1gui_1_1Gui.html#a60c5122b322a48613849bb58c60a6f99',1,'core.gui.Gui.setStyleSheet()'],['../classlogwidget_1_1LogWidget.html#a95eab79248a101fc4e202be5da9e3519',1,'logwidget.LogWidget.setStylesheet()']]],
   ['settheme',['setTheme',['../classcore_1_1gui_1_1Gui.html#acf874bbd1daf0a750907e4707818da47',1,'core::gui::Gui']]],
   ['settingchangedcallback',['settingChangedCallback',['../classlightfield__spectrometer_1_1Lightfield.html#a9b2b1ebc163c4a154d2b0ed8c1f5cc0e',1,'lightfield_spectrometer::Lightfield']]],
   ['setupparentpoller',['setupParentPoller',['../classcore_1_1____main_____1_1AppWatchdog.html#a5f6c3b01bbbd485ee6ce1f72e42e9e1e',1,'core::__main__::AppWatchdog']]],

@@ -292,8 +292,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__maingui_1_1PulsedMeasurementGui.html#acd04e79b440ce10840fa99680b02ca54">fit_clicked</a> (self)</td></tr>
 <tr class="memdesc:acd04e79b440ce10840fa99680b02ca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fits the current data. <br /></td></tr>
 <tr class="separator:acd04e79b440ce10840fa99680b02ca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a701620adcf867983d3b1e25751a769"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__maingui_1_1PulsedMeasurementGui.html#a2a701620adcf867983d3b1e25751a769">fit_data_updated</a> (self, fit_method, fit_data, result)</td></tr>
-<tr class="separator:a2a701620adcf867983d3b1e25751a769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0f15457c111bc8640e036afc7a4e95"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__maingui_1_1PulsedMeasurementGui.html#a3a0f15457c111bc8640e036afc7a4e95">fit_data_updated</a> (self, fit_method, fit_data, result, use_alternative_data)</td></tr>
+<tr class="separator:a3a0f15457c111bc8640e036afc7a4e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92dd8285703b1dabe15a7d1954604d65"><td class="memItemLeft" align="right" valign="top"><a id="a92dd8285703b1dabe15a7d1954604d65"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__maingui_1_1PulsedMeasurementGui.html#a92dd8285703b1dabe15a7d1954604d65">microwave_settings_changed</a> (self)</td></tr>
 <tr class="memdesc:a92dd8285703b1dabe15a7d1954604d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows or hides input widgets which are necessary if an external mw is turned on. <br /></td></tr>
@@ -360,6 +360,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a144edc2d665fcd1592c4947c66f32b40"><td class="memItemLeft" align="right" valign="top"><a id="a144edc2d665fcd1592c4947c66f32b40"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>second_plot_image2</b></td></tr>
 <tr class="separator:a144edc2d665fcd1592c4947c66f32b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e47df1a259ad4a080e613e69f4fe54"><td class="memItemLeft" align="right" valign="top"><a id="ab5e47df1a259ad4a080e613e69f4fe54"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>second_fit_image</b></td></tr>
+<tr class="separator:ab5e47df1a259ad4a080e613e69f4fe54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3587da5ff64f127681da8bf279e33260"><td class="memItemLeft" align="right" valign="top"><a id="a3587da5ff64f127681da8bf279e33260"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sig_start_line</b></td></tr>
 <tr class="separator:a3587da5ff64f127681da8bf279e33260"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -649,8 +652,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2a701620adcf867983d3b1e25751a769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a701620adcf867983d3b1e25751a769">&#9670;&nbsp;</a></span>fit_data_updated()</h2>
+<a id="a3a0f15457c111bc8640e036afc7a4e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a0f15457c111bc8640e036afc7a4e95">&#9670;&nbsp;</a></span>fit_data_updated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +680,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>result</em>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>use_alternative_data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -688,9 +697,10 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fit_method</td><td></td></tr>
-    <tr><td class="paramname">fit_data</td><td></td></tr>
-    <tr><td class="paramname">result</td><td></td></tr>
+    <tr><td class="paramname">str</td><td>fit_method: </td></tr>
+    <tr><td class="paramname">numpy.ndarray</td><td>fit_data: </td></tr>
+    <tr><td class="paramname">object</td><td>result: </td></tr>
+    <tr><td class="paramname">bool</td><td>use_alternative_data: </td></tr>
   </table>
   </dd>
 </dl>

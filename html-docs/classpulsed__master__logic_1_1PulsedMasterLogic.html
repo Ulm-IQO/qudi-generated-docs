@@ -184,10 +184,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>manually_pull_data</b>
 <tr class="separator:a0a6986ce019d3964f93ff44317a704b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc054d0c040c339612265ee91c5032a3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#afc054d0c040c339612265ee91c5032a3">measurement_status_updated</a> (self, is_running, is_paused)</td></tr>
 <tr class="separator:afc054d0c040c339612265ee91c5032a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd19a511036286a6b2693d3286c4637"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#aafd19a511036286a6b2693d3286c4637">do_fit</a> (self, fit_function)</td></tr>
-<tr class="separator:aafd19a511036286a6b2693d3286c4637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65c81f1680b17d9e4a92c9af4032dff2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a65c81f1680b17d9e4a92c9af4032dff2">fit_updated</a> (self, fit_name, fit_data, fit_result)</td></tr>
-<tr class="separator:a65c81f1680b17d9e4a92c9af4032dff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1f226b58833c0dc3f37f4e285a5d24"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#a3c1f226b58833c0dc3f37f4e285a5d24">do_fit</a> (self, fit_function, use_alternative_data=False)</td></tr>
+<tr class="separator:a3c1f226b58833c0dc3f37f4e285a5d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7bfd7e85e9eda1bb242fc22dfd4c0d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpulsed__master__logic_1_1PulsedMasterLogic.html#afb7bfd7e85e9eda1bb242fc22dfd4c0d">fit_updated</a> (self, fit_name, fit_data, fit_result, use_alternative_data)</td></tr>
+<tr class="separator:afb7bfd7e85e9eda1bb242fc22dfd4c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3408c9f0f9099f42d88efea5bb062a5"><td class="memItemLeft" align="right" valign="top"><a id="aa3408c9f0f9099f42d88efea5bb062a5"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>save_measurement_data</b> (self, tag, with_error)</td></tr>
 <tr class="separator:aa3408c9f0f9099f42d88efea5bb062a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,7 +312,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sequencegeneratorlogic</b> = <a class="el" href="classcore_1_1module_1_1Connector.html">Connector</a>(interface='SequenceGeneratorLogic')</td></tr>
 <tr class="separator:a560825960507bc787b0bf5705c4aa4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba1a6a3857ca653bcce9625e1546c04e"><td class="memItemLeft" align="right" valign="top"><a id="aba1a6a3857ca653bcce9625e1546c04e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigDoFit</b> = QtCore.Signal(str)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigDoFit</b> = QtCore.Signal(str, bool)</td></tr>
 <tr class="separator:aba1a6a3857ca653bcce9625e1546c04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71194095b56f66f947984969c855510f"><td class="memItemLeft" align="right" valign="top"><a id="a71194095b56f66f947984969c855510f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigToggleMeasurement</b> = QtCore.Signal(bool, str)</td></tr>
@@ -357,7 +357,7 @@ Static Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigTimerUpdated</b> = QtCore.Signal(float, int, float)</td></tr>
 <tr class="separator:aee98154e32921c63741975b7a77949ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6f5127692e9cdb9bfd8e28bc8c9b71d"><td class="memItemLeft" align="right" valign="top"><a id="ae6f5127692e9cdb9bfd8e28bc8c9b71d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sigFitUpdated</b> = QtCore.Signal(str, np.ndarray, object)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>sigFitUpdated</b> = QtCore.Signal(str, np.ndarray, object, bool)</td></tr>
 <tr class="separator:ae6f5127692e9cdb9bfd8e28bc8c9b71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1130556281667645a65a18482d46fbe"><td class="memItemLeft" align="right" valign="top"><a id="aa1130556281667645a65a18482d46fbe"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>sigMeasurementStatusUpdated</b> = QtCore.Signal(bool, bool)</td></tr>
@@ -612,8 +612,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aafd19a511036286a6b2693d3286c4637"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafd19a511036286a6b2693d3286c4637">&#9670;&nbsp;</a></span>do_fit()</h2>
+<a id="a3c1f226b58833c0dc3f37f4e285a5d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1f226b58833c0dc3f37f4e285a5d24">&#9670;&nbsp;</a></span>do_fit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -628,7 +628,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>fit_function</em>&#160;</td>
+          <td class="paramname"><em>fit_function</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>use_alternative_data</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -639,7 +645,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fit_function</td><td></td></tr>
+    <tr><td class="paramname">str</td><td>fit_function: </td></tr>
+    <tr><td class="paramname">bool</td><td>use_alternative_data: </td></tr>
   </table>
   </dd>
 </dl>
@@ -680,8 +687,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a65c81f1680b17d9e4a92c9af4032dff2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65c81f1680b17d9e4a92c9af4032dff2">&#9670;&nbsp;</a></span>fit_updated()</h2>
+<a id="afb7bfd7e85e9eda1bb242fc22dfd4c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7bfd7e85e9eda1bb242fc22dfd4c0d">&#9670;&nbsp;</a></span>fit_updated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -708,7 +715,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>fit_result</em>&#160;</td>
+          <td class="paramname"><em>fit_result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>use_alternative_data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
